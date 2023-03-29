@@ -1,0 +1,39 @@
+/*
+This gradle build file is for uploading a domain model artifact to maven.
+The artifact file location is supplied as a project property using `-PdomainModelArtifact`
+
+Maven credentials can be supplied in two ways:
+1. as project properties on the gradle command line with `-PmavenUser=XXXXX -PmavenPass=XXXXX`
+2. as environment variables with `MAVEN_USER=XXXXX` and `MAVEN_PASS=XXXXX`
+
+Usage: gradle publish -PmavenUser=${MAVEN_USER} -PmavenPass=${MAVEN_PASS} -PdomainModelArtifact=file.zip -PprojectVersion=1.2.3
+*/
+
+plugins {
+    id 'maven-publish'
+}
+
+project.group = projectGroup
+project.version = projectVersion
+
+println("Publishing " + project.version + " to " + mavenUrl)
+
+def mavenUsername = System.getenv('MAVEN_USER') ?: mavenUser
+def mavenPassword = System.getenv('MAVEN_PASS') ?: mavenPass
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            artifact domainModelArtifact
+        }
+    }
+    repositories {
+        maven {
+            url = mavenUrl
+            credentials {
+                username = mavenUsername
+                password = mavenPassword
+            }
+        }
+    }
+}
