@@ -19,16 +19,9 @@ Domain models were originally expressed in OWL/RDF, but human readability became
 
 Today, the source format comprises a set of CSV files, each of which corresponds to a table when loaded into an editor. Simple changes can be made directly in the CSV files, making it easy to fix typos and simply logical consistency issues.
 
-## Build and Deploy
+## Build and Package
 
-When a commit is made to the domain model a CI pipeline is executed which builds the domain model artifact (including icons and icon-mapping file) and uploads the zip file to the Nexus repository. This is done using the `csv2nq` project.
-
-The automated build depends on two configuration variables:
-
-- `.gitlab-ci.yml` defines e.g. `ARTIFACT = "DomainModel-Network"` (used to create the artifact names)
-- `gradle.properties` defines e.g. `projectVersion = 8.4.0` (used to create the artifact versions)
-
-In addition, a manual step is made available in the build pipeline to build the domain model documentation and upload that to Nexus as a zip file. This step uses the `csv2doc` project.
+A GitHub Action is executed when a release is made or when manually triggered. It converts from the source CSV files into an NQ serialisation using csv2nq and bundles this with the icon files and icon-mapping file to create an artifact that can be used in the system-modeller. The package is stored in the Maven repository of GitHub Packages.
 
 ## Model contents and coverage
 
