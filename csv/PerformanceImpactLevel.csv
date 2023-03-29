@@ -1,0 +1,7 @@
+levelValue,URI,package,label,comment
+0,domain#000000,domain#000000,Very Low,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
+0,domain#PerformanceImpactVeryLow,package#Core,Very Low,The performance of processes using the asset is not affected if this control is used.
+1,domain#PerformanceImpactLow,package#Core,Low,The performance of processes using the asset is slightly degraded if this control is used.
+2,domain#PerformanceImpactMedium,package#Core,Medium,The performance of processes using the asset is somewhat degraded if this control is used.
+3,domain#PerformanceImpactHigh,package#Core,High,The performance of processes using the asset is substantially degraded if this control is used.
+4,domain#PerformanceImpactVeryHigh,package#Core,Very High,The performance of processes using the asset is crippled if this control is used.
