@@ -19,7 +19,7 @@ Domain models were originally expressed in OWL/RDF, but human readability became
 
 Today, the source format comprises a set of CSV files, each of which corresponds to a table when loaded into an editor. Simple changes can be made directly in the CSV files, making it easy to fix typos and simply logical consistency issues.
 
-## Build and Package
+## Build and package
 
 A GitHub Action is executed when a release is made or when manually triggered. It converts from the source CSV files into an NQ serialisation using csv2nq and bundles this with the icon files and icon-mapping file to create an artifact that can be used in the system-modeller. The package is stored in the Maven repository of GitHub Packages.
 
