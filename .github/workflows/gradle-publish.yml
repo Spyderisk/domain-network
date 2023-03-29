@@ -54,7 +54,7 @@ jobs:
         python3 csv2nq/csv2nq.py -e -i csv -o output/domain.nq -m output/icon-mapping.json -v ${VERSION}
         # make a second copy of the NQ file using the name of the repository (currently needed to load on system-modeller boot)
         cp output/domain.nq output/$(echo ${GITHUB_REPOSITORY} | sed 's/^.*\///').nq
-        cp -a images output/icons
+        cp -a icons output/icons
         cd output
         zip -qr domain-model.zip *
 
