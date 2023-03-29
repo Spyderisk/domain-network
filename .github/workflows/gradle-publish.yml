@@ -51,7 +51,7 @@ jobs:
         cd ${GITHUB_WORKSPACE}
         mkdir output
         # the "domain.nq" filename is looked for when uploading a new domain model through the system-modeller web UI
-        python3 csv2nq/csv2nq.py -i csv -o output/domain.nq -m output/icon-mapping.json -v ${VERSION}
+        python3 csv2nq/csv2nq.py -e -i csv -o output/domain.nq -m output/icon-mapping.json -v ${VERSION}
         # make a second copy of the NQ file using the name of the repository (currently needed to load on system-modeller boot)
         cp output/domain.nq output/$(echo ${GITHUB_REPOSITORY} | sed 's/^.*\///').nq
         cp -a images output/icons
