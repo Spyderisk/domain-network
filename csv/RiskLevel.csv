@@ -1,7 +1,0 @@
-levelValue,URI,package,label,comment
-0,domain#000000,domain#000000,Very Low,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
-0,domain#RiskLevelVeryLow,package#Core,Very Low,"Can be tolerated indefinitely, no action required as the risk can be accepted."
-1,domain#RiskLevelLow,package#Core,Low,"Can be tolerated for a longer time, until addressed by routine measures."
-2,domain#RiskLevelMedium,package#Core,Medium,Can be tolerated for a short time while measures are found that minimise loss of system functionality.
-3,domain#RiskLevelHigh,package#Core,High,"Control measures should be introduced immediately, by shutting down parts of the system if necessary."
-4,domain#RiskLevelVeryHigh,package#Core,Very High,"Cannot be tolerated, even if avoidance involves shutting down the whole system."

@@ -1,7 +1,0 @@
-levelValue,URI,package,label,comment
-0,domain#000000,domain#000000,Very Low,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
-0,domain#CostVeryLow,package#Core,Very Low,It costs nothing per asset treated to apply this control.
-1,domain#CostLow,package#Core,Low,It costs cents per asset treated to apply this control.
-2,domain#CostMedium,package#Core,Medium,It costs a few Euro per asset treated to apply this control.
-3,domain#CostHigh,package#Core,High,It costs a few hundred Euro per asset treated to apply this control.
-4,domain#CostVeryHigh,package#Core,Very High,It costs thousands of Euro per asset treated to apply this control.
