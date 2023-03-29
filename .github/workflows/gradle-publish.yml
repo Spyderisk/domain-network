@@ -1,17 +1,15 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# This workflow will build a package using Gradle and then publish it to GitHub packages when a release is created
-# For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#Publishing-using-gradle
+# This workflow will build a package using Gradle and then publish it to GitHub packages when a release is created 
+# or when the workflow is run maually.
+# If a release is made, then the version of the package (also embedded in the NQ file) is set to the release tag.
+# If the workflow is run manually then the version used is the branch name plus the ISO datetime string.
 
-name: Gradle Package
+name: Gradle Package Domain Model
 
 on:
   release:
     types: [created]
   workflow_dispatch:
-
+  
 jobs:
   build:
 
@@ -19,7 +17,7 @@ jobs:
     permissions:
       contents: read
       packages: write
-
+  
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
@@ -37,17 +35,30 @@ jobs:
         ref: main
         path: ./csv2nq
 
+    - name: Set version
+      run: |
+        if [ ${GITHUB_EVENT_NAME} = 'workflow_dispatch' ]; then
+          echo "VERSION=${GITHUB_REF_NAME}-$(date +'%Y-%m-%dT%H:%M')" >> ${GITHUB_ENV}
+        else
+          # remove "v" from the release tag
+          echo "VERSION=${GITHUB_REF_NAME}" | sed 's/v//' >> ${GITHUB_ENV}
+        fi
+        echo "Environment is:"
+        cat ${GITHUB_ENV}
+  
     - name: Run csv2nq
       run: |
-        mkdir ${GITHUB_WORKSPACE}/output
-        python3 ${GITHUB_WORKSPACE}/csv2nq/csv2nq.py -i ${GITHUB_WORKSPACE}/csv -o ${GITHUB_WORKSPACE}/output/domain.nq -m ${GITHUB_WORKSPACE}/output/icon-mapping.json -v ${GITHUB_REF_NAME}
-        cp -a ${GITHUB_WORKSPACE}/images ${GITHUB_WORKSPACE}/output/icons
-        cd ${GITHUB_WORKSPACE}/output
+        cd ${GITHUB_WORKSPACE}
+        mkdir output
+        python3 csv2nq/csv2nq.py -i csv -o output/domain.nq -m output/icon-mapping.json -v ${VERSION}
+        cp -a images output/icons
+        cd output
         zip -qr domain-model.zip *
+
     - name: Publish to GitHub Packages
       uses: gradle/gradle-build-action@v2.4.0
       with:
-        arguments: publish -PdomainModelArtifact=${{ github.workspace }}/output/domain-model.zip -PprojectVersion=${{ github.ref_name }}
+        arguments: publish -PdomainModelArtifact=${{ github.workspace }}/output/domain-model.zip -PprojectVersion=${{ env.VERSION }}
         gradle-version: 6.3
       env:
         MAVEN_USER: ${{ github.actor }}
