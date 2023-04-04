@@ -100,7 +100,6 @@ package#DataLifecycle,domain#RemoteUserAccess,domain#DataAccess
 package#DataLifecycle,domain#StoredDataPool,domain#DataAccess
 package#DataLifecycle,domain#StoredDataPool,domain#DataDestination
 package#DataLifecycle,domain#StoredDataPool,domain#DataPool
-package#DataLifecycle,domain#Thing,domain#DataContainer
 package#DataLifecycle,domain#UpdatePool,domain#InputPool
 package#DataLifecycle,domain#UpdatePool,domain#OutputPool
 package#DataLifecycleInference,domain#DataChannel,domain#DataInferenceAsset
@@ -120,9 +119,11 @@ package#IoT,domain#IoTProcess,domain#SimpleProcess
 package#IoT,domain#Sensor,domain#HostPalette
 package#IoT,domain#Sensor,domain#Thing
 package#IoT,domain#SensorProcess,domain#IoTProcess
+package#IoT,domain#Thing,domain#DataContainer
 package#IoT,domain#Thing,domain#InteractiveHost
 package#IoT,domain#Thing,domain#PersonalHost
 package#IoT,domain#Thing,domain#PhysicalHost
+package#IoT,domain#Thing,domain#TrivialHost
 package#Legal,domain#GovernanceAsset,core#Asset
 package#Legal,domain#GovernancePalette,core#PaletteType
 package#Legal,domain#Human,domain#GovernancePalette
@@ -137,11 +138,6 @@ package#LocalDeviceConnectivity,domain#BluetoothPair,domain#PhysicalSubnet
 package#LocalDeviceConnectivity,domain#L1Subnet,domain#L01Subnet
 package#LocalDeviceConnectivity,domain#MeshRoutingSegment,domain#OpenSegment
 package#LocalDeviceConnectivity,domain#Notebook,domain#USBHost
-package#LocalDeviceConnectivity,domain#RemovableMedia,domain#DumbHost
-package#LocalDeviceConnectivity,domain#RemovableMedia,domain#HostPalette
-package#LocalDeviceConnectivity,domain#RemovableMedia,domain#MobileHost
-package#LocalDeviceConnectivity,domain#RemovableMedia,domain#PersonalHost
-package#LocalDeviceConnectivity,domain#RemovableMedia,domain#TrivialHost
 package#LocalDeviceConnectivity,domain#RemovableMedia,domain#USBDevice
 package#LocalDeviceConnectivity,domain#ReverseTetheringSegment,domain#NATSegment
 package#LocalDeviceConnectivity,domain#Router,domain#USBHost
@@ -149,9 +145,7 @@ package#LocalDeviceConnectivity,domain#Server,domain#USBHost
 package#LocalDeviceConnectivity,domain#Smartphone,domain#USBDevice
 package#LocalDeviceConnectivity,domain#Tablet,domain#USBDevice
 package#LocalDeviceConnectivity,domain#TetheringSegment,domain#OpenSegment
-package#LocalDeviceConnectivity,domain#Thing,domain#TrivialHost
 package#LocalDeviceConnectivity,domain#Thing,domain#USBDevice
-package#LocalDeviceConnectivity,domain#TrivialHost,domain#TypeOverlayHost
 package#LocalDeviceConnectivity,domain#USBDevice,domain#TypeOverlayHost
 package#LocalDeviceConnectivity,domain#USBHost,domain#TypeOverlayHost
 package#LocalDeviceConnectivity,domain#USBPair,domain#L1Subnet
@@ -222,6 +216,11 @@ package#Network,domain#RemoteAccessService,domain#SimpleProcess
 package#Network,domain#RemoteTerminal,domain#ProcessPalette
 package#Network,domain#RemoteTerminal,domain#RemoteAccessClient
 package#Network,domain#RemoteTerminal,domain#TrivialProcess
+package#Network,domain#RemovableMedia,domain#DumbHost
+package#Network,domain#RemovableMedia,domain#HostPalette
+package#Network,domain#RemovableMedia,domain#MobileHost
+package#Network,domain#RemovableMedia,domain#PersonalHost
+package#Network,domain#RemovableMedia,domain#TrivialHost
 package#Network,domain#Router,domain#DumbHost
 package#Network,domain#Router,domain#FixedHost
 package#Network,domain#Router,domain#HostPalette
@@ -249,6 +248,7 @@ package#Network,domain#SocketLAN,domain#L0Subnet
 package#Network,domain#Tablet,domain#HostPalette
 package#Network,domain#Tablet,domain#MobileClient
 package#Network,domain#Tablet,domain#PersonalHost
+package#Network,domain#TrivialHost,domain#TypeOverlayHost
 package#Network,domain#TrivialProcess,domain#TypeOverlayProcess
 package#Network,domain#WiFiLAN,domain#L2Subnet
 package#Network,domain#WiFiLAN,domain#L3Subnet

@@ -454,7 +454,6 @@ package#IoT,domain#TWAADS-UserTW-SensorProcess,domain#UserTW,domain#SensorProces
 package#Legal,domain#TWAADS-Benevolence-LegalOrganisation,domain#Benevolence,domain#LegalOrganisation,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-Availability-BluetoothPair,domain#Availability,domain#BluetoothPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-Availability-MeshRoutingSegment,domain#Availability,domain#MeshRoutingSegment,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-Availability-RemovableMedia,domain#Availability,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-Availability-ReverseTetheringSegment,domain#Availability,domain#ReverseTetheringSegment,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-Availability-TetheringSegment,domain#Availability,domain#TetheringSegment,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-Availability-USBPair,domain#Availability,domain#USBPair,domain#TrustworthinessLevelSafe,TRUE
@@ -463,30 +462,17 @@ package#LocalDeviceConnectivity,domain#TWAADS-CommsNotSnoopable-USBPair,domain#C
 package#LocalDeviceConnectivity,domain#TWAADS-ConnectionsBlocked-MeshRoutingSegment,domain#ConnectionsBlocked,domain#MeshRoutingSegment,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-ConnectionsBlocked-ReverseTetheringSegment,domain#ConnectionsBlocked,domain#ReverseTetheringSegment,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-ConnectionsBlocked-TetheringSegment,domain#ConnectionsBlocked,domain#TetheringSegment,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-Control-RemovableMedia,domain#Control,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-DefaultTW-BluetoothPair,domain#DefaultTW,domain#BluetoothPair,domain#TrustworthinessLevelVeryLow,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-DefaultTW-RemovableMedia,domain#DefaultTW,domain#RemovableMedia,domain#TrustworthinessLevelVeryLow,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-DefaultTW-USBPair,domain#DefaultTW,domain#USBPair,domain#TrustworthinessLevelVeryLow,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-ExploitTW-RemovableMedia,domain#ExploitTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-ExternalControl-RemovableMedia,domain#ExternalControl,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-ExternalUserTW-RemovableMedia,domain#ExternalUserTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-ExtrinsicTW-RemovableMedia,domain#ExtrinsicTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-Health-RemovableMedia,domain#Health,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-IntrinsicTW-RemovableMedia,domain#IntrinsicTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-NetworkControl-BluetoothPair,domain#NetworkControl,domain#BluetoothPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-NetworkControl-USBPair,domain#NetworkControl,domain#USBPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-NetworkUserTW-BluetoothPair,domain#NetworkUserTW,domain#BluetoothPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-NetworkUserTW-USBPair,domain#NetworkUserTW,domain#USBPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-OutOfService-BluetoothPair,domain#OutOfService,domain#BluetoothPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-OutOfService-MeshRoutingSegment,domain#OutOfService,domain#MeshRoutingSegment,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-OutOfService-RemovableMedia,domain#OutOfService,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-OutOfService-ReverseTetheringSegment,domain#OutOfService,domain#ReverseTetheringSegment,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-OutOfService-TetheringSegment,domain#OutOfService,domain#TetheringSegment,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-OutOfService-USBPair,domain#OutOfService,domain#USBPair,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-Reliability-RemovableMedia,domain#Reliability,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-ResourceTW-RemovableMedia,domain#ResourceTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-TrojanTW-RemovableMedia,domain#TrojanTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#TWAADS-UserTW-RemovableMedia,domain#UserTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-AuthClient,domain#Availability,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-AuthService,domain#Availability,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-Cluster,domain#Availability,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
@@ -500,6 +486,7 @@ package#Network,domain#TWAADS-Availability-LoginService,domain#Availability,doma
 package#Network,domain#TWAADS-Availability-MobileClient,domain#Availability,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-Notebook,domain#Availability,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-RemoteTerminal,domain#Availability,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-Availability-RemovableMedia,domain#Availability,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-Router,domain#Availability,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-Server,domain#Availability,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-Smartphone,domain#Availability,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -519,6 +506,7 @@ package#Network,domain#TWAADS-Control-MobileClient,domain#Control,domain#MobileC
 package#Network,domain#TWAADS-Control-Notebook,domain#Control,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Control-ProcessContext,domain#Control,domain#ProcessContext,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Control-ProcNetContext,domain#Control,domain#ProcNetContext,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-Control-RemovableMedia,domain#Control,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Control-Router,domain#Control,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Control-Server,domain#Control,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Control-Smartphone,domain#Control,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -537,6 +525,7 @@ package#Network,domain#TWAADS-DefaultTW-LoginService,domain#DefaultTW,domain#Log
 package#Network,domain#TWAADS-DefaultTW-MobileClient,domain#DefaultTW,domain#MobileClient,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-Notebook,domain#DefaultTW,domain#Notebook,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-RemoteTerminal,domain#DefaultTW,domain#RemoteTerminal,domain#TrustworthinessLevelVeryLow,TRUE
+package#Network,domain#TWAADS-DefaultTW-RemovableMedia,domain#DefaultTW,domain#RemovableMedia,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-Router,domain#DefaultTW,domain#Router,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-Server,domain#DefaultTW,domain#Server,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-Smartphone,domain#DefaultTW,domain#Smartphone,domain#TrustworthinessLevelVeryLow,TRUE
@@ -561,6 +550,7 @@ package#Network,domain#TWAADS-ExploitTW-Notebook,domain#ExploitTW,domain#Noteboo
 package#Network,domain#TWAADS-ExploitTW-ProcessContext,domain#ExploitTW,domain#ProcessContext,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-ProcNetContext,domain#ExploitTW,domain#ProcNetContext,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-RemoteTerminal,domain#ExploitTW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-ExploitTW-RemovableMedia,domain#ExploitTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-Router,domain#ExploitTW,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-Server,domain#ExploitTW,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-Smartphone,domain#ExploitTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -572,6 +562,7 @@ package#Network,domain#TWAADS-ExternalControl-Cluster,domain#ExternalControl,dom
 package#Network,domain#TWAADS-ExternalControl-CoreRouter,domain#ExternalControl,domain#CoreRouter,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalControl-MobileClient,domain#ExternalControl,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalControl-Notebook,domain#ExternalControl,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-ExternalControl-RemovableMedia,domain#ExternalControl,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalControl-Router,domain#ExternalControl,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalControl-Server,domain#ExternalControl,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalControl-Smartphone,domain#ExternalControl,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -588,6 +579,7 @@ package#Network,domain#TWAADS-ExternalUserTW-LoginService,domain#ExternalUserTW,
 package#Network,domain#TWAADS-ExternalUserTW-MobileClient,domain#ExternalUserTW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalUserTW-Notebook,domain#ExternalUserTW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalUserTW-RemoteTerminal,domain#ExternalUserTW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-ExternalUserTW-RemovableMedia,domain#ExternalUserTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalUserTW-Router,domain#ExternalUserTW,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalUserTW-Server,domain#ExternalUserTW,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExternalUserTW-Smartphone,domain#ExternalUserTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -605,6 +597,7 @@ package#Network,domain#TWAADS-ExtrinsicTW-LoginService,domain#ExtrinsicTW,domain
 package#Network,domain#TWAADS-ExtrinsicTW-MobileClient,domain#ExtrinsicTW,domain#MobileClient,domain#TrustworthinessLevelMedium,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-Notebook,domain#ExtrinsicTW,domain#Notebook,domain#TrustworthinessLevelMedium,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-RemoteTerminal,domain#ExtrinsicTW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-ExtrinsicTW-RemovableMedia,domain#ExtrinsicTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-Router,domain#ExtrinsicTW,domain#Router,domain#TrustworthinessLevelHigh,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-Server,domain#ExtrinsicTW,domain#Server,domain#TrustworthinessLevelMedium,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-Smartphone,domain#ExtrinsicTW,domain#Smartphone,domain#TrustworthinessLevelHigh,TRUE
@@ -622,6 +615,7 @@ package#Network,domain#TWAADS-Health-LoginService,domain#Health,domain#LoginServ
 package#Network,domain#TWAADS-Health-MobileClient,domain#Health,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-Notebook,domain#Health,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-RemoteTerminal,domain#Health,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-Health-RemovableMedia,domain#Health,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-Router,domain#Health,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-Server,domain#Health,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-Smartphone,domain#Health,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -639,6 +633,7 @@ package#Network,domain#TWAADS-IntrinsicTW-LoginService,domain#IntrinsicTW,domain
 package#Network,domain#TWAADS-IntrinsicTW-MobileClient,domain#IntrinsicTW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Notebook,domain#IntrinsicTW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-RemoteTerminal,domain#IntrinsicTW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-IntrinsicTW-RemovableMedia,domain#IntrinsicTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Router,domain#IntrinsicTW,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Server,domain#IntrinsicTW,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Smartphone,domain#IntrinsicTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -669,6 +664,7 @@ package#Network,domain#TWAADS-OutOfService-LoginService,domain#OutOfService,doma
 package#Network,domain#TWAADS-OutOfService-MobileClient,domain#OutOfService,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-Notebook,domain#OutOfService,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-RemoteTerminal,domain#OutOfService,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-OutOfService-RemovableMedia,domain#OutOfService,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-Router,domain#OutOfService,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-Server,domain#OutOfService,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-Smartphone,domain#OutOfService,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -690,6 +686,7 @@ package#Network,domain#TWAADS-Reliability-LoginService,domain#Reliability,domain
 package#Network,domain#TWAADS-Reliability-MobileClient,domain#Reliability,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-Notebook,domain#Reliability,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-RemoteTerminal,domain#Reliability,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-Reliability-RemovableMedia,domain#Reliability,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-Router,domain#Reliability,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-Server,domain#Reliability,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-Smartphone,domain#Reliability,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -702,6 +699,7 @@ package#Network,domain#TWAADS-ResourceTW-CoreRouter,domain#ResourceTW,domain#Cor
 package#Network,domain#TWAADS-ResourceTW-DataCentre,domain#ResourceTW,domain#DataCentre,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ResourceTW-MobileClient,domain#ResourceTW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ResourceTW-Notebook,domain#ResourceTW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-ResourceTW-RemovableMedia,domain#ResourceTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ResourceTW-Router,domain#ResourceTW,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ResourceTW-Server,domain#ResourceTW,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ResourceTW-Smartphone,domain#ResourceTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -718,6 +716,7 @@ package#Network,domain#TWAADS-TrojanTW-LoginService,domain#TrojanTW,domain#Login
 package#Network,domain#TWAADS-TrojanTW-MobileClient,domain#TrojanTW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-Notebook,domain#TrojanTW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-RemoteTerminal,domain#TrojanTW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-TrojanTW-RemovableMedia,domain#TrojanTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-Router,domain#TrojanTW,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-Server,domain#TrojanTW,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-Smartphone,domain#TrojanTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
@@ -740,6 +739,7 @@ package#Network,domain#TWAADS-UserTW-Notebook,domain#UserTW,domain#Notebook,doma
 package#Network,domain#TWAADS-UserTW-ProcessContext,domain#UserTW,domain#ProcessContext,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-ProcNetContext,domain#UserTW,domain#ProcNetContext,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-RemoteTerminal,domain#UserTW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-UserTW-RemovableMedia,domain#UserTW,domain#RemovableMedia,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-Router,domain#UserTW,domain#Router,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-Server,domain#UserTW,domain#Server,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-Smartphone,domain#UserTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE

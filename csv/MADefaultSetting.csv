@@ -485,37 +485,22 @@ package#LocalDeviceConnectivity,domain#MADS-ConnectionsAllowed-ReverseTetheringS
 package#LocalDeviceConnectivity,domain#MADS-ConnectionsAllowed-TetheringSegment,domain#TetheringSegment,domain#ConnectionsAllowed,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-BluetoothPair,domain#BluetoothPair,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-MeshRoutingSegment,domain#MeshRoutingSegment,domain#InService,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-InService-RemovableMedia,domain#RemovableMedia,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-TetheringSegment,domain#TetheringSegment,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-USBPair,domain#USBPair,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-BluetoothPair,domain#BluetoothPair,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-MeshRoutingSegment,domain#MeshRoutingSegment,domain#LossOfAvailability,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-RemovableMedia,domain#RemovableMedia,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-TetheringSegment,domain#TetheringSegment,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-USBPair,domain#USBPair,domain#LossOfAvailability,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfControl-RemovableMedia,domain#RemovableMedia,domain#LossOfControl,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfDefaultTW-BluetoothPair,domain#BluetoothPair,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfDefaultTW-RemovableMedia,domain#RemovableMedia,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfDefaultTW-USBPair,domain#USBPair,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfExploitTW-RemovableMedia,domain#RemovableMedia,domain#LossOfExploitTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfExternalControl-RemovableMedia,domain#RemovableMedia,domain#LossOfExternalControl,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfExternalUserTW-RemovableMedia,domain#RemovableMedia,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfExtrinsicTW-RemovableMedia,domain#RemovableMedia,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfIntrinsicTW-RemovableMedia,domain#RemovableMedia,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkControl-BluetoothPair,domain#BluetoothPair,domain#LossOfNetworkControl,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkControl-USBPair,domain#USBPair,domain#LossOfNetworkControl,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkUserTW-BluetoothPair,domain#BluetoothPair,domain#LossOfNetworkUserTW,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkUserTW-USBPair,domain#USBPair,domain#LossOfNetworkUserTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfReliability-RemovableMedia,domain#RemovableMedia,domain#LossOfReliability,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfResourceTW-RemovableMedia,domain#RemovableMedia,domain#LossOfResourceTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfUserTW-RemovableMedia,domain#RemovableMedia,domain#LossOfUserTW,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-MalwareInfection-RemovableMedia,domain#RemovableMedia,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-Overloaded-BluetoothPair,domain#BluetoothPair,domain#Overloaded,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-Overloaded-RemovableMedia,domain#RemovableMedia,domain#Overloaded,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-Overloaded-USBPair,domain#USBPair,domain#Overloaded,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-TrojanInsertion-RemovableMedia,domain#RemovableMedia,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-AuthClient,domain#AuthClient,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-AuthService,domain#AuthService,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-Cluster,domain#Cluster,domain#InService,domain#ImpactLevelNegligible
@@ -528,6 +513,7 @@ package#Network,domain#MADS-InService-LoginService,domain#LoginService,domain#In
 package#Network,domain#MADS-InService-MobileClient,domain#MobileClient,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-Notebook,domain#Notebook,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-RemoteTerminal,domain#RemoteTerminal,domain#InService,domain#ImpactLevelNegligible
+package#Network,domain#MADS-InService-RemovableMedia,domain#RemovableMedia,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-Router,domain#Router,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-Server,domain#Server,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-Smartphone,domain#Smartphone,domain#InService,domain#ImpactLevelNegligible
@@ -551,6 +537,7 @@ package#Network,domain#MADS-LossOfAvailability-LoginService,domain#LoginService,
 package#Network,domain#MADS-LossOfAvailability-MobileClient,domain#MobileClient,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-Notebook,domain#Notebook,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-RemoteTerminal,domain#RemoteTerminal,domain#LossOfAvailability,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfAvailability-RemovableMedia,domain#RemovableMedia,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-Router,domain#Router,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-Server,domain#Server,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-Smartphone,domain#Smartphone,domain#LossOfAvailability,domain#ImpactLevelNegligible
@@ -570,6 +557,7 @@ package#Network,domain#MADS-LossOfControl-MobileClient,domain#MobileClient,domai
 package#Network,domain#MADS-LossOfControl-Notebook,domain#Notebook,domain#LossOfControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfControl-ProcessContext,domain#ProcessContext,domain#LossOfControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfControl-ProcNetContext,domain#ProcNetContext,domain#LossOfControl,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfControl-RemovableMedia,domain#RemovableMedia,domain#LossOfControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfControl-Router,domain#Router,domain#LossOfControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfControl-Server,domain#Server,domain#LossOfControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfControl-Smartphone,domain#Smartphone,domain#LossOfControl,domain#ImpactLevelNegligible
@@ -588,6 +576,7 @@ package#Network,domain#MADS-LossOfDefaultTW-LoginService,domain#LoginService,dom
 package#Network,domain#MADS-LossOfDefaultTW-MobileClient,domain#MobileClient,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-Notebook,domain#Notebook,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfDefaultTW-RemovableMedia,domain#RemovableMedia,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-Router,domain#Router,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-Server,domain#Server,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-Smartphone,domain#Smartphone,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
@@ -612,6 +601,7 @@ package#Network,domain#MADS-LossOfExploitTW-Notebook,domain#Notebook,domain#Loss
 package#Network,domain#MADS-LossOfExploitTW-ProcessContext,domain#ProcessContext,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-ProcNetContext,domain#ProcNetContext,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfExploitTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfExploitTW-RemovableMedia,domain#RemovableMedia,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-Router,domain#Router,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-Server,domain#Server,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-Smartphone,domain#Smartphone,domain#LossOfExploitTW,domain#ImpactLevelNegligible
@@ -623,6 +613,7 @@ package#Network,domain#MADS-LossOfExternalControl-Cluster,domain#Cluster,domain#
 package#Network,domain#MADS-LossOfExternalControl-CoreRouter,domain#CoreRouter,domain#LossOfExternalControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalControl-MobileClient,domain#MobileClient,domain#LossOfExternalControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalControl-Notebook,domain#Notebook,domain#LossOfExternalControl,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfExternalControl-RemovableMedia,domain#RemovableMedia,domain#LossOfExternalControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalControl-Router,domain#Router,domain#LossOfExternalControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalControl-Server,domain#Server,domain#LossOfExternalControl,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalControl-Smartphone,domain#Smartphone,domain#LossOfExternalControl,domain#ImpactLevelNegligible
@@ -639,6 +630,7 @@ package#Network,domain#MADS-LossOfExternalUserTW-LoginService,domain#LoginServic
 package#Network,domain#MADS-LossOfExternalUserTW-MobileClient,domain#MobileClient,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalUserTW-Notebook,domain#Notebook,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalUserTW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfExternalUserTW-RemovableMedia,domain#RemovableMedia,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalUserTW-Router,domain#Router,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalUserTW-Server,domain#Server,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExternalUserTW-Smartphone,domain#Smartphone,domain#LossOfExternalUserTW,domain#ImpactLevelNegligible
@@ -656,6 +648,7 @@ package#Network,domain#MADS-LossOfExtrinsicTW-LoginService,domain#LoginService,d
 package#Network,domain#MADS-LossOfExtrinsicTW-MobileClient,domain#MobileClient,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Notebook,domain#Notebook,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfExtrinsicTW-RemovableMedia,domain#RemovableMedia,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Router,domain#Router,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Server,domain#Server,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Smartphone,domain#Smartphone,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
@@ -673,6 +666,7 @@ package#Network,domain#MADS-LossOfIntrinsicTW-LoginService,domain#LoginService,d
 package#Network,domain#MADS-LossOfIntrinsicTW-MobileClient,domain#MobileClient,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Notebook,domain#Notebook,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfIntrinsicTW-RemovableMedia,domain#RemovableMedia,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Router,domain#Router,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Server,domain#Server,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Smartphone,domain#Smartphone,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
@@ -700,6 +694,7 @@ package#Network,domain#MADS-LossOfReliability-LoginService,domain#LoginService,d
 package#Network,domain#MADS-LossOfReliability-MobileClient,domain#MobileClient,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Notebook,domain#Notebook,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-RemoteTerminal,domain#RemoteTerminal,domain#LossOfReliability,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfReliability-RemovableMedia,domain#RemovableMedia,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Router,domain#Router,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Server,domain#Server,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Smartphone,domain#Smartphone,domain#LossOfReliability,domain#ImpactLevelNegligible
@@ -712,6 +707,7 @@ package#Network,domain#MADS-LossOfResourceTW-CoreRouter,domain#CoreRouter,domain
 package#Network,domain#MADS-LossOfResourceTW-DataCentre,domain#DataCentre,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfResourceTW-MobileClient,domain#MobileClient,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfResourceTW-Notebook,domain#Notebook,domain#LossOfResourceTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfResourceTW-RemovableMedia,domain#RemovableMedia,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfResourceTW-Router,domain#Router,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfResourceTW-Server,domain#Server,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfResourceTW-Smartphone,domain#Smartphone,domain#LossOfResourceTW,domain#ImpactLevelNegligible
@@ -732,6 +728,7 @@ package#Network,domain#MADS-LossOfUserTW-Notebook,domain#Notebook,domain#LossOfU
 package#Network,domain#MADS-LossOfUserTW-ProcessContext,domain#ProcessContext,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-ProcNetContext,domain#ProcNetContext,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfUserTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfUserTW-RemovableMedia,domain#RemovableMedia,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-Router,domain#Router,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-Server,domain#Server,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-Smartphone,domain#Smartphone,domain#LossOfUserTW,domain#ImpactLevelNegligible
@@ -749,6 +746,7 @@ package#Network,domain#MADS-MalwareInfection-LoginService,domain#LoginService,do
 package#Network,domain#MADS-MalwareInfection-MobileClient,domain#MobileClient,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Network,domain#MADS-MalwareInfection-Notebook,domain#Notebook,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Network,domain#MADS-MalwareInfection-RemoteTerminal,domain#RemoteTerminal,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#Network,domain#MADS-MalwareInfection-RemovableMedia,domain#RemovableMedia,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Network,domain#MADS-MalwareInfection-Router,domain#Router,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Network,domain#MADS-MalwareInfection-Server,domain#Server,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Network,domain#MADS-MalwareInfection-Smartphone,domain#Smartphone,domain#MalwareInfection,domain#ImpactLevelNegligible
@@ -768,6 +766,7 @@ package#Network,domain#MADS-Overloaded-LoginService,domain#LoginService,domain#O
 package#Network,domain#MADS-Overloaded-MobileClient,domain#MobileClient,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Notebook,domain#Notebook,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-RemoteTerminal,domain#RemoteTerminal,domain#Overloaded,domain#ImpactLevelNegligible
+package#Network,domain#MADS-Overloaded-RemovableMedia,domain#RemovableMedia,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Router,domain#Router,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Server,domain#Server,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Smartphone,domain#Smartphone,domain#Overloaded,domain#ImpactLevelNegligible
@@ -791,6 +790,7 @@ package#Network,domain#MADS-TrojanInsertion-LoginService,domain#LoginService,dom
 package#Network,domain#MADS-TrojanInsertion-MobileClient,domain#MobileClient,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Notebook,domain#Notebook,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-RemoteTerminal,domain#RemoteTerminal,domain#TrojanInsertion,domain#ImpactLevelNegligible
+package#Network,domain#MADS-TrojanInsertion-RemovableMedia,domain#RemovableMedia,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Router,domain#Router,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Server,domain#Server,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Smartphone,domain#Smartphone,domain#TrojanInsertion,domain#ImpactLevelNegligible

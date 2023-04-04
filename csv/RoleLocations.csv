@@ -81,10 +81,8 @@ package#Legal,domain#Role_Employer,domain#LegalEntity
 package#Legal,domain#Role_Jurisdiction,domain#Jurisdiction
 package#Legal,domain#Role_RemoteJurisdiction,domain#Jurisdiction
 package#LocalDeviceConnectivity,domain#Role_BluetoothPair,domain#BluetoothPair
-package#LocalDeviceConnectivity,domain#Role_Host,domain#TrivialHost
 package#LocalDeviceConnectivity,domain#Role_Host,domain#USBHost
 package#LocalDeviceConnectivity,domain#Role_L1Subnet,domain#L1Subnet
-package#LocalDeviceConnectivity,domain#Role_TrivialHost,domain#TrivialHost
 package#LocalDeviceConnectivity,domain#Role_USBDevice,domain#USBDevice
 package#LocalDeviceConnectivity,domain#Role_USBHost,domain#USBHost
 package#LocalDeviceConnectivity,domain#Role_USBPair,domain#USBPair
@@ -109,6 +107,7 @@ package#Network,domain#Role_Host,domain#Host
 package#Network,domain#Role_Host,domain#InteractiveHost
 package#Network,domain#Role_Host,domain#PersonalHost
 package#Network,domain#Role_Host,domain#ShellHost
+package#Network,domain#Role_Host,domain#TrivialHost
 package#Network,domain#Role_HostAccess,domain#HContext
 package#Network,domain#Role_HostManager,domain#Human
 package#Network,domain#Role_HostNetContext,domain#HostNetContext
@@ -144,6 +143,7 @@ package#Network,domain#Role_SimpleHost,domain#SimpleHost
 package#Network,domain#Role_SimpleProcess,domain#SimpleProcess
 package#Network,domain#Role_SmartPhone,domain#Smartphone
 package#Network,domain#Role_Subnet,domain#LogicalSubnet
+package#Network,domain#Role_TrivialHost,domain#TrivialHost
 package#Network,domain#Role_TrivialProcess,domain#TrivialProcess
 package#Network,domain#Role_WiredLAN,domain#WiredLAN
 package#NetworkConnectivity,domain#Role_FromHost,domain#Host

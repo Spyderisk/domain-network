@@ -254,8 +254,6 @@ package#LocalDeviceConnectivity,domain#R-L31SSg2,L31SSg2,"Finds a gateway from a
 package#LocalDeviceConnectivity,domain#R-L31SSg2AC,L31SSg2AC,"Finds a gateway from an IP subnet via a gateway to a layer 1 subnet (i.e. Bluetooth or USB connection), along with the forward and return path segments via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,L3cGcL1,"Finds a Physical Host gateway on an IP subnet with a paring connection, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGrL1,L3cGrL1,"Finds a USB/Bluetooth device connected from an IP subnet to a Host, all in the same space.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-TH,TH,Finds a solo trivial host.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-THGP,THGP,Finds a trivial host running a general process.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDpP,UHDpP,Finds Data stored on a USB Device paired with a USB Host which is running a process that handles the data.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDrP,UHDrP,"Finds Data stored on a USB Device paired with a USB Host, where the data is used by a Process running on some host.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDSrP,UHDSrP,"Finds Data stored on a USB Device paired with a USB Host running a service for the Data, where the data is used by a Process running on some host.",FALSE,FALSE
@@ -394,6 +392,8 @@ package#Network,domain#R-StHP,StHP,Finds a Stakeholder operating a Host that run
 package#Network,domain#R-StS,StS,Finds a Private Space operated by a Stakeholder.,FALSE,FALSE
 package#Network,domain#R-StSPH,StSPH,Finds a Private Space operated by a Stakeholder where a Fixed Host is located.,FALSE,FALSE
 package#Network,domain#R-Sv,Sv,Finds a solo Server.,FALSE,FALSE
+package#Network,domain#R-TH,TH,Finds a solo trivial host.,FALSE,FALSE
+package#Network,domain#R-THGP,THGP,Finds a trivial host running a general process.,FALSE,FALSE
 package#Network,domain#R-TP,TP,Finds a solo trivial process.,FALSE,FALSE
 package#Network,domain#R-WH,WH,Finds a solo WiFiLAN which may be a hotspot.,FALSE,FALSE
 package#Network,domain#R-WiFiSS,WiFiSS,"Finds a WiFi network accessible from a Space, and the subnet it implements locally.",FALSE,FALSE
@@ -464,7 +464,6 @@ package#Privacy,domain#R-HuDSH,HuDSH,Finds a Host storing Data related to a Huma
 package#Privacy,domain#R-HurH,HurH,Finds a Human with a related personal device.,FALSE,FALSE
 package#Privacy,domain#R-HurTh,HurTh,"Finds a Thing relating to a Human, plus onboard data and processing.",FALSE,FALSE
 package#Privacy,domain#R-HuwStrH,HuwStrH,Finds a Human with a related personal device and who works for an Employer.,FALSE,FALSE
-package#ProcessComms,domain#R-APxSCtI,APxSCtI,"Finds an Attack Path starting from a subnet off a Service Channel, the path from which extends a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
 package#ProcessComms,domain#R-CACHcLSP,CACHcLSP,"Finds a client and service and the associated client channel, plus the hosts of the two processes, and a client attack path from a subnet where the client is connected to the service where messages on the attack path look like those from the client, where the service is an authentication proxy that has a further client channel to a back end service, and a context in which the client can access the subnet and hence access the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CACHcLSS,CACHcLSS,"Finds a service accessed by a client via a subnet the client is on, and an associated context for access to the client.",FALSE,FALSE
 package#ProcessComms,domain#R-CACHLSP,CACHLSP,"Finds a client and service and the associated client channel, plus the hosts of the two processes, and a client attack path from a subnet to the service where messages on the attack path look like those from the client, where the service is an authentication proxy that has a further client channel to a back end service, and a context in which the client can access the subnet and hence access the service.",FALSE,FALSE
@@ -607,12 +606,10 @@ package#ProcessComms,domain#R-SCLPvLS,SCLPvLS,Finds a service channel via a logi
 package#ProcessComms,domain#R-SCLSg,SCLSg,"Finds a service channel that traverses a logical segment, along with the inbound and outbound interfaces to the segment host.",FALSE,FALSE
 package#ProcessComms,domain#R-SCLSI,SCLSI,Finds a Service Channel via a Logical Subnet connected to the service host.,FALSE,FALSE
 package#ProcessComms,domain#R-SCLSRASHPAC,SCLSRASHPAC,"Finds a process accessed via a collocated remote access service when in a space, and the associated process context.",FALSE,FALSE
-package#ProcessComms,domain#R-SCNP2CPtI,SCNP2CPtI,Finds a service channel via a client path from a subnet in the channel to an interface on a subnet at or after the start of the attack path.,FALSE,FALSE
 package#ProcessComms,domain#R-SCNSg,SCNSg,"Finds a Service Channel traversing a NAT segment, and the subnets on either side.",FALSE,FALSE
 package#ProcessComms,domain#R-SCsAPtI,SCsAPtI,"Finds an Attack Path from a subnet at the start of a Service Channel, the path from which is a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
 package#ProcessComms,domain#R-ScSPuP,ScSPuP,Finds an authenticating proxy for a service that uses another process as a service.,FALSE,TRUE
 package#ProcessComms,domain#R-SCvLS,SCvLS,"Finds a Service Channel that visits a Logical Subnet, plus the Service and the Interface into the subnet.",FALSE,FALSE
-package#ProcessComms,domain#R-SCxAPtI,SCxAPtI,"Finds an Attack Path starting from a subnet in a Service Channel, the path from which is a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
 package#ProcessComms,domain#R-SOCAP,SOCAP,Finds a service channel linked with an open client attack path from a logical subnet to the service process.,FALSE,FALSE
 package#ProcessComms,domain#R-SP,SP,Finds a reverse proxy process.,FALSE,FALSE
 package#ProcessComms,domain#R-SPNaLnS,SPNaLnS,"Finds a host running a remote access service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
@@ -622,6 +619,7 @@ package#ProcessComms,domain#R-SPvS,SPvS,Finds a reverse proxy using a service vi
 package#ProcessComms,domain#R-SSClIAP,SSClIAP,Finds a service channel from a last interface to a service process via an attack path.,FALSE,FALSE
 package#ProcessComms,domain#R-SSCLS,SSCLS,"Finds a service and its host and a service channel from a client via a logical subnet to which the host is connected, plus the associated process access contexts.",FALSE,FALSE
 package#ProcessComms,domain#R-XPCPNC,XPCPNC,"Finds a client and service associated with a data exchange connection, and service channel via a logical subnet.",FALSE,FALSE
+package#ProcessCommsInference,domain#R-APxSCtI,APxSCtI,"Finds an Attack Path starting from a subnet off a Service Channel, the path from which extends a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCCAPNP4,CSCCAPNP4,"Finds a service channel from a client to a service with a network path from an attacker subnet into the channel via a closed subnet, where the network path is consistent with an extension of the on-channel subpath.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCscLS,CSCscLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses are obscured by NAT.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCsdLS,CSCsdLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses remain unaltered by NAT.",FALSE,FALSE
@@ -631,6 +629,8 @@ package#ProcessCommsInference,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service chann
 package#ProcessCommsInference,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgvTS,SCLSgvTS,"Finds a Logical Path traversing a logical segment, and the subnets on either side, where source addresses in the subnet after the segment are not meaningfully comparable to client addresses.",FALSE,FALSE
+package#ProcessCommsInference,domain#R-SCNP2CPtI,SCNP2CPtI,Finds a service channel via a client path from a subnet in the channel to an interface on a subnet at or after the start of the attack path.,FALSE,FALSE
+package#ProcessCommsInference,domain#R-SCxAPtI,SCxAPtI,"Finds an Attack Path starting from a subnet in a Service Channel, the path from which is a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SPvSPvS,SPvSPvS,Finds a reverse proxy using a second reverse proxy that uses a service.,FALSE,FALSE
 package#Users,domain#R-A,A,Finds a solo Adult.,FALSE,FALSE
 package#Users,domain#R-Hu,Hu,Finds a solo Human.,FALSE,FALSE
