@@ -6,12 +6,12 @@ This is a SPYDERISK domain model describing IT networks, their users and physica
 
 A SPYDERISK domain model is a knowledge base, in which several different considerations must be balanced against each other:
 
-    approach: how are IT networks represented in detail (given basic invariants like users, locations, devices and networks)?
-    coverage: what features and variations are supported?
-    usability: what is the balance between rules used to analyse system models, and rules to help users create system models?
-    flexibility: how far do user-assistance rules constrain the composition of system models?
-    fidelity: how detailed and accurate is the representation of a system/application?
-    complexity: how complex and difficult to analyse is it?
+- approach: how are IT networks represented in detail (given basic invariants like users, locations, devices and networks)?
+- coverage: what features and variations are supported?
+- usability: what is the balance between rules used to analyse system models, and rules to help users create system models?
+- flexibility: how far do user-assistance rules constrain the composition of system models?
+- fidelity: how detailed and accurate is the representation of a system/application?
+- complexity: how complex and difficult to analyse is it?
 
 There are also compatibility issues relating to both legacy system models based on the Network Domain Model, and to the SPYDERISK system-modeller service. These force an unusual approach to the use of branches and versioning in GitHub. See the README in the 'main' branch of this repository for details.
 
