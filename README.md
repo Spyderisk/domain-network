@@ -54,6 +54,8 @@ Inference rules insert network interfaces between hosts and subnets to which the
 
 Network paths are then inferred as collections of 'segments' (hence the name for a gateway routing table asset - a 'path' is made up of 'segments'). Process-process communication is  inferred to use any available path, and thus is the potential exposure of communicated data determined.
 
+There is a known issue (#6) affecting network connectivity via gateway hosts.
+
 ### Virtualisation
 
 Virtual hosts are included in the model. These must be provisioned by some other host, but can be stacked (so a physical host provisions a virtual host that provisions another virtual host). Threats represent the propagation of certain threat effects up and down the stack, e.g., by transferring overload downwards, and loss of availability upwards.
@@ -66,9 +68,11 @@ Suppose an exploit on a Host allows an attacker to gain admin rights. The SPYDER
 
 One challenge is that if an attack involved (say) physical access to a notebook PC when left unattended in an Internet cafe, it should not then be possible to access data that may be accessed via this host, but only when connected to a private LAN in a more secure location. To ensure such unrealistic threat paths are not created, access rights must be represented using inferred assets associated with both the host, and a physical location or a network connection. Trustworthiness attributes like 'Control' or 'UserTW' are associated with these, rather than simply with the host or process to which those rights apply.
 
+There is a known issue (#9) with the way this is currently represented, whereby it is not possible to insert a low assumed TW level representing a suspected compromise in an unknown context. Because the 'obvious' TW attributes cannot be used, some extra attributes have been added to support this, which will be deprecated when the issue has been addressed.
+
 ### Internet of Things
 
-Two types of IoT Thing are included: sensors (which sense their physical environment) and controllers (which modify the environment).
+Two types of IoT Thing are included: sensors (which sense their physical environment) and controllers (which control devices able to take actions in the physical environment).
 
 Each must be modelled as a combination of a device, plus (communicating) processes and data. This ensures that threats to devices, processes and data will be applied appropriately to every Thing.
 
