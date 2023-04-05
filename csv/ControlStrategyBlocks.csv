@@ -240,12 +240,9 @@ package#IoT,domain#CSG-SafeIoTControlMode-Implementation-Runtime,domain#Co.U.CoP
 package#IoT,domain#CSG-SuspendUnreliableController,domain#Co.U.CoPD.0.1
 package#IoT,domain#CSG-SuspendUnreliableController-Implementation-Runtime,domain#Co.U.CoPD.0.1
 package#LocalDeviceConnectivity,domain#CSG-AntiMalwareAtHost,domain#H.W.HL1H.3
-package#LocalDeviceConnectivity,domain#CSG-DisableGatewayHost-Runtime,domain#Sg.DA.L13SSg2AC.1
-package#LocalDeviceConnectivity,domain#CSG-DisableGatewayHost-Runtime,domain#Sg.DA.L1SSg2AC.1
-package#LocalDeviceConnectivity,domain#CSG-DisableGatewayHost-Runtime,domain#Sg.DA.L31SSg2AC.1
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.DA.L1SSg2.8
-package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.DA.L13SSg2.8
-package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.DA.L31SSg2.8
+package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.DA.LTethSg2.8
+package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.DA.LTRevSg2.8
 package#LocalDeviceConnectivity,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.J.UHS.3
 package#LocalDeviceConnectivity,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.W.UHS.3
 package#LocalDeviceConnectivity,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#I.Auth.HBImSG.6
@@ -376,7 +373,7 @@ package#Network,domain#CSG-UserSecurityTraining,domain#P.L.HuiPCHS-iP.3.2
 package#Network,domain#CSG-UserSecurityTraining,domain#P.L.HuiPCHS-iP.3.3
 package#Network,domain#CSG-UserWithoutEmail,domain#Hu.E.HuimH-e.9
 package#Network,domain#CSG-UserWithoutEmail,domain#Hu.E.HummH-e.9
-package#NetworkConnectivity,domain#CSG-BlockGatewayRoute,domain#Sg.DA.L3SSg2.8
+package#NetworkConnectivity,domain#CSG-BlockGatewayRoute,domain#Sg.DA.L3SSg2-b.8
 package#NetworkConnectivity,domain#CSG-BlockInterface,domain#I.DA.I.8
 package#NetworkConnectivity,domain#CSG-BWManagementAtInterface,domain#I.M.I.8
 package#NetworkConnectivity,domain#CSG-BWManagementAtInterface,domain#I.O.IoH.3
@@ -479,9 +476,8 @@ package#ProcessComms,domain#CSG-DataFlowIntegrityProtection,domain#DF.Auth.CCDFS
 package#ProcessComms,domain#CSG-DisableClientAccess,domain#CC.IS.CSCCmCC.8
 package#ProcessComms,domain#CSG-DisableClientAccess,domain#CC.IS.CSCCSC.8
 package#ProcessComms,domain#CSG-DisableDataFlow,domain#DF.IS.PDFFA.8
-package#ProcessComms,domain#CSG-DisableGatewayHost-Runtime,domain#Sg.TA.LS2NSg2AC.1
-package#ProcessComms,domain#CSG-DisableGatewayRoute-Runtime,domain#Sg.TA.L3SSg2.8.2
-package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.LS2NSg2.8.2
+package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.L3SSg2+b.8.2
+package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.L3SSg2-b.8.2
 package#ProcessComms,domain#CSG-DisableServiceAccess-Runtime,domain#I.TA.I.8.2
 package#ProcessComms,domain#CSG-DisableServiceChannel,domain#SC.IS.SCmSg.8.1
 package#ProcessComms,domain#CSG-DisableServiceChannel,domain#SC.IS.SCpSg.8.1

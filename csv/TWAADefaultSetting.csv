@@ -748,6 +748,7 @@ package#Network,domain#TWAADS-UserTW-SMSClient,domain#UserTW,domain#SMSClient,do
 package#Network,domain#TWAADS-UserTW-Tablet,domain#UserTW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-Workstation,domain#UserTW,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-Availability-ClosedSegment,domain#Availability,domain#ClosedSegment,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#TWAADS-Availability-DeNATSegment,domain#Availability,domain#DeNATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-Availability-Interface,domain#Availability,domain#Interface,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-Availability-NATSegment,domain#Availability,domain#NATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-Availability-NetworkPath,domain#Availability,domain#NetworkPath,domain#TrustworthinessLevelSafe,TRUE
@@ -760,6 +761,7 @@ package#NetworkConnectivity,domain#TWAADS-CommsNotSnoopable-SocketLAN,domain#Com
 package#NetworkConnectivity,domain#TWAADS-CommsNotSnoopable-WiFiLAN,domain#CommsNotSnoopable,domain#WiFiLAN,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-CommsNotSnoopable-WiredLAN,domain#CommsNotSnoopable,domain#WiredLAN,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-ConnectionsBlocked-ClosedSegment,domain#ConnectionsBlocked,domain#ClosedSegment,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#TWAADS-ConnectionsBlocked-DeNATSegment,domain#ConnectionsBlocked,domain#DeNATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-ConnectionsBlocked-Interface,domain#ConnectionsBlocked,domain#Interface,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-ConnectionsBlocked-NATSegment,domain#ConnectionsBlocked,domain#NATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-ConnectionsBlocked-NetworkPath,domain#ConnectionsBlocked,domain#NetworkPath,domain#TrustworthinessLevelSafe,TRUE
@@ -767,6 +769,7 @@ package#NetworkConnectivity,domain#TWAADS-ConnectionsBlocked-OpenSegment,domain#
 package#NetworkConnectivity,domain#TWAADS-ConnectionsBlocked-PhysicalPath,domain#ConnectionsBlocked,domain#PhysicalPath,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-NetworkAuthenticity-Interface,domain#NetworkAuthenticity,domain#Interface,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-OutOfService-ClosedSegment,domain#OutOfService,domain#ClosedSegment,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#TWAADS-OutOfService-DeNATSegment,domain#OutOfService,domain#DeNATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-OutOfService-Interface,domain#OutOfService,domain#Interface,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-OutOfService-NATSegment,domain#OutOfService,domain#NATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-OutOfService-NetworkPath,domain#OutOfService,domain#NetworkPath,domain#TrustworthinessLevelSafe,TRUE
@@ -839,6 +842,7 @@ package#ProcessComms,domain#TWAADS-ProxyUserTW-ClientChannel,domain#ProxyUserTW,
 package#ProcessComms,domain#TWAADS-Reliability-ServiceProxy,domain#Reliability,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceAuthenticity-ClientChannel,domain#ServiceAuthenticity,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-ClosedSegment,domain#ServiceChannelsBlocked,domain#ClosedSegment,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-DeNATSegment,domain#ServiceChannelsBlocked,domain#DeNATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-Interface,domain#ServiceChannelsBlocked,domain#Interface,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-MeshRoutingSegment,domain#ServiceChannelsBlocked,domain#MeshRoutingSegment,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-NATSegment,domain#ServiceChannelsBlocked,domain#NATSegment,domain#TrustworthinessLevelSafe,TRUE

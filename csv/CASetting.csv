@@ -1602,10 +1602,12 @@ package#NetworkConnectivity,domain#CAS-AddressReservation-Interface,domain#Inter
 package#NetworkConnectivity,domain#CAS-BandwidthManagement-Interface,domain#Interface,domain#BandwidthManagement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DDoSFiltering-Interface,domain#Interface,domain#DDoSFiltering,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DisableGatewayRoute-ClosedSegment,domain#ClosedSegment,domain#DisableGatewayRoute,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#CAS-DisableGatewayRoute-DeNATSegment,domain#DeNATSegment,domain#DisableGatewayRoute,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DisableGatewayRoute-NATSegment,domain#NATSegment,domain#DisableGatewayRoute,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DisableGatewayRoute-OpenSegment,domain#OpenSegment,domain#DisableGatewayRoute,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DisableInterface-Interface,domain#Interface,domain#DisableInterface,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-ClosedSegment,domain#ClosedSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-Interface,domain#Interface,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-NATSegment,domain#NATSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-OpenSegment,domain#OpenSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1743,6 +1745,7 @@ package#ProcessComms,domain#CAS-CurrentRiskCalculation-ServiceProxy,domain#Servi
 package#ProcessComms,domain#CAS-DisableClientAccess-ClientChannel,domain#ClientChannel,domain#DisableClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisabledProcess-ServiceProxy,domain#ServiceProxy,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableServiceAccess-ClosedSegment,domain#ClosedSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#CAS-DisableServiceAccess-DeNATSegment,domain#DeNATSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableServiceAccess-Interface,domain#Interface,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableServiceAccess-MeshRoutingSegment,domain#MeshRoutingSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableServiceAccess-NATSegment,domain#NATSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
