@@ -254,7 +254,9 @@ package#GDPR,domain#MP-HuSDPoS-i,HuSDPoS-i,"Finds a Stakeholder operating a Proc
 package#GDPR,domain#MP-HuSDPS-io,HuSDPS-io,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject who is not operating the process providing access to the data.,domain#R-HuSDPS,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,NDFHuoO,Finds nationally regulated personal data being transferred across a border to a process that optionally has an operator organisation.,domain#R-NDFHu,FALSE,FALSE
 package#IoT,domain#MP-Co,Co,Finds a solo Controller.,domain#R-Co,FALSE,FALSE
-package#IoT,domain#MP-CoPD,CoPD,Finds a Controller with its onboard process and data.,domain#R-CoPD,FALSE,FALSE
+package#IoT,domain#MP-CoPD,CoPD,Finds a Controller with its onboard data and the control process that uses this data to control physical processes.,domain#R-CoPD,FALSE,FALSE
+package#IoT,domain#MP-CoPDsFT,CoPDsFT,"Finds a Controller with its onboard data and the control process that uses this data to control physical processes, plus flows of the data to this process, at least one of which must be involved.",domain#R-CoPD,FALSE,FALSE
+package#IoT,domain#MP-CoPsDmFF,CoPsDmFF,"Finds a Controller with its onboard data and the process that serves the data making it available to external clients, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-CoPsD,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,HuiThaS-S,Finds a Human that has access to a space and uses an IoT Thing which has no specified location.,domain#R-HuiThaS,FALSE,FALSE
 package#IoT,domain#MP-HuiUCo,HuiUCo,"Finds a Human interacting with a UserController, plus onboard data and processing.",domain#R-HuiUCo,FALSE,FALSE
 package#IoT,domain#MP-HuiUSe,HuiUSe,"Finds a Human interacting with a UserSensor, plus onboard data and processing.",domain#R-HuiUSe,FALSE,FALSE
@@ -266,6 +268,8 @@ package#IoT,domain#MP-PuCo,PuCo,"Finds a client Process that updates an IoT Cont
 package#IoT,domain#MP-PuSe,PuSe,"Finds a client Process that reads data from an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PuSe,FALSE,FALSE
 package#IoT,domain#MP-Se,Se,Finds a solo Sensor.,domain#R-Se,FALSE,FALSE
 package#IoT,domain#MP-SePD,SePD,Finds a Sensor with its onboard process and data.,domain#R-SePD,FALSE,FALSE
+package#IoT,domain#MP-SePDmFF,SePDmFF,"Finds a Sensor with its onboard process and data, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-SePD,FALSE,FALSE
+package#IoT,domain#MP-SePDsFF,SePDsFF,"Finds a Sensor with its onboard process and data, plus all flows of this data from the process (i.e., out of the sensor), at least one of which must be involved in the pattern.",domain#R-SePD,FALSE,FALSE
 package#IoT,domain#MP-SHuTh-Hu,SHuTh-Hu,Finds a Human managing a Space in which an unmanaged Thing is located.,domain#R-SHuTh,FALSE,FALSE
 package#Legal,domain#MP-DFHuoO,DFHuoO,Finds personal data being transferred across a border to a process that optionally has an operator organisation.,domain#R-DFHu,FALSE,FALSE
 package#Legal,domain#MP-DSHuoO,DSHuoO,"Finds personal data being communicated across a border, to a process that is an intermediary (not the final destination) and optionally has an operator organisation.",domain#R-DSHu,FALSE,FALSE

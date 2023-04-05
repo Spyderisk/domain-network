@@ -27,6 +27,7 @@ package#DataLifecycle,domain#NotEncrypted,domain#DataFlow
 package#DataLifecycle,domain#Overloaded,domain#DataStep
 package#IoT,domain#LossOfAuthenticity,domain#Sensor
 package#IoT,domain#LossOfIntegrity,domain#Sensor
+package#IoT,domain#LossOfTimeliness,domain#Sensor
 package#Network,domain#InService,domain#Host
 package#Network,domain#InService,domain#NetworkAsset
 package#Network,domain#InService,domain#Process

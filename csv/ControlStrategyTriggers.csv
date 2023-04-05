@@ -63,7 +63,7 @@ package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDoPS-o.6
 package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDPoJoSt.1
 package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDPoS-i.6
 package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDPS-io.6
-package#IoT,domain#CSG-SuspendUnreliableController-Trigger,domain#Co.A.CoPD.6.2
+package#IoT,domain#CSG-SuspendUnreliableController-Trigger,domain#Co.A.CoPD.6
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.A.L1SSg2.6.1
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.DA.L1SSg2AC.1
 package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.A.L13SSg2.6.1

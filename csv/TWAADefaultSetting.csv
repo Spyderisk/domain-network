@@ -442,6 +442,7 @@ package#IoT,domain#TWAADS-Reliability-SensorProcess,domain#Reliability,domain#Se
 package#IoT,domain#TWAADS-ResourceTW-Controller,domain#ResourceTW,domain#Controller,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#TWAADS-ResourceTW-Sensor,domain#ResourceTW,domain#Sensor,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#TWAADS-Timeliness-ControlProcess,domain#Timeliness,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
+package#IoT,domain#TWAADS-Timeliness-Sensor,domain#Timeliness,domain#Sensor,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#TWAADS-Timeliness-SensorProcess,domain#Timeliness,domain#SensorProcess,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#TWAADS-TrojanTW-Controller,domain#TrojanTW,domain#Controller,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#TWAADS-TrojanTW-ControlProcess,domain#TrojanTW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -813,6 +814,7 @@ package#Privacy,domain#TWAADS-ResourceTW-HealthSensor,domain#ResourceTW,domain#H
 package#Privacy,domain#TWAADS-Timeliness-BiometricData,domain#Timeliness,domain#BiometricData,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#TWAADS-Timeliness-GeneticData,domain#Timeliness,domain#GeneticData,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#TWAADS-Timeliness-HealthData,domain#Timeliness,domain#HealthData,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#TWAADS-Timeliness-HealthSensor,domain#Timeliness,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#TWAADS-TrojanTW-HealthSensor,domain#TrojanTW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#TWAADS-UserTW-HealthSensor,domain#UserTW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-AnonUserTW-ClientChannel,domain#AnonUserTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE

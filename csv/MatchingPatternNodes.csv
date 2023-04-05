@@ -225,8 +225,13 @@ package#GDPR,domain#MP-NDFHuoO,domain#Node-Human1-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human2-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Operator-Stakeholder,FALSE,FALSE,FALSE
 package#IoT,domain#MP-CoPD,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#IoT,domain#MP-CoPDsFT,domain#Node-DataFlow-DataFlow,TRUE,FALSE,TRUE
+package#IoT,domain#MP-CoPDsFT,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#IoT,domain#MP-CoPsDmFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#IoT,domain#MP-HumThP-m,domain#Node-ProcessManager-Human,FALSE,TRUE,FALSE
+package#IoT,domain#MP-SePDmFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE
+package#IoT,domain#MP-SePDsFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,TRUE
 package#IoT,domain#MP-SHuTh-Hu,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
 package#Legal,domain#MP-DFHuoO,domain#Node-Human1-Human,FALSE,FALSE,FALSE
 package#Legal,domain#MP-DFHuoO,domain#Node-Human2-Human,FALSE,FALSE,FALSE
