@@ -390,9 +390,8 @@ package#Network,domain#CSG-XSSPreventionAtService,domain#CS-XSSSanitisation-Serv
 package#NetworkConnectivity,domain#CSG-BlockGatewayRoute,domain#CS-FWBlock-FwdSegment,FALSE
 package#NetworkConnectivity,domain#CSG-BlockInterface,domain#CS-FWBlock-Interface,FALSE
 package#NetworkConnectivity,domain#CSG-BWManagementAtInterface,domain#CS-BandwidthManagement-Interface,FALSE
-package#NetworkConnectivity,domain#CSG-DisableGatewayRoute-Runtime,domain#CS-DisableGatewayRoute-FwdSegment,FALSE
-package#NetworkConnectivity,domain#CSG-DisableGatewayRoute-Runtime,domain#CS-FWBlock-FwdSegment,FALSE
 package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#CS-DisableInterface-Interface,FALSE
+package#NetworkConnectivity,domain#CSG-DisablePortForwarding-Runtime,domain#CS-DisableServiceAccess-FwdSegment,FALSE
 package#NetworkConnectivity,domain#CSG-FilterDosAtInterface,domain#CS-DDoSFiltering-Interface,FALSE
 package#Physical,domain#CSG-BiometricAccessControlAtSpace,domain#CS-BiometricLock-Space,FALSE
 package#Physical,domain#CSG-BiometricIDCheckedAtSpace,domain#CS-BiometricID-Human,FALSE
@@ -420,7 +419,6 @@ package#ProcessComms,domain#CSG-ApplicationFirewall,domain#CS-ApplicationFW-Prox
 package#ProcessComms,domain#CSG-ClientAddressWhitelisting,domain#CS-AddressReservation-Interface,FALSE
 package#ProcessComms,domain#CSG-ClientAddressWhitelisting,domain#CS-AddressWhitelisting-ServiceChannel,FALSE
 package#ProcessComms,domain#CSG-DisableClientAccess,domain#CS-DisableClientAccess-ClientChannel,FALSE
-package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#CS-DisableServiceAccess-FwdSegment,FALSE
 package#ProcessComms,domain#CSG-DisableServiceAccess-Runtime,domain#CS-DisableServiceAccess-Interface,FALSE
 package#ProcessComms,domain#CSG-DisableServiceAccess-Runtime,domain#CS-FWBlock-Interface,FALSE
 package#ProcessComms,domain#CSG-DisableServiceChannel,domain#CS-DisableServiceChannel-ServiceChannel,FALSE

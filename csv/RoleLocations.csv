@@ -160,8 +160,7 @@ package#NetworkConnectivity,domain#Role_NewPath,domain#LogicalPath
 package#NetworkConnectivity,domain#Role_OldPath,domain#LogicalPath
 package#NetworkConnectivity,domain#Role_OutboundIF,domain#Interface
 package#NetworkConnectivity,domain#Role_PhysicalPath,domain#PhysicalPath
-package#NetworkConnectivity,domain#Role_RetSegment,domain#ClosedSegment
-package#NetworkConnectivity,domain#Role_RetSegment,domain#NATSegment
+package#NetworkConnectivity,domain#Role_RetSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#Role_SubPath,domain#NetworkPath
 package#NetworkConnectivity,domain#Role_ToHost,domain#Host
 package#NetworkConnectivity,domain#Role_ToSubnet,domain#LogicalSubnet

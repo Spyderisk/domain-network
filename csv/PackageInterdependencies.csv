@@ -10,8 +10,8 @@ package#DataLifecycleInference,package#NetworkInference
 package#GDPR,package#Legal
 package#IoT,package#DataLifecycle
 package#Legal,package#Privacy
-package#LocalDeviceConnectivity,package#DataLifecycle
-package#LocalDeviceConnectivity,package#NetworkConnectivity
+package#LocalDeviceConnectivity,package#ProcessComms
+package#LocalDeviceConnectivityInference,package#LocalDeviceConnectivity
 package#Network,package#AccessContext
 package#Network,package#Core
 package#NetworkConnectivity,package#Network
@@ -29,6 +29,4 @@ package#Virtualisation,package#NetworkConnectivity
 package#Virtualisation,package#ProcessComms
 package#VirtualisationInference,package#Virtualisation
 package#VulnerabilityCVSS,package#LocalDeviceConnectivity
-package#VulnerabilityCVSS,package#Network
-package#VulnerabilityCVSS,package#NetworkConnectivity
 package#VulnerabilityCVSS,package#ProcessComms

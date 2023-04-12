@@ -54,7 +54,7 @@ Inference rules insert network interfaces between hosts and subnets to which the
 
 Network paths are then inferred as collections of 'segments' (hence the name for a gateway routing table asset - a 'path' is made up of 'segments'). Process-process communication is  inferred to use any available path, and thus is the potential exposure of communicated data determined.
 
-There is a known issue [issue #6](https://github.com/SPYDERISK/domain-network/issues/6) affecting network connectivity via gateway hosts.
+Note that when a gateway provides a subnet (i.e., acts as a router enabling and controlling message routing for that subnet), the inference rules assume it is a private subnet (since usually that will be the case). The inference rules assume the router will behave as a NAT device, so by default no inbound connections are possible from subnets not provided by that router. The rules assume that port forwarding (or equivalent) is used to override this and allow access by legitimate clients to services on the subnet.
 
 ### Virtualisation
 
@@ -68,13 +68,13 @@ Suppose an exploit on a Host allows an attacker to gain admin rights. The SPYDER
 
 One challenge is that if an attack involved (say) physical access to a notebook PC when left unattended in an Internet cafe, it should not then be possible to access data that may be accessed via this host, but only when connected to a private LAN in a more secure location. To ensure such unrealistic threat paths are not created, access rights must be represented using inferred assets associated with both the host, and a physical location or a network connection. Trustworthiness attributes like 'Control' or 'UserTW' are associated with these, rather than simply with the host or process to which those rights apply.
 
-There is a known issue [issue #9](https://github.com/SPYDERISK/domain-network/issues/9) with the way this is currently represented, whereby it is not possible to insert a low assumed TW level representing a suspected compromise in an unknown context. Because the 'obvious' TW attributes cannot be used, some extra attributes have been added to support this, which will be deprecated when the issue has been addressed.
+There is a known issue ([issue #9](https://github.com/SPYDERISK/domain-network/issues/9) with the way this is currently represented, whereby it is not possible to insert a low assumed TW level representing a suspected compromise in an unknown context. Because the 'obvious' TW attributes cannot be used, some extra attributes have been added to support this, which will be deprecated when this issue has been addressed.
 
 ### Internet of Things
 
-Two types of IoT Thing are included: sensors (which sense their physical environment) and controllers (which control devices able to take actions in the physical environment).
+Two types of IoT Thing are included: Sensors (which sense their physical environment) and Controllers (which modify the environment).
 
-Each must be modelled as a combination of a device, plus (communicating) processes and data. This ensures that threats to devices, processes and data will be applied appropriately to every Thing.
+Each must be modelled as a combination of a host device, plus (communicating) processes and data. This ensures that threats to devices, processes and data will be applied appropriately to every Thing.
 
 To simplify this for SPYDERISK system modeller users, inference rules are used to insert the processes and data for each Thing added to a system model. There are some extra 'surfacing' threats that propagate threat effects from the processes and data to the (asserted) Thing asset, so these effects show up on the visible asset that was added by the user.
 

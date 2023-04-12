@@ -1,7 +1,6 @@
 IV,LV,package,impactLevel,likelihoodLevel,riskLevel,RV
 0,0,domain#000000,domain#ImpactLevelNegligible,domain#Negligible,domain#RiskLevelVeryLow,0
 0,0,package#Core,domain#ImpactLevelNegligible,domain#Negligible,domain#RiskLevelVeryLow,0
-0,0,domain#000000,domain#ImpactLevelNegligible,domain#Negligible,domain#RiskLevelVeryLow,0
 0,1,package#Core,domain#ImpactLevelNegligible,domain#LikelihoodVeryLow,domain#RiskLevelVeryLow,0
 0,2,package#Core,domain#ImpactLevelNegligible,domain#LikelihoodLow,domain#RiskLevelVeryLow,0
 0,3,package#Core,domain#ImpactLevelNegligible,domain#LikelihoodMedium,domain#RiskLevelLow,1
