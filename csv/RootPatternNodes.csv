@@ -1211,6 +1211,12 @@ package#LocalDeviceConnectivity,domain#R-UPrGcUP,domain#Node-ToHost-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-UPrGcUP,domain#Node-ToSubnet-USBPair,TRUE
 package#LocalDeviceConnectivity,domain#R-USBD,domain#Node-Data-Data,TRUE
 package#LocalDeviceConnectivity,domain#R-USBD,domain#Node-USBDevice-USBDevice,TRUE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,domain#Node-FromSubnet-LogicalSubnet,TRUE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,domain#Node-FwdSegment-LogicalRoute,TRUE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,domain#Node-Gateway-Host,TRUE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,domain#Node-LogicalPath-LogicalPath,TRUE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,domain#Node-RetSegment-TetheringSegment,TRUE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,domain#Node-ToSubnet-LogicalSubnet,TRUE
 package#Network,domain#R-AC,domain#Node-AuthClient-AuthClient,TRUE
 package#Network,domain#R-AS,domain#Node-AuthService-AuthService,TRUE
 package#Network,domain#R-C,domain#Node-Cluster-ClusterHost,TRUE
@@ -1697,11 +1703,6 @@ package#NetworkConnectivity,domain#R-LPLS2NSg2,domain#Node-RetSegment-NATSegment
 package#NetworkConnectivity,domain#R-LPLS2NSg2,domain#Node-ToSubnet-LogicalSubnet,TRUE
 package#NetworkConnectivity,domain#R-LPsLS,domain#Node-LogicalPath-LogicalPath,TRUE
 package#NetworkConnectivity,domain#R-LPsLS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
-package#NetworkConnectivity,domain#R-LS2RSg2,domain#Node-FromSubnet-LogicalSubnet,TRUE
-package#NetworkConnectivity,domain#R-LS2RSg2,domain#Node-FwdSegment-LogicalRoute,TRUE
-package#NetworkConnectivity,domain#R-LS2RSg2,domain#Node-Gateway-Host,TRUE
-package#NetworkConnectivity,domain#R-LS2RSg2,domain#Node-RetSegment-ClosedSegment,TRUE
-package#NetworkConnectivity,domain#R-LS2RSg2,domain#Node-ToSubnet-LogicalSubnet,TRUE
 package#NetworkConnectivity,domain#R-NoH,domain#Node-AttackerSubnet-LogicalSubnet,TRUE
 package#NetworkConnectivity,domain#R-NoH,domain#Node-FromContext-HostContext,TRUE
 package#NetworkConnectivity,domain#R-NoH,domain#Node-Host-Host,TRUE
@@ -1747,12 +1748,6 @@ package#NetworkConnectivity,domain#R-WScMcWS,domain#Node-FromSubnet-WiredLAN,TRU
 package#NetworkConnectivity,domain#R-WScMcWS,domain#Node-Gateway-MobileHost,TRUE
 package#NetworkConnectivity,domain#R-WScMcWS,domain#Node-Space-Space,TRUE
 package#NetworkConnectivity,domain#R-WScMcWS,domain#Node-ToSubnet-WiredLAN,TRUE
-package#NetworkConnectivityInference,domain#R-LPLRTSg,domain#Node-FromSubnet-LogicalSubnet,TRUE
-package#NetworkConnectivityInference,domain#R-LPLRTSg,domain#Node-FwdSegment-LogicalRoute,TRUE
-package#NetworkConnectivityInference,domain#R-LPLRTSg,domain#Node-Gateway-Host,TRUE
-package#NetworkConnectivityInference,domain#R-LPLRTSg,domain#Node-LogicalPath-LogicalPath,TRUE
-package#NetworkConnectivityInference,domain#R-LPLRTSg,domain#Node-RetSegment-TetheringSegment,TRUE
-package#NetworkConnectivityInference,domain#R-LPLRTSg,domain#Node-ToSubnet-LogicalSubnet,TRUE
 package#NetworkConnectivityInference,domain#R-NP2LS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#NetworkConnectivityInference,domain#R-NP2LS,domain#Node-NewPath-LogicalPath,TRUE
 package#NetworkConnectivityInference,domain#R-NP2LS,domain#Node-OldPath-LogicalPath,TRUE

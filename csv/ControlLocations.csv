@@ -125,8 +125,9 @@ package#Network,domain#XSSSanitisation,domain#Process
 package#NetworkConnectivity,domain#AddressReservation,domain#Interface
 package#NetworkConnectivity,domain#BandwidthManagement,domain#Interface
 package#NetworkConnectivity,domain#DDoSFiltering,domain#Interface
-package#NetworkConnectivity,domain#DisableGatewayRoute,domain#LogicalSegment
 package#NetworkConnectivity,domain#DisableInterface,domain#Interface
+package#NetworkConnectivity,domain#DisableServiceAccess,domain#Interface
+package#NetworkConnectivity,domain#DisableServiceAccess,domain#LogicalSegment
 package#NetworkConnectivity,domain#FWBlock,domain#Interface
 package#NetworkConnectivity,domain#FWBlock,domain#LogicalSegment
 package#Physical,domain#BiometricLock,domain#PrivateSpace
@@ -150,8 +151,6 @@ package#Privacy,domain#VitalInterests,domain#Process
 package#ProcessComms,domain#AddressWhitelisting,domain#ServiceChannel
 package#ProcessComms,domain#ApplicationFW,domain#ServiceProxy
 package#ProcessComms,domain#DisableClientAccess,domain#ClientChannel
-package#ProcessComms,domain#DisableServiceAccess,domain#Interface
-package#ProcessComms,domain#DisableServiceAccess,domain#LogicalSegment
 package#ProcessComms,domain#DisableServiceChannel,domain#ServiceChannel
 package#ProcessComms,domain#SuspendExcessiveClientAccess,domain#ClientChannel
 package#ProcessComms,domain#SuspendInsecureServiceChannel,domain#ServiceChannel

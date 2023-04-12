@@ -492,6 +492,8 @@ package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#Link-LogicalSegme
 package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#Link-LogicalSegment-via-Gateway
 package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#Link-DataService-serves-Data
 package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#Link-USBDevice-hosts-DataService
+package#LocalDeviceConnectivityInference,domain#CP-LPLRTSg-f+b,domain#Link-FwdSegment-blockedSegment-FwdSegment
+package#LocalDeviceConnectivityInference,domain#CP-LPLRTSg-f+b,domain#Link-LogicalPath-blockedPath-LogicalPath
 package#NetworkConnectivityInference,domain#CP-HLS+I,domain#Link-Interface-connectsFrom-Host
 package#NetworkConnectivityInference,domain#CP-HLS+I,domain#Link-Interface-connectsTo-LogicalSubnet
 package#NetworkConnectivityInference,domain#CP-ILSA+c,domain#Link-Interface-connectsTo-AbstractSubnet
@@ -507,8 +509,6 @@ package#NetworkConnectivityInference,domain#CP-L3rGc-rL3+NSg,domain#Link-Logical
 package#NetworkConnectivityInference,domain#CP-L3rGrL3+OSg,domain#Link-LogicalSegment-from-FromSubnet
 package#NetworkConnectivityInference,domain#CP-L3rGrL3+OSg,domain#Link-LogicalSegment-to-ToSubnet
 package#NetworkConnectivityInference,domain#CP-L3rGrL3+OSg,domain#Link-LogicalSegment-via-Gateway
-package#NetworkConnectivityInference,domain#CP-LPLRTSg-f+b,domain#Link-FwdSegment-blockedSegment-FwdSegment
-package#NetworkConnectivityInference,domain#CP-LPLRTSg-f+b,domain#Link-LogicalPath-blockedPath-LogicalPath
 package#NetworkConnectivityInference,domain#CP-LPLS2NSg2+b,domain#Link-FwdSegment-blockedSegment-FwdSegment
 package#NetworkConnectivityInference,domain#CP-LPLS2NSg2+b,domain#Link-LogicalPath-blockedPath-LogicalPath
 package#NetworkConnectivityInference,domain#CP-LPsLS+v,domain#Link-LogicalPath-visits-LogicalSubnet

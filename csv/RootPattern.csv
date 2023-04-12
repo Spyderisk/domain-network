@@ -261,6 +261,7 @@ package#LocalDeviceConnectivity,domain#R-UHS,UHS,Finds a USB Host located in a S
 package#LocalDeviceConnectivity,domain#R-UPcGrUP,UPcGrUP,Finds a possible USB hub between a USB device and a USB host (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UPrGcUP,UPrGcUP,Finds a possible USB hub between a USB host and a USB device (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-USBD,USBD,Finds Data stored on a USB device.,FALSE,FALSE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,LPLRTSg,Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet.,FALSE,FALSE
 package#Network,domain#R-AC,AC,Finds a solo AuthClient.,FALSE,FALSE
 package#Network,domain#R-AS,AS,Finds a solo authentication/authorisation service.,FALSE,FALSE
 package#Network,domain#R-C,C,Finds a Host that represents a virtual or physical cluster.,FALSE,FALSE
@@ -426,7 +427,6 @@ package#NetworkConnectivity,domain#R-L3SSg2AC,L3SSg2AC,"Finds a gateway from one
 package#NetworkConnectivity,domain#R-LoH,LoH,"Detects a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,FALSE,FALSE
-package#NetworkConnectivity,domain#R-LS2RSg2,LS2RSg2,Finds a route between subnets through a gateway where NAT is not used on the return path.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NoH,NoH,"Finds an open network path from a remote attacker subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP,NP,Finds a network path (which may or may not be physical).,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NPLS,NPLS,Finds a network path that starts and ends on the same logical subnet.,FALSE,TRUE
@@ -437,7 +437,6 @@ package#NetworkConnectivity,domain#R-SgAC,SgAC,"Finds a logical segment between 
 package#NetworkConnectivity,domain#R-SgHfILS,SgHfILS,"Finds a Logical Segment via a Host routing from a Logical Subnet, and the Interface between the Host and Logical Subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-SgHtILS,SgHtILS,"Finds a Logical Segment via a Host routing to a Logical Subnet, and the Interface between the Host and Logical Subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-WScMcWS,WScMcWS,"Finds a Mobile Host connected between two Wired LANs, both in the same space.",FALSE,FALSE
-package#NetworkConnectivityInference,domain#R-LPLRTSg,LPLRTSg,Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet.,FALSE,FALSE
 package#NetworkConnectivityInference,domain#R-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,FALSE,FALSE
 package#NetworkConnectivityInference,domain#R-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,FALSE,FALSE
 package#NetworkConnectivityInference,domain#R-NP3,NP3,"Finds a Network Path with a subpath that extends a third path, which does not itself have a subpath relationship to the first.",FALSE,FALSE

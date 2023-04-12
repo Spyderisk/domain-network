@@ -68,8 +68,8 @@ package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.A.L1SSg2
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.DA.L1SSg2AC.1
 package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.A.LTethSg2.6.1
 package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.A.LTRevSg2.6.1
-package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.DA.LTethSg2AC.1
-package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.DA.LTRevSg2AC.1
+package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.TA.LTethSg2AC.1
+package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.TA.LTRevSg2AC.1
 package#LocalDeviceConnectivity,domain#CSG-SimpleSecurePairing-Local,domain#I.Auth.HBImSG.6
 package#LocalDeviceConnectivity,domain#CSG-SimpleSecurePairing-Remote,domain#I.Auth.HBImSG.6
 package#Network,domain#CSG-BiometricAccessControlAtHost,domain#P.A.HuiHP.6
@@ -128,14 +128,14 @@ package#NetworkConnectivity,domain#CSG-BlockInterface,domain#I.TA.I.8.2
 package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#I.A.I.6.1
 package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#I.IS.INC.1
 package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#I.IS.INC.2
+package#NetworkConnectivity,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.A.L3SSg2.6.1
+package#NetworkConnectivity,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.L3SSg2AC.1
 package#Physical,domain#CSG-BiometricAccessControlAtSpace,domain#P.A.HuiHPSP.6
 package#Physical,domain#CSG-ChipAndPinAccessControlAtSpace,domain#P.A.HuiHPSP.6
 package#Physical,domain#CSG-InconsistentPhysicalControlsAtWorld,domain#W.E.WmPH.9
 package#Physical,domain#CSG-PhysicalIDChecksAtSpace,domain#P.A.HuiHPSP.6
 package#Physical,domain#CSG-PhysicalLocksAtSpace,domain#P.A.HuiHPSP.6
 package#ProcessComms,domain#CSG-DisableClientAccess,domain#CC.AX.CCCS.6.1
-package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.A.L3SSg2.6.1
-package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.L3SSg2AC.1
 package#ProcessComms,domain#CSG-DisableServiceChannel,domain#SC.A.SC.6.1
 package#ProcessComms,domain#CSG-SuspendExcessiveClientAccess,domain#CC.AX.CCDFSFS.6.4
 package#ProcessComms,domain#CSG-SuspendExcessiveClientAccess,domain#CC.AX.CCDFSTS.6.4

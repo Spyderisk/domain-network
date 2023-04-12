@@ -428,7 +428,6 @@ package#NetworkConnectivity,domain#MP-L3SSg2AC-b,domain#Node-HostManager-Human,F
 package#NetworkConnectivity,domain#MP-L3SSg2-b,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
-package#NetworkConnectivity,domain#MP-LS2RSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE

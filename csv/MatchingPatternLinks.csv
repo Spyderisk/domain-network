@@ -519,6 +519,8 @@ package#LocalDeviceConnectivity,domain#MP-UPc-rGrUP,domain#Link-FromSubnet-provi
 package#LocalDeviceConnectivity,domain#MP-UPrGc-rUP,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#LocalDeviceConnectivity,domain#MP-USBD-S,domain#Link-Service-serves-Data,FALSE
 package#LocalDeviceConnectivity,domain#MP-USBD-S,domain#Link-USBDevice-hosts-Service,FALSE
+package#LocalDeviceConnectivityInference,domain#MP-LPLRTSg-f,domain#Link-RetSegment-from-ToSubnet,TRUE
+package#LocalDeviceConnectivityInference,domain#MP-LPLRTSg-f,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#Network,domain#MP-CH,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-CH,domain#Link-Human-interactsWith-Host,FALSE
 package#Network,domain#MP-CHS,domain#Link-HostAccess-accessFrom-Space,FALSE
@@ -789,7 +791,6 @@ package#NetworkConnectivity,domain#MP-L3SSg2-b,domain#Link-HostManager-manages-G
 package#NetworkConnectivity,domain#MP-LoH,domain#Link-HostAccess-accessTo-Host,FALSE
 package#NetworkConnectivity,domain#MP-LoH,domain#Link-HostAccess-accessVia-LogicalSubnet,FALSE
 package#NetworkConnectivity,domain#MP-LoH,domain#Link-HostManager-manages-Host,FALSE
-package#NetworkConnectivity,domain#MP-LS2RSg2,domain#Link-HostManager-manages-Gateway,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Link-HostAccess-accessTo-Host,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Link-HostAccess-accessVia-LogicalSubnet,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Link-HostManager-manages-Host,FALSE
@@ -806,8 +807,6 @@ package#NetworkConnectivity,domain#MP-RoH,domain#Link-NetworkPath-blockedPath-Ne
 package#NetworkConnectivity,domain#MP-RoH,domain#Link-NetworkPath-visitsGateway-Host,TRUE
 package#NetworkConnectivity,domain#MP-RoH,domain#Link-NetworkPath-visits-Internet,FALSE
 package#NetworkConnectivity,domain#MP-Sg,domain#Link-HostManager-manages-Gateway,FALSE
-package#NetworkConnectivityInference,domain#MP-LPLRTSg-f,domain#Link-RetSegment-from-ToSubnet,TRUE
-package#NetworkConnectivityInference,domain#MP-LPLRTSg-f,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#NetworkConnectivityInference,domain#MP-NP3,domain#Link-NewPath-extends-OldPath,TRUE
 package#NetworkConnectivityInference,domain#MP-OPLS2,domain#Link-NPE-pVia-FromSubnet,TRUE
 package#NetworkConnectivityInference,domain#MP-OPLS2,domain#Link-OldPath-visitsGateway-Gateway,TRUE

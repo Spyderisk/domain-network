@@ -88,8 +88,8 @@ package#LocalDeviceConnectivity,domain#CP-L1rGcL3+OSg,domain#Node-LogicalSegment
 package#LocalDeviceConnectivity,domain#CP-L3cGc-rL1+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-L3cGc-rL1+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-L3cGrL1+OSg,domain#Node-LogicalSegment-OpenSegment,domain#INS-L3cGrL1+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-UHDrP-S+S,domain#Node-DataService-DataService,domain#INS-UHDrP-S+S-DataService,TRUE,FALSE,domain#Node-USBHost-USBHost
-package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#Node-LogicalSegment-OpenSegment,domain#INS-UPc-rGrUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
-package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#Node-LogicalSegment-OpenSegment,domain#INS-UPrGc-rUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
+package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-UPc-rGrUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
+package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-UPrGc-rUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#Node-DataService-DataService,domain#INS-USBD-S+S-DataService,TRUE,FALSE,domain#Node-USBDevice-USBDevice
 package#NetworkConnectivityInference,domain#CP-HLS+I,domain#Node-Interface-Interface,domain#INS-HLS+I-Interface,TRUE,FALSE,domain#Node-Host-Host
 package#NetworkConnectivityInference,domain#CP-L3c-rGc-rL3+OSg,domain#Node-LogicalSegment-OpenSegment,domain#INS-L3c-rGc-rL3+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host

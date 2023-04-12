@@ -312,6 +312,7 @@ package#LocalDeviceConnectivity,domain#MP-UHS,UHS,Finds a USB Host located in a 
 package#LocalDeviceConnectivity,domain#MP-UPc-rGrUP,UPc-rGrUP,"Finds a USB hub between a USB device and a USB host (it provides the USB Pair from the USB Host, but not to the USB device).",domain#R-UPcGrUP,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#MP-UPrGc-rUP,UPrGc-rUP,"Finds a USB hub between a USB host and a USB device (it provides the USB Pair from the USB Host, but not to the USB device).",domain#R-UPrGcUP,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#MP-USBD-S,USBD-S,Finds Data stored on a USB device where there is no local process serving the data or creating it from scratch.,domain#R-USBD,FALSE,FALSE
+package#LocalDeviceConnectivityInference,domain#MP-LPLRTSg-f,LPLRTSg-f,"Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet, but this does not route to the destination subnet, and the destination subnet is not provided by the gateway.",domain#R-LPLRTSg,FALSE,FALSE
 package#Network,domain#MP-AC,AC,Finds a solo AuthClient.,domain#R-AC,FALSE,FALSE
 package#Network,domain#MP-AS,AS,Finds a solo authentication/authorisation service.,domain#R-AS,FALSE,FALSE
 package#Network,domain#MP-C,C,Finds a Host that represents a virtual or physical cluster.,domain#R-C,FALSE,FALSE
@@ -494,7 +495,6 @@ package#NetworkConnectivity,domain#MP-L3SSg2-b,L3SSg2-b,"Finds a gateway from on
 package#NetworkConnectivity,domain#MP-LoH,LoH,"Finds a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface, plus all contexts where it is connected to the same subnet (there may be others), and optionally the host manager.",domain#R-LoH,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",domain#R-LPLS2NSg2,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,domain#R-LPsLS,FALSE,FALSE
-package#NetworkConnectivity,domain#MP-LS2RSg2,LS2RSg2,"Finds a route between subnets through a gateway where NAT is not used on the return path, and optionally the gateway device manager.",domain#R-LS2RSg2,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NoH,NoH,"Finds an open network path not via the Internet from a remote attacker subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context, plus the location contexts for the host being on that subnet, and optionally the host manager.",domain#R-NoH,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NPLS,NPLS,"Finds a Network Path that starts and ends on the same subnet, i.e. it uses no gateways.",domain#R-NPLS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,NPmLSmSg,"Finds a Network Path that traverses at least one Logical Segment, plus the Logical Subnet(s) it visits (in this pattern there should be more than one).",domain#R-NP,FALSE,FALSE
@@ -504,7 +504,6 @@ package#NetworkConnectivity,domain#MP-Sg,Sg,"Finds a gateway host between two su
 package#NetworkConnectivity,domain#MP-SgHfILS,SgHfILS,"Finds a Logical Segment via a Host routing from a Logical Subnet, and the Interface between the Host and Logical Subnet.",domain#R-SgHfILS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-SgHtILS,SgHtILS,"Finds a Logical Segment via a Host routing to a Logical Subnet, and the Interface between the Host and Logical Subnet.",domain#R-SgHtILS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-WScMcWS,WScMcWS,"Finds a Mobile Host connected between two distinct Wired LANs, both in the same space.",domain#R-WScMcWS,FALSE,FALSE
-package#NetworkConnectivityInference,domain#MP-LPLRTSg-f,LPLRTSg-f,"Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet, but this does not route to the destination subnet, and the destination subnet is not provided by the gateway.",domain#R-LPLRTSg,FALSE,FALSE
 package#NetworkConnectivityInference,domain#MP-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,domain#R-NP2LS,FALSE,FALSE
 package#NetworkConnectivityInference,domain#MP-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,domain#R-NP2LSg,FALSE,FALSE
 package#NetworkConnectivityInference,domain#MP-NP3,NP3,"Finds a Network Path with a subpath that extends a third path, which does not itself have a subpath relationship to the first.",domain#R-NP3,FALSE,FALSE
