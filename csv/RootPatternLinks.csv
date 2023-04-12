@@ -1052,7 +1052,9 @@ package#GDPR,domain#R-NDFHu,domain#Link-FlowsFrom-subjectTo-Jurisdiction
 package#GDPR,domain#R-NDFHu,domain#Link-Host-hosts-FlowsFrom
 package#GDPR,domain#R-NDFHu,domain#Link-Process-subjectTo-RemoteJurisdiction
 package#IoT,domain#R-CoPD,domain#Link-Controller-hosts-Process
-package#IoT,domain#R-CoPD,domain#Link-Process-serves-Data
+package#IoT,domain#R-CoPD,domain#Link-Process-receives-Data
+package#IoT,domain#R-CoPsD,domain#Link-Controller-hosts-Process
+package#IoT,domain#R-CoPsD,domain#Link-Process-serves-Data
 package#IoT,domain#R-HuiThaS,domain#Link-Human-canAccess-Space
 package#IoT,domain#R-HuiThaS,domain#Link-Human-interactsWith-Thing
 package#IoT,domain#R-HuiUCo,domain#Link-Controller-hosts-SimpleProcess

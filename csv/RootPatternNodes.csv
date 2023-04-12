@@ -999,7 +999,10 @@ package#GDPR,domain#R-NDFHu,domain#Node-RemoteJurisdiction-Jurisdiction,TRUE
 package#IoT,domain#R-Co,domain#Node-Controller-Controller,TRUE
 package#IoT,domain#R-CoPD,domain#Node-Controller-Controller,TRUE
 package#IoT,domain#R-CoPD,domain#Node-Data-Data,TRUE
-package#IoT,domain#R-CoPD,domain#Node-Process-Process,TRUE
+package#IoT,domain#R-CoPD,domain#Node-Process-ControlProcess,TRUE
+package#IoT,domain#R-CoPsD,domain#Node-Controller-Controller,TRUE
+package#IoT,domain#R-CoPsD,domain#Node-Data-Data,TRUE
+package#IoT,domain#R-CoPsD,domain#Node-Process-Process,TRUE
 package#IoT,domain#R-HuiThaS,domain#Node-Human-Human,TRUE
 package#IoT,domain#R-HuiThaS,domain#Node-Space-Space,TRUE
 package#IoT,domain#R-HuiThaS,domain#Node-Thing-Thing,TRUE

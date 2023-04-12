@@ -78,8 +78,6 @@ Each must be modelled as a combination of a host device, plus (communicating) pr
 
 To simplify this for SPYDERISK system modeller users, inference rules are used to insert the processes and data for each Thing added to a system model. There are some extra 'surfacing' threats that propagate threat effects from the processes and data to the (asserted) Thing asset, so these effects show up on the visible asset that was added by the user.
 
-There is a known issue ([issue #2](https://github.com/SPYDERISK/domain-network/issues/2) with the surfacing threats, some of which do not discriminate quite well enough between cause and effect. For example, if the control data at an IoT Controller is not authentic, this is treated as equivalent to a loss of control over the Controller. However, the threat does not check that the data was tampering with on its way to the Controller (which would mean the attacker had control), or from the Controller (so it just looks like it is out of control).
-
 ### Clouds
 
 A Data Centre asset can be used to reprsent a collection of servers on a LAN provided by a router in a physical location. This in itself does not represent a Cloud data centre - it is just a shorthand allowing this bunch of assets to be added as one.

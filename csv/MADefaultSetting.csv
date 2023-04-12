@@ -396,6 +396,7 @@ package#IoT,domain#MADS-LossOfReliability-SensorProcess,domain#SensorProcess,dom
 package#IoT,domain#MADS-LossOfResourceTW-Controller,domain#Controller,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfResourceTW-Sensor,domain#Sensor,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfTimeliness-ControlProcess,domain#ControlProcess,domain#LossOfTimeliness,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfTimeliness-Sensor,domain#Sensor,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfTimeliness-SensorProcess,domain#SensorProcess,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfUserTW-Controller,domain#Controller,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfUserTW-ControlProcess,domain#ControlProcess,domain#LossOfUserTW,domain#ImpactLevelNegligible
@@ -803,6 +804,7 @@ package#Privacy,domain#MADS-LossOfResourceTW-HealthSensor,domain#HealthSensor,do
 package#Privacy,domain#MADS-LossOfTimeliness-BiometricData,domain#BiometricData,domain#LossOfTimeliness,domain#ImpactLevelLow
 package#Privacy,domain#MADS-LossOfTimeliness-GeneticData,domain#GeneticData,domain#LossOfTimeliness,domain#ImpactLevelLow
 package#Privacy,domain#MADS-LossOfTimeliness-HealthData,domain#HealthData,domain#LossOfTimeliness,domain#ImpactLevelMedium
+package#Privacy,domain#MADS-LossOfTimeliness-HealthSensor,domain#HealthSensor,domain#LossOfTimeliness,domain#ImpactLevelMedium
 package#Privacy,domain#MADS-LossOfUserTW-HealthSensor,domain#HealthSensor,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Privacy,domain#MADS-MalwareInfection-BiometricData,domain#BiometricData,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Privacy,domain#MADS-MalwareInfection-GeneticData,domain#GeneticData,domain#MalwareInfection,domain#ImpactLevelNegligible
