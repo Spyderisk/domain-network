@@ -1607,9 +1607,9 @@ package#NetworkConnectivity,domain#CAS-DisableGatewayRoute-NATSegment,domain#NAT
 package#NetworkConnectivity,domain#CAS-DisableGatewayRoute-OpenSegment,domain#OpenSegment,domain#DisableGatewayRoute,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DisableInterface-Interface,domain#Interface,domain#DisableInterface,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-ClosedSegment,domain#ClosedSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-Interface,domain#Interface,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#NetworkConnectivity,domain#CAS-FWBlock-NATSegment,domain#NATSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#CAS-FWBlock-NATSegment,domain#NATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-OpenSegment,domain#OpenSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Physical,domain#CAS-BiometricLock-PrivateSpace,domain#PrivateSpace,domain#BiometricLock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Physical,domain#CAS-ChipAndPINLock-PrivateSpace,domain#PrivateSpace,domain#ChipAndPINLock,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1750,8 +1750,8 @@ package#ProcessComms,domain#CAS-DisableServiceAccess-Interface,domain#Interface,
 package#ProcessComms,domain#CAS-DisableServiceAccess-MeshRoutingSegment,domain#MeshRoutingSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableServiceAccess-NATSegment,domain#NATSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableServiceAccess-OpenSegment,domain#OpenSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#ProcessComms,domain#CAS-DisableServiceAccess-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#ProcessComms,domain#CAS-DisableServiceAccess-TetheringSegment,domain#TetheringSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#CAS-DisableServiceAccess-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#CAS-DisableServiceAccess-TetheringSegment,domain#TetheringSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableServiceChannel-ServiceChannel,domain#ServiceChannel,domain#DisableServiceChannel,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-FormalVerification-ServiceProxy,domain#ServiceProxy,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-HomomorphicEncryption-ServiceProxy,domain#ServiceProxy,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
