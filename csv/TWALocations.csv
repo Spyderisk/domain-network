@@ -26,6 +26,7 @@ package#DataLifecycle,domain#OutOfService,domain#DataAsset
 package#DataLifecycle,domain#Timeliness,domain#DataAsset
 package#IoT,domain#Authenticity,domain#Sensor
 package#IoT,domain#Integrity,domain#Sensor
+package#IoT,domain#Timeliness,domain#Sensor
 package#Network,domain#Availability,domain#DataCentre
 package#Network,domain#Availability,domain#Host
 package#Network,domain#Availability,domain#NetworkAsset

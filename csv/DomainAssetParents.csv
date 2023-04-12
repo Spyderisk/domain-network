@@ -265,13 +265,13 @@ package#Network,domain#Workstation,domain#GeneralHost
 package#Network,domain#Workstation,domain#HostPalette
 package#NetworkConnectivity,domain#ClosedSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#CommsAsset,domain#NetworkAsset
+package#NetworkConnectivity,domain#DeNATSegment,domain#LogicalRoute
 package#NetworkConnectivity,domain#Interface,domain#CommsAsset
 package#NetworkConnectivity,domain#LogicalPath,domain#CommsAsset
 package#NetworkConnectivity,domain#LogicalRoute,domain#LogicalSegment
 package#NetworkConnectivity,domain#LogicalSegment,domain#CommsAsset
 package#NetworkConnectivity,domain#NATSegment,domain#LogicalRoute
 package#NetworkConnectivity,domain#NetworkPath,domain#LogicalPath
-package#NetworkConnectivity,domain#OpenSegment,domain#ClosedSegment
 package#NetworkConnectivity,domain#OpenSegment,domain#LogicalRoute
 package#NetworkConnectivity,domain#PhysicalPath,domain#LogicalPath
 package#NetworkConnectivityInference,domain#NetworkInferenceAsset,core#Asset

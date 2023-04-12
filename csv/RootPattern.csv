@@ -211,7 +211,8 @@ package#GDPR,domain#R-HuSDPoS,HuSDPoS,"Finds a Stakeholder operating a Process t
 package#GDPR,domain#R-HuSDPS,HuSDPS,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject.,FALSE,FALSE
 package#GDPR,domain#R-NDFHu,NDFHu,Finds nationally regulated personal data being transferred across a border.,FALSE,FALSE
 package#IoT,domain#R-Co,Co,Finds a solo Controller.,FALSE,FALSE
-package#IoT,domain#R-CoPD,CoPD,Finds a Controller with its onboard process and data.,FALSE,FALSE
+package#IoT,domain#R-CoPD,CoPD,Finds a Controller with its onboard data and the control process that uses this data to control physical processes.,FALSE,FALSE
+package#IoT,domain#R-CoPsD,CoPsD,Finds a Controller with its onboard data and the process that serves the data making it available to external clients.,FALSE,FALSE
 package#IoT,domain#R-HuiThaS,HuiThaS,Finds a Human that uses an IoT Thing and has access to a space.,FALSE,FALSE
 package#IoT,domain#R-HuiUCo,HuiUCo,"Finds a Human interacting with an IoT Controller, plus its onboard data and processing.",FALSE,FALSE
 package#IoT,domain#R-HuiUSe,HuiUSe,"Finds a Human interacting with an IoT Sensor, plus its onboard data and processing.",FALSE,FALSE
@@ -244,16 +245,16 @@ package#LocalDeviceConnectivity,domain#R-HumHBTTH,HumHBTTH,Finds a Human managin
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,HumHUSBTH,Finds a TrivialHost paired via Bluetooth with another host managed by a Human.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HUSBTHS,HUSBTHS,Finds a Host in a Space that accepts pairing via USB with a TrivialHost.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L13SSg2,L13SSg2,"Finds a gateway from a layer 1 subnet (i.e. Bluetooth or USB connection) via a gateway to an IP subnet, along with the forward and return path segments via the gateway.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L13SSg2AC,L13SSg2AC,"Finds a gateway from a layer 1 subnet (i.e. Bluetooth or USB connection) via a gateway to an IP subnet, along with the forward and return path segments via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host with a pairing connection that is also connected to an IP subnet, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1rGcL3,L1rGcL3,"Finds a Bluetooth or USB device connected from a host to an IP subnet, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,L1SSg2,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L31SSg2,L31SSg2,"Finds a gateway from an IP subnet via a gateway to a layer 1 subnet (i.e. Bluetooth or USB connection), along with the forward and return path segments via the gateway.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L31SSg2AC,L31SSg2AC,"Finds a gateway from an IP subnet via a gateway to a layer 1 subnet (i.e. Bluetooth or USB connection), along with the forward and return path segments via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the segment asset representing the path via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,L3cGcL1,"Finds a Physical Host gateway on an IP subnet with a paring connection, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGrL1,L3cGrL1,"Finds a USB/Bluetooth device connected from an IP subnet to a Host, all in the same space.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-LTethSg2,LTethSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-LTethSg2AC,LTethSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-LTRevSg2,LTRevSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a reverse tethered gateway to an IP subnet, and the forward path segment via the gateway.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-LTRevSg2AC,LTRevSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a reverse tethered gateway to an IP subnet, and the forward path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDpP,UHDpP,Finds Data stored on a USB Device paired with a USB Host which is running a process that handles the data.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDrP,UHDrP,"Finds Data stored on a USB Device paired with a USB Host, where the data is used by a Process running on some host.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDSrP,UHDSrP,"Finds Data stored on a USB Device paired with a USB Host running a service for the Data, where the data is used by a Process running on some host.",FALSE,FALSE
@@ -261,6 +262,7 @@ package#LocalDeviceConnectivity,domain#R-UHS,UHS,Finds a USB Host located in a S
 package#LocalDeviceConnectivity,domain#R-UPcGrUP,UPcGrUP,Finds a possible USB hub between a USB device and a USB host (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UPrGcUP,UPrGcUP,Finds a possible USB hub between a USB host and a USB device (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-USBD,USBD,Finds Data stored on a USB device.,FALSE,FALSE
+package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,LPLRTSg,Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet.,FALSE,FALSE
 package#Network,domain#R-AC,AC,Finds a solo AuthClient.,FALSE,FALSE
 package#Network,domain#R-AS,AS,Finds a solo authentication/authorisation service.,FALSE,FALSE
 package#Network,domain#R-C,C,Finds a Host that represents a virtual or physical cluster.,FALSE,FALSE
@@ -413,23 +415,19 @@ package#NetworkConnectivity,domain#R-HSRS,HSRS,Finds a host located in a space c
 package#NetworkConnectivity,domain#R-HSWS,HSWS,Finds a host located in a space connecting to a wired subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-HWSGS,HWSGS,"Finds a client host connecting to a wired network, and a gateway host located in a space that is providing the network.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-I,I,Finds an Interface.,FALSE,FALSE
-package#NetworkConnectivity,domain#R-I3cGcL3,I3cGcL3,"Finds a Host connected from the Internet to an IP subnet, both in the same space.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-I3cMcL3,I3cMcL3,"Finds a Mobile Client host connected from the Internet to an IP subnet, both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-ILSA,ILSA,Finds an Interface connecting to a Logical Subnet that implements an Abstract Subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-INC,INC,"Finds a solo Interface, plus the associated host, subnet, and a host network access context where the interface is connected.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-IoH,IoH,"Finds an open network path from the Internet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3cGcL3,L3cGcL3,"Finds a Host connected from an IP subnet to an IP subnet, both in the same space.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3cGrL3,L3cGrL3,"Finds a Host connected from an IP subnet to an IP subnet that it provides, both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3rGcL3,L3rGcL3,"Finds a Host connected from an IP subnet to an IP subnet, the former being provided by the Host, and both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3rGrL3,L3rGrL3,"Finds a Host providing two IP subnets, both in the same space.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-L3SSg2,L3SSg2,"Finds a gateway from an IP subnet to a distinct IP subnet, along with the forward and (open) return path segments via the gateway.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-L3SSg2AC,L3SSg2AC,"Finds a gateway from an IP subnet to a distinct IP subnet, along with the forward and (open) return path segments via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2,L3SSg2,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2+b,L3SSg2+b,"Finds a gateway from one IP subnet to a second IP subnet, along with the segment asset representing the route via the gateway, where this route is blocked by default.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2AC,L3SSg2AC,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LoH,LoH,"Detects a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-LPCSg,LPCSg,Finds a logical path traversing a closed segment.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,FALSE,FALSE
-package#NetworkConnectivity,domain#R-LS2NSg2,LS2NSg2,Finds a route between subnets through a gateway where NAT is used on the return path.,FALSE,FALSE
-package#NetworkConnectivity,domain#R-LS2NSg2AC,LS2NSg2AC,"Finds a route between subnets through a gateway where NAT is used on the return path, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-LS2RSg2,LS2RSg2,Finds a route between subnets through a gateway where NAT is not used on the return path.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NoH,NoH,"Finds an open network path from a remote attacker subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP,NP,Finds a network path (which may or may not be physical).,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NPLS,NPLS,Finds a network path that starts and ends on the same logical subnet.,FALSE,TRUE
