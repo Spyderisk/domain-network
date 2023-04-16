@@ -349,10 +349,6 @@ package#Network,domain#MP-HuoH-m,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
 package#Network,domain#MP-HuSP,domain#Node-MUA-SMSClient,FALSE,TRUE,FALSE
 package#Network,domain#MP-HuwStmH-St,domain#Node-Operator-Stakeholder,FALSE,TRUE,FALSE
 package#Network,domain#MP-HuwStmP-St,domain#Node-Operator-Stakeholder,FALSE,TRUE,FALSE
-package#Network,domain#MP-LnScPSHS2AC,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
-package#Network,domain#MP-LnScPSHS2AC,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
-package#Network,domain#MP-LnScSHS2AC,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
-package#Network,domain#MP-LnScSHS2AC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-LnSuP-H,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-LS-prH,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-MHHS,domain#Node-HostAccess-HostNetContext,TRUE,FALSE,FALSE
@@ -368,8 +364,6 @@ package#Network,domain#MP-PHS-iC,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-PMHHS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-PMHHS,domain#Node-ProcAccess-ProcNetContext,TRUE,FALSE,FALSE
 package#Network,domain#MP-PnH,domain#Node-Host-Host,FALSE,TRUE,FALSE
-package#Network,domain#MP-PSHS2AC,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
-package#Network,domain#MP-PSHS2AC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-Rr-LnS,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#Network,domain#MP-RSSH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-RSSH,domain#Node-Process-Process,FALSE,FALSE,FALSE
@@ -383,6 +377,12 @@ package#Network,domain#MP-SHAC,domain#Node-HostNetContext-HostNetContext,FALSE,F
 package#Network,domain#MP-SHACPmAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-SHACPmAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-SHACPmAC,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
+package#Network,domain#MP-SHLnSACPmAC,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
+package#Network,domain#MP-SHLnSACPmAC,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
+package#Network,domain#MP-SHmACPAC,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
+package#Network,domain#MP-SHmACPAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#Network,domain#MP-SHmACRLnSAC,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
+package#Network,domain#MP-SHmACRLnSAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-SH-mHu,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
 package#Network,domain#MP-SHP,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-SHP,domain#Node-Human-Human,FALSE,FALSE,FALSE
@@ -749,6 +749,7 @@ package#Virtualisation,domain#MP-CVHHHoDC,domain#Node-DataCentre-DataCentre,FALS
 package#Virtualisation,domain#MP-DCCVH-LS,domain#Node-LogicalSubnet-LogicalSubnet,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-DCVHVS-H,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-GdHVS,domain#Node-Process-Process,FALSE,FALSE,FALSE
+package#Virtualisation,domain#MP-HACVHmAC,domain#Node-ToContext-HContext,TRUE,FALSE,FALSE
 package#Virtualisation,domain#MP-HumHVH-Hu,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-HVH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Virtualisation,domain#MP-ImHCf,domain#Node-HostChannel-HostChannel,TRUE,FALSE,FALSE
@@ -763,7 +764,6 @@ package#Virtualisation,domain#MP-SgmHC,domain#Node-HostChannel-HostChannel,TRUE,
 package#Virtualisation,domain#MP-VC2HmHC,domain#Node-HostChannel-HostChannel,TRUE,FALSE,FALSE
 package#Virtualisation,domain#MP-VC2HmSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#Virtualisation,domain#MP-VHHHoDC,domain#Node-DataCentre-DataCentre,FALSE,FALSE,FALSE
-package#Virtualisation,domain#MP-VHHS2AC,domain#Node-ToContext-HContext,TRUE,FALSE,FALSE
 package#Virtualisation,domain#MP-VHHsD-HsS-S,domain#Node-DB-Process,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-VHHsD-HsS-S,domain#Node-SHost-Host,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-VHPhDHS-HsS-S,domain#Node-SHost-Host,FALSE,TRUE,FALSE

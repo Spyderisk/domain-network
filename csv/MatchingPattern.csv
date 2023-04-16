@@ -411,8 +411,6 @@ package#Network,domain#MP-HuwStmP-St,HuwStmP-St,"Finds a Human working for an Em
 package#Network,domain#MP-IcP,IcP,Finds a Process controlling an Internet class subnet.,domain#R-IcP,FALSE,FALSE
 package#Network,domain#MP-InternetMP,InternetMP,Finds an Internet class network.,domain#R-Internet,FALSE,FALSE
 package#Network,domain#MP-IpH,IpH,Finds a Host providing an Internet class subnet.,domain#R-IpH,FALSE,FALSE
-package#Network,domain#MP-LnScPSHS2AC,LnScPSHS2AC,"Finds a remote access service controlling a process running on a shell host in a space, and a location access context to the remote access service, related process access contexts and optionally the process manager.",domain#R-LnScPSHSAC,FALSE,TRUE
-package#Network,domain#MP-LnScSHS2AC,LnScSHS2AC,"Finds a remote access service controlling a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-LnScSHSAC,FALSE,FALSE
 package#Network,domain#MP-LnSucP,LnSucP,"Finds a remote access service using a back end process which controls access to the remote access service. This situation is a logical impossibility, as to use another service from a remote access service, the user must login to the remote access service.",domain#R-LnSucP,FALSE,FALSE
 package#Network,domain#MP-LnSuP-H,LnSuP-H,Finds a login service using a process where the two do not have the same Host.,domain#R-LnSuP,FALSE,FALSE
 package#Network,domain#MP-LS,LS,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
@@ -436,7 +434,6 @@ package#Network,domain#MP-PH-S,PH-S,Finds a physical host that is not located in
 package#Network,domain#MP-PHS-iC,PHS-iC,"Finds a Physical Host that is not a Cluster located in a Space, and optionally the host manager and interactive user.",domain#R-PHS,FALSE,FALSE
 package#Network,domain#MP-PMHHS,PMHHS,"Finds a non-trivial Process running on a host whose physical host is a Mobile Console Host that may be located in a Space, plus associated process network access contexts from that Space, and optionally an interactive Process user.",domain#R-PMHHS,FALSE,FALSE
 package#Network,domain#MP-PnH,PnH,Finds a Process with no Host.,domain#R-P,FALSE,FALSE
-package#Network,domain#MP-PSHS2AC,PSHS2AC,"Finds a process running on a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-PSHS2AC,FALSE,FALSE
 package#Network,domain#MP-PS-iH,PS-iH,Finds a solo Physical Subnet that is not a hotspot.,domain#R-PS,FALSE,FALSE
 package#Network,domain#MP-RAC,RAC,Finds a remote access client.,domain#R-RAC,FALSE,FALSE
 package#Network,domain#MP-RAS,RAS,Finds a remote access service.,domain#R-RAS,FALSE,FALSE
@@ -451,6 +448,9 @@ package#Network,domain#MP-SH,SH,Finds a Shell Host (i.e. a host that allows user
 package#Network,domain#MP-SHAC,SHAC,"Finds a Shell Host plus optionally its manager, and an associated access context.",domain#R-SHAC,FALSE,FALSE
 package#Network,domain#MP-SHACPmAC,SHACPmAC,"Finds a process running on a shell host in a space and the host location access context, with all related process location and network access contexts where the host is normally in that location or connected to that network.",domain#R-SHACP,FALSE,FALSE
 package#Network,domain#MP-SHGP,SHGP,Finds a simple host running a general process.,domain#R-SHGP,FALSE,FALSE
+package#Network,domain#MP-SHLnSACPmAC,SHLnSACPmAC,"Finds a remote access service controlling a process running on a shell host in a space, and a location access context to the remote access service, related process access contexts and optionally the process manager.",domain#R-SHLnSACP,FALSE,TRUE
+package#Network,domain#MP-SHmACPAC,SHmACPAC,"Finds a process running on a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-SHPAC,FALSE,FALSE
+package#Network,domain#MP-SHmACRLnSAC,SHmACRLnSAC,"Finds a remote access service controlling a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-SHRLnSAC,FALSE,FALSE
 package#Network,domain#MP-SH-mHu,SH-mHu,Finds a Shell Host that has no manager.,domain#R-SH,FALSE,FALSE
 package#Network,domain#MP-SHP,SHP,"Finds a Process running on a shell Host, and optionally the interactive process user and host manager.",domain#R-SHP,FALSE,FALSE
 package#Network,domain#MP-SHP-iT,SHP-iT,"Finds a non-trivial Process running on a shell Host, and optionally the interactive process user and host manager.",domain#R-SHP,FALSE,FALSE
@@ -748,6 +748,7 @@ package#Virtualisation,domain#MP-DCVHVS-H,DCVHVS-H,Finds a Host that is physical
 package#Virtualisation,domain#MP-EH,EH,Finds a solo elastically scalable host.,domain#R-EH,FALSE,FALSE
 package#Virtualisation,domain#MP-GdHVS,GdHVS,"Finds a gateway providing a virtual subnet to which a distinct host is connected, and optionally a process controlling access to the subnet.",domain#R-GHVS,FALSE,FALSE
 package#Virtualisation,domain#MP-H2dPH2,H2dPH2,"Finds two hosts on a virtual subnet with distinct physical hosts, between which the virtualised communication must flow.",domain#R-H2dPH2,FALSE,FALSE
+package#Virtualisation,domain#MP-HACVHmAC,HACVHmAC,"Finds a host in a space provisioning a virtual host, and a location access context for the first host, plus all related access contexts for the virtual host.",domain#R-HACVH,FALSE,FALSE
 package#Virtualisation,domain#MP-HCLSg,HCLSg,"Finds a host channel that traverses a logical segment, along with the inbound and outbound interfaces to the segment host.",domain#R-HCLSg,FALSE,FALSE
 package#Virtualisation,domain#MP-HL,HL,Finds a solo HostLAN,domain#R-HL,FALSE,FALSE
 package#Virtualisation,domain#MP-HuiVH,HuiVH,Finds a Human interacting with a Virtual Host (which is not possible).,domain#R-HuiVH,FALSE,FALSE
@@ -776,7 +777,6 @@ package#Virtualisation,domain#MP-VH2H-a,VH2H-a,Finds three virtual hosts in a ch
 package#Virtualisation,domain#MP-VHH2,VHH2,Finds a VirtualHost provisioned at a Host for which it is also on the path to a physical host.,domain#R-VHH2,FALSE,TRUE
 package#Virtualisation,domain#MP-VHH3,VHH3,Finds a virtual host provisioned by two distinct hosts.,domain#R-VHH3,FALSE,FALSE
 package#Virtualisation,domain#MP-VHHHoDC,VHHHoDC,"Finds a Virtual Host (role Host) provisioned at a Host (SHost), where the Virtual Host may optionally be provisioned by a Data Centre.",domain#R-VHHH,FALSE,FALSE
-package#Virtualisation,domain#MP-VHHS2AC,VHHS2AC,"Finds a host in a space provisioning a virtual host, and a location access context for the first host, plus all related access contexts for the virtual host.",domain#R-VHHS2AC,FALSE,FALSE
 package#Virtualisation,domain#MP-VHHsD-HsS-S,VHHsD-HsS-S,"Finds a Virtual Host above another Host in a virtualisation stack where both store the same Data, there is no lower level host in the stack that also stores the data, and the second host does not run a Process that serves the Data.",domain#R-VHHsD,FALSE,FALSE
 package#Virtualisation,domain#MP-VHPH,VHPH,Finds a virtual host provisioned by a physical host.,domain#R-VHPH,FALSE,FALSE
 package#Virtualisation,domain#MP-VHPhDHS-HsS-S,VHPhDHS-HsS-S,"Finds a Virtual Host running a Process that handles Data but does not access it via a service, where its host is in a virtualisation stack above a second Host running a service for the Data, and there is no host between the two in the virtualisation stack running a Process that Serves the Data.",domain#R-VHPhDHS,FALSE,FALSE

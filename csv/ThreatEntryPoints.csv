@@ -113,8 +113,8 @@ package#Network,domain#H.L.HmAC.1,domain#TWAS-ExternalUserTW-Host
 package#Network,domain#H.L.HuiHoSt.1,domain#TWAS-Benevolence-Human
 package#Network,domain#H.L.HuiHSt.1,domain#TWAS-Astuteness-Human
 package#Network,domain#H.L.HuiHSt.1,domain#TWAS-Benevolence-Employer
-package#Network,domain#H.L.PSHS2AC.1,domain#TWAS-UserTW-ProcAccess
 package#Network,domain#H.L.SHAC.1,domain#TWAS-Control-HostAccess
+package#Network,domain#H.L.SHmACPAC.1,domain#TWAS-UserTW-ProcAccess
 package#Network,domain#H.M.CHS.3.1,domain#TWAS-OccupantTW-Space
 package#Network,domain#H.M.HmAC.1.1,domain#TWAS-ResourceTW-Host
 package#Network,domain#H.M.HmAC.1.2,domain#TWAS-ExternalControl-Host
@@ -123,8 +123,8 @@ package#Network,domain#H.M.HumCHS-iP.3.2,domain#TWAS-OccupantTW-Space
 package#Network,domain#H.M.HumHoSt.1,domain#TWAS-Benevolence-HostManager
 package#Network,domain#H.M.HumHSt.1,domain#TWAS-Astuteness-HostManager
 package#Network,domain#H.M.HumHSt.1,domain#TWAS-Benevolence-Employer
-package#Network,domain#H.M.LnScSHS2AC.1,domain#TWAS-OutOfService-RemoteAccessService
-package#Network,domain#H.M.LnScSHS2AC.1,domain#TWAS-UserTW-ProcAccess
+package#Network,domain#H.M.SHmACRLnSAC.1,domain#TWAS-OutOfService-RemoteAccessService
+package#Network,domain#H.M.SHmACRLnSAC.1,domain#TWAS-UserTW-ProcAccess
 package#Network,domain#H.RTW.DCH.1,domain#TWAS-ResourceTW-DataCentre
 package#Network,domain#H.RTW.StH.1,domain#TWAS-Benevolence-Operator
 package#Network,domain#H.U.H.5,domain#TWAS-IntrinsicTW-Host
@@ -175,9 +175,9 @@ package#Network,domain#P.L.HuiPCHS-iP.3.3,domain#TWAS-OccupantTW-Space
 package#Network,domain#P.L.HuiPoSt.1,domain#TWAS-Benevolence-Human
 package#Network,domain#P.L.HuiPSt.1,domain#TWAS-Astuteness-Human
 package#Network,domain#P.L.HuiPSt.1,domain#TWAS-Benevolence-Employer
-package#Network,domain#P.L.LnScPSHS2AC.1,domain#TWAS-OutOfService-RemoteAccessService
-package#Network,domain#P.L.LnScPSHS2AC.1,domain#TWAS-UserTW-AccessContext
 package#Network,domain#P.L.SHACPmAC.1,domain#TWAS-Control-HostAccess
+package#Network,domain#P.L.SHLnSACPmAC.1,domain#TWAS-OutOfService-RemoteAccessService
+package#Network,domain#P.L.SHLnSACPmAC.1,domain#TWAS-UserTW-AccessContext
 package#Network,domain#P.O.HP-iT.5,domain#TWAS-IntrinsicTW-Process
 package#Network,domain#P.U.HP-iT.5,domain#TWAS-IntrinsicTW-Process
 package#Network,domain#P.W.HP-iT.7,domain#TWAS-Health-Host
@@ -480,7 +480,7 @@ package#Virtualisation,domain#LS.L.VSPSH-P.3,domain#TWAS-NetworkUserTW-PhysicalS
 package#Virtualisation,domain#LS.L.VSPSH-P.3,domain#TWAS-OutOfService-LogicalSubnet
 package#Virtualisation,domain#LS.M.LSoLS.1,domain#TWAS-NetworkControl-LogicalSubnet
 package#Virtualisation,domain#SC.C.VSHCmSC.3,domain#TWAS-CommsNotSnoopable-HostChannel
-package#Virtualisation,domain#VH.M.VHHS2AC.1,domain#TWAS-Control-FromContext
+package#Virtualisation,domain#VH.M.HACVHmAC.1,domain#TWAS-Control-FromContext
 package#VulnerabilityCVSS,domain#CC.AuC.DFrXSS.3,domain#TWAS-Authenticity-DataFlow
 package#VulnerabilityCVSS,domain#CC.AuC.DFrXSS.3,domain#TWAS-Extrinsic-XS-TW-Service
 package#VulnerabilityCVSS,domain#CC.AuC.DFrXSS.3,domain#TWAS-OutOfService-DataFlow
