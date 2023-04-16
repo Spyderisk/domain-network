@@ -290,8 +290,8 @@ package#Network,domain#P.L.HuiPSt.1,domain#MS-LossOfUserTW-ProcAccess
 package#Network,domain#P.L.HuiPSt.1,domain#MS-LossOfUserTW-Process
 package#Network,domain#P.L.LnScPSHS2AC.1,domain#MS-LossOfUserTW-ProcAccess
 package#Network,domain#P.L.LnScPSHS2AC.1,domain#MS-LossOfUserTW-Process
-package#Network,domain#P.L.SHPS2AC.1,domain#MS-LossOfUserTW-ProcAccess
-package#Network,domain#P.L.SHPS2AC.1,domain#MS-LossOfUserTW-Process
+package#Network,domain#P.L.SHACPmAC.1,domain#MS-LossOfUserTW-ProcAccess
+package#Network,domain#P.L.SHACPmAC.1,domain#MS-LossOfUserTW-Process
 package#Network,domain#P.O.HP-iT.5,domain#MS-Overloaded-Process
 package#Network,domain#P.U.HP.0,domain#MS-LossOfReliability-Process
 package#Network,domain#P.U.HP-iT.5,domain#MS-LossOfReliability-Process
@@ -570,8 +570,8 @@ package#VulnerabilityCVSS,domain#H.L.HAC.4,domain#MS-LossOfUserTW-HostNetContext
 package#VulnerabilityCVSS,domain#H.M.HAC.4,domain#MS-LossOfControl-Host
 package#VulnerabilityCVSS,domain#H.M.HAC.4,domain#MS-LossOfControl-HostAccess
 package#VulnerabilityCVSS,domain#H.M.HAC.4,domain#MS-LossOfControl-HostNetContext
-package#VulnerabilityCVSS,domain#H.M.PHS2AC.4,domain#MS-LossOfControl-Host
-package#VulnerabilityCVSS,domain#H.M.PHS2AC.4,domain#MS-LossOfControl-HostAccess
+package#VulnerabilityCVSS,domain#H.M.HmACPAC.4,domain#MS-LossOfControl-Host
+package#VulnerabilityCVSS,domain#H.M.HmACPAC.4,domain#MS-LossOfControl-HostAccess
 package#VulnerabilityCVSS,domain#H.V.CHS-iP.3,domain#MS-LossOfExploitTW-Host
 package#VulnerabilityCVSS,domain#H.V.CHS-iP.3,domain#MS-LossOfExploitTW-HostAccess
 package#VulnerabilityCVSS,domain#H.V.HAC.2,domain#MS-LossOfExploitTW-Host
@@ -621,8 +621,8 @@ package#VulnerabilityCVSS,domain#P.V.CCCPNaP.2,domain#MS-LossOfExploitTW-ProcAcc
 package#VulnerabilityCVSS,domain#P.V.CCCPNaP.2,domain#MS-LossOfExploitTW-Process
 package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#MS-LossOfExploitTW-ProcAccess
 package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#MS-LossOfExploitTW-Service
-package#VulnerabilityCVSS,domain#P.V.HPS2AC.2,domain#MS-LossOfExploitTW-ProcAccess
-package#VulnerabilityCVSS,domain#P.V.HPS2AC.2,domain#MS-LossOfExploitTW-Process
+package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#MS-LossOfExploitTW-ProcAccess
+package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#MS-LossOfExploitTW-Process
 package#VulnerabilityCVSS,domain#P.V.OCAPLaS.2,domain#MS-LossOfExploitTW-ProcAccess
 package#VulnerabilityCVSS,domain#P.V.OCAPLaS.2,domain#MS-LossOfExploitTW-Service
 package#VulnerabilityCVSS,domain#P.V.OCAPNoS.2,domain#MS-LossOfExploitTW-ProcAccess

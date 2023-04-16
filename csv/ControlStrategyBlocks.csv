@@ -274,7 +274,7 @@ package#Network,domain#CSG-ChipAndPinAccessControlAtHost,domain#P.L.HuiPCHS-iP.3
 package#Network,domain#CSG-ChipAndPinCardAccessToHost,domain#P.A.HuiHP.6
 package#Network,domain#CSG-ChipAndPinCardAccessToSpace,domain#P.A.HuiHPSP.6
 package#Network,domain#CSG-ContinuouslyObservedHost,domain#H.J.PHS-iC.3
-package#Network,domain#CSG-ContinuousUserAuthentication,domain#P.L.SHPS2AC.1
+package#Network,domain#CSG-ContinuousUserAuthentication,domain#P.L.SHACPmAC.1
 package#Network,domain#CSG-DeprioritisedProcess-Runtime,domain#H.O.HP-iT.0
 package#Network,domain#CSG-DisableGatewayHost-Runtime,domain#LS.IS.HprLSAC.1
 package#Network,domain#CSG-DisableGatewayHost-Runtime,domain#LS.L.RSSH.1
@@ -341,7 +341,7 @@ package#Network,domain#CSG-PhysicalKeyToSpace,domain#P.A.HuiHPSP.6
 package#Network,domain#CSG-PhysicalPatrolsInSpace,domain#H.M.HumCHS-iP.3.2
 package#Network,domain#CSG-PhysicalPatrolsInSpace,domain#P.L.HuiPCHS-iP.3.2
 package#Network,domain#CSG-SecureHostConfig,domain#H.L.CHS-iP.3.1
-package#Network,domain#CSG-SecureProcessExecution,domain#P.L.SHPS2AC.1
+package#Network,domain#CSG-SecureProcessExecution,domain#P.L.SHACPmAC.1
 package#Network,domain#CSG-SoftwareTestingOfHost,domain#H.A.H.5
 package#Network,domain#CSG-SoftwareTestingOfHost,domain#H.U.H.5
 package#Network,domain#CSG-SoftwareTestingOfProcess,domain#P.A.HP-iT.5
@@ -731,11 +731,11 @@ package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.E-VN.HP-iT.8
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.E-W.HP-iT.8
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.E-XS.HP-iT.8
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.V.CCCPNaP.2
-package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.V.HPS2AC.2
+package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.V.HACPmAC.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.W.HPDFDI.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.W.HPDSrDI.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess-Implementation,domain#P.V.CCCPNaP.2
-package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess-Implementation,domain#P.V.HPS2AC.2
+package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess-Implementation,domain#P.V.HACPmAC.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess-Implementation,domain#P.W.HPDFDI.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess-Implementation,domain#P.W.HPDSrDI.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtService,domain#CC.AuC.DFrXSS.3
@@ -856,7 +856,7 @@ package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#DS.Auth.HPD
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#DS.Auth.HPDOdDS.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#DS.C.HPDSrDI.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#DS.C.HPDSr-pDA.4
-package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#H.M.PHS2AC.4
+package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#H.M.HmACPAC.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#P.A.HP-iT.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess,domain#P.L.HPAC.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#DS.A.HPDAdDS.4
@@ -864,7 +864,7 @@ package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Run
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#DS.Auth.HPDOdDS.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#DS.C.HPDSrDI.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#DS.C.HPDSr-pDA.4
-package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#H.M.PHS2AC.4
+package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#H.M.HmACPAC.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#P.A.HP-iT.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableProcess-Implementation-Runtime,domain#P.L.HPAC.4
 package#VulnerabilityCVSS,domain#CSG-SuspendVulnerableService,domain#CC.R.CDBSC.4

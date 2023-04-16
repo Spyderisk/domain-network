@@ -339,6 +339,8 @@ package#Network,domain#MP-FpLSS,FpLSS,Finds a Logical Subnet which is provided b
 package#Network,domain#MP-GH,GH,Finds a General Host (i.e. a host that can run arbitrary processes).,domain#R-GH,FALSE,FALSE
 package#Network,domain#MP-H,H,"Finds a solo Host, with optionally its manager(s) and interactive user(s).",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-HAC,HAC,"Finds a Host in a Space with the associated access context, with optionally its manager, and all related access contexts.",domain#R-HAC,FALSE,FALSE
+package#Network,domain#MP-HACPmAC,HACPmAC,"Finds a process running on a host in a space and the host location access context, with all related process location and network access contexts.",domain#R-HACP,FALSE,FALSE
+package#Network,domain#MP-HACPmNC,HACPmNC,"Finds a process running on a host in a space and the host location access context, with all related process network access contexts.",domain#R-HACP,FALSE,FALSE
 package#Network,domain#MP-HCHLSS,HCHLSS,Finds a Host location access context and the related host and space and one related subnet.,domain#R-HCHLSS,FALSE,FALSE
 package#Network,domain#MP-Hc-pN-hP,Hc-pN-hP,"Finds a Host connected to but not providing an Abstract Subnet, which controlled by a Process not running on the Host.",domain#R-HNP,FALSE,TRUE
 package#Network,domain#MP-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",domain#R-HcWHS,FALSE,FALSE
@@ -349,6 +351,8 @@ package#Network,domain#MP-HLnSP-hCLI,HLnSP-hCLI,Finds a Login Service and a Proc
 package#Network,domain#MP-HLS,HLS,Finds a Host connected to a LogicalSubnet.,domain#R-HLS,FALSE,FALSE
 package#Network,domain#MP-Hm2dHu,Hm2dHu,Finds a host and two distinct humans that manage the host.,domain#R-Hm2Hu,FALSE,FALSE
 package#Network,domain#MP-HmAC,HmAC,"Finds a solo Host plus all location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
+package#Network,domain#MP-HmACPAC,HmACPAC,"Finds a process running on a host in a space and an associated process location access context, plus related host access contexts and optionally the host manager and process user.",domain#R-HPAC,FALSE,FALSE
+package#Network,domain#MP-HmNCPAC,HmNCPAC,"Finds a process running on a host in a space and an associated process location access context, plus related process network access contexts.",domain#R-HPAC,FALSE,FALSE
 package#Network,domain#MP-HP,HP,"Finds a Process and its Host, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
 package#Network,domain#MP-HPAC,HPAC,"Finds a non-trivial Process running on a Host in a Space and the associated process access context, plus optionally the host manager, the interactive process user, and all related access contexts.",domain#R-HPAC,FALSE,FALSE
 package#Network,domain#MP-HPHLS-S,HPHLS-S,"Finds a logical subnet to which is connected a host that directly is or indirectly has a physical host, but the subnet is not accessible from any space where the host can be located. Note that there must be at least one host location, so this threat should not detect inferred routers implementing abstract subnets.",domain#R-HPHLS,FALSE,FALSE
@@ -357,8 +361,6 @@ package#Network,domain#MP-HPmAC,HPmAC,"Finds a Process and its Host with associa
 package#Network,domain#MP-HprL3SAC,HprL3SAC,"Finds a Layer 3 LogicalSubnet provided by a Host, along with an associated network access context.",domain#R-HprL3SAC,FALSE,FALSE
 package#Network,domain#MP-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,domain#R-HprLS,FALSE,FALSE
 package#Network,domain#MP-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,domain#R-HprLSAC,FALSE,FALSE
-package#Network,domain#MP-HPS2AC,HPS2AC,"Finds a non-trivial process running on a host in a space and the host location access context, with all related process access contexts, and optionally the host manager and process user.",domain#R-HPS2AC,FALSE,FALSE
-package#Network,domain#MP-HPS2NC,HPS2NC,"Finds a process running on a host in a space and the host location access context, with all related process network access contexts.",domain#R-HPS2AC,FALSE,FALSE
 package#Network,domain#MP-HRASuSC,HRASuSC,Finds a Client using a Process via a Remote Access Service on the same Host.,domain#R-HRASuSC,FALSE,FALSE
 package#Network,domain#MP-HuCurHRASuP,HuCurHRASuP,Finds a Human using a Remote Access Client to access a Process via a collocated Remote Access Service.,domain#R-HuCurHRASuP,FALSE,FALSE
 package#Network,domain#MP-HuCurHRASuPurS,HuCurHRASuPurS,Finds a Human using a Remote Access Client to access a Service via a Remote Access Service and collocated Process.,domain#R-HuCurHRASuPurS,FALSE,FALSE
@@ -431,8 +433,6 @@ package#Network,domain#MP-PHHS,PHHS,"Finds a host that directly is or indirectly
 package#Network,domain#MP-PHLSS,PHLSS,Finds a host that has or directly is a physical host in a space and is connected to a logical subnet accessible from that space (other than an abstract hotspot).,domain#R-PHLSS,FALSE,FALSE
 package#Network,domain#MP-PHS,PHS,"Finds a Physical Host located in a Space, and optionally the host manager and interactive user.",domain#R-PHS,FALSE,FALSE
 package#Network,domain#MP-PH-S,PH-S,Finds a physical host that is not located in any space.,domain#R-PH,FALSE,FALSE
-package#Network,domain#MP-PHS2AC,PHS2AC,"Finds a process running on a host in a space and an associated process location access context, plus related host access contexts and optionally the host manager and process user.",domain#R-PHS2AC,FALSE,FALSE
-package#Network,domain#MP-PHS2NC,PHS2NC,"Finds a process running on a host in a space and an associated process location access context, plus related process network access contexts.",domain#R-PHS2AC,FALSE,FALSE
 package#Network,domain#MP-PHS-iC,PHS-iC,"Finds a Physical Host that is not a Cluster located in a Space, and optionally the host manager and interactive user.",domain#R-PHS,FALSE,FALSE
 package#Network,domain#MP-PMHHS,PMHHS,"Finds a non-trivial Process running on a host whose physical host is a Mobile Console Host that may be located in a Space, plus associated process network access contexts from that Space, and optionally an interactive Process user.",domain#R-PMHHS,FALSE,FALSE
 package#Network,domain#MP-PnH,PnH,Finds a Process with no Host.,domain#R-P,FALSE,FALSE
@@ -449,11 +449,11 @@ package#Network,domain#MP-RTuRAS,RTuRAS,Finds a remote terminal client using a r
 package#Network,domain#MP-RTuRTuS-uR,RTuRTuS-uR,Finds a remote terminal using remotely another remote terminal which is using remotely a third process that is not yet remotely used by the first.,domain#R-RTuRTuS,FALSE,FALSE
 package#Network,domain#MP-SH,SH,Finds a Shell Host (i.e. a host that allows user commands with the rights of the administrator or some user/process).,domain#R-SH,FALSE,FALSE
 package#Network,domain#MP-SHAC,SHAC,"Finds a Shell Host plus optionally its manager, and an associated access context.",domain#R-SHAC,FALSE,FALSE
+package#Network,domain#MP-SHACPmAC,SHACPmAC,"Finds a process running on a shell host in a space and the host location access context, with all related process location and network access contexts where the host is normally in that location or connected to that network.",domain#R-SHACP,FALSE,FALSE
 package#Network,domain#MP-SHGP,SHGP,Finds a simple host running a general process.,domain#R-SHGP,FALSE,FALSE
 package#Network,domain#MP-SH-mHu,SH-mHu,Finds a Shell Host that has no manager.,domain#R-SH,FALSE,FALSE
 package#Network,domain#MP-SHP,SHP,"Finds a Process running on a shell Host, and optionally the interactive process user and host manager.",domain#R-SHP,FALSE,FALSE
 package#Network,domain#MP-SHP-iT,SHP-iT,"Finds a non-trivial Process running on a shell Host, and optionally the interactive process user and host manager.",domain#R-SHP,FALSE,FALSE
-package#Network,domain#MP-SHPS2AC,SHPS2AC,"Finds a process running on a shell host in a space, and a location access context to the host, associated process access contexts and optionally the process user and host manager.",domain#R-SHPS2AC,FALSE,FALSE
 package#Network,domain#MP-SHuPH-Hu,SHuPH-Hu,Finds a Human managing a Space in which an unmanaged Fixed Host is located.,domain#R-SHuPH,FALSE,FALSE
 package#Network,domain#MP-StDC,StDC,Finds a stakeholder operating a data centre.,domain#R-StDC,FALSE,FALSE
 package#Network,domain#MP-StH,StH,Finds a stakeholder operating a Host.,domain#R-StH,FALSE,FALSE

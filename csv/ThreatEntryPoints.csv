@@ -177,7 +177,7 @@ package#Network,domain#P.L.HuiPSt.1,domain#TWAS-Astuteness-Human
 package#Network,domain#P.L.HuiPSt.1,domain#TWAS-Benevolence-Employer
 package#Network,domain#P.L.LnScPSHS2AC.1,domain#TWAS-OutOfService-RemoteAccessService
 package#Network,domain#P.L.LnScPSHS2AC.1,domain#TWAS-UserTW-AccessContext
-package#Network,domain#P.L.SHPS2AC.1,domain#TWAS-Control-HostAccess
+package#Network,domain#P.L.SHACPmAC.1,domain#TWAS-Control-HostAccess
 package#Network,domain#P.O.HP-iT.5,domain#TWAS-IntrinsicTW-Process
 package#Network,domain#P.U.HP-iT.5,domain#TWAS-IntrinsicTW-Process
 package#Network,domain#P.W.HP-iT.7,domain#TWAS-Health-Host
@@ -540,9 +540,9 @@ package#VulnerabilityCVSS,domain#H.L.HAC.4,domain#TWAS-OutOfService-Host
 package#VulnerabilityCVSS,domain#H.M.HAC.4,domain#TWAS-ExploitTW-HostAccess
 package#VulnerabilityCVSS,domain#H.M.HAC.4,domain#TWAS-Extrinsic-M-TW-Host
 package#VulnerabilityCVSS,domain#H.M.HAC.4,domain#TWAS-OutOfService-Host
-package#VulnerabilityCVSS,domain#H.M.PHS2AC.4,domain#TWAS-ExploitTW-ProcAccess
-package#VulnerabilityCVSS,domain#H.M.PHS2AC.4,domain#TWAS-Extrinsic-M-TW-Process
-package#VulnerabilityCVSS,domain#H.M.PHS2AC.4,domain#TWAS-OutOfService-Process
+package#VulnerabilityCVSS,domain#H.M.HmACPAC.4,domain#TWAS-ExploitTW-ProcAccess
+package#VulnerabilityCVSS,domain#H.M.HmACPAC.4,domain#TWAS-Extrinsic-M-TW-Process
+package#VulnerabilityCVSS,domain#H.M.HmACPAC.4,domain#TWAS-OutOfService-Process
 package#VulnerabilityCVSS,domain#H.V.CHS-iP.3,domain#TWAS-Extrinsic-AU-TW-Host
 package#VulnerabilityCVSS,domain#H.V.CHS-iP.3,domain#TWAS-Extrinsic-VL-TW-Host
 package#VulnerabilityCVSS,domain#H.V.CHS-iP.3,domain#TWAS-OccupantTW-Space
@@ -641,8 +641,8 @@ package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#TWAS-Extrinsic-AU-TW-Servi
 package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#TWAS-Extrinsic-VN-TW-Service
 package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#TWAS-NetworkUserTW-LogicalSubnet
 package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#TWAS-OutOfService-AttackPath
-package#VulnerabilityCVSS,domain#P.V.HPS2AC.2,domain#TWAS-Extrinsic-VL-TW-Process
-package#VulnerabilityCVSS,domain#P.V.HPS2AC.2,domain#TWAS-UserTW-HostAccess
+package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#TWAS-Extrinsic-VL-TW-Process
+package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#TWAS-UserTW-HostAccess
 package#VulnerabilityCVSS,domain#P.V.OCAPLaS.2,domain#TWAS-ClientAuthenticity-ClientChannel
 package#VulnerabilityCVSS,domain#P.V.OCAPLaS.2,domain#TWAS-Extrinsic-VA-TW-Service
 package#VulnerabilityCVSS,domain#P.V.OCAPLaS.2,domain#TWAS-NetworkUserTW-LogicalSubnet
