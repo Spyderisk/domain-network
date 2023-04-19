@@ -521,7 +521,6 @@ package#DataLifecycle,domain#R-HPDSCDF,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-HPDSCDF,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-HPDSCDF,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HPDSCDF,domain#Node-DataFlow-DataFlow,TRUE
-package#DataLifecycle,domain#R-HPDSCDF,domain#Node-FlowsFrom-Process,TRUE
 package#DataLifecycle,domain#R-HPDSCDF,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycle,domain#R-HPDSCDF,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HPDSCDF,domain#Node-Process-Process,TRUE
@@ -869,6 +868,14 @@ package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-FlowsFrom-Process,TR
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-StepFrom-Process,TRUE
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-StepTo-Process,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-DataExchange-DataExchange,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-DataFlow-DataFlow,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-DataStep-DataStep,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-FlowsFrom-Process,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-FlowsTo-Process,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-ProcAccess-ProcessContext,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-Space-Space,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-StepTo-Process,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-DataExchange-DataExchange,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-DataStep-DataStep,TRUE
@@ -2015,7 +2022,7 @@ package#ProcessComms,domain#R-CCDFFC,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCDFFC,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessComms,domain#R-CCDFFC,domain#Node-Data-Data,TRUE
 package#ProcessComms,domain#R-CCDFFC,domain#Node-DataFlow-DataFlow,TRUE
-package#ProcessComms,domain#R-CCDFFC,domain#Node-FlowsFrom-Process,TRUE
+package#ProcessComms,domain#R-CCDFFC,domain#Node-FlowsFrom-Process,FALSE
 package#ProcessComms,domain#R-CCDFFC,domain#Node-FlowsTo-Process,TRUE
 package#ProcessComms,domain#R-CCDFFC,domain#Node-Host-Host,TRUE
 package#ProcessComms,domain#R-CCDFFC,domain#Node-Service-Process,TRUE
@@ -2024,7 +2031,7 @@ package#ProcessComms,domain#R-CCDFFS,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-Data-Data,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-DataFlow-DataFlow,TRUE
-package#ProcessComms,domain#R-CCDFFS,domain#Node-FlowsFrom-Process,TRUE
+package#ProcessComms,domain#R-CCDFFS,domain#Node-FlowsFrom-Process,FALSE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-FlowsTo-Process,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-SHost-Host,TRUE

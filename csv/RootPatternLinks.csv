@@ -503,7 +503,7 @@ package#DataLifecycle,domain#R-HPDSCDF,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HPDSCDF,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HPDSCDF,domain#Link-DataCopy-copyOf-Data
 package#DataLifecycle,domain#R-HPDSCDF,domain#Link-DataCopy-fulfils-DataFlow
-package#DataLifecycle,domain#R-HPDSCDF,domain#Link-DataFlow-flowsFrom-FlowsFrom
+package#DataLifecycle,domain#R-HPDSCDF,domain#Link-DataFlow-flowsFrom-Process
 package#DataLifecycle,domain#R-HPDSCDF,domain#Link-DataFlow-flowsTo-FlowsTo
 package#DataLifecycle,domain#R-HPDSCDF,domain#Link-Host-hosts-Process
 package#DataLifecycle,domain#R-HPDSCDF,domain#Link-Host-stores-Data
@@ -912,6 +912,15 @@ package#DataLifecycleInference,domain#R-DFDCO4P,domain#Link-DataChannel-toProc-S
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Link-DataFlow-flowsFrom-FlowsFrom
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Link-DataFlow-flowsOut-Data
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Link-DataFlow-flowsTo-FlowsTo
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-DataExchange-connectedIn-ProcAccess
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-DataExchange-connectsData-FlowsFrom
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-DataExchange-connectsData-StepTo
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-DataFlow-flowsFrom-FlowsFrom
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-DataFlow-flowsTo-FlowsTo
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-DataStep-flowsFrom-FlowsFrom
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-DataStep-flowsTo-StepTo
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-ProcAccess-accessFrom-Space
+package#DataLifecycleInference,domain#R-DFFPACS,domain#Link-ProcAccess-accessTo-FlowsFrom
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Link-DataExchange-connectedIn-ProcAccess
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Link-DataExchange-connectsData-FlowsTo
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Link-DataExchange-connectsData-StepFrom

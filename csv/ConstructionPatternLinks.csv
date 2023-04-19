@@ -204,6 +204,9 @@ package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsF
 package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsOut-Data
 package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsTo-StepTo
 package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsViaDC-DataChannel
+package#DataLifecycleInference,domain#CP-DFFPACS+fFI,domain#Link-DataFlow-flowsFromIn-ProcAccess
+package#DataLifecycleInference,domain#CP-DFFPACS+fFI,domain#Link-DataFlow-flowsFromIn-Space
+package#DataLifecycleInference,domain#CP-DFTPACS+fTI,domain#Link-DataFlow-flowsToIn-ProcAccess
 package#DataLifecycleInference,domain#CP-DFTPACS+fTI,domain#Link-DataFlow-flowsToIn-Space
 package#DataLifecycleInference,domain#CP-DI-fDCSDS+ch,domain#Link-DataChannel-dataChannelEnd-DataSource
 package#DataLifecycleInference,domain#CP-DI-fDCSDS+ch,domain#Link-DataChannel-dataChannelFrom-Client

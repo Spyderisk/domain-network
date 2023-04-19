@@ -192,6 +192,7 @@ package#DataLifecycleInference,domain#R-DDDCSDS,DDDCSDS,Finds a data access proc
 package#DataLifecycleInference,domain#R-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DFDCI4P,DFDCI4P,"Finds a Data Flow between two processes, fulfilled a reverse flow along a Data Channel between two possibly intermediate processes.",FALSE,TRUE
 package#DataLifecycleInference,domain#R-DFDCO4P,DFDCO4P,"Finds a Data Flow between two processes, fulfilled a forward flow along a Data Channel between two possibly intermediate processes.",FALSE,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,DFFPACS,Finds a DataFlow from a Process that can flow when (the process host is) in a Space.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DFTPACS,DFTPACS,Finds a DataFlow to a Process that can flow when (the process host is) in a Space.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DIDCSDS,DIDCSDS,"Finds a process using input and acting as a data destination, and having a data channel to a service that can act as a data source.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-DODCSDD,DODCSDD,"Finds a data output process that acts as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE

@@ -1,8 +1,8 @@
 package,URI,affectedBy,affects
-domain#000000,domain#000000,domain#LossOfControl,domain#Control
-package#AccessContext,domain#TWIS-Control-LossOfControl,domain#LossOfControl,domain#Control
+domain#000000,domain#000000,domain#LocalLossOfControl,domain#Control
+package#AccessContext,domain#TWIS-Control-LocalLossOfControl,domain#LocalLossOfControl,domain#Control
 package#AccessContext,domain#TWIS-ExploitTW-LossOfExploitTW,domain#LossOfExploitTW,domain#ExploitTW
-package#AccessContext,domain#TWIS-UserTW-LossOfUserTW,domain#LossOfUserTW,domain#UserTW
+package#AccessContext,domain#TWIS-UserTW-LocalLossOfUserTW,domain#LocalLossOfUserTW,domain#UserTW
 package#Application,domain#TWIS-Authenticity-LossOfAuthenticity,domain#LossOfAuthenticity,domain#Authenticity
 package#Application,domain#TWIS-Confidentiality-LossOfConfidentiality,domain#LossOfConfidentiality,domain#Confidentiality
 package#Application,domain#TWIS-Integrity-LossOfIntegrity,domain#LossOfIntegrity,domain#Integrity
@@ -11,8 +11,6 @@ package#Core,domain#TWIS-DefaultTW-LossOfDefaultTW,domain#LossOfDefaultTW,domain
 package#DataLifecycle,domain#TWIS-Decrypted-NotDecrypted,domain#NotDecrypted,domain#Decrypted
 package#DataLifecycle,domain#TWIS-Encrypted-NotEncrypted,domain#NotEncrypted,domain#Encrypted
 package#Network,domain#TWIS-Capacity-LossOfCapacity,domain#LossOfCapacity,domain#Capacity
-package#Network,domain#TWIS-ExternalControl-LossOfExternalControl,domain#LossOfExternalControl,domain#ExternalControl
-package#Network,domain#TWIS-ExternalUserTW-LossOfExternalUserTW,domain#LossOfExternalUserTW,domain#ExternalUserTW
 package#Network,domain#TWIS-ExtrinsicTW-LossOfExtrinsicTW,domain#LossOfExtrinsicTW,domain#ExtrinsicTW
 package#Network,domain#TWIS-Health-MalwareInfection,domain#MalwareInfection,domain#Health
 package#Network,domain#TWIS-IntrinsicTW-LossOfIntrinsicTW,domain#LossOfIntrinsicTW,domain#IntrinsicTW

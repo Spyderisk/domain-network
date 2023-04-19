@@ -59,10 +59,10 @@ package#DataLifecycle,domain#DF.W.PDFODADFO.0,domain#MS-InService-Process
 package#DataLifecycle,domain#DF.W.PDFODADFO.0,domain#MS-MalwareInfection-DataFlow
 package#DataLifecycle,domain#DS.A.HPDAcDS.0,domain#MS-LossOfAvailability-Process
 package#DataLifecycle,domain#DS.A.HPDOcDS.6,domain#MS-NotDecrypted-DataCopy
-package#DataLifecycle,domain#DS.A.HPDOdDS.6,domain#MS-NotDecrypted-DataCopy
 package#DataLifecycle,domain#DS.A.HPmDFDAcDS.0,domain#MS-LossOfAvailability-InFlow
 package#DataLifecycle,domain#DS.A.HPmDFDAcDS.6.1,domain#MS-NotDecrypted-InFlow
 package#DataLifecycle,domain#DS.A.HPmDFDAcDS.6.2,domain#MS-NotEncrypted-InFlow
+package#DataLifecycle,domain#DS.A.HPsACDOdDS.6,domain#MS-NotDecrypted-DataCopy
 package#DataLifecycle,domain#DS.Auth.HPDFDADS.0,domain#MS-InService-DataFlow
 package#DataLifecycle,domain#DS.Auth.HPDFDADS.0,domain#MS-InService-Process
 package#DataLifecycle,domain#DS.Auth.HPDFDADS.0,domain#MS-LossOfAuthenticity-DataFlow
@@ -122,6 +122,10 @@ package#Network,domain#DC.A.DC.0,domain#MS-TotalLoad-DataCentre
 package#Network,domain#DC.O.DCH.0,domain#MS-Overloaded-Host
 package#Network,domain#H.A.DCH.0,domain#MS-LossOfAvailability-DataCentre
 package#Network,domain#H.A.H.0,domain#MS-Overloaded-Host
+package#Network,domain#H.L.HmAC.0,domain#MS-LocalLossOfUserTW-HostAccess
+package#Network,domain#H.L.HsAC.0,domain#MS-LocalLossOfUserTW-HostAccess
+package#Network,domain#H.M.HmAC.0,domain#MS-LocalLossOfControl-HostAccess
+package#Network,domain#H.M.HsAC.0,domain#MS-LocalLossOfControl-HostAccess
 package#Network,domain#H.O.HP-iT.0,domain#MS-Overloaded-Process
 package#Network,domain#LS.A.HprLS.0,domain#MS-LossOfAvailability-Gateway
 package#Network,domain#LS.A.LS.0,domain#MS-Overloaded-LogicalSubnet

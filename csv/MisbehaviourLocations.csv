@@ -1,8 +1,8 @@
 package,URI,metaLocatedAt
 domain#000000,domain#000000,domain#AccessContext
-package#AccessContext,domain#LossOfControl,domain#AccessContext
+package#AccessContext,domain#LocalLossOfControl,domain#AccessContext
+package#AccessContext,domain#LocalLossOfUserTW,domain#AccessContext
 package#AccessContext,domain#LossOfExploitTW,domain#AccessContext
-package#AccessContext,domain#LossOfUserTW,domain#AccessContext
 package#Application,domain#LossOfAuthenticity,domain#Data
 package#Application,domain#LossOfAvailability,domain#Data
 package#Application,domain#LossOfConfidentiality,domain#Data
@@ -31,6 +31,9 @@ package#IoT,domain#LossOfTimeliness,domain#Sensor
 package#Network,domain#InService,domain#Host
 package#Network,domain#InService,domain#NetworkAsset
 package#Network,domain#InService,domain#Process
+package#Network,domain#LocalLossOfControl,domain#Host
+package#Network,domain#LocalLossOfUserTW,domain#Host
+package#Network,domain#LocalLossOfUserTW,domain#Process
 package#Network,domain#LossOfAvailability,domain#DataCentre
 package#Network,domain#LossOfAvailability,domain#Host
 package#Network,domain#LossOfAvailability,domain#NetworkAsset
@@ -42,9 +45,6 @@ package#Network,domain#LossOfDefaultTW,domain#LogicalSubnet
 package#Network,domain#LossOfDefaultTW,domain#Process
 package#Network,domain#LossOfExploitTW,domain#Host
 package#Network,domain#LossOfExploitTW,domain#Process
-package#Network,domain#LossOfExternalControl,domain#Host
-package#Network,domain#LossOfExternalUserTW,domain#Host
-package#Network,domain#LossOfExternalUserTW,domain#Process
 package#Network,domain#LossOfExtrinsicTW,domain#Host
 package#Network,domain#LossOfExtrinsicTW,domain#Process
 package#Network,domain#LossOfIntrinsicTW,domain#Host
