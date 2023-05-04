@@ -59,7 +59,7 @@ jobs:
         zip -qr domain-model.zip *
 
     - name: Publish to GitHub Packages
-      uses: gradle/gradle-build-action@v2.4.0
+      uses: gradle/gradle-build-action@v2.4.2
       with:
         arguments: publish -PdomainModelArtifact=${{ github.workspace }}/output/domain-model.zip -PprojectVersion=${{ env.VERSION }}
         gradle-version: 6.3
