@@ -192,6 +192,7 @@ package#DataLifecycleInference,domain#R-DDDCSDS,DDDCSDS,Finds a data access proc
 package#DataLifecycleInference,domain#R-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DFDCI4P,DFDCI4P,"Finds a Data Flow between two processes, fulfilled a reverse flow along a Data Channel between two possibly intermediate processes.",FALSE,TRUE
 package#DataLifecycleInference,domain#R-DFDCO4P,DFDCO4P,"Finds a Data Flow between two processes, fulfilled a forward flow along a Data Channel between two possibly intermediate processes.",FALSE,TRUE
+package#DataLifecycleInference,domain#R-DFFPACS,DFFPACS,Finds a DataFlow from a Process that can flow when (the process host is) in a Space.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DFTPACS,DFTPACS,Finds a DataFlow to a Process that can flow when (the process host is) in a Space.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DIDCSDS,DIDCSDS,"Finds a process using input and acting as a data destination, and having a data channel to a service that can act as a data source.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-DODCSDD,DODCSDD,"Finds a data output process that acts as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
@@ -287,6 +288,7 @@ package#Network,domain#R-FpLSS,FpLSS,Finds a Logical Subnet which is provided by
 package#Network,domain#R-GH,GH,Finds a General Host.,FALSE,FALSE
 package#Network,domain#R-H,H,Finds a solo Host.,FALSE,FALSE
 package#Network,domain#R-HAC,HAC,Finds a Host in a Space with the associated access context.,FALSE,FALSE
+package#Network,domain#R-HACP,HACP,Finds a process running on a host in a space and the host location access context.,FALSE,FALSE
 package#Network,domain#R-HCHLSS,HCHLSS,Finds a Host location access context and the related host and space and one related subnet.,FALSE,FALSE
 package#Network,domain#R-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",FALSE,FALSE
 package#Network,domain#R-HHu2,HHu2,Finds a Host with two interactive users.,FALSE,FALSE
@@ -302,7 +304,6 @@ package#Network,domain#R-HPHLS,HPHLS,Finds a logical subnet to which is connecte
 package#Network,domain#R-HprL3SAC,HprL3SAC,"Finds a Layer 3 LogicalSubnet provided by a Host, along with an associated network access context.",FALSE,FALSE
 package#Network,domain#R-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,FALSE,FALSE
-package#Network,domain#R-HPS2AC,HPS2AC,Finds a process running on a host in a space and the host location access context.,FALSE,FALSE
 package#Network,domain#R-HRASuSC,HRASuSC,Finds a Client using a Process via a Remote Access Service on the same Host.,FALSE,FALSE
 package#Network,domain#R-HuCurHRASuP,HuCurHRASuP,Finds a Human using a Remote Access Client to access a Process via a collocated Remote Access Service.,FALSE,FALSE
 package#Network,domain#R-HuCurHRASuPurS,HuCurHRASuPurS,Finds a Human using a Remote Access Client to access a Service via a Remote Access Service and collocated Process.,FALSE,FALSE
@@ -348,8 +349,6 @@ package#Network,domain#R-IcP,IcP,Finds a Process controlling an Internet class s
 package#Network,domain#R-Internet,Internet,Finds an Internet class network.,FALSE,FALSE
 package#Network,domain#R-IpH,IpH,Finds a Host providing an Internet class subnet.,FALSE,FALSE
 package#Network,domain#R-LnScP,LnScP,Finds a login service controlling access to a process.,FALSE,FALSE
-package#Network,domain#R-LnScPSHSAC,LnScPSHSAC,"Finds a remote access service controlling a process running on a shell host in a space, and a location access context to the remote access service.",FALSE,FALSE
-package#Network,domain#R-LnScSHSAC,LnScSHSAC,"Finds a remote access service controlling a shell host in a space, and a location access context to the process.",FALSE,TRUE
 package#Network,domain#R-LnSucP,LnSucP,Finds a remote access service using a back end process which controls access to the remote access service.,FALSE,TRUE
 package#Network,domain#R-LnSuP,LnSuP,Finds a login service using a process.,FALSE,FALSE
 package#Network,domain#R-LS,LS,Finds a solo Logical Subnet.,FALSE,FALSE
@@ -369,10 +368,8 @@ package#Network,domain#R-PHHPS,PHHPS,Finds a process running on a host that can 
 package#Network,domain#R-PHHS,PHHS,Finds a host that directly is or indirectly has a physical host in a space.,FALSE,FALSE
 package#Network,domain#R-PHLSS,PHLSS,Finds a host that directly is or indirectly has a physical host in a space and is connected to a logical subnet accessible from that space.,FALSE,FALSE
 package#Network,domain#R-PHS,PHS,Finds a Physical Host located in a Space.,FALSE,FALSE
-package#Network,domain#R-PHS2AC,PHS2AC,"Finds a process running on a host in a space, and an associated process location access context.",FALSE,FALSE
 package#Network,domain#R-PMHHS,PMHHS,"Finds a Process running on a host whose physical host is a Mobile Console Host, which may be located in a Space.",FALSE,FALSE
 package#Network,domain#R-PS,PS,Finds a solo Physical Subnet.,FALSE,FALSE
-package#Network,domain#R-PSHS2AC,PSHS2AC,"Finds a process running on a shell host in a space, and a location access context to the process.",FALSE,FALSE
 package#Network,domain#R-RAC,RAC,Finds a remote access client.,FALSE,FALSE
 package#Network,domain#R-RAS,RAS,Finds a remote access service.,FALSE,FALSE
 package#Network,domain#R-Rr,Rr,Finds a solo Router.,FALSE,FALSE
@@ -383,10 +380,13 @@ package#Network,domain#R-RTuRAS,RTuRAS,Finds a remote terminal client using a re
 package#Network,domain#R-RTurP,RTurP,Finds a remote terminal remotely using a process plus the process host.,FALSE,FALSE
 package#Network,domain#R-RTuRTuS,RTuRTuS,Finds a remote terminal using remotely another remote terminal which is using remotely a third process.,FALSE,FALSE
 package#Network,domain#R-SH,SH,Finds a Shell Host.,FALSE,FALSE
-package#Network,domain#R-SHAC,SHAC,Finds a Shell Host and an associated access context.,FALSE,FALSE
+package#Network,domain#R-SHAC,SHAC,Finds a Shell Host in a Space and an associated access context.,FALSE,FALSE
+package#Network,domain#R-SHACP,SHACP,Finds a Process running on a Shell Host in a Space and an associated Host access context.,FALSE,FALSE
 package#Network,domain#R-SHGP,SHGP,Finds a simple host running a general process.,FALSE,FALSE
+package#Network,domain#R-SHLnSACP,SHLnSACP,"Finds a remote access service controlling a process running on a shell host in a space, and a location access context to the remote access service.",FALSE,FALSE
 package#Network,domain#R-SHP,SHP,Finds a Process running on a shell Host.,FALSE,FALSE
-package#Network,domain#R-SHPS2AC,SHPS2AC,"Finds a process running on a shell host in a space, and a location access context to the host.",FALSE,FALSE
+package#Network,domain#R-SHPAC,SHPAC,Finds a Process running on a Shell Host in a Space and the associated process access context.,FALSE,FALSE
+package#Network,domain#R-SHRLnSAC,SHRLnSAC,"Finds a remote access service controlling a shell host in a space, and a location access context to the process.",FALSE,TRUE
 package#Network,domain#R-SHuPH,SHuPH,Finds a Human managing a Space in which a Fixed Host is located.,FALSE,FALSE
 package#Network,domain#R-StDC,StDC,Finds a stakeholder operating a data centre.,FALSE,FALSE
 package#Network,domain#R-StH,StH,Finds a stakeholder operating a Host.,FALSE,FALSE
@@ -642,6 +642,7 @@ package#Virtualisation,domain#R-DCVHVS,DCVHVS,Finds a Host that is physically in
 package#Virtualisation,domain#R-EH,EH,Finds a solo elastically scalable host.,FALSE,FALSE
 package#Virtualisation,domain#R-GHVS,GHVS,Finds a gateway providing a virtual subnet to which a host is connected.,FALSE,FALSE
 package#Virtualisation,domain#R-H2dPH2,H2dPH2,Finds two hosts on a virtual subnet and their physical hosts.,FALSE,FALSE
+package#Virtualisation,domain#R-HACVH,HACVH,"Finds a virtual host provisioned by a host in a space, and a location access context for the second host.",FALSE,FALSE
 package#Virtualisation,domain#R-HCLSg,HCLSg,"Finds a host channel that traverses a logical segment, along with the inbound and outbound interfaces to the segment host.",FALSE,FALSE
 package#Virtualisation,domain#R-HL,HL,Finds a solo HostLAN,FALSE,FALSE
 package#Virtualisation,domain#R-HuiVH,HuiVH,Finds a Human interacting with a Virtual Host.,FALSE,FALSE
@@ -662,7 +663,6 @@ package#Virtualisation,domain#R-VH2H,VH2H,Finds a VirtualHost above a Host provi
 package#Virtualisation,domain#R-VHH2,VHH2,Finds a VirtualHost provisioned at a Host for which it is also on the path to a physical host.,FALSE,TRUE
 package#Virtualisation,domain#R-VHH3,VHH3,Finds a virtual host provisioned by two hosts.,FALSE,FALSE
 package#Virtualisation,domain#R-VHHH,VHHH,Finds a VirtualHost provisioned at a Host and running on a PhysicalHost.,FALSE,FALSE
-package#Virtualisation,domain#R-VHHS2AC,VHHS2AC,"Finds a host in a space provisioning a virtual host, and a location access context for the first host.",FALSE,FALSE
 package#Virtualisation,domain#R-VHHsD,VHHsD,Finds a Virtual Host above another Host in a virtualisation stack where both store the same Data.,FALSE,FALSE
 package#Virtualisation,domain#R-VHPH,VHPH,Finds a virtual host provisioned by a physical host.,FALSE,FALSE
 package#Virtualisation,domain#R-VHPhDHS,VHPhDHS,"Finds a Virtual Host running a Process that handles Data, which is in a virtualisation stack above a second Host running a Process that Serves the Data, and where there is a Process serving the Data which may or may not be the same as either of the previous two.",FALSE,FALSE

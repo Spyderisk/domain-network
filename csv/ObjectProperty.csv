@@ -35,6 +35,7 @@ package#DataLifecycle,domain#crudu,crudu,The Process updates the DataCopy stored
 package#DataLifecycle,domain#enablesAccess,enablesAccess,Relationship to a Data Access (inferred asset) from the Process that makes the Data accessible to Processes.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flows,flows,The DataFlow is a flow of the Data.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsFrom,flowsFrom,The DataFlow is from the Process.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#flowsFromIn,flowsFromIn,Relationship from a data flow to a space indicating that the data flow can be sent by the source process when in that context.,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#flowsIn,flowsIn,The DataFlow is a flow of the Data to a consumer from a data store.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsOut,flowsOut,The DataFlow is a flow of the Data from a producer towards a data store.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsTo,flowsTo,The DataFlow is to the Process.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE

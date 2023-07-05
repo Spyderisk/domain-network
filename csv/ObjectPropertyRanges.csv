@@ -32,7 +32,10 @@ package#DataLifecycle,domain#crudu,domain#DataCopy
 package#DataLifecycle,domain#enablesAccess,domain#DataAccess
 package#DataLifecycle,domain#flows,domain#Data
 package#DataLifecycle,domain#flowsFrom,domain#Process
+package#DataLifecycle,domain#flowsFromIn,domain#ProcessContext
+package#DataLifecycle,domain#flowsFromIn,domain#Space
 package#DataLifecycle,domain#flowsTo,domain#Process
+package#DataLifecycle,domain#flowsToIn,domain#ProcessContext
 package#DataLifecycle,domain#flowsToIn,domain#Space
 package#DataLifecycle,domain#flowsVia,domain#DataStep
 package#DataLifecycle,domain#fromSource,domain#DataAccess

@@ -17,9 +17,9 @@ package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#C
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AX.CCCS.6.1
 package#CloudManagement,domain#CSG-ElasticHosting,domain#H.O.CVHHHoDC.0
 package#CloudManagement,domain#CSG-SLAEnforcement-Trigger,domain#H.A.CVHHDC.0
-package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.Auth.HPDAd-pDS.1.6
-package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPDSr-pDA.1.6
-package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPDSr-pDA.2.6
+package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.Auth.HPsACDAd-pDS.1.6
+package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPsACDSr-pDA.1.6
+package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPsACDSr-pDA.2.6
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.A.PmDFIDADFI.6.2
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.A.PmDFODADFO.6.2
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.X.PDF.6
@@ -38,7 +38,7 @@ package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#DF.A.CSDFdDA2.
 package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#P.A.PcPuDS.6
 package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#P.T.PcPr-uDS.6
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#DF.A.HPDODF.6.2
-package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#DS.A.HPDOdDS.6
+package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#DS.A.HPsACDOdDS.6
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#P.E.HuirPD.9
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#P.O.PpDP.6
 package#DataLifecycle,domain#CSG-EncryptedQueryProcessing,domain#DB.O.DBsDP.6

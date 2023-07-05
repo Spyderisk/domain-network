@@ -38,9 +38,6 @@ package#Network,domain#DefaultTW,domain#LogicalSubnet
 package#Network,domain#DefaultTW,domain#Process
 package#Network,domain#ExploitTW,domain#Host
 package#Network,domain#ExploitTW,domain#Process
-package#Network,domain#ExternalControl,domain#Host
-package#Network,domain#ExternalUserTW,domain#Host
-package#Network,domain#ExternalUserTW,domain#Process
 package#Network,domain#ExtrinsicTW,domain#Host
 package#Network,domain#ExtrinsicTW,domain#Process
 package#Network,domain#Health,domain#Host

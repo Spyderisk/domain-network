@@ -204,6 +204,9 @@ package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsF
 package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsOut-Data
 package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsTo-StepTo
 package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Link-DataStep-flowsViaDC-DataChannel
+package#DataLifecycleInference,domain#CP-DFFPACS+fFI,domain#Link-DataFlow-flowsFromIn-ProcAccess
+package#DataLifecycleInference,domain#CP-DFFPACS+fFI,domain#Link-DataFlow-flowsFromIn-Space
+package#DataLifecycleInference,domain#CP-DFTPACS+fTI,domain#Link-DataFlow-flowsToIn-ProcAccess
 package#DataLifecycleInference,domain#CP-DFTPACS+fTI,domain#Link-DataFlow-flowsToIn-Space
 package#DataLifecycleInference,domain#CP-DI-fDCSDS+ch,domain#Link-DataChannel-dataChannelEnd-DataSource
 package#DataLifecycleInference,domain#CP-DI-fDCSDS+ch,domain#Link-DataChannel-dataChannelFrom-Client
@@ -572,15 +575,16 @@ package#NetworkInference,domain#CP-DCVHWS-H+p,domain#Link-LogicalSubnet-provided
 package#NetworkInference,domain#CP-DCWH-LS+c,domain#Link-Host-connectedTo-WiredLAN
 package#NetworkInference,domain#CP-FcLSS+aF,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#NetworkInference,domain#CP-FpLSS+aF,domain#Link-LogicalSubnet-accessibleFrom-Space
+package#NetworkInference,domain#CP-HACPmNC+p,domain#Link-HostAccess-propagatesTo-ProcAccess
 package#NetworkInference,domain#CP-HCHLSS+NC,domain#Link-HostNetContext-accessFrom-Space
 package#NetworkInference,domain#CP-HCHLSS+NC,domain#Link-HostNetContext-accessTo-Host
 package#NetworkInference,domain#CP-HCHLSS+NC,domain#Link-HostNetContext-accessVia-LogicalSubnet
 package#NetworkInference,domain#CP-Hc-pN-hP+AC,domain#Link-AuthClient-usesForAuth-Process
 package#NetworkInference,domain#CP-Hc-pN-hP+AC,domain#Link-Host-hosts-AuthClient
 package#NetworkInference,domain#CP-HcWHS+c,domain#Link-Host-connectedTo-LogicalSubnet
+package#NetworkInference,domain#CP-HmNCPAC+p,domain#Link-ProcAccess-propagatesTo-ProcNetContext
 package#NetworkInference,domain#CP-HPAC-AC+rI,domain#Link-Process-runsIn-ProcAccess
 package#NetworkInference,domain#CP-HprLS+c,domain#Link-Gateway-connectedTo-LogicalSubnet
-package#NetworkInference,domain#CP-HPS2NC+p,domain#Link-HostAccess-propagatesTo-ProcAccess
 package#NetworkInference,domain#CP-HuCurHRASuP+uR,domain#Link-RemoteAccessService-usesRemotely-Process
 package#NetworkInference,domain#CP-HuCurHRASuPurS+uR,domain#Link-RemoteAccessService-usesRemotely-Service
 package#NetworkInference,domain#CP-HuE+e,domain#Link-Human-hasEmail-Human
@@ -631,7 +635,6 @@ package#NetworkInference,domain#CP-PHHS+AC,domain#Link-HostAccess-accessFrom-Spa
 package#NetworkInference,domain#CP-PHHS+AC,domain#Link-HostAccess-accessTo-Host
 package#NetworkInference,domain#CP-PHLSS+aV,domain#Link-HostAccess-accessVia-LogicalSubnet
 package#NetworkInference,domain#CP-PH-S+W,domain#Link-Host-locatedIn-World
-package#NetworkInference,domain#CP-PHS2NC+p,domain#Link-ProcAccess-propagatesTo-ProcNetContext
 package#NetworkInference,domain#CP-RAS+iL,domain#Link-RemoteAccessService-isLnS-RemoteAccessService
 package#NetworkInference,domain#CP-Rr+iR,domain#Link-Router-isRouter-Router
 package#NetworkInference,domain#CP-Rr-LnS+LnS,domain#Link-LoginService-controls-Router

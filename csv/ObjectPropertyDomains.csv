@@ -34,6 +34,7 @@ package#DataLifecycle,domain#flows,domain#DataFlow
 package#DataLifecycle,domain#flows,domain#DataStep
 package#DataLifecycle,domain#flowsFrom,domain#DataFlow
 package#DataLifecycle,domain#flowsFrom,domain#DataStep
+package#DataLifecycle,domain#flowsFromIn,domain#DataFlow
 package#DataLifecycle,domain#flowsTo,domain#DataFlow
 package#DataLifecycle,domain#flowsTo,domain#DataStep
 package#DataLifecycle,domain#flowsToIn,domain#DataFlow

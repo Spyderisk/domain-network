@@ -118,9 +118,7 @@ package#DataLifecycle,domain#MP-HDBDSDF,HDBDSDF,"Finds a Host running a DB proce
 package#DataLifecycle,domain#MP-HDBsD,HDBsD,Finds a Host of a Database that is serving locally stored Data.,domain#R-HDBsD,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS,HDS,"Finds a stored copy of Data on a Host, and its Physical Host.",domain#R-HDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDAcDS,HPDAcDS,"Finds a Host running a Process that CRUD creates locally stored Data, plus optionally the host and process managers.",domain#R-HPDAcDS,FALSE,FALSE
-package#DataLifecycle,domain#MP-HPDAdDS,HPDAdDS,"Finds a Host running a Process that CRUD deletes locally stored Data, plus optionally the host and process managers.",domain#R-HPDAdDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDADF,HPDADF,"Finds a Host running a Process that sends a Data Flow to a destination process, plus the associated Data and Data Access assets, and optionally the Process and Host managers.",domain#R-HPDADF,FALSE,FALSE
-package#DataLifecycle,domain#MP-HPDAd-pDS,HPDAd-pDS,"Finds a Host running a Process that CRUD deletes locally stored Data served not processed by the Process, plus optionally the host and process managers.",domain#R-HPDAdDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDADS2dDO,HPDADS2dDO,"Finds a Host running a Process that writes to a local stored Data Copy, and sources data from two distinct data producers.",domain#R-HPDADS2DO,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDADS-crudu,HPDADS-crudu,Finds a Host storing a Data Copy fulfilled by a local process that does not CRUD update the data copy.,domain#R-HPDADS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDADSDU,HPDADSDU,Finds a Host storing a Data Copy fulfilled by a Data Access that sources data from a Data Update (from a process on any Host).,domain#R-HPDADSDU,FALSE,FALSE
@@ -134,26 +132,29 @@ package#DataLifecycle,domain#MP-HPDFDADS,HPDFDADS,"Finds a Host running a Proces
 package#DataLifecycle,domain#MP-HPDFDAuDS,HPDFDAuDS,"Finds a Host running a Process that CRUD updates locally stored Data by saving an incoming Data Flow, plus optionally the host and process managers.",domain#R-HPDFDAuDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDFDI,HPDFDI,"Finds a Host running a Process that receives an incoming Data Flow and uses it as input, plus optionally the host and process managers. The Process is matched twice, so it can be referred to by either role name.",domain#R-HPDFDI,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDOcDS,HPDOcDS,"Finds a Host running a Process that CRUD creates locally stored Data which it produces as output, plus optionally the host and process managers.",domain#R-HPDOcDS,FALSE,FALSE
-package#DataLifecycle,domain#MP-HPDOdDS,HPDOdDS,"Finds a Host running a Process that CRUD deletes locally stored Data which it produces as output, plus optionally the host and process managers.",domain#R-HPDOdDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDODF,HPDODF,"Finds a Host running a Process that creates (possibly from user input) a Data Flow to a destination process, plus the associated Data and Data Output assets, and optionally the Process and Host managers.",domain#R-HPDODF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDOuDS,HPDOuDS,"Finds a Host running a Process that CRUD updates locally stored Data which it produces as output, plus optionally the host and process managers.",domain#R-HPDOuDS,FALSE,FALSE
-package#DataLifecycle,domain#MP-HPDSCDF,HPDSCDF,"Finds a Process sending an output data flow that is cached, and optionally the process host manager.",domain#R-HPDSCDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDSDA-crudr,HPDSDA-crudr,"Finds a Host storing a Data Copy that fulfils a Data Access by a Process on the same Host, where there is no CRUDR relationship between the Process and Data Copy.",domain#R-HPDSDA,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDSDADF,HPDSDADF,"Finds a Host storing a Data Copy that is read and sent in a data flow by a Process on the same Host, plus optionally the Host and Process managers.",domain#R-HPDSDADF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDS-fDI-DO-DFI,HPDS-fDI-DO-DFI,"Finds a Host with a stored Data Copy, running a Process that has a Data Input asset for the same Data that is not yet fulfilled by the stored Data Copy, which is also not fulfilled by an incoming data flow, and where the process does not have a Data Output asset (i.e. the Data Access is not a Data Update).",domain#R-HPDS-fDI,FALSE,FALSE
-package#DataLifecycle,domain#MP-HPDSrDI,HPDSrDI,"Finds a Host running a Process that CRUD reads a locally stored copy of Data it uses as input, plus optionally the Host and Process managers.",domain#R-HPDSrDI,FALSE,FALSE
-package#DataLifecycle,domain#MP-HPDSr-pDA,HPDSr-pDA,"Finds a Host running a Process that CRUD reads a locally stored copy of Data it serves but does not process, plus optionally the Host and Process managers.",domain#R-HPDSrDA,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPeD,HPeD,Finds a Host for a Process that creates and appends to locally stored Data.,domain#R-HPeD,FALSE,FALSE
 package#DataLifecycle,domain#MP-HP-iDOdDS,HP-iDOdDS,"Finds a Host running a Process that has the right to delete locally stored Data which it computes as output (i.e. not coming from a user), plus optionally the host and process managers.",domain#R-HPDOdDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HP-iDODF,HP-iDODF,"Finds a Host running a Process that creates (not from user input) a Data Flow to a destination process, plus the associated Data and Data Output assets, and optionally the Process and Host managers.",domain#R-HPDODF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HP-iDS,HP-iDS,"Finds a Host running a process that stores a local copy of data that it did not get from a user, plus optionally the host and process managers.",domain#R-HPDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HP-iDSDI,HP-iDSDI,"Finds a stored data input to a process, which is not reviewed and updated by a user, plus the process and data host and optionally the host and process managers.",domain#R-HPDSDI,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPmDFDAcDS,HPmDFDAcDS,"Finds a Host running a Process that CRUD creates locally stored Data from one or more incoming flows, plus optionally the host and process managers.",domain#R-HPDAcDS,FALSE,FALSE
+package#DataLifecycle,domain#MP-HPsACDAdDS,HPsACDAdDS,"Finds a Host running a Process that CRUD deletes locally stored Data, plus any location context for access to the Host with the rights of the Process, and optionally the Host and Process managers.",domain#R-HPDAdDS,FALSE,FALSE
+package#DataLifecycle,domain#MP-HPsACDAd-pDS,HPsACDAd-pDS,"Finds a Host running a Process that CRUD deletes locally stored Data served rather than processed by the Process, plus any location context for access to the Host with the rights of the Process, and optionally the Host and Process managers.",domain#R-HPDAdDS,FALSE,FALSE
+package#DataLifecycle,domain#MP-HPsACDOdDS,HPsACDOdDS,"Finds a Host running a Process that CRUD deletes locally stored Data which it produces as output, plus any location context for access to the Host with the rights of the Process, and optionally the Host and Process managers.",domain#R-HPDOdDS,FALSE,FALSE
+package#DataLifecycle,domain#MP-HPsACDSCDF,HPsACDSCDF,"Finds a Process sending an output data flow that is cached, plus any location context for access to the Host with the rights of the Process, and optionally the process host manager.",domain#R-HPDSCDF,FALSE,FALSE
+package#DataLifecycle,domain#MP-HPsACDSrDI,HPsACDSrDI,"Finds a Host running a Process that CRUD reads a locally stored copy of Data it uses as input, plus any location context for access to the Host with the rights of the Process, and optionally the Host and Process managers.",domain#R-HPDSrDI,FALSE,FALSE
+package#DataLifecycle,domain#MP-HPsACDSr-pDA,HPsACDSr-pDA,"Finds a Host running a Process that CRUD reads a locally stored copy of Data served rather than processed by the Process, plus any location context for access to the Host with the rights of the Process, and optionally the Host and Process managers.",domain#R-HPDSrDA,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPsD-DS,HPsD-DS,"Finds a Process serving (but not processing) Data and the process host, where there is no copy of the data stored on the same host.",domain#R-HPsD,FALSE,TRUE
 package#DataLifecycle,domain#MP-HPsDPDFDS,HPsDPDFDS,"Finds a Host that stores a copy of Data served by and sent to a Process on the same Host, plus the associated Data Flow and Data Pool.",domain#R-HPsDPDFDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPsDPDSDF,HPsDPDSDF,"Finds a Host that stores a copy of Data served by and sent from a Process on the same Host, plus the associated Data Flow and Data Pool.",domain#R-HPsDPDSDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPuDSDI,HPuDSDI,"Finds a stored data input needed by a process, plus the process and data host and optionally the host and process managers.",domain#R-HPuDSDI,FALSE,FALSE
 package#DataLifecycle,domain#MP-HP-uDSDI,HP-uDSDI,"Finds a stored data input to a process, which does not depend on the data, plus the process and data host and optionally the host and process managers.",domain#R-HPDSDI,FALSE,FALSE
+package#DataLifecycle,domain#MP-HsACDS,HsACDS,"Finds a stored copy of Data on a Host, plus location contexts in which the host is accessible.",domain#R-HDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HuaD-DS,HuaD-DS,Finds a Human that alters (views and inputs) data where there is not yet a DataCopy relating to the data.,domain#R-HuaD,FALSE,FALSE
 package#DataLifecycle,domain#MP-HuaDPH-DS-DA,HuaDPH-DS-DA,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, of which there is no copy on the same Host, and as yet no Data Access associated with this Process and Data.",domain#R-HuaDPH,FALSE,FALSE
 package#DataLifecycle,domain#MP-HuaDPH-DS-DP,HuaDPH-DS-DP,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, of which there is no copy on the same Host, and as yet no Data Pool anywhere associated with this Data.",domain#R-HuaDPH,FALSE,FALSE
@@ -222,6 +223,7 @@ package#DataLifecycleInference,domain#MP-DDDPS-DC,DDDPS-DC,"Finds a Data Path fr
 package#DataLifecycleInference,domain#MP-DD-fDCSDS,DD-fDCSDS,"Finds a data access process that acts as a data destination that is not fulfilled by any other process, and has a data channel to a service that can act as a data source.",domain#R-DDDCSDS,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DFDCI4P,DFDCI4P,"Finds a Data Flow between two processes, fulfilled a reverse flow along a Data Channel between two possibly intermediate processes.",domain#R-DFDCI4P,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DFDCO4P,DFDCO4P,"Finds a Data Flow between two processes, fulfilled a forward flow along a Data Channel between two possibly intermediate processes.",domain#R-DFDCO4P,FALSE,FALSE
+package#DataLifecycleInference,domain#MP-DFFPACS,DFFPACS,Finds a DataFlow from a Process that can flow when (the process host is) in a Space.,domain#R-DFFPACS,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DFTPACS,DFTPACS,Finds a DataFlow to a Process that can flow when (the process host is) in a Space.,domain#R-DFTPACS,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DI-fDCSDS,DI-fDCSDS,"Finds a process using input and acting as a data destination that is not yet fulfilled (sent data) by any process, and having a data channel to a service that can act as a data source.",domain#R-DIDCSDS,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DO-fDCSDD,DO-fDCSDD,"Finds a data output process that acts as a data source but does not itself get the data from any original source, and having a data channel to a service that can act as a data destination.",domain#R-DODCSDD,FALSE,FALSE
@@ -339,6 +341,8 @@ package#Network,domain#MP-FpLSS,FpLSS,Finds a Logical Subnet which is provided b
 package#Network,domain#MP-GH,GH,Finds a General Host (i.e. a host that can run arbitrary processes).,domain#R-GH,FALSE,FALSE
 package#Network,domain#MP-H,H,"Finds a solo Host, with optionally its manager(s) and interactive user(s).",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-HAC,HAC,"Finds a Host in a Space with the associated access context, with optionally its manager, and all related access contexts.",domain#R-HAC,FALSE,FALSE
+package#Network,domain#MP-HACPmAC,HACPmAC,"Finds a process running on a host in a space and the host location access context, with all related process location and network access contexts.",domain#R-HACP,FALSE,FALSE
+package#Network,domain#MP-HACPmNC,HACPmNC,"Finds a process running on a host in a space and the host location access context, with all related process network access contexts.",domain#R-HACP,FALSE,FALSE
 package#Network,domain#MP-HCHLSS,HCHLSS,Finds a Host location access context and the related host and space and one related subnet.,domain#R-HCHLSS,FALSE,FALSE
 package#Network,domain#MP-Hc-pN-hP,Hc-pN-hP,"Finds a Host connected to but not providing an Abstract Subnet, which controlled by a Process not running on the Host.",domain#R-HNP,FALSE,TRUE
 package#Network,domain#MP-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",domain#R-HcWHS,FALSE,FALSE
@@ -349,6 +353,8 @@ package#Network,domain#MP-HLnSP-hCLI,HLnSP-hCLI,Finds a Login Service and a Proc
 package#Network,domain#MP-HLS,HLS,Finds a Host connected to a LogicalSubnet.,domain#R-HLS,FALSE,FALSE
 package#Network,domain#MP-Hm2dHu,Hm2dHu,Finds a host and two distinct humans that manage the host.,domain#R-Hm2Hu,FALSE,FALSE
 package#Network,domain#MP-HmAC,HmAC,"Finds a solo Host plus all location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
+package#Network,domain#MP-HmACPAC,HmACPAC,"Finds a process running on a host in a space and an associated process location access context, plus related host access contexts and optionally the host manager and process user.",domain#R-HPAC,FALSE,FALSE
+package#Network,domain#MP-HmNCPAC,HmNCPAC,"Finds a process running on a host in a space and an associated process location access context, plus related process network access contexts.",domain#R-HPAC,FALSE,FALSE
 package#Network,domain#MP-HP,HP,"Finds a Process and its Host, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
 package#Network,domain#MP-HPAC,HPAC,"Finds a non-trivial Process running on a Host in a Space and the associated process access context, plus optionally the host manager, the interactive process user, and all related access contexts.",domain#R-HPAC,FALSE,FALSE
 package#Network,domain#MP-HPHLS-S,HPHLS-S,"Finds a logical subnet to which is connected a host that directly is or indirectly has a physical host, but the subnet is not accessible from any space where the host can be located. Note that there must be at least one host location, so this threat should not detect inferred routers implementing abstract subnets.",domain#R-HPHLS,FALSE,FALSE
@@ -357,9 +363,10 @@ package#Network,domain#MP-HPmAC,HPmAC,"Finds a Process and its Host with associa
 package#Network,domain#MP-HprL3SAC,HprL3SAC,"Finds a Layer 3 LogicalSubnet provided by a Host, along with an associated network access context.",domain#R-HprL3SAC,FALSE,FALSE
 package#Network,domain#MP-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,domain#R-HprLS,FALSE,FALSE
 package#Network,domain#MP-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,domain#R-HprLSAC,FALSE,FALSE
-package#Network,domain#MP-HPS2AC,HPS2AC,"Finds a non-trivial process running on a host in a space and the host location access context, with all related process access contexts, and optionally the host manager and process user.",domain#R-HPS2AC,FALSE,FALSE
-package#Network,domain#MP-HPS2NC,HPS2NC,"Finds a process running on a host in a space and the host location access context, with all related process network access contexts.",domain#R-HPS2AC,FALSE,FALSE
+package#Network,domain#MP-HPsAC,HPsAC,"Finds a Process and its Host with any associated location access contexts, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
 package#Network,domain#MP-HRASuSC,HRASuSC,Finds a Client using a Process via a Remote Access Service on the same Host.,domain#R-HRASuSC,FALSE,FALSE
+package#Network,domain#MP-HsAC,HsAC,"Finds a solo Host plus any of its location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
+package#Network,domain#MP-HsACP,HsACP,"Finds a Process and its Host, plus any location contexts allowing access to the host, and optionally the host manager and interactive process user.",domain#R-HP,FALSE,FALSE
 package#Network,domain#MP-HuCurHRASuP,HuCurHRASuP,Finds a Human using a Remote Access Client to access a Process via a collocated Remote Access Service.,domain#R-HuCurHRASuP,FALSE,FALSE
 package#Network,domain#MP-HuCurHRASuPurS,HuCurHRASuPurS,Finds a Human using a Remote Access Client to access a Service via a Remote Access Service and collocated Process.,domain#R-HuCurHRASuPurS,FALSE,FALSE
 package#Network,domain#MP-HuE,HuE,Finds a human interacting with an email client.,domain#R-HuE,FALSE,FALSE
@@ -409,8 +416,6 @@ package#Network,domain#MP-HuwStmP-St,HuwStmP-St,"Finds a Human working for an Em
 package#Network,domain#MP-IcP,IcP,Finds a Process controlling an Internet class subnet.,domain#R-IcP,FALSE,FALSE
 package#Network,domain#MP-InternetMP,InternetMP,Finds an Internet class network.,domain#R-Internet,FALSE,FALSE
 package#Network,domain#MP-IpH,IpH,Finds a Host providing an Internet class subnet.,domain#R-IpH,FALSE,FALSE
-package#Network,domain#MP-LnScPSHS2AC,LnScPSHS2AC,"Finds a remote access service controlling a process running on a shell host in a space, and a location access context to the remote access service, related process access contexts and optionally the process manager.",domain#R-LnScPSHSAC,FALSE,TRUE
-package#Network,domain#MP-LnScSHS2AC,LnScSHS2AC,"Finds a remote access service controlling a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-LnScSHSAC,FALSE,FALSE
 package#Network,domain#MP-LnSucP,LnSucP,"Finds a remote access service using a back end process which controls access to the remote access service. This situation is a logical impossibility, as to use another service from a remote access service, the user must login to the remote access service.",domain#R-LnSucP,FALSE,FALSE
 package#Network,domain#MP-LnSuP-H,LnSuP-H,Finds a login service using a process where the two do not have the same Host.,domain#R-LnSuP,FALSE,FALSE
 package#Network,domain#MP-LS,LS,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
@@ -431,12 +436,9 @@ package#Network,domain#MP-PHHS,PHHS,"Finds a host that directly is or indirectly
 package#Network,domain#MP-PHLSS,PHLSS,Finds a host that has or directly is a physical host in a space and is connected to a logical subnet accessible from that space (other than an abstract hotspot).,domain#R-PHLSS,FALSE,FALSE
 package#Network,domain#MP-PHS,PHS,"Finds a Physical Host located in a Space, and optionally the host manager and interactive user.",domain#R-PHS,FALSE,FALSE
 package#Network,domain#MP-PH-S,PH-S,Finds a physical host that is not located in any space.,domain#R-PH,FALSE,FALSE
-package#Network,domain#MP-PHS2AC,PHS2AC,"Finds a process running on a host in a space and an associated process location access context, plus related host access contexts and optionally the host manager and process user.",domain#R-PHS2AC,FALSE,FALSE
-package#Network,domain#MP-PHS2NC,PHS2NC,"Finds a process running on a host in a space and an associated process location access context, plus related process network access contexts.",domain#R-PHS2AC,FALSE,FALSE
 package#Network,domain#MP-PHS-iC,PHS-iC,"Finds a Physical Host that is not a Cluster located in a Space, and optionally the host manager and interactive user.",domain#R-PHS,FALSE,FALSE
 package#Network,domain#MP-PMHHS,PMHHS,"Finds a non-trivial Process running on a host whose physical host is a Mobile Console Host that may be located in a Space, plus associated process network access contexts from that Space, and optionally an interactive Process user.",domain#R-PMHHS,FALSE,FALSE
 package#Network,domain#MP-PnH,PnH,Finds a Process with no Host.,domain#R-P,FALSE,FALSE
-package#Network,domain#MP-PSHS2AC,PSHS2AC,"Finds a process running on a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-PSHS2AC,FALSE,FALSE
 package#Network,domain#MP-PS-iH,PS-iH,Finds a solo Physical Subnet that is not a hotspot.,domain#R-PS,FALSE,FALSE
 package#Network,domain#MP-RAC,RAC,Finds a remote access client.,domain#R-RAC,FALSE,FALSE
 package#Network,domain#MP-RAS,RAS,Finds a remote access service.,domain#R-RAS,FALSE,FALSE
@@ -449,11 +451,14 @@ package#Network,domain#MP-RTuRAS,RTuRAS,Finds a remote terminal client using a r
 package#Network,domain#MP-RTuRTuS-uR,RTuRTuS-uR,Finds a remote terminal using remotely another remote terminal which is using remotely a third process that is not yet remotely used by the first.,domain#R-RTuRTuS,FALSE,FALSE
 package#Network,domain#MP-SH,SH,Finds a Shell Host (i.e. a host that allows user commands with the rights of the administrator or some user/process).,domain#R-SH,FALSE,FALSE
 package#Network,domain#MP-SHAC,SHAC,"Finds a Shell Host plus optionally its manager, and an associated access context.",domain#R-SHAC,FALSE,FALSE
+package#Network,domain#MP-SHACPmAC,SHACPmAC,"Finds a process running on a shell host in a space and the host location access context, with all related process location and network access contexts where the host is normally in that location or connected to that network.",domain#R-SHACP,FALSE,FALSE
 package#Network,domain#MP-SHGP,SHGP,Finds a simple host running a general process.,domain#R-SHGP,FALSE,FALSE
+package#Network,domain#MP-SHLnSACPmAC,SHLnSACPmAC,"Finds a remote access service controlling a process running on a shell host in a space, and a location access context to the remote access service, related process access contexts and optionally the process manager.",domain#R-SHLnSACP,FALSE,TRUE
+package#Network,domain#MP-SHmACPAC,SHmACPAC,"Finds a process running on a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-SHPAC,FALSE,FALSE
+package#Network,domain#MP-SHmACRLnSAC,SHmACRLnSAC,"Finds a remote access service controlling a shell host in a space, and a location access context to the process, related host access contexts and optionally the host manager.",domain#R-SHRLnSAC,FALSE,FALSE
 package#Network,domain#MP-SH-mHu,SH-mHu,Finds a Shell Host that has no manager.,domain#R-SH,FALSE,FALSE
 package#Network,domain#MP-SHP,SHP,"Finds a Process running on a shell Host, and optionally the interactive process user and host manager.",domain#R-SHP,FALSE,FALSE
 package#Network,domain#MP-SHP-iT,SHP-iT,"Finds a non-trivial Process running on a shell Host, and optionally the interactive process user and host manager.",domain#R-SHP,FALSE,FALSE
-package#Network,domain#MP-SHPS2AC,SHPS2AC,"Finds a process running on a shell host in a space, and a location access context to the host, associated process access contexts and optionally the process user and host manager.",domain#R-SHPS2AC,FALSE,FALSE
 package#Network,domain#MP-SHuPH-Hu,SHuPH-Hu,Finds a Human managing a Space in which an unmanaged Fixed Host is located.,domain#R-SHuPH,FALSE,FALSE
 package#Network,domain#MP-StDC,StDC,Finds a stakeholder operating a data centre.,domain#R-StDC,FALSE,FALSE
 package#Network,domain#MP-StH,StH,Finds a stakeholder operating a Host.,domain#R-StH,FALSE,FALSE
@@ -748,6 +753,7 @@ package#Virtualisation,domain#MP-DCVHVS-H,DCVHVS-H,Finds a Host that is physical
 package#Virtualisation,domain#MP-EH,EH,Finds a solo elastically scalable host.,domain#R-EH,FALSE,FALSE
 package#Virtualisation,domain#MP-GdHVS,GdHVS,"Finds a gateway providing a virtual subnet to which a distinct host is connected, and optionally a process controlling access to the subnet.",domain#R-GHVS,FALSE,FALSE
 package#Virtualisation,domain#MP-H2dPH2,H2dPH2,"Finds two hosts on a virtual subnet with distinct physical hosts, between which the virtualised communication must flow.",domain#R-H2dPH2,FALSE,FALSE
+package#Virtualisation,domain#MP-HACVHmAC,HACVHmAC,"Finds a host in a space provisioning a virtual host, and a location access context for the first host, plus all related access contexts for the virtual host.",domain#R-HACVH,FALSE,FALSE
 package#Virtualisation,domain#MP-HCLSg,HCLSg,"Finds a host channel that traverses a logical segment, along with the inbound and outbound interfaces to the segment host.",domain#R-HCLSg,FALSE,FALSE
 package#Virtualisation,domain#MP-HL,HL,Finds a solo HostLAN,domain#R-HL,FALSE,FALSE
 package#Virtualisation,domain#MP-HuiVH,HuiVH,Finds a Human interacting with a Virtual Host (which is not possible).,domain#R-HuiVH,FALSE,FALSE
@@ -776,7 +782,6 @@ package#Virtualisation,domain#MP-VH2H-a,VH2H-a,Finds three virtual hosts in a ch
 package#Virtualisation,domain#MP-VHH2,VHH2,Finds a VirtualHost provisioned at a Host for which it is also on the path to a physical host.,domain#R-VHH2,FALSE,TRUE
 package#Virtualisation,domain#MP-VHH3,VHH3,Finds a virtual host provisioned by two distinct hosts.,domain#R-VHH3,FALSE,FALSE
 package#Virtualisation,domain#MP-VHHHoDC,VHHHoDC,"Finds a Virtual Host (role Host) provisioned at a Host (SHost), where the Virtual Host may optionally be provisioned by a Data Centre.",domain#R-VHHH,FALSE,FALSE
-package#Virtualisation,domain#MP-VHHS2AC,VHHS2AC,"Finds a host in a space provisioning a virtual host, and a location access context for the first host, plus all related access contexts for the virtual host.",domain#R-VHHS2AC,FALSE,FALSE
 package#Virtualisation,domain#MP-VHHsD-HsS-S,VHHsD-HsS-S,"Finds a Virtual Host above another Host in a virtualisation stack where both store the same Data, there is no lower level host in the stack that also stores the data, and the second host does not run a Process that serves the Data.",domain#R-VHHsD,FALSE,FALSE
 package#Virtualisation,domain#MP-VHPH,VHPH,Finds a virtual host provisioned by a physical host.,domain#R-VHPH,FALSE,FALSE
 package#Virtualisation,domain#MP-VHPhDHS-HsS-S,VHPhDHS-HsS-S,"Finds a Virtual Host running a Process that handles Data but does not access it via a service, where its host is in a virtualisation stack above a second Host running a service for the Data, and there is no host between the two in the virtualisation stack running a Process that Serves the Data.",domain#R-VHPhDHS,FALSE,FALSE
