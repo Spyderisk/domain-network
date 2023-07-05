@@ -486,6 +486,11 @@ package#DataLifecycle,domain#R-HPDODF,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HPDODF,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HPDODF,domain#Link-DataFlow-flowsTo-FlowsTo
 package#DataLifecycle,domain#R-HPDODF,domain#Link-Host-hosts-Process
+package#DataLifecycle,domain#R-HPDODS,domain#Link-DataAccess-usedBy-Process
+package#DataLifecycle,domain#R-HPDODS,domain#Link-DataAccess-usedFor-Data
+package#DataLifecycle,domain#R-HPDODS,domain#Link-DataCopy-copyOf-Data
+package#DataLifecycle,domain#R-HPDODS,domain#Link-Host-hosts-Process
+package#DataLifecycle,domain#R-HPDODS,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycle,domain#R-HPDOuDS,domain#Link-DataAccess-fulfils-DataCopy
 package#DataLifecycle,domain#R-HPDOuDS,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HPDOuDS,domain#Link-DataAccess-usedFor-Data

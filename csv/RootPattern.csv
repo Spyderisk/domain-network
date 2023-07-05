@@ -126,6 +126,7 @@ package#DataLifecycle,domain#R-HPDFDI-fDS,HPDFDI-fDS,"Finds a Host with a stored
 package#DataLifecycle,domain#R-HPDOcDS,HPDOcDS,Finds a Host running a Process that CRUD creates locally stored Data which it produces as output.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDOdDS,HPDOdDS,Finds a Host running a Process that CRUD deletes locally stored Data which it produces as output.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDODF,HPDODF,"Finds a Host running a Process that creates a Data Flow to a destination process, plus the associated Data and Data Output assets.",FALSE,FALSE
+package#DataLifecycle,domain#R-HPDODS,HPDODS,Finds a Host running a Process that creates locally stored Data which it produces as output.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDOuDS,HPDOuDS,Finds a Host running a Process that CRUD updates locally stored Data which it produces as output.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDS,HPDS,Finds a Host running a process that stores a local copy of some data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDSCDF,HPDSCDF,Finds a Process sending an output data flow that is cached.,FALSE,FALSE

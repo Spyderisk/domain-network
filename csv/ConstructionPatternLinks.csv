@@ -259,6 +259,8 @@ package#DataLifecycleInference,domain#CP-HPDADS2dDO+crudu,domain#Link-Process-cr
 package#DataLifecycleInference,domain#CP-HPDADS-crudu+crudc,domain#Link-Process-crudc-DataCopy
 package#DataLifecycleInference,domain#CP-HPDADSDU+crudu,domain#Link-Process-crudu-DataCopy
 package#DataLifecycleInference,domain#CP-HPDFDI-fDS-DP+f,domain#Link-DataAccess-fulfils-DataCopy
+package#DataLifecycleInference,domain#CP-HPDO-fDS-DA+f,domain#Link-DataAccess-fulfils-DataCopy
+package#DataLifecycleInference,domain#CP-HPDO-fDS-DA+f,domain#Link-Process-enablesAccess-DataAccess
 package#DataLifecycleInference,domain#CP-HPDSDA-crudr+crudr,domain#Link-Process-crudr-DataCopy
 package#DataLifecycleInference,domain#CP-HPDS-fDI-DO-DFI+f,domain#Link-DataCopy-fulfils-DataAccess
 package#DataLifecycleInference,domain#CP-HPDXfr-cAC+DS,domain#Link-DataCopy-copyOf-Data
@@ -360,9 +362,12 @@ package#DataLifecycleInference,domain#CP-Pc-rDSH-S-Hu-DA+DO,domain#Link-DataOutp
 package#DataLifecycleInference,domain#CP-PDI+d,domain#Link-DataInput-isDest-Data
 package#DataLifecycleInference,domain#CP-PDI-Hu+d,domain#Link-DataInput-isSource-Data
 package#DataLifecycleInference,domain#CP-PDO+s,domain#Link-DataOutput-isSource-Data
-package#DataLifecycleInference,domain#CP-PDP-DP+DP,domain#Link-NewDataPath-dataPathFor-Data
-package#DataLifecycleInference,domain#CP-PDP-DP+DP,domain#Link-NewDataPath-dataPathTo-DataPool
-package#DataLifecycleInference,domain#CP-PDP-DP+DP,domain#Link-NewDataPath-fromProc-Process
+package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathFor-Data
+package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathTo-DataOutput
+package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-fromProc-Process
+package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathFor-Data
+package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathTo-DataPool
+package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-fromProc-Process
 package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isDest-Data
 package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isSource-Data
 package#DataLifecycleInference,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#Link-DataInput-usedBy-Process

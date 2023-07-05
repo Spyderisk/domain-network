@@ -121,7 +121,8 @@ package#DataLifecycleInference,domain#INS-Pc-rDSH-Hu-DP+OP-DataOutput,domain#Nod
 package#DataLifecycleInference,domain#INS-Pc-rDSH-Hu-DP+OP-DataOutput,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-Pc-rDSH-S-Hu-DA+DO-DataOutput,domain#Node-Data-Data
 package#DataLifecycleInference,domain#INS-Pc-rDSH-S-Hu-DA+DO-DataOutput,domain#Node-Process-Process
-package#DataLifecycleInference,domain#INS-PDP-DP+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycleInference,domain#INS-PDO-DI+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycleInference,domain#INS-PDP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-Pr-cDH-DS-Hu-DA+DI-DataInput,domain#Node-Data-Data
 package#DataLifecycleInference,domain#INS-Pr-cDH-DS-Hu-DA+DI-DataInput,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-Pr-cDSH+S-Hu-DA+DI-DataInput,domain#Node-Data-Data

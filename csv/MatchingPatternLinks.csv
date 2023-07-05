@@ -326,6 +326,8 @@ package#DataLifecycle,domain#MP-PDI+DS-S,domain#Link-Service-enablesAccess-DataI
 package#DataLifecycle,domain#MP-PDI-Hu,domain#Link-Human-interactsRemotelyWith-Process,FALSE
 package#DataLifecycle,domain#MP-PDO+DS-S,domain#Link-DataCopy-copyOf-Data,FALSE
 package#DataLifecycle,domain#MP-PDO+DS-S,domain#Link-Service-enablesAccess-DataOutput,FALSE
+package#DataLifecycle,domain#MP-PDO-DI,domain#Link-DataInput-usedBy-Process,FALSE
+package#DataLifecycle,domain#MP-PDO-DI,domain#Link-DataInput-usedFor-Data,FALSE
 package#DataLifecycle,domain#MP-PHHD,domain#Link-Human-interactsWith-Host,FALSE
 package#DataLifecycle,domain#MP-PHHDS,domain#Link-Human-interactsWith-Host,FALSE
 package#DataLifecycle,domain#MP-P-iDFDI,domain#Link-Process-enablesUserInput-Data,TRUE
@@ -376,6 +378,9 @@ package#DataLifecycleInference,domain#MP-DSDCDP2oDD,domain#Link-OldDataChannel-c
 package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Link-DataAccess-fulfils-DataCopy,TRUE
 package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Link-DataPool-atHost-Host,FALSE
 package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Link-DataPool-usedFor-Data,FALSE
+package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Link-DataAccess-fulfils-DataCopy,TRUE
+package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Link-DataDestination-fromSource-DataAccess,FALSE
+package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Link-DataDestination-fulfils-DataCopy,FALSE
 package#DataLifecycleInference,domain#MP-HPDXfr-cAC,domain#Link-DataExchange-connectedIn-ProcAccess,TRUE
 package#DataLifecycleInference,domain#MP-HPDXfr-cAC,domain#Link-Host-hosts-FlowsTo,TRUE
 package#DataLifecycleInference,domain#MP-HPDXfr-cAC,domain#Link-Host-stores-Data,TRUE

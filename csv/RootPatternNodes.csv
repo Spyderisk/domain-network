@@ -507,6 +507,11 @@ package#DataLifecycle,domain#R-HPDODF,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycle,domain#R-HPDODF,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycle,domain#R-HPDODF,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HPDODF,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-HPDODS,domain#Node-DataAccess-DataOutput,TRUE
+package#DataLifecycle,domain#R-HPDODS,domain#Node-DataCopy-DataCopy,TRUE
+package#DataLifecycle,domain#R-HPDODS,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-HPDODS,domain#Node-Host-Host,TRUE
+package#DataLifecycle,domain#R-HPDODS,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-HPDOuDS,domain#Node-DataAccess-DataOutput,TRUE
 package#DataLifecycle,domain#R-HPDOuDS,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-HPDOuDS,domain#Node-Data-Data,TRUE

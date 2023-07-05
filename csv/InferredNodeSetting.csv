@@ -64,7 +64,8 @@ package#DataLifecycleInference,domain#CP-Pc-rDH-DS-Hu-DP+OP,domain#Node-DataOutp
 package#DataLifecycleInference,domain#CP-Pc-rDSH+S-Hu-DA+DO,domain#Node-DataOutput-DataOutput,domain#INS-Pc-rDSH+S-Hu-DA+DO-DataOutput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-Pc-rDSH-Hu-DP+OP,domain#Node-DataOutput-OutputPool,domain#INS-Pc-rDSH-Hu-DP+OP-DataOutput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-Pc-rDSH-S-Hu-DA+DO,domain#Node-DataOutput-DataOutput,domain#INS-Pc-rDSH-S-Hu-DA+DO-DataOutput,TRUE,FALSE,domain#Node-Data-Data
-package#DataLifecycleInference,domain#CP-PDP-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-PDP-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Process-Process
+package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Node-NewDataPath-DataPath,domain#INS-PDO-DI+DP-NewDataPath,TRUE,FALSE,domain#Node-Process-Process
+package#DataLifecycleInference,domain#CP-PDP+DP,domain#Node-NewDataPath-DataPath,domain#INS-PDP+DP-NewDataPath,TRUE,FALSE,domain#Node-Process-Process
 package#DataLifecycleInference,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#Node-DataInput-DataInput,domain#INS-Pr-cDH-DS-Hu-DA+DI-DataInput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-Pr-cDSH+S-Hu-DA+DI,domain#Node-DataInput-DataInput,domain#INS-Pr-cDSH+S-Hu-DA+DI-DataInput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-Pr-cDSH-Hu-DP+IP,domain#Node-DataInput-InputPool,domain#INS-Pr-cDSH-Hu-DP+IP-DataInput,TRUE,FALSE,domain#Node-Data-Data

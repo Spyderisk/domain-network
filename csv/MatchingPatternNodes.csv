@@ -175,6 +175,7 @@ package#DataLifecycle,domain#MP-PDI+DS-S,domain#Node-Service-Process,FALSE,TRUE,
 package#DataLifecycle,domain#MP-PDI-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PDO+DS-S,domain#Node-DataCopy-DataCopy,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDO+DS-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#MP-PDO-DI,domain#Node-DataInput-DataInput,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PHHD,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PHHDS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-P-iDFDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
@@ -199,6 +200,7 @@ package#DataLifecycleInference,domain#MP-DO-fDCSDD,domain#Node-DataAccess-DataAc
 package#DataLifecycleInference,domain#MP-DSDCDP2oDD,domain#Node-DataSource-DataAccess,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DSDCDP2oDD,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Node-DataPool-DataPool,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Node-DataDestination-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-DataPath-DataPath,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HuaDSPH+S-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
