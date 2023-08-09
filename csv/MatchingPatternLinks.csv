@@ -839,6 +839,17 @@ package#NetworkConnectivity,domain#MP-NoH,domain#Link-NetworkPath-visits-Interne
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Link-LogicalPath-blockedPath-LogicalPath,TRUE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Link-LogicalPath-traverses-LogicalSegment,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Link-LogicalPath-visits-LogicalSubnet,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Link-HostAccess-accessTo-Host,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Link-HostAccess-accessVia-LogicalSubnet,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Link-HostManager-manages-Host,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Link-NetworkPath-blockedPath-NetworkPath,TRUE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Link-NetworkPath-visitsGateway-Host,TRUE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Link-HostAccess-accessTo-Host,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Link-HostAccess-accessVia-LogicalSubnet,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Link-HostManager-manages-Host,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Link-NetworkPath-blockedPath-NetworkPath,TRUE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Link-NetworkPath-visitsGateway-Host,TRUE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Link-NetworkPath-visits-Internet,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Link-HostAccess-accessTo-Host,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Link-HostAccess-accessVia-LogicalSubnet,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Link-HostManager-manages-Host,FALSE

@@ -283,9 +283,9 @@ package#Network,domain#P.W.HP-iT.7,domain#MS-MalwareInfection-Process
 package#NetworkConnectivity,domain#H.L.IoH.3,domain#MS-LocalLossOfUserTW-HostAccess
 package#NetworkConnectivity,domain#H.L.NoH.3,domain#MS-LocalLossOfUserTW-HostAccess
 package#NetworkConnectivity,domain#H.M.IoH.3,domain#MS-LocalLossOfControl-HostAccess
-package#NetworkConnectivity,domain#H.M.IoH.7,domain#MS-LocalLossOfControl-HostAccess
 package#NetworkConnectivity,domain#H.M.NoH.3,domain#MS-LocalLossOfControl-HostAccess
-package#NetworkConnectivity,domain#H.M.NoH.7,domain#MS-LocalLossOfControl-HostAccess
+package#NetworkConnectivity,domain#H.M.RIoH.7,domain#MS-LocalLossOfControl-HostAccess
+package#NetworkConnectivity,domain#H.M.RNoH.7,domain#MS-LocalLossOfControl-HostAccess
 package#NetworkConnectivity,domain#I.A.GdHRS.6,domain#MS-LossOfAvailability-Interface
 package#NetworkConnectivity,domain#I.A.GdHRSi.6,domain#MS-LossOfAvailability-Interface
 package#NetworkConnectivity,domain#I.A.GdHWS.6,domain#MS-LossOfAvailability-Interface
