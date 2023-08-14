@@ -433,6 +433,8 @@ package#NetworkConnectivity,domain#R-LPsLS,LPsLS,Finds a Logical Subnet at the s
 package#NetworkConnectivity,domain#R-NoH,NoH,"Finds an open network path from a remote attacker subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP,NP,Finds a network path (which may or may not be physical).,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NPLS,NPLS,Finds a network path that starts and ends on the same logical subnet.,FALSE,TRUE
+package#NetworkConnectivity,domain#R-RIoH,RIoH,"Finds an open network path to the Internet from a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-RNoH,RNoH,"Finds an open network path to a remote attacker subnet from a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RoH,RoH,"Finds an open network path from a remote attacker L3 subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RScGcRS,RScGcRS,"Finds a Physical Host connected between two WiFi subnets, both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-Sg,Sg,"Finds a logical segment between two subnets, plus the associated gateway host and its inbound and outbound interfaces.",FALSE,FALSE

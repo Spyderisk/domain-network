@@ -458,6 +458,11 @@ package#NetworkConnectivity,domain#MP-NoH,domain#Node-HostManager-Human,FALSE,FA
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Node-LogicalSegment-LogicalSegment,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Node-LogicalSubnet-LogicalSubnet,TRUE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
