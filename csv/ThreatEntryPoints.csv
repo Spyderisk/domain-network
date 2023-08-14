@@ -223,10 +223,10 @@ package#NetworkConnectivity,domain#I.O.DDoH.3,domain#TWAS-NetworkControl-Attacke
 package#NetworkConnectivity,domain#I.O.HIoH.3.1,domain#TWAS-NetworkUserTW-LogicalSubnet
 package#NetworkConnectivity,domain#I.O.HIoH.3.2,domain#TWAS-NetworkControl-LogicalSubnet
 package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
-package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-NetworkUserTW-LogicalSubnet
+package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-NetworkUserTW-AttackerSubnet
 package#NetworkConnectivity,domain#I.O.LoH.3,domain#TWAS-NetworkUserTW-LogicalSubnet
 package#NetworkConnectivity,domain#I.O.RoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
-package#NetworkConnectivity,domain#I.O.RoH.3,domain#TWAS-NetworkUserTW-LogicalSubnet
+package#NetworkConnectivity,domain#I.O.RoH.3,domain#TWAS-NetworkUserTW-AttackerSubnet
 package#NetworkConnectivity,domain#LS.C.WiFiSSoH.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#LS.C.WiFiSSoH.3,domain#TWAS-OutOfService-RadioSubnet
 package#NetworkConnectivity,domain#NP.DA.NPLS.8,domain#TWAS-OutOfService-LogicalSubnet
