@@ -48,8 +48,6 @@ package#Network,domain#Clustering,domain#ClusterHost
 package#Network,domain#ContinuousAuthN,domain#Host
 package#Network,domain#ContinuousAuthNID,domain#Human
 package#Network,domain#ContinuousAuthVerifier,domain#Process
-package#Network,domain#CurrentRiskCalculation,domain#Host
-package#Network,domain#CurrentRiskCalculation,domain#Process
 package#Network,domain#DeviceCertification,domain#Host
 package#Network,domain#DisabledHost,domain#Host
 package#Network,domain#DisabledProcess,domain#Process

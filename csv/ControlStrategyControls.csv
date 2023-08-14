@@ -216,8 +216,6 @@ package#Network,domain#CSG-ContinuousUserAuthentication,domain#CS-ContinuousAuth
 package#Network,domain#CSG-ContinuousUserAuthentication,domain#CS-ContinuousAuthNID-Human,FALSE
 package#Network,domain#CSG-ContinuousUserAuthentication,domain#CS-ContinuousAuthVerifier-Process,FALSE
 package#Network,domain#CSG-ContinuousUserAuthentication,domain#CS-PersonalDevice-Host,FALSE
-package#Network,domain#CSG-CurrentRiskAtHost,domain#CS-CurrentRiskCalculation-Host,FALSE
-package#Network,domain#CSG-CurrentRiskAtProcess,domain#CS-CurrentRiskCalculation-Process,FALSE
 package#Network,domain#CSG-DeprioritisedProcess-Runtime,domain#CS-LowPriority-Process,FALSE
 package#Network,domain#CSG-DisableGatewayHost-Runtime,domain#CS-DisabledHost-Gateway,FALSE
 package#Network,domain#CSG-DisableGatewayHost-Runtime,domain#CS-SystemSecurityTraining-HostManager,FALSE
