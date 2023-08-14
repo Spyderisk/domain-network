@@ -218,6 +218,10 @@ package#NetworkConnectivity,domain#I.IS.I.8,domain#TWAS-OutOfService-LogicalSubn
 package#NetworkConnectivity,domain#I.IS.INC.1,domain#TWAS-Control-HostAccess
 package#NetworkConnectivity,domain#I.IS.INC.1,domain#TWAS-OutOfService-LogicalSubnet
 package#NetworkConnectivity,domain#I.M.I.8,domain#TWAS-OutOfService-Interface
+package#NetworkConnectivity,domain#I.O.DDoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
+package#NetworkConnectivity,domain#I.O.DDoH.3,domain#TWAS-NetworkControl-AttackerSubnet
+package#NetworkConnectivity,domain#I.O.HIoH.3.1,domain#TWAS-NetworkUserTW-LogicalSubnet
+package#NetworkConnectivity,domain#I.O.HIoH.3.2,domain#TWAS-NetworkControl-LogicalSubnet
 package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
 package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-NetworkUserTW-LogicalSubnet
 package#NetworkConnectivity,domain#I.O.LoH.3,domain#TWAS-NetworkUserTW-LogicalSubnet

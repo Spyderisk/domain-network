@@ -405,6 +405,7 @@ package#Network,domain#R-WpHSH,WpHSH,"Finds a mobile host or virtual host runnin
 package#Network,domain#R-WS,WS,Finds a solo WiFiLAN.,FALSE,FALSE
 package#Network,domain#R-WSS,WSS,Finds a Wired Subnet accessible from a Space.,FALSE,FALSE
 package#Network,domain#R-WSSH,WSSH,Finds a Wired Subnet provided by a gateway Host accessible from a Space.,FALSE,FALSE
+package#NetworkConnectivity,domain#R-DDoH,DDoH,"Finds an open network path from the Internet to (but not via) a Host connected to a local subnet, and the associated gateway and target network interfaces.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-GHRS,GHRS,Finds a gateway providing a radio subnet to which a host is connected.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-GHRSi,GHRSi,"Finds a gateway providing a radio subnet to which a host is connected, where the radio subnet implements itself (i.e. it is not the local realisation of a hotspot or cellular network).",TRUE,FALSE
 package#NetworkConnectivity,domain#R-GHWS,GHWS,Finds a gateway providing a wired subnet to which a host is connected.,FALSE,FALSE

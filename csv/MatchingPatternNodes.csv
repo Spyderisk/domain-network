@@ -428,6 +428,7 @@ package#Network,domain#MP-WSS-HP,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-WSS-HP,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#Network,domain#MP-WSSH-P,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-WSSH-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#NetworkConnectivity,domain#MP-DDoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-GdHRS,domain#Node-Process-Process,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-GdHRSi,domain#Node-Process-Process,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-GdHWS,domain#Node-Process-Process,FALSE,FALSE,FALSE

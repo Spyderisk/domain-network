@@ -364,12 +364,15 @@ package#Network,domain#CSG-UserWithoutEmail,domain#Hu.E.HummH-e.9
 package#NetworkConnectivity,domain#CSG-BlockGatewayRoute,domain#Sg.DA.L3SSg2-b.8
 package#NetworkConnectivity,domain#CSG-BlockInterface,domain#I.DA.I.8
 package#NetworkConnectivity,domain#CSG-BWManagementAtInterface,domain#I.M.I.8
+package#NetworkConnectivity,domain#CSG-BWManagementAtInterface,domain#I.O.HIoH.3.1
 package#NetworkConnectivity,domain#CSG-BWManagementAtInterface,domain#I.O.IoH.3
 package#NetworkConnectivity,domain#CSG-BWManagementAtInterface,domain#I.O.RoH.3
 package#NetworkConnectivity,domain#CSG-ContinuouslyObservedGateway,domain#I.Auth.HWSGSoS.3
 package#NetworkConnectivity,domain#CSG-ContinuouslyObservedHost,domain#I.Auth.HSWSoGS.3
 package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#I.IS.I.8
 package#NetworkConnectivity,domain#CSG-FilterDosAtInterface,domain#I.M.I.8
+package#NetworkConnectivity,domain#CSG-FilterDosAtInterface,domain#I.O.DDoH.3
+package#NetworkConnectivity,domain#CSG-FilterDosAtInterface,domain#I.O.HIoH.3.2
 package#NetworkConnectivity,domain#CSG-HostWithMultipleWiFiNIC,domain#H.E.RScGcRS.9
 package#NetworkConnectivity,domain#CSG-HostWithMultipleWiredNIC,domain#H.E.WScMcWS.9
 package#NetworkConnectivity,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#I.Auth.HRSGSoS.3

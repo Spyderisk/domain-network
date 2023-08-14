@@ -1564,6 +1564,14 @@ package#Network,domain#R-WSSH,domain#Link-HostAccess-accessTo-Gateway
 package#Network,domain#R-WSSH,domain#Link-HostAccess-accessVia-LogicalSubnet
 package#Network,domain#R-WSSH,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#Network,domain#R-WSSH,domain#Link-LogicalSubnet-providedBy-Gateway
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-Host-connectedTo-LogicalSubnet
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-InboundIF-connectsFrom-Host
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-InboundIF-connectsTo-LogicalSubnet
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-Interface-connectsTo-AttackerSubnet
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-LogicalSegment-from-Interface
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-NetworkPath-end-LogicalSubnet
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-NetworkPath-start-AttackerSubnet
+package#NetworkConnectivity,domain#R-DDoH,domain#Link-NetworkPath-traverses-LogicalSegment
 package#NetworkConnectivity,domain#R-GHRS,domain#Link-Host-connectedTo-RadioSubnet
 package#NetworkConnectivity,domain#R-GHRS,domain#Link-Interface-connectsFrom-Host
 package#NetworkConnectivity,domain#R-GHRS,domain#Link-Interface-connectsTo-RadioSubnet
@@ -2080,7 +2088,7 @@ package#ProcessComms,domain#R-CCDS2TC,domain#Link-InStep-flowsTo-Service
 package#ProcessComms,domain#R-CCfI,domain#Link-CHost-hosts-Client
 package#ProcessComms,domain#R-CCfI,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCfI,domain#Link-ClientChannel-channelTo-Service
-package#ProcessComms,domain#R-CCfI,domain#Link-ClientChannel-viaInterface-Interface
+package#ProcessComms,domain#R-CCfI,domain#Link-ClientChannel-fromInterface-Interface
 package#ProcessComms,domain#R-CCfI,domain#Link-Interface-connectsFrom-CHost
 package#ProcessComms,domain#R-CCfI,domain#Link-Interface-connectsTo-LogicalSubnet
 package#ProcessComms,domain#R-CCSC,domain#Link-ClientChannel-channelFrom-Client
@@ -2103,7 +2111,7 @@ package#ProcessComms,domain#R-CCSCvLS,domain#Link-ClientChannel-channelVia-Servi
 package#ProcessComms,domain#R-CCSCvLS,domain#Link-ServiceChannel-viaSubnet-LogicalSubnet
 package#ProcessComms,domain#R-CCtI,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCtI,domain#Link-ClientChannel-channelTo-Service
-package#ProcessComms,domain#R-CCtI,domain#Link-ClientChannel-viaInterface-Interface
+package#ProcessComms,domain#R-CCtI,domain#Link-ClientChannel-toInterface-Interface
 package#ProcessComms,domain#R-CCtI,domain#Link-Interface-connectsFrom-SHost
 package#ProcessComms,domain#R-CCtI,domain#Link-Interface-connectsTo-LogicalSubnet
 package#ProcessComms,domain#R-CCtI,domain#Link-SHost-hosts-Service

@@ -777,6 +777,9 @@ package#Network,domain#MP-WSS-HP,domain#Link-LogicalSubnet-providedBy-Gateway,FA
 package#Network,domain#MP-WSS-HP,domain#Link-Process-controls-LogicalSubnet,FALSE
 package#Network,domain#MP-WSSH-P,domain#Link-HostManager-manages-Gateway,FALSE
 package#Network,domain#MP-WSSH-P,domain#Link-Process-controls-LogicalSubnet,FALSE
+package#NetworkConnectivity,domain#MP-DDoH,domain#Link-HostManager-manages-Host,FALSE
+package#NetworkConnectivity,domain#MP-DDoH,domain#Link-NetworkPath-blockedPath-NetworkPath,TRUE
+package#NetworkConnectivity,domain#MP-DDoH,domain#Link-NetworkPath-visitsGateway-Host,TRUE
 package#NetworkConnectivity,domain#MP-GdHRS,domain#Link-Process-controls-RadioSubnet,FALSE
 package#NetworkConnectivity,domain#MP-GdHRSi,domain#Link-Process-controls-LogicalSubnet,FALSE
 package#NetworkConnectivity,domain#MP-GdHWS,domain#Link-Process-controls-LogicalSubnet,FALSE
@@ -1079,9 +1082,9 @@ package#ProcessComms,domain#MP-CCDS2TC,domain#Link-DataFlow-flowsVia-InStep,FALS
 package#ProcessComms,domain#MP-CCDS2TC,domain#Link-DataFlow-flowsViaSC-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CCDS2TC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-CCfImSC,domain#Link-ClientChannel-channelVia-ServiceChannel,FALSE
-package#ProcessComms,domain#MP-CCfImSC,domain#Link-ServiceChannel-viaInterface-Interface,FALSE
+package#ProcessComms,domain#MP-CCfImSC,domain#Link-ServiceChannel-fromInterface-Interface,FALSE
 package#ProcessComms,domain#MP-CCtImSC,domain#Link-ClientChannel-channelVia-ServiceChannel,FALSE
-package#ProcessComms,domain#MP-CCtImSC,domain#Link-ServiceChannel-viaInterface-Interface,FALSE
+package#ProcessComms,domain#MP-CCtImSC,domain#Link-ServiceChannel-toInterface-Interface,FALSE
 package#ProcessComms,domain#MP-CDBSC,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CDBSCDSF,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CDBSCDSF,domain#Link-ServiceManager-manages-Service,FALSE

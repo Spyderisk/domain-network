@@ -1612,6 +1612,13 @@ package#Network,domain#R-WSSH,domain#Node-Gateway-Host,TRUE
 package#Network,domain#R-WSSH,domain#Node-HostAccess-HostNetContext,TRUE
 package#Network,domain#R-WSSH,domain#Node-LogicalSubnet-WiredSubnet,TRUE
 package#Network,domain#R-WSSH,domain#Node-Space-Space,TRUE
+package#NetworkConnectivity,domain#R-DDoH,domain#Node-AttackerSubnet-Internet,TRUE
+package#NetworkConnectivity,domain#R-DDoH,domain#Node-Host-Host,TRUE
+package#NetworkConnectivity,domain#R-DDoH,domain#Node-InboundIF-Interface,TRUE
+package#NetworkConnectivity,domain#R-DDoH,domain#Node-Interface-Interface,TRUE
+package#NetworkConnectivity,domain#R-DDoH,domain#Node-LogicalSegment-LogicalSegment,TRUE
+package#NetworkConnectivity,domain#R-DDoH,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
+package#NetworkConnectivity,domain#R-DDoH,domain#Node-NetworkPath-NetworkPath,TRUE
 package#NetworkConnectivity,domain#R-GHRS,domain#Node-Gateway-Host,TRUE
 package#NetworkConnectivity,domain#R-GHRS,domain#Node-Host-Host,TRUE
 package#NetworkConnectivity,domain#R-GHRS,domain#Node-Interface-Interface,TRUE
