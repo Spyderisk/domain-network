@@ -587,6 +587,7 @@ package#ProcessComms,domain#R-PCaFCSCCC,PCaFCSCCC,Finds a client channel via a s
 package#ProcessComms,domain#R-PCaTSSCAP,PCaTSSCAP,Finds an attack path path via a service channel on which a service is accessible in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCaTSSCCC,PCaTSSCCC,Finds a client channel via a service channel which gives access to a service in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCCPCCS,PCCPCCS,"Finds a client that is a specialised service proxy, with access to a service proxy, that in turn has access to a service.",FALSE,FALSE
+package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-PNacS,PNacS,"Finds a host running a service accessed by an authentication proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,Finds a client using a service via an authentication proxy (i.e. the proxy forwards credentials).,FALSE,FALSE
 package#ProcessComms,domain#R-PurRASuSH,PurRASuSH,"Finds a process acting as a reverse proxy, which can remotely use a remote access service that uses a collocated process.",FALSE,FALSE

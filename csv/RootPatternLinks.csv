@@ -2632,6 +2632,9 @@ package#ProcessComms,domain#R-PCCPCCS,domain#Link-Client-usesViaAuthenticatingPr
 package#ProcessComms,domain#R-PCCPCCS,domain#Link-ProxyChannel-channelFrom-Service
 package#ProcessComms,domain#R-PCCPCCS,domain#Link-ProxyChannel-channelTo-Process
 package#ProcessComms,domain#R-PCCPCCS,domain#Link-SHost-hosts-Service
+package#ProcessComms,domain#R-PILS,domain#Link-Interface-connectsFrom-SHost
+package#ProcessComms,domain#R-PILS,domain#Link-Interface-connectsTo-LogicalSubnet
+package#ProcessComms,domain#R-PILS,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-PNacS,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-PNacS,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-PNacS,domain#Link-Service-controls-Client

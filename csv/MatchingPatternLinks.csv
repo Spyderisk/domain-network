@@ -1301,6 +1301,9 @@ package#ProcessComms,domain#MP-PCCPCCS,domain#Link-ServiceManager-manages-Servic
 package#ProcessComms,domain#MP-PDFFA,domain#Link-DataFlow-flowsViaChannel-ClientChannel,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-Human-manages-FlowsFrom,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-ProcessManager-manages-FlowsTo,FALSE
+package#ProcessComms,domain#MP-PILSsSC,domain#Link-HostManager-manages-SHost,FALSE
+package#ProcessComms,domain#MP-PILSsSC,domain#Link-ServiceChannel-channelTo-Service,FALSE
+package#ProcessComms,domain#MP-PILSsSC,domain#Link-ServiceChannel-toInterface-Interface,FALSE
 package#ProcessComms,domain#MP-PNacS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-PNacS,domain#Link-Human-manages-Client,FALSE
 package#ProcessComms,domain#MP-PNacS,domain#Link-ProcAccess-accessTo-Service,FALSE

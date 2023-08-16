@@ -2636,6 +2636,10 @@ package#ProcessComms,domain#R-PCCPCCS,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-PCCPCCS,domain#Node-ProxyChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-PCCPCCS,domain#Node-Service-ServiceProxy,TRUE
 package#ProcessComms,domain#R-PCCPCCS,domain#Node-SHost-Host,TRUE
+package#ProcessComms,domain#R-PILS,domain#Node-Interface-Interface,TRUE
+package#ProcessComms,domain#R-PILS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
+package#ProcessComms,domain#R-PILS,domain#Node-Service-Process,TRUE
+package#ProcessComms,domain#R-PILS,domain#Node-SHost-Host,TRUE
 package#ProcessComms,domain#R-PNacS,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-PNacS,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-PNacS,domain#Node-Service-Process,TRUE

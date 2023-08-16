@@ -739,6 +739,8 @@ package#ProcessComms,domain#MP-PCCPCCS,domain#Node-ServiceManager-Human,FALSE,FA
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ClientChannel-ClientChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-PILSsSC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-PILSsSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,TRUE
 package#ProcessComms,domain#MP-PNacS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PNacS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PNacS,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE

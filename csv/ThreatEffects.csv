@@ -432,6 +432,7 @@ package#ProcessComms,domain#P.O.CCDFSFS.0,domain#MS-Overloaded-Service
 package#ProcessComms,domain#P.O.CCDFSTS.0,domain#MS-Overloaded-Service
 package#ProcessComms,domain#P.O.DDoS.3,domain#MS-Overloaded-Process
 package#ProcessComms,domain#P.O.DoS.3,domain#MS-Overloaded-Process
+package#ProcessComms,domain#P.O.PILSsSC.0,domain#MS-Overloaded-Service
 package#ProcessComms,domain#SAP.IS.CAPSAP.8,domain#MS-InService-ServiceAttackPath
 package#ProcessComms,domain#SC.A.CCCmSCS.0,domain#MS-LossOfConnectivity-ServiceChannel
 package#ProcessComms,domain#SC.A.CCfImSC.0,domain#MS-LossOfConnectivity-ServiceChannel
