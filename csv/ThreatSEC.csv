@@ -156,6 +156,8 @@ package#ProcessComms,domain#P.O.CCDFSFS.0,domain#MS-InService-ClientChannel
 package#ProcessComms,domain#P.O.CCDFSFS.0,domain#MS-Overloaded-DataStep
 package#ProcessComms,domain#P.O.CCDFSTS.0,domain#MS-InService-ClientChannel
 package#ProcessComms,domain#P.O.CCDFSTS.0,domain#MS-Overloaded-DataStep
+package#ProcessComms,domain#P.O.PILSsSC.0,domain#MS-InService-ServiceChannel
+package#ProcessComms,domain#P.O.PILSsSC.0,domain#MS-Overloaded-Interface
 package#ProcessComms,domain#SC.A.CCCmSCS.0,domain#MS-LossOfAvailability-Service
 package#ProcessComms,domain#SC.A.CCfImSC.0,domain#MS-LossOfAvailability-Interface
 package#ProcessComms,domain#SC.A.CCtImSC.0,domain#MS-LossOfAvailability-Interface

@@ -18,7 +18,7 @@ package#Network,domain#NetworkControl,NetworkControl,Control over routing within
 package#Network,domain#NetworkUserTW,NetworkUserTW,Trustworthiness of users with access to an abstract or logical network subnet.,TRUE
 package#Network,domain#OutOfService,OutOfService,"The asset is not currently engaged or being used within the system, and hence cannot be exploited by attackers.",FALSE
 package#Network,domain#ResourceTW,ResourceTW,Provisining is controlled by a trustworthy process or administrator.,TRUE
-package#Network,domain#TrojanTW,TrojanTW,"The host has no back doors inserted into its operating system or other software running on the host. If back doors are present, this also makes processes running on the host vulnerable.",TRUE
+package#Network,domain#TrojanTW,BackdoorTW,"The host has no back doors inserted into its operating system or other software running on the host. If back doors are present, this also makes processes running on the host vulnerable.",TRUE
 package#Network,domain#Underload,Underload,Represents the spare capacity at a Data Centre.,FALSE
 package#NetworkConnectivity,domain#BandwidthManaged,BandwidthManaged,Signifies that bandwidth used by message flows through an interface can be restricted based on their source and/or destination addresses.,FALSE
 package#NetworkConnectivity,domain#CommsNotSnoopable,CommsNotSnoopable,"Applies to a network or a communication channel between processes, signifying that messages cannot be intercepted and read in that network or channel.",TRUE

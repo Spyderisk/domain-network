@@ -283,9 +283,9 @@ package#Network,domain#P.W.HP-iT.7,domain#MS-MalwareInfection-Process
 package#NetworkConnectivity,domain#H.L.IoH.3,domain#MS-LocalLossOfUserTW-HostAccess
 package#NetworkConnectivity,domain#H.L.NoH.3,domain#MS-LocalLossOfUserTW-HostAccess
 package#NetworkConnectivity,domain#H.M.IoH.3,domain#MS-LocalLossOfControl-HostAccess
-package#NetworkConnectivity,domain#H.M.IoH.7,domain#MS-LocalLossOfControl-HostAccess
 package#NetworkConnectivity,domain#H.M.NoH.3,domain#MS-LocalLossOfControl-HostAccess
-package#NetworkConnectivity,domain#H.M.NoH.7,domain#MS-LocalLossOfControl-HostAccess
+package#NetworkConnectivity,domain#H.M.RIoH.7,domain#MS-LocalLossOfControl-HostAccess
+package#NetworkConnectivity,domain#H.M.RNoH.7,domain#MS-LocalLossOfControl-HostAccess
 package#NetworkConnectivity,domain#I.A.GdHRS.6,domain#MS-LossOfAvailability-Interface
 package#NetworkConnectivity,domain#I.A.GdHRSi.6,domain#MS-LossOfAvailability-Interface
 package#NetworkConnectivity,domain#I.A.GdHWS.6,domain#MS-LossOfAvailability-Interface
@@ -299,6 +299,9 @@ package#NetworkConnectivity,domain#I.DA.I.8,domain#MS-ConnectionsAllowed-Interfa
 package#NetworkConnectivity,domain#I.IS.I.8,domain#MS-InService-Interface
 package#NetworkConnectivity,domain#I.IS.INC.1,domain#MS-InService-Interface
 package#NetworkConnectivity,domain#I.M.I.8,domain#MS-BandwidthUnmanaged-Interface
+package#NetworkConnectivity,domain#I.O.DDoH.3,domain#MS-Overloaded-Interface
+package#NetworkConnectivity,domain#I.O.HIoH.3.1,domain#MS-Overloaded-Interface
+package#NetworkConnectivity,domain#I.O.HIoH.3.2,domain#MS-Overloaded-Interface
 package#NetworkConnectivity,domain#I.O.IoH.3,domain#MS-Overloaded-Interface
 package#NetworkConnectivity,domain#I.O.LoH.3,domain#MS-Overloaded-Interface
 package#NetworkConnectivity,domain#I.O.RoH.3,domain#MS-Overloaded-Interface
@@ -429,6 +432,7 @@ package#ProcessComms,domain#P.O.CCDFSFS.0,domain#MS-Overloaded-Service
 package#ProcessComms,domain#P.O.CCDFSTS.0,domain#MS-Overloaded-Service
 package#ProcessComms,domain#P.O.DDoS.3,domain#MS-Overloaded-Process
 package#ProcessComms,domain#P.O.DoS.3,domain#MS-Overloaded-Process
+package#ProcessComms,domain#P.O.PILSsSC.0,domain#MS-Overloaded-Service
 package#ProcessComms,domain#SAP.IS.CAPSAP.8,domain#MS-InService-ServiceAttackPath
 package#ProcessComms,domain#SC.A.CCCmSCS.0,domain#MS-LossOfConnectivity-ServiceChannel
 package#ProcessComms,domain#SC.A.CCfImSC.0,domain#MS-LossOfConnectivity-ServiceChannel

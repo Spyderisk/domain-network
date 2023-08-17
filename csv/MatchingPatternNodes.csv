@@ -428,6 +428,7 @@ package#Network,domain#MP-WSS-HP,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-WSS-HP,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#Network,domain#MP-WSSH-P,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-WSSH-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#NetworkConnectivity,domain#MP-DDoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-GdHRS,domain#Node-Process-Process,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-GdHRSi,domain#Node-Process-Process,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-GdHWS,domain#Node-Process-Process,FALSE,FALSE,FALSE
@@ -457,6 +458,11 @@ package#NetworkConnectivity,domain#MP-NoH,domain#Node-HostManager-Human,FALSE,FA
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Node-LogicalSegment-LogicalSegment,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Node-LogicalSubnet-LogicalSubnet,TRUE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RIoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-RNoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
@@ -733,6 +739,8 @@ package#ProcessComms,domain#MP-PCCPCCS,domain#Node-ServiceManager-Human,FALSE,FA
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ClientChannel-ClientChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-PILSsSC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-PILSsSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,TRUE
 package#ProcessComms,domain#MP-PNacS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PNacS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PNacS,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
