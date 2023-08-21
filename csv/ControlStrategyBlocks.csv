@@ -222,11 +222,12 @@ package#GDPR,domain#CSG-GDPRSuspendDataFlow,domain#D.GDPR.DFHuoO.1
 package#GDPR,domain#CSG-GDPRSuspendDataFlow,domain#D.GDPR.NDFHuoO.1
 package#GDPR,domain#CSG-GDPRSuspendDataFlow-Implementation-Runtime,domain#D.GDPR.DFHuoO.1
 package#GDPR,domain#CSG-GDPRSuspendDataFlow-Implementation-Runtime,domain#D.GDPR.NDFHuoO.1
-package#IoT,domain#CSG-SafeIoTController,domain#Co.U.CoPD.0.2
-package#IoT,domain#CSG-SafeIoTControlMode,domain#Co.U.CoPD.0.2
-package#IoT,domain#CSG-SafeIoTControlMode-Implementation-Runtime,domain#Co.U.CoPD.0.2
-package#IoT,domain#CSG-SuspendUnreliableController,domain#Co.U.CoPD.0.1
-package#IoT,domain#CSG-SuspendUnreliableController-Implementation-Runtime,domain#Co.U.CoPD.0.1
+package#IoT,domain#CSG-NonRealtimeSensor,domain#DF.I.DScSePDmFF.0.2
+package#IoT,domain#CSG-SafeIoTController,domain#Co.U.CoPDS.0.2
+package#IoT,domain#CSG-SafeIoTControlMode,domain#Co.U.CoPDS.0.2
+package#IoT,domain#CSG-SafeIoTControlMode-Implementation-Runtime,domain#Co.U.CoPDS.0.2
+package#IoT,domain#CSG-SuspendUnreliableController,domain#Co.U.CoPDS.0.1
+package#IoT,domain#CSG-SuspendUnreliableController-Implementation-Runtime,domain#Co.U.CoPDS.0.1
 package#LocalDeviceConnectivity,domain#CSG-AntiMalwareAtHost,domain#H.W.HL1H.3
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.TA.L1SSg2.8
 package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.TA.LTethSg2.8

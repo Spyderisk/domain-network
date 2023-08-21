@@ -26,7 +26,7 @@ package#GDPR,domain#SubjectToGDPR,domain#Human
 package#GDPR,domain#SubjectToGDPR,domain#Jurisdiction
 package#IoT,domain#SafeControlMode,domain#Controller
 package#IoT,domain#SafeControlSetting,domain#Controller
-package#IoT,domain#SafeIoTController,domain#Controller
+package#IoT,domain#SafeIoTController,domain#Thing
 package#IoT,domain#SafetyTraining,domain#Human
 package#IoT,domain#SuspendUnreliableController,domain#Controller
 package#Legal,domain#LegalCompetenceCheck,domain#Human

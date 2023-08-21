@@ -143,11 +143,12 @@ package#DataLifecycleInference,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,domain#
 package#DataLifecycleInference,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-SDADPPDXRAC-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
 package#DataLifecycleInference,domain#INS-SDADPPDXRAC-DP+DP-NewDataPath,domain#Node-RemoteAccessClient-RemoteAccessClient
-package#IoT,domain#INS-Co+SPD-Data,domain#Node-Controller-Controller
-package#IoT,domain#INS-Co+SPD-DataService,domain#Node-Controller-Controller
-package#IoT,domain#INS-Co+SPD-SimpleProcess,domain#Node-Controller-Controller
-package#IoT,domain#INS-Se+SPD-Data,domain#Node-Sensor-Sensor
-package#IoT,domain#INS-Se+SPD-SimpleProcess,domain#Node-Sensor-Sensor
+package#IoT,domain#INS-Co+cD-Data,domain#Node-Controller-Controller
+package#IoT,domain#INS-DcTh+DS-SimpleProcess,domain#Node-Thing-Thing
+package#IoT,domain#INS-HuiCo+UI-Process,domain#Node-Controller-Controller
+package#IoT,domain#INS-Se+cD-Data,domain#Node-Sensor-Sensor
+package#IoT,domain#INS-Se+sD-Data,domain#Node-Sensor-Sensor
+package#IoT,domain#INS-SesD+SP-SimpleProcess,domain#Node-Sensor-Sensor
 package#LocalDeviceConnectivity,domain#INS-BPcGcBP+OSg-LogicalSegment,domain#Node-FromSubnet-BluetoothPair
 package#LocalDeviceConnectivity,domain#INS-BPcGcBP+OSg-LogicalSegment,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#INS-BPcGcBP+OSg-LogicalSegment,domain#Node-ToSubnet-BluetoothPair

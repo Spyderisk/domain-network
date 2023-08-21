@@ -112,6 +112,7 @@ package#GDPR,domain#GeneticData,domain#GDPRArt94Data
 package#GDPR,domain#HealthData,domain#GDPRArt94Data
 package#GDPR,domain#SpecialCategoryData,domain#GDPRArt9Data
 package#GDPR,domain#SpecialCategoryData,domain#SensitiveData
+package#IoT,domain#ControlData,domain#Data
 package#IoT,domain#Controller,domain#HostPalette
 package#IoT,domain#Controller,domain#Thing
 package#IoT,domain#ControlProcess,domain#IoTProcess

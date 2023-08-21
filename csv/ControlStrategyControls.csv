@@ -121,6 +121,7 @@ package#GDPR,domain#CSG-GDPRSuspendDataFlow,domain#CS-SuspendOutboundFlow-DataFl
 package#GDPR,domain#CSG-GDPRSuspendDataFlow-Implementation-Runtime,domain#CS-DisabledDataFlow-DataFlow,FALSE
 package#GDPR,domain#CSG-GDPRSuspendDataFlow-Implementation-Runtime,domain#CS-GDPRComplianceTraining-Human1,FALSE
 package#GDPR,domain#CSG-GDPRSuspendDataFlow-Implementation-Runtime,domain#CS-SuspendOutboundFlow-DataFlow,FALSE
+package#IoT,domain#CSG-NonRealtimeSensor,domain#CS-SafeIoTController-Sensor,FALSE
 package#IoT,domain#CSG-SafeIoTController,domain#CS-SafeIoTController-Controller,FALSE
 package#IoT,domain#CSG-SafeIoTControlMode,domain#CS-SafeControlSetting-Controller,FALSE
 package#IoT,domain#CSG-SafeIoTControlMode,domain#CS-SafetyTraining-HostManager,FALSE

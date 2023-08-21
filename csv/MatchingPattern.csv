@@ -246,7 +246,6 @@ package#DataLifecycleInference,domain#MP-PaDSH-S-Hu-DA,PaDSH-S-Hu-DA,"Finds a Pr
 package#DataLifecycleInference,domain#MP-Pc-rDSH+S-Hu-DA,Pc-rDSH+S-Hu-DA,"Finds a Process that is creating data of which there is a copy stored on the same host, where the process does not enable a user to enter the data, and there is as yet no data access associated with this Process and Data, but there is at least one Data Pool at this Host associated with the Data.",domain#R-PcDSH,FALSE,TRUE
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,Pc-rDSH-S-Hu-DA,"Finds a Process that is creating data of which there is a copy stored on the same host, where the process does not enable a user to enter the data, and there is as yet no data access associated with this Process and Data, and no Data Pool at this Host associated with the Data.",domain#R-PcDSH,FALSE,TRUE
 package#DataLifecycleInference,domain#MP-PDP,PDP,Finds a Process that implicitly or explicitly serves stored Data.,domain#R-PDP,FALSE,FALSE
-package#DataLifecycleInference,domain#MP-PDP-DP,PDP-DP,"Finds a Process that implicitly or explicitly serves stored Data, where the Data has no Data Path.",domain#R-PDP,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH+S-Hu-DA,Pr-cDSH+S-Hu-DA,"Finds a Process that is receiving data of which there is a copy stored on the same host, where the process does not enable a user to enter the data, and there is as yet no data access associated with this Process and Data, but there is at least one Data Pool at this Host associated with the Data.",domain#R-PrDSH,FALSE,TRUE
 package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,Pr-cDSH-S-Hu-DA,"Finds a Process that is receiving data of which there is a copy stored on the same host, where the process does not enable a user to enter the data, and there is as yet no data access associated with this Process and Data, and no Data Pool at this Host associated with the Data.",domain#R-PrDSH,FALSE,TRUE
 package#DataLifecycleInference,domain#MP-RA-fDCSDD,RA-fDCSDD,"Finds a remote access client acting as a data source but not itself getting the data from any original source, and having a data channel to a service that can act as a data destination.",domain#R-RADCSDD,FALSE,FALSE
@@ -259,22 +258,24 @@ package#GDPR,domain#MP-HuSDPoS-i,HuSDPoS-i,"Finds a Stakeholder operating a Proc
 package#GDPR,domain#MP-HuSDPS-io,HuSDPS-io,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject who is not operating the process providing access to the data.,domain#R-HuSDPS,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,NDFHuoO,Finds nationally regulated personal data being transferred across a border to a process that optionally has an operator organisation.,domain#R-NDFHu,FALSE,FALSE
 package#IoT,domain#MP-Co,Co,Finds a solo Controller.,domain#R-Co,FALSE,FALSE
-package#IoT,domain#MP-CoPD,CoPD,Finds a Controller with its onboard data and the control process that uses this data to control physical processes.,domain#R-CoPD,FALSE,FALSE
-package#IoT,domain#MP-CoPDsFT,CoPDsFT,"Finds a Controller with its onboard data and the control process that uses this data to control physical processes, plus flows of the data to this process, at least one of which must be involved.",domain#R-CoPD,FALSE,FALSE
-package#IoT,domain#MP-CoPsDmFF,CoPsDmFF,"Finds a Controller with its onboard data and the process that serves the data making it available to external clients, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-CoPsD,FALSE,FALSE
+package#IoT,domain#MP-CoPDS,CoPDS,Finds a Controller with its stored control input data.,domain#R-CoPDS,FALSE,FALSE
+package#IoT,domain#MP-DcTh,DcTh,Finds an IoT Thing and its control input Data.,domain#R-DcTh,FALSE,FALSE
+package#IoT,domain#MP-DScSePDmFF,DScSePDmFF,"Finds a Sensor with its onboard process and output data, and its stored copy of control input data, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-DScSePD,FALSE,FALSE
+package#IoT,domain#MP-HuiCo,HuiCo,"Finds the control input for an IoT Controller, which is being used interactively by a Human.",domain#R-HuiCo,FALSE,FALSE
+package#IoT,domain#MP-HuiSe,HuiSe,"Finds the control input and sensed output for an IoT Sensor, which is being used interactively by a Human, plus the interactive process that creates the output.",domain#R-HuiSe,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,HuiThaS-S,Finds a Human that has access to a space and uses an IoT Thing which has no specified location.,domain#R-HuiThaS,FALSE,FALSE
-package#IoT,domain#MP-HuiUCo,HuiUCo,"Finds a Human interacting with a UserController, plus onboard data and processing.",domain#R-HuiUCo,FALSE,FALSE
-package#IoT,domain#MP-HuiUSe,HuiUSe,"Finds a Human interacting with a UserSensor, plus onboard data and processing.",domain#R-HuiUSe,FALSE,FALSE
 package#IoT,domain#MP-HumThP-m,HumThP-m,Finds a Human managing a Thing with an unmanaged onboard process.,domain#R-HumThP,FALSE,FALSE
-package#IoT,domain#MP-Pa-uCo,Pa-uCo,"Finds a client Process that amends an IoT Controller, along with its onboard  communication Process and Data.",domain#R-PaCo,FALSE,TRUE
-package#IoT,domain#MP-PpSe,PpSe,"Finds a Process polling a Sensor, and the onboard Process and Data at the Sensor.",domain#R-PpSe,FALSE,FALSE
-package#IoT,domain#MP-Pr-uSe,Pr-uSe,"Finds a client Process that receives data from an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PrSe,FALSE,TRUE
-package#IoT,domain#MP-PuCo,PuCo,"Finds a client Process that updates an IoT Controller, along with its onboard  communication Process serving onboard Data.",domain#R-PuCo,FALSE,FALSE
+package#IoT,domain#MP-PaSe,PaSe,"Finds a client Process that amends control input to an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PaSe,FALSE,FALSE
+package#IoT,domain#MP-Pa-uCo,Pa-uCo,"Finds a client Process that amends (but does not update) an IoT Controller, along with its control input Data and onboard  communication Process.",domain#R-PaCo,FALSE,TRUE
+package#IoT,domain#MP-Pp-uSe,Pp-uSe,"Finds a client Process that polls (but does not read) an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PpSe,FALSE,TRUE
+package#IoT,domain#MP-PrSe,PrSe,"Finds a client Process that receives data from an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PrSe,FALSE,TRUE
+package#IoT,domain#MP-PuCo,PuCo,"Finds a client Process that updates an IoT Controller, along with its control input Data and onboard  communication Process.",domain#R-PuCo,FALSE,FALSE
 package#IoT,domain#MP-PuSe,PuSe,"Finds a client Process that reads data from an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PuSe,FALSE,FALSE
 package#IoT,domain#MP-Se,Se,Finds a solo Sensor.,domain#R-Se,FALSE,FALSE
 package#IoT,domain#MP-SePD,SePD,Finds a Sensor with its onboard process and data.,domain#R-SePD,FALSE,FALSE
 package#IoT,domain#MP-SePDmFF,SePDmFF,"Finds a Sensor with its onboard process and data, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-SePD,FALSE,FALSE
 package#IoT,domain#MP-SePDsFF,SePDsFF,"Finds a Sensor with its onboard process and data, plus all flows of this data from the process (i.e., out of the sensor), at least one of which must be involved in the pattern.",domain#R-SePD,FALSE,FALSE
+package#IoT,domain#MP-SesD,SesD,Finds a Sensor and its sensed Data.,domain#R-SesD,FALSE,FALSE
 package#IoT,domain#MP-SHuTh-Hu,SHuTh-Hu,Finds a Human managing a Space in which an unmanaged Thing is located.,domain#R-SHuTh,FALSE,FALSE
 package#Legal,domain#MP-DFHuoO,DFHuoO,Finds personal data being transferred across a border to a process that optionally has an operator organisation.,domain#R-DFHu,FALSE,FALSE
 package#Legal,domain#MP-DSHuoO,DSHuoO,"Finds personal data being communicated across a border, to a process that is an intermediary (not the final destination) and optionally has an operator organisation.",domain#R-DSHu,FALSE,FALSE
@@ -543,7 +544,8 @@ package#Privacy,domain#MP-Hu-aDPS-io,Hu-aDPS-io,"Finds a Stakeholder operating a
 package#Privacy,domain#MP-HuDPoS-i,HuDPoS-i,"Finds Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject operates the Service but not the Process.",domain#R-HuDPoS,FALSE,FALSE
 package#Privacy,domain#MP-HuDPS-io,HuDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE
 package#Privacy,domain#MP-HurH-StSt,HurH-StSt,"Finds a Human who does not work for anyone else, with a related personal device that has no operator.",domain#R-HurH,FALSE,FALSE
-package#Privacy,domain#MP-HurTh,HurTh,"Finds a Thing relating to a Human, plus onboard data and processing.",domain#R-HurTh,FALSE,FALSE
+package#Privacy,domain#MP-HurSesD,HurSesD,Finds Data produced as output by a Sensor related to a Human.,domain#R-HurSesD,FALSE,FALSE
+package#Privacy,domain#MP-HurThcD,HurThcD,Finds control input to an IoT Thing related to a Human.,domain#R-HurThcD,FALSE,FALSE
 package#Privacy,domain#MP-HurTh-S-m,HurTh-S-m,"Finds a Thing relating to a Human, plus onboard data and processing, where there is no manager and no specified location.",domain#R-HurTh,FALSE,FALSE
 package#Privacy,domain#MP-HuwStrH-St,HuwStrH-St,"Finds a Human working for an Employer, with a personal device that has no other operator.",domain#R-HuwStrH,FALSE,FALSE
 package#Privacy,domain#MP-IoT-Hu,IoT-Hu,"Finds a solo IoT Thing that does not relate to a Human data subject. Not used at present, but reserved for a future extension.",domain#R-IoT,FALSE,FALSE
