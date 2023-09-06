@@ -24,6 +24,8 @@ package#DataLifecycle,domain#crudu,domain#crudr
 package#DataLifecycle,domain#flowsIn,domain#flows
 package#DataLifecycle,domain#flowsOut,domain#flows
 package#DataLifecycle,domain#noDX,domain#noDU
+package#IoT,domain#pollsSensor,domain#amendsSensor
+package#IoT,domain#readsSensor,domain#pollsSensor
 package#Network,domain#interactsWith,domain#interactsRemotelyWith
 package#Network,domain#locatedIn,domain#mayBeIn
 package#Network,domain#uses,domain#usesService

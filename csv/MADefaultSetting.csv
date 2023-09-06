@@ -363,15 +363,19 @@ package#IoT,domain#MADS-LocalLossOfUserTW-Controller,domain#Controller,domain#Lo
 package#IoT,domain#MADS-LocalLossOfUserTW-ControlProcess,domain#ControlProcess,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LocalLossOfUserTW-Sensor,domain#Sensor,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LocalLossOfUserTW-SensorProcess,domain#SensorProcess,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfAuthenticity-ControlData,domain#ControlData,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfAuthenticity-Sensor,domain#Sensor,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfAvailability-ControlData,domain#ControlData,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfAvailability-Controller,domain#Controller,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfAvailability-ControlProcess,domain#ControlProcess,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfAvailability-Sensor,domain#Sensor,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfAvailability-SensorProcess,domain#SensorProcess,domain#LossOfAvailability,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfConfidentiality-ControlData,domain#ControlData,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfConfidentiality-Controller,domain#Controller,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfConfidentiality-Sensor,domain#Sensor,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfControl-Controller,domain#Controller,domain#LossOfControl,domain#ImpactLevelMedium
 package#IoT,domain#MADS-LossOfControl-Sensor,domain#Sensor,domain#LossOfControl,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfDefaultTW-ControlData,domain#ControlData,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfDefaultTW-Controller,domain#Controller,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfDefaultTW-ControlProcess,domain#ControlProcess,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfDefaultTW-Sensor,domain#Sensor,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
@@ -384,6 +388,7 @@ package#IoT,domain#MADS-LossOfExtrinsicTW-Controller,domain#Controller,domain#Lo
 package#IoT,domain#MADS-LossOfExtrinsicTW-ControlProcess,domain#ControlProcess,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfExtrinsicTW-Sensor,domain#Sensor,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfExtrinsicTW-SensorProcess,domain#SensorProcess,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfIntegrity-ControlData,domain#ControlData,domain#LossOfIntegrity,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfIntegrity-Sensor,domain#Sensor,domain#LossOfIntegrity,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfIntrinsicTW-Controller,domain#Controller,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfIntrinsicTW-ControlProcess,domain#ControlProcess,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
@@ -395,6 +400,7 @@ package#IoT,domain#MADS-LossOfReliability-Sensor,domain#Sensor,domain#LossOfReli
 package#IoT,domain#MADS-LossOfReliability-SensorProcess,domain#SensorProcess,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfResourceTW-Controller,domain#Controller,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfResourceTW-Sensor,domain#Sensor,domain#LossOfResourceTW,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfTimeliness-ControlData,domain#ControlData,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfTimeliness-ControlProcess,domain#ControlProcess,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfTimeliness-Sensor,domain#Sensor,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfTimeliness-SensorProcess,domain#SensorProcess,domain#LossOfTimeliness,domain#ImpactLevelNegligible
@@ -402,6 +408,7 @@ package#IoT,domain#MADS-LossOfUserTW-Controller,domain#Controller,domain#LossOfU
 package#IoT,domain#MADS-LossOfUserTW-ControlProcess,domain#ControlProcess,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfUserTW-Sensor,domain#Sensor,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfUserTW-SensorProcess,domain#SensorProcess,domain#LossOfUserTW,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-MalwareInfection-ControlData,domain#ControlData,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-MalwareInfection-Controller,domain#Controller,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-MalwareInfection-ControlProcess,domain#ControlProcess,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-MalwareInfection-Sensor,domain#Sensor,domain#MalwareInfection,domain#ImpactLevelNegligible
@@ -410,6 +417,7 @@ package#IoT,domain#MADS-Overloaded-Controller,domain#Controller,domain#Overloade
 package#IoT,domain#MADS-Overloaded-ControlProcess,domain#ControlProcess,domain#Overloaded,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-Overloaded-Sensor,domain#Sensor,domain#Overloaded,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-Overloaded-SensorProcess,domain#SensorProcess,domain#Overloaded,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-PhysicalShutdown-Controller,domain#Controller,domain#PhysicalShutdown,domain#ImpactLevelMedium
 package#IoT,domain#MADS-TrojanInsertion-Controller,domain#Controller,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-TrojanInsertion-ControlProcess,domain#ControlProcess,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-TrojanInsertion-Sensor,domain#Sensor,domain#TrojanInsertion,domain#ImpactLevelNegligible

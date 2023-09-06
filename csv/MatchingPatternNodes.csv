@@ -219,7 +219,6 @@ package#DataLifecycleInference,domain#MP-Pc-rDSH+S-Hu-DA,domain#Node-DataAccess-
 package#DataLifecycleInference,domain#MP-Pc-rDSH+S-Hu-DA,domain#Node-DataPool-DataPool,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Node-DataPool-DataPool,FALSE,TRUE,FALSE
-package#DataLifecycleInference,domain#MP-PDP-DP,domain#Node-DataPath-DataPath,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH+S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH+S-Hu-DA,domain#Node-DataPool-DataPool,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
@@ -234,10 +233,8 @@ package#DataLifecycleInference,domain#MP-SDADPPDXRAC-DP,domain#Node-DataPath-Dat
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human1-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human2-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Operator-Stakeholder,FALSE,FALSE,FALSE
-package#IoT,domain#MP-CoPD,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
-package#IoT,domain#MP-CoPDsFT,domain#Node-DataFlow-DataFlow,TRUE,FALSE,TRUE
-package#IoT,domain#MP-CoPDsFT,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
-package#IoT,domain#MP-CoPsDmFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE
+package#IoT,domain#MP-CoPDS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#IoT,domain#MP-DScSePDmFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#IoT,domain#MP-HumThP-m,domain#Node-ProcessManager-Human,FALSE,TRUE,FALSE
 package#IoT,domain#MP-SePDmFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE

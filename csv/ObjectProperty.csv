@@ -69,9 +69,12 @@ package#DataLifecycleInference,domain#revPath,revPath,Signifies that the data us
 package#DataLifecycleInference,domain#toProc,toProc,The DataPath represents a chain of process-process communications enabling the use of data obtained from the Process.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#usesDataPath,usesDataPath,Relationship between a data flow and a data path.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#IoT,domain#amendsController,amends,"The Process uses and alters the value of the control settings for the Controller, and is not blocked if it cannot access these settings.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
-package#IoT,domain#pollsSensor,polls,"The Process reads data from the Sensor, and is not blocked if the Sensor is not available.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
-package#IoT,domain#readsSensor,reads,"The Process reads data from the Sensor, and is blocked if the Sensor is not available.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#IoT,domain#amendsSensor,amendsSensor,"The Process uses and alters the value of the control settings for the Sensor, and is not blocked if it cannot access these settings.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#IoT,domain#controlsThing,controlsThing,Relationship from control input Data to a Thing whose physical actuator or measurement hardware is controlled or configured by the Data.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#IoT,domain#pollsSensor,polls,"The Process updates the Sensor configuration and reads data from the Sensor, and is not blocked if the Sensor is not available.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#IoT,domain#readsSensor,reads,"The Process updates the configuration and reads data from the Sensor, and is blocked if the Sensor is not available.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#IoT,domain#receivesFromSensor,receives,"The Sensor sends readings to the Process, and neither end is blocked should this not be possible.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#IoT,domain#senses,senses,Relationship from an IoT Sensor to Data produced by its measurement hardware.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#IoT,domain#updatesController,updates,"The Process uses and alters the value of the control settings for the Controller, and is blocked if it cannot access these settings.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#Legal,domain#hasController,hasController,The Stakeholder is legally responsible for use of the Data to the data subject and data regulator.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#Legal,domain#responsibleFor,responsibleFor,The Stakeholder is legally responsible for regulating access to Data by a Process.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE

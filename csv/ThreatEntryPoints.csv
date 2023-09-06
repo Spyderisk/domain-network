@@ -73,6 +73,9 @@ package#DataLifecycle,domain#P.O.PpDP.6,domain#TWAS-DefaultTW-Process
 package#DataLifecycle,domain#P.T.PcPr-uDS.6,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#P.U.HP-iDSDI.3,domain#TWAS-Authenticity-DataCopy
 package#DataLifecycle,domain#P.U.P-iDFDI.3,domain#TWAS-Authenticity-DataFlow
+package#IoT,domain#Co.A.CoPDS.6,domain#TWAS-DefaultTW-Controller
+package#IoT,domain#DF.A.DScSePDmFF.3,domain#TWAS-Authenticity-DataCopy
+package#IoT,domain#DF.Auth.DScSePDmFF.3,domain#TWAS-Authenticity-DataCopy
 package#LocalDeviceConnectivity,domain#H.J.UHS.3,domain#TWAS-OccupantTW-Space
 package#LocalDeviceConnectivity,domain#H.W.HL1H.3,domain#TWAS-Health-RemoteHost
 package#LocalDeviceConnectivity,domain#H.W.HL1H.3,domain#TWAS-OutOfService-RemoteHost

@@ -76,11 +76,12 @@ package#DataLifecycleInference,domain#CP-SDADPPDXP-DP+DP,domain#Node-NewDataPath
 package#DataLifecycleInference,domain#CP-SDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXPRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
-package#IoT,domain#CP-Co+SPD,domain#Node-Data-Data,domain#INS-Co+SPD-Data,TRUE,FALSE,domain#Node-Controller-Controller
-package#IoT,domain#CP-Co+SPD,domain#Node-DataService-DataService,domain#INS-Co+SPD-DataService,TRUE,FALSE,domain#Node-Controller-Controller
-package#IoT,domain#CP-Co+SPD,domain#Node-SimpleProcess-ControlProcess,domain#INS-Co+SPD-SimpleProcess,TRUE,FALSE,domain#Node-Controller-Controller
-package#IoT,domain#CP-Se+SPD,domain#Node-Data-Data,domain#INS-Se+SPD-Data,TRUE,FALSE,domain#Node-Sensor-Sensor
-package#IoT,domain#CP-Se+SPD,domain#Node-SimpleProcess-SensorProcess,domain#INS-Se+SPD-SimpleProcess,TRUE,FALSE,domain#Node-Sensor-Sensor
+package#IoT,domain#CP-Co+cD,domain#Node-Data-Data,domain#INS-Co+cD-Data,TRUE,FALSE,domain#Node-Controller-Controller
+package#IoT,domain#CP-DcTh+DS,domain#Node-SimpleProcess-DataService,domain#INS-DcTh+DS-SimpleProcess,TRUE,FALSE,domain#Node-Thing-Thing
+package#IoT,domain#CP-HuiCo+UI,domain#Node-Process-ControlProcess,domain#INS-HuiCo+UI-Process,TRUE,FALSE,domain#Node-Controller-Controller
+package#IoT,domain#CP-Se+cD,domain#Node-Data-ControlData,domain#INS-Se+cD-Data,TRUE,FALSE,domain#Node-Sensor-Sensor
+package#IoT,domain#CP-Se+sD,domain#Node-Data-Data,domain#INS-Se+sD-Data,TRUE,FALSE,domain#Node-Sensor-Sensor
+package#IoT,domain#CP-SesD+SP,domain#Node-SimpleProcess-SensorProcess,domain#INS-SesD+SP-SimpleProcess,TRUE,FALSE,domain#Node-Sensor-Sensor
 package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-BPcGcBP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#Node-BluetoothPair-BluetoothPair,domain#INS-HpBRH+B-BluetoothPair,FALSE,TRUE,domain#Link-RemoteHost-pairsViaBluetooth-LocalHost
 package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#Node-USBPair-USBPair,domain#INS-HpURH+U-USBPair,FALSE,TRUE,domain#Link-RemoteHost-pairsViaUSB-LocalHost

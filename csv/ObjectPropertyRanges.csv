@@ -70,10 +70,13 @@ package#DataLifecycleInference,domain#revPath,domain#DataPath
 package#DataLifecycleInference,domain#toProc,domain#Process
 package#DataLifecycleInference,domain#usesDataPath,domain#DataPath
 package#IoT,domain#amendsController,domain#Controller
+package#IoT,domain#amendsSensor,domain#Sensor
+package#IoT,domain#controlsThing,domain#Thing
 package#IoT,domain#interactsWith,domain#Thing
 package#IoT,domain#pollsSensor,domain#Sensor
 package#IoT,domain#readsSensor,domain#Sensor
 package#IoT,domain#receivesFromSensor,domain#Sensor
+package#IoT,domain#senses,domain#Data
 package#IoT,domain#updatesController,domain#Controller
 package#Legal,domain#hasController,domain#Stakeholder
 package#Legal,domain#responsibleFor,domain#DataAccess
