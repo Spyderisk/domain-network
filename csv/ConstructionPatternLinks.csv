@@ -442,10 +442,10 @@ package#IoT,domain#CP-HuiSe+Rel,domain#Link-Human-interactsWith-Process
 package#IoT,domain#CP-HuiSe+Rel,domain#Link-Human-viewsData-Output
 package#IoT,domain#CP-HuiSe+Rel,domain#Link-Process-creates-Input
 package#IoT,domain#CP-HumThP-m+m,domain#Link-Human-manages-Process
-package#IoT,domain#CP-PaSe+Rel,domain#Link-Client-amends-Data
-package#IoT,domain#CP-PaSe+Rel,domain#Link-Client-uses-SimpleProcess
 package#IoT,domain#CP-Pa-uCo+Rel,domain#Link-Client-amends-Data
 package#IoT,domain#CP-Pa-uCo+Rel,domain#Link-Client-uses-Process
+package#IoT,domain#CP-PcSe+Rel,domain#Link-Client-amends-Data
+package#IoT,domain#CP-PcSe+Rel,domain#Link-Client-uses-SimpleProcess
 package#IoT,domain#CP-Pp-uSe+Rel,domain#Link-Client-receives-Data
 package#IoT,domain#CP-Pp-uSe+Rel,domain#Link-Client-uses-SimpleProcess
 package#IoT,domain#CP-PrSe+Rel,domain#Link-Client-receives-Data

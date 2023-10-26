@@ -1038,10 +1038,10 @@ package#IoT,domain#R-PaCo,domain#Node-Client-Process,TRUE
 package#IoT,domain#R-PaCo,domain#Node-Controller-Controller,TRUE
 package#IoT,domain#R-PaCo,domain#Node-Data-Data,TRUE
 package#IoT,domain#R-PaCo,domain#Node-Process-Process,TRUE
-package#IoT,domain#R-PaSe,domain#Node-Client-Process,TRUE
-package#IoT,domain#R-PaSe,domain#Node-Data-Data,TRUE
-package#IoT,domain#R-PaSe,domain#Node-Sensor-Sensor,TRUE
-package#IoT,domain#R-PaSe,domain#Node-SimpleProcess-DataService,TRUE
+package#IoT,domain#R-PcSe,domain#Node-Client-Process,TRUE
+package#IoT,domain#R-PcSe,domain#Node-Data-Data,TRUE
+package#IoT,domain#R-PcSe,domain#Node-Sensor-Sensor,TRUE
+package#IoT,domain#R-PcSe,domain#Node-SimpleProcess-DataService,TRUE
 package#IoT,domain#R-PpSe,domain#Node-Client-Process,TRUE
 package#IoT,domain#R-PpSe,domain#Node-Data-Data,TRUE
 package#IoT,domain#R-PpSe,domain#Node-Sensor-Sensor,TRUE

@@ -1090,10 +1090,10 @@ package#IoT,domain#R-PaCo,domain#Link-Client-amendsController-Controller
 package#IoT,domain#R-PaCo,domain#Link-Controller-hosts-Process
 package#IoT,domain#R-PaCo,domain#Link-Data-controlsThing-Controller
 package#IoT,domain#R-PaCo,domain#Link-Process-serves-Data
-package#IoT,domain#R-PaSe,domain#Link-Client-amendsSensor-Sensor
-package#IoT,domain#R-PaSe,domain#Link-Data-controlsThing-Sensor
-package#IoT,domain#R-PaSe,domain#Link-Sensor-hosts-SimpleProcess
-package#IoT,domain#R-PaSe,domain#Link-SimpleProcess-serves-Data
+package#IoT,domain#R-PcSe,domain#Link-Client-controlsSensor-Sensor
+package#IoT,domain#R-PcSe,domain#Link-Data-controlsThing-Sensor
+package#IoT,domain#R-PcSe,domain#Link-Sensor-hosts-SimpleProcess
+package#IoT,domain#R-PcSe,domain#Link-SimpleProcess-serves-Data
 package#IoT,domain#R-PpSe,domain#Link-Client-pollsSensor-Sensor
 package#IoT,domain#R-PpSe,domain#Link-Sensor-hosts-SimpleProcess
 package#IoT,domain#R-PpSe,domain#Link-Sensor-senses-Data
