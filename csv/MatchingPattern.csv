@@ -265,8 +265,8 @@ package#IoT,domain#MP-HuiCo,HuiCo,"Finds the control input for an IoT Controller
 package#IoT,domain#MP-HuiSe,HuiSe,"Finds the control input and sensed output for an IoT Sensor, which is being used interactively by a Human, plus the interactive process that creates the output.",domain#R-HuiSe,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,HuiThaS-S,Finds a Human that has access to a space and uses an IoT Thing which has no specified location.,domain#R-HuiThaS,FALSE,FALSE
 package#IoT,domain#MP-HumThP-m,HumThP-m,Finds a Human managing a Thing with an unmanaged onboard process.,domain#R-HumThP,FALSE,FALSE
-package#IoT,domain#MP-PaSe,PaSe,"Finds a client Process that amends control input to an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PaSe,FALSE,FALSE
 package#IoT,domain#MP-Pa-uCo,Pa-uCo,"Finds a client Process that amends (but does not update) an IoT Controller, along with its control input Data and onboard  communication Process.",domain#R-PaCo,FALSE,TRUE
+package#IoT,domain#MP-PcSe,PcSe,"Finds a client Process that alters control input to an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PcSe,FALSE,FALSE
 package#IoT,domain#MP-Pp-uSe,Pp-uSe,"Finds a client Process that polls (but does not read) an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PpSe,FALSE,TRUE
 package#IoT,domain#MP-PrSe,PrSe,"Finds a client Process that receives data from an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PrSe,FALSE,TRUE
 package#IoT,domain#MP-PuCo,PuCo,"Finds a client Process that updates an IoT Controller, along with its control input Data and onboard  communication Process.",domain#R-PuCo,FALSE,FALSE
