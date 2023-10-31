@@ -222,7 +222,7 @@ package#IoT,domain#R-HuiThaS,HuiThaS,Finds a Human that uses an IoT Thing and ha
 package#IoT,domain#R-HumThP,HumThP,Finds a Human managing a Thing with an onboard process.,FALSE,FALSE
 package#IoT,domain#R-IoT,IoT,"Finds a solo IoT Thing. Not used at present, but reserved for a future extension.",FALSE,FALSE
 package#IoT,domain#R-PaCo,PaCo,"Finds a client Process that amends an IoT Controller, along with its control input Data and onboard  communication Process.",FALSE,FALSE
-package#IoT,domain#R-PaSe,PaSe,"Finds a client Process that amends control input to an IoT Sensor, along with its onboard simple communication Process and Data.",FALSE,FALSE
+package#IoT,domain#R-PcSe,PcSe,"Finds a client Process that alters control input to an IoT Sensor, along with its onboard simple communication Process and Data.",FALSE,FALSE
 package#IoT,domain#R-PpSe,PpSe,"Finds a client Process that polls an IoT Sensor, along with its onboard simple communication Process and Data.",FALSE,FALSE
 package#IoT,domain#R-PrSe,PrSe,"Finds a an IoT Sensor sending data to a Process, along with the onboard simple communication Process and Data.",FALSE,FALSE
 package#IoT,domain#R-PuCo,PuCo,"Finds a client Process that updates an IoT Controller, along with its control input Data and onboard  communication Process.",FALSE,FALSE

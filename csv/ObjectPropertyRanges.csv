@@ -71,6 +71,7 @@ package#DataLifecycleInference,domain#toProc,domain#Process
 package#DataLifecycleInference,domain#usesDataPath,domain#DataPath
 package#IoT,domain#amendsController,domain#Controller
 package#IoT,domain#amendsSensor,domain#Sensor
+package#IoT,domain#controlsSensor,domain#Sensor
 package#IoT,domain#controlsThing,domain#Thing
 package#IoT,domain#interactsWith,domain#Thing
 package#IoT,domain#pollsSensor,domain#Sensor
