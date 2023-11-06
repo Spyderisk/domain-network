@@ -552,14 +552,10 @@ package#ProcessComms,domain#R-CuvS,CuvS,Finds a client accessing a process via a
 package#ProcessComms,domain#R-CvPuSCC,CvPuSCC,"Finds a client indirectly accessing a process that is acting as an authentication proxy and accessing a service, including the indirect usage link from client to service, and the associated client channels.",FALSE,FALSE
 package#ProcessComms,domain#R-CvPvSCC,CvPvSCC,"Finds a client indirectly accessing a service via a chain of authentication proxies, including two adjacent proxies in the chain, the indirect usage link from client to service, and the associated client channels. Note that the link from the client is to the intermediate proxy that is closer to the service, and vice versa. This guarantees that these two links will be (indirect) usesViaProxy and not (direct) usesService in the matching system assets.",FALSE,FALSE
 package#ProcessComms,domain#R-DDoS,DDoS,"Finds a service and client, where the communication path crosses the Internet.",FALSE,FALSE
-package#ProcessComms,domain#R-DFCvP,DFCvP,"Finds a client using (via an authenticating proxy) a service, where a data flow goes via the client to the service.",FALSE,FALSE
-package#ProcessComms,domain#R-DFPvC,DFPvC,"Finds a client using (via an authenticating proxy) a service, where a data flow goes via the service to the client.",FALSE,FALSE
 package#ProcessComms,domain#R-DFrXSS,DFrXSS,"Finds human using a web browser that uses a service with a host, where the browser receives data from another process, plus the client channel between the browser and the service.",FALSE,FALSE
 package#ProcessComms,domain#R-DFsXSS,DFsXSS,Finds a human using a web browser that accesses a service running on a Host and using inflowing data. The data flow destination is matched twice so it can be referred to in CSGs using different role names.,FALSE,FALSE
 package#ProcessComms,domain#R-DoS,DoS,"Finds a service with its host, and a service attack path to the service from a (possibly remote) subnet.",FALSE,FALSE
-package#ProcessComms,domain#R-DSCvS,DSCvS,"Finds a client using (via an authenticating proxy) a service, where a data flow goes via the two in the direction from client to service.",FALSE,FALSE
 package#ProcessComms,domain#R-DSrXSS,DSrXSS,"Finds human using a web browser that uses a service with a host, where the browser also uses locally stored data.",FALSE,FALSE
-package#ProcessComms,domain#R-DSSvC,DSSvC,"Finds a client using (via an authenticating proxy) a service, where a data flow goes via the two in the direction from service to client.",FALSE,FALSE
 package#ProcessComms,domain#R-DSsXSS,DSsXSS,Finds a human using a web browser that accesses a service running on a host and using stored input data.,FALSE,FALSE
 package#ProcessComms,domain#R-HLSISC,HLSISC,Finds a host connecting to a logical subnet by authenticating to a controlling service.,FALSE,FALSE
 package#ProcessComms,domain#R-HRAScScP,HRAScScP,"Finds a process acting as a back end service, accessed by (and controlling) an authentication proxy, and used by a remote access service running on the same host.",FALSE,TRUE
@@ -633,6 +629,10 @@ package#ProcessCommsInference,domain#R-CSCscLS,CSCscLS,"Finds a Service Channel 
 package#ProcessCommsInference,domain#R-CSCsdLS,CSCsdLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses remain unaltered by NAT.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CuSPvS,CuSPvS,Finds a client using a reverse proxy that uses and authenticates with a service.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-CvSPvS,CvSPvS,Finds a client indirectly using a reverse proxy that uses and authenticates with a service.,FALSE,FALSE
+package#ProcessCommsInference,domain#R-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,FALSE,FALSE
+package#ProcessCommsInference,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
+package#ProcessCommsInference,domain#R-DFuCuS,DFuCuS,"Finds a data flow via two processes, one of which is a client of the other, but accessed via a transparent reverse proxy or chain of proxies.",FALSE,FALSE
+package#ProcessCommsInference,domain#R-DFvCvS,DFvCvS,"Finds a data flow via two processes, one of which is a client of the other, but accessed via an authenticating reverse proxy or chain of proxies.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service channel via a closed subnet (before a subsequent NAT gateway) and a network path into the channel via this subnet traversing a single logical segment.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE

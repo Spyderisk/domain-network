@@ -1,5 +1,9 @@
 package,URI,hasNode,mandatoryNode,prohibitedNode,sufficientNode
-domain#000000,domain#000000,domain#Node-Gateway-Router,FALSE,FALSE,FALSE
+domain#000000,domain#000000,domain#Node-Process-Process,FALSE,FALSE,FALSE
+,domain#MP-DFuCuS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+,domain#MP-DFuCuS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
+,domain#MP-DFvCvS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+,domain#MP-DFvCvS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
 package#5G,domain#MP-CN-R,domain#Node-Gateway-Router,FALSE,TRUE,FALSE
 package#Application,domain#MP-HE-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HIP-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
@@ -645,8 +649,6 @@ package#ProcessComms,domain#MP-CSHSAC,domain#Node-HostManager-Human,FALSE,FALSE,
 package#ProcessComms,domain#MP-CSHSAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSHSAC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CXPCPNC,domain#Node-ProcAccess-ProcessContext,TRUE,FALSE,FALSE
-package#ProcessComms,domain#MP-DFCvP,domain#Node-Client-Process,FALSE,TRUE,FALSE
-package#ProcessComms,domain#MP-DFPvC,domain#Node-Client-Process,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Node-LogicalSubnet-L3Subnet,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
@@ -655,13 +657,9 @@ package#ProcessComms,domain#MP-DFsXSS,domain#Node-LogicalSubnet-L3Subnet,TRUE,FA
 package#ProcessComms,domain#MP-DFsXSS,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-DFsXSS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-DoS,domain#Node-Interface-Interface,TRUE,FALSE,FALSE
-package#ProcessComms,domain#MP-DSCvS,domain#Node-Client-Process,FALSE,TRUE,FALSE
-package#ProcessComms,domain#MP-DSCvS,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-DSrXSS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-DSrXSS,domain#Node-LogicalSubnet-L3Subnet,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-DSrXSS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-DSSvC,domain#Node-Client-Process,FALSE,TRUE,FALSE
-package#ProcessComms,domain#MP-DSSvC,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-DSsXSS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-DSsXSS,domain#Node-LogicalSubnet-L3Subnet,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-DSsXSS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE

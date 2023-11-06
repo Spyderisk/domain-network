@@ -1,5 +1,9 @@
 package,URI,hasInferredLink
-domain#000000,domain#000000,domain#Link-LogicalSegment-from-FromSubnet
+domain#000000,domain#000000,domain#Link-DataFlow-flowsViaProcess-Process
+,domain#CP-DFDSfP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
+,domain#CP-DFtP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
+,domain#CP-DFuCuS-C-P+u,domain#Link-Client-uses-Service
+,domain#CP-DFvCvS-C-P+u,domain#Link-Client-uses-Service
 package#5G,domain#CP-CcBrR+CSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-CcBrR+CSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-CcBrR+CSg,domain#Link-LogicalSegment-via-Gateway
@@ -789,10 +793,6 @@ package#ProcessCommsInference,domain#CP-CvPuSCC+c,domain#Link-ClientChannel-chan
 package#ProcessCommsInference,domain#CP-CvPvSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
 package#ProcessCommsInference,domain#CP-CvSPvS-U+U,domain#Link-Client-usesViaAuthenticatingProxy-Service
 package#ProcessCommsInference,domain#CP-CXPCPNC+cIC,domain#Link-DataExchange-connectedIn-ProcAccess
-package#ProcessCommsInference,domain#CP-DFCvP+u,domain#Link-FlowsFrom-uses-FlowsTo
-package#ProcessCommsInference,domain#CP-DFPvC+u,domain#Link-FlowsTo-uses-FlowsFrom
-package#ProcessCommsInference,domain#CP-DSCvS+u,domain#Link-FlowsFrom-uses-FlowsTo
-package#ProcessCommsInference,domain#CP-DSSvC+u,domain#Link-FlowsTo-uses-FlowsFrom
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-Proxy-uses-RemoteAccessService
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-RemoteAccessService-controls-Proxy
 package#ProcessCommsInference,domain#CP-HRAScSuSP+a,domain#Link-Proxy-uses-RemoteAccessService

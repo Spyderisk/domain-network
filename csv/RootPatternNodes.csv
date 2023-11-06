@@ -1,5 +1,8 @@
 package,URI,hasNode,keyNode
-domain#000000,domain#000000,domain#Node-CellularNetwork-CellularNetwork,TRUE
+domain#000000,domain#000000,domain#Node-Client-Process,TRUE
+,domain#R-DFuCuS,domain#Node-Client-Process,TRUE
+,domain#R-DFuCuS,domain#Node-DataFlow-DataFlow,TRUE
+,domain#R-DFuCuS,domain#Node-Service-Process,TRUE
 package#5G,domain#R-CcBrR,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-CcBrR,domain#Node-FromSubnet-CoreNetwork,TRUE
 package#5G,domain#R-CcBrR,domain#Node-Gateway-BaseStation,TRUE
@@ -873,6 +876,9 @@ package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-FlowsFrom-Process,TR
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-StepFrom-Process,TRUE
 package#DataLifecycleInference,domain#R-DFDCO4P,domain#Node-StepTo-Process,TRUE
+package#DataLifecycleInference,domain#R-DFDSfP,domain#Node-DataFlow-DataFlow,TRUE
+package#DataLifecycleInference,domain#R-DFDSfP,domain#Node-DataStep-DataStep,TRUE
+package#DataLifecycleInference,domain#R-DFDSfP,domain#Node-Process-Process,TRUE
 package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-DataExchange-DataExchange,TRUE
 package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-DataStep-DataStep,TRUE
@@ -881,6 +887,8 @@ package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-ProcAccess-ProcessContext,TRUE
 package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-Space-Space,TRUE
 package#DataLifecycleInference,domain#R-DFFPACS,domain#Node-StepTo-Process,TRUE
+package#DataLifecycleInference,domain#R-DFtP,domain#Node-DataFlow-DataFlow,TRUE
+package#DataLifecycleInference,domain#R-DFtP,domain#Node-Process-Process,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-DataExchange-DataExchange,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-DataStep-DataStep,TRUE
@@ -889,6 +897,9 @@ package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-ProcAccess-ProcessContext,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-Space-Space,TRUE
 package#DataLifecycleInference,domain#R-DFTPACS,domain#Node-StepFrom-Process,TRUE
+package#DataLifecycleInference,domain#R-DFvCvS,domain#Node-Client-Process,TRUE
+package#DataLifecycleInference,domain#R-DFvCvS,domain#Node-DataFlow-DataFlow,TRUE
+package#DataLifecycleInference,domain#R-DFvCvS,domain#Node-Service-Process,TRUE
 package#DataLifecycleInference,domain#R-DIDCSDS,domain#Node-Client-Process,TRUE
 package#DataLifecycleInference,domain#R-DIDCSDS,domain#Node-DataChannel-DataChannel,TRUE
 package#DataLifecycleInference,domain#R-DIDCSDS,domain#Node-Data-Data,TRUE
@@ -2397,14 +2408,6 @@ package#ProcessComms,domain#R-DDoS,domain#Node-Interface-Interface,TRUE
 package#ProcessComms,domain#R-DDoS,domain#Node-LogicalSubnet-Internet,TRUE
 package#ProcessComms,domain#R-DDoS,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-DDoS,domain#Node-ServiceAttackPath-ServiceAttackPath,TRUE
-package#ProcessComms,domain#R-DFCvP,domain#Node-DataFlow-DataFlow,FALSE
-package#ProcessComms,domain#R-DFCvP,domain#Node-FlowsFrom-Process,FALSE
-package#ProcessComms,domain#R-DFCvP,domain#Node-FlowsTo-Process,FALSE
-package#ProcessComms,domain#R-DFCvP,domain#Node-OutStep-DataStep,FALSE
-package#ProcessComms,domain#R-DFPvC,domain#Node-DataFlow-DataFlow,FALSE
-package#ProcessComms,domain#R-DFPvC,domain#Node-FlowsFrom-Process,FALSE
-package#ProcessComms,domain#R-DFPvC,domain#Node-FlowsTo-Process,FALSE
-package#ProcessComms,domain#R-DFPvC,domain#Node-InStep-DataStep,FALSE
 package#ProcessComms,domain#R-DFrXSS,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-DFrXSS,domain#Node-Client-WebBrowser,TRUE
 package#ProcessComms,domain#R-DFrXSS,domain#Node-Data-Data,TRUE
@@ -2428,11 +2431,6 @@ package#ProcessComms,domain#R-DoS,domain#Node-Host-Host,TRUE
 package#ProcessComms,domain#R-DoS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-DoS,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-DoS,domain#Node-ServiceAttackPath-ServiceAttackPath,TRUE
-package#ProcessComms,domain#R-DSCvS,domain#Node-DataFlow-DataFlow,FALSE
-package#ProcessComms,domain#R-DSCvS,domain#Node-FlowsFrom-Process,FALSE
-package#ProcessComms,domain#R-DSCvS,domain#Node-FlowsTo-Process,FALSE
-package#ProcessComms,domain#R-DSCvS,domain#Node-InStep-DataStep,FALSE
-package#ProcessComms,domain#R-DSCvS,domain#Node-OutStep-DataStep,FALSE
 package#ProcessComms,domain#R-DSrXSS,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-DSrXSS,domain#Node-Client-WebBrowser,TRUE
 package#ProcessComms,domain#R-DSrXSS,domain#Node-DataAccess-DataAccess,TRUE
@@ -2441,11 +2439,6 @@ package#ProcessComms,domain#R-DSrXSS,domain#Node-Data-Data,TRUE
 package#ProcessComms,domain#R-DSrXSS,domain#Node-Human-Human,TRUE
 package#ProcessComms,domain#R-DSrXSS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-DSrXSS,domain#Node-SHost-Host,TRUE
-package#ProcessComms,domain#R-DSSvC,domain#Node-DataFlow-DataFlow,FALSE
-package#ProcessComms,domain#R-DSSvC,domain#Node-FlowsFrom-Process,FALSE
-package#ProcessComms,domain#R-DSSvC,domain#Node-FlowsTo-Process,FALSE
-package#ProcessComms,domain#R-DSSvC,domain#Node-InStep-DataStep,FALSE
-package#ProcessComms,domain#R-DSSvC,domain#Node-OutStep-DataStep,FALSE
 package#ProcessComms,domain#R-DSsXSS,domain#Node-CHost-Host,TRUE
 package#ProcessComms,domain#R-DSsXSS,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-DSsXSS,domain#Node-Client-WebBrowser,TRUE
