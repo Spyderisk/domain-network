@@ -1,9 +1,5 @@
 package,URI,hasNode,mandatoryNode,prohibitedNode,sufficientNode
-domain#000000,domain#000000,domain#Node-Process-Process,FALSE,FALSE,FALSE
-,domain#MP-DFuCuS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
-,domain#MP-DFuCuS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
-,domain#MP-DFvCvS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
-,domain#MP-DFvCvS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
+domain#000000,domain#000000,domain#Node-Gateway-Router,FALSE,FALSE,FALSE
 package#5G,domain#MP-CN-R,domain#Node-Gateway-Router,FALSE,TRUE,FALSE
 package#Application,domain#MP-HE-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HIP-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
@@ -538,8 +534,8 @@ package#ProcessComms,domain#MP-CCC-nmSCS,domain#Node-ServiceChannel-ServiceChann
 package#ProcessComms,domain#MP-CCC-nmSCS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCC-nS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCC-nS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-CCCPCCS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-CCCPCCS,domain#Node-ProcAccess-ProcessContext,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCCPCCPS,domain#Node-Process-Process,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCCPCCPS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCPCCS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCPNaP,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCPNaP,domain#Node-Human-Human,FALSE,FALSE,FALSE
@@ -551,6 +547,9 @@ package#ProcessComms,domain#MP-CCCPNoP,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCPNoP,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCPNoP,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCPNoP,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCCPPCCPS,domain#Node-Process-Process,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCCPPCCPS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCCPPCCS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
@@ -728,9 +727,6 @@ package#ProcessComms,domain#MP-OSAPNaS,domain#Node-Interface-Interface,TRUE,FALS
 package#ProcessComms,domain#MP-OSAPNaS,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-OSAPNaS,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-OSAPNaS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-PCCPCCS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-PCCPCCS,domain#Node-ProcAccess-ProcessContext,TRUE,FALSE,FALSE
-package#ProcessComms,domain#MP-PCCPCCS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ClientChannel-ClientChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
@@ -767,6 +763,10 @@ package#ProcessCommsInference,domain#MP-CSLS2H2-SC,domain#Node-LastChannel-Servi
 package#ProcessCommsInference,domain#MP-CSLS2H2-SC,domain#Node-LastSubnet-L01Subnet,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastSubnet-L01Subnet,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-NP2CCAPSC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Node-DataCentre-DataCentre,FALSE,FALSE,FALSE

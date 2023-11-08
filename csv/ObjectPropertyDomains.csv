@@ -39,7 +39,6 @@ package#DataLifecycle,domain#flowsTo,domain#DataFlow
 package#DataLifecycle,domain#flowsTo,domain#DataStep
 package#DataLifecycle,domain#flowsToIn,domain#DataFlow
 package#DataLifecycle,domain#flowsVia,domain#DataFlow
-package#DataLifecycle,domain#flowsViaProcess,domain#DataFlow
 package#DataLifecycle,domain#fromSource,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
@@ -62,6 +61,7 @@ package#DataLifecycleInference,domain#extendsDC,domain#DataChannel
 package#DataLifecycleInference,domain#extendsDP,domain#DataPath
 package#DataLifecycleInference,domain#flowsViaDC,domain#DataFlow
 package#DataLifecycleInference,domain#flowsViaDC,domain#DataStep
+package#DataLifecycleInference,domain#flowsViaProcess,domain#DataFlow
 package#DataLifecycleInference,domain#fromProc,domain#DataChannel
 package#DataLifecycleInference,domain#fromProc,domain#DataPath
 package#DataLifecycleInference,domain#fwdPath,domain#DataAccess
@@ -176,6 +176,8 @@ package#ProcessComms,domain#lastInterface,domain#AttackPath
 package#ProcessComms,domain#lastInterface,domain#ServiceChannel
 package#ProcessComms,domain#noAuthN,domain#Process
 package#ProcessComms,domain#toInterface,domain#ConnectionAsset
+package#ProcessComms,domain#usesAsProxy,domain#Process
+package#ProcessComms,domain#usesIndirectly,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#ConnectionChannel
 package#ProcessComms,domain#usesViaAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesViaProxy,domain#Process
@@ -186,7 +188,6 @@ package#ProcessCommsInference,domain#pathTo,domain#NetworkPath
 package#ProcessCommsInference,domain#sourceDirect,domain#ServiceChannel
 package#ProcessCommsInference,domain#sourceViaNAT,domain#ServiceChannel
 package#ProcessCommsInference,domain#toSpace,domain#ServiceChannel
-package#ProcessCommsInference,domain#usesAsProxy,domain#Process
 package#ProcessCommsInference,domain#usesViaRAS,domain#Process
 package#Users,domain#isAdult,domain#Adult
 package#Users,domain#worksFor,domain#Human

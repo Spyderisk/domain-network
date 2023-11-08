@@ -38,7 +38,6 @@ package#DataLifecycle,domain#flowsTo,domain#Process
 package#DataLifecycle,domain#flowsToIn,domain#ProcessContext
 package#DataLifecycle,domain#flowsToIn,domain#Space
 package#DataLifecycle,domain#flowsVia,domain#DataStep
-package#DataLifecycle,domain#flowsViaProcess,domain#Process
 package#DataLifecycle,domain#fromSource,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
@@ -60,6 +59,7 @@ package#DataLifecycleInference,domain#dataPathTo,domain#DataAccess
 package#DataLifecycleInference,domain#extendsDC,domain#DataChannel
 package#DataLifecycleInference,domain#extendsDP,domain#DataPath
 package#DataLifecycleInference,domain#flowsViaDC,domain#DataChannel
+package#DataLifecycleInference,domain#flowsViaProcess,domain#Process
 package#DataLifecycleInference,domain#fromProc,domain#Process
 package#DataLifecycleInference,domain#fwdPath,domain#DataChannel
 package#DataLifecycleInference,domain#fwdPath,domain#DataPath
@@ -182,6 +182,8 @@ package#ProcessComms,domain#isProxy,domain#Process
 package#ProcessComms,domain#lastInterface,domain#Interface
 package#ProcessComms,domain#noAuthN,domain#Process
 package#ProcessComms,domain#toInterface,domain#Interface
+package#ProcessComms,domain#usesAsProxy,domain#Process
+package#ProcessComms,domain#usesIndirectly,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#LogicalSegment
 package#ProcessComms,domain#usesViaAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesViaProxy,domain#Process
@@ -192,7 +194,6 @@ package#ProcessCommsInference,domain#pathTo,domain#ServiceChannel
 package#ProcessCommsInference,domain#sourceDirect,domain#LogicalSubnet
 package#ProcessCommsInference,domain#sourceViaNAT,domain#LogicalSubnet
 package#ProcessCommsInference,domain#toSpace,domain#Space
-package#ProcessCommsInference,domain#usesAsProxy,domain#Process
 package#ProcessCommsInference,domain#usesViaRAS,domain#Process
 package#Users,domain#isAdult,domain#Adult
 package#Users,domain#worksFor,domain#Stakeholder
