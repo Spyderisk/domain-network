@@ -1849,7 +1849,6 @@ package#ProcessComms,domain#R-CACHcLSP,domain#Link-CHost-hosts-Client
 package#ProcessComms,domain#R-CACHcLSP,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CACHcLSP,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-CACHcLSP,domain#Link-ClientChannel-channelVia-AttackPath
-package#ProcessComms,domain#R-CACHcLSP,domain#Link-Process-controls-Service
 package#ProcessComms,domain#R-CACHcLSP,domain#Link-ProcNetContext-accessTo-CHost
 package#ProcessComms,domain#R-CACHcLSP,domain#Link-ProcNetContext-accessTo-Client
 package#ProcessComms,domain#R-CACHcLSP,domain#Link-ProcNetContext-accessVia-LogicalSubnet
@@ -1873,7 +1872,6 @@ package#ProcessComms,domain#R-CACHLSP,domain#Link-CHost-hosts-Client
 package#ProcessComms,domain#R-CACHLSP,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CACHLSP,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-CACHLSP,domain#Link-ClientChannel-channelVia-AttackPath
-package#ProcessComms,domain#R-CACHLSP,domain#Link-Process-controls-Service
 package#ProcessComms,domain#R-CACHLSP,domain#Link-ProcNetContext-accessTo-CHost
 package#ProcessComms,domain#R-CACHLSP,domain#Link-ProcNetContext-accessTo-Client
 package#ProcessComms,domain#R-CACHLSP,domain#Link-ProcNetContext-accessVia-LogicalSubnet
@@ -1904,7 +1902,7 @@ package#ProcessComms,domain#R-CCAPNoP,domain#Link-CHost-hosts-Client
 package#ProcessComms,domain#R-CCAPNoP,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCAPNoP,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-CCAPNoP,domain#Link-ClientChannel-channelVia-AttackPath
-package#ProcessComms,domain#R-CCAPNoP,domain#Link-Service-controls-Client
+package#ProcessComms,domain#R-CCAPNoP,domain#Link-Client-proxyAuthN-Service
 package#ProcessComms,domain#R-CCAPNoP,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-AttackPath-channelTo-Service
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-AttackPath-fromSubnet-LogicalSubnet
@@ -1912,7 +1910,6 @@ package#ProcessComms,domain#R-CCAPNoPC,domain#Link-CHost-hosts-Client
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-ClientChannel-channelVia-AttackPath
-package#ProcessComms,domain#R-CCAPNoPC,domain#Link-Process-controls-Service
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-ProxyChannel-channelFrom-Service
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-ProxyChannel-channelTo-Process
 package#ProcessComms,domain#R-CCAPNoPC,domain#Link-SHost-hosts-Service
@@ -1925,11 +1922,11 @@ package#ProcessComms,domain#R-CCAPNoS,domain#Link-ClientChannel-channelVia-Attac
 package#ProcessComms,domain#R-CCAPNoS,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-ClientChannel-channelTo-Service
+package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-Client-proxyAuthN-Service
 package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-Client-usesViaProxy-Process
-package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-Process-controls-Service
 package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-ProxyChannel-channelFrom-Service
 package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-ProxyChannel-channelTo-Process
-package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-Service-controls-Client
+package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-Service-proxyAuthN-Process
 package#ProcessComms,domain#R-CCCcPCCcS,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-CCCfCCS+aFC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCCfCCS+aFC,domain#Link-ClientChannel-channelTo-Service
@@ -1967,7 +1964,6 @@ package#ProcessComms,domain#R-CCCPNoP,domain#Link-ClientChannel-channelTo-Servic
 package#ProcessComms,domain#R-CCCPNoP,domain#Link-ClientChannel-channelVia-ProxyChannel
 package#ProcessComms,domain#R-CCCPNoP,domain#Link-ProxyChannel-channelFrom-Proxy
 package#ProcessComms,domain#R-CCCPNoP,domain#Link-ProxyChannel-channelTo-Service
-package#ProcessComms,domain#R-CCCPNoP,domain#Link-Service-controls-Proxy
 package#ProcessComms,domain#R-CCCPNoP,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-CCCPPCCPS,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCCPPCCPS,domain#Link-ClientChannel-channelTo-Service
@@ -2615,7 +2611,7 @@ package#ProcessComms,domain#R-OCAPNoP,domain#Link-CHost-hosts-Client
 package#ProcessComms,domain#R-OCAPNoP,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-OCAPNoP,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-OCAPNoP,domain#Link-ClientChannel-channelVia-AttackPath
-package#ProcessComms,domain#R-OCAPNoP,domain#Link-Service-controls-Client
+package#ProcessComms,domain#R-OCAPNoP,domain#Link-Client-proxyAuthN-Service
 package#ProcessComms,domain#R-OCAPNoP,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-AttackPath-channelTo-Service
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-AttackPath-fromSubnet-LogicalSubnet
@@ -2623,7 +2619,6 @@ package#ProcessComms,domain#R-OCAPNoPC,domain#Link-CHost-hosts-Client
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-ClientChannel-channelVia-AttackPath
-package#ProcessComms,domain#R-OCAPNoPC,domain#Link-Process-controls-Service
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-ProxyChannel-channelFrom-Service
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-ProxyChannel-channelTo-Process
 package#ProcessComms,domain#R-OCAPNoPC,domain#Link-SHost-hosts-Service
@@ -2652,7 +2647,7 @@ package#ProcessComms,domain#R-PILS,domain#Link-Interface-connectsTo-LogicalSubne
 package#ProcessComms,domain#R-PILS,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-PNacS,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-PNacS,domain#Link-ClientChannel-channelTo-Service
-package#ProcessComms,domain#R-PNacS,domain#Link-Service-controls-Client
+package#ProcessComms,domain#R-PNacS,domain#Link-Client-proxyAuthN-Service
 package#ProcessComms,domain#R-PNacS,domain#Link-SHost-hosts-Service
 package#ProcessComms,domain#R-PnPnS,domain#Link-Client-proxyAuthN-Proxy
 package#ProcessComms,domain#R-PnPnS,domain#Link-Proxy-proxyAuthN-Service
@@ -2752,9 +2747,8 @@ package#ProcessComms,domain#R-SCsAPtI,domain#Link-NewPath-traverses-LogicalSegme
 package#ProcessComms,domain#R-SCsAPtI,domain#Link-ServiceAttackPath-fromSubnet-AttackerSubnet
 package#ProcessComms,domain#R-SCsAPtI,domain#Link-ServiceChannel-channelVia-NewPath
 package#ProcessComms,domain#R-SCsAPtI,domain#Link-ServiceChannel-channelVia-ServiceAttackPath
+package#ProcessComms,domain#R-ScSPuP,domain#Link-Proxy-proxyAuthN-Service
 package#ProcessComms,domain#R-ScSPuP,domain#Link-Proxy-uses-Process
-package#ProcessComms,domain#R-ScSPuP,domain#Link-Proxy-uses-Service
-package#ProcessComms,domain#R-ScSPuP,domain#Link-Service-controls-Proxy
 package#ProcessComms,domain#R-SCvLS,domain#Link-ServiceChannel-channelTo-Service
 package#ProcessComms,domain#R-SCvLS,domain#Link-ServiceChannel-fromInterface-Interface
 package#ProcessComms,domain#R-SCvLS,domain#Link-ServiceChannel-viaSubnet-LogicalSubnet
