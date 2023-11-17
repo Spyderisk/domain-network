@@ -1147,7 +1147,7 @@ package#ProcessComms,domain#MP-CSCC-SC,domain#Link-ServiceChannel-channelTo-Serv
 package#ProcessComms,domain#MP-CSCLS-ii,domain#Link-LogicalSubnet-isInternet-LogicalSubnet,TRUE
 package#ProcessComms,domain#MP-CScP-v,domain#Link-Client-proxyAuthN-Service,TRUE
 package#ProcessComms,domain#MP-CScP-v,domain#Link-Client-usesForAuth-Process,TRUE
-package#ProcessComms,domain#MP-CScP-v,domain#Link-Client-usesViaAuthenticatingProxy-Process,TRUE
+package#ProcessComms,domain#MP-CScP-v,domain#Link-Client-usesViaAuthenticatingProxy-Service,TRUE
 package#ProcessComms,domain#MP-CScP-v,domain#Link-Service-uses-Process,TRUE
 package#ProcessComms,domain#MP-CSHSAC,domain#Link-ClientChannel-channelVia-ServiceChannel,FALSE
 package#ProcessComms,domain#MP-CSHSAC,domain#Link-HostManager-manages-SHost,FALSE
@@ -1285,6 +1285,8 @@ package#ProcessComms,domain#MP-OSAPNaS,domain#Link-ProcAccess-accessToService-At
 package#ProcessComms,domain#MP-OSAPNaS,domain#Link-ProcAccess-accessTo-SHost,FALSE
 package#ProcessComms,domain#MP-OSAPNaS,domain#Link-ServiceChannel-channelVia-AttackPath,FALSE
 package#ProcessComms,domain#MP-OSAPNaS,domain#Link-ServiceManager-manages-Service,FALSE
+package#ProcessComms,domain#MP-Pc-uCpS,domain#Link-Client-proxyAuthN-Process,TRUE
+package#ProcessComms,domain#MP-Pc-uCpS,domain#Link-Client-proxyAuthN-Service,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-DataFlow-flowsViaChannel-ClientChannel,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-Human-manages-FlowsFrom,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-ProcessManager-manages-FlowsTo,FALSE

@@ -590,6 +590,8 @@ package#ProcessComms,domain#R-OSAPNaS,OSAPNaS,Finds a host running a service and
 package#ProcessComms,domain#R-PCaFCSCCC,PCaFCSCCC,Finds a client channel via a service channel which is accessible to a client in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCaTSSCAP,PCaTSSCAP,Finds an attack path path via a service channel on which a service is accessible in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCaTSSCCC,PCaTSSCCC,Finds a client channel via a service channel which gives access to a service in a process context.,FALSE,FALSE
+package#ProcessComms,domain#R-PcC,PcC,Finds a client that is controlled by another process.,FALSE,FALSE
+package#ProcessComms,domain#R-PcCpS,PcCpS,Finds a client that is a transparent proxy to a back-end service and also controlled by another process.,FALSE,FALSE
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-PNacS,PNacS,"Finds a host running a service accessed by an authentication proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,Finds a client using a service via an authentication proxy (i.e. the proxy forwards credentials).,FALSE,FALSE

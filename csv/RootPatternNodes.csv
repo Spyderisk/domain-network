@@ -2644,6 +2644,11 @@ package#ProcessComms,domain#R-PCaTSSCAP,domain#Node-ServiceChannel-ServiceChanne
 package#ProcessComms,domain#R-PCaTSSCCC,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-PCaTSSCCC,domain#Node-ProcAccess-PContext,TRUE
 package#ProcessComms,domain#R-PCaTSSCCC,domain#Node-ServiceChannel-ServiceChannel,TRUE
+package#ProcessComms,domain#R-PcC,domain#Node-Client-Process,TRUE
+package#ProcessComms,domain#R-PcC,domain#Node-Process-Process,TRUE
+package#ProcessComms,domain#R-PcCpS,domain#Node-Client-Process,TRUE
+package#ProcessComms,domain#R-PcCpS,domain#Node-Process-Process,TRUE
+package#ProcessComms,domain#R-PcCpS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-Interface-Interface,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-Service-Process,TRUE

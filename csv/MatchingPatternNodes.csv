@@ -727,6 +727,7 @@ package#ProcessComms,domain#MP-OSAPNaS,domain#Node-Interface-Interface,TRUE,FALS
 package#ProcessComms,domain#MP-OSAPNaS,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-OSAPNaS,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-OSAPNaS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-Pc-uCpS,domain#Node-Service-Process,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ClientChannel-ClientChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE

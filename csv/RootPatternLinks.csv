@@ -2642,6 +2642,9 @@ package#ProcessComms,domain#R-PCaTSSCAP,domain#Link-ProcAccess-accessToService-S
 package#ProcessComms,domain#R-PCaTSSCAP,domain#Link-ServiceChannel-channelVia-AttackPath
 package#ProcessComms,domain#R-PCaTSSCCC,domain#Link-ClientChannel-channelVia-ServiceChannel
 package#ProcessComms,domain#R-PCaTSSCCC,domain#Link-ProcAccess-accessToService-ServiceChannel
+package#ProcessComms,domain#R-PcC,domain#Link-Process-controls-Client
+package#ProcessComms,domain#R-PcCpS,domain#Link-Client-proxyAuthN-Service
+package#ProcessComms,domain#R-PcCpS,domain#Link-Process-controls-Client
 package#ProcessComms,domain#R-PILS,domain#Link-Interface-connectsFrom-SHost
 package#ProcessComms,domain#R-PILS,domain#Link-Interface-connectsTo-LogicalSubnet
 package#ProcessComms,domain#R-PILS,domain#Link-SHost-hosts-Service
