@@ -1125,7 +1125,6 @@ package#ProcessComms,domain#MP-CRoSI,domain#Link-HostAccess-accessVia-ToSubnet,F
 package#ProcessComms,domain#MP-CRoSI,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CRoSI,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessComms,domain#MP-CRoSI,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
-package#ProcessComms,domain#MP-CRoSI,domain#Link-ToSubnet-isInternet-ToSubnet,TRUE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ProcAccess-accessTo-Service,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ProcAccess-accessToService-AttackPath,FALSE
