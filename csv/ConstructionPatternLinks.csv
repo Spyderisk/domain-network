@@ -771,6 +771,7 @@ package#ProcessCommsInference,domain#CP-CucS+iP,domain#Link-Client-isProxy-Clien
 package#ProcessCommsInference,domain#CP-CucS+N,domain#Link-Client-proxyAuthN-Service
 package#ProcessCommsInference,domain#CP-CucS+uR,domain#Link-Client-usesRemotely-Service
 package#ProcessCommsInference,domain#CP-CucSaP+c,domain#Link-Service-controls-Proxy
+package#ProcessCommsInference,domain#CP-CuPaS-i+i,domain#Link-Proxy-usesIndirectly-Service
 package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-noAuthN-Proxy
 package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-usesViaProxy-Service
 package#ProcessCommsInference,domain#CP-CuPuSCC+c,domain#Link-ClientChannel-channelVia-FirstChannel
@@ -789,10 +790,11 @@ package#ProcessCommsInference,domain#CP-CvPuSCC+c,domain#Link-ClientChannel-chan
 package#ProcessCommsInference,domain#CP-CvPvSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
 package#ProcessCommsInference,domain#CP-CvSPvS-U+U,domain#Link-Client-usesViaAuthenticatingProxy-Service
 package#ProcessCommsInference,domain#CP-CXPCPNC+cIC,domain#Link-DataExchange-connectedIn-ProcAccess
-package#ProcessCommsInference,domain#CP-DFCvP+u,domain#Link-FlowsFrom-uses-FlowsTo
-package#ProcessCommsInference,domain#CP-DFPvC+u,domain#Link-FlowsTo-uses-FlowsFrom
-package#ProcessCommsInference,domain#CP-DSCvS+u,domain#Link-FlowsFrom-uses-FlowsTo
-package#ProcessCommsInference,domain#CP-DSSvC+u,domain#Link-FlowsTo-uses-FlowsFrom
+package#ProcessCommsInference,domain#CP-DFDSfP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
+package#ProcessCommsInference,domain#CP-DFtP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
+package#ProcessCommsInference,domain#CP-DFuCuS-C-P+u,domain#Link-Client-uses-Service
+package#ProcessCommsInference,domain#CP-DFvCvS-C-P+u,domain#Link-Client-usesIndirectly-Service
+package#ProcessCommsInference,domain#CP-DFvCvS-C-P+u,domain#Link-Client-uses-Service
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-Proxy-uses-RemoteAccessService
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-RemoteAccessService-controls-Proxy
 package#ProcessCommsInference,domain#CP-HRAScSuSP+a,domain#Link-Proxy-uses-RemoteAccessService

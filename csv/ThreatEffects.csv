@@ -342,10 +342,12 @@ package#ProcessComms,domain#CC.AuP.CACHcLSP.1,domain#MS-LossOfAnonUserTW-ProxyCh
 package#ProcessComms,domain#CC.AuP.CCAPNoP.1,domain#MS-LossOfAnonUserTW-ClientChannel
 package#ProcessComms,domain#CC.AuP.CCAPNoPC.1,domain#MS-LossOfAnonUserTW-ProxyChannel
 package#ProcessComms,domain#CC.AuP.CCCcPCCcS.1,domain#MS-LossOfAnonUserTW-ProxyChannel
+package#ProcessComms,domain#CC.AuP.CCCPCCPS.1,domain#MS-LossOfProxyUserTW-ProxyChannel
 package#ProcessComms,domain#CC.AuP.CCCPCCS.1,domain#MS-LossOfProxyUserTW-ProxyChannel
+package#ProcessComms,domain#CC.AuP.CCCPPCCPS.1,domain#MS-LossOfProxyUserTW-ProxyChannel
+package#ProcessComms,domain#CC.AuP.CCCPPCCS.1,domain#MS-LossOfProxyUserTW-ProxyChannel
 package#ProcessComms,domain#CC.AuP.OCAPNoP.1,domain#MS-LossOfAnonUserTW-ClientChannel
 package#ProcessComms,domain#CC.AuP.OCAPNoPC.1,domain#MS-LossOfAnonUserTW-ProxyChannel
-package#ProcessComms,domain#CC.AuP.PCCPCCS.1,domain#MS-LossOfProxyUserTW-ProxyChannel
 package#ProcessComms,domain#CC.AuS.CRoS.3,domain#MS-ServiceImpersonation-ClientChannel
 package#ProcessComms,domain#CC.AuS.CRoS.3,domain#MS-ServiceImpersonation-IndirectChannel
 package#ProcessComms,domain#CC.AuS.CRoSG.3,domain#MS-ServiceImpersonation-ClientChannel
