@@ -74,10 +74,13 @@ package#Privacy,domain#Anomalies,domain#Th.E.IoT-Hu.9
 package#ProcessComms,domain#Anomalies,domain#CC.E.CSCC-SC.9
 package#ProcessComms,domain#Anomalies,domain#P.E.HuiSP.9
 package#ProcessComms,domain#Anomalies,domain#P.E.LnSc-uP.9
+package#ProcessComms,domain#Anomalies,domain#P.E.PcHpmS.9
+package#ProcessComms,domain#Anomalies,domain#P.E.PcLSpmS.9
+package#ProcessComms,domain#Anomalies,domain#P.E.Pc-pPpmS.9
 package#ProcessComms,domain#Anomalies,domain#P.E.Pc-uCpS.9
+package#ProcessComms,domain#Anomalies,domain#P.E.Pu-cPpmS.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTuP-hCLI.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTurP-hCLI.9
-package#ProcessComms,domain#Anomalies,domain#P.E.ScSPuP-c.9
 package#Virtualisation,domain#Anomalies,domain#H.E.HuiVH.9
 package#Virtualisation,domain#Anomalies,domain#H.E.THVH.9
 package#Virtualisation,domain#Anomalies,domain#H.E.VHH2.9

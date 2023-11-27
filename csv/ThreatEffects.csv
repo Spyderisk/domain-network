@@ -1,6 +1,5 @@
 package,URI,causesMisbehaviour
-domain#000000,domain#000000,domain#MS-LossOfAnonUserTW-ClientChannel
-,domain#CC.AuA.CCCv2CCS.1,domain#MS-LossOfAnonUserTW-ClientChannel
+domain#000000,domain#000000,domain#MS-InService-CellularNetwork
 package#5G,domain#LS.IS.CNCN.8,domain#MS-InService-CellularNetwork
 package#Application,domain#D.C.HuiPiDCHS.3,domain#MS-LossOfConfidentiality-Data
 package#Application,domain#D.C.HuiRACHSPiD.3,domain#MS-LossOfConfidentiality-Data
@@ -329,6 +328,7 @@ package#ProcessComms,domain#CAP.IS.NPSCCAP.8,domain#MS-InService-ClientAttackPat
 package#ProcessComms,domain#CAP.IS.SCmCAP.8,domain#MS-InService-ClientAttackPath
 package#ProcessComms,domain#CC.AuA.CCAPNaS.1,domain#MS-LossOfAnonUserTW-ClientChannel
 package#ProcessComms,domain#CC.AuA.CCCPCCcS.1,domain#MS-LossOfAnonUserTW-ProxyChannel
+package#ProcessComms,domain#CC.AuA.CCCv2CCS.1,domain#MS-LossOfAnonUserTW-ClientChannel
 package#ProcessComms,domain#CC.AuA.OCAPNaS.1,domain#MS-LossOfAnonUserTW-ClientChannel
 package#ProcessComms,domain#CC.AuC.CACHcLSS.1,domain#MS-ClientImpersonation-ClientChannel
 package#ProcessComms,domain#CC.AuC.CCC-nS.1,domain#MS-ClientImpersonation-ClientChannel
@@ -373,7 +373,7 @@ package#ProcessComms,domain#CC.IS.CSCCSC.8,domain#MS-InService-ClientChannel
 package#ProcessComms,domain#CC.L.CSCCHuoSt.1,domain#MS-LossOfServiceTW-ClientChannel
 package#ProcessComms,domain#CC.L.CSCCHuSt.1,domain#MS-LossOfServiceTW-ClientChannel
 package#ProcessComms,domain#CC.L.CSHSAC.1,domain#MS-LossOfServiceTW-ClientChannel
-package#ProcessComms,domain#CC.R.CCC-pS.1,domain#MS-LossOfClientTW-ClientChannel
+package#ProcessComms,domain#CC.R.CCCS.1,domain#MS-LossOfClientTW-ClientChannel
 package#ProcessComms,domain#CC.R.HuoStCCCS.1,domain#MS-LossOfClientTW-ClientChannel
 package#ProcessComms,domain#CC.R.HuStCCCS.1,domain#MS-LossOfClientTW-ClientChannel
 package#ProcessComms,domain#CP.IS.SCmCP.8,domain#MS-InService-ClientPath

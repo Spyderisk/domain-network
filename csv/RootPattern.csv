@@ -362,6 +362,8 @@ package#Network,domain#R-MHHS,MHHS,Finds a Host whose physical host is a Mobile 
 package#Network,domain#R-P,P,Finds a solo Process.,FALSE,FALSE
 package#Network,domain#R-PC,PC,Finds a physical cluster host.,FALSE,FALSE
 package#Network,domain#R-PccP,PccP,"Finds two processes, each of which controls the other.",FALSE,TRUE
+package#Network,domain#R-PcH,PcH,Finds a Process that controls a Host.,FALSE,FALSE
+package#Network,domain#R-PcLS,PcLS,Finds a Process that controls a network.,FALSE,FALSE
 package#Network,domain#R-PCPHLSS,PCPHLSS,"Finds a Process location access context and the related process, host and space and one subnet to which the host is connected. Note that the role names are not the ones usually used because this pattern feeds into a CP where the INS should follow the sequence Host-Process-Subnet.",FALSE,FALSE
 package#Network,domain#R-PcSHLnS,PcSHLnS,Finds a Process controlling a Shell Host that runs a Remote Access Service.,FALSE,FALSE
 package#Network,domain#R-PcWH,PcWH,"Finds a WiFiLAN and its local implementation, plus a controlling process.",FALSE,FALSE
@@ -477,6 +479,7 @@ package#ProcessComms,domain#R-CAPlISAP,CAPlISAP,Finds a client attack path via a
 package#ProcessComms,domain#R-CAPNPSAP,CAPNPSAP,Finds a Client Attack Path via a Service Attack Path and a Network Path.,FALSE,FALSE
 package#ProcessComms,domain#R-CAPSAP,CAPSAP,Finds a Client Attack Path via a Service Attack Path.,FALSE,FALSE
 package#ProcessComms,domain#R-CCAPNoS,CCAPNoS,Finds a service and its host accessed by a client via the associated client channel on a closed client attack path from a logical subnet where messages from the attacker come from the same address as those from the client.,FALSE,FALSE
+package#ProcessComms,domain#R-CCCCAP,CCCCAP,Finds a Client Channel via a proxy Client Channel that goes via an Attack Path.,FALSE,FALSE
 package#ProcessComms,domain#R-CCCfCCS+aFC,CCCfCCS+aFC,"Finds a Client accessing a Service via a Proxy, with the Client Channel between the Client and Service, the channel to the first Proxy, and the client and service hosts, plus a client context in which the client can access the proxy channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCLnS,CCCLnS,"Finds a Client and Remote Access Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCPCCcS,CCCPCCcS,Finds a client of a transparent reverse proxy that forwards messages from the client to a back-end service.,FALSE,FALSE
@@ -489,22 +492,22 @@ package#ProcessComms,domain#R-CCCSCS,CCCSCS,"Finds a Client and Service connecte
 package#ProcessComms,domain#R-CCCSPSFCS,CCCSPSFCS,"Finds a client sending a flow of data to a service accessed via a proxy, and the end-to-end client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCSPSFSC,CCCSPSFSC,"Finds a client receiving a flow of data from a service accessed via a proxy, and the end to end client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCSScS,CCCSScS,"Finds a Client using a Service with a ClientChannel between them, and the Client and Service hosts, where the Service is controlled by a second Service that also has a ClientChannel representing the authentication relationship between it and the Client.",FALSE,FALSE
-package#ProcessComms,domain#R-CCCSvLS,CCCSvLS,"Finds a Client and Service with a Client Channel between them, plus their hosts, where the Client Channel goes via an L2Subnet..",FALSE,FALSE
+package#ProcessComms,domain#R-CCCSvLS,CCCSvLS,"Finds a Client with a Client Channel to a Service via an adjacent L2 subnet, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCtCCS+aTS,CCCtCCS+aTS,"Finds a Client accessing a Service via a Proxy, with the Client Channel between the Client and Service, the channel from the last Proxy, and a service context in which the service can be accessed via the proxy channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCv2CCS,CCCv2CCS,"Finds a client using a service via at least one transparent reverse proxy, along with the service host, the end-to-end client channel between client and service, and the direct client channels from the client and to the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCvCCS,CCCvCCS,"Finds a Client accessing a Service via a Proxy, with the Client Channel between the Client and Service, the channel to the Proxy, plus the client and service hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCvCCS+aTS,CCCvCCS+aTS,"Finds a client-service channel from which the service can be accessed in some context, which is via a proxy client channel.",FALSE,FALSE
-package#ProcessComms,domain#R-CCCvCCvLS,CCCvCCvLS,"Finds a Client Channel from a Client process that goes via another Client Channel (i.e. via at least one authentication proxy), which goes from the same process (i.e. to the first proxy) via a Logical Subnet.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCvCCvLS,CCCvCCvLS,"Finds a Client Channel from a Client process that goes via another Client Channel (i.e. via at least one authentication proxy), which goes via a Logical Subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFCS,CCDFCS,"Finds a data flow that goes via a client and thence via a service, plus the related client channel and data.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFFC,CCDFFC,"Finds a data flow from a client to/via a service, and the associated client channel, data and data access. The source of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
-package#ProcessComms,domain#R-CCDFFS,CCDFFS,"Finds a data flow from a service to/via a client, and the associated client channel, data and data access. The source of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
+package#ProcessComms,domain#R-CCDFFS,CCDFFS,"Finds a data flow from a service to/via a client, and the associated client channel, data and data access.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFSC,CCDFSC,"Finds a data flow that goes via a service and thence a client, and the related client channel and data.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFSFC,CCDFSFC,"Finds a data flow from a client to/via a service, and the associated client channel, data and the first data step. The source of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFSFS,CCDFSFS,"Finds a data flow to/via a client from a service, and the associated client channel, data and the first data step. The source of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFSTC,CCDFSTC,"Finds a data flow to a client from/via a service, and the associated client channel, data and the last data step. The destination of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFSTS,CCDFSTS,"Finds a data flow from/via a client to a service, and the associated client channel, data and the last data step.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFTC,CCDFTC,"Finds a data flow from/via a service to client, and the associated client channel, data and data access. The destination of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
-package#ProcessComms,domain#R-CCDFTS,CCDFTS,"Finds a data flow from/via a client to service, and the associated client channel, data and data access. The destination of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
+package#ProcessComms,domain#R-CCDFTS,CCDFTS,"Finds a data flow to a service from/via a client, and the associated client channel, data and data access.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDS2FC,CCDS2FC,"Finds a data flowing from/via a client via a service, plus the associated client channel and the data steps from the client and from the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDS2TC,CCDS2TC,"Finds a data flowing to/via a client via a service, plus the associated client channel and the data steps to the client and to the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CCfI,CCfI,Finds a Client Channel from an Interface at the Client host.,FALSE,FALSE
@@ -526,8 +529,8 @@ package#ProcessComms,domain#R-CRoSG,CRoSG,"Finds a Service and its Host, a Clien
 package#ProcessComms,domain#R-CRoSI,CRoSI,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface.",FALSE,FALSE
 package#ProcessComms,domain#R-CSAPNaS,CSAPNaS,Finds a host running a service and a closed service attack path to the service from a logical subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-CSCC,CSCC,"Finds a Client and Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
-package#ProcessComms,domain#R-CSCCHu,CSCCHu,Finds an interactive Human user of a Service and a Client with a ClientChannel between them.,FALSE,FALSE
-package#ProcessComms,domain#R-CSCCHuSt,CSCCHuSt,"Finds an interactive Human user of a Service and their employer, and a Client with a ClientChannel to the Service.",FALSE,FALSE
+package#ProcessComms,domain#R-CSCCHu,CSCCHu,Finds a Human manager of a Service and a Client Channel to the Service from a Client.,FALSE,FALSE
+package#ProcessComms,domain#R-CSCCHuSt,CSCCHuSt,"Finds a Human manager of a Service and their employer, and a Client Channel to the Service from a Client.",FALSE,FALSE
 package#ProcessComms,domain#R-CSCCSC,CSCCSC,Finds a Client and Service with a Client Channel between them and a single associated Service Channel.,FALSE,FALSE
 package#ProcessComms,domain#R-CSCLS,CSCLS,"Finds a client and its host and a service channel to the service via a logical subnet to which the host is connected, plus the associated process access contexts.",FALSE,FALSE
 package#ProcessComms,domain#R-CSCLS+ii,CSCLS+ii,"Finds a client and its host (and physical host) and a service channel to the service via the Internet to which the host need not be connected, accessible from the World in which the host need not be located.",FALSE,FALSE
@@ -584,8 +587,10 @@ package#ProcessComms,domain#R-PCaFCSCCC,PCaFCSCCC,Finds a client channel via a s
 package#ProcessComms,domain#R-PCaTSSCAP,PCaTSSCAP,Finds an attack path path via a service channel on which a service is accessible in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCaTSSCCC,PCaTSSCCC,Finds a client channel via a service channel which gives access to a service in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PcC,PcC,Finds a client that is controlled by another process.,FALSE,FALSE
+package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy controlled by another Process.,FALSE,FALSE
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,Finds a client using a service via an authentication proxy (i.e. the proxy forwards credentials).,FALSE,FALSE
+package#ProcessComms,domain#R-PuP,PuP,Finds a Process in the role of Proxy using another Process.,FALSE,FALSE
 package#ProcessComms,domain#R-PurRASuSH,PurRASuSH,"Finds a process acting as a reverse proxy, which can remotely use a remote access service that uses a collocated process.",FALSE,FALSE
 package#ProcessComms,domain#R-RACuPuP,RACuPuP,Finds a remote access client remotely using a proxy which remotely uses another proxy.,FALSE,FALSE
 package#ProcessComms,domain#R-RDuPuDtS,RDuPuDtS,Finds a remote desktop remotely using a proxy that remotely uses a desktop service.,FALSE,FALSE
@@ -607,7 +612,6 @@ package#ProcessComms,domain#R-SCLSI,SCLSI,Finds a Service Channel via a Logical 
 package#ProcessComms,domain#R-SCLSRASHPAC,SCLSRASHPAC,"Finds a process accessed via a collocated remote access service when in a space, and the associated process context.",FALSE,FALSE
 package#ProcessComms,domain#R-SCNSg,SCNSg,"Finds a Service Channel traversing a NAT segment, and the subnets on either side.",FALSE,FALSE
 package#ProcessComms,domain#R-SCsAPtI,SCsAPtI,"Finds an Attack Path from a subnet at the start of a Service Channel, the path from which is a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
-package#ProcessComms,domain#R-ScSPuP,ScSPuP,Finds an authenticating proxy for a service that uses another process as a service.,FALSE,TRUE
 package#ProcessComms,domain#R-SCvLS,SCvLS,"Finds a Service Channel that visits a Logical Subnet, plus the Service and the Interface into the subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-SOCAP,SOCAP,Finds a service channel linked with an open client attack path from a logical subnet to the service process.,FALSE,FALSE
 package#ProcessComms,domain#R-SP,SP,Finds a reverse proxy process.,FALSE,FALSE

@@ -1500,6 +1500,10 @@ package#Network,domain#R-P,domain#Node-Process-Process,TRUE
 package#Network,domain#R-PC,domain#Node-Cluster-Cluster,TRUE
 package#Network,domain#R-PccP,domain#Node-Client-Process,TRUE
 package#Network,domain#R-PccP,domain#Node-Service-Process,TRUE
+package#Network,domain#R-PcH,domain#Node-Host-Host,TRUE
+package#Network,domain#R-PcH,domain#Node-Process-Process,TRUE
+package#Network,domain#R-PcLS,domain#Node-LogicalSubnet-AbstractSubnet,TRUE
+package#Network,domain#R-PcLS,domain#Node-Process-Process,TRUE
 package#Network,domain#R-PCPHLSS,domain#Node-Host-Host,TRUE
 package#Network,domain#R-PCPHLSS,domain#Node-ProcAccess-ProcessContext,TRUE
 package#Network,domain#R-PCPHLSS,domain#Node-Process-Process,TRUE
@@ -1920,6 +1924,9 @@ package#ProcessComms,domain#R-CCAPNoS,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCAPNoS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-CCAPNoS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-CCAPNoS,domain#Node-SHost-Host,TRUE
+package#ProcessComms,domain#R-CCCCAP,domain#Node-AttackPath-ClientAttackPath,TRUE
+package#ProcessComms,domain#R-CCCCAP,domain#Node-ClientChannel-ClientChannel,TRUE
+package#ProcessComms,domain#R-CCCCAP,domain#Node-ProxyChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-CCCfCCS+aFC,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-CCCfCCS+aFC,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCCfCCS+aFC,domain#Node-ProcAccess-PContext,TRUE
@@ -2047,10 +2054,8 @@ package#ProcessComms,domain#R-CCDFFS,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-Data-Data,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-DataFlow-DataFlow,TRUE
-package#ProcessComms,domain#R-CCDFFS,domain#Node-FlowsFrom-Process,FALSE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-FlowsTo-Process,TRUE
 package#ProcessComms,domain#R-CCDFFS,domain#Node-Service-Process,TRUE
-package#ProcessComms,domain#R-CCDFFS,domain#Node-SHost-Host,TRUE
 package#ProcessComms,domain#R-CCDFSC,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-CCDFSC,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCDFSC,domain#Node-Data-Data,TRUE
@@ -2099,9 +2104,7 @@ package#ProcessComms,domain#R-CCDFTS,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessComms,domain#R-CCDFTS,domain#Node-Data-Data,TRUE
 package#ProcessComms,domain#R-CCDFTS,domain#Node-DataFlow-DataFlow,TRUE
 package#ProcessComms,domain#R-CCDFTS,domain#Node-FlowsFrom-Process,TRUE
-package#ProcessComms,domain#R-CCDFTS,domain#Node-FlowsTo-Process,TRUE
 package#ProcessComms,domain#R-CCDFTS,domain#Node-Service-Process,TRUE
-package#ProcessComms,domain#R-CCDFTS,domain#Node-SHost-Host,TRUE
 package#ProcessComms,domain#R-CCDS2FC,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-CCDS2FC,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCDS2FC,domain#Node-Data-Data,TRUE
@@ -2582,6 +2585,8 @@ package#ProcessComms,domain#R-PCaTSSCCC,domain#Node-ProcAccess-PContext,TRUE
 package#ProcessComms,domain#R-PCaTSSCCC,domain#Node-ServiceChannel-ServiceChannel,TRUE
 package#ProcessComms,domain#R-PcC,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-PcC,domain#Node-Process-Process,TRUE
+package#ProcessComms,domain#R-PcP,domain#Node-Process-Process,TRUE
+package#ProcessComms,domain#R-PcP,domain#Node-Proxy-Process,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-Interface-Interface,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-Service-Process,TRUE
@@ -2589,6 +2594,8 @@ package#ProcessComms,domain#R-PILS,domain#Node-SHost-Host,TRUE
 package#ProcessComms,domain#R-PnPnS,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-PnPnS,domain#Node-Proxy-Process,TRUE
 package#ProcessComms,domain#R-PnPnS,domain#Node-Service-Process,TRUE
+package#ProcessComms,domain#R-PuP,domain#Node-Process-Process,TRUE
+package#ProcessComms,domain#R-PuP,domain#Node-Proxy-Process,TRUE
 package#ProcessComms,domain#R-PurRASuSH,domain#Node-Host-Host,TRUE
 package#ProcessComms,domain#R-PurRASuSH,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-PurRASuSH,domain#Node-Proxy-Process,TRUE
@@ -2680,9 +2687,6 @@ package#ProcessComms,domain#R-SCsAPtI,domain#Node-LogicalSubnet-LogicalSubnet,TR
 package#ProcessComms,domain#R-SCsAPtI,domain#Node-NewPath-NetworkPath,TRUE
 package#ProcessComms,domain#R-SCsAPtI,domain#Node-ServiceAttackPath-ServiceAttackPath,TRUE
 package#ProcessComms,domain#R-SCsAPtI,domain#Node-ServiceChannel-ServiceChannel,TRUE
-package#ProcessComms,domain#R-ScSPuP,domain#Node-Process-Process,TRUE
-package#ProcessComms,domain#R-ScSPuP,domain#Node-Proxy-Process,TRUE
-package#ProcessComms,domain#R-ScSPuP,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-SCvLS,domain#Node-Interface-Interface,TRUE
 package#ProcessComms,domain#R-SCvLS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-SCvLS,domain#Node-ServiceChannel-ServiceChannel,TRUE

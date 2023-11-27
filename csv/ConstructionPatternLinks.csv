@@ -680,6 +680,7 @@ package#ProcessCommsInference,domain#CP-APxSCtI+tI,domain#Link-ServiceAttackPath
 package#ProcessCommsInference,domain#CP-APxSCtI+tI,domain#Link-ServiceAttackPath-viaSubnet-LogicalSubnet
 package#ProcessCommsInference,domain#CP-CAPlISAP+lI,domain#Link-ServiceAttackPath-lastInterface-Interface
 package#ProcessCommsInference,domain#CP-CAPNPSAP+pV,domain#Link-ServiceAttackPath-attackPathFrom-NetworkPath
+package#ProcessCommsInference,domain#CP-CCCCAP+ch,domain#Link-ClientChannel-channelVia-AttackPath
 package#ProcessCommsInference,domain#CP-CCCfCCS+aFC+aFC,domain#Link-ProcAccess-accessFromClient-ClientChannel
 package#ProcessCommsInference,domain#CP-CCCSPSFCS+f,domain#Link-DataFlow-flowsViaCS-ClientChannel
 package#ProcessCommsInference,domain#CP-CCCSPSFSC+f,domain#Link-DataFlow-flowsViaSC-ClientChannel
@@ -776,8 +777,7 @@ package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-noAuthN-Pro
 package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-usesViaProxy-Service
 package#ProcessCommsInference,domain#CP-CuPuSCC+c,domain#Link-ClientChannel-channelVia-FirstChannel
 package#ProcessCommsInference,domain#CP-CuPuSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
-package#ProcessCommsInference,domain#CP-CuPvnS+c,domain#Link-Client-noAuthN-Proxy
-package#ProcessCommsInference,domain#CP-CuPvnS+c,domain#Link-Service-controls-Proxy
+package#ProcessCommsInference,domain#CP-CuPvnS+n,domain#Link-Client-noAuthN-Proxy
 package#ProcessCommsInference,domain#CP-CuPvSCC+c,domain#Link-ClientChannel-channelVia-FirstChannel
 package#ProcessCommsInference,domain#CP-CurPuPurS+uR,domain#Link-Proxy-usesRemotely-Service
 package#ProcessCommsInference,domain#CP-CurPuRASurS+uR,domain#Link-Proxy-usesRemotely-Service

@@ -50,8 +50,8 @@ package#CloudManagement,domain#CSG-AutoSuspendSensitiveDataFlow,domain#DF.C.CCDF
 package#CloudManagement,domain#CSG-AutoSuspendSensitiveDataFlow-Implementation-Runtime,domain#DF.C.CCDFSC.1.3
 package#CloudManagement,domain#CSG-AutoSuspendSensitiveDataFlow-Implementation-Runtime,domain#DF.C.CCDFTC.1.6
 package#CloudManagement,domain#CSG-AutoSuspendSensitiveDataFlow-Implementation-Runtime,domain#DF.C.CCDFTC.2.6
-package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess,domain#CC.R.CCC-pS.1
-package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.R.CCC-pS.1
+package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess,domain#CC.R.CCCS.1
+package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.R.CCCS.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AuC.CCCSScS.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AuP.CCCPCCPS.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AuP.CCCPCCS.1
@@ -416,7 +416,7 @@ package#ProcessComms,domain#CSG-AccountLockingAtService,domain#CC.AuC.HumCCC-nS.
 package#ProcessComms,domain#CSG-AntiMalwareAtHost,domain#P.L.HuHW2ACE.3
 package#ProcessComms,domain#CSG-ClientAddressWhitelisting,domain#CC.AuA.OCAPNaS.1
 package#ProcessComms,domain#CSG-ClientAddressWhitelisting,domain#P.L.OSAPNaS.3
-package#ProcessComms,domain#CSG-ClientContinuousAuthentication,domain#CC.R.CCC-pS.1
+package#ProcessComms,domain#CSG-ClientContinuousAuthentication,domain#CC.R.CCCS.1
 package#ProcessComms,domain#CSG-ClientOneTimeKeyAccess,domain#CC.AX.CCC-nS.6.1.3
 package#ProcessComms,domain#CSG-ClientOneTimeKeyAuthentication,domain#CC.AuC.CCC-nS.1
 package#ProcessComms,domain#CSG-ClientOneTimeKeyAuthentication,domain#CC.AuC.CCC-nS.3.2
@@ -491,8 +491,8 @@ package#ProcessComms,domain#CSG-SuspendSensitiveDataFlow,domain#DF.C.CCDFSC.1.3
 package#ProcessComms,domain#CSG-SuspendSensitiveDataFlow,domain#DF.C.CCDFTC.1.6
 package#ProcessComms,domain#CSG-SuspendSensitiveDataFlow-Implementation-Runtime,domain#DF.C.CCDFSC.1.3
 package#ProcessComms,domain#CSG-SuspendSensitiveDataFlow-Implementation-Runtime,domain#DF.C.CCDFTC.1.6
-package#ProcessComms,domain#CSG-SuspendUnauthenticClientAccess,domain#CC.R.CCC-pS.1
-package#ProcessComms,domain#CSG-SuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.R.CCC-pS.1
+package#ProcessComms,domain#CSG-SuspendUnauthenticClientAccess,domain#CC.R.CCCS.1
+package#ProcessComms,domain#CSG-SuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.R.CCCS.1
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AuC.CCCSScS.1
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AuP.CCCPCCPS.1
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AuP.CCCPCCS.1
