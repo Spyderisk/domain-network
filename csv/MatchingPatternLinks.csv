@@ -959,6 +959,7 @@ package#ProcessComms,domain#MP-CCCSCSoCC,domain#Link-HostManager-manages-SHost,F
 package#ProcessComms,domain#MP-CCCSCSoCC,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessComms,domain#MP-CCCSCSoCC,domain#Link-ProxyChannel-channelVia-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CCCSCSoCC,domain#Link-ServiceManager-manages-Service,FALSE
+package#ProcessComms,domain#MP-CCCSScS,domain#Link-Client-proxyAuthN-Process,TRUE
 package#ProcessComms,domain#MP-CCCSScS,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessComms,domain#MP-CCCSScS,domain#Link-Process-proxyAuthN-Service,TRUE
 package#ProcessComms,domain#MP-CCCSScS,domain#Link-ServiceManager-manages-Service,FALSE
@@ -1192,10 +1193,10 @@ package#ProcessComms,domain#MP-OSAPNaS,domain#Link-ServiceChannel-channelVia-Att
 package#ProcessComms,domain#MP-OSAPNaS,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-PcHpmS,domain#Link-Process-proxyAuthN-Service,FALSE
 package#ProcessComms,domain#MP-PcLSpmS,domain#Link-Process-proxyAuthN-Service,FALSE
-package#ProcessComms,domain#MP-Pc-pPpmS,domain#Link-Proxy-proxyAuthN-Process,TRUE
+package#ProcessComms,domain#MP-Pc-pPpmS,domain#Link-Process-proxyAuthN-Proxy,TRUE
 package#ProcessComms,domain#MP-Pc-pPpmS,domain#Link-Proxy-proxyAuthN-Service,FALSE
-package#ProcessComms,domain#MP-Pc-uCpS,domain#Link-Client-proxyAuthN-Process,TRUE
-package#ProcessComms,domain#MP-Pc-uCpS,domain#Link-Client-proxyAuthN-Service,FALSE
+package#ProcessComms,domain#MP-Pc-uCpmS,domain#Link-Client-proxyAuthN-Process,TRUE
+package#ProcessComms,domain#MP-Pc-uCpmS,domain#Link-Client-proxyAuthN-Service,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-DataFlow-flowsViaChannel-ClientChannel,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-Human-manages-FlowsFrom,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-ProcessManager-manages-FlowsTo,FALSE
@@ -1203,8 +1204,8 @@ package#ProcessComms,domain#MP-PILSsSC,domain#Link-HostManager-manages-SHost,FAL
 package#ProcessComms,domain#MP-PILSsSC,domain#Link-ServiceChannel-channelTo-Service,FALSE
 package#ProcessComms,domain#MP-PILSsSC,domain#Link-ServiceChannel-toInterface-Interface,FALSE
 package#ProcessComms,domain#MP-PnPnS-U,domain#Link-Client-usesViaProxy-Service,TRUE
-package#ProcessComms,domain#MP-Pu-cPpmS,domain#Link-Process-controls-Proxy,TRUE
-package#ProcessComms,domain#MP-Pu-cPpmS,domain#Link-Proxy-proxyAuthN-Service,FALSE
+package#ProcessComms,domain#MP-Pu-pPpmS,domain#Link-Proxy-proxyAuthN-Process,TRUE
+package#ProcessComms,domain#MP-Pu-pPpmS,domain#Link-Proxy-proxyAuthN-Service,FALSE
 package#ProcessComms,domain#MP-RACuPuP-uR,domain#Link-RemoteAccessClient-usesRemotely-Process,TRUE
 package#ProcessComms,domain#MP-RDuPuS-LnS,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RTuP-hCLI,domain#Link-Process-hasCLI-Process,TRUE

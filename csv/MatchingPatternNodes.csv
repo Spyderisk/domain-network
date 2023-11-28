@@ -670,13 +670,13 @@ package#ProcessComms,domain#MP-OSAPNaS,domain#Node-ServiceManager-Human,FALSE,FA
 package#ProcessComms,domain#MP-PcHpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PcLSpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-Pc-pPpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
-package#ProcessComms,domain#MP-Pc-uCpS,domain#Node-Service-Process,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-Pc-uCpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ClientChannel-ClientChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PILSsSC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PILSsSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,TRUE
-package#ProcessComms,domain#MP-Pu-cPpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-Pu-pPpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-SC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-SC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-SCCHNPLS-lI,domain#Node-Interface-Interface,FALSE,TRUE,FALSE
