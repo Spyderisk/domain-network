@@ -316,9 +316,12 @@ package#ProcessComms,domain#CC.L.CSCCHuSt.1,domain#TWAS-Astuteness-Human
 package#ProcessComms,domain#CC.L.CSCCHuSt.1,domain#TWAS-Benevolence-Employer
 package#ProcessComms,domain#CC.L.CSHSAC.1,domain#TWAS-OutOfService-Service
 package#ProcessComms,domain#CC.L.CSHSAC.1,domain#TWAS-UserTW-ProcAccess
-package#ProcessComms,domain#CC.R.CCCS.1,domain#TWAS-AnonUserTW-ClientChannel
-package#ProcessComms,domain#CC.R.CCCS.1,domain#TWAS-ClientAuthenticity-ClientChannel
-package#ProcessComms,domain#CC.R.CCCS.1,domain#TWAS-OutOfService-ClientChannel
+package#ProcessComms,domain#CC.R.CAPHcLSS.1,domain#TWAS-OutOfService-ClientAttackPath
+package#ProcessComms,domain#CC.R.CAPHcLSS.1,domain#TWAS-OutOfService-ClientChannel
+package#ProcessComms,domain#CC.R.CAPHcLSS.1,domain#TWAS-UserTW-ProcNetContext
+package#ProcessComms,domain#CC.R.CCC-pS.1,domain#TWAS-AnonUserTW-ClientChannel
+package#ProcessComms,domain#CC.R.CCC-pS.1,domain#TWAS-ClientAuthenticity-ClientChannel
+package#ProcessComms,domain#CC.R.CCC-pS.1,domain#TWAS-OutOfService-ClientChannel
 package#ProcessComms,domain#CC.R.HuoStCCCS.1,domain#TWAS-Benevolence-Human
 package#ProcessComms,domain#CC.R.HuoStCCCS.1,domain#TWAS-OutOfService-ClientChannel
 package#ProcessComms,domain#CC.R.HuStCCCS.1,domain#TWAS-Astuteness-Human

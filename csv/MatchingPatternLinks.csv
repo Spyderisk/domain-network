@@ -893,6 +893,7 @@ package#ProcessComms,domain#MP-CACHcLSS,domain#Link-Human-interactsRemotelyWith-
 package#ProcessComms,domain#MP-CACHLSS,domain#Link-Client-noAuthN-Service,TRUE
 package#ProcessComms,domain#MP-CACHLSS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CACHLSS,domain#Link-Human-interactsWith-Client,FALSE
+package#ProcessComms,domain#MP-CAPHcLSS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CCAPNaS,domain#Link-Client-usesViaProxy-Service,TRUE
 package#ProcessComms,domain#MP-CCAPNaS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CCAPNaS,domain#Link-Human-interactsRemotelyWith-Client,FALSE
@@ -938,6 +939,9 @@ package#ProcessComms,domain#MP-CCCPPCCPS,domain#Link-ServiceManager-manages-Serv
 package#ProcessComms,domain#MP-CCCPPCCPS,domain#Link-Service-usesIndirectly-Process,FALSE
 package#ProcessComms,domain#MP-CCCPPCCS,domain#Link-Client-proxyAuthN-Service,TRUE
 package#ProcessComms,domain#MP-CCCPPCCS,domain#Link-ServiceManager-manages-Service,FALSE
+package#ProcessComms,domain#MP-CCC-pS,domain#Link-Client-proxyAuthN-Service,TRUE
+package#ProcessComms,domain#MP-CCC-pS,domain#Link-Human-interactsRemotelyWith-Client,FALSE
+package#ProcessComms,domain#MP-CCC-pS,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-CCCS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CCCS,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessComms,domain#MP-CCCS,domain#Link-ServiceManager-manages-Service,FALSE
@@ -995,6 +999,7 @@ package#ProcessComms,domain#MP-CCDFFC,domain#Link-ProcAccess-accessTo-Host,FALSE
 package#ProcessComms,domain#MP-CCDFFC,domain#Link-ProcessManager-manages-FlowsTo,FALSE
 package#ProcessComms,domain#MP-CCDFFC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-CCDFFS,domain#Link-Data-isSpam-Data,FALSE
+package#ProcessComms,domain#MP-CCDFFS,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CCDF-fSC,domain#Link-DataFlow-flowsFrom-Service,TRUE
 package#ProcessComms,domain#MP-CCDF-fSC,domain#Link-Data-isSpam-Data,TRUE
 package#ProcessComms,domain#MP-CCDF-fSC,domain#Link-ProcessManager-manages-FlowsFrom,FALSE
@@ -1032,8 +1037,7 @@ package#ProcessComms,domain#MP-CCDFTC,domain#Link-ProcAccess-accessTo-Host,FALSE
 package#ProcessComms,domain#MP-CCDFTC,domain#Link-ProcessManager-manages-FlowsFrom,FALSE
 package#ProcessComms,domain#MP-CCDFTC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-CCDFTS,domain#Link-Data-isSpam-Data,TRUE
-package#ProcessComms,domain#MP-CCDFTS,domain#Link-ProcAccess-accessTo-Service,FALSE
-package#ProcessComms,domain#MP-CCDFTS,domain#Link-ProcessManager-manages-FlowsFrom,FALSE
+package#ProcessComms,domain#MP-CCDFTS,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CCDS2FC,domain#Link-DataFlow-flowsViaCS-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CCDS2FC,domain#Link-DataFlow-flowsVia-DataStep,FALSE
 package#ProcessComms,domain#MP-CCDS2FC,domain#Link-DataFlow-flowsVia-OutStep,FALSE
@@ -1079,7 +1083,9 @@ package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ServiceManager-manages-Servic
 package#ProcessComms,domain#MP-CSCCHuoSt,domain#Link-Human-interactsRemotelyWith-Client,TRUE
 package#ProcessComms,domain#MP-CSCCHuoSt,domain#Link-Human-manages-Client,TRUE
 package#ProcessComms,domain#MP-CSCCHuoSt,domain#Link-Human-worksFor-Employer,FALSE
+package#ProcessComms,domain#MP-CSCCHuoSt,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CSCCHuSt,domain#Link-Employer-operates-Client,TRUE
+package#ProcessComms,domain#MP-CSCCHuSt,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CSCCmCC,domain#Link-ClientChannel-channelVia-ProxyChannel,FALSE
 package#ProcessComms,domain#MP-CSCCmCC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-CSCCSC,domain#Link-ServiceManager-manages-Service,FALSE
@@ -1093,6 +1099,7 @@ package#ProcessComms,domain#MP-CScP-v,domain#Link-Client-usesViaAuthenticatingPr
 package#ProcessComms,domain#MP-CScP-v,domain#Link-Service-uses-Process,TRUE
 package#ProcessComms,domain#MP-CSHSAC,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CSHSAC,domain#Link-Human-interactsRemotelyWith-Client,FALSE
+package#ProcessComms,domain#MP-CSHSAC,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CSL0H,domain#Link-CHost-isCluster-CHost,FALSE
 package#ProcessComms,domain#MP-CuPnS-U,domain#Link-Client-usesViaProxy-Service,TRUE
 package#ProcessComms,domain#MP-CurPuPurS,domain#Link-Proxy-usesRemotely-Service,TRUE

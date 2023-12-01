@@ -676,6 +676,8 @@ package#Privacy,domain#CP-HurSesD+Rel,domain#Link-Data-relatesTo-Human
 package#Privacy,domain#CP-HurThcD+Rel,domain#Link-Data-relatesTo-Human
 package#Privacy,domain#CP-HurTh-S-m+m,domain#Link-Human-manages-Thing
 package#Privacy,domain#CP-HuwStrH-St+o,domain#Link-Employer-operates-Host
+package#ProcessComms,domain#CP-DFDSCS+f,domain#Link-DataFlow-flowsViaCS-ClientChannel
+package#ProcessComms,domain#CP-DFDSSC+f,domain#Link-DataFlow-flowsViaSC-ClientChannel
 package#ProcessCommsInference,domain#CP-APxSCtI+tI,domain#Link-ServiceAttackPath-toInterface-Interface
 package#ProcessCommsInference,domain#CP-APxSCtI+tI,domain#Link-ServiceAttackPath-viaSubnet-LogicalSubnet
 package#ProcessCommsInference,domain#CP-CAPlISAP+lI,domain#Link-ServiceAttackPath-lastInterface-Interface
