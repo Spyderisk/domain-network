@@ -371,11 +371,8 @@ package#ProcessComms,domain#CC.C.CCCSCSoCC.3,domain#MS-CommsSnoopable-ProxyChann
 package#ProcessComms,domain#CC.IS.CSCCmCC.8,domain#MS-InService-ClientChannel
 package#ProcessComms,domain#CC.IS.CSCCSC.8,domain#MS-InService-ClientChannel
 package#ProcessComms,domain#CC.L.CSCCHuoSt.1,domain#MS-LossOfServiceTW-ClientChannel
-package#ProcessComms,domain#CC.L.CSCCHuoSt.1,domain#MS-LossOfServiceTW-IndirectChannel
 package#ProcessComms,domain#CC.L.CSCCHuSt.1,domain#MS-LossOfServiceTW-ClientChannel
-package#ProcessComms,domain#CC.L.CSCCHuSt.1,domain#MS-LossOfServiceTW-IndirectChannel
 package#ProcessComms,domain#CC.L.CSHSAC.1,domain#MS-LossOfServiceTW-ClientChannel
-package#ProcessComms,domain#CC.L.CSHSAC.1,domain#MS-LossOfServiceTW-IndirectChannel
 package#ProcessComms,domain#CC.R.CAPHcLSS.1,domain#MS-LossOfClientTW-ClientChannel
 package#ProcessComms,domain#CC.R.CCC-pS.1,domain#MS-LossOfClientTW-ClientChannel
 package#ProcessComms,domain#CC.R.HuoStCCCS.1,domain#MS-LossOfClientTW-ClientChannel

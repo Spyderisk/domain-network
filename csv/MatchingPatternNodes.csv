@@ -608,8 +608,6 @@ package#ProcessComms,domain#MP-CSAPNaS,domain#Node-ProcAccess-PContext,TRUE,FALS
 package#ProcessComms,domain#MP-CSAPNaS,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSCCHuoSt,domain#Node-Employer-Stakeholder,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-CSCCHuoSt,domain#Node-IndirectChannel-ClientChannel,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-CSCCHuSt,domain#Node-IndirectChannel-ClientChannel,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSCCmCC,domain#Node-ProxyChannel-ClientChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSCCmCC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSCCSC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
@@ -617,7 +615,6 @@ package#ProcessComms,domain#MP-CSCC-SC,domain#Node-ProxyChannel-ClientChannel,FA
 package#ProcessComms,domain#MP-CSCC-SC,domain#Node-ServiceChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-CSHSAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSHSAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-CSHSAC,domain#Node-IndirectChannel-ClientChannel,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CXPCPNC,domain#Node-ProcAccess-ProcessContext,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Node-LogicalSubnet-L3Subnet,TRUE,FALSE,FALSE
