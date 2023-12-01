@@ -47,3 +47,10 @@ Merging changes between these branches is very difficult without causing further
 As such, it is expected that each new branch will have its own README, explaining its purpose, content and (critically) its compatibility constraints.
 
 Inevitably, development of the domain model itself tends to focus more on the later branches. The need for older branches fades as system-modeller installations and system models are updated, and old branches may become stale. We will decide later whether those branches should be locked or deleted if/when that happens.
+
+## Contributors
+
+Those who have contributed to the IT Network domain model are:
+
+* Mike Surridge
+* Samuel Senior
