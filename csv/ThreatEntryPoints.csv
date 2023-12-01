@@ -160,7 +160,6 @@ package#Network,domain#P.A.HP-iT.5,domain#TWAS-IntrinsicTW-Process
 package#Network,domain#P.A.HsACP.1.2,domain#TWAS-Control-HostAccess
 package#Network,domain#P.A.HuiHP.6,domain#TWAS-DefaultTW-Host
 package#Network,domain#P.A.HuiHPSP.6,domain#TWAS-DefaultTW-Host
-package#Network,domain#P.A.HumHP.6.1,domain#TWAS-DefaultTW-Process
 package#Network,domain#P.A.HumHP-iT.6.2,domain#TWAS-ExploitTW-Process
 package#Network,domain#P.A.HumHP-iT.6.4,domain#TWAS-Health-Process
 package#Network,domain#P.IS.HP.8,domain#TWAS-OutOfService-Host
