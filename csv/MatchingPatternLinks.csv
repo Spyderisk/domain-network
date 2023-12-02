@@ -669,7 +669,6 @@ package#Network,domain#MP-HuirRACP,domain#Link-Process-isLnS-Process,TRUE
 package#Network,domain#MP-HumCHS-iP,domain#Link-Host-isPersonalDevice-Host,TRUE
 package#Network,domain#MP-HumHoSt,domain#Link-HostAccess-accessTo-Host,FALSE
 package#Network,domain#MP-HumHoSt,domain#Link-HostManager-worksFor-Employer,FALSE
-package#Network,domain#MP-HumHP,domain#Link-Human-interactsRemotelyWith-Process,FALSE
 package#Network,domain#MP-HumHP-im,domain#Link-Human1-interactsWith-Process,FALSE
 package#Network,domain#MP-HumHP-im,domain#Link-Human2-manages-Process,FALSE
 package#Network,domain#MP-HumHP-iT,domain#Link-Human-interactsRemotelyWith-Process,FALSE
@@ -1074,6 +1073,7 @@ package#ProcessComms,domain#MP-CRoSI,domain#Link-HostAccess-accessVia-ToSubnet,F
 package#ProcessComms,domain#MP-CRoSI,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CRoSI,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessComms,domain#MP-CRoSI,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
+package#ProcessComms,domain#MP-CRoSI,domain#Link-ToSubnet-isInternet-ToSubnet,TRUE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ProcAccess-accessTo-Service,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ProcAccess-accessToService-AttackPath,FALSE

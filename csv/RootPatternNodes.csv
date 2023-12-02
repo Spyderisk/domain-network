@@ -2364,6 +2364,8 @@ package#ProcessComms,domain#R-CurPuRASurS,domain#Node-Proxy-Process,TRUE
 package#ProcessComms,domain#R-CurPuRASurS,domain#Node-RemoteAccessClient-RemoteAccessClient,TRUE
 package#ProcessComms,domain#R-CurPuRASurS,domain#Node-RemoteAccessService-RemoteAccessService,TRUE
 package#ProcessComms,domain#R-CurPuRASurS,domain#Node-Service-Process,TRUE
+package#ProcessComms,domain#R-CuvaS,domain#Node-Client-Process,TRUE
+package#ProcessComms,domain#R-CuvaS,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-CuvS,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CuvS,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-CvPuSCC,domain#Node-ClientChannel-ClientChannel,TRUE

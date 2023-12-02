@@ -2356,6 +2356,8 @@ package#ProcessComms,domain#R-CurPuRASurS,domain#Link-RemoteAccessClient-usesRem
 package#ProcessComms,domain#R-CurPuRASurS,domain#Link-RemoteAccessClient-usesRemotely-RemoteAccessService
 package#ProcessComms,domain#R-CurPuRASurS,domain#Link-RemoteAccessClient-usesRemotely-Service
 package#ProcessComms,domain#R-CurPuRASurS,domain#Link-RemoteAccessService-usesRemotely-Service
+package#ProcessComms,domain#R-CuvaS,domain#Link-Client-usesService-Process
+package#ProcessComms,domain#R-CuvaS,domain#Link-Client-usesViaAuthenticatingProxy-Process
 package#ProcessComms,domain#R-CuvS,domain#Link-Client-usesService-Process
 package#ProcessComms,domain#R-CuvS,domain#Link-Client-usesViaProxy-Process
 package#ProcessComms,domain#R-CvPuSCC,domain#Link-ClientChannel-channelFrom-Client

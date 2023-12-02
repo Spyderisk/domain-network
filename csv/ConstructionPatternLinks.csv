@@ -676,6 +676,7 @@ package#Privacy,domain#CP-HurSesD+Rel,domain#Link-Data-relatesTo-Human
 package#Privacy,domain#CP-HurThcD+Rel,domain#Link-Data-relatesTo-Human
 package#Privacy,domain#CP-HurTh-S-m+m,domain#Link-Human-manages-Thing
 package#Privacy,domain#CP-HuwStrH-St+o,domain#Link-Employer-operates-Host
+package#ProcessComms,domain#CP-CuvaS+u,domain#Link-Client-usesIndirectly-Process
 package#ProcessComms,domain#CP-DFDSCS+f,domain#Link-DataFlow-flowsViaCS-ClientChannel
 package#ProcessComms,domain#CP-DFDSSC+f,domain#Link-DataFlow-flowsViaSC-ClientChannel
 package#ProcessCommsInference,domain#CP-APxSCtI+tI,domain#Link-ServiceAttackPath-toInterface-Interface
@@ -795,7 +796,6 @@ package#ProcessCommsInference,domain#CP-CXPCPNC+cIC,domain#Link-DataExchange-con
 package#ProcessCommsInference,domain#CP-DFDSfP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
 package#ProcessCommsInference,domain#CP-DFtP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
 package#ProcessCommsInference,domain#CP-DFuCuS-C-P+u,domain#Link-Client-uses-Service
-package#ProcessCommsInference,domain#CP-DFvCvS-C-P+u,domain#Link-Client-usesIndirectly-Service
 package#ProcessCommsInference,domain#CP-DFvCvS-C-P+u,domain#Link-Client-uses-Service
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-Proxy-uses-RemoteAccessService
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-RemoteAccessService-controls-Proxy

@@ -403,7 +403,6 @@ package#Network,domain#MP-HumCH,HumCH,Finds a Human managing a Fixed Console Hos
 package#Network,domain#MP-HumCHS-iP,HumCHS-iP,"Finds a Human managing a Host located in a space via the console, where the host is not a personal device.",domain#R-HumCHS,FALSE,FALSE
 package#Network,domain#MP-HumH,HumH,Finds a Human managing a Host.,domain#R-HumH,FALSE,FALSE
 package#Network,domain#MP-HumHoSt,HumHoSt,"Finds a Human managing a Host, and an optional employer of the Human.",domain#R-HumH,FALSE,FALSE
-package#Network,domain#MP-HumHP,HumHP,"Finds a Human managing a host running a process, and optionally an interactive process user.",domain#R-HumHP,FALSE,FALSE
 package#Network,domain#MP-HumHP-im,HumHP-im,Finds a Human managing a host running a process which has neither a manager nor an interactive user.,domain#R-HumHP,FALSE,FALSE
 package#Network,domain#MP-HumHP-iT,HumHP-iT,"Finds a Human managing a host running a non-trivial process, and optionally an interactive process user.",domain#R-HumHP,FALSE,FALSE
 package#Network,domain#MP-HumHSt,HumHSt,Finds a Human managing a Host and their employer.,domain#R-HumHSt,FALSE,FALSE
@@ -639,6 +638,7 @@ package#ProcessComms,domain#MP-CuPvnS,CuPvnS,Finds a client using a service via 
 package#ProcessComms,domain#MP-CuPvSCC,CuPvSCC,"Finds a client accessing a process that is acting as an authentication proxy and indirectly accessing a service, including the indirect usage link from client to service, and the associated client channels.",domain#R-CuPvSCC,FALSE,FALSE
 package#ProcessComms,domain#MP-CurPuPurS,CurPuPurS,"Finds a remote access client accessing a service via a proxy which itself is accessed via a proxy, where there is no usesRemotely link from the first proxy to the service.",domain#R-CurPuPurS,FALSE,FALSE
 package#ProcessComms,domain#MP-CurPuRASurS,CurPuRASurS,Finds a remote access client accessing a service via a remote access service which itself is accessed via a proxy.,domain#R-CurPuRASurS,FALSE,FALSE
+package#ProcessComms,domain#MP-CuvaS,CuvaS,Finds a client accessing a process via an authenticating proxy.,domain#R-CuvaS,FALSE,FALSE
 package#ProcessComms,domain#MP-CuvS,CuvS,Finds a client accessing a process via an authentication proxy but not via an authenticating proxy.,domain#R-CuvS,FALSE,TRUE
 package#ProcessComms,domain#MP-CvPuSCC,CvPuSCC,"Finds a client indirectly accessing a process that is acting as an authentication proxy and accessing a service, including the indirect usage link from client to service, and the associated client channels.",domain#R-CvPuSCC,FALSE,FALSE
 package#ProcessComms,domain#MP-CvPvSCC,CvPvSCC,"Finds a client indirectly accessing a service via a chain of authentication proxies, including two adjacent proxies in the chain, the indirect usage link from client to service, and the associated client channels.",domain#R-CvPvSCC,FALSE,FALSE
