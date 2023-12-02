@@ -859,6 +859,7 @@ package#Users,domain#CP-A+iA,domain#Link-Human-isAdult-Human
 package#VirtualisationInference,domain#CP-CCSCHC+ch,domain#Link-ClientChannel-viaHostChannel-HostChannel
 package#VirtualisationInference,domain#CP-CCSCVC+ch,domain#Link-ClientChannel-viaVirtualChannel-VirtualChannel
 package#VirtualisationInference,domain#CP-DCCVH-LS+LS,domain#Link-VirtualHost-connectedTo-VirtualSubnet
+package#VirtualisationInference,domain#CP-DCCVH-LS+LS,domain#Link-VirtualSubnet-providedBy-DataCentre
 package#VirtualisationInference,domain#CP-DCVHVS-H+p,domain#Link-LogicalSubnet-providedBy-DataCentre
 package#VirtualisationInference,domain#CP-EH+iS,domain#Link-ScalableHost-isScalable-ScalableHost
 package#VirtualisationInference,domain#CP-H2dPH2+VC,domain#Link-VirtualChannel-fromPhysicalHost-LocalHost
