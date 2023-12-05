@@ -407,6 +407,7 @@ package#ProcessComms,domain#DF.C.CCDFTC.1.6,domain#MS-LossOfConfidentiality-Data
 package#ProcessComms,domain#DF.C.CCDFTC.1.6,domain#MS-LossOfConfidentiality-DataFlow
 package#ProcessComms,domain#DF.C.CCDFTS.1.3,domain#MS-LossOfConfidentiality-Data
 package#ProcessComms,domain#DF.C.CCDFTS.1.3,domain#MS-LossOfConfidentiality-DataFlow
+package#ProcessComms,domain#DF.IS.CCSmDFS.8,domain#MS-InService-DataStep
 package#ProcessComms,domain#DF.IS.PDFFA.8,domain#MS-InService-DataFlow
 package#ProcessComms,domain#DF.O.CCDFSFC.3,domain#MS-Overloaded-DataStep
 package#ProcessComms,domain#DF.O.CCDFSTC.3,domain#MS-Overloaded-DataStep

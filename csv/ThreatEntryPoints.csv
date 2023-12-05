@@ -354,7 +354,8 @@ package#ProcessComms,domain#DF.C.CCDFTC.1.6,domain#TWAS-OutOfService-DataFlow
 package#ProcessComms,domain#DF.C.CCDFTC.1.6,domain#TWAS-UserTW-ProcAccess
 package#ProcessComms,domain#DF.C.CCDFTS.1.3,domain#TWAS-OutOfService-DataFlow
 package#ProcessComms,domain#DF.C.CCDFTS.1.3,domain#TWAS-ServiceTW-ClientChannel
-package#ProcessComms,domain#DF.IS.PDFFA.8,domain#TWAS-OutOfService-ClientChannel
+package#ProcessComms,domain#DF.IS.CCSmDFS.8,domain#TWAS-OutOfService-ClientChannel
+package#ProcessComms,domain#DF.IS.PDFFA.8,domain#TWAS-OutOfService-DataStep
 package#ProcessComms,domain#DF.O.CCDFSFC.3,domain#TWAS-ClientTW-ClientChannel
 package#ProcessComms,domain#DF.O.CCDFSFC.3,domain#TWAS-OutOfService-ClientChannel
 package#ProcessComms,domain#DF.O.CCDFSTC.3,domain#TWAS-ClientTW-ClientChannel

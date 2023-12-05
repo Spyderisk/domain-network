@@ -103,6 +103,8 @@ package#Application,domain#R-HuirEcD,domain#Link-Editor-creates-Data
 package#Application,domain#R-HuirEcD,domain#Link-Human-interactsRemotelyWith-Editor
 package#Application,domain#R-HuirEpD,domain#Link-Editor-processes-Data
 package#Application,domain#R-HuirEpD,domain#Link-Human-interactsRemotelyWith-Editor
+package#Application,domain#R-HuirErD,domain#Link-Human-interactsRemotelyWith-Process
+package#Application,domain#R-HuirErD,domain#Link-Process-receives-Data
 package#Application,domain#R-HuirIPaD,domain#Link-Human-interactsRemotelyWith-InteractiveProcess
 package#Application,domain#R-HuirIPaD,domain#Link-InteractiveProcess-creates-Data
 package#Application,domain#R-HuirIPaD,domain#Link-InteractiveProcess-receives-Data
@@ -2104,6 +2106,8 @@ package#ProcessComms,domain#R-CCfI,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-CCfI,domain#Link-ClientChannel-fromInterface-Interface
 package#ProcessComms,domain#R-CCfI,domain#Link-Interface-connectsFrom-CHost
 package#ProcessComms,domain#R-CCfI,domain#Link-Interface-connectsTo-LogicalSubnet
+package#ProcessComms,domain#R-CCS,domain#Link-ClientChannel-channelFrom-Client
+package#ProcessComms,domain#R-CCS,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-CCSC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessComms,domain#R-CCSC,domain#Link-ClientChannel-channelTo-Service
 package#ProcessComms,domain#R-CCSC,domain#Link-ServiceChannel-channelFrom-Client
@@ -2588,6 +2592,10 @@ package#ProcessComms,domain#R-PCaTSSCCC,domain#Link-ClientChannel-channelVia-Ser
 package#ProcessComms,domain#R-PCaTSSCCC,domain#Link-ProcAccess-accessToService-ServiceChannel
 package#ProcessComms,domain#R-PcC,domain#Link-Process-controls-Client
 package#ProcessComms,domain#R-PcP,domain#Link-Proxy-controls-Process
+package#ProcessComms,domain#R-PDSFA,domain#Link-DataStep-flows-Data
+package#ProcessComms,domain#R-PDSFA,domain#Link-DataStep-flowsFrom-FlowsFrom
+package#ProcessComms,domain#R-PDSFA,domain#Link-DataStep-flowsTo-FlowsTo
+package#ProcessComms,domain#R-PDSFA,domain#Link-DataStep-flowsViaChannel-ClientChannel
 package#ProcessComms,domain#R-PILS,domain#Link-Interface-connectsFrom-SHost
 package#ProcessComms,domain#R-PILS,domain#Link-Interface-connectsTo-LogicalSubnet
 package#ProcessComms,domain#R-PILS,domain#Link-SHost-hosts-Service

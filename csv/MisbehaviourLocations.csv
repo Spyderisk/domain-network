@@ -14,6 +14,7 @@ package#Application,domain#LossOfTimeliness,domain#Process
 package#Application,domain#MalwareInfection,domain#Data
 package#Core,domain#LossOfDefaultTW,domain#DebugMarker
 package#DataLifecycle,domain#InService,domain#DataAsset
+package#DataLifecycle,domain#InService,domain#DataStep
 package#DataLifecycle,domain#LossOfAuthenticity,domain#DataAsset
 package#DataLifecycle,domain#LossOfAvailability,domain#DataAsset
 package#DataLifecycle,domain#LossOfConfidentiality,domain#DataContainer

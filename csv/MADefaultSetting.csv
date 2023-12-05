@@ -321,6 +321,7 @@ package#CloudManagement,domain#MADS-TrojanInsertion-Worker,domain#Worker,domain#
 package#DataLifecycle,domain#MADS-InService-DataCache,domain#DataCache,domain#InService,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-InService-DataCopy,domain#DataCopy,domain#InService,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-InService-DataFlow,domain#DataFlow,domain#InService,domain#ImpactLevelNegligible
+package#DataLifecycle,domain#MADS-InService-DataStep,domain#DataStep,domain#InService,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfAuthenticity-DataCache,domain#DataCache,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfAuthenticity-DataCopy,domain#DataCopy,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfAuthenticity-DataFlow,domain#DataFlow,domain#LossOfAuthenticity,domain#ImpactLevelNegligible

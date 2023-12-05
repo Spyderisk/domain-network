@@ -25,6 +25,10 @@ package#Application,domain#MP-HuiDirPpD-P,domain#Link-Human-interactsRemotelyWit
 package#Application,domain#MP-HuiDirPpD-P,domain#Link-Service-enablesUserInput-Data,FALSE
 package#Application,domain#MP-HuirEc-rD,domain#Link-Editor-receives-Data,TRUE
 package#Application,domain#MP-HuirEp-iD,domain#Link-Human-inputsData-Data,TRUE
+package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Link-Client-creates-Data,FALSE
+package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Link-Host-stores-Data,FALSE
+package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Link-Human2-inputsData-Data,FALSE
+package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Link-Human-viewsData-Data,TRUE
 package#Application,domain#MP-HuirIPp-iD,domain#Link-Human-inputsData-Data,TRUE
 package#Application,domain#MP-HuirIPp-xD,domain#Link-Human-interactsWithData-Data,TRUE
 package#Application,domain#MP-HuirPaD+eUI-O,domain#Link-Process-enablesUserOutput-Data,TRUE
@@ -38,6 +42,7 @@ package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Link-Client-creates-Dat
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Link-Host-stores-Data,FALSE
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Link-Human2-inputsData-Data,FALSE
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Link-Human-viewsData-Data,TRUE
+package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Link-Process-reads-Data,TRUE
 package#Application,domain#MP-Hui-vD-P,domain#Link-Data-isSpam-Data,TRUE
 package#Application,domain#MP-Hui-vD-P,domain#Link-Human-interactsRemotelyWith-Process,FALSE
 package#Application,domain#MP-Hui-vD-P,domain#Link-Human-viewsData-Data,TRUE
@@ -1047,6 +1052,7 @@ package#ProcessComms,domain#MP-CCDS2TC,domain#Link-DataFlow-flowsViaSC-ClientCha
 package#ProcessComms,domain#MP-CCDS2TC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-CCfImSC,domain#Link-ClientChannel-channelVia-ServiceChannel,FALSE
 package#ProcessComms,domain#MP-CCfImSC,domain#Link-ServiceChannel-fromInterface-Interface,FALSE
+package#ProcessComms,domain#MP-CCSmDFS,domain#Link-DataStep-flowsViaChannel-ClientChannel,FALSE
 package#ProcessComms,domain#MP-CCtImSC,domain#Link-ClientChannel-channelVia-ServiceChannel,FALSE
 package#ProcessComms,domain#MP-CCtImSC,domain#Link-ServiceChannel-toInterface-Interface,FALSE
 package#ProcessComms,domain#MP-CDBSC,domain#Link-HostManager-manages-SHost,FALSE
@@ -1201,7 +1207,7 @@ package#ProcessComms,domain#MP-Pc-pPpmS,domain#Link-Process-proxyAuthN-Proxy,TRU
 package#ProcessComms,domain#MP-Pc-pPpmS,domain#Link-Proxy-proxyAuthN-Service,FALSE
 package#ProcessComms,domain#MP-Pc-uCpmS,domain#Link-Client-proxyAuthN-Process,TRUE
 package#ProcessComms,domain#MP-Pc-uCpmS,domain#Link-Client-proxyAuthN-Service,FALSE
-package#ProcessComms,domain#MP-PDFFA,domain#Link-DataFlow-flowsViaChannel-ClientChannel,FALSE
+package#ProcessComms,domain#MP-PDFFA,domain#Link-DataFlow-flowsVia-DataStep,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-Human-manages-FlowsFrom,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Link-ProcessManager-manages-FlowsTo,FALSE
 package#ProcessComms,domain#MP-PILSsSC,domain#Link-HostManager-manages-SHost,FALSE

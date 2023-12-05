@@ -118,6 +118,9 @@ package#Application,domain#R-HuirEcD,domain#Node-Human-Human,TRUE
 package#Application,domain#R-HuirEpD,domain#Node-Data-Data,TRUE
 package#Application,domain#R-HuirEpD,domain#Node-Editor-Editor,TRUE
 package#Application,domain#R-HuirEpD,domain#Node-Human-Human,TRUE
+package#Application,domain#R-HuirErD,domain#Node-Data-Data,TRUE
+package#Application,domain#R-HuirErD,domain#Node-Human-Human,TRUE
+package#Application,domain#R-HuirErD,domain#Node-Process-Editor,TRUE
 package#Application,domain#R-HuirIPaD,domain#Node-Data-Data,TRUE
 package#Application,domain#R-HuirIPaD,domain#Node-Human-Human,TRUE
 package#Application,domain#R-HuirIPaD,domain#Node-InteractiveProcess-InteractiveProcess,TRUE
@@ -2131,6 +2134,9 @@ package#ProcessComms,domain#R-CCfI,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCfI,domain#Node-Interface-Interface,TRUE
 package#ProcessComms,domain#R-CCfI,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-CCfI,domain#Node-Service-Process,TRUE
+package#ProcessComms,domain#R-CCS,domain#Node-ClientChannel-ClientChannel,TRUE
+package#ProcessComms,domain#R-CCS,domain#Node-Client-Process,TRUE
+package#ProcessComms,domain#R-CCS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-CCSC,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessComms,domain#R-CCSC,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCSC,domain#Node-ServiceChannel-ServiceChannel,TRUE
@@ -2601,6 +2607,11 @@ package#ProcessComms,domain#R-PcC,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-PcC,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-PcP,domain#Node-Process-Process,TRUE
 package#ProcessComms,domain#R-PcP,domain#Node-Proxy-Process,TRUE
+package#ProcessComms,domain#R-PDSFA,domain#Node-ClientChannel-ClientChannel,TRUE
+package#ProcessComms,domain#R-PDSFA,domain#Node-Data-Data,TRUE
+package#ProcessComms,domain#R-PDSFA,domain#Node-DataStep-DataStep,TRUE
+package#ProcessComms,domain#R-PDSFA,domain#Node-FlowsFrom-Process,TRUE
+package#ProcessComms,domain#R-PDSFA,domain#Node-FlowsTo-Process,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-Interface-Interface,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-PILS,domain#Node-Service-Process,TRUE

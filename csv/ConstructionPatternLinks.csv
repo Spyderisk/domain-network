@@ -41,6 +41,8 @@ package#Application,domain#CP-HuirEc-rD+iD,domain#Link-Editor-enablesUserInput-D
 package#Application,domain#CP-HuirEc-rD+iD,domain#Link-Human-inputsData-Data
 package#Application,domain#CP-HuirEp-iD+vD,domain#Link-Editor-enablesUserOutput-Data
 package#Application,domain#CP-HuirEp-iD+vD,domain#Link-Human-viewsData-Data
+package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#Link-Human-inputsData-Data
+package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#Link-Process-enablesUserInput-Data
 package#Application,domain#CP-HuirIPaD+aD,domain#Link-Human-amendsData-Data
 package#Application,domain#CP-HuirIPaD+aD,domain#Link-InteractiveProcess-enablesUserUpdate-Data
 package#Application,domain#CP-HuirIPp-iD+vD,domain#Link-Human-viewsData-Data

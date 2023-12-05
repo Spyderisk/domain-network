@@ -37,6 +37,7 @@ package#Application,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data 
 package#Application,domain#R-HuirEaD,HuirEaD,Find a Human interacting (possibly remotely) with an Editor that amends Data.,FALSE,TRUE
 package#Application,domain#R-HuirEcD,HuirEcD,Find a Human interacting (possibly remotely) with an Editor that creates Data.,FALSE,FALSE
 package#Application,domain#R-HuirEpD,HuirEpD,Find a Human interacting (possibly remotely) with an Editor that processes Data.,FALSE,FALSE
+package#Application,domain#R-HuirErD,HuirErD,Finds Human interacting (possibly remotely) with an Editor process that receives data.,FALSE,FALSE
 package#Application,domain#R-HuirIPaD,HuirIPaD,Finds Human interacting (possibly remotely) with an Interactive Process that amends data.,FALSE,TRUE
 package#Application,domain#R-HuirIPpD,HuirIPpD,Finds Human interacting (possibly remotely) with an Interactive Process that processes data.,FALSE,FALSE
 package#Application,domain#R-HuirPaD+eUI,HuirPaD+eUI,"Finds Human interacting (possibly remotely) with a process that amends (creates and receives) data, and enables user input of the data.",FALSE,TRUE
@@ -512,6 +513,7 @@ package#ProcessComms,domain#R-CCDFTS,CCDFTS,"Finds a data flow to a service from
 package#ProcessComms,domain#R-CCDS2FC,CCDS2FC,"Finds a data flowing from/via a client via a service, plus the associated client channel and the data steps from the client and from the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDS2TC,CCDS2TC,"Finds a data flowing to/via a client via a service, plus the associated client channel and the data steps to the client and to the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CCfI,CCfI,Finds a Client Channel from an Interface at the Client host.,FALSE,FALSE
+package#ProcessComms,domain#R-CCS,CCS,Finds a client and service connected by a client channel.,FALSE,FALSE
 package#ProcessComms,domain#R-CCSC,CCSC,Finds a client and service connected by a client channel and a service channel.,FALSE,FALSE
 package#ProcessComms,domain#R-CCSCAP,CCSCAP,Finds a Client Channel via a Service Channel that goes via an Attack Path.,FALSE,FALSE
 package#ProcessComms,domain#R-CCSCCP,CCSCCP,Finds a client channel via a service channel that is via a client path.,FALSE,FALSE
@@ -592,6 +594,7 @@ package#ProcessComms,domain#R-PCaTSSCAP,PCaTSSCAP,Finds an attack path path via 
 package#ProcessComms,domain#R-PCaTSSCCC,PCaTSSCCC,Finds a client channel via a service channel which gives access to a service in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PcC,PcC,Finds a client that is controlled by another process.,FALSE,FALSE
 package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy controlling another Process.,FALSE,FALSE
+package#ProcessComms,domain#R-PDSFA,PDSFA,"Finds a Data Step representing data exchange between two processes, plus the associated client channel. Note that this channel links the two processes in a client-service relationship, but the data step may be in either direction so the relationships of the channel to the processes are not included in this pattern.",FALSE,FALSE
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,Finds a client using a service via an authentication proxy (i.e. the proxy forwards credentials).,FALSE,FALSE
 package#ProcessComms,domain#R-PuP,PuP,Finds a Process in the role of Proxy using another Process.,FALSE,FALSE

@@ -8,6 +8,9 @@ package#Application,domain#MP-HuaD-P,domain#Node-Process-Process,FALSE,TRUE,FALS
 package#Application,domain#MP-HuiCHDtS-AC,domain#Node-Process-RemoteDesktop,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuiDirIPpD-P,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuiDirPpD-P,domain#Node-Service-Process,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Node-Client-Process,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Node-Host-Host,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Node-Human2-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Node-Client-Process,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Node-Human2-Human,FALSE,TRUE,FALSE
@@ -582,6 +585,7 @@ package#ProcessComms,domain#MP-CCDS2FC,domain#Node-ServiceManager-Human,FALSE,FA
 package#ProcessComms,domain#MP-CCDS2TC,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCDS2TC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCfImSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCSmDFS,domain#Node-DataStep-DataStep,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCtImSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CDBSC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CDBSCDSF,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
@@ -673,7 +677,7 @@ package#ProcessComms,domain#MP-PcHpmS,domain#Node-Service-Process,TRUE,FALSE,FAL
 package#ProcessComms,domain#MP-PcLSpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-Pc-pPpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-Pc-uCpmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
-package#ProcessComms,domain#MP-PDFFA,domain#Node-ClientChannel-ClientChannel,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-PDFFA,domain#Node-DataStep-DataStep,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PDFFA,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PILSsSC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
