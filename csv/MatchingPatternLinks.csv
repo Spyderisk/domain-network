@@ -68,6 +68,7 @@ package#Application,domain#MP-Huv-iD-P,domain#Link-Human-inputsData-Data,TRUE
 package#Application,domain#MP-Huv-iD-P,domain#Link-Human-interactsRemotelyWith-Process,FALSE
 package#Application,domain#MP-Huv-iD-P,domain#Link-Process-enablesUserOutput-Data,FALSE
 package#Application,domain#MP-RDuP-LnS,domain#Link-Process-isLnS-Process,TRUE
+package#Application,domain#MP-RDuP-LnS,domain#Link-Process-isProxy-Process,TRUE
 package#Application,domain#MP-RDuRDuS-uR,domain#Link-RemoteAccessClient-usesRemotely-Process,TRUE
 package#Application,domain#MP-RDuRTuS-uR,domain#Link-RemoteAccessClient-usesRemotely-Process,TRUE
 package#CloudManagement,domain#MP-CtH-iP,domain#Link-Host-isPod-Host,TRUE
@@ -1105,7 +1106,6 @@ package#ProcessComms,domain#MP-CSHSAC,domain#Link-HostManager-manages-SHost,FALS
 package#ProcessComms,domain#MP-CSHSAC,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessComms,domain#MP-CSL0H,domain#Link-CHost-isCluster-CHost,FALSE
 package#ProcessComms,domain#MP-CuPnS-U,domain#Link-Client-usesViaTransparentProxy-Service,TRUE
-package#ProcessComms,domain#MP-CurPuPurS,domain#Link-Proxy-usesRemotely-Service,TRUE
 package#ProcessComms,domain#MP-CuvS,domain#Link-Client-usesAsTransparentProxy-Process,TRUE
 package#ProcessComms,domain#MP-CXPCPNC,domain#Link-ProcAccess-accessTo-Client,FALSE
 package#ProcessComms,domain#MP-CXPCPNC,domain#Link-ProcAccess-accessVia-LogicalSubnet,FALSE
@@ -1131,6 +1131,8 @@ package#ProcessComms,domain#MP-DSsXSS,domain#Link-ServiceManager-manages-Service
 package#ProcessComms,domain#MP-HLSISC,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-HLSISC,domain#Link-LogicalSubnet-isHotspot-LogicalSubnet,TRUE
 package#ProcessComms,domain#MP-HLSISC,domain#Link-ServiceManager-manages-Service,FALSE
+package#ProcessComms,domain#MP-HRAScSvP,domain#Link-Proxy-proxyAuthN-Process,TRUE
+package#ProcessComms,domain#MP-HRAScSvSP,domain#Link-Proxy-uses-Process,TRUE
 package#ProcessComms,domain#MP-HuCAPmSC,domain#Link-ServiceChannel-channelVia-ClientAttackPath,FALSE
 package#ProcessComms,domain#MP-HuCCC-nS,domain#Link-Client-noAuthN-Service,TRUE
 package#ProcessComms,domain#MP-HuCCC-nS,domain#Link-ServiceManager-manages-Service,FALSE
@@ -1216,8 +1218,8 @@ package#ProcessComms,domain#MP-PILSsSC,domain#Link-ServiceChannel-toInterface-In
 package#ProcessComms,domain#MP-PnPnS-U,domain#Link-Client-usesViaTransparentProxy-Service,TRUE
 package#ProcessComms,domain#MP-Pu-pPpmS,domain#Link-Proxy-proxyAuthN-Process,TRUE
 package#ProcessComms,domain#MP-Pu-pPpmS,domain#Link-Proxy-proxyAuthN-Service,FALSE
-package#ProcessComms,domain#MP-RACuPuP-uR,domain#Link-RemoteAccessClient-usesRemotely-Process,TRUE
-package#ProcessComms,domain#MP-RDuPuS-LnS,domain#Link-Process-isLnS-Process,TRUE
+package#ProcessComms,domain#MP-RDvP-LnS,domain#Link-Process-isLnS-Process,TRUE
+package#ProcessComms,domain#MP-RDvP-LnS,domain#Link-Process-isProxy-Process,TRUE
 package#ProcessComms,domain#MP-RTuP-hCLI,domain#Link-Process-hasCLI-Process,TRUE
 package#ProcessComms,domain#MP-RTuP-hCLI,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RTuP-hCLI,domain#Link-Process-isProxy-Process,TRUE
@@ -1278,6 +1280,7 @@ package#ProcessCommsInference,domain#MP-CS-SP,domain#Link-Client-usesViaRAS-Serv
 package#ProcessCommsInference,domain#MP-CS-SP,domain#Link-Service-noDX-Service,TRUE
 package#ProcessCommsInference,domain#MP-CucSaP,domain#Link-Process-usesService-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuPaS-i,domain#Link-Proxy-usesIndirectly-Service,TRUE
+package#ProcessCommsInference,domain#MP-CuSPvS-U,domain#Link-Client-usesAsTransparentProxy-Proxy,FALSE
 package#ProcessCommsInference,domain#MP-CuSPvS-U,domain#Link-Client-usesViaAuthenticatingProxy-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuS-SP,domain#Link-Client-isLnS-Client,TRUE
 package#ProcessCommsInference,domain#MP-CuS-SP,domain#Link-Client-usesViaProxy-Service,TRUE
@@ -1305,7 +1308,7 @@ package#ProcessCommsInference,domain#MP-NP2CCAPSC,domain#Link-NetworkPath-pathTo
 package#ProcessCommsInference,domain#MP-SCLSgvTS-vS,domain#Link-ServiceChannel-sourceViaNAT-FromSubnet,TRUE
 package#ProcessCommsInference,domain#MP-SCvLS-vS,domain#Link-ServiceChannel-sourceViaNAT-LogicalSubnet,TRUE
 package#ProcessCommsInference,domain#MP-SPu-nS-U,domain#Link-Client-usesAsTransparentProxy-Service,TRUE
-package#ProcessCommsInference,domain#MP-SPvSPvS-U,domain#Link-Client-usesAsAuthenticatingProxy-Service,TRUE
+package#ProcessCommsInference,domain#MP-SPvSPvS-U,domain#Link-Client-usesViaAuthenticatingProxy-Service,TRUE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Link-PhysicalHost-resourcedBy-DataCentre,FALSE
 package#Virtualisation,domain#MP-DCCVH-LS,domain#Link-VirtualHost-connectedTo-LogicalSubnet,FALSE
 package#Virtualisation,domain#MP-DCVHVS-H,domain#Link-LogicalSubnet-providedBy-Gateway,FALSE

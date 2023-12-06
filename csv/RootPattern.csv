@@ -310,8 +310,6 @@ package#Network,domain#R-HprL3SAC,HprL3SAC,"Finds a Layer 3 LogicalSubnet provid
 package#Network,domain#R-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,FALSE,FALSE
 package#Network,domain#R-HRASuSC,HRASuSC,Finds a Client using a Process via a Remote Access Service on the same Host.,FALSE,FALSE
-package#Network,domain#R-HuCurHRASuP,HuCurHRASuP,Finds a Human using a Remote Access Client to access a Process via a collocated Remote Access Service.,FALSE,FALSE
-package#Network,domain#R-HuCurHRASuPurS,HuCurHRASuPurS,Finds a Human using a Remote Access Client to access a Service via a Remote Access Service and collocated Process.,FALSE,FALSE
 package#Network,domain#R-HuE,HuE,Finds a human interacting with an email client.,FALSE,FALSE
 package#Network,domain#R-HuHE,HuHE,Finds a human interacting with an email client running on a host.,FALSE,FALSE
 package#Network,domain#R-HuHE2AC,HuHE2AC,"Finds a human interacting directly with an email client running on a host in a space, plus the associated location access context.",FALSE,FALSE
@@ -527,6 +525,8 @@ package#ProcessComms,domain#R-CDBSC,CDBSC,Finds a process acting as a client to 
 package#ProcessComms,domain#R-CDBSCDADS,CDBSCDADS,"Finds a process using a DB service to update data, where the data in this case may or may not normally be accessed via the process.",FALSE,FALSE
 package#ProcessComms,domain#R-CDBSCDSDA,CDBSCDSDA,"Finds a process using a DB service to update data, where the data in this case may or may not normally be accessed via the process.",FALSE,FALSE
 package#ProcessComms,domain#R-CDBSCDSF,CDBSCDSF,"Finds a process using data served by a DB service the process is using, and the associated client channel, host and data copy assets.",FALSE,FALSE
+package#ProcessComms,domain#R-CHRAScSuP,CHRAScSuP,Finds a cient using a process via a transparent proxy that should be used via a remote access service running on the same host that can also be accessed via the proxy.,FALSE,FALSE
+package#ProcessComms,domain#R-CHRAScSuSP,CHRAScSuSP,"Finds a client using a process via an authenticating proxy chain, but used via a remote access service running on the same host that can also be accessed via the same proxy chain.",FALSE,FALSE
 package#ProcessComms,domain#R-CRoS,CRoS,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  and a Logical Subnet used by at least one path from the client, plus the Client Path for that Client from this Subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-CRoSG,CRoSG,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface, and an access context for the gateway where it is on the relevant path.",FALSE,FALSE
 package#ProcessComms,domain#R-CRoSI,CRoSI,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface.",FALSE,FALSE
@@ -551,8 +551,6 @@ package#ProcessComms,domain#R-CuPnS,CuPnS,"Finds a client using a transparent pr
 package#ProcessComms,domain#R-CuPuSCC,CuPuSCC,"Finds a client accessing a process that is acting as a transparent proxy and accessing a service, including the indirect usage link from client to service, and the associated client channels.",FALSE,FALSE
 package#ProcessComms,domain#R-CuPvnS,CuPvnS,Finds a client using a service via a transparent proxy (i.e. the proxy forwards credentials as well as other requests).,FALSE,TRUE
 package#ProcessComms,domain#R-CuPvSCC,CuPvSCC,"Finds a client accessing a process that is acting as a transparent proxy and indirectly accessing a service, including the indirect usage link from client to service, and the associated client channels.",FALSE,FALSE
-package#ProcessComms,domain#R-CurPuPurS,CurPuPurS,Finds a remote access client accessing a service via a proxy which itself is accessed via a proxy.,FALSE,FALSE
-package#ProcessComms,domain#R-CurPuRASurS,CurPuRASurS,Finds a remote access client accessing a service via a remote access service which itself is accessed via a proxy.,FALSE,FALSE
 package#ProcessComms,domain#R-CuvaS,CuvaS,Finds a client accessing a process via an authenticating proxy.,FALSE,TRUE
 package#ProcessComms,domain#R-CuvS,CuvS,Finds a client accessing a process via a proxy.,FALSE,TRUE
 package#ProcessComms,domain#R-CvPuSCC,CvPuSCC,"Finds a client indirectly accessing a process that is acting as a transparent proxy and accessing a service, including the indirect usage link from client to service, and the associated client channels.",FALSE,FALSE
@@ -566,8 +564,10 @@ package#ProcessComms,domain#R-DoS,DoS,"Finds a service with its host, and a serv
 package#ProcessComms,domain#R-DSrXSS,DSrXSS,"Finds human using a web browser that uses a service with a host, where the browser also uses locally stored data.",FALSE,FALSE
 package#ProcessComms,domain#R-DSsXSS,DSsXSS,Finds a human using a web browser that accesses a service running on a host and using stored input data.,FALSE,FALSE
 package#ProcessComms,domain#R-HLSISC,HLSISC,Finds a host connecting to a logical subnet by authenticating to a controlling service.,FALSE,FALSE
-package#ProcessComms,domain#R-HRAScScP,HRAScScP,"Finds a process acting as a back end service, accessed by (and controlling) an authentication proxy, and used by a remote access service running on the same host.",FALSE,TRUE
-package#ProcessComms,domain#R-HRAScSuSP,HRAScSuSP,"Finds a process acting as a back end service, accessed by an authenticating proxy, and used by a remote access service running on the same host.",FALSE,FALSE
+package#ProcessComms,domain#R-HRAScSuP,HRAScSuP," Finds a process acting as a back end service, accessed via a transparent proxy, but used via a remote access service running on the same host.",FALSE,TRUE
+package#ProcessComms,domain#R-HRAScSuSP,HRAScSuSP,"Finds a process acting as a back end service, accessed via an authenticating proxy, but used via a remote access service running on the same host.",FALSE,FALSE
+package#ProcessComms,domain#R-HRAScSvP,HRAScSvP,"Finds a process acting as a back end service, accessed via a transparent proxy chain, but used via a remote access service running on the same host.",FALSE,FALSE
+package#ProcessComms,domain#R-HRAScSvSP,HRAScSvSP,"Finds a process acting as a back end service, accessed indirectly via an authenticating proxy, but used via a remote access service running on the same host.",FALSE,FALSE
 package#ProcessComms,domain#R-HuCAP,HuCAP,"Finds a client attack path from a subnet, plus the associated client, service process and service host, and the service and service host managers.",FALSE,FALSE
 package#ProcessComms,domain#R-HuCCCS,HuCCCS,"Finds a User of an interactive Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-HuDFrXSS,HuDFrXSS,"Finds human using a web browser that uses a service with a host and host manager, where the browser also uses inflowing data.",FALSE,FALSE
@@ -597,14 +597,10 @@ package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy contr
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,"Finds a client using a service via a transparent reverse proxy (i.e. the proxy forwards credentials), where the client and/or service may also be a transparent proxy.",FALSE,FALSE
 package#ProcessComms,domain#R-PuP,PuP,Finds a Process in the role of Proxy using another Process.,FALSE,FALSE
-package#ProcessComms,domain#R-PurRASuSH,PurRASuSH,"Finds a process acting as a reverse proxy, which can remotely use a remote access service that uses a collocated process.",FALSE,FALSE
-package#ProcessComms,domain#R-RACuPuP,RACuPuP,Finds a remote access client remotely using a proxy which remotely uses another proxy.,FALSE,FALSE
-package#ProcessComms,domain#R-RDuPuDtS,RDuPuDtS,Finds a remote desktop remotely using a proxy that remotely uses a desktop service.,FALSE,FALSE
-package#ProcessComms,domain#R-RDuPuS,RDuPuS,Finds a remote desktop remotely using a proxy that remotely uses a process.,FALSE,FALSE
-package#ProcessComms,domain#R-RTuPuCP,RTuPuCP,Finds a remote terminal remotely using a proxy which remotely uses a console process.,FALSE,FALSE
-package#ProcessComms,domain#R-RTuPucS,RTuPucS,"Finds a remote terminal using an authentication proxy (i.e. the proxy forwards credentials), which in turn uses and is controlled by a service.",FALSE,TRUE
-package#ProcessComms,domain#R-RTuPuRAS,RTuPuRAS,Finds a remote terminal remotely using a proxy which remotely uses a remote access service.,FALSE,FALSE
-package#ProcessComms,domain#R-RTuSP,RTuSP,Finds a remote terminal client using a specialised reverse proxy process.,FALSE,FALSE
+package#ProcessComms,domain#R-RDvDtS,RDvDtS,Finds a remote desktop client using a desktop service via one or more reverse proxies.,FALSE,FALSE
+package#ProcessComms,domain#R-RDvP,RDvP,Finds a remote desktop client using a process via one or more reverse proxies.,FALSE,FALSE
+package#ProcessComms,domain#R-RTvCP,RTvCP,Finds a remote terminal client using a console-accessible process via one or more reverse proxies.,FALSE,FALSE
+package#ProcessComms,domain#R-RTvRAS,RTvRAS,Finds a remote terminal client using a remote access service via one or more reverse proxies.,FALSE,FALSE
 package#ProcessComms,domain#R-SACLSDFC,SACLSDFC,"Finds a Client getting data from a Service via a Service Channel (i.e. network path), and a Context in which the process (host) is connected to a network that allows this.",FALSE,FALSE
 package#ProcessComms,domain#R-SC,SC,"Finds a client and service connected by a service channel, plus the service host.",FALSE,FALSE
 package#ProcessComms,domain#R-SCAPvLS,SCAPvLS,Finds a Host running a Service connected via an Interface to a Subnet visited by a Service Channel via an Attack Path to the Service Process.,FALSE,FALSE
