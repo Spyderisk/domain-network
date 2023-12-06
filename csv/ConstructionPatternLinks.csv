@@ -778,8 +778,8 @@ package#ProcessCommsInference,domain#CP-CucS+N,domain#Link-Client-proxyAuthN-Ser
 package#ProcessCommsInference,domain#CP-CucS+uR,domain#Link-Client-usesRemotely-Service
 package#ProcessCommsInference,domain#CP-CucSaP+c,domain#Link-Service-controls-Proxy
 package#ProcessCommsInference,domain#CP-CuPaS-i+i,domain#Link-Proxy-usesIndirectly-Service
-package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-noAuthN-Proxy
-package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-usesViaProxy-Service
+package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-usesAsTransparentProxy-Proxy
+package#ProcessCommsInference,domain#CP-CuPnS-U+U,domain#Link-Client-usesViaTransparentProxy-Service
 package#ProcessCommsInference,domain#CP-CuPuSCC+c,domain#Link-ClientChannel-channelVia-FirstChannel
 package#ProcessCommsInference,domain#CP-CuPuSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
 package#ProcessCommsInference,domain#CP-CuPvnS+n,domain#Link-Client-noAuthN-Proxy
@@ -798,7 +798,6 @@ package#ProcessCommsInference,domain#CP-CXPCPNC+cIC,domain#Link-DataExchange-con
 package#ProcessCommsInference,domain#CP-DFDSfP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
 package#ProcessCommsInference,domain#CP-DFtP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
 package#ProcessCommsInference,domain#CP-DFuCuS-C-P+u,domain#Link-Client-uses-Service
-package#ProcessCommsInference,domain#CP-DFvCvS-C-P+u,domain#Link-Client-uses-Service
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-Proxy-uses-RemoteAccessService
 package#ProcessCommsInference,domain#CP-HRAScScP+ca,domain#Link-RemoteAccessService-controls-Proxy
 package#ProcessCommsInference,domain#CP-HRAScSuSP+a,domain#Link-Proxy-uses-RemoteAccessService
@@ -809,8 +808,8 @@ package#ProcessCommsInference,domain#CP-NP2CCAPSC+pT,domain#Link-NetworkPath-pat
 package#ProcessCommsInference,domain#CP-PCaFCSCCC+aFC,domain#Link-ProcAccess-accessFromClient-ClientChannel
 package#ProcessCommsInference,domain#CP-PCaTSSCAP+aTS,domain#Link-ProcAccess-accessToService-AttackPath
 package#ProcessCommsInference,domain#CP-PCaTSSCCC+aTS,domain#Link-ProcAccess-accessToService-ClientChannel
-package#ProcessCommsInference,domain#CP-PnPnS-U+U,domain#Link-Client-proxyAuthN-Service
-package#ProcessCommsInference,domain#CP-PnPnS-U+U,domain#Link-Client-usesViaProxy-Service
+package#ProcessCommsInference,domain#CP-PnPnS-U+U,domain#Link-Client-usesAsTransparentProxy-Service
+package#ProcessCommsInference,domain#CP-PnPnS-U+U,domain#Link-Client-usesViaTransparentProxy-Service
 package#ProcessCommsInference,domain#CP-PurRASuSH+uR,domain#Link-Proxy-usesRemotely-Process
 package#ProcessCommsInference,domain#CP-RACuPuP-uR+uR,domain#Link-RemoteAccessClient-usesRemotely-Process
 package#ProcessCommsInference,domain#CP-RDuPuDtS+uR,domain#Link-RemoteDesktop-usesRemotely-DesktopService
@@ -850,10 +849,10 @@ package#ProcessCommsInference,domain#CP-SOCAP+OSAP,domain#Link-OpenServiceAttack
 package#ProcessCommsInference,domain#CP-SOCAP+OSAP,domain#Link-OpenServiceAttackPath-fromSubnet-AttackerSubnet
 package#ProcessCommsInference,domain#CP-SOCAP+OSAP,domain#Link-ServiceChannel-channelVia-OpenServiceAttackPath
 package#ProcessCommsInference,domain#CP-SP+iP,domain#Link-Proxy-isProxy-Proxy
-package#ProcessCommsInference,domain#CP-SPu-nS-U+U,domain#Link-Client-usesAsProxy-Service
+package#ProcessCommsInference,domain#CP-SPu-nS-U+U,domain#Link-Client-usesAsAuthenticatingProxy-Service
 package#ProcessCommsInference,domain#CP-SPuS+uR,domain#Link-Client-usesRemotely-Service
-package#ProcessCommsInference,domain#CP-SPv-nS-U+U,domain#Link-Client-usesAsProxy-Service
-package#ProcessCommsInference,domain#CP-SPvSPvS-U+U,domain#Link-Client-usesAsProxy-Service
+package#ProcessCommsInference,domain#CP-SPv-nS-U+U,domain#Link-Client-usesAsAuthenticatingProxy-Service
+package#ProcessCommsInference,domain#CP-SPvSPvS-U+U,domain#Link-Client-usesAsAuthenticatingProxy-Service
 package#ProcessCommsInference,domain#CP-SSClIAP+ch,domain#Link-AttackPath-lastInterface-Interface
 package#ProcessCommsInference,domain#CP-SSCLS+aTS,domain#Link-ProcAccess-accessToService-ServiceChannel
 package#ProcessCommsInference,domain#CP-SXPCPNC+cIS,domain#Link-DataExchange-connectedIn-ProcAccess

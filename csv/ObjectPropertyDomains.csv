@@ -176,11 +176,14 @@ package#ProcessComms,domain#lastInterface,domain#AttackPath
 package#ProcessComms,domain#lastInterface,domain#ServiceChannel
 package#ProcessComms,domain#noAuthN,domain#Process
 package#ProcessComms,domain#toInterface,domain#ConnectionAsset
+package#ProcessComms,domain#usesAsAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesAsProxy,domain#Process
+package#ProcessComms,domain#usesAsTransparentProxy,domain#Process
 package#ProcessComms,domain#usesIndirectly,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#ConnectionChannel
 package#ProcessComms,domain#usesViaAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesViaProxy,domain#Process
+package#ProcessComms,domain#usesViaTransparentProxy,domain#Process
 package#ProcessComms,domain#viaInterface,domain#ConnectionChannel
 package#ProcessComms,domain#viaSubnet,domain#ConnectionAsset
 package#ProcessCommsInference,domain#fromSpace,domain#ServiceChannel

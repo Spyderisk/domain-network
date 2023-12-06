@@ -182,11 +182,14 @@ package#ProcessComms,domain#isProxy,domain#Process
 package#ProcessComms,domain#lastInterface,domain#Interface
 package#ProcessComms,domain#noAuthN,domain#Process
 package#ProcessComms,domain#toInterface,domain#Interface
+package#ProcessComms,domain#usesAsAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesAsProxy,domain#Process
+package#ProcessComms,domain#usesAsTransparentProxy,domain#Process
 package#ProcessComms,domain#usesIndirectly,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#LogicalSegment
 package#ProcessComms,domain#usesViaAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesViaProxy,domain#Process
+package#ProcessComms,domain#usesViaTransparentProxy,domain#Process
 package#ProcessComms,domain#viaInterface,domain#Interface
 package#ProcessComms,domain#viaSubnet,domain#LogicalSubnet
 package#ProcessCommsInference,domain#fromSpace,domain#Space

@@ -2788,9 +2788,6 @@ package#ProcessCommsInference,domain#R-DFtP,domain#Node-Process-Process,TRUE
 package#ProcessCommsInference,domain#R-DFuCuS,domain#Node-Client-Process,TRUE
 package#ProcessCommsInference,domain#R-DFuCuS,domain#Node-DataFlow-DataFlow,TRUE
 package#ProcessCommsInference,domain#R-DFuCuS,domain#Node-Service-Process,TRUE
-package#ProcessCommsInference,domain#R-DFvCvS,domain#Node-Client-Process,TRUE
-package#ProcessCommsInference,domain#R-DFvCvS,domain#Node-DataFlow-DataFlow,TRUE
-package#ProcessCommsInference,domain#R-DFvCvS,domain#Node-Service-Process,TRUE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,domain#Node-AttackerSubnet-LogicalSubnet,TRUE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,domain#Node-CHost-Host,TRUE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,domain#Node-Client-Process,TRUE
