@@ -594,7 +594,6 @@ package#ProcessComms,domain#R-PCaTSSCAP,PCaTSSCAP,Finds an attack path path via 
 package#ProcessComms,domain#R-PCaTSSCCC,PCaTSSCCC,Finds a client channel via a service channel which gives access to a service in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PcC,PcC,Finds a client that is controlled by another process.,FALSE,FALSE
 package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy controlling another Process.,FALSE,FALSE
-package#ProcessComms,domain#R-PDSFA,PDSFA,"Finds a Data Step representing data exchange between two processes, plus the associated client channel. Note that this channel links the two processes in a client-service relationship, but the data step may be in either direction so the relationships of the channel to the processes are not included in this pattern.",FALSE,FALSE
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,Finds a client using a service via an authentication proxy (i.e. the proxy forwards credentials).,FALSE,FALSE
 package#ProcessComms,domain#R-PuP,PuP,Finds a Process in the role of Proxy using another Process.,FALSE,FALSE

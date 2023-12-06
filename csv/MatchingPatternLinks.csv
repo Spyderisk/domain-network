@@ -1277,9 +1277,7 @@ package#ProcessCommsInference,domain#MP-CS-SP,domain#Link-Client-usesViaAuthenti
 package#ProcessCommsInference,domain#MP-CS-SP,domain#Link-Client-usesViaProxy-Service,TRUE
 package#ProcessCommsInference,domain#MP-CS-SP,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-CS-SP,domain#Link-Service-noDX-Service,TRUE
-package#ProcessCommsInference,domain#MP-CucS,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-CucSaP,domain#Link-Process-usesService-Service,TRUE
-package#ProcessCommsInference,domain#MP-CucSaP,domain#Link-Proxy-usesViaRAS-Process,TRUE
 package#ProcessCommsInference,domain#MP-CuPaS-i,domain#Link-Proxy-usesIndirectly-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuSPvS-U,domain#Link-Client-usesViaAuthenticatingProxy-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuS-SP,domain#Link-Client-isLnS-Client,TRUE
@@ -1289,14 +1287,18 @@ package#ProcessCommsInference,domain#MP-CuS-SP,domain#Link-Client-usesViaRAS-Ser
 package#ProcessCommsInference,domain#MP-CvSPvS-U,domain#Link-Client-noAuthN-Proxy,TRUE
 package#ProcessCommsInference,domain#MP-CvSPvS-U,domain#Link-Client-usesViaAuthenticatingProxy-Service,TRUE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-Client-usesViaProxy-Process,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-Client-usesViaProxy-RemoteAccessService,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-DataFlow-flowsViaProcess-Process,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-ProxyClient-uses-Client,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-ProxyClient-usesViaProxy-Service,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-RemoteAccessService-uses-Service,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-Service-proxyAuthN-Process,FALSE
 package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Link-Client-usesViaAuthenticatingProxy-Process,FALSE
+package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Link-Client-usesViaAuthenticatingProxy-RemoteAccessService,FALSE
 package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Link-DataFlow-flowsViaProcess-Process,FALSE
 package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Link-ProxyClient-uses-Client,FALSE
 package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Link-ProxyClient-usesViaAuthenticatingProxy-Service,FALSE
+package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Link-RemoteAccessService-uses-Service,FALSE
 package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Link-Service-usesAsProxy-Process,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-channelFrom-Client,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-channelTo-Service,FALSE
@@ -1312,7 +1314,6 @@ package#ProcessCommsInference,domain#MP-NP2CCAPSC,domain#Link-NetworkPath-pathTo
 package#ProcessCommsInference,domain#MP-SCLSgvTS-vS,domain#Link-ServiceChannel-sourceViaNAT-FromSubnet,TRUE
 package#ProcessCommsInference,domain#MP-SCvLS-vS,domain#Link-ServiceChannel-sourceViaNAT-LogicalSubnet,TRUE
 package#ProcessCommsInference,domain#MP-SPu-nS-U,domain#Link-Client-noAuthN-Service,TRUE
-package#ProcessCommsInference,domain#MP-SPu-nS-U,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-SPvSPvS-U,domain#Link-Client-usesAsProxy-Service,TRUE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Link-PhysicalHost-resourcedBy-DataCentre,FALSE
 package#Virtualisation,domain#MP-DCCVH-LS,domain#Link-VirtualHost-connectedTo-LogicalSubnet,FALSE

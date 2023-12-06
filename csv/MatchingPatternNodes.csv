@@ -712,8 +712,10 @@ package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastChannel-Servic
 package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastSubnet-L01Subnet,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFvCvS-C-P,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-NP2CCAPSC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Node-DataCentre-DataCentre,FALSE,FALSE,FALSE
