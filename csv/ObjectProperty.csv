@@ -35,13 +35,13 @@ package#DataLifecycle,domain#crudu,crudu,The Process updates the DataCopy stored
 package#DataLifecycle,domain#enablesAccess,enablesAccess,Relationship to a Data Access (inferred asset) from the Process that makes the Data accessible to Processes.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flows,flows,The DataFlow is a flow of the Data.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsFrom,flowsFrom,The DataFlow is from the Process.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#flowsFromIn,flowsFromIn,Relationship from a data flow to a space indicating that the data flow can be sent by the source process when in that context.,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+package#DataLifecycle,domain#flowsFromIn,flowsFromIn,Relationship from a data flow to a space indicating that the data flow can be sent by the source process when in that context.,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 package#DataLifecycle,domain#flowsIn,flowsIn,The DataFlow is a flow of the Data to a consumer from a data store.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsOut,flowsOut,The DataFlow is a flow of the Data from a producer towards a data store.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsTo,flowsTo,The DataFlow is to the Process.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#flowsToIn,flowsToIn,Relationship from a data flow to a space indicating that the data flow can be received by the destination process when in that context.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#flowsToIn,flowsToIn,Relationship from a data flow to a space indicating that the data flow can be received by the destination process when in that context.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#flowsVia,flowsVia,Relationship from a DataFlow to a DataStep between adjacent processes that forms part of the end to end DataFlow.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#fromSource,fromSource,"Relationship between Data Access assets, similar to fulfils, except fromSource refers to the original source of data, i.e. the Data Output asset associated with a Process that creates or modifies the Data.",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#fromSource,fromSource,"Relationship between Data Access assets, similar to fulfils, except fromSource refers to the original source of data, i.e. the Data Output asset associated with a Process that creates or modifies the Data.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#fulfils,fulfils,"The DataFlow, DataSet or Data Access and associated Process is the means by which the related Data Access is possible.",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#noDX,noDX,"Self-referential relationship used to designate Process assets that are not involved in application data exchanges, so they can be included or excluded in matching patterns as appropriate. Note that these processes cannot be involved in data processing either.",TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
 package#DataLifecycle,domain#storesCopy,storesCopy,Relationship between a host and a copy of data stored on the host.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
@@ -57,9 +57,10 @@ package#DataLifecycleInference,domain#dataChannelFrom,dataChannelFrom,The DataCh
 package#DataLifecycleInference,domain#dataChannelTo,dataChannelTo,The DataChannel represents a view of inter-process data transfer in which the related Process is a data source or store.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#dataPathFor,dataPathFor,The DataPath represents a chain of process-process communications enabling the flow of Data.,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#dataPathTo,dataPathTo,The DataPath represents a chain of process-process communications enabling the use of data represented by the Data Access asset.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+package#DataLifecycleInference,domain#dataPathVisits,dataPathVisits,"Link from a DataPath to each Process visited by the path, including the two processes at the end of the path.",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 package#DataLifecycleInference,domain#extendsDC,extendsDC,The first Data Channel is an extension of the second.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#extendsDP,extendsDP,The first DataPath is an extension of the second.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
-package#DataLifecycleInference,domain#flowsViaDC,flowsViaDC,Links a Data Flow or Data Step between two processes to the DataChannel that led to it being generated.,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#flowsViaDC,flowsViaDC,Links a Data Flow or Data Step between two processes to the DataChannel that led to it being generated.,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#flowsViaProcess,flowsViaProcess,"Relationship from a DataFlow to the source, destination and other processes between the two via which the data flows.",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 package#DataLifecycleInference,domain#fromProc,fromProc,The DataPath represents a chain of process-process communications enabling the use of data needed by the Process.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#fwdPath,fwdPath,Signifies that the data usage involves a flow of data forwards along the data path.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE

@@ -135,8 +135,6 @@ package#DataLifecycleInference,domain#INS-PsDSH-DP+DP-DataPool,domain#Node-Data-
 package#DataLifecycleInference,domain#INS-PsDSH-DP+DP-DataPool,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-S2dC2dDX+DS-DataCopy,domain#Node-Data-Data
 package#DataLifecycleInference,domain#INS-S2dC2dDX+DS-DataCopy,domain#Node-Host-Host
-package#DataLifecycleInference,domain#INS-SDADPPDXP-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
-package#DataLifecycleInference,domain#INS-SDADPPDXP-DP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
 package#DataLifecycleInference,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath

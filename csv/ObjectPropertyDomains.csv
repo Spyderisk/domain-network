@@ -57,6 +57,7 @@ package#DataLifecycleInference,domain#dataChannelFrom,domain#DataChannel
 package#DataLifecycleInference,domain#dataChannelTo,domain#DataChannel
 package#DataLifecycleInference,domain#dataPathFor,domain#DataPath
 package#DataLifecycleInference,domain#dataPathTo,domain#DataPath
+package#DataLifecycleInference,domain#dataPathVisits,domain#DataPath
 package#DataLifecycleInference,domain#extendsDC,domain#DataChannel
 package#DataLifecycleInference,domain#extendsDP,domain#DataPath
 package#DataLifecycleInference,domain#flowsViaDC,domain#DataFlow

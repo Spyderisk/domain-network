@@ -204,7 +204,7 @@ package#DataLifecycleInference,domain#MP-DSDCDP2oDD,domain#Node-DataSource-DataA
 package#DataLifecycleInference,domain#MP-DSDCDP2oDD,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Node-DataPool-DataPool,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Node-DataDestination-DataAccess,FALSE,TRUE,FALSE
-package#DataLifecycleInference,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-DataPath-DataPath,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HuaDSPH+S-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HuaDSPH+S-DA,domain#Node-DataPool-DataPool,TRUE,FALSE,FALSE
@@ -228,11 +228,10 @@ package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,domain#Node-DataAccess-
 package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,domain#Node-DataPool-DataPool,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-RA-fDCSDD,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-RA-fDCSDS,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
-package#DataLifecycleInference,domain#MP-SDADPPDXP-DP,domain#Node-DataPath-DataPath,FALSE,TRUE,FALSE
-package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Node-DataPath-DataPath,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
-package#DataLifecycleInference,domain#MP-SDADPPDXPRAC-DP,domain#Node-DataPath-DataPath,FALSE,TRUE,FALSE
-package#DataLifecycleInference,domain#MP-SDADPPDXRAC-DP,domain#Node-DataPath-DataPath,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-SDADPPDXPRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycleInference,domain#MP-SDADPPDXRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human1-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human2-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Operator-Stakeholder,FALSE,FALSE,FALSE
