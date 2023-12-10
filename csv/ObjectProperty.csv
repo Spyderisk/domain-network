@@ -39,7 +39,7 @@ package#DataLifecycle,domain#flowsFromIn,flowsFromIn,Relationship from a data fl
 package#DataLifecycle,domain#flowsIn,flowsIn,The DataFlow is a flow of the Data to a consumer from a data store.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsOut,flowsOut,The DataFlow is a flow of the Data from a producer towards a data store.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsTo,flowsTo,The DataFlow is to the Process.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#flowsToIn,flowsToIn,Relationship from a data flow to a space indicating that the data flow can be received by the destination process when in that context.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+package#DataLifecycle,domain#flowsToIn,flowsToIn,Relationship from a data flow to a space indicating that the data flow can be received by the destination process when in that context.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#flowsVia,flowsVia,Relationship from a DataFlow to a DataStep between adjacent processes that forms part of the end to end DataFlow.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#fromSource,fromSource,"Relationship between Data Access assets, similar to fulfils, except fromSource refers to the original source of data, i.e. the Data Output asset associated with a Process that creates or modifies the Data.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#fulfils,fulfils,"The DataFlow, DataSet or Data Access and associated Process is the means by which the related Data Access is possible.",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE

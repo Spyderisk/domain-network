@@ -172,7 +172,6 @@ package#DataLifecycleInference,domain#CP-DADSDCSDD-f+ch,domain#Link-DataDestinat
 package#DataLifecycleInference,domain#CP-DADSDCSDD-f+ch,domain#Link-DataSource-fulfils-DataDestination
 package#DataLifecycleInference,domain#CP-DADSDCSDD-f+ch,domain#Link-DataSource-fwdPath-DataChannel
 package#DataLifecycleInference,domain#CP-DADU-eS+eA,domain#Link-Service-enablesAccess-DataUse
-package#DataLifecycleInference,domain#CP-DC3-x+x,domain#Link-OldDataChannel-extendsDC-NewDataChannel
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Link-NewDataChannel-dataChannelFor-DataAccess
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Link-NewDataChannel-fromProc-Process
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Link-NewDataChannel-toProc-Service

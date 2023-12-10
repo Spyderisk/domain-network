@@ -367,7 +367,6 @@ package#DataLifecycle,domain#MP-S2dC2dDX,domain#Link-Host-stores-Input,TRUE
 package#DataLifecycleInference,domain#MP-DADC2DP2S+fwd-ch,domain#Link-DataAccess-fwdPath-NewDataChannel,TRUE
 package#DataLifecycleInference,domain#MP-DADC2DP2S+rev-ch,domain#Link-DataAccess-revPath-NewDataChannel,TRUE
 package#DataLifecycleInference,domain#MP-DADSDCSDD-f,domain#Link-DataDestination-fromSource-AccessFrom,TRUE
-package#DataLifecycleInference,domain#MP-DC3-x,domain#Link-OldDataChannel-extendsDC-NewDataChannel,TRUE
 package#DataLifecycleInference,domain#MP-DDDCDP2oDS,domain#Link-DataSource-isSource-Data,FALSE
 package#DataLifecycleInference,domain#MP-DDDCDP2oDS,domain#Link-DataSource-usedBy-FlowsFrom,TRUE
 package#DataLifecycleInference,domain#MP-DDDCDP2oDS,domain#Link-FlowsFrom-relays-DataAccess,FALSE

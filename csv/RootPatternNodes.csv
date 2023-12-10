@@ -833,9 +833,6 @@ package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Node-Data-Data,TRUE
 package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Node-DataDestination-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Node-DataSource-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Node-Service-Process,TRUE
-package#DataLifecycleInference,domain#R-DC3,domain#Node-DataChannel-DataChannel,TRUE
-package#DataLifecycleInference,domain#R-DC3,domain#Node-NewDataChannel-DataChannel,TRUE
-package#DataLifecycleInference,domain#R-DC3,domain#Node-OldDataChannel-DataChannel,TRUE
 package#DataLifecycleInference,domain#R-DDDCDP2,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DDDCDP2,domain#Node-Data-Data,TRUE
 package#DataLifecycleInference,domain#R-DDDCDP2,domain#Node-NewDataPath-DataPath,TRUE
