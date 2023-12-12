@@ -781,6 +781,8 @@ package#DataLifecycle,domain#R-PDI,domain#Link-DataInput-usedBy-Process
 package#DataLifecycle,domain#R-PDI,domain#Link-DataInput-usedFor-Data
 package#DataLifecycle,domain#R-PDO,domain#Link-DataOutput-usedBy-Process
 package#DataLifecycle,domain#R-PDO,domain#Link-DataOutput-usedFor-Data
+package#DataLifecycle,domain#R-PDOP,domain#Link-DataOutput-usedBy-Process
+package#DataLifecycle,domain#R-PDOP,domain#Link-DataOutput-usedFor-Data
 package#DataLifecycle,domain#R-PDP,domain#Link-DataPool-usedBy-Process
 package#DataLifecycle,domain#R-PDP,domain#Link-DataPool-usedFor-Data
 package#DataLifecycle,domain#R-PDR,domain#Link-DataRelay-usedBy-Process
@@ -847,7 +849,7 @@ package#DataLifecycle,domain#R-SDUDSDA,domain#Link-Service-enablesAccess-DataUse
 package#DataLifecycle,domain#R-StoPDA,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-StoPDA,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-StoPDA,domain#Link-Operator-operates-Process
-package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Link-DataDestination-isDest-Data
+package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Link-DataDestination-isPool-Data
 package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Link-DataDestination-usedBy-Service
 package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Link-DataRelay-isSource-Data
 package#DataLifecycleInference,domain#R-DADSDCSDD,domain#Link-DataRelay-usedBy-Process
@@ -912,7 +914,7 @@ package#DataLifecycleInference,domain#R-DDDCSDS,domain#Link-DataChannel-toProc-S
 package#DataLifecycleInference,domain#R-DDDCSDS,domain#Link-DataDestination-isDest-Data
 package#DataLifecycleInference,domain#R-DDDCSDS,domain#Link-DataDestination-possDataSource-DataRelay
 package#DataLifecycleInference,domain#R-DDDCSDS,domain#Link-DataRelay-isDest-Data
-package#DataLifecycleInference,domain#R-DDDCSDS,domain#Link-DataSource-isSource-Data
+package#DataLifecycleInference,domain#R-DDDCSDS,domain#Link-DataSource-isPool-Data
 package#DataLifecycleInference,domain#R-DDDCSDS,domain#Link-DataSource-usedBy-Service
 package#DataLifecycleInference,domain#R-DDDPS,domain#Link-DataAccess-isDest-Data
 package#DataLifecycleInference,domain#R-DDDPS,domain#Link-DataAccess-usedBy-Process
@@ -940,11 +942,11 @@ package#DataLifecycleInference,domain#R-DFTPACS,domain#Link-ProcAccess-accessTo-
 package#DataLifecycleInference,domain#R-DIDCSDS,domain#Link-DataChannel-dataChannelFor-DataInput
 package#DataLifecycleInference,domain#R-DIDCSDS,domain#Link-DataChannel-toProc-Service
 package#DataLifecycleInference,domain#R-DIDCSDS,domain#Link-DataInput-isDest-Data
-package#DataLifecycleInference,domain#R-DIDCSDS,domain#Link-DataSource-isSource-Data
+package#DataLifecycleInference,domain#R-DIDCSDS,domain#Link-DataSource-isPool-Data
 package#DataLifecycleInference,domain#R-DIDCSDS,domain#Link-DataSource-usedBy-Service
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Link-DataChannel-dataChannelFor-DataOutput
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Link-DataChannel-toProc-Service
-package#DataLifecycleInference,domain#R-DODCSDD,domain#Link-DataDestination-isDest-Data
+package#DataLifecycleInference,domain#R-DODCSDD,domain#Link-DataDestination-isPool-Data
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Link-DataDestination-usedBy-Service
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Link-DataOutput-isSource-Data
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Link-DataOutput-usedBy-Client
@@ -988,7 +990,7 @@ package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataChannel-dataCh
 package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataChannel-dataChannelTo-Service
 package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataChannel-toProc-Service
 package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataDestination-fromSource-DataUpdate
-package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataDestination-isDest-Data
+package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataDestination-isPool-Data
 package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataDestination-usedBy-Service
 package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataSource-fromSource-DataUpdate
 package#DataLifecycleInference,domain#R-DUDSDCSDD,domain#Link-DataSource-fwdPath-DataChannel
@@ -1044,13 +1046,13 @@ package#DataLifecycleInference,domain#R-PTDR,domain#Link-DataRelay-usedBy-Proces
 package#DataLifecycleInference,domain#R-PTDR,domain#Link-DataRelay-usedFor-Data
 package#DataLifecycleInference,domain#R-RADCSDD,domain#Link-DataChannel-dataChannelFor-RemoteUserAccess
 package#DataLifecycleInference,domain#R-RADCSDD,domain#Link-DataChannel-toProc-Service
-package#DataLifecycleInference,domain#R-RADCSDD,domain#Link-DataDestination-isDest-Data
+package#DataLifecycleInference,domain#R-RADCSDD,domain#Link-DataDestination-isPool-Data
 package#DataLifecycleInference,domain#R-RADCSDD,domain#Link-DataDestination-usedBy-Service
 package#DataLifecycleInference,domain#R-RADCSDD,domain#Link-RemoteUserAccess-isSource-Data
 package#DataLifecycleInference,domain#R-RADCSDD,domain#Link-RemoteUserAccess-usedBy-Client
 package#DataLifecycleInference,domain#R-RADCSDS,domain#Link-DataChannel-dataChannelFor-RemoteUserAccess
 package#DataLifecycleInference,domain#R-RADCSDS,domain#Link-DataChannel-toProc-Service
-package#DataLifecycleInference,domain#R-RADCSDS,domain#Link-DataSource-isSource-Data
+package#DataLifecycleInference,domain#R-RADCSDS,domain#Link-DataSource-isPool-Data
 package#DataLifecycleInference,domain#R-RADCSDS,domain#Link-DataSource-usedBy-Service
 package#DataLifecycleInference,domain#R-RADCSDS,domain#Link-RemoteUserAccess-isDest-Data
 package#DataLifecycleInference,domain#R-RevDFf2DP2P,domain#Link-DataFlow-flowsFromDP-NewDataPath

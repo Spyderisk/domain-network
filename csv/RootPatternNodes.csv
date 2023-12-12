@@ -747,6 +747,9 @@ package#DataLifecycle,domain#R-PDI,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PDO,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDO,domain#Node-DataOutput-DataOutput,TRUE
 package#DataLifecycle,domain#R-PDO,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-PDOP,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-PDOP,domain#Node-DataOutput-OutputPool,TRUE
+package#DataLifecycle,domain#R-PDOP,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-DataPool-DataPool,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-Process-Process,TRUE

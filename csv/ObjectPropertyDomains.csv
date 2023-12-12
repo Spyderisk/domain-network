@@ -71,6 +71,7 @@ package#DataLifecycleInference,domain#fromProc,domain#DataPath
 package#DataLifecycleInference,domain#fwdPath,domain#DataAccess
 package#DataLifecycleInference,domain#fwdRelay,domain#DataAccess
 package#DataLifecycleInference,domain#isDest,domain#DataAccess
+package#DataLifecycleInference,domain#isPool,domain#DataAccess
 package#DataLifecycleInference,domain#isSource,domain#DataAccess
 package#DataLifecycleInference,domain#possDataSource,domain#DataAccess
 package#DataLifecycleInference,domain#relaysAccess,domain#Process

@@ -381,11 +381,14 @@ package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataP
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathTo-DataOutput
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathVisits-Process
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-fromProc-Process
+package#DataLifecycleInference,domain#CP-PDOP+fS,domain#Link-DataOutput-fromSource-DataOutput
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathFor-Data
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathTo-DataPool
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathVisits-Process
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-fromProc-Process
+package#DataLifecycleInference,domain#CP-PDP+ds,domain#Link-DataPool-isPool-Data
 package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isDest-Data
+package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isPool-Data
 package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isSource-Data
 package#DataLifecycleInference,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#Link-DataInput-usedBy-Process
 package#DataLifecycleInference,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#Link-DataInput-usedFor-Data
@@ -407,6 +410,7 @@ package#DataLifecycleInference,domain#CP-PsDSH-DP+DP,domain#Link-DataPool-usedBy
 package#DataLifecycleInference,domain#CP-PsDSH-DP+DP,domain#Link-DataPool-usedFor-Data
 package#DataLifecycleInference,domain#CP-PsDSH-DP+DP,domain#Link-Process-enablesAccess-DataPool
 package#DataLifecycleInference,domain#CP-PTDR+ds,domain#Link-DataRelay-isDest-Data
+package#DataLifecycleInference,domain#CP-PTDR+ds,domain#Link-DataRelay-isPool-Data
 package#DataLifecycleInference,domain#CP-PTDR+ds,domain#Link-DataRelay-isSource-Data
 package#DataLifecycleInference,domain#CP-RA-fDCSDD+ch,domain#Link-DataChannel-dataChannelEnd-DataDestination
 package#DataLifecycleInference,domain#CP-RA-fDCSDD+ch,domain#Link-DataChannel-dataChannelFrom-Client

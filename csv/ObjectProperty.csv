@@ -70,6 +70,7 @@ package#DataLifecycleInference,domain#fromProc,fromProc,The DataPath represents 
 package#DataLifecycleInference,domain#fwdPath,fwdPath,Signifies that the data usage involves a flow of data forwards along the data path.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#fwdRelay,fwdRelay,"Self-referential relationship used to designate Data Access assets that are acting as transparent relays, so they can be included or excluded in matching patterns on base classes as appropriate.",TRUE,FALSE,FALSE,TRUE,FALSE,TRUE
 package#DataLifecycleInference,domain#isDest,isDest,Signifies that the Data Access asset is a destination for the related Data.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+package#DataLifecycleInference,domain#isPool,isPool,Signifies that the Data Access asset is a source and may be a destination for the related Data.,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
 package#DataLifecycleInference,domain#isSource,isSource,Signifies that the Data Access asset is a source of the related Data.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#possDataSource,possDataSource,Relationship from a data destination to another data access asset that may be a source of the data.,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 package#DataLifecycleInference,domain#relaysAccess,relaysAccess,Link from a process on a data path that is being tried as a member of a data channel to the data access for that channel.,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE

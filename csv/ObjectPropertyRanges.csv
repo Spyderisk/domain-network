@@ -70,6 +70,7 @@ package#DataLifecycleInference,domain#fwdPath,domain#DataChannel
 package#DataLifecycleInference,domain#fwdPath,domain#DataPath
 package#DataLifecycleInference,domain#fwdRelay,domain#DataAccess
 package#DataLifecycleInference,domain#isDest,domain#Data
+package#DataLifecycleInference,domain#isPool,domain#Data
 package#DataLifecycleInference,domain#isSource,domain#Data
 package#DataLifecycleInference,domain#possDataSource,domain#DataAccess
 package#DataLifecycleInference,domain#relaysAccess,domain#DataUse
