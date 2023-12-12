@@ -27,11 +27,12 @@ package#CloudManagement,domain#CP-VH-LnS+LnS,domain#Node-LoginService-LoginServi
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Node-NewDataChannel-DataChannel,domain#INS-DDDCDP2oDS+DC-NewDataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
 package#DataLifecycleInference,domain#CP-DDDCDS2P+DF,domain#Node-DataFlow-DataFlow,domain#INS-DDDCDS2P+DF-DataFlow,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-DDDPS-DC+DC,domain#Node-DataChannel-DataChannel,domain#INS-DDDPS-DC+DC-DataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
-package#DataLifecycleInference,domain#CP-DFDCI4P+DFS,domain#Node-DataStep-DataStep,domain#INS-DFDCI4P+DFS-DataStep,TRUE,FALSE,domain#Node-Data-Data
-package#DataLifecycleInference,domain#CP-DFDCO4P+DFS,domain#Node-DataStep-DataStep,domain#INS-DFDCO4P+DFS-DataStep,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-DSDCDD2P+DF,domain#Node-DataFlow-DataFlow,domain#INS-DSDCDD2P+DF-DataFlow,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-DSDCDP2oDD+DC,domain#Node-NewDataChannel-DataChannel,domain#INS-DSDCDP2oDD+DC-NewDataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
 package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Node-DataChannel-DataChannel,domain#INS-DSDPS+DC-DataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
+package#DataLifecycleInference,domain#CP-FwdDFf2DP2P+DS,domain#Node-DataStep-DataStep,domain#INS-FwdDFf2DP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
+package#DataLifecycleInference,domain#CP-FwdDFfDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-FwdDFfDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
+package#DataLifecycleInference,domain#CP-FwdDFtDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-FwdDFtDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
 package#DataLifecycleInference,domain#CP-HD-aHD-DS+DS,domain#Node-DataCopy-DataCopy,domain#INS-HD-aHD-DS+DS-DataCopy,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-HHuWE+D,domain#Node-DataFlow-DataFlow,domain#INS-HHuWE+D-DataFlow,TRUE,FALSE,domain#Node-WebBrowser-WebBrowser
 package#DataLifecycleInference,domain#CP-HHuWE+D,domain#Node-Data-SpamData,domain#INS-HHuWE+D-Data,TRUE,FALSE,domain#Node-MUA-EmailClient
@@ -39,6 +40,7 @@ package#DataLifecycleInference,domain#CP-HHuWSMS+D,domain#Node-DataFlow-DataFlow
 package#DataLifecycleInference,domain#CP-HHuWSMS+D,domain#Node-Data-SpamData,domain#INS-HHuWSMS+D-Data,TRUE,FALSE,domain#Node-MUA-SMSClient
 package#DataLifecycleInference,domain#CP-HPDXfr-cAC+DS,domain#Node-DataCopy-DataCache,domain#INS-HPDXfr-cAC+DS-DataCopy,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-HPDXtr-cAC+DS,domain#Node-DataCopy-DataCache,domain#INS-HPDXtr-cAC+DS-DataCopy,TRUE,FALSE,domain#Node-Data-Data
+package#DataLifecycleInference,domain#CP-HPrD-DS-DA+DR,domain#Node-DataRelay-TempDataRelay,domain#INS-HPrD-DS-DA+DR-DataRelay,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-HPsD-DS+DR,domain#Node-DataRelay-DataRelay,domain#INS-HPsD-DS+DR-DataRelay,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-HSDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-HuaDPH-DS-DA+DU,domain#Node-DataUpdate-DataUpdate,domain#INS-HuaDPH-DS-DA+DU-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
@@ -71,6 +73,9 @@ package#DataLifecycleInference,domain#CP-Pr-cDSH+S-Hu-DA+DI,domain#Node-DataInpu
 package#DataLifecycleInference,domain#CP-Pr-cDSH-Hu-DP+IP,domain#Node-DataInput-InputPool,domain#INS-Pr-cDSH-Hu-DP+IP-DataInput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-Pr-cDSH-S-Hu-DA+DI,domain#Node-DataInput-DataInput,domain#INS-Pr-cDSH-S-Hu-DA+DI-DataInput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-PsDSH-DP+DP,domain#Node-DataPool-StoredDataPool,domain#INS-PsDSH-DP+DP-DataPool,TRUE,FALSE,domain#Node-Data-Data
+package#DataLifecycleInference,domain#CP-RevDFf2DP2P+DS,domain#Node-DataStep-DataStep,domain#INS-RevDFf2DP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
+package#DataLifecycleInference,domain#CP-RevDFfDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-RevDFfDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
+package#DataLifecycleInference,domain#CP-RevDFtDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-RevDFtDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
 package#DataLifecycleInference,domain#CP-S2dC2dDX+DS,domain#Node-DataCopy-DataCache,domain#INS-S2dC2dDX+DS-DataCopy,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-SDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXPRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process

@@ -618,7 +618,6 @@ package#CloudManagement,domain#CAS-XSSSanitisation-APIServer,domain#APIServer,do
 package#CloudManagement,domain#CAS-XSSSanitisation-Ingress,domain#Ingress,domain#XSSSanitisation,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-AccessKey-DataInput,domain#DataInput,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-AccessKey-DataOutput,domain#DataOutput,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#DataLifecycle,domain#CAS-AccessKey-DataRelay,domain#DataRelay,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-AccessKey-DataUpdate,domain#DataUpdate,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-AccessKey-InputPool,domain#InputPool,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-AccessKey-OutputPool,domain#OutputPool,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -628,7 +627,6 @@ package#DataLifecycle,domain#CAS-AccessKey-UpdatePool,domain#UpdatePool,domain#A
 package#DataLifecycle,domain#CAS-DisabledDataFlow-DataFlow,domain#DataFlow,domain#DisabledDataFlow,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-EncryptedProcessing-DataInput,domain#DataInput,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-EncryptedProcessing-DataOutput,domain#DataOutput,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#DataLifecycle,domain#CAS-EncryptedProcessing-DataRelay,domain#DataRelay,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-EncryptedProcessing-DataUpdate,domain#DataUpdate,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-EncryptedProcessing-InputPool,domain#InputPool,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-EncryptedProcessing-OutputPool,domain#OutputPool,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE

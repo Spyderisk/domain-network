@@ -21,6 +21,7 @@ package#Application,domain#R-HE,HE,Finds a solo Editor process and its host.,FAL
 package#Application,domain#R-HHuWE,HHuWE,Finds a Human using both an email client and a web browser on the same host.,FALSE,FALSE
 package#Application,domain#R-HHuWSMS,HHuWSMS,Finds a Human using both an SMS client and a web browser on the same host.,FALSE,FALSE
 package#Application,domain#R-HIP,HIP,Finds a solo interactive process and its host.,FALSE,FALSE
+package#Application,domain#R-HPrD,HPrD,Finds a Process relaying Data and the process host.,FALSE,FALSE
 package#Application,domain#R-HPsD,HPsD,Finds a Process serving Data and the process host.,FALSE,FALSE
 package#Application,domain#R-HuaD,HuaD,Finds a Human interactively amending Data.,FALSE,TRUE
 package#Application,domain#R-HuaDirPaD,HuaDirPaD,"Find a Human interacting (possibly remotely) with a Process that amends Data, where the Human amends that Data.",FALSE,TRUE
@@ -184,30 +185,42 @@ package#DataLifecycle,domain#R-S2C2DX,S2C2DX,"Finds a process with two clients, 
 package#DataLifecycle,domain#R-SDUDADS,SDUDADS,"Finds a Service enabling access for a Data Use, where the Service writes to a local Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-SDUDSDA,SDUDSDA,"Finds a Service enabling access for a Data Use, where the Service reads from a local Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-StoPDA,StoPDA,Finds the Operator of a Process that accesses Data.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DADC2DP2S+fwd,DADC2DP2S+fwd,"Finds a Process with a Data Access having a Data Channel to a Service where data flows forwards along the channel, using a Data Path that extends a second Data Path used by a second Data Channel for the same Data Access.",FALSE,TRUE
-package#DataLifecycleInference,domain#R-DADC2DP2S+rev,DADC2DP2S+rev,"Finds a Process with a Data Access having a Data Channel to a Service where data flows backwards along the channel, using a Data Path that extends a second Data Path used by a second Data Channel for the same Data Access.",FALSE,TRUE
 package#DataLifecycleInference,domain#R-DADSDCSDD,DADSDCSDD,"Finds an active data channel carrying a forward flow that ends at a data destination that is itself a data source, and the channel beyond that source to another destination on the same data path.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-DC1,DC1,Finds a solo Data Channel.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-DC2TDRfDP2,DC2TDRfDP2,Finds an active forward (output) data channel leading to a transparent data relay from which another active channel continues along the same data path.,FALSE,TRUE
+package#DataLifecycleInference,domain#R-DC2TDRrDP2,DC2TDRrDP2,Finds an active reverse (input) data channel leading to a transparent data relay from which another active channel continues along the same data path.,FALSE,TRUE
+package#DataLifecycleInference,domain#R-DC2xfDA2,DC2xfDA2,Finds a forward Data Channel from a Data Source that extends another Data Channel to a Data Destination.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-DC2xrDA2,DC2xrDA2,Finds a reverse Data Channel from a Data Destination that extends another Data Channel to a Data Source.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-DC3,DC3,Finds a data channel that extends a second channel that extends a third channel.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-DC3xf,DC3xf,Finds an active forward data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
+package#DataLifecycleInference,domain#R-DC3xr,DC3xr,Finds an active reverse data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DDDCDP2,DDDCDP2,"Finds a Data Destination for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DDDCDS2P,DDDCDS2P,"Finds a Data Channel for a Data Destination, where the channel ends at a Data Source, and the Data Channel is tagged by a reverse link from the Data Destination indicating there is a data flow backwards along the channel, plus the associated source and destination Processes and the Data.",FALSE,TRUE
-package#DataLifecycleInference,domain#R-DDDCSDS,DDDCSDS,"Finds an active data channel carrying a reverse flow that ends at a data source that is itself a data destination, and the channel beyond that destination to another source on the same data path.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",FALSE,TRUE
+package#DataLifecycleInference,domain#R-DDDCSDS,DDDCSDS,"Finds a data input client acting as a data destination, with a previously identifed potential data source that has an onward data channel to a service that can act as a data source. Should this be constrained to lie on the same data path?",FALSE,FALSE
 package#DataLifecycleInference,domain#R-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DFDCI4P,DFDCI4P,"Finds a Data Flow between two processes, fulfilled a reverse flow along a Data Channel between two possibly intermediate processes.",FALSE,TRUE
-package#DataLifecycleInference,domain#R-DFDCO4P,DFDCO4P,"Finds a Data Flow between two processes, fulfilled a forward flow along a Data Channel between two possibly intermediate processes.",FALSE,TRUE
 package#DataLifecycleInference,domain#R-DFFPACS,DFFPACS,Finds a DataFlow from a Process that can flow when (the process host is) in a Space.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DFTPACS,DFTPACS,Finds a DataFlow to a Process that can flow when (the process host is) in a Space.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DIDCSDS,DIDCSDS,"Finds a process using input and acting as a data destination, and having a data channel to a service that can act as a data source.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-DIDCSDS,DIDCSDS,"Finds a data input client acting as a data destination, and having a data channel to a service that may act as a data source.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-DODCSDD,DODCSDD,"Finds a data output process that acts as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-DP1,DP1,Finds a solo Data Path.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-DP3,DP3,Finds a data path which extends a second path which extends a third path.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DSDAfDD,DSDAfDD,Finds a DataDestination fulfilled by a DataAccess that has a source.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DSDCDD2P,DSDCDD2P,"Finds a Data Channel for a Data Source, where the channel ends at a Data Destination, and the Data Channel is tagged by a forward link from the Data Source indicating there is a data flow forwards along the channel, plus the associated source and destination Processes and the Data.",FALSE,TRUE
+package#DataLifecycleInference,domain#R-DSDAfDD,DSDAfDD,"Finds a DataDestination with a possible data source that itself has a source, and a data channel to the possible data source from a data relay that is also a possible data source.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-DSDCDD2P,DSDCDD2P,"Finds a Data Source fulfilling a Data Destination, with an active forward data channel to the source and a data channel from the destination, plus the associated processes and data paths.",FALSE,TRUE
 package#DataLifecycleInference,domain#R-DSDCDP2,DSDCDP2,"Finds a Data Source for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-DSDPS,DSDPS,"Finds a data path from a process to a service, where the process is a source of the data.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-DUDSDCSDD,DUDSDCSDD,Finds a data access process that acts as a data source and sends data to a data destination where the original source is a data update.,FALSE,TRUE
+package#DataLifecycleInference,domain#R-FwdDFf2DP2P,FwdDFf2DP2P,"Finds an outbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-FwdDFfDP2P,FwdDFfDP2P,Finds an outbound (forward) data flow from a process on a data path leading to that process.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-FwdDFtDP2P,FwdDFtDP2P,Finds an outbound (forward) data flow to a process on a data path leading to that process.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-HPDXfrAC,HPDXfrAC,Finds a host running a process in a context from which data flows.,FALSE,TRUE
 package#DataLifecycleInference,domain#R-HPDXtrAC,HPDXtrAC,Finds a host running a process in a context to which data flows.,FALSE,TRUE
 package#DataLifecycleInference,domain#R-HSDADPPDXP,HSDADPPDXP,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, where all thhree processes are on the same Host.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-PTDR,PTDR,Finds a temporary data relay asset and the associated process and data.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-RADCSDD,RADCSDD,"Finds a remote access client acting as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-RADCSDS,RADCSDS,"Finds a remote access client acting as a data destination, and having a data channel to a service that can act as a data source.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-RevDFf2DP2P,RevDFf2DP2P,"Finds an inbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-RevDFfDP2P,RevDFfDP2P,Finds an inbound (reverse) data flow to a process on a data path leading to that process.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-RevDFtDP2P,RevDFtDP2P,Finds an inbound (reverse) data flow from a process on a data path leading from that process.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-SDADPPDXP,SDADPPDXP,Finds a service with a data access to which there is a data path from a process that exchanges data with a third process.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-SDADPPDXPRAC,SDADPPDXPRAC,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, and there is a remote access client using remotely the second and third processes.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-SDADPPDXRAC,SDADPPDXRAC,Finds a service with a data access to which there is a data path from a process that exchanges data with a remote access client that is remotely using the second process.,FALSE,FALSE
