@@ -59,11 +59,9 @@ package#Network,domain#FormalVerification,domain#Process
 package#Network,domain#HomomorphicEncryption,domain#Process
 package#Network,domain#HostEncryption,domain#PhysicalHost
 package#Network,domain#HostMonitoring,domain#Host
-package#Network,domain#IgnoreInteractiveProcess,domain#Process
 package#Network,domain#IndependentInstances,domain#Host
 package#Network,domain#KeyManagement,domain#Process
 package#Network,domain#LoadMonitoring,domain#Host
-package#Network,domain#LoadMonitoring,domain#Process
 package#Network,domain#Logging,domain#Process
 package#Network,domain#LowPriority,domain#Process
 package#Network,domain#MultipleWiFiNIC,domain#PhysicalHost

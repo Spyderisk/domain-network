@@ -273,7 +273,6 @@ package#Network,domain#CSG-NetworkEAP-TLS,domain#CS-X509-Gateway,FALSE
 package#Network,domain#CSG-NetworkEAP-TLS-Client,domain#CS-X509ClientVerifier-Gateway,FALSE
 package#Network,domain#CSG-NetworkEAP-TLS-Client,domain#CS-X509-Gateway,FALSE
 package#Network,domain#CSG-NetworkEAP-TLS-Client,domain#CS-X509-Host,FALSE
-package#Network,domain#CSG-NoDataInteractionRequired,domain#CS-IgnoreInteractiveProcess-Process,FALSE
 package#Network,domain#CSG-PasswordChecksAtHost,domain#CS-AccessControl-Host,FALSE
 package#Network,domain#CSG-PasswordChecksAtHost,domain#CS-PasswordVerifier-Host,FALSE
 package#Network,domain#CSG-PasswordSelfServiceReset,domain#CS-PasswordReset-Service,FALSE

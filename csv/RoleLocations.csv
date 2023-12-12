@@ -49,7 +49,7 @@ package#DataLifecycle,domain#Role_DataInput,domain#DataInput
 package#DataLifecycle,domain#Role_DataOutput,domain#DataOutput
 package#DataLifecycle,domain#Role_DataPool,domain#DataPool
 package#DataLifecycle,domain#Role_DataProcess,domain#DataProcess
-package#DataLifecycle,domain#Role_DataRelay,domain#DataUse
+package#DataLifecycle,domain#Role_DataRelay,domain#DataAccess
 package#DataLifecycle,domain#Role_DataSource,domain#DataAccess
 package#DataLifecycle,domain#Role_DataStep,domain#DataStep
 package#DataLifecycle,domain#Role_DataUpdate,domain#DataUpdate

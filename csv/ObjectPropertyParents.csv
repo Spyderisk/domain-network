@@ -36,3 +36,8 @@ package#Network,domain#usesForAuth,domain#usesService
 package#ProcessComms,domain#flowsViaCS,domain#flowsViaChannel
 package#ProcessComms,domain#flowsViaSC,domain#flowsViaChannel
 package#ProcessComms,domain#proxyAuthN,domain#noAuthN
+package#ProcessComms,domain#proxyAuthN,domain#usesAsTransparentProxy
+package#ProcessComms,domain#usesAsAuthenticatingProxy,domain#usesAsProxy
+package#ProcessComms,domain#usesAsTransparentProxy,domain#usesAsProxy
+package#ProcessComms,domain#usesViaAuthenticatingProxy,domain#usesViaProxy
+package#ProcessComms,domain#usesViaTransparentProxy,domain#usesViaProxy

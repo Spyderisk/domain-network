@@ -23,6 +23,7 @@ package#DataLifecycle,domain#Encrypted,domain#DataFlow
 package#DataLifecycle,domain#Health,domain#DataAsset
 package#DataLifecycle,domain#Integrity,domain#DataAsset
 package#DataLifecycle,domain#OutOfService,domain#DataAsset
+package#DataLifecycle,domain#OutOfService,domain#DataStep
 package#DataLifecycle,domain#Timeliness,domain#DataAsset
 package#IoT,domain#Authenticity,domain#Sensor
 package#IoT,domain#Integrity,domain#Sensor

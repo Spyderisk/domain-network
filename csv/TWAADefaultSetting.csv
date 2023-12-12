@@ -297,6 +297,7 @@ package#DataLifecycle,domain#TWAADS-Integrity-DataFlow,domain#Integrity,domain#D
 package#DataLifecycle,domain#TWAADS-OutOfService-DataCache,domain#OutOfService,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-OutOfService-DataCopy,domain#OutOfService,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-OutOfService-DataFlow,domain#OutOfService,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
+package#DataLifecycle,domain#TWAADS-OutOfService-DataStep,domain#OutOfService,domain#DataStep,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Timeliness-DataCache,domain#Timeliness,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Timeliness-DataCopy,domain#Timeliness,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Timeliness-DataFlow,domain#Timeliness,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
