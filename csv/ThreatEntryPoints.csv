@@ -22,6 +22,8 @@ package#DataLifecycle,domain#D.C.HuiRACv-iDFCHS.3,domain#TWAS-OutOfService-DataF
 package#DataLifecycle,domain#D.C.HuiRACv-iDFCHS.3,domain#TWAS-OutOfService-Process
 package#DataLifecycle,domain#D.I.D.0,domain#TWAS-Authenticity-Data
 package#DataLifecycle,domain#DB.O.DBsDP.6,domain#TWAS-DefaultTW-Service
+package#DataLifecycle,domain#DB.O.DBsDP.6,domain#TWAS-OutOfService-Service
+package#DataLifecycle,domain#DB.O.DBsDRSDS.6.1,domain#TWAS-OutOfService-Service
 package#DataLifecycle,domain#DF.A.CSDFdDA2.6,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#DF.A.PDF.6.1,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#DF.A.PDF.6.3,domain#TWAS-Integrity-DataFlow
@@ -70,6 +72,7 @@ package#DataLifecycle,domain#Hu.U.HuirPvDS.3,domain#TWAS-Authenticity-DataCopy
 package#DataLifecycle,domain#Hu.U.HuirPv-iD.0,domain#TWAS-Competence-Human
 package#DataLifecycle,domain#P.A.PcPuDS.6,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#P.O.PpDP.6,domain#TWAS-DefaultTW-Process
+package#DataLifecycle,domain#P.O.PpDP.6,domain#TWAS-OutOfService-Process
 package#DataLifecycle,domain#P.T.PcPr-uDS.6,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#P.U.HP-iDSDI.3,domain#TWAS-Authenticity-DataCopy
 package#DataLifecycle,domain#P.U.P-iDFDI.3,domain#TWAS-Authenticity-DataFlow
@@ -183,6 +186,7 @@ package#Network,domain#P.L.SHACPmAC.1,domain#TWAS-Control-HostAccess
 package#Network,domain#P.L.SHLnSACPmAC.1,domain#TWAS-OutOfService-RemoteAccessService
 package#Network,domain#P.L.SHLnSACPmAC.1,domain#TWAS-UserTW-AccessContext
 package#Network,domain#P.O.HP-iT.5,domain#TWAS-IntrinsicTW-Process
+package#Network,domain#P.O.HP-iT.5,domain#TWAS-OutOfService-Process
 package#Network,domain#P.U.HP-iT.5,domain#TWAS-IntrinsicTW-Process
 package#Network,domain#P.W.HP-iT.7,domain#TWAS-Health-Host
 package#Network,domain#P.W.HP-iT.7,domain#TWAS-OutOfService-Host
@@ -222,13 +226,19 @@ package#NetworkConnectivity,domain#I.IS.INC.1,domain#TWAS-OutOfService-LogicalSu
 package#NetworkConnectivity,domain#I.M.I.8,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#I.O.DDoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
 package#NetworkConnectivity,domain#I.O.DDoH.3,domain#TWAS-NetworkControl-AttackerSubnet
+package#NetworkConnectivity,domain#I.O.DDoH.3,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#I.O.HIoH.3.1,domain#TWAS-NetworkUserTW-LogicalSubnet
+package#NetworkConnectivity,domain#I.O.HIoH.3.1,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#I.O.HIoH.3.2,domain#TWAS-NetworkControl-LogicalSubnet
+package#NetworkConnectivity,domain#I.O.HIoH.3.2,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
 package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-NetworkUserTW-AttackerSubnet
+package#NetworkConnectivity,domain#I.O.IoH.3,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#I.O.LoH.3,domain#TWAS-NetworkUserTW-LogicalSubnet
+package#NetworkConnectivity,domain#I.O.LoH.3,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#I.O.RoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
 package#NetworkConnectivity,domain#I.O.RoH.3,domain#TWAS-NetworkUserTW-AttackerSubnet
+package#NetworkConnectivity,domain#I.O.RoH.3,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#LS.C.WiFiSSoH.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#LS.C.WiFiSSoH.3,domain#TWAS-OutOfService-RadioSubnet
 package#NetworkConnectivity,domain#NP.DA.NPLS.8,domain#TWAS-OutOfService-LogicalSubnet
