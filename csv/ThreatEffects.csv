@@ -158,7 +158,7 @@ package#DataLifecycle,domain#P.U.P-iDFDI.0,domain#MS-LossOfReliability-Process
 package#DataLifecycle,domain#P.U.P-iDFDI.3,domain#MS-LossOfReliability-Process
 package#IoT,domain#Co.A.CoPDS.6,domain#MS-PhysicalShutdown-Controller
 package#IoT,domain#Co.C.CoPDS.0,domain#MS-LossOfConfidentiality-Controller
-package#IoT,domain#Co.M.CoPDS.0,domain#MS-LossOfControl-Controller
+package#IoT,domain#Co.M.CoPDS.0,domain#MS-LocalLossOfControl-Controller
 package#IoT,domain#Co.U.CoPDS.0.1,domain#MS-LossOfReliability-Controller
 package#IoT,domain#Co.U.CoPDS.0.2,domain#MS-LossOfReliability-Controller
 package#IoT,domain#Co.U.CoPDS.0.3,domain#MS-LossOfReliability-Controller
@@ -228,7 +228,7 @@ package#Network,domain#H.M.CHS.3.1,domain#MS-LocalLossOfControl-HostAccess
 package#Network,domain#H.M.HmAC.0,domain#MS-LocalLossOfControl-Host
 package#Network,domain#H.M.HmAC.1.1,domain#MS-LocalLossOfControl-HostAccess
 package#Network,domain#H.M.HmAC.1.2,domain#MS-LocalLossOfControl-HostAccess
-package#Network,domain#H.M.HsAC.0,domain#MS-LocalLossOfControl-Host
+package#Network,domain#H.M.HsAC.0,domain#MS-LossOfControl-Host
 package#Network,domain#H.M.HumCHS-iP.3.2,domain#MS-LocalLossOfControl-HostAccess
 package#Network,domain#H.M.HumHoSt.1,domain#MS-LocalLossOfControl-HostAccess
 package#Network,domain#H.M.HumHSt.1,domain#MS-LocalLossOfControl-HostAccess
