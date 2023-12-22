@@ -1177,6 +1177,7 @@ package#ProcessComms,domain#MP-HuHW2ACE,domain#Link-ProcAccess-accessFromClient-
 package#ProcessComms,domain#MP-HuHW2ACE,domain#Link-ProcAccess-accessTo-Host,FALSE
 package#ProcessComms,domain#MP-HuHW2ACE,domain#Link-ProcAccess-accessTo-WebBrowser,FALSE
 package#ProcessComms,domain#MP-HuiHCCC-nS,domain#Link-Client-noAuthN-Service,TRUE
+package#ProcessComms,domain#MP-HuiHrCCC-nS,domain#Link-Client-noAuthN-Service,TRUE
 package#ProcessComms,domain#MP-HuirRACSPH,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-HumCCC-nS,domain#Link-Client-noAuthN-Service,TRUE
 package#ProcessComms,domain#MP-HumCCC-nS,domain#Link-HostManager-manages-SHost,FALSE
