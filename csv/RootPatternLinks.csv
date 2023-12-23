@@ -170,7 +170,7 @@ package#Application,domain#R-RDuDtS,domain#Link-RemoteDesktop-uses-DesktopServic
 package#Application,domain#R-RDuDtSuPH,domain#Link-DesktopService-uses-Process
 package#Application,domain#R-RDuDtSuPH,domain#Link-Host-hosts-DesktopService
 package#Application,domain#R-RDuDtSuPH,domain#Link-Host-hosts-Process
-package#Application,domain#R-RDuDtSuPH,domain#Link-RemoteDesktop-uses-DesktopService
+package#Application,domain#R-RDuDtSuPH,domain#Link-RemoteDesktop-usesRemotely-DesktopService
 package#Application,domain#R-RDuP,domain#Link-RemoteDesktop-uses-Process
 package#Application,domain#R-RDuRDuS,domain#Link-RemoteAccessClient-usesRemotely-RemoteDesktop
 package#Application,domain#R-RDuRDuS,domain#Link-RemoteDesktop-usesRemotely-Process
@@ -180,7 +180,7 @@ package#Application,domain#R-RTuCP,domain#Link-RemoteTerminal-uses-Process
 package#Application,domain#R-RTuRASuCPH,domain#Link-Host-hosts-Process
 package#Application,domain#R-RTuRASuCPH,domain#Link-Host-hosts-RemoteAccessService
 package#Application,domain#R-RTuRASuCPH,domain#Link-RemoteAccessService-uses-Process
-package#Application,domain#R-RTuRASuCPH,domain#Link-RemoteTerminal-uses-RemoteAccessService
+package#Application,domain#R-RTuRASuCPH,domain#Link-RemoteTerminal-usesRemotely-RemoteAccessService
 package#CloudManagement,domain#R-CtDS,domain#Link-Container-storesCopy-DataCopy
 package#CloudManagement,domain#R-CtDS,domain#Link-DataCopy-copyOf-Data
 package#CloudManagement,domain#R-CtH,domain#Link-Container-provisionedBy-Host

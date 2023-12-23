@@ -52,7 +52,7 @@ package#Application,domain#MP-Huv-iD-P,Huv-iD-P,"Finds a Human viewing but not e
 package#Application,domain#MP-HuWES,HuWES,Finds a Human using a web browser to access email.,domain#R-HuWES,FALSE,FALSE
 package#Application,domain#MP-PpD+noDU,PpD+noDU,"Finds a Process that is processing Data, where the Process has a self-referential noDU link indicating it should not be processing data.",domain#R-PpD+noDU,FALSE,FALSE
 package#Application,domain#MP-RDuDtS,RDuDtS,Finds a remote desktop client using a desktop service.,domain#R-RDuDtS,FALSE,FALSE
-package#Application,domain#MP-RDuDtSuPH,RDuDtSuPH,"Finds a remote desktop service using a process on the same host, and used by a remote desktop client.",domain#R-RDuDtSuPH,FALSE,FALSE
+package#Application,domain#MP-RDuDtSuPH,RDuDtSuPH,"Finds a remote desktop service using a process on the same host, and used remotely by a remote desktop client.",domain#R-RDuDtSuPH,FALSE,FALSE
 package#Application,domain#MP-RDuP-LnS,RDuP-LnS,Finds a remote desktop client using a process that is not a login service nor a proxy.,domain#R-RDuP,FALSE,FALSE
 package#Application,domain#MP-RDuRDuS-uR,RDuRDuS-uR,Finds a remote desktop using remotely another remote desktop which is using remotely a third process that is not yet remotely used by the first.,domain#R-RDuRDuS,FALSE,FALSE
 package#Application,domain#MP-RDuRTuS-uR,RDuRTuS-uR,Finds a remote desktop using remotely a remote terminal which is using remotely a third process that is not yet remotely used by the first.,domain#R-RDuRTuS,FALSE,FALSE
