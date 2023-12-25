@@ -72,7 +72,10 @@ package#DataLifecycleInference,domain#fwdRelay,domain#DataAccess
 package#DataLifecycleInference,domain#isDest,domain#Data
 package#DataLifecycleInference,domain#isPool,domain#Data
 package#DataLifecycleInference,domain#isSource,domain#Data
+package#DataLifecycleInference,domain#possDataDest,domain#DataAccess
 package#DataLifecycleInference,domain#possDataSource,domain#DataAccess
+package#DataLifecycleInference,domain#possRevPath,domain#DataChannel
+package#DataLifecycleInference,domain#possRevPath,domain#DataPath
 package#DataLifecycleInference,domain#relaysAccess,domain#DataUse
 package#DataLifecycleInference,domain#revPath,domain#DataChannel
 package#DataLifecycleInference,domain#revPath,domain#DataPath
