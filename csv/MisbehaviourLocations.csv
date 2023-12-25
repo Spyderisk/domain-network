@@ -78,6 +78,7 @@ package#Physical,domain#PhysicalBreach,domain#PrivateSpace
 package#Physical,domain#PhysicalIntrusion,domain#Space
 package#ProcessComms,domain#ClientImpersonation,domain#ClientChannel
 package#ProcessComms,domain#CommsSnoopable,domain#ConnectionChannel
+package#ProcessComms,domain#DeputyConfusion,domain#ClientChannel
 package#ProcessComms,domain#InService,domain#ConnectionAsset
 package#ProcessComms,domain#LossOfAccessibility,domain#ClientChannel
 package#ProcessComms,domain#LossOfAnonUserTW,domain#ClientChannel

@@ -824,6 +824,7 @@ package#Privacy,domain#MADS-TrojanInsertion-HealthSensor,domain#HealthSensor,dom
 package#ProcessComms,domain#MADS-ClientImpersonation-ClientChannel,domain#ClientChannel,domain#ClientImpersonation,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-CommsSnoopable-ClientChannel,domain#ClientChannel,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-CommsSnoopable-ServiceChannel,domain#ServiceChannel,domain#CommsSnoopable,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-DeputyConfusion-ClientChannel,domain#ClientChannel,domain#DeputyConfusion,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-InService-ClientChannel,domain#ClientChannel,domain#InService,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-InService-ClientPath,domain#ClientPath,domain#InService,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-InService-ClosedClientAttackPath,domain#ClosedClientAttackPath,domain#InService,domain#ImpactLevelNegligible

@@ -149,6 +149,7 @@ package#Physical,domain#Role_World,World,The (inferred) global public space.
 package#Privacy,domain#Role_DataSubject,DataSubject,A natural person who is the subject of personal data.
 package#ProcessComms,domain#Role_AttackPath,AttackPath,A privileged path through the network to a service from a subnet accessible by attackers .
 package#ProcessComms,domain#Role_AuthChannel,AuthChannel,A trust relationship between a client and a service that relates to the use of that service to authenticate the client.
+package#ProcessComms,domain#Role_AuthZChannel,AuthZChannel,A trust relationship between a client and a service that relates to the use of that service to verify third party access rights.
 package#ProcessComms,domain#Role_BasePath,BasePath,A network path that provides a basis for attacks on services via NAT devices.
 package#ProcessComms,domain#Role_ClientAttackPath,ClientAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages would be addressed in a way that is consistent with a specific client.
 package#ProcessComms,domain#Role_ClientChannel,ClientChannel,A trust relationship between a client and a service.

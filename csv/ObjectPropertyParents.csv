@@ -29,10 +29,13 @@ package#IoT,domain#amendsSensor,domain#pollsSensor
 package#IoT,domain#readsSensor,domain#pollsSensor
 package#IoT,domain#updatesSensor,domain#controlsSensor
 package#IoT,domain#updatesSensor,domain#readsSensor
+package#Network,domain#accessesService,domain#usesIndirectly
 package#Network,domain#interactsWith,domain#interactsRemotelyWith
 package#Network,domain#locatedIn,domain#mayBeIn
 package#Network,domain#uses,domain#usesService
 package#Network,domain#usesForAuth,domain#usesService
+package#Network,domain#usesForAuthZ,domain#accessesService
+package#Network,domain#usesService,domain#accessesService
 package#ProcessComms,domain#flowsViaCS,domain#flowsViaChannel
 package#ProcessComms,domain#flowsViaSC,domain#flowsViaChannel
 package#ProcessComms,domain#proxyAuthN,domain#noAuthN

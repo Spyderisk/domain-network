@@ -241,6 +241,8 @@ package#NetworkInference,domain#INS-Rr-LnS+LnS-LoginService,domain#Node-Router-R
 package#NetworkInference,domain#INS-Sv-LnS+LnS-LoginService,domain#Node-Server-Server
 package#NetworkInference,domain#INS-WpHSH-aF+WH-LogicalSubnet,domain#Node-Hotspot-WiFiLAN
 package#NetworkInference,domain#INS-WpHSH-aF+WH-LogicalSubnet,domain#Node-Space-Space
+package#ProcessCommsInference,domain#INS-CaS-SP+CC-ClientChannel,domain#Node-Client-Process
+package#ProcessCommsInference,domain#INS-CaS-SP+CC-ClientChannel,domain#Node-Service-Process
 package#ProcessCommsInference,domain#INS-CSCCAPNP4+CCAP-ClosedClientAttackPath,domain#Node-AttackerSubnet-LogicalSubnet
 package#ProcessCommsInference,domain#INS-CSCCAPNP4+CCAP-ClosedClientAttackPath,domain#Node-Client-Process
 package#ProcessCommsInference,domain#INS-CSCCAPNP4+CCAP-ClosedClientAttackPath,domain#Node-Service-Process
@@ -284,8 +286,6 @@ package#ProcessCommsInference,domain#INS-CSLSH2-SC+SC-ServiceChannel,domain#Node
 package#ProcessCommsInference,domain#INS-CSLSH2-SC+SC-ServiceChannel,domain#Node-NetworkPath-NetworkPath
 package#ProcessCommsInference,domain#INS-CS-SP+DX-DataExchange,domain#Node-Client-Process
 package#ProcessCommsInference,domain#INS-CS-SP+DX-DataExchange,domain#Node-Service-Process
-package#ProcessCommsInference,domain#INS-CuS-SP+CC-ClientChannel,domain#Node-Client-Process
-package#ProcessCommsInference,domain#INS-CuS-SP+CC-ClientChannel,domain#Node-Service-Process
 package#ProcessCommsInference,domain#INS-CuvS+CC-ClientChannel,domain#Node-Client-Process
 package#ProcessCommsInference,domain#INS-CuvS+CC-ClientChannel,domain#Node-Process-Process
 package#ProcessCommsInference,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,domain#Node-AttackerSubnet-LogicalSubnet

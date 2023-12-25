@@ -99,6 +99,7 @@ package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Server
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#USBHost
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Workstation
 package#Network,domain#above,domain#Host
+package#Network,domain#accessesService,domain#Process
 package#Network,domain#accessibleFrom,domain#Space
 package#Network,domain#accessTo,domain#Host
 package#Network,domain#accessTo,domain#Process
@@ -144,6 +145,8 @@ package#Network,domain#providedBy,domain#Host
 package#Network,domain#resourcedBy,domain#DataCentre
 package#Network,domain#uses,domain#Process
 package#Network,domain#usesForAuth,domain#Process
+package#Network,domain#usesForAuthZ,domain#Process
+package#Network,domain#usesIndirectly,domain#Process
 package#Network,domain#usesRemotely,domain#Process
 package#Network,domain#usesService,domain#Process
 package#NetworkConnectivity,domain#blockedPath,domain#LogicalPath
@@ -164,6 +167,7 @@ package#NetworkConnectivityInference,domain#extends,domain#LogicalPath
 package#NetworkConnectivityInference,domain#pEndsAt,domain#LogicalSubnet
 package#NetworkConnectivityInference,domain#pVia,domain#LogicalSubnet
 package#NetworkInference,domain#runsIn,domain#AccessContext
+package#NetworkInference,domain#usesViaRAS,domain#Process
 package#Physical,domain#accessibleVia,domain#Space
 package#Physical,domain#canAccess,domain#Space
 package#Physical,domain#controlledBy,domain#Stakeholder
@@ -194,7 +198,6 @@ package#ProcessComms,domain#toInterface,domain#Interface
 package#ProcessComms,domain#usesAsAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesAsProxy,domain#Process
 package#ProcessComms,domain#usesAsTransparentProxy,domain#Process
-package#ProcessComms,domain#usesIndirectly,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#LogicalSegment
 package#ProcessComms,domain#usesViaAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesViaProxy,domain#Process
@@ -206,7 +209,6 @@ package#ProcessCommsInference,domain#pathTo,domain#ServiceChannel
 package#ProcessCommsInference,domain#sourceDirect,domain#LogicalSubnet
 package#ProcessCommsInference,domain#sourceViaNAT,domain#LogicalSubnet
 package#ProcessCommsInference,domain#toSpace,domain#Space
-package#ProcessCommsInference,domain#usesViaRAS,domain#Process
 package#Users,domain#isAdult,domain#Adult
 package#Users,domain#worksFor,domain#Stakeholder
 package#Virtualisation,domain#fromPhysicalHost,domain#PhysicalHost
