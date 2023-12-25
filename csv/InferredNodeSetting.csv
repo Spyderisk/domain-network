@@ -128,6 +128,7 @@ package#NetworkInference,domain#CP-Rr-LnS+LnS,domain#Node-LoginService-LoginServ
 package#NetworkInference,domain#CP-Sv-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-Sv-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-Server-Server
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Node-LogicalSubnet-WiFiLAN,domain#INS-WpHSH-aF+WH-LogicalSubnet,TRUE,FALSE,domain#Node-Hotspot-WiFiLAN
 package#Physical,domain#CP-PPS-E+W,domain#Node-World-World,domain#INS-PPS-E+W-World,TRUE,FALSE,domain#Node-Space-PrivateSpace
+package#ProcessCommsInference,domain#CP-CaS-SP+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CaS-SP+CC-ClientChannel,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessCommsInference,domain#CP-CSCCAPNP4+CCAP,domain#Node-ClosedClientAttackPath-ClosedClientAttackPath,domain#INS-CSCCAPNP4+CCAP-ClosedClientAttackPath,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessCommsInference,domain#CP-CSCLS+ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS+ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#ProcessCommsInference,domain#CP-CSCLS-ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS-ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
@@ -140,7 +141,6 @@ package#ProcessCommsInference,domain#CP-CSL3H+SC,domain#Node-ServiceChannel-Serv
 package#ProcessCommsInference,domain#CP-CSLS2H2-SC+SC,domain#Node-ServiceChannel-ServiceChannel,domain#INS-CSLS2H2-SC+SC-ServiceChannel,TRUE,FALSE,domain#Node-DService-Process
 package#ProcessCommsInference,domain#CP-CSLSH2-SC+SC,domain#Node-ServiceChannel-ServiceChannel,domain#INS-CSLSH2-SC+SC-ServiceChannel,TRUE,FALSE,domain#Node-DService-Process
 package#ProcessCommsInference,domain#CP-CS-SP+DX,domain#Node-DataExchange-DataExchange,domain#INS-CS-SP+DX-DataExchange,FALSE,TRUE,domain#Link-Client-uses-Service
-package#ProcessCommsInference,domain#CP-CuS-SP+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuS-SP+CC-ClientChannel,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessCommsInference,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessCommsInference,domain#CP-SCCAP+CSAP,domain#Node-ClosedServiceAttackPath-ClosedServiceAttackPath,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessCommsInference,domain#CP-SOCAP+OSAP,domain#Node-OpenServiceAttackPath-OpenServiceAttackPath,domain#INS-SOCAP+OSAP-OpenServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process

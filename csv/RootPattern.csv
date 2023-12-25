@@ -60,12 +60,12 @@ package#Application,domain#R-PcDH,PcDH,Finds a Host running a Process that is cr
 package#Application,domain#R-PpD+noDU,PpD+noDU,"Finds a Process that is processing Data, where the Process has a self-referential noDU link indicating it should not be processing data.",FALSE,FALSE
 package#Application,domain#R-PrDH,PrDH,Finds a Host running a Process that is receiving data stored on the same host.,FALSE,FALSE
 package#Application,domain#R-RDuDtS,RDuDtS,Finds a remote desktop client using a desktop service.,FALSE,FALSE
-package#Application,domain#R-RDuDtSuPH,RDuDtSuPH,"Finds a remote desktop service using a process on the same host, and used remotely by a remote desktop client.",FALSE,FALSE
+package#Application,domain#R-RDuDtSuPH,RDuDtSuPH,"Finds a remote desktop service using a process on the same host, and used by a remote desktop client.",FALSE,FALSE
 package#Application,domain#R-RDuP,RDuP,Finds a remote desktop client using a process.,FALSE,FALSE
 package#Application,domain#R-RDuRDuS,RDuRDuS,Finds a remote desktop using remotely another remote desktop which is using remotely a third process.,FALSE,FALSE
 package#Application,domain#R-RDuRTuS,RDuRTuS,Finds a remote desktop using remotely a remote terminal which is using remotely a third process.,FALSE,FALSE
 package#Application,domain#R-RTuCP,RTuCP,Finds a remote terminal client using a console-accessible process.,FALSE,FALSE
-package#Application,domain#R-RTuRASuCPH,RTuRASuCPH,"Finds a remote access service using a console process on the same host, and used remotely by a remote terminal client.",FALSE,FALSE
+package#Application,domain#R-RTuRASuCPH,RTuRASuCPH,"Finds a remote access service using a console process on the same host, and used by a remote terminal client.",FALSE,FALSE
 package#CloudManagement,domain#R-Ct,Ct,Finds a solo Container.,FALSE,FALSE
 package#CloudManagement,domain#R-CtDS,CtDS,Finds a Container that stores a copy of Data (which is actually not allowed).,FALSE,FALSE
 package#CloudManagement,domain#R-CtH,CtH,Finds a container provisioned by a Host.,FALSE,FALSE
@@ -80,15 +80,13 @@ package#CloudManagement,domain#R-DCPHW,DCPHW,Finds a Cloud (K8s) Worker whose ph
 package#CloudManagement,domain#R-HCt,HCt,Finds a host provisioned by a container.,FALSE,FALSE
 package#CloudManagement,domain#R-HumPC,HumPC,Finds a Container running a Process managed by a Human.,FALSE,FALSE
 package#CloudManagement,domain#R-KIP,KIP,Finds an Ingress proxy mediating access to a service.,FALSE,FALSE
-package#CloudManagement,domain#R-KPxCaSI,KPxCaSI,"Finds a Client using for authentication a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
+package#CloudManagement,domain#R-KPxCaaSI,KPxCaaSI,"Finds a Client using for authentication a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
+package#CloudManagement,domain#R-KPxCazSI,KPxCazSI,"Finds a Client using for authorization a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
 package#CloudManagement,domain#R-KPxCLnSA,KPxCLnSA,"Finds a Client using a Remote Acces Service that runs in and controls a Container, whose Pod is connected via a Subnet to a K8S Master that runs a K8s API Server.",FALSE,TRUE
 package#CloudManagement,domain#R-KPxCuScP,KPxCuScP,"Finds a Pod managed by K8S or equivalent, hosting an unprivileged service in a Container, which controls another service accessed by a client. This means the client will need to access to Service in its Container for authentication purposes.",FALSE,FALSE
-package#CloudManagement,domain#R-KPxCuSI,KPxCuSI,"Finds a Client using a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
+package#CloudManagement,domain#R-KPxCuuSI,KPxCuuSI,"Finds a Client using a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
 package#CloudManagement,domain#R-KPxMLnSA,KPxMLnSA,"Finds a Client using a Remote Access Service that runs on and controls a K8s Master node, connected to a Subnet and running a K8s API Server.",FALSE,TRUE
 package#CloudManagement,domain#R-KPxWLnSA,KPxWLnSA,"Finds a Client using a Remote Access Service that runs on and controls a K8s Worker node, connected via a Subnet to a Master that runs a K8s API Server.",FALSE,TRUE
-package#CloudManagement,domain#R-KPyCLnSA,KPyCLnSA,"Finds a Client using for authentication a Remote Acces Service that runs in and controls a Container, whose Pod is connected via a Subnet to a K8S Master that runs a K8s API Server.",FALSE,TRUE
-package#CloudManagement,domain#R-KPyMLnSA,KPyMLnSA,"Finds a Client using for authorisation a Remote Access Service that runs on and controls a K8s Master node, connected to a Subnet and running a K8s API Server.",FALSE,TRUE
-package#CloudManagement,domain#R-KPyWLnSA,KPyWLnSA,"Finds a Client using for authentication a Remote Access Service that runs on and controls a K8s Worker node, connected via a Subnet to a Master that runs a K8s API Server.",FALSE,TRUE
 package#CloudManagement,domain#R-MWHLS,MWHLS,"Finds K8s Master and Worker nodes on the same (cluster) host, and connected to the same subnet.",FALSE,FALSE
 package#CloudManagement,domain#R-MWPodLS2,MWPodLS2,"Finds a Pod running on a K8s Worker connected via a Logical Subnet to a K8s Master, which can also access an overlay on the Logical Subnet.",FALSE,FALSE
 package#CloudManagement,domain#R-Pod,Pod,Finds a solo Pod.,FALSE,FALSE
@@ -288,13 +286,15 @@ package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,LPLRTSg,Finds path tra
 package#Network,domain#R-AC,AC,Finds a solo AuthClient.,FALSE,FALSE
 package#Network,domain#R-AS,AS,Finds a solo authentication/authorisation service.,FALSE,FALSE
 package#Network,domain#R-C,C,Finds a Host that represents a virtual or physical cluster.,FALSE,FALSE
-package#Network,domain#R-CcuS,CcuS,Finds a client accessing and controlling a service (which should never happen).,FALSE,TRUE
+package#Network,domain#R-CaS,CaS,Finds a client accessing a service.,FALSE,FALSE
+package#Network,domain#R-CcuS,CcuS,Finds a client accessing a service and controlling access to the same service (which should never happen).,FALSE,TRUE
 package#Network,domain#R-CH,CH,Finds a solo Console Host.,FALSE,FALSE
 package#Network,domain#R-CHS,CHS,Finds a Console Host located in a Space.,FALSE,FALSE
 package#Network,domain#R-CS,CS,Finds a client using a service.,FALSE,FALSE
-package#Network,domain#R-CScP,CScP,Finds a client using a service which is controlled by another process.,FALSE,FALSE
-package#Network,domain#R-CucS,CucS,Finds a client accessing and being controlled by a service.,FALSE,TRUE
-package#Network,domain#R-CuS,CuS,Finds a client accessing a service.,FALSE,FALSE
+package#Network,domain#R-CScP,CScP,Finds a client directly or indirectly accessing a service which is controlled by another process.,FALSE,FALSE
+package#Network,domain#R-CuP,CuP,Finds a client accessing a service but not to get authorization decisions about 3rd parties.,FALSE,FALSE
+package#Network,domain#R-CuS,CuS,Finds a client accessing a service but not to get authorization decisions about 3rd parties.,FALSE,FALSE
+package#Network,domain#R-CuScS,CuScS,Finds a client using a service for application or authentication and also controlled by the service.,FALSE,TRUE
 package#Network,domain#R-CuSHS,CuSHS,"Finds a Host running both a Client and a Service used by the Client, in a Space.",FALSE,FALSE
 package#Network,domain#R-DC,DC,Finds a solo Data Centre.,FALSE,FALSE
 package#Network,domain#R-DCH,DCH,Finds a Host resourced by a DataCentre.,FALSE,FALSE
@@ -490,7 +490,6 @@ package#Privacy,domain#R-HurThcD,HurThcD,Finds control input to an IoT Thing rel
 package#Privacy,domain#R-HuwStrH,HuwStrH,Finds a Human with a related personal device and who works for an Employer.,FALSE,FALSE
 package#ProcessComms,domain#R-CACHcLSS,CACHcLSS,"Finds a service accessed by a client via a subnet the client is on, and an associated context for access to the client.",FALSE,FALSE
 package#ProcessComms,domain#R-CACHLSS,CACHLSS,"Finds a service accessed by a client via a subnet the client need not normally be on, and an associated context for access to the client.",FALSE,FALSE
-package#ProcessComms,domain#R-CAPHcLSS,CAPHcLSS,"Finds a service accessed by a transparent proxy via a subnet the client is on, and an associated context for control of the proxy process.",FALSE,FALSE
 package#ProcessComms,domain#R-CAPlISAP,CAPlISAP,Finds a client attack path via a service attack path where the former has a last interface.,FALSE,FALSE
 package#ProcessComms,domain#R-CAPNPSAP,CAPNPSAP,Finds a Client Attack Path via a Service Attack Path and a Network Path.,FALSE,FALSE
 package#ProcessComms,domain#R-CAPSAP,CAPSAP,Finds a Client Attack Path via a Service Attack Path.,FALSE,FALSE
@@ -499,21 +498,20 @@ package#ProcessComms,domain#R-CCCCAP,CCCCAP,Finds a Client Channel via a proxy C
 package#ProcessComms,domain#R-CCCfCCS+aFC,CCCfCCS+aFC,"Finds a Client accessing a Service via a Proxy, with the Client Channel between the Client and Service, the channel to the first Proxy, and the client and service hosts, plus a client context in which the client can access the proxy channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCLnS,CCCLnS,"Finds a Client and Remote Access Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCPCCcS,CCCPCCcS,Finds a client of a transparent reverse proxy that forwards messages from the client to a back-end service.,FALSE,FALSE
-package#ProcessComms,domain#R-CCCPCCPS,CCCPCCPS,Finds a client (which may be a proxy) that uses an authenticating proxy that uses another authenticating proxy that directly or indirectly uses a service also used by the client.,FALSE,FALSE
-package#ProcessComms,domain#R-CCCPCCS,CCCPCCS,Finds a client (which may be a proxy) accessing an authenticating reverse proxy that uses a service also used by the client.,FALSE,FALSE
-package#ProcessComms,domain#R-CCCPPCCPS,CCCPPCCPS,Finds a client (which may be a proxy) that uses an authenticating proxy that directly or indirectly uses another authenticating proxy that uses a third proxy that uses a service also used by the client.,FALSE,FALSE
-package#ProcessComms,domain#R-CCCPPCCS,CCCPPCCS,Finds a client (which may be a proxy) that uses an authenticating proxy that directly or indirectly uses another authenticating proxy that uses a service also used by the client.,FALSE,FALSE
+package#ProcessComms,domain#R-CCCPCCS,CCCPCCS,"Finds a client accessing a reverse proxy that accesses a service, via the associated client channels.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCS,CCCS,"Finds a Client and Service with a Client Channel between them, plus their hosts.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCSCCS,CCCSCCS,"Finds a client accessing a service that uses another service, via the associated client channels.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCSCS,CCCSCS,"Finds a Client and Service connected via a Service Channel, plus the Client Channel between them. The presence of a Service Channel means this is a direct connection (not via a reverse proxy) involving communication over a network (not via a local API or sockets).",FALSE,FALSE
-package#ProcessComms,domain#R-CCCSPSFCS,CCCSPSFCS,"Finds a client sending a flow of data to a service accessed via a proxy, plus the end-to-end client channel, and the client channels between the client and the first proxy and between the last proxy and the service.",FALSE,FALSE
-package#ProcessComms,domain#R-CCCSPSFSC,CCCSPSFSC,"Finds a client receiving a flow of data from a service accessed via a proxy, plus the end-to-end client channel, and the client channels between the client and the first proxy and between the last proxy and the service.",FALSE,FALSE
-package#ProcessComms,domain#R-CCCSScS,CCCSScS,"Finds a Client using a Service with a ClientChannel between them, and the Client and Service hosts, where the Service is controlled by a second Service that also has a ClientChannel representing the authentication relationship between it and the Client.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCSPSFCS,CCCSPSFCS,"Finds a client sending a flow of data to a service via a credential forwarding/sharing chain, and the associated client channel.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCSPSFSC,CCCSPSFSC,"Finds a client receiving a flow of data from a service via a credential forwarding/sharing chain, and the associated client channel.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCSSaS,CCCSSaS,"Finds a Client using a Service with a ClientChannel between them, where the Service is controlled by a second Service and uses not only for client authentication but also to check client authorization, plus the ClientChannels between the Client and Service and the second Service.",FALSE,TRUE
+package#ProcessComms,domain#R-CCCSScS,CCCSScS,"Finds a Client using a Service with a ClientChannel between them, where the Service is controlled by a second Service that also has a ClientChannel representing the authentication relationship between it and the Client.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCSvLS,CCCSvLS,"Finds a Client with a Client Channel to a Service via an adjacent L2 subnet, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCtCCS+aTS,CCCtCCS+aTS,"Finds a Client accessing a Service via a Proxy, with the Client Channel between the Client and Service, the channel from the last Proxy, and a service context in which the service can be accessed via the proxy channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCv2CCS,CCCv2CCS,"Finds a client using a service via at least one transparent reverse proxy, along with the service host, the end-to-end client channel between client and service, and the direct client channels from the client and to the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCvCCS,CCCvCCS,"Finds a Client accessing a Service via a Proxy, with the Client Channel between the Client and Service, the channel to the Proxy, plus the client and service hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCvCCS+aTS,CCCvCCS+aTS,"Finds a client-service channel from which the service can be accessed in some context, which is via a proxy client channel.",FALSE,FALSE
-package#ProcessComms,domain#R-CCCvCCvLS,CCCvCCvLS,"Finds a Client Channel from a Client process that goes via another Client Channel (i.e. via at least one authentication proxy), which goes via a Logical Subnet.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCvCCvLS,CCCvCCvLS,Finds a Client Channel from a Client process that goes via a Logical Subnet and also via another Client Channel (i.e. the client and service communicate via a credential sharing/forwarding chain).,FALSE,FALSE
 package#ProcessComms,domain#R-CCDFCS,CCDFCS,"Finds a data flow that goes via a client and thence via a service, plus the related client channel and data.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFFC,CCDFFC,"Finds a data flow from a client to/via a service, and the associated client channel, data and data access. The source of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDFFS,CCDFFS,"Finds a data flow from a service to/via a client, and the associated client channel, data and data access.",FALSE,FALSE
@@ -541,7 +539,6 @@ package#ProcessComms,domain#R-CDBSC,CDBSC,Finds a process acting as a client to 
 package#ProcessComms,domain#R-CDBSCDADS,CDBSCDADS,"Finds a process using a DB service to update data, where the data in this case may or may not normally be accessed via the process.",FALSE,FALSE
 package#ProcessComms,domain#R-CDBSCDSDA,CDBSCDSDA,"Finds a process using a DB service to update data, where the data in this case may or may not normally be accessed via the process.",FALSE,FALSE
 package#ProcessComms,domain#R-CDBSCDSF,CDBSCDSF,"Finds a process using data served by a DB service the process is using, and the associated client channel, host and data copy assets.",FALSE,FALSE
-package#ProcessComms,domain#R-CHRAScSuP,CHRAScSuP,Finds a cient using a process via a transparent proxy that should be used via a remote access service running on the same host that can also be accessed via the proxy.,FALSE,FALSE
 package#ProcessComms,domain#R-CHRAScSuSP,CHRAScSuSP,"Finds a client using a process via an authenticating proxy chain, but used via a remote access service running on the same host that can also be accessed via the same proxy chain.",FALSE,FALSE
 package#ProcessComms,domain#R-CRoS,CRoS,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  and a Logical Subnet used by at least one path from the client, plus the Client Path for that Client from this Subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-CRoSG,CRoSG,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface, and an access context for the gateway where it is on the relevant path.",FALSE,FALSE
@@ -562,15 +559,15 @@ package#ProcessComms,domain#R-CSL1H2,CSL1H2,"Finds a client and service whose ho
 package#ProcessComms,domain#R-CSL3H,CSL3H,"Finds a client channel whose client and service are collocated on a cluster host that is accessible in a space, and an L3 Subnet connecting to the cluster.",FALSE,TRUE
 package#ProcessComms,domain#R-CSLS2H2,CSLS2H2,"Finds a client and service running on different hosts connected to different logical subnets that are not hotspots, and a network path between the two subnets.",FALSE,FALSE
 package#ProcessComms,domain#R-CSLSH2,CSLSH2,Finds a client and service whose hosts are connected to the same logical subnet.,FALSE,TRUE
-package#ProcessComms,domain#R-CucSaP,CucSaP,"Finds a process acting as an authentication proxy to a second process, and also using a third process for authN which controls the second.",FALSE,TRUE
-package#ProcessComms,domain#R-CuPnS,CuPnS,"Finds a client using a transparent proxy (i.e. the proxy forwards credentials), which in turn uses a service (possibly via a chain of further transparent proxies).",FALSE,FALSE
-package#ProcessComms,domain#R-CuPuSCC,CuPuSCC,"Finds a client accessing a process that is acting as a transparent proxy and accessing a service, including the indirect usage link from client to service, and the associated client channels.",FALSE,FALSE
-package#ProcessComms,domain#R-CuPvnS,CuPvnS,Finds a client using a service via a transparent proxy (i.e. the proxy forwards credentials as well as other requests).,FALSE,TRUE
-package#ProcessComms,domain#R-CuPvSCC,CuPvSCC,"Finds a client accessing a process that is acting as a transparent proxy and indirectly accessing a service, including the indirect usage link from client to service, and the associated client channels.",FALSE,FALSE
-package#ProcessComms,domain#R-CuvaS,CuvaS,Finds a client accessing a process via an authenticating proxy.,FALSE,TRUE
-package#ProcessComms,domain#R-CuvS,CuvS,Finds a client accessing a process via a proxy.,FALSE,TRUE
-package#ProcessComms,domain#R-CvPuSCC,CvPuSCC,"Finds a client indirectly accessing a process that is acting as a transparent proxy and accessing a service, including the indirect usage link from client to service, and the associated client channels.",FALSE,FALSE
-package#ProcessComms,domain#R-CvPvSCC,CvPvSCC,"Finds a client indirectly accessing a service via a chain of transparent proxies, including two adjacent proxies in the chain, the indirect usage link from client to service, and the associated client channels. Note that the link from the client is to the intermediate proxy that is closer to the service, and vice versa. This guarantees that these two links will be (indirect) usesViaProxy and not (direct) usesService in the matching system assets.",FALSE,FALSE
+package#ProcessComms,domain#R-CucSaP,CucSaP,"Finds a process using a service with forwarded or shared credentials, and also using a third process for authentication which controls the second.",FALSE,TRUE
+package#ProcessComms,domain#R-CuPnS,CuPnS,"Finds a client accessing a process that directly or indirectly uses a service, where the process shares or forwards client credentials and sends them to the service.",FALSE,FALSE
+package#ProcessComms,domain#R-CuPuSCC,CuPuSCC,"Finds a client accessing a service via a credential sharing/forwarding chain, where there is one intermediary, plus the client channels between client and service and between each and the intermediary process.",FALSE,FALSE
+package#ProcessComms,domain#R-CuPvnS,CuPvnS,"Finds a client accessing a process that is in a credential forwarding chain with a service used indirectly by the client (i.e., the service is at the end of the chain).",FALSE,TRUE
+package#ProcessComms,domain#R-CuPvSCC,CuPvSCC,"Finds a client accessing a service via a credential sharing/forwarding chain, where there is more than one intermediary, plus the first intermediary adjacent to the client, and channels between client and service and between the client and this intermediary process.",FALSE,FALSE
+package#ProcessComms,domain#R-CuvS,CuvS,Finds a client indirectly accessing a process via a credential sharing/forwarding chain.,FALSE,TRUE
+package#ProcessComms,domain#R-CvPuSCC,CvPuSCC,"Finds a client accessing a service via a credential sharing/forwarding chain, where there is more than one intermediary, plus the last intermediary adjacent to the service, and channels between client and service and between this intermediary process and the service.",FALSE,FALSE
+package#ProcessComms,domain#R-CvPvSCC,CvPvSCC,"Finds a client accessing a service via a credential sharing/forwarding chain, where there are at least two intermediaries, plus two adjacent intermediaries, and client channels between client and service and between these two intermediary processes. Note that the link from the client is to the intermediary proxy that is closer to the service, and vice versa. This guarantees that these two links will be usesViaTransparentProxy (indirect) and not accessesService (direct) in the matching system assets.",FALSE,FALSE
+package#ProcessComms,domain#R-CvS,CvS,Finds a client using a service via at least one other process that shares or forwards the client credentials to the service.,FALSE,FALSE
 package#ProcessComms,domain#R-DDoS,DDoS,"Finds a service and client, where the communication path crosses the Internet.",FALSE,FALSE
 package#ProcessComms,domain#R-DFDSCS,DFDSCS,Finds a DataFlow via a DataStep that flows via a ClientChannel in the direction client to service.,FALSE,FALSE
 package#ProcessComms,domain#R-DFDSSC,DFDSSC,Finds a DataFlow via a DataStep that flows via a ClientChannel in the direction service to client.,FALSE,FALSE
@@ -580,9 +577,7 @@ package#ProcessComms,domain#R-DoS,DoS,"Finds a service with its host, and a serv
 package#ProcessComms,domain#R-DSrXSS,DSrXSS,"Finds human using a web browser that uses a service with a host, where the browser also uses locally stored data.",FALSE,FALSE
 package#ProcessComms,domain#R-DSsXSS,DSsXSS,Finds a human using a web browser that accesses a service running on a host and using stored input data.,FALSE,FALSE
 package#ProcessComms,domain#R-HLSISC,HLSISC,Finds a host connecting to a logical subnet by authenticating to a controlling service.,FALSE,FALSE
-package#ProcessComms,domain#R-HRAScSuP,HRAScSuP," Finds a process acting as a back end service, accessed via a transparent proxy, but used via a remote access service running on the same host.",FALSE,TRUE
 package#ProcessComms,domain#R-HRAScSuSP,HRAScSuSP,"Finds a process acting as a back end service, accessed via an authenticating proxy, but used via a remote access service running on the same host.",FALSE,FALSE
-package#ProcessComms,domain#R-HRAScSvP,HRAScSvP,"Finds a process acting as a back end service, accessed via a transparent proxy chain, but used via a remote access service running on the same host.",FALSE,FALSE
 package#ProcessComms,domain#R-HRAScSvSP,HRAScSvSP,"Finds a process acting as a back end service, accessed indirectly via an authenticating proxy, but used via a remote access service running on the same host.",FALSE,FALSE
 package#ProcessComms,domain#R-HuCAP,HuCAP,"Finds a client attack path from a subnet, plus the associated client, service process and service host, and the service and service host managers.",FALSE,FALSE
 package#ProcessComms,domain#R-HuCCCS,HuCCCS,"Finds a User of an interactive Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
@@ -609,10 +604,11 @@ package#ProcessComms,domain#R-PCaFCSCCC,PCaFCSCCC,Finds a client channel via a s
 package#ProcessComms,domain#R-PCaTSSCAP,PCaTSSCAP,Finds an attack path path via a service channel on which a service is accessible in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCaTSSCCC,PCaTSSCCC,Finds a client channel via a service channel which gives access to a service in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PcC,PcC,Finds a client that is controlled by another process.,FALSE,FALSE
+package#ProcessComms,domain#R-PccCuS,PccCuS,"Finds a client using a service for application or authentication, where both client and service are controlled by the same process.",FALSE,FALSE
+package#ProcessComms,domain#R-PCCPCCS,PCCPCCS,"Finds a reverse proxy accessing another reverse proxy that accesses a service, via the associated client channels.",FALSE,FALSE
 package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy controlling another Process.,FALSE,FALSE
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
-package#ProcessComms,domain#R-PnPnS,PnPnS,"Finds a client using a service via a transparent reverse proxy (i.e. the proxy forwards credentials), where the client and/or service may also be a transparent proxy.",FALSE,FALSE
-package#ProcessComms,domain#R-PuP,PuP,Finds a Process in the role of Proxy using another Process.,FALSE,FALSE
+package#ProcessComms,domain#R-PnPnS,PnPnS,"Finds a client using a service with shared or forwarded credentials, where the service uses another service in the same way.",FALSE,FALSE
 package#ProcessComms,domain#R-RDvDtS,RDvDtS,Finds a remote desktop client using a desktop service via one or more reverse proxies.,FALSE,FALSE
 package#ProcessComms,domain#R-RDvP,RDvP,Finds a remote desktop client using a process via one or more reverse proxies.,FALSE,FALSE
 package#ProcessComms,domain#R-RTvCP,RTvCP,Finds a remote terminal client using a console-accessible process via one or more reverse proxies.,FALSE,FALSE
@@ -636,7 +632,6 @@ package#ProcessComms,domain#R-SP,SP,Finds a reverse proxy process.,FALSE,FALSE
 package#ProcessComms,domain#R-SPNaLnS,SPNaLnS,"Finds a host running a remote access service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-SPNaS,SPNaS,"Finds a host running a service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-SPuS,SPuS,Finds a reverse proxy directly using a service.,FALSE,FALSE
-package#ProcessComms,domain#R-SPvS,SPvS,Finds a reverse proxy using a service via a chain of transparent proxies.,FALSE,FALSE
 package#ProcessComms,domain#R-SSClIAP,SSClIAP,Finds a service channel from a last interface to a service process via an attack path.,FALSE,FALSE
 package#ProcessComms,domain#R-SSCLS,SSCLS,"Finds a service and its host and a service channel from a client via a logical subnet to which the host is connected, plus the associated process access contexts.",FALSE,FALSE
 package#ProcessComms,domain#R-XPCPNC,XPCPNC,"Finds a client and service associated with a data exchange connection, and service channel via a logical subnet.",FALSE,FALSE
@@ -644,12 +639,9 @@ package#ProcessCommsInference,domain#R-APxSCtI,APxSCtI,"Finds an Attack Path sta
 package#ProcessCommsInference,domain#R-CSCCAPNP4,CSCCAPNP4,"Finds a service channel from a client to a service with a network path from an attacker subnet into the channel via a closed subnet, where the network path is consistent with an extension of the on-channel subpath.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCscLS,CSCscLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses are obscured by NAT.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCsdLS,CSCsdLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses remain unaltered by NAT.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CuPaS,CuPaS,Finds a Client using a Service via an authenticating reverse Proxy that also uses the Service via an authenticating proxy.,FALSE,TRUE
-package#ProcessCommsInference,domain#R-CuSPvS,CuSPvS,Finds a client using a reverse proxy that uses and authenticates with a service.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-CvSPvS,CvSPvS,Finds a client indirectly using a reverse proxy that uses and authenticates with a service.,FALSE,FALSE
+package#ProcessCommsInference,domain#R-CuSPvS,CuSPvS,Finds a client using a reverse proxy that uses a service.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFuCuS,DFuCuS,"Finds a data flow via two processes, one of which is a client of the other, but accessed via a transparent reverse proxy or chain of proxies.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service channel via a closed subnet (before a subsequent NAT gateway) and a network path into the channel via this subnet traversing a single logical segment.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE

@@ -103,6 +103,7 @@ package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#RemovableMedia
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Thing
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#USBDevice
 package#Network,domain#above,domain#Host
+package#Network,domain#accessesService,domain#Process
 package#Network,domain#accessibleFrom,domain#AbstractSubnet
 package#Network,domain#accessTo,domain#AccessContext
 package#Network,domain#accessVia,domain#AccessContext
@@ -136,6 +137,8 @@ package#Network,domain#providedBy,domain#AbstractSubnet
 package#Network,domain#resourcedBy,domain#PhysicalHost
 package#Network,domain#uses,domain#Process
 package#Network,domain#usesForAuth,domain#Process
+package#Network,domain#usesForAuthZ,domain#Process
+package#Network,domain#usesIndirectly,domain#Process
 package#Network,domain#usesRemotely,domain#RemoteAccessClient
 package#Network,domain#usesRemotely,domain#RemoteAccessService
 package#Network,domain#usesService,domain#Process
@@ -157,6 +160,7 @@ package#NetworkConnectivityInference,domain#pEndsAt,domain#PPE
 package#NetworkConnectivityInference,domain#pVia,domain#NPE
 package#NetworkConnectivityInference,domain#pVia,domain#PPE
 package#NetworkInference,domain#runsIn,domain#Process
+package#NetworkInference,domain#usesViaRAS,domain#Process
 package#Physical,domain#accessibleVia,domain#Space
 package#Physical,domain#canAccess,domain#Human
 package#Physical,domain#controlledBy,domain#PrivateSpace
@@ -189,7 +193,6 @@ package#ProcessComms,domain#toInterface,domain#ConnectionAsset
 package#ProcessComms,domain#usesAsAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesAsProxy,domain#Process
 package#ProcessComms,domain#usesAsTransparentProxy,domain#Process
-package#ProcessComms,domain#usesIndirectly,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#ConnectionChannel
 package#ProcessComms,domain#usesViaAuthenticatingProxy,domain#Process
 package#ProcessComms,domain#usesViaProxy,domain#Process
@@ -201,7 +204,6 @@ package#ProcessCommsInference,domain#pathTo,domain#NetworkPath
 package#ProcessCommsInference,domain#sourceDirect,domain#ServiceChannel
 package#ProcessCommsInference,domain#sourceViaNAT,domain#ServiceChannel
 package#ProcessCommsInference,domain#toSpace,domain#ServiceChannel
-package#ProcessCommsInference,domain#usesViaRAS,domain#Process
 package#Users,domain#isAdult,domain#Adult
 package#Users,domain#worksFor,domain#Human
 package#Virtualisation,domain#fromPhysicalHost,domain#HostChannel
