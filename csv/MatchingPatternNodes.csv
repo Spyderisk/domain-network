@@ -19,8 +19,10 @@ package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Client-Process,FAL
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Human2-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-Hui-vD-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuRDRASPH,domain#Node-Service-RemoteAccessClient,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuRDuPH-DtS,domain#Node-RemoteAccessClient-RemoteAccessClient,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuRDuPH-DtS,domain#Node-RemoteAccessService-DesktopService,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuRTRASCPH,domain#Node-Service-RemoteAccessClient,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuRTuCPH-LnS,domain#Node-RemoteAccessClient-RemoteAccessClient,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuRTuCPH-LnS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuvDirPcD-P,domain#Node-Service-Process,FALSE,TRUE,FALSE

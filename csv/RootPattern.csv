@@ -46,9 +46,9 @@ package#Application,domain#R-HuirPcD,HuirPcD,Finds Human interacting (possibly r
 package#Application,domain#R-HuirPrD,HuirPrD,Finds Human interacting (possibly remotely) with a process that receives data.,FALSE,FALSE
 package#Application,domain#R-HuirPsD,HuirPsD,Finds Human interacting (possibly remotely) with a process that serves data. This conflicts with domain model assumptions.,FALSE,FALSE
 package#Application,domain#R-HuRACuPD,HuRACuPD,Finds Human interacting remotely via a remote access client with a process that processes data.,FALSE,FALSE
-package#Application,domain#R-HuRDRASPH,HuRDRASPH,Finds a Human interacting via a Remote Desktop with a Process and a collocated Remote Access Service.,FALSE,FALSE
+package#Application,domain#R-HuRDRASPH,HuRDRASPH,"Finds a Human interacting (possibly remotely) with a Remote Access Client and a Remote Desktop Client (which may or may not be the same), through which they remotely use a Process which has a collocated Remote Access Service.",FALSE,FALSE
 package#Application,domain#R-HuRDuPH,HuRDuPH,Finds a Human interacting remotely with a Process running on a Host via a Remote Desktop client.,FALSE,FALSE
-package#Application,domain#R-HuRTRASCPH,HuRTRASCPH,Finds a Human interacting via a Remote Terminal with a Console Process and a collocated Remote Access Service.,FALSE,FALSE
+package#Application,domain#R-HuRTRASCPH,HuRTRASCPH,"Finds a Human interacting (possibly remotely) with a Remote Access Client and a Remote Terminal Client (which may or may not be the same), through which they remotely use a Console Process which has a collocated Remote Access Service.",FALSE,FALSE
 package#Application,domain#R-HuRTuCPH,HuRTuCPH,Finds a Human interacting remotely with a Console-accessible Process running on a Host via a Remote Terminal client.,FALSE,FALSE
 package#Application,domain#R-HuvD,HuvD,Finds a Human viewing Data.,FALSE,FALSE
 package#Application,domain#R-HuvDirPcD,HuvDirPcD,"Finds a Human interacting (possibly remotely) with a Process that creates Data, where the Human views that Data.",FALSE,FALSE
@@ -469,6 +469,7 @@ package#NetworkConnectivityInference,domain#R-OPLS1,OPLS1,"Finds a zero-length L
 package#NetworkConnectivityInference,domain#R-OPLS2,OPLS2,"Finds a Network Path and terminator to a Logical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
 package#NetworkConnectivityInference,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
+package#NetworkInference,domain#R-HRASuRAScSC,HRASuRAScSC,"Finds a Client using a Process via a Remote Access Service on the same Host, where the Process controls the Client (meaning that the Client forwards credentials from a third party for Service to authenticate).",FALSE,TRUE
 package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
 package#Physical,domain#R-HuPS,HuPS,Finds a Human with access to a Private Space.,FALSE,FALSE
 package#Physical,domain#R-HuPSSt,HuPSSt,"Finds a Human with access to a Private Space, and their employer.",FALSE,FALSE
@@ -539,7 +540,7 @@ package#ProcessComms,domain#R-CDBSC,CDBSC,Finds a process acting as a client to 
 package#ProcessComms,domain#R-CDBSCDADS,CDBSCDADS,"Finds a process using a DB service to update data, where the data in this case may or may not normally be accessed via the process.",FALSE,FALSE
 package#ProcessComms,domain#R-CDBSCDSDA,CDBSCDSDA,"Finds a process using a DB service to update data, where the data in this case may or may not normally be accessed via the process.",FALSE,FALSE
 package#ProcessComms,domain#R-CDBSCDSF,CDBSCDSF,"Finds a process using data served by a DB service the process is using, and the associated client channel, host and data copy assets.",FALSE,FALSE
-package#ProcessComms,domain#R-CHRAScSuSP,CHRAScSuSP,"Finds a client using a process via an authenticating proxy chain, but used via a remote access service running on the same host that can also be accessed via the same proxy chain.",FALSE,FALSE
+package#ProcessComms,domain#R-CHRAScSuSP,CHRAScSuSP,"Finds a client using a process remotely via a reverse proxy chain, plus the last proxy that uses the process, and the remote access service that is collocated with and using the service.",FALSE,TRUE
 package#ProcessComms,domain#R-CRoS,CRoS,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  and a Logical Subnet used by at least one path from the client, plus the Client Path for that Client from this Subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-CRoSG,CRoSG,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface, and an access context for the gateway where it is on the relevant path.",FALSE,FALSE
 package#ProcessComms,domain#R-CRoSI,CRoSI,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface.",FALSE,FALSE
@@ -559,7 +560,7 @@ package#ProcessComms,domain#R-CSL1H2,CSL1H2,"Finds a client and service whose ho
 package#ProcessComms,domain#R-CSL3H,CSL3H,"Finds a client channel whose client and service are collocated on a cluster host that is accessible in a space, and an L3 Subnet connecting to the cluster.",FALSE,TRUE
 package#ProcessComms,domain#R-CSLS2H2,CSLS2H2,"Finds a client and service running on different hosts connected to different logical subnets that are not hotspots, and a network path between the two subnets.",FALSE,FALSE
 package#ProcessComms,domain#R-CSLSH2,CSLSH2,Finds a client and service whose hosts are connected to the same logical subnet.,FALSE,TRUE
-package#ProcessComms,domain#R-CucSaP,CucSaP,"Finds a process using a service with forwarded or shared credentials, and also using a third process for authentication which controls the second.",FALSE,TRUE
+package#ProcessComms,domain#R-CucSaP,CucSaP,"Finds a Client using a Service with forwarded or shared credentials, and also using a third Process for authentication which controls the Service.",FALSE,TRUE
 package#ProcessComms,domain#R-CuPnS,CuPnS,"Finds a client accessing a process that directly or indirectly uses a service, where the process shares or forwards client credentials and sends them to the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CuPuSCC,CuPuSCC,"Finds a client accessing a service via a credential sharing/forwarding chain, where there is one intermediary, plus the client channels between client and service and between each and the intermediary process.",FALSE,FALSE
 package#ProcessComms,domain#R-CuPvnS,CuPvnS,"Finds a client accessing a process that is in a credential forwarding chain with a service used indirectly by the client (i.e., the service is at the end of the chain).",FALSE,TRUE
@@ -577,8 +578,7 @@ package#ProcessComms,domain#R-DoS,DoS,"Finds a service with its host, and a serv
 package#ProcessComms,domain#R-DSrXSS,DSrXSS,"Finds human using a web browser that uses a service with a host, where the browser also uses locally stored data.",FALSE,FALSE
 package#ProcessComms,domain#R-DSsXSS,DSsXSS,Finds a human using a web browser that accesses a service running on a host and using stored input data.,FALSE,FALSE
 package#ProcessComms,domain#R-HLSISC,HLSISC,Finds a host connecting to a logical subnet by authenticating to a controlling service.,FALSE,FALSE
-package#ProcessComms,domain#R-HRAScSuSP,HRAScSuSP,"Finds a process acting as a back end service, accessed via an authenticating proxy, but used via a remote access service running on the same host.",FALSE,FALSE
-package#ProcessComms,domain#R-HRAScSvSP,HRAScSvSP,"Finds a process acting as a back end service, accessed indirectly via an authenticating proxy, but used via a remote access service running on the same host.",FALSE,FALSE
+package#ProcessComms,domain#R-HRACP,HRACP,Finds a Host running a RemoteAccessClient using a Process.,FALSE,FALSE
 package#ProcessComms,domain#R-HuCAP,HuCAP,"Finds a client attack path from a subnet, plus the associated client, service process and service host, and the service and service host managers.",FALSE,FALSE
 package#ProcessComms,domain#R-HuCCCS,HuCCCS,"Finds a User of an interactive Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-HuDFrXSS,HuDFrXSS,"Finds human using a web browser that uses a service with a host and host manager, where the browser also uses inflowing data.",FALSE,FALSE
@@ -609,6 +609,8 @@ package#ProcessComms,domain#R-PCCPCCS,PCCPCCS,"Finds a reverse proxy accessing a
 package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy controlling another Process.,FALSE,FALSE
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,"Finds a client using a service with shared or forwarded credentials, where the service uses another service in the same way.",FALSE,FALSE
+package#ProcessComms,domain#R-RACuSP2P,RACuSP2P,Finds a remote access client using a reverse proxy to remotely use a process via at least one more reverse proxy.,FALSE,TRUE
+package#ProcessComms,domain#R-RACuSPP,RACuSPP,Finds a remote access client using a reverse proxy to remotely use a process.,FALSE,TRUE
 package#ProcessComms,domain#R-RDvDtS,RDvDtS,Finds a remote desktop client using a desktop service via one or more reverse proxies.,FALSE,FALSE
 package#ProcessComms,domain#R-RDvP,RDvP,Finds a remote desktop client using a process via one or more reverse proxies.,FALSE,FALSE
 package#ProcessComms,domain#R-RTvCP,RTvCP,Finds a remote terminal client using a console-accessible process via one or more reverse proxies.,FALSE,FALSE
@@ -629,6 +631,7 @@ package#ProcessComms,domain#R-SCsAPtI,SCsAPtI,"Finds an Attack Path from a subne
 package#ProcessComms,domain#R-SCvLS,SCvLS,"Finds a Service Channel that visits a Logical Subnet, plus the Service and the Interface into the subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-SOCAP,SOCAP,Finds a service channel linked with an open client attack path from a logical subnet to the service process.,FALSE,FALSE
 package#ProcessComms,domain#R-SP,SP,Finds a reverse proxy process.,FALSE,FALSE
+package#ProcessComms,domain#R-SPHRAScSuSP,SPHRAScSuSP,"Finds a client that is a reverse proxy using a process via a reverse proxy chain, plus the last proxy that uses the process, where there is a remote access service that is collocated with and using the service and also used by the last proxy in the chain.",FALSE,TRUE
 package#ProcessComms,domain#R-SPNaLnS,SPNaLnS,"Finds a host running a remote access service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-SPNaS,SPNaS,"Finds a host running a service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-SPuS,SPuS,Finds a reverse proxy directly using a service.,FALSE,FALSE
