@@ -19,15 +19,10 @@ package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Client-Process,FAL
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Human2-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-Hui-vD-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
-package#Application,domain#MP-HuRDRASPH,domain#Node-Service-RemoteAccessClient,FALSE,TRUE,FALSE
-package#Application,domain#MP-HuRDuPH-DtS,domain#Node-RemoteAccessClient-RemoteAccessClient,FALSE,TRUE,FALSE
-package#Application,domain#MP-HuRDuPH-DtS,domain#Node-RemoteAccessService-DesktopService,FALSE,TRUE,FALSE
-package#Application,domain#MP-HuRTRASCPH,domain#Node-Service-RemoteAccessClient,FALSE,TRUE,FALSE
-package#Application,domain#MP-HuRTuCPH-LnS,domain#Node-RemoteAccessClient-RemoteAccessClient,FALSE,TRUE,FALSE
-package#Application,domain#MP-HuRTuCPH-LnS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuvDirPcD-P,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuvDirPrD-P,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#Application,domain#MP-Huv-iD-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#Application,domain#MP-RDuP-iPLH-RAS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
 package#CloudManagement,domain#MP-DCCM-A,domain#Node-Service-APIServer,FALSE,TRUE,FALSE
 package#CloudManagement,domain#MP-DCCM-P,domain#Node-Service-Ingress,FALSE,TRUE,FALSE
 package#CloudManagement,domain#MP-DCCt-Pod,domain#Node-Host-Pod,FALSE,TRUE,FALSE
@@ -387,6 +382,7 @@ package#Network,domain#MP-RSS-HP,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-RSS-HP,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#Network,domain#MP-RSSH-P,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-RSSH-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#Network,domain#MP-RTuP-iPLH-RAS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
 package#Network,domain#MP-SH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-SHAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-SHAC,domain#Node-HostNetContext-HostNetContext,FALSE,FALSE,FALSE
@@ -691,6 +687,10 @@ package#ProcessComms,domain#MP-PDFFA,domain#Node-ProcessManager-Human,FALSE,FALS
 package#ProcessComms,domain#MP-PILSsSC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-PILSsSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,TRUE
 package#ProcessComms,domain#MP-Pu-pPucmS,domain#Node-Service-Process,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-RDuSPP-iPLH-RAS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
+package#ProcessComms,domain#MP-RDvSPP-iPLH-RAS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
+package#ProcessComms,domain#MP-RTuSPP-iPLH-RAS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
+package#ProcessComms,domain#MP-RTvSPP-iPLH-RAS,domain#Node-RemoteAccessService-RemoteAccessService,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-SC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-SC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-SCCHNPLS-lI,domain#Node-Interface-Interface,FALSE,TRUE,FALSE
