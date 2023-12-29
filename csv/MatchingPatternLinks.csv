@@ -1118,8 +1118,7 @@ package#ProcessComms,domain#MP-CSL0H,domain#Link-CHost-isCluster-CHost,FALSE
 package#ProcessComms,domain#MP-CuPnS-U,domain#Link-Client-usesViaRAS-Proxy,TRUE
 package#ProcessComms,domain#MP-CuPnS-U,domain#Link-Client-viaSharedCredentials-Service,TRUE
 package#ProcessComms,domain#MP-CuvS,domain#Link-Client-sharesCredentials-Process,TRUE
-package#ProcessComms,domain#MP-CvS-P,domain#Link-Client-viaSharedCredentials-Process,FALSE
-package#ProcessComms,domain#MP-CvS-P,domain#Link-Service-sharesCredentials-Process,FALSE
+package#ProcessComms,domain#MP-CuvS,domain#Link-Client-usesViaRAS-Process,TRUE
 package#ProcessComms,domain#MP-CXPCPNC,domain#Link-ProcAccess-accessTo-Client,FALSE
 package#ProcessComms,domain#MP-CXPCPNC,domain#Link-ProcAccess-accessVia-LogicalSubnet,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Link-ClientChannel-viaSubnet-LogicalSubnet,FALSE
@@ -1191,6 +1190,8 @@ package#ProcessComms,domain#MP-HuStCCCS,domain#Link-ServiceManager-manages-Servi
 package#ProcessComms,domain#MP-ImSCf,domain#Link-ServiceChannel-fromInterface-Interface,FALSE
 package#ProcessComms,domain#MP-LnSc-uP,domain#Link-Process-sharesCredentials-LoginService,TRUE
 package#ProcessComms,domain#MP-LnSc-uP,domain#Link-Process-usesService-LoginService,TRUE
+package#ProcessComms,domain#MP-LnSucP-pS,domain#Link-Process-proxyAuthN-Service,FALSE
+package#ProcessComms,domain#MP-LnSucP-pS,domain#Link-Process-uses-Service,FALSE
 package#ProcessComms,domain#MP-LSmSC,domain#Link-ServiceChannel-viaSubnet-LogicalSubnet,FALSE
 package#ProcessComms,domain#MP-OCAPNaS,domain#Link-AttackPath-lastInterface-Interface,FALSE
 package#ProcessComms,domain#MP-OCAPNaS,domain#Link-Client-viaSharedCredentials-Service,TRUE
@@ -1319,6 +1320,10 @@ package#ProcessCommsInference,domain#MP-CucSaP,domain#Link-Client-usesViaRAS-Ser
 package#ProcessCommsInference,domain#MP-CucSaP,domain#Link-Service-usesService-Process,TRUE
 package#ProcessCommsInference,domain#MP-CuScS,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuSPvS-U,domain#Link-Client-usesViaProxy-Service,TRUE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-Client-viaSharedCredentials-Process,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-ProxyClient-uses-Client,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-ProxyClient-viaSharedCredentials-Service,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-Service-sharesCredentials-Process,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-channelFrom-Client,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-channelTo-Service,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-viaSubnet-AttackerSubnet,FALSE

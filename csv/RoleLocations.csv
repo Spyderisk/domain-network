@@ -91,7 +91,7 @@ package#Network,domain#Role_AHost,domain#Host
 package#Network,domain#Role_AttackerSubnet,domain#LogicalSubnet
 package#Network,domain#Role_AttackerSubnet,domain#TypeOverlaySubnet
 package#Network,domain#Role_AuthClient,domain#AuthClient
-package#Network,domain#Role_AuthService,domain#AuthService
+package#Network,domain#Role_AuthService,domain#Process
 package#Network,domain#Role_CHost,domain#ConsoleHost
 package#Network,domain#Role_CHost,domain#Host
 package#Network,domain#Role_Client,domain#Process

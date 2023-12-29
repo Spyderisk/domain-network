@@ -58,7 +58,6 @@ package#Network,domain#Anomalies,domain#Hu.E.HummH-e.9
 package#Network,domain#Anomalies,domain#P.E.CcuS.9
 package#Network,domain#Anomalies,domain#P.E.HLnSP-hCLI.9
 package#Network,domain#Anomalies,domain#P.E.IcP.9
-package#Network,domain#Anomalies,domain#P.E.LnSucP.9
 package#Network,domain#Anomalies,domain#P.E.LnSuP-H.9
 package#Network,domain#Anomalies,domain#P.E.PccP.9
 package#Network,domain#Anomalies,domain#P.E.PH2.9
@@ -74,6 +73,7 @@ package#Privacy,domain#Anomalies,domain#Th.E.IoT-Hu.9
 package#ProcessComms,domain#Anomalies,domain#CC.E.CSCC-SC.9
 package#ProcessComms,domain#Anomalies,domain#P.E.HuiSP.9
 package#ProcessComms,domain#Anomalies,domain#P.E.LnSc-uP.9
+package#ProcessComms,domain#Anomalies,domain#P.E.LnSucP-pS.9
 package#ProcessComms,domain#Anomalies,domain#P.E.PcHpmS.9
 package#ProcessComms,domain#Anomalies,domain#P.E.PcLSpmS.9
 package#ProcessComms,domain#Anomalies,domain#P.E.Pc-pPpmS.9

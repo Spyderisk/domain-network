@@ -620,7 +620,6 @@ package#ProcessComms,domain#MP-CSCC-SC,domain#Node-ProxyChannel-ClientChannel,FA
 package#ProcessComms,domain#MP-CSCC-SC,domain#Node-ServiceChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-CSHSAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSHSAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
-package#ProcessComms,domain#MP-CvS-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-CXPCPNC,domain#Node-ProcAccess-ProcessContext,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-DFrXSS,domain#Node-LogicalSubnet-L3Subnet,TRUE,FALSE,FALSE
@@ -659,6 +658,7 @@ package#ProcessComms,domain#MP-HuoStCCCS,domain#Node-ServiceManager-Human,FALSE,
 package#ProcessComms,domain#MP-HuSAPmSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-HuStCCCS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-ImSCf,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-LnSucP-pS,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-LSmSC,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-OCAPNaS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-OCAPNaS,domain#Node-Human-Human,FALSE,FALSE,FALSE
@@ -718,6 +718,8 @@ package#ProcessCommsInference,domain#MP-CSLS2H2-SC,domain#Node-LastChannel-Servi
 package#ProcessCommsInference,domain#MP-CSLS2H2-SC,domain#Node-LastSubnet-L01Subnet,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastSubnet-L01Subnet,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-NP2CCAPSC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Node-DataCentre-DataCentre,FALSE,FALSE,FALSE

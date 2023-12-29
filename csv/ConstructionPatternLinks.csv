@@ -822,11 +822,14 @@ package#ProcessCommsInference,domain#CP-CuvS+CC,domain#Link-ClientChannel-channe
 package#ProcessCommsInference,domain#CP-CuvS+CC,domain#Link-ClientChannel-channelTo-Process
 package#ProcessCommsInference,domain#CP-CvPuSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
 package#ProcessCommsInference,domain#CP-CvPvSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
-package#ProcessCommsInference,domain#CP-CvS-P+i,domain#Link-Client-usesIndirectly-Service
 package#ProcessCommsInference,domain#CP-CXPCPNC+cIC,domain#Link-DataExchange-connectedIn-ProcAccess
 package#ProcessCommsInference,domain#CP-DFDSfP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
 package#ProcessCommsInference,domain#CP-DFtP+fVP,domain#Link-DataFlow-flowsViaProcess-Process
-package#ProcessCommsInference,domain#CP-HRASuRAScSC+c,domain#Link-RemoteAccessService-controls-Client
+package#ProcessCommsInference,domain#CP-DFuCuS-C-P+u,domain#Link-Client-uses-Service
+package#ProcessCommsInference,domain#CP-HRASuPcC+c,domain#Link-RemoteAccessService-controls-Client
+package#ProcessCommsInference,domain#CP-HRASuPCcS+c,domain#Link-RemoteAccessService-controls-Client
+package#ProcessCommsInference,domain#CP-HRASuPcS+c,domain#Link-Process-controls-RemoteAccessService
+package#ProcessCommsInference,domain#CP-HRASuPScS+c,domain#Link-Process-controls-RemoteAccessService
 package#ProcessCommsInference,domain#CP-HuRACP+i,domain#Link-Human-interactsRemotelyWith-Process
 package#ProcessCommsInference,domain#CP-NP1CCAPSC+pT,domain#Link-NetworkPath-pathTo-ServiceChannel
 package#ProcessCommsInference,domain#CP-NP2CCAPSC+pT,domain#Link-NetworkPath-pathTo-ServiceChannel

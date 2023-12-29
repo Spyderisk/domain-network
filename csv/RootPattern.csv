@@ -317,6 +317,10 @@ package#Network,domain#R-HPHLS,HPHLS,Finds a logical subnet to which is connecte
 package#Network,domain#R-HprL3SAC,HprL3SAC,"Finds a Layer 3 LogicalSubnet provided by a Host, along with an associated network access context.",FALSE,FALSE
 package#Network,domain#R-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,FALSE,FALSE
+package#Network,domain#R-HRASuPcC,HRASuPcC,"Finds a host running a remote access service that launches a process which is used by a client that it also controls, implying the client forwards credentials to the process.",FALSE,TRUE
+package#Network,domain#R-HRASuPCcS,HRASuPCcS,"Finds a host running a remote access service that launches a process which is used by a client where both it and the client are controlled by the same authenticator, implying the client forwards credentials obtained from the authenticator to the process.",FALSE,FALSE
+package#Network,domain#R-HRASuPcS,HRASuPcS,"Finds a host running a remote access service that launches a process which uses a service by which it is also controlled, implying that the process uses forwarded credentials to access the service.",FALSE,TRUE
+package#Network,domain#R-HRASuPScS,HRASuPScS,"Finds a host running a remote access service that launches a process which uses a service, where the service and the process are controlled by the same authenticator, implying that the process accesses the service using a token shared with it by a client.",FALSE,FALSE
 package#Network,domain#R-HuE,HuE,Finds a human interacting with an email client.,FALSE,FALSE
 package#Network,domain#R-HuHE,HuHE,Finds a human interacting with an email client running on a host.,FALSE,FALSE
 package#Network,domain#R-HuHE2AC,HuHE2AC,"Finds a human interacting directly with an email client running on a host in a space, plus the associated location access context.",FALSE,FALSE
@@ -359,7 +363,7 @@ package#Network,domain#R-IcP,IcP,Finds a Process controlling an Internet class s
 package#Network,domain#R-Internet,Internet,Finds an Internet class network.,FALSE,FALSE
 package#Network,domain#R-IpH,IpH,Finds a Host providing an Internet class subnet.,FALSE,FALSE
 package#Network,domain#R-LnScP,LnScP,Finds a login service controlling access to a process.,FALSE,FALSE
-package#Network,domain#R-LnSucP,LnSucP,Finds a remote access service using a back end process which controls access to the remote access service.,FALSE,TRUE
+package#Network,domain#R-LnSucP,LnSucP,Finds a remote access service using a process to which it forwards credentials.,FALSE,TRUE
 package#Network,domain#R-LnSuP,LnSuP,Finds a login service using a process.,FALSE,FALSE
 package#Network,domain#R-LS,LS,Finds a solo Logical Subnet.,FALSE,FALSE
 package#Network,domain#R-MHC,MHC,Finds a solo Mobile Console Host.,FALSE,FALSE
@@ -462,7 +466,6 @@ package#NetworkConnectivityInference,domain#R-OPLS1,OPLS1,"Finds a zero-length L
 package#NetworkConnectivityInference,domain#R-OPLS2,OPLS2,"Finds a Network Path and terminator to a Logical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
 package#NetworkConnectivityInference,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
-package#NetworkInference,domain#R-HRASuRAScSC,HRASuRAScSC,"Finds a Client using a Process via a Remote Access Service on the same Host, where the Process controls the Client (meaning that the Client forwards credentials from a third party for Service to authenticate).",FALSE,TRUE
 package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
 package#Physical,domain#R-HuPS,HuPS,Finds a Human with access to a Private Space.,FALSE,FALSE
 package#Physical,domain#R-HuPSSt,HuPSSt,"Finds a Human with access to a Private Space, and their employer.",FALSE,FALSE
@@ -560,7 +563,6 @@ package#ProcessComms,domain#R-CuPvSCC,CuPvSCC,"Finds a client accessing a servic
 package#ProcessComms,domain#R-CuvS,CuvS,Finds a client indirectly accessing a process via a credential sharing/forwarding chain.,FALSE,TRUE
 package#ProcessComms,domain#R-CvPuSCC,CvPuSCC,"Finds a client accessing a service via a credential sharing/forwarding chain, where there is more than one intermediary, plus the last intermediary adjacent to the service, and channels between client and service and between this intermediary process and the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CvPvSCC,CvPvSCC,"Finds a client accessing a service via a credential sharing/forwarding chain, where there are at least two intermediaries, plus two adjacent intermediaries, and client channels between client and service and between these two intermediary processes. Note that the link from the client is to the intermediary proxy that is closer to the service, and vice versa. This guarantees that these two links will be usesViaTransparentProxy (indirect) and not accessesService (direct) in the matching system assets.",FALSE,FALSE
-package#ProcessComms,domain#R-CvS,CvS,Finds a client using a service via at least one other process that shares or forwards the client credentials to the service.,FALSE,FALSE
 package#ProcessComms,domain#R-DDoS,DDoS,"Finds a service and client, where the communication path crosses the Internet.",FALSE,FALSE
 package#ProcessComms,domain#R-DFDSCS,DFDSCS,Finds a DataFlow via a DataStep that flows via a ClientChannel in the direction client to service.,FALSE,FALSE
 package#ProcessComms,domain#R-DFDSSC,DFDSSC,Finds a DataFlow via a DataStep that flows via a ClientChannel in the direction service to client.,FALSE,FALSE
@@ -637,6 +639,7 @@ package#ProcessCommsInference,domain#R-CSCsdLS,CSCsdLS,"Finds a Service Channel 
 package#ProcessCommsInference,domain#R-CuSPvS,CuSPvS,Finds a client using a reverse proxy that uses a service.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
+package#ProcessCommsInference,domain#R-DFuCuS,DFuCuS,"Finds a data flow via two processes, one of which is indirectly a client of the other via a chain of credential sharing/forwarding intermediaries.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service channel via a closed subnet (before a subsequent NAT gateway) and a network path into the channel via this subnet traversing a single logical segment.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE
