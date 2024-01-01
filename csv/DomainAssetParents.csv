@@ -17,7 +17,7 @@ package#Application,domain#ApplicationProcess,domain#ProcessPalette
 package#Application,domain#CmdLineProcess,domain#ConsoleProcess
 package#Application,domain#CmdLineProcess,domain#GeneralProcess
 package#Application,domain#CmdLineProcess,domain#ProcessPalette
-package#Application,domain#ConsoleProcess,domain#TypeOverlayProcess
+package#Application,domain#ConsoleProcess,domain#InteractiveProcess
 package#Application,domain#Data,core#Asset
 package#Application,domain#Data,domain#DataPalette
 package#Application,domain#DataPalette,core#PaletteType
@@ -28,10 +28,14 @@ package#Application,domain#DB,domain#ProcessPalette
 package#Application,domain#DesktopService,domain#ProcessPalette
 package#Application,domain#DesktopService,domain#RemoteAccessService
 package#Application,domain#Editor,domain#GeneralProcess
+package#Application,domain#Editor,domain#InteractiveProcess
 package#Application,domain#Editor,domain#ProcessPalette
 package#Application,domain#EmailClient,domain#InteractiveProcess
 package#Application,domain#EmailMX,domain#GeneralProcess
 package#Application,domain#EmailMX,domain#ProcessPalette
+package#Application,domain#InteractiveApplication,domain#ApplicationProcess
+package#Application,domain#InteractiveApplication,domain#InteractiveProcess
+package#Application,domain#InteractiveApplication,domain#ProcessPalette
 package#Application,domain#InteractiveProcess,domain#TypeOverlayProcess
 package#Application,domain#RemoteDesktop,domain#ProcessPalette
 package#Application,domain#RemoteDesktop,domain#RemoteAccessClient

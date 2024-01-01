@@ -22,12 +22,14 @@ package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPsACDSr-pDA.1.6
 package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPsACDSr-pDA.2.6
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.A.PmDFIDADFI.6.2
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.A.PmDFODADFO.6.2
+package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.C.CCDFFS-i.3.6
+package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.C.CCDFTS-i.3.6
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.X.PDF.6
 package#DataLifecycle,domain#CSG-DataFlowEncryptionFromProcess,domain#DF.A.HPDSDADF.6.2
-package#DataLifecycle,domain#CSG-DataFlowSharedKeyInbound,domain#DF.C.CCDFTC.1.6
 package#DataLifecycle,domain#CSG-DataFlowSharedKeyInbound,domain#DF.C.CCDFTC.2.6
-package#DataLifecycle,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.CCDFFC.1.6
-package#DataLifecycle,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.CCDFFC.2.6
+package#DataLifecycle,domain#CSG-DataFlowSharedKeyInbound,domain#DF.C.CCDFTC.3.6
+package#DataLifecycle,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.CCDFFC.3.6
+package#DataLifecycle,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.CC-iDFFC.2.6
 package#DataLifecycle,domain#CSG-DataServiceKey,domain#DB.O.DBsDRSDS.6.1
 package#DataLifecycle,domain#CSG-DataServiceKey,domain#DB.O.HDBsD.6.1
 package#DataLifecycle,domain#CSG-DataStorageEncryption,domain#DS.A.HPmDFDAcDS.6.2

@@ -39,6 +39,7 @@ package#Application,domain#TWAADS-Availability-DB,domain#Availability,domain#DB,
 package#Application,domain#TWAADS-Availability-DesktopService,domain#Availability,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Availability-Editor,domain#Availability,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Availability-EmailMX,domain#Availability,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-Availability-InteractiveApplication,domain#Availability,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Availability-RemoteDesktop,domain#Availability,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Availability-SensitiveData,domain#Availability,domain#SensitiveData,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Availability-SpamData,domain#Availability,domain#SpamData,domain#TrustworthinessLevelSafe,TRUE
@@ -57,6 +58,7 @@ package#Application,domain#TWAADS-DefaultTW-DB,domain#DefaultTW,domain#DB,domain
 package#Application,domain#TWAADS-DefaultTW-DesktopService,domain#DefaultTW,domain#DesktopService,domain#TrustworthinessLevelVeryLow,TRUE
 package#Application,domain#TWAADS-DefaultTW-Editor,domain#DefaultTW,domain#Editor,domain#TrustworthinessLevelVeryLow,TRUE
 package#Application,domain#TWAADS-DefaultTW-EmailMX,domain#DefaultTW,domain#EmailMX,domain#TrustworthinessLevelVeryLow,TRUE
+package#Application,domain#TWAADS-DefaultTW-InteractiveApplication,domain#DefaultTW,domain#InteractiveApplication,domain#TrustworthinessLevelVeryLow,TRUE
 package#Application,domain#TWAADS-DefaultTW-RemoteDesktop,domain#DefaultTW,domain#RemoteDesktop,domain#TrustworthinessLevelVeryLow,TRUE
 package#Application,domain#TWAADS-DefaultTW-SensitiveData,domain#DefaultTW,domain#SensitiveData,domain#TrustworthinessLevelVeryLow,TRUE
 package#Application,domain#TWAADS-DefaultTW-SpamData,domain#DefaultTW,domain#SpamData,domain#TrustworthinessLevelVeryLow,TRUE
@@ -71,6 +73,7 @@ package#Application,domain#TWAADS-ExploitTW-DB,domain#ExploitTW,domain#DB,domain
 package#Application,domain#TWAADS-ExploitTW-DesktopService,domain#ExploitTW,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-ExploitTW-Editor,domain#ExploitTW,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-ExploitTW-EmailMX,domain#ExploitTW,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-ExploitTW-InteractiveApplication,domain#ExploitTW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-ExploitTW-RemoteDesktop,domain#ExploitTW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-ExploitTW-TextEditor,domain#ExploitTW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-ExploitTW-WebApp,domain#ExploitTW,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
@@ -83,6 +86,7 @@ package#Application,domain#TWAADS-ExtrinsicTW-DB,domain#ExtrinsicTW,domain#DB,do
 package#Application,domain#TWAADS-ExtrinsicTW-DesktopService,domain#ExtrinsicTW,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-ExtrinsicTW-Editor,domain#ExtrinsicTW,domain#Editor,domain#TrustworthinessLevelHigh,TRUE
 package#Application,domain#TWAADS-ExtrinsicTW-EmailMX,domain#ExtrinsicTW,domain#EmailMX,domain#TrustworthinessLevelHigh,TRUE
+package#Application,domain#TWAADS-ExtrinsicTW-InteractiveApplication,domain#ExtrinsicTW,domain#InteractiveApplication,domain#TrustworthinessLevelMedium,TRUE
 package#Application,domain#TWAADS-ExtrinsicTW-RemoteDesktop,domain#ExtrinsicTW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-ExtrinsicTW-TextEditor,domain#ExtrinsicTW,domain#TextEditor,domain#TrustworthinessLevelHigh,TRUE
 package#Application,domain#TWAADS-ExtrinsicTW-WebApp,domain#ExtrinsicTW,domain#WebApp,domain#TrustworthinessLevelHigh,TRUE
@@ -96,6 +100,7 @@ package#Application,domain#TWAADS-Health-DB,domain#Health,domain#DB,domain#Trust
 package#Application,domain#TWAADS-Health-DesktopService,domain#Health,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Health-Editor,domain#Health,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Health-EmailMX,domain#Health,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-Health-InteractiveApplication,domain#Health,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Health-RemoteDesktop,domain#Health,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Health-SensitiveData,domain#Health,domain#SensitiveData,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Health-SpamData,domain#Health,domain#SpamData,domain#TrustworthinessLevelSafe,TRUE
@@ -113,6 +118,7 @@ package#Application,domain#TWAADS-IntrinsicTW-DB,domain#IntrinsicTW,domain#DB,do
 package#Application,domain#TWAADS-IntrinsicTW-DesktopService,domain#IntrinsicTW,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-IntrinsicTW-Editor,domain#IntrinsicTW,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-IntrinsicTW-EmailMX,domain#IntrinsicTW,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-IntrinsicTW-InteractiveApplication,domain#IntrinsicTW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-IntrinsicTW-RemoteDesktop,domain#IntrinsicTW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-IntrinsicTW-TextEditor,domain#IntrinsicTW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-IntrinsicTW-WebApp,domain#IntrinsicTW,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
@@ -125,6 +131,7 @@ package#Application,domain#TWAADS-OutOfService-DB,domain#OutOfService,domain#DB,
 package#Application,domain#TWAADS-OutOfService-DesktopService,domain#OutOfService,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-OutOfService-Editor,domain#OutOfService,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-OutOfService-EmailMX,domain#OutOfService,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-OutOfService-InteractiveApplication,domain#OutOfService,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-OutOfService-RemoteDesktop,domain#OutOfService,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-OutOfService-TextEditor,domain#OutOfService,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-OutOfService-WebApp,domain#OutOfService,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
@@ -137,6 +144,7 @@ package#Application,domain#TWAADS-Reliability-DB,domain#Reliability,domain#DB,do
 package#Application,domain#TWAADS-Reliability-DesktopService,domain#Reliability,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Reliability-Editor,domain#Reliability,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Reliability-EmailMX,domain#Reliability,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-Reliability-InteractiveApplication,domain#Reliability,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Reliability-RemoteDesktop,domain#Reliability,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Reliability-TextEditor,domain#Reliability,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Reliability-WebApp,domain#Reliability,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
@@ -157,6 +165,7 @@ package#Application,domain#TWAADS-Timeliness-EmailClient,domain#Timeliness,domai
 package#Application,domain#TWAADS-Timeliness-EmailMX,domain#Timeliness,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-EmailService,domain#Timeliness,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-Human,domain#Timeliness,domain#Human,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-Timeliness-InteractiveApplication,domain#Timeliness,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-LoginService,domain#Timeliness,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-RemoteDesktop,domain#Timeliness,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-RemoteTerminal,domain#Timeliness,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
@@ -174,6 +183,7 @@ package#Application,domain#TWAADS-TrojanTW-DB,domain#TrojanTW,domain#DB,domain#T
 package#Application,domain#TWAADS-TrojanTW-DesktopService,domain#TrojanTW,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-TrojanTW-Editor,domain#TrojanTW,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-TrojanTW-EmailMX,domain#TrojanTW,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-TrojanTW-InteractiveApplication,domain#TrojanTW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-TrojanTW-RemoteDesktop,domain#TrojanTW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-TrojanTW-TextEditor,domain#TrojanTW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-TrojanTW-WebApp,domain#TrojanTW,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
@@ -186,6 +196,7 @@ package#Application,domain#TWAADS-UserTW-DB,domain#UserTW,domain#DB,domain#Trust
 package#Application,domain#TWAADS-UserTW-DesktopService,domain#UserTW,domain#DesktopService,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-UserTW-Editor,domain#UserTW,domain#Editor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-UserTW-EmailMX,domain#UserTW,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-UserTW-InteractiveApplication,domain#UserTW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-UserTW-RemoteDesktop,domain#UserTW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-UserTW-TextEditor,domain#UserTW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-UserTW-WebApp,domain#UserTW,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
@@ -757,6 +768,7 @@ package#Theft,domain#TWAADS-OwnerControl-EmailService,domain#OwnerControl,domain
 package#Theft,domain#TWAADS-OwnerControl-HealthSensor,domain#OwnerControl,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-HostContext,domain#OwnerControl,domain#HostContext,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-HostNetContext,domain#OwnerControl,domain#HostNetContext,domain#TrustworthinessLevelSafe,TRUE
+package#Theft,domain#TWAADS-OwnerControl-InteractiveApplication,domain#OwnerControl,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-LoginService,domain#OwnerControl,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-MobileClient,domain#OwnerControl,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-Notebook,domain#OwnerControl,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
@@ -889,6 +901,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-EmailMX,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-EmailService,domain#Extrinsic-A-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-HealthSensor,domain#Extrinsic-A-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Ingress,domain#Extrinsic-A-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-InteractiveApplication,domain#Extrinsic-A-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-LoginService,domain#Extrinsic-A-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Master,domain#Extrinsic-A-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-MobileClient,domain#Extrinsic-A-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -935,6 +948,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-EmailMX,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-EmailService,domain#Extrinsic-AU-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-HealthSensor,domain#Extrinsic-AU-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Ingress,domain#Extrinsic-AU-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-InteractiveApplication,domain#Extrinsic-AU-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-LoginService,domain#Extrinsic-AU-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Master,domain#Extrinsic-AU-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-MobileClient,domain#Extrinsic-AU-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -981,6 +995,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-EmailMX,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-EmailService,domain#Extrinsic-C-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-HealthSensor,domain#Extrinsic-C-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Ingress,domain#Extrinsic-C-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-InteractiveApplication,domain#Extrinsic-C-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-LoginService,domain#Extrinsic-C-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Master,domain#Extrinsic-C-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-MobileClient,domain#Extrinsic-C-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1027,6 +1042,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-EmailMX,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-EmailService,domain#Extrinsic-I-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-HealthSensor,domain#Extrinsic-I-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Ingress,domain#Extrinsic-I-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-InteractiveApplication,domain#Extrinsic-I-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-LoginService,domain#Extrinsic-I-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Master,domain#Extrinsic-I-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-MobileClient,domain#Extrinsic-I-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1073,6 +1089,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-EmailMX,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-EmailService,domain#Extrinsic-M-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-HealthSensor,domain#Extrinsic-M-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Ingress,domain#Extrinsic-M-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-InteractiveApplication,domain#Extrinsic-M-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-LoginService,domain#Extrinsic-M-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Master,domain#Extrinsic-M-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-MobileClient,domain#Extrinsic-M-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1113,6 +1130,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-EmailClient,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-EmailMX,domain#Extrinsic-QI-TW,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-EmailService,domain#Extrinsic-QI-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-Ingress,domain#Extrinsic-QI-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-InteractiveApplication,domain#Extrinsic-QI-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-LoginService,domain#Extrinsic-QI-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-RemoteDesktop,domain#Extrinsic-QI-TW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-RemoteTerminal,domain#Extrinsic-QI-TW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
@@ -1143,6 +1161,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-EmailMX,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-EmailService,domain#Extrinsic-U-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-HealthSensor,domain#Extrinsic-U-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Ingress,domain#Extrinsic-U-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-InteractiveApplication,domain#Extrinsic-U-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-LoginService,domain#Extrinsic-U-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Master,domain#Extrinsic-U-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-MobileClient,domain#Extrinsic-U-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1189,6 +1208,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-EmailMX,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-EmailService,domain#Extrinsic-VA-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-HealthSensor,domain#Extrinsic-VA-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Ingress,domain#Extrinsic-VA-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-InteractiveApplication,domain#Extrinsic-VA-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-LoginService,domain#Extrinsic-VA-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Master,domain#Extrinsic-VA-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-MobileClient,domain#Extrinsic-VA-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1235,6 +1255,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-EmailMX,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-EmailService,domain#Extrinsic-VL-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-HealthSensor,domain#Extrinsic-VL-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Ingress,domain#Extrinsic-VL-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-InteractiveApplication,domain#Extrinsic-VL-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-LoginService,domain#Extrinsic-VL-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Master,domain#Extrinsic-VL-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-MobileClient,domain#Extrinsic-VL-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1281,6 +1302,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-EmailMX,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-EmailService,domain#Extrinsic-VN-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-HealthSensor,domain#Extrinsic-VN-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Ingress,domain#Extrinsic-VN-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-InteractiveApplication,domain#Extrinsic-VN-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-LoginService,domain#Extrinsic-VN-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Master,domain#Extrinsic-VN-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-MobileClient,domain#Extrinsic-VN-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1327,6 +1349,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-EmailMX,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-EmailService,domain#Extrinsic-W-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-HealthSensor,domain#Extrinsic-W-TW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Ingress,domain#Extrinsic-W-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-InteractiveApplication,domain#Extrinsic-W-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-LoginService,domain#Extrinsic-W-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Master,domain#Extrinsic-W-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-MobileClient,domain#Extrinsic-W-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
@@ -1367,6 +1390,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-EmailClient,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-EmailMX,domain#Extrinsic-XS-TW,domain#EmailMX,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-EmailService,domain#Extrinsic-XS-TW,domain#EmailService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-Ingress,domain#Extrinsic-XS-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-InteractiveApplication,domain#Extrinsic-XS-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-LoginService,domain#Extrinsic-XS-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-RemoteDesktop,domain#Extrinsic-XS-TW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-RemoteTerminal,domain#Extrinsic-XS-TW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE

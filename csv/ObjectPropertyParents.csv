@@ -29,7 +29,6 @@ package#IoT,domain#amendsSensor,domain#pollsSensor
 package#IoT,domain#readsSensor,domain#pollsSensor
 package#IoT,domain#updatesSensor,domain#controlsSensor
 package#IoT,domain#updatesSensor,domain#readsSensor
-package#Network,domain#accessesService,domain#usesIndirectly
 package#Network,domain#interactsWith,domain#interactsRemotelyWith
 package#Network,domain#locatedIn,domain#mayBeIn
 package#Network,domain#uses,domain#usesService
@@ -40,3 +39,7 @@ package#ProcessComms,domain#flowsViaCS,domain#flowsViaChannel
 package#ProcessComms,domain#flowsViaSC,domain#flowsViaChannel
 package#ProcessComms,domain#proxyAuthN,domain#noAuthN
 package#ProcessComms,domain#proxyAuthN,domain#sharesCredentials
+package#ProcessComms,domain#usesAsProxy,domain#viaProxies
+package#ProcessComms,domain#usesViaProxy,domain#usesIndirectly
+package#ProcessComms,domain#usesViaProxy,domain#viaProxies
+package#ProcessComms,domain#viaSharedCredentials,domain#usesIndirectly

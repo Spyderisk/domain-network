@@ -203,6 +203,8 @@ package#ProcessComms,domain#usesAsProxy,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#LogicalSegment
 package#ProcessComms,domain#usesViaProxy,domain#Process
 package#ProcessComms,domain#viaInterface,domain#Interface
+package#ProcessComms,domain#viaProxies,domain#Process
+package#ProcessComms,domain#viaProxy,domain#Process
 package#ProcessComms,domain#viaSharedCredentials,domain#Process
 package#ProcessComms,domain#viaSubnet,domain#LogicalSubnet
 package#ProcessCommsInference,domain#fromSpace,domain#Space

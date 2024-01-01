@@ -70,6 +70,7 @@ package#Application,domain#CAS-AccessControl-DB,domain#DB,domain#AccessControl,T
 package#Application,domain#CAS-AccessControl-DesktopService,domain#DesktopService,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-Editor,domain#Editor,domain#AccessControl,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-EmailMX,domain#EmailMX,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-AccessControl-InteractiveApplication,domain#InteractiveApplication,domain#AccessControl,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-RemoteDesktop,domain#RemoteDesktop,domain#AccessControl,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-TextEditor,domain#TextEditor,domain#AccessControl,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-WebApp,domain#WebApp,domain#AccessControl,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -85,6 +86,7 @@ package#Application,domain#CAS-AuthenticationLimits-DB,domain#DB,domain#Authenti
 package#Application,domain#CAS-AuthenticationLimits-DesktopService,domain#DesktopService,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AuthenticationLimits-Editor,domain#Editor,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AuthenticationLimits-EmailMX,domain#EmailMX,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-AuthenticationLimits-InteractiveApplication,domain#InteractiveApplication,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AuthenticationLimits-RemoteDesktop,domain#RemoteDesktop,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AuthenticationLimits-TextEditor,domain#TextEditor,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AuthenticationLimits-WebApp,domain#WebApp,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -97,6 +99,7 @@ package#Application,domain#CAS-ContinuousAuthVerifier-DB,domain#DB,domain#Contin
 package#Application,domain#CAS-ContinuousAuthVerifier-DesktopService,domain#DesktopService,domain#ContinuousAuthVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ContinuousAuthVerifier-Editor,domain#Editor,domain#ContinuousAuthVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ContinuousAuthVerifier-EmailMX,domain#EmailMX,domain#ContinuousAuthVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-ContinuousAuthVerifier-InteractiveApplication,domain#InteractiveApplication,domain#ContinuousAuthVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ContinuousAuthVerifier-RemoteDesktop,domain#RemoteDesktop,domain#ContinuousAuthVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ContinuousAuthVerifier-TextEditor,domain#TextEditor,domain#ContinuousAuthVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ContinuousAuthVerifier-WebApp,domain#WebApp,domain#ContinuousAuthVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -109,6 +112,7 @@ package#Application,domain#CAS-DisabledProcess-DB,domain#DB,domain#DisabledProce
 package#Application,domain#CAS-DisabledProcess-DesktopService,domain#DesktopService,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-DisabledProcess-Editor,domain#Editor,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-DisabledProcess-EmailMX,domain#EmailMX,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-DisabledProcess-InteractiveApplication,domain#InteractiveApplication,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-DisabledProcess-RemoteDesktop,domain#RemoteDesktop,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-DisabledProcess-TextEditor,domain#TextEditor,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-DisabledProcess-WebApp,domain#WebApp,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -121,6 +125,7 @@ package#Application,domain#CAS-FormalVerification-DB,domain#DB,domain#FormalVeri
 package#Application,domain#CAS-FormalVerification-DesktopService,domain#DesktopService,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-FormalVerification-Editor,domain#Editor,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-FormalVerification-EmailMX,domain#EmailMX,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-FormalVerification-InteractiveApplication,domain#InteractiveApplication,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-FormalVerification-RemoteDesktop,domain#RemoteDesktop,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-FormalVerification-TextEditor,domain#TextEditor,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-FormalVerification-WebApp,domain#WebApp,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -133,6 +138,7 @@ package#Application,domain#CAS-HomomorphicEncryption-DB,domain#DB,domain#Homomor
 package#Application,domain#CAS-HomomorphicEncryption-DesktopService,domain#DesktopService,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-HomomorphicEncryption-Editor,domain#Editor,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-HomomorphicEncryption-EmailMX,domain#EmailMX,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-HomomorphicEncryption-InteractiveApplication,domain#InteractiveApplication,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-HomomorphicEncryption-RemoteDesktop,domain#RemoteDesktop,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-HomomorphicEncryption-TextEditor,domain#TextEditor,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-HomomorphicEncryption-WebApp,domain#WebApp,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -145,6 +151,7 @@ package#Application,domain#CAS-KeyManagement-DB,domain#DB,domain#KeyManagement,T
 package#Application,domain#CAS-KeyManagement-DesktopService,domain#DesktopService,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-KeyManagement-Editor,domain#Editor,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-KeyManagement-EmailMX,domain#EmailMX,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-KeyManagement-InteractiveApplication,domain#InteractiveApplication,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-KeyManagement-RemoteDesktop,domain#RemoteDesktop,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-KeyManagement-TextEditor,domain#TextEditor,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-KeyManagement-WebApp,domain#WebApp,domain#KeyManagement,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -157,6 +164,7 @@ package#Application,domain#CAS-Logging-DB,domain#DB,domain#Logging,TRUE,domain#T
 package#Application,domain#CAS-Logging-DesktopService,domain#DesktopService,domain#Logging,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-Logging-Editor,domain#Editor,domain#Logging,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-Logging-EmailMX,domain#EmailMX,domain#Logging,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-Logging-InteractiveApplication,domain#InteractiveApplication,domain#Logging,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-Logging-RemoteDesktop,domain#RemoteDesktop,domain#Logging,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-Logging-TextEditor,domain#TextEditor,domain#Logging,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-Logging-WebApp,domain#WebApp,domain#Logging,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -169,6 +177,7 @@ package#Application,domain#CAS-LowPriority-DB,domain#DB,domain#LowPriority,TRUE,
 package#Application,domain#CAS-LowPriority-DesktopService,domain#DesktopService,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-LowPriority-Editor,domain#Editor,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-LowPriority-EmailMX,domain#EmailMX,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-LowPriority-InteractiveApplication,domain#InteractiveApplication,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-LowPriority-RemoteDesktop,domain#RemoteDesktop,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-LowPriority-TextEditor,domain#TextEditor,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-LowPriority-WebApp,domain#WebApp,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -181,6 +190,7 @@ package#Application,domain#CAS-OneTimeKeyVerifier-DB,domain#DB,domain#OneTimeKey
 package#Application,domain#CAS-OneTimeKeyVerifier-DesktopService,domain#DesktopService,domain#OneTimeKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OneTimeKeyVerifier-Editor,domain#Editor,domain#OneTimeKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OneTimeKeyVerifier-EmailMX,domain#EmailMX,domain#OneTimeKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-OneTimeKeyVerifier-InteractiveApplication,domain#InteractiveApplication,domain#OneTimeKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OneTimeKeyVerifier-RemoteDesktop,domain#RemoteDesktop,domain#OneTimeKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OneTimeKeyVerifier-TextEditor,domain#TextEditor,domain#OneTimeKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OneTimeKeyVerifier-WebApp,domain#WebApp,domain#OneTimeKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -193,6 +203,7 @@ package#Application,domain#CAS-OutOfBandKeyVerifier-DB,domain#DB,domain#OutOfBan
 package#Application,domain#CAS-OutOfBandKeyVerifier-DesktopService,domain#DesktopService,domain#OutOfBandKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OutOfBandKeyVerifier-Editor,domain#Editor,domain#OutOfBandKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OutOfBandKeyVerifier-EmailMX,domain#EmailMX,domain#OutOfBandKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-OutOfBandKeyVerifier-InteractiveApplication,domain#InteractiveApplication,domain#OutOfBandKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OutOfBandKeyVerifier-RemoteDesktop,domain#RemoteDesktop,domain#OutOfBandKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OutOfBandKeyVerifier-TextEditor,domain#TextEditor,domain#OutOfBandKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-OutOfBandKeyVerifier-WebApp,domain#WebApp,domain#OutOfBandKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -205,6 +216,7 @@ package#Application,domain#CAS-Password-DB,domain#DB,domain#Password,TRUE,domain
 package#Application,domain#CAS-Password-DesktopService,domain#DesktopService,domain#Password,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-Password-Editor,domain#Editor,domain#Password,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-Password-EmailMX,domain#EmailMX,domain#Password,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-Password-InteractiveApplication,domain#InteractiveApplication,domain#Password,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-ApplicationProcess,domain#ApplicationProcess,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-CmdLineProcess,domain#CmdLineProcess,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-DataService,domain#DataService,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -212,6 +224,7 @@ package#Application,domain#CAS-PasswordQualityCheck-DB,domain#DB,domain#Password
 package#Application,domain#CAS-PasswordQualityCheck-DesktopService,domain#DesktopService,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-Editor,domain#Editor,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-EmailMX,domain#EmailMX,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-PasswordQualityCheck-InteractiveApplication,domain#InteractiveApplication,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-RemoteDesktop,domain#RemoteDesktop,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-TextEditor,domain#TextEditor,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordQualityCheck-WebApp,domain#WebApp,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -225,6 +238,7 @@ package#Application,domain#CAS-PasswordReset-DB,domain#DB,domain#PasswordReset,F
 package#Application,domain#CAS-PasswordReset-DesktopService,domain#DesktopService,domain#PasswordReset,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordReset-Editor,domain#Editor,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordReset-EmailMX,domain#EmailMX,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-PasswordReset-InteractiveApplication,domain#InteractiveApplication,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordReset-RemoteDesktop,domain#RemoteDesktop,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordReset-TextEditor,domain#TextEditor,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordReset-WebApp,domain#WebApp,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -237,6 +251,7 @@ package#Application,domain#CAS-PasswordStore-DB,domain#DB,domain#PasswordStore,F
 package#Application,domain#CAS-PasswordStore-DesktopService,domain#DesktopService,domain#PasswordStore,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordStore-Editor,domain#Editor,domain#PasswordStore,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordStore-EmailMX,domain#EmailMX,domain#PasswordStore,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-PasswordStore-InteractiveApplication,domain#InteractiveApplication,domain#PasswordStore,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordStore-RemoteDesktop,domain#RemoteDesktop,domain#PasswordStore,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordStore-TextEditor,domain#TextEditor,domain#PasswordStore,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordStore-WebApp,domain#WebApp,domain#PasswordStore,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -250,6 +265,7 @@ package#Application,domain#CAS-PasswordVerifier-DB,domain#DB,domain#PasswordVeri
 package#Application,domain#CAS-PasswordVerifier-DesktopService,domain#DesktopService,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordVerifier-Editor,domain#Editor,domain#PasswordVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordVerifier-EmailMX,domain#EmailMX,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-PasswordVerifier-InteractiveApplication,domain#InteractiveApplication,domain#PasswordVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordVerifier-RemoteDesktop,domain#RemoteDesktop,domain#PasswordVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordVerifier-TextEditor,domain#TextEditor,domain#PasswordVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PasswordVerifier-WebApp,domain#WebApp,domain#PasswordVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -265,6 +281,7 @@ package#Application,domain#CAS-PenetrationTesting-DB,domain#DB,domain#Penetratio
 package#Application,domain#CAS-PenetrationTesting-DesktopService,domain#DesktopService,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PenetrationTesting-Editor,domain#Editor,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PenetrationTesting-EmailMX,domain#EmailMX,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-PenetrationTesting-InteractiveApplication,domain#InteractiveApplication,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PenetrationTesting-RemoteDesktop,domain#RemoteDesktop,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PenetrationTesting-TextEditor,domain#TextEditor,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-PenetrationTesting-WebApp,domain#WebApp,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -277,6 +294,7 @@ package#Application,domain#CAS-ProcessMonitoring-DB,domain#DB,domain#ProcessMoni
 package#Application,domain#CAS-ProcessMonitoring-DesktopService,domain#DesktopService,domain#ProcessMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ProcessMonitoring-Editor,domain#Editor,domain#ProcessMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ProcessMonitoring-EmailMX,domain#EmailMX,domain#ProcessMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-ProcessMonitoring-InteractiveApplication,domain#InteractiveApplication,domain#ProcessMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ProcessMonitoring-RemoteDesktop,domain#RemoteDesktop,domain#ProcessMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ProcessMonitoring-TextEditor,domain#TextEditor,domain#ProcessMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-ProcessMonitoring-WebApp,domain#WebApp,domain#ProcessMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -290,6 +308,7 @@ package#Application,domain#CAS-SecureExecution-DB,domain#DB,domain#SecureExecuti
 package#Application,domain#CAS-SecureExecution-DesktopService,domain#DesktopService,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SecureExecution-Editor,domain#Editor,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SecureExecution-EmailMX,domain#EmailMX,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-SecureExecution-InteractiveApplication,domain#InteractiveApplication,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SecureExecution-RemoteDesktop,domain#RemoteDesktop,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SecureExecution-TextEditor,domain#TextEditor,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SecureExecution-WebApp,domain#WebApp,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -302,6 +321,7 @@ package#Application,domain#CAS-SoftwareCertification-DB,domain#DB,domain#Softwar
 package#Application,domain#CAS-SoftwareCertification-DesktopService,domain#DesktopService,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareCertification-Editor,domain#Editor,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareCertification-EmailMX,domain#EmailMX,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-SoftwareCertification-InteractiveApplication,domain#InteractiveApplication,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareCertification-RemoteDesktop,domain#RemoteDesktop,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareCertification-TextEditor,domain#TextEditor,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareCertification-WebApp,domain#WebApp,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -314,6 +334,7 @@ package#Application,domain#CAS-SoftwarePatched-DB,domain#DB,domain#SoftwarePatch
 package#Application,domain#CAS-SoftwarePatched-DesktopService,domain#DesktopService,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwarePatched-Editor,domain#Editor,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwarePatched-EmailMX,domain#EmailMX,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-SoftwarePatched-InteractiveApplication,domain#InteractiveApplication,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwarePatched-RemoteDesktop,domain#RemoteDesktop,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwarePatched-TextEditor,domain#TextEditor,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwarePatched-WebApp,domain#WebApp,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -326,6 +347,7 @@ package#Application,domain#CAS-SoftwareTesting-DB,domain#DB,domain#SoftwareTesti
 package#Application,domain#CAS-SoftwareTesting-DesktopService,domain#DesktopService,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareTesting-Editor,domain#Editor,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareTesting-EmailMX,domain#EmailMX,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-SoftwareTesting-InteractiveApplication,domain#InteractiveApplication,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareTesting-RemoteDesktop,domain#RemoteDesktop,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareTesting-TextEditor,domain#TextEditor,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SoftwareTesting-WebApp,domain#WebApp,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -341,6 +363,7 @@ package#Application,domain#CAS-SuspendInfectedProcess-DB,domain#DB,domain#Suspen
 package#Application,domain#CAS-SuspendInfectedProcess-DesktopService,domain#DesktopService,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-Editor,domain#Editor,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-EmailMX,domain#EmailMX,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-SuspendInfectedProcess-InteractiveApplication,domain#InteractiveApplication,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-RemoteDesktop,domain#RemoteDesktop,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-TextEditor,domain#TextEditor,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-WebApp,domain#WebApp,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -353,6 +376,7 @@ package#Application,domain#CAS-SuspendVulnerableService-DB,domain#DB,domain#Susp
 package#Application,domain#CAS-SuspendVulnerableService-DesktopService,domain#DesktopService,domain#SuspendVulnerableService,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendVulnerableService-Editor,domain#Editor,domain#SuspendVulnerableService,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendVulnerableService-EmailMX,domain#EmailMX,domain#SuspendVulnerableService,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-SuspendVulnerableService-InteractiveApplication,domain#InteractiveApplication,domain#SuspendVulnerableService,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendVulnerableService-RemoteDesktop,domain#RemoteDesktop,domain#SuspendVulnerableService,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendVulnerableService-TextEditor,domain#TextEditor,domain#SuspendVulnerableService,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendVulnerableService-WebApp,domain#WebApp,domain#SuspendVulnerableService,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -365,6 +389,7 @@ package#Application,domain#CAS-TLS-DB,domain#DB,domain#TLS,TRUE,domain#Trustwort
 package#Application,domain#CAS-TLS-DesktopService,domain#DesktopService,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-TLS-Editor,domain#Editor,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-TLS-EmailMX,domain#EmailMX,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-TLS-InteractiveApplication,domain#InteractiveApplication,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-TLS-RemoteDesktop,domain#RemoteDesktop,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-TLS-TextEditor,domain#TextEditor,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-TLS-WebApp,domain#WebApp,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -378,6 +403,7 @@ package#Application,domain#CAS-X509ClientVerifier-DB,domain#DB,domain#X509Client
 package#Application,domain#CAS-X509ClientVerifier-DesktopService,domain#DesktopService,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ClientVerifier-Editor,domain#Editor,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ClientVerifier-EmailMX,domain#EmailMX,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-X509ClientVerifier-InteractiveApplication,domain#InteractiveApplication,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ClientVerifier-RemoteDesktop,domain#RemoteDesktop,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ClientVerifier-TextEditor,domain#TextEditor,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ClientVerifier-WebApp,domain#WebApp,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -389,6 +415,7 @@ package#Application,domain#CAS-X509-DB,domain#DB,domain#X509,TRUE,domain#Trustwo
 package#Application,domain#CAS-X509-DesktopService,domain#DesktopService,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509-Editor,domain#Editor,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509-EmailMX,domain#EmailMX,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-X509-InteractiveApplication,domain#InteractiveApplication,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509-RemoteDesktop,domain#RemoteDesktop,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ServiceVerifier-ApplicationProcess,domain#ApplicationProcess,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ServiceVerifier-CmdLineProcess,domain#CmdLineProcess,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -397,6 +424,7 @@ package#Application,domain#CAS-X509ServiceVerifier-DB,domain#DB,domain#X509Servi
 package#Application,domain#CAS-X509ServiceVerifier-DesktopService,domain#DesktopService,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ServiceVerifier-Editor,domain#Editor,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ServiceVerifier-EmailMX,domain#EmailMX,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-X509ServiceVerifier-InteractiveApplication,domain#InteractiveApplication,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ServiceVerifier-RemoteDesktop,domain#RemoteDesktop,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ServiceVerifier-TextEditor,domain#TextEditor,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-X509ServiceVerifier-WebApp,domain#WebApp,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -413,6 +441,7 @@ package#Application,domain#CAS-XSSSanitisation-DB,domain#DB,domain#XSSSanitisati
 package#Application,domain#CAS-XSSSanitisation-DesktopService,domain#DesktopService,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-XSSSanitisation-Editor,domain#Editor,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-XSSSanitisation-EmailMX,domain#EmailMX,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-XSSSanitisation-InteractiveApplication,domain#InteractiveApplication,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-XSSSanitisation-RemoteDesktop,domain#RemoteDesktop,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-XSSSanitisation-TextEditor,domain#TextEditor,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-XSSSanitisation-WebApp,domain#WebApp,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -447,6 +476,7 @@ package#CloudManagement,domain#CAS-AutoDataGovernance-EmailClient,domain#EmailCl
 package#CloudManagement,domain#CAS-AutoDataGovernance-EmailMX,domain#EmailMX,domain#AutoDataGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-EmailService,domain#EmailService,domain#AutoDataGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-Ingress,domain#Ingress,domain#AutoDataGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#CloudManagement,domain#CAS-AutoDataGovernance-InteractiveApplication,domain#InteractiveApplication,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-LoginService,domain#LoginService,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-RemoteDesktop,domain#RemoteDesktop,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-RemoteTerminal,domain#RemoteTerminal,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -462,6 +492,8 @@ package#CloudManagement,domain#CAS-AutoProvisioning-Pod,domain#Pod,domain#AutoPr
 package#CloudManagement,domain#CAS-AutoProvisioning-VCluster,domain#VCluster,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoProvisioning-VRouter,domain#VRouter,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoProvisioning-Worker,domain#Worker,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#CloudManagement,domain#CAS-ClearDeputy-APIServer,domain#APIServer,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#CloudManagement,domain#CAS-ClearDeputy-Ingress,domain#Ingress,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#CloudManagement,domain#CAS-Clustering-Worker,domain#Worker,domain#Clustering,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-ConsentEnforcement-APIServer,domain#APIServer,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-ConsentEnforcement-Ingress,domain#Ingress,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -665,6 +697,7 @@ package#GDPR,domain#CAS-GDPRGovernance-EmailClient,domain#EmailClient,domain#GDP
 package#GDPR,domain#CAS-GDPRGovernance-EmailMX,domain#EmailMX,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-EmailService,domain#EmailService,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-Ingress,domain#Ingress,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#GDPR,domain#CAS-GDPRGovernance-InteractiveApplication,domain#InteractiveApplication,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-LoginService,domain#LoginService,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-RemoteDesktop,domain#RemoteDesktop,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-RemoteTerminal,domain#RemoteTerminal,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1567,6 +1600,7 @@ package#Privacy,domain#CAS-ConsentEnforcement-Editor,domain#Editor,domain#Consen
 package#Privacy,domain#CAS-ConsentEnforcement-EmailClient,domain#EmailClient,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-EmailMX,domain#EmailMX,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-EmailService,domain#EmailService,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-ConsentEnforcement-InteractiveApplication,domain#InteractiveApplication,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-LoginService,domain#LoginService,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-RemoteDesktop,domain#RemoteDesktop,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-RemoteTerminal,domain#RemoteTerminal,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1641,6 +1675,7 @@ package#Privacy,domain#CAS-VitalInterests-Editor,domain#Editor,domain#VitalInter
 package#Privacy,domain#CAS-VitalInterests-EmailClient,domain#EmailClient,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-EmailMX,domain#EmailMX,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-EmailService,domain#EmailService,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-VitalInterests-InteractiveApplication,domain#InteractiveApplication,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-LoginService,domain#LoginService,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-RemoteDesktop,domain#RemoteDesktop,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-RemoteTerminal,domain#RemoteTerminal,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1658,6 +1693,29 @@ package#ProcessComms,domain#CAS-AccessControl-ServiceProxy,domain#ServiceProxy,d
 package#ProcessComms,domain#CAS-AddressWhitelisting-ServiceChannel,domain#ServiceChannel,domain#AddressWhitelisting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-ApplicationFW-ServiceProxy,domain#ServiceProxy,domain#ApplicationFW,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-AuthenticationLimits-ServiceProxy,domain#ServiceProxy,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#CAS-ClearDeputy-ApplicationProcess,domain#ApplicationProcess,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-AuthClient,domain#AuthClient,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-AuthService,domain#AuthService,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-CmdLineProcess,domain#CmdLineProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-ControlProcess,domain#ControlProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-DataService,domain#DataService,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-DB,domain#DB,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-DesktopService,domain#DesktopService,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-Editor,domain#Editor,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-EmailClient,domain#EmailClient,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-EmailMX,domain#EmailMX,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-EmailService,domain#EmailService,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-InteractiveApplication,domain#InteractiveApplication,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-LoginService,domain#LoginService,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-RemoteDesktop,domain#RemoteDesktop,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-RemoteTerminal,domain#RemoteTerminal,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-SensorProcess,domain#SensorProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-ServiceProxy,domain#ServiceProxy,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-SMSClient,domain#SMSClient,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-TextEditor,domain#TextEditor,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-WebApp,domain#WebApp,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-WebBrowser,domain#WebBrowser,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessComms,domain#CAS-ClearDeputy-WebClient,domain#WebClient,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessComms,domain#CAS-ContinuousAuthVerifier-ServiceProxy,domain#ServiceProxy,domain#ContinuousAuthVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisableClientAccess-ClientChannel,domain#ClientChannel,domain#DisableClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#CAS-DisabledProcess-ServiceProxy,domain#ServiceProxy,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE

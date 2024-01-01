@@ -146,6 +146,7 @@ package#Privacy,domain#ImpersonalData,domain#Thing
 package#Privacy,domain#VitalInterests,domain#Process
 package#ProcessComms,domain#AddressWhitelisting,domain#ServiceChannel
 package#ProcessComms,domain#ApplicationFW,domain#ServiceProxy
+package#ProcessComms,domain#ClearDeputy,domain#Process
 package#ProcessComms,domain#DisableClientAccess,domain#ClientChannel
 package#ProcessComms,domain#DisableServiceChannel,domain#ServiceChannel
 package#ProcessComms,domain#SuspendExcessiveClientAccess,domain#ClientChannel

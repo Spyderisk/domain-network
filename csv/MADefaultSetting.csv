@@ -39,6 +39,7 @@ package#Application,domain#MADS-InService-DB,domain#DB,domain#InService,domain#I
 package#Application,domain#MADS-InService-DesktopService,domain#DesktopService,domain#InService,domain#ImpactLevelNegligible
 package#Application,domain#MADS-InService-Editor,domain#Editor,domain#InService,domain#ImpactLevelNegligible
 package#Application,domain#MADS-InService-EmailMX,domain#EmailMX,domain#InService,domain#ImpactLevelNegligible
+package#Application,domain#MADS-InService-InteractiveApplication,domain#InteractiveApplication,domain#InService,domain#ImpactLevelNegligible
 package#Application,domain#MADS-InService-RemoteDesktop,domain#RemoteDesktop,domain#InService,domain#ImpactLevelNegligible
 package#Application,domain#MADS-InService-TextEditor,domain#TextEditor,domain#InService,domain#ImpactLevelNegligible
 package#Application,domain#MADS-InService-WebApp,domain#WebApp,domain#InService,domain#ImpactLevelNegligible
@@ -51,6 +52,7 @@ package#Application,domain#MADS-LocalLossOfUserTW-DB,domain#DB,domain#LocalLossO
 package#Application,domain#MADS-LocalLossOfUserTW-DesktopService,domain#DesktopService,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LocalLossOfUserTW-Editor,domain#Editor,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LocalLossOfUserTW-EmailMX,domain#EmailMX,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LocalLossOfUserTW-InteractiveApplication,domain#InteractiveApplication,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LocalLossOfUserTW-RemoteDesktop,domain#RemoteDesktop,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LocalLossOfUserTW-TextEditor,domain#TextEditor,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LocalLossOfUserTW-WebApp,domain#WebApp,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
@@ -67,6 +69,7 @@ package#Application,domain#MADS-LossOfAvailability-DB,domain#DB,domain#LossOfAva
 package#Application,domain#MADS-LossOfAvailability-DesktopService,domain#DesktopService,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfAvailability-Editor,domain#Editor,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfAvailability-EmailMX,domain#EmailMX,domain#LossOfAvailability,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfAvailability-InteractiveApplication,domain#InteractiveApplication,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfAvailability-RemoteDesktop,domain#RemoteDesktop,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfAvailability-SensitiveData,domain#SensitiveData,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfAvailability-SpamData,domain#SpamData,domain#LossOfAvailability,domain#ImpactLevelNegligible
@@ -85,6 +88,7 @@ package#Application,domain#MADS-LossOfDefaultTW-DB,domain#DB,domain#LossOfDefaul
 package#Application,domain#MADS-LossOfDefaultTW-DesktopService,domain#DesktopService,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfDefaultTW-Editor,domain#Editor,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfDefaultTW-EmailMX,domain#EmailMX,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfDefaultTW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfDefaultTW-RemoteDesktop,domain#RemoteDesktop,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfDefaultTW-SensitiveData,domain#SensitiveData,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfDefaultTW-SpamData,domain#SpamData,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
@@ -99,6 +103,7 @@ package#Application,domain#MADS-LossOfExploitTW-DB,domain#DB,domain#LossOfExploi
 package#Application,domain#MADS-LossOfExploitTW-DesktopService,domain#DesktopService,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExploitTW-Editor,domain#Editor,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExploitTW-EmailMX,domain#EmailMX,domain#LossOfExploitTW,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfExploitTW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExploitTW-RemoteDesktop,domain#RemoteDesktop,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExploitTW-TextEditor,domain#TextEditor,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExploitTW-WebApp,domain#WebApp,domain#LossOfExploitTW,domain#ImpactLevelNegligible
@@ -111,6 +116,7 @@ package#Application,domain#MADS-LossOfExtrinsicTW-DB,domain#DB,domain#LossOfExtr
 package#Application,domain#MADS-LossOfExtrinsicTW-DesktopService,domain#DesktopService,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExtrinsicTW-Editor,domain#Editor,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExtrinsicTW-EmailMX,domain#EmailMX,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfExtrinsicTW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExtrinsicTW-RemoteDesktop,domain#RemoteDesktop,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExtrinsicTW-TextEditor,domain#TextEditor,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfExtrinsicTW-WebApp,domain#WebApp,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
@@ -126,6 +132,7 @@ package#Application,domain#MADS-LossOfIntrinsicTW-DB,domain#DB,domain#LossOfIntr
 package#Application,domain#MADS-LossOfIntrinsicTW-DesktopService,domain#DesktopService,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfIntrinsicTW-Editor,domain#Editor,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfIntrinsicTW-EmailMX,domain#EmailMX,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfIntrinsicTW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfIntrinsicTW-RemoteDesktop,domain#RemoteDesktop,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfIntrinsicTW-TextEditor,domain#TextEditor,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfIntrinsicTW-WebApp,domain#WebApp,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
@@ -138,6 +145,7 @@ package#Application,domain#MADS-LossOfReliability-DB,domain#DB,domain#LossOfReli
 package#Application,domain#MADS-LossOfReliability-DesktopService,domain#DesktopService,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfReliability-Editor,domain#Editor,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfReliability-EmailMX,domain#EmailMX,domain#LossOfReliability,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfReliability-InteractiveApplication,domain#InteractiveApplication,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfReliability-RemoteDesktop,domain#RemoteDesktop,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfReliability-TextEditor,domain#TextEditor,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfReliability-WebApp,domain#WebApp,domain#LossOfReliability,domain#ImpactLevelNegligible
@@ -158,6 +166,7 @@ package#Application,domain#MADS-LossOfTimeliness-EmailClient,domain#EmailClient,
 package#Application,domain#MADS-LossOfTimeliness-EmailMX,domain#EmailMX,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-EmailService,domain#EmailService,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-Human,domain#Human,domain#LossOfTimeliness,domain#ImpactLevelLow
+package#Application,domain#MADS-LossOfTimeliness-InteractiveApplication,domain#InteractiveApplication,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-LoginService,domain#LoginService,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-RemoteDesktop,domain#RemoteDesktop,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-RemoteTerminal,domain#RemoteTerminal,domain#LossOfTimeliness,domain#ImpactLevelNegligible
@@ -175,6 +184,7 @@ package#Application,domain#MADS-LossOfUserTW-DB,domain#DB,domain#LossOfUserTW,do
 package#Application,domain#MADS-LossOfUserTW-DesktopService,domain#DesktopService,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfUserTW-Editor,domain#Editor,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfUserTW-EmailMX,domain#EmailMX,domain#LossOfUserTW,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfUserTW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfUserTW-RemoteDesktop,domain#RemoteDesktop,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfUserTW-TextEditor,domain#TextEditor,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfUserTW-WebApp,domain#WebApp,domain#LossOfUserTW,domain#ImpactLevelNegligible
@@ -188,6 +198,7 @@ package#Application,domain#MADS-MalwareInfection-DB,domain#DB,domain#MalwareInfe
 package#Application,domain#MADS-MalwareInfection-DesktopService,domain#DesktopService,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-Editor,domain#Editor,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-EmailMX,domain#EmailMX,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#Application,domain#MADS-MalwareInfection-InteractiveApplication,domain#InteractiveApplication,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-RemoteDesktop,domain#RemoteDesktop,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-SensitiveData,domain#SensitiveData,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-SpamData,domain#SpamData,domain#MalwareInfection,domain#ImpactLevelNegligible
@@ -202,6 +213,7 @@ package#Application,domain#MADS-Overloaded-DB,domain#DB,domain#Overloaded,domain
 package#Application,domain#MADS-Overloaded-DesktopService,domain#DesktopService,domain#Overloaded,domain#ImpactLevelNegligible
 package#Application,domain#MADS-Overloaded-Editor,domain#Editor,domain#Overloaded,domain#ImpactLevelNegligible
 package#Application,domain#MADS-Overloaded-EmailMX,domain#EmailMX,domain#Overloaded,domain#ImpactLevelNegligible
+package#Application,domain#MADS-Overloaded-InteractiveApplication,domain#InteractiveApplication,domain#Overloaded,domain#ImpactLevelNegligible
 package#Application,domain#MADS-Overloaded-RemoteDesktop,domain#RemoteDesktop,domain#Overloaded,domain#ImpactLevelNegligible
 package#Application,domain#MADS-Overloaded-TextEditor,domain#TextEditor,domain#Overloaded,domain#ImpactLevelNegligible
 package#Application,domain#MADS-Overloaded-WebApp,domain#WebApp,domain#Overloaded,domain#ImpactLevelNegligible
@@ -214,6 +226,7 @@ package#Application,domain#MADS-TrojanInsertion-DB,domain#DB,domain#TrojanInsert
 package#Application,domain#MADS-TrojanInsertion-DesktopService,domain#DesktopService,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Application,domain#MADS-TrojanInsertion-Editor,domain#Editor,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Application,domain#MADS-TrojanInsertion-EmailMX,domain#EmailMX,domain#TrojanInsertion,domain#ImpactLevelNegligible
+package#Application,domain#MADS-TrojanInsertion-InteractiveApplication,domain#InteractiveApplication,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Application,domain#MADS-TrojanInsertion-RemoteDesktop,domain#RemoteDesktop,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Application,domain#MADS-TrojanInsertion-TextEditor,domain#TextEditor,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Application,domain#MADS-TrojanInsertion-WebApp,domain#WebApp,domain#TrojanInsertion,domain#ImpactLevelNegligible
@@ -883,6 +896,7 @@ package#Theft,domain#MADS-TheftOfControl-EmailService,domain#EmailService,domain
 package#Theft,domain#MADS-TheftOfControl-HealthSensor,domain#HealthSensor,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-HostContext,domain#HostContext,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-HostNetContext,domain#HostNetContext,domain#TheftOfControl,domain#ImpactLevelNegligible
+package#Theft,domain#MADS-TheftOfControl-InteractiveApplication,domain#InteractiveApplication,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-LoginService,domain#LoginService,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-MobileClient,domain#MobileClient,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-Notebook,domain#Notebook,domain#TheftOfControl,domain#ImpactLevelNegligible
@@ -1021,6 +1035,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-EmailMX,domain#EmailM
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Master,domain#Master,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
@@ -1067,6 +1082,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-EmailMX,domain#Email
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Master,domain#Master,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
@@ -1113,6 +1129,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-EmailMX,domain#EmailM
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Master,domain#Master,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
@@ -1159,6 +1176,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-EmailMX,domain#EmailM
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Master,domain#Master,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
@@ -1205,6 +1223,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-EmailMX,domain#EmailM
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Master,domain#Master,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
@@ -1245,6 +1264,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-EmailClient,domain#E
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-EmailMX,domain#EmailMX,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-RemoteDesktop,domain#RemoteDesktop,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
@@ -1275,6 +1295,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-EmailMX,domain#EmailM
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Master,domain#Master,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
@@ -1321,6 +1342,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-EmailMX,domain#Email
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Master,domain#Master,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
@@ -1367,6 +1389,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-EmailMX,domain#Email
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Master,domain#Master,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
@@ -1413,6 +1436,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-EmailMX,domain#Email
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Master,domain#Master,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
@@ -1459,6 +1483,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-EmailMX,domain#EmailM
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Master,domain#Master,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-MobileClient,domain#MobileClient,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
@@ -1499,6 +1524,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-EmailClient,domain#E
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-EmailMX,domain#EmailMX,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-EmailService,domain#EmailService,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-Ingress,domain#Ingress,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-InteractiveApplication,domain#InteractiveApplication,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-LoginService,domain#LoginService,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-RemoteDesktop,domain#RemoteDesktop,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-RemoteTerminal,domain#RemoteTerminal,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
