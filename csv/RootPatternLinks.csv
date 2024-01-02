@@ -2389,7 +2389,7 @@ package#ProcessComms,domain#R-CvPvSCC,domain#Link-ClientChannel-channelTo-Servic
 package#ProcessComms,domain#R-CvPvSCC,domain#Link-Client-viaSharedCredentials-Proxy
 package#ProcessComms,domain#R-CvPvSCC,domain#Link-Client-viaSharedCredentials-Service
 package#ProcessComms,domain#R-CvPvSCC,domain#Link-Process-sharesCredentials-Proxy
-package#ProcessComms,domain#R-CvPvSCC,domain#Link-Process-usesViaProxy-Service
+package#ProcessComms,domain#R-CvPvSCC,domain#Link-Process-viaSharedCredentials-Service
 package#ProcessComms,domain#R-CvPvSCC,domain#Link-ProxyChannel-channelFrom-Process
 package#ProcessComms,domain#R-CvPvSCC,domain#Link-ProxyChannel-channelTo-Proxy
 package#ProcessComms,domain#R-DDoS,domain#Link-Host-hosts-Process

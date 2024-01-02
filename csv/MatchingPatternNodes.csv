@@ -528,6 +528,10 @@ package#ProcessComms,domain#MP-CCCSCSoCC,domain#Node-Human-Human,FALSE,FALSE,FAL
 package#ProcessComms,domain#MP-CCCSCSoCC,domain#Node-IndirectChannel-ClientChannel,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCSCSoCC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCSDFCCS-i,domain#Node-IndirectChannel-ClientChannel,FALSE,TRUE,FALSE
+package#ProcessComms,domain#MP-CCCS-i,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCCS-i,domain#Node-Human-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-CCCS-i,domain#Node-ProxyChannel-ClientChannel,FALSE,TRUE,FALSE
+package#ProcessComms,domain#MP-CCCS-i,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-CCCSPCCSDF-i,domain#Node-IndirectChannel-ClientChannel,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-CCCSPCCSDF-i,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-CCCSPDFCCS-i,domain#Node-IndirectChannel-ClientChannel,FALSE,TRUE,FALSE

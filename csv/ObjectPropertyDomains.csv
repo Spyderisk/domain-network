@@ -74,7 +74,6 @@ package#DataLifecycleInference,domain#isDest,domain#DataAccess
 package#DataLifecycleInference,domain#isPool,domain#DataAccess
 package#DataLifecycleInference,domain#isSource,domain#DataAccess
 package#DataLifecycleInference,domain#possDataDest,domain#DataAccess
-package#DataLifecycleInference,domain#possDataSource,domain#DataAccess
 package#DataLifecycleInference,domain#possRevPath,domain#DataAccess
 package#DataLifecycleInference,domain#relaysAccess,domain#Process
 package#DataLifecycleInference,domain#revPath,domain#DataAccess
@@ -195,7 +194,6 @@ package#ProcessComms,domain#usesAsProxy,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#ConnectionChannel
 package#ProcessComms,domain#usesViaProxy,domain#Process
 package#ProcessComms,domain#viaInterface,domain#ConnectionChannel
-package#ProcessComms,domain#viaProxies,domain#Process
 package#ProcessComms,domain#viaProxy,domain#Process
 package#ProcessComms,domain#viaSharedCredentials,domain#Process
 package#ProcessComms,domain#viaSubnet,domain#ConnectionAsset

@@ -39,7 +39,7 @@ package#ProcessComms,domain#flowsViaCS,domain#flowsViaChannel
 package#ProcessComms,domain#flowsViaSC,domain#flowsViaChannel
 package#ProcessComms,domain#proxyAuthN,domain#noAuthN
 package#ProcessComms,domain#proxyAuthN,domain#sharesCredentials
-package#ProcessComms,domain#usesAsProxy,domain#viaProxies
+package#ProcessComms,domain#usesAsProxy,domain#viaProxy
 package#ProcessComms,domain#usesViaProxy,domain#usesIndirectly
-package#ProcessComms,domain#usesViaProxy,domain#viaProxies
+package#ProcessComms,domain#usesViaProxy,domain#viaProxy
 package#ProcessComms,domain#viaSharedCredentials,domain#usesIndirectly
