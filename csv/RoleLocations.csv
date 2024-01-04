@@ -52,8 +52,7 @@ package#DataLifecycle,domain#Role_DataProcess,domain#DataProcess
 package#DataLifecycle,domain#Role_DataRelay,domain#DataAccess
 package#DataLifecycle,domain#Role_DataSource,domain#DataAccess
 package#DataLifecycle,domain#Role_DataStep,domain#DataStep
-package#DataLifecycle,domain#Role_DataUpdate,domain#DataUpdate
-package#DataLifecycle,domain#Role_DataUpdate,domain#UpdatePool
+package#DataLifecycle,domain#Role_DataUpdate,domain#DataAccess
 package#DataLifecycle,domain#Role_DataUse,domain#DataProcess
 package#DataLifecycle,domain#Role_DataUse,domain#DataUse
 package#DataLifecycle,domain#Role_FlowsFrom,domain#Process

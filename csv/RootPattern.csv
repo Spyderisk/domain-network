@@ -17,7 +17,6 @@ package#5G,domain#R-RrBcC,RrBcC,Finds a BaseStation providing a RAN and connecte
 package#Application,domain#R-CP,CP,Finds a solo Console Process.,FALSE,FALSE
 package#Application,domain#R-D,D,Finds a solo Data asset.,FALSE,FALSE
 package#Application,domain#R-HD,HD,Finds Data stored at a Host.,FALSE,FALSE
-package#Application,domain#R-HE,HE,Finds a solo Editor process and its host.,FALSE,FALSE
 package#Application,domain#R-HHuWE,HHuWE,Finds a Human using both an email client and a web browser on the same host.,FALSE,FALSE
 package#Application,domain#R-HHuWSMS,HHuWSMS,Finds a Human using both an SMS client and a web browser on the same host.,FALSE,FALSE
 package#Application,domain#R-HIP,HIP,Finds a solo interactive process and its host.,FALSE,FALSE
@@ -35,9 +34,7 @@ package#Application,domain#R-HuiDirPpD,HuiDirPpD,"Find a Human interacting (poss
 package#Application,domain#R-HuiDPH,HuiDPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
 package#Application,domain#R-HuiPiDCHS,HuiPiDCHS,Finds a user interacting directly with a process to enter data using a console host located in a space.,FALSE,FALSE
 package#Application,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data via remote interaction with a process using a remote access client on a console host located in a space.,FALSE,FALSE
-package#Application,domain#R-HuirEaD,HuirEaD,Find a Human interacting (possibly remotely) with an Editor that amends Data.,FALSE,TRUE
 package#Application,domain#R-HuirEcD,HuirEcD,Find a Human interacting (possibly remotely) with an Editor that creates Data.,FALSE,FALSE
-package#Application,domain#R-HuirEpD,HuirEpD,Find a Human interacting (possibly remotely) with an Editor that processes Data.,FALSE,FALSE
 package#Application,domain#R-HuirErD,HuirErD,Finds Human interacting (possibly remotely) with an Editor process that receives data.,FALSE,FALSE
 package#Application,domain#R-HuirIPaD,HuirIPaD,Finds Human interacting (possibly remotely) with an Interactive Process that amends data.,FALSE,TRUE
 package#Application,domain#R-HuirIPpD,HuirIPpD,Finds Human interacting (possibly remotely) with an Interactive Process that processes data.,FALSE,FALSE
@@ -199,7 +196,6 @@ package#DataLifecycleInference,domain#R-DSDAfDD,DSDAfDD,"Finds a Data Destinatio
 package#DataLifecycleInference,domain#R-DSDCDD2P,DSDCDD2P,"Finds a Data Source fulfilling a Data Destination, with an active forward data channel to the source and a data channel from the destination, plus the associated processes and data paths.",FALSE,TRUE
 package#DataLifecycleInference,domain#R-DSDCDP2,DSDCDP2,"Finds a Data Source for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-DSDPS,DSDPS,"Finds a data path from a process to a service, where the process is a source of the data.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DUDSDCSDD,DUDSDCSDD,Finds a data access process that acts as a data source and sends data to a data destination where the original source is a data update.,FALSE,TRUE
 package#DataLifecycleInference,domain#R-FwdDFf2DP2P,FwdDFf2DP2P,"Finds an outbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-FwdDFfDP2P,FwdDFfDP2P,Finds an outbound (forward) data flow from a process on a data path leading to that process.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-FwdDFtDP2P,FwdDFtDP2P,Finds an outbound (forward) data flow to a process on a data path leading to that process.,FALSE,FALSE

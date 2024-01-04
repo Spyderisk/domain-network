@@ -353,15 +353,13 @@ package#ProcessComms,domain#DF.Auth.CCCSPDFCCS-i.3,domain#TWAS-ClientTW-ClientCh
 package#ProcessComms,domain#DF.Auth.CCCSPDFCCS-i.3,domain#TWAS-DeputyUserTW-ProxyChannel
 package#ProcessComms,domain#DF.Auth.CCCSPDFCCS-i.3,domain#TWAS-OutOfService-ClientChannel
 package#ProcessComms,domain#DF.Auth.CCCSPDFCCS-i.3,domain#TWAS-OutOfService-ProxyChannel
-package#ProcessComms,domain#DF.Auth.CCDFCS-i.3.2,domain#TWAS-ServiceTW-ClientChannel
-package#ProcessComms,domain#DF.Auth.CCDFC-SS.3.2,domain#TWAS-ClientTW-ClientChannel
-package#ProcessComms,domain#DF.Auth.CCDFC-SS.3.2,domain#TWAS-OutOfService-ClientChannel
+package#ProcessComms,domain#DF.Auth.CCDFCS.3.2,domain#TWAS-ClientTW-ClientChannel
+package#ProcessComms,domain#DF.Auth.CCDFCS.3.2,domain#TWAS-OutOfService-ClientChannel
 package#ProcessComms,domain#DF.Auth.CCDFFC.3.6,domain#TWAS-ClientTW-ClientChannel
 package#ProcessComms,domain#DF.Auth.CCDFFC.3.6,domain#TWAS-OutOfService-ClientChannel
 package#ProcessComms,domain#DF.Auth.CCDFFC.3.6,domain#TWAS-UserTW-ProcAccess
 package#ProcessComms,domain#DF.Auth.CCDFFS-i.3.6,domain#TWAS-ServiceTW-ClientChannel
 package#ProcessComms,domain#DF.Auth.CCDFSC-i.3.1,domain#TWAS-ServiceTW-ClientChannel
-package#ProcessComms,domain#DF.Auth.CCDFTS-i.3.6,domain#TWAS-ServiceTW-ClientChannel
 package#ProcessComms,domain#DF.Auth.CC-iDFSC.3.2,domain#TWAS-ServiceAuthenticity-ClientChannel
 package#ProcessComms,domain#DF.C.CCCSCCSDF-i.3,domain#TWAS-ClientTW-ClientChannel
 package#ProcessComms,domain#DF.C.CCCSCCSDF-i.3,domain#TWAS-DeputyUserTW-ProxyChannel

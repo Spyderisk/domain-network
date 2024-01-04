@@ -35,12 +35,8 @@ package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Link-Human-interactsWith-Rem
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Link-RemoteDesktop-uses-DesktopService
 package#Application,domain#CP-HuiDirIPpD-P+eUI,domain#Link-InteractiveProcess-enablesUserInput-Data
 package#Application,domain#CP-HuiDirPpD-P+eUI,domain#Link-Process-enablesUserInput-Data
-package#Application,domain#CP-HuirEaD+aD,domain#Link-Editor-enablesUserUpdate-Data
-package#Application,domain#CP-HuirEaD+aD,domain#Link-Human-amendsData-Data
 package#Application,domain#CP-HuirEc-rD+iD,domain#Link-Editor-enablesUserInput-Data
 package#Application,domain#CP-HuirEc-rD+iD,domain#Link-Human-inputsData-Data
-package#Application,domain#CP-HuirEp-iD+vD,domain#Link-Editor-enablesUserOutput-Data
-package#Application,domain#CP-HuirEp-iD+vD,domain#Link-Human-viewsData-Data
 package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#Link-Human-inputsData-Data
 package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#Link-Process-enablesUserInput-Data
 package#Application,domain#CP-HuirIPaD+aD,domain#Link-Human-amendsData-Data
@@ -229,8 +225,6 @@ package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Link-DataChannel-toProc
 package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Link-DataChannel-usesDataPath-DataPath
 package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Link-Service-relaysAccess-DataAccess
 package#DataLifecycleInference,domain#CP-DUDA-eS+eA,domain#Link-Service-enablesAccess-DataUse
-package#DataLifecycleInference,domain#CP-DUDSDCSDD+ch,domain#Link-DataDestination-fulfils-DataSource
-package#DataLifecycleInference,domain#CP-DUDSDCSDD+ch,domain#Link-DataSource-revPath-DataChannel
 package#DataLifecycleInference,domain#CP-FwdDFf2DP2P+DS,domain#Link-DataFlow-flowsVia-DataStep
 package#DataLifecycleInference,domain#CP-FwdDFf2DP2P+DS,domain#Link-DataStep-flowsFrom-FlowsFrom
 package#DataLifecycleInference,domain#CP-FwdDFf2DP2P+DS,domain#Link-DataStep-flowsOut-Data

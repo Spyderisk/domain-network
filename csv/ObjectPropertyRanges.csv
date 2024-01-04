@@ -6,6 +6,9 @@ package#Application,domain#amendsData,domain#Data
 package#Application,domain#appends,domain#Data
 package#Application,domain#creates,domain#Data
 package#Application,domain#enablesUserAccess,domain#Data
+package#Application,domain#enablesUserInput,domain#Data
+package#Application,domain#enablesUserOutput,domain#Data
+package#Application,domain#enablesUserUpdate,domain#Data
 package#Application,domain#handles,domain#Data
 package#Application,domain#inputsData,domain#Data
 package#Application,domain#interactsWithData,domain#Data

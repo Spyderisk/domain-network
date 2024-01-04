@@ -7,7 +7,6 @@ package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#5G,domain#MP-L3cCrC,domain#Link-FromSubnet-implements-CellularNetwork,TRUE
 package#5G,domain#MP-L3cCrC,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
 package#Application,domain#MP-D,domain#Link-Data-isSpam-Data,TRUE
-package#Application,domain#MP-HE-Hu,domain#Link-Human-interactsRemotelyWith-Editor,FALSE
 package#Application,domain#MP-HIP-Hu,domain#Link-Human-interactsRemotelyWith-InteractiveProcess,FALSE
 package#Application,domain#MP-HuaDirPaD-P,domain#Link-Human-interactsRemotelyWith-Service,FALSE
 package#Application,domain#MP-HuaDirPaD-P,domain#Link-Service-enablesUserInput-Data,FALSE
@@ -24,7 +23,6 @@ package#Application,domain#MP-HuiDirIPpD-P,domain#Link-Service-enablesUserInput-
 package#Application,domain#MP-HuiDirPpD-P,domain#Link-Human-interactsRemotelyWith-Service,FALSE
 package#Application,domain#MP-HuiDirPpD-P,domain#Link-Service-enablesUserInput-Data,FALSE
 package#Application,domain#MP-HuirEc-rD,domain#Link-Editor-receives-Data,TRUE
-package#Application,domain#MP-HuirEp-iD,domain#Link-Human-inputsData-Data,TRUE
 package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Link-Client-creates-Data,FALSE
 package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Link-Host-stores-Data,FALSE
 package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Link-Human2-inputsData-Data,FALSE
@@ -59,6 +57,7 @@ package#Application,domain#MP-RDuHP-iPL-RAS,domain#Link-Host-hosts-RemoteAccessS
 package#Application,domain#MP-RDuHP-iPL-RAS,domain#Link-Process-isLnS-Process,TRUE
 package#Application,domain#MP-RDuHP-iPL-RAS,domain#Link-Process-isProxy-Process,TRUE
 package#Application,domain#MP-RDuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesRemotely-RemoteAccessService,FALSE
+package#Application,domain#MP-RDuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesViaProxy-Process,TRUE
 package#Application,domain#MP-RDuHP-iPL-RAS,domain#Link-RemoteAccessService-uses-Process,FALSE
 package#Application,domain#MP-RDuRDuS-uR,domain#Link-RemoteAccessClient-usesRemotely-Process,TRUE
 package#Application,domain#MP-RDuRTuS-uR,domain#Link-RemoteAccessClient-usesRemotely-Process,TRUE
@@ -365,7 +364,7 @@ package#DataLifecycleInference,domain#MP-DDDCDS2P,domain#Link-AccessTo-revRelay-
 package#DataLifecycleInference,domain#MP-DDDPS-DC,domain#Link-OldDataChannel-dataChannelFor-DataAccess,FALSE
 package#DataLifecycleInference,domain#MP-DDDPS-DC,domain#Link-OldDataChannel-usesDataPath-DataPath,FALSE
 package#DataLifecycleInference,domain#MP-DD-fDCSDS,domain#Link-DataSource-possDataDest-DataDestination,TRUE
-package#DataLifecycleInference,domain#MP-DI-fDCSDS,domain#Link-DataInput-fromSource-DataAccess,FALSE
+package#DataLifecycleInference,domain#MP-DI-fDCSDS,domain#Link-DataInput-isPool-Data,TRUE
 package#DataLifecycleInference,domain#MP-DO-fDCSDD,domain#Link-DataOutput-fromSource-DataAccess,FALSE
 package#DataLifecycleInference,domain#MP-DP3-x,domain#Link-NewDataPath-extendsDP-OldDataPath,TRUE
 package#DataLifecycleInference,domain#MP-DSDAfDD-fS,domain#Link-DataDestination-fromSource-AccessFrom,TRUE
@@ -439,7 +438,6 @@ package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,domain#Link-Service-ser
 package#DataLifecycleInference,domain#MP-PSDP-S,domain#Link-DataOutput-isSource-Data,FALSE
 package#DataLifecycleInference,domain#MP-PSDP-S,domain#Link-RemoteUserAccess-isSource-Data,FALSE
 package#DataLifecycleInference,domain#MP-RA-fDCSDD,domain#Link-RemoteUserAccess-fromSource-DataAccess,FALSE
-package#DataLifecycleInference,domain#MP-RA-fDCSDS,domain#Link-RemoteUserAccess-fromSource-DataAccess,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Link-Human-interactsRemotelyWith-DB,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Link-OldDataPath-dataPathVisits-FlowsFrom,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Link-OldDataPath-dataPathVisits-Process,TRUE
@@ -721,6 +719,7 @@ package#Network,domain#MP-RTuHP-iPL-RAS,domain#Link-Host-hosts-RemoteAccessServi
 package#Network,domain#MP-RTuHP-iPL-RAS,domain#Link-Process-isLnS-Process,TRUE
 package#Network,domain#MP-RTuHP-iPL-RAS,domain#Link-Process-isProxy-Process,TRUE
 package#Network,domain#MP-RTuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesRemotely-RemoteAccessService,FALSE
+package#Network,domain#MP-RTuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesViaProxy-Process,TRUE
 package#Network,domain#MP-RTuHP-iPL-RAS,domain#Link-RemoteAccessService-uses-Process,FALSE
 package#Network,domain#MP-RTuP-hCLI,domain#Link-Process-hasCLI-Process,TRUE
 package#Network,domain#MP-RTuP-hCLI,domain#Link-Process-isLnS-Process,TRUE
@@ -1017,15 +1016,8 @@ package#ProcessComms,domain#MP-CCDFCS-i,domain#Link-ClientChannel-channelVia-Pro
 package#ProcessComms,domain#MP-CCDFCS-i,domain#Link-Data-isSpam-Data,TRUE
 package#ProcessComms,domain#MP-CCDFCS-i,domain#Link-ProcessManager-manages-FlowsFrom,FALSE
 package#ProcessComms,domain#MP-CCDFCS-i,domain#Link-ServiceManager-manages-Service,FALSE
-package#ProcessComms,domain#MP-CCDFC-SS,domain#Link-DataFlow-flowsViaCS-FirstChannel,FALSE
-package#ProcessComms,domain#MP-CCDFC-SS,domain#Link-Data-isSpam-Data,TRUE
-package#ProcessComms,domain#MP-CCDFC-SS,domain#Link-FirstChannel-channelTo-Client,FALSE
-package#ProcessComms,domain#MP-CCDFC-SS,domain#Link-ProcessManager-manages-FlowsFrom,FALSE
-package#ProcessComms,domain#MP-CCDFC-SS,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-CCDFFC,domain#Link-DataFlow-flowsFromIn-ProcAccess,FALSE
-package#ProcessComms,domain#MP-CCDFFC,domain#Link-DataFlow-flowsViaCS-FirstChannel,FALSE
 package#ProcessComms,domain#MP-CCDFFC,domain#Link-Data-isSpam-Data,TRUE
-package#ProcessComms,domain#MP-CCDFFC,domain#Link-FirstChannel-channelTo-Client,FALSE
 package#ProcessComms,domain#MP-CCDFFC,domain#Link-ProcAccess-accessTo-Client,FALSE
 package#ProcessComms,domain#MP-CCDFFC,domain#Link-ProcessManager-manages-FlowsTo,FALSE
 package#ProcessComms,domain#MP-CCDFFC,domain#Link-ServiceManager-manages-Service,FALSE

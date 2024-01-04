@@ -6,6 +6,9 @@ package#Application,domain#amendsData,domain#Human
 package#Application,domain#appends,domain#Process
 package#Application,domain#creates,domain#Process
 package#Application,domain#enablesUserAccess,domain#Process
+package#Application,domain#enablesUserInput,domain#Process
+package#Application,domain#enablesUserOutput,domain#Process
+package#Application,domain#enablesUserUpdate,domain#Process
 package#Application,domain#handles,domain#Process
 package#Application,domain#inputsData,domain#Human
 package#Application,domain#interactsWithData,domain#Human
