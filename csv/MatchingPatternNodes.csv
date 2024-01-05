@@ -213,6 +213,8 @@ package#DataLifecycleInference,domain#MP-PaDSH-S-Hu-DA,domain#Node-Service-Proce
 package#DataLifecycleInference,domain#MP-Pc-rDSH+S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Node-Service-Process,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-PIP-S,domain#Node-DataOutput-DataOutput,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-PIP-S,domain#Node-RemoteUserAccess-RemoteUserAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH+S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,domain#Node-Service-Process,FALSE,TRUE,FALSE

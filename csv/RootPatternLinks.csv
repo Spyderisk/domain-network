@@ -728,8 +728,6 @@ package#DataLifecycle,domain#R-PDI,domain#Link-DataInput-usedBy-Process
 package#DataLifecycle,domain#R-PDI,domain#Link-DataInput-usedFor-Data
 package#DataLifecycle,domain#R-PDO,domain#Link-DataOutput-usedBy-Process
 package#DataLifecycle,domain#R-PDO,domain#Link-DataOutput-usedFor-Data
-package#DataLifecycle,domain#R-PDOP,domain#Link-DataOutput-usedBy-Process
-package#DataLifecycle,domain#R-PDOP,domain#Link-DataOutput-usedFor-Data
 package#DataLifecycle,domain#R-PDP,domain#Link-DataPool-usedBy-Process
 package#DataLifecycle,domain#R-PDP,domain#Link-DataPool-usedFor-Data
 package#DataLifecycle,domain#R-PDR,domain#Link-DataRelay-usedBy-Process
@@ -741,6 +739,8 @@ package#DataLifecycle,domain#R-PHHDS,domain#Link-AHost-hasPhysicalHost-Host
 package#DataLifecycle,domain#R-PHHDS,domain#Link-AHost-storesCopy-DataCopy
 package#DataLifecycle,domain#R-PHHDS,domain#Link-DataCopy-copyOf-Data
 package#DataLifecycle,domain#R-PHHDS,domain#Link-Host-locatedIn-Space
+package#DataLifecycle,domain#R-PIP,domain#Link-DataInput-usedBy-Process
+package#DataLifecycle,domain#R-PIP,domain#Link-DataInput-usedFor-Data
 package#DataLifecycle,domain#R-PpDP,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-PpDP,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-PpDP,domain#Link-Process-processes-Data
@@ -2773,6 +2773,8 @@ package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-OldPath-start-FromS
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-ServiceChannel-channelFrom-Client
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-ServiceChannel-channelTo-Service
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-ServiceChannel-sourceViaNAT-EntrySubnet
+package#ProcessCommsInference,domain#R-POP,domain#Link-DataOutput-usedBy-Process
+package#ProcessCommsInference,domain#R-POP,domain#Link-DataOutput-usedFor-Data
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Link-LogicalSegment-from-FromSubnet
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Link-LogicalSegment-to-OutboundIF
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Link-LogicalSegment-to-ToSubnet

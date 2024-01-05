@@ -371,7 +371,6 @@ package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataP
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathTo-DataOutput
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathVisits-Process
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-fromProc-Process
-package#DataLifecycleInference,domain#CP-PDOP+fS,domain#Link-DataOutput-fromSource-DataOutput
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathFor-Data
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathTo-DataPool
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathVisits-Process
@@ -380,6 +379,7 @@ package#DataLifecycleInference,domain#CP-PDP+ds,domain#Link-DataPool-isPool-Data
 package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isDest-Data
 package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isPool-Data
 package#DataLifecycleInference,domain#CP-PDR+ds,domain#Link-DataRelay-isSource-Data
+package#DataLifecycleInference,domain#CP-PIP-S+fS,domain#Link-DataInput-fromSource-DataInput
 package#DataLifecycleInference,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#Link-DataInput-usedBy-Process
 package#DataLifecycleInference,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#Link-DataInput-usedFor-Data
 package#DataLifecycleInference,domain#CP-Pr-cDSH+S-Hu-DA+DI,domain#Link-DataInput-usedBy-Process
@@ -833,6 +833,7 @@ package#ProcessCommsInference,domain#CP-PCaTSSCCC+aTS,domain#Link-ProcAccess-acc
 package#ProcessCommsInference,domain#CP-PccCuS+N,domain#Link-Client-proxyAuthN-Service
 package#ProcessCommsInference,domain#CP-PnPnS-U+U,domain#Link-Client-sharesCredentials-Service
 package#ProcessCommsInference,domain#CP-PnPnS-U+U,domain#Link-Client-viaSharedCredentials-Service
+package#ProcessCommsInference,domain#CP-POP+fS,domain#Link-DataOutput-fromSource-DataOutput
 package#ProcessCommsInference,domain#CP-RACvSPHRASP-iPL+uR,domain#Link-Proxy-usesViaRAS-Process
 package#ProcessCommsInference,domain#CP-RACvSPHRASP-iPL+uR,domain#Link-RemoteAccessClient-usesRemotely-Process
 package#ProcessCommsInference,domain#CP-RACvSPHRASP-iPL+uR,domain#Link-RemoteAccessClient-usesRemotely-RemoteAccessService

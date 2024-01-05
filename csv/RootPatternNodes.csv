@@ -695,9 +695,6 @@ package#DataLifecycle,domain#R-PDI,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PDO,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDO,domain#Node-DataOutput-DataOutput,TRUE
 package#DataLifecycle,domain#R-PDO,domain#Node-Process-Process,TRUE
-package#DataLifecycle,domain#R-PDOP,domain#Node-Data-Data,TRUE
-package#DataLifecycle,domain#R-PDOP,domain#Node-DataOutput-OutputPool,TRUE
-package#DataLifecycle,domain#R-PDOP,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-DataPool-DataPool,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-Process-Process,TRUE
@@ -713,6 +710,9 @@ package#DataLifecycle,domain#R-PHHDS,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-PHHDS,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PHHDS,domain#Node-Host-PhysicalHost,TRUE
 package#DataLifecycle,domain#R-PHHDS,domain#Node-Space-Space,TRUE
+package#DataLifecycle,domain#R-PIP,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-PIP,domain#Node-DataInput-InputPool,TRUE
+package#DataLifecycle,domain#R-PIP,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PpDP,domain#Node-DataAccess-DataProcess,TRUE
 package#DataLifecycle,domain#R-PpDP,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PpDP,domain#Node-Process-Process,TRUE
@@ -2824,6 +2824,9 @@ package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-NetworkPath-Network
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-OldPath-NetworkPath,TRUE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-ServiceChannel-ServiceChannel,TRUE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-Service-Process,TRUE
+package#ProcessCommsInference,domain#R-POP,domain#Node-Data-Data,TRUE
+package#ProcessCommsInference,domain#R-POP,domain#Node-DataOutput-OutputPool,TRUE
+package#ProcessCommsInference,domain#R-POP,domain#Node-Process-Process,TRUE
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Node-FromSubnet-LogicalSubnet,TRUE
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Node-LogicalSegment-NATSegment,TRUE
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Node-OutboundIF-Interface,TRUE

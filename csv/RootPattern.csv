@@ -157,11 +157,11 @@ package#DataLifecycle,domain#R-PDFIDADFI,PDFIDADFI,"Finds a Process that receive
 package#DataLifecycle,domain#R-PDFODADFO,PDFODADFO,"Finds a Process that receives a flow of Data from the direction of a data producer, and forwards it towards a data store. The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDI,PDI,"Finds a Process that uses Data as input, or displays it to an interactive user.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDO,PDO,"Finds a Process that creates Data as output, or gets it from an interactive user.",FALSE,FALSE
-package#DataLifecycle,domain#R-PDOP,PDOP,Finds a Process that creates Data as output with no other source (so access to the data is represented by an Output Pool rather than a Data Output).,FALSE,FALSE
 package#DataLifecycle,domain#R-PDP,PDP,Finds a Process that implicitly or explicitly serves Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-PDR,PDR,Finds a Process acting as a Data Relay.,FALSE,FALSE
 package#DataLifecycle,domain#R-PHHD,PHHD,"Finds a Physical Host, plus data stored on the host or on a virtual host running on the physical host.",FALSE,FALSE
 package#DataLifecycle,domain#R-PHHDS,PHHDS,"Finds a Physical Host located in a Space, plus data stored on the host or on a virtual host running there.",FALSE,FALSE
+package#DataLifecycle,domain#R-PIP,PIP,Finds a Process that uses Data as input with no other source than a locally stored copy (so access to the data is represented by an Input Pool rather than a Data Input).,FALSE,FALSE
 package#DataLifecycle,domain#R-PpDP,PpDP,"Finds a process that is processing data, and the associated Data Access object.",FALSE,FALSE
 package#DataLifecycle,domain#R-PrDSH,PrDSH,Finds a Process that is receiving data of which there is a copy stored on the same host.,FALSE,FALSE
 package#DataLifecycle,domain#R-PSDP,PSDP,Finds a Process that serves stored Data.,FALSE,FALSE
@@ -639,6 +639,7 @@ package#ProcessCommsInference,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,
 package#ProcessCommsInference,domain#R-DFuCuS,DFuCuS,"Finds a data flow via two processes, one of which is indirectly a client of the other via a chain of credential sharing/forwarding intermediaries.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service channel via a closed subnet (before a subsequent NAT gateway) and a network path into the channel via this subnet traversing a single logical segment.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
+package#ProcessCommsInference,domain#R-POP,POP,"Finds an output pool, with the associated process and data.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgvTS,SCLSgvTS,"Finds a Logical Path traversing a logical segment, and the subnets on either side, where source addresses in the subnet after the segment are not meaningfully comparable to client addresses.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCNP2CPtI,SCNP2CPtI,Finds a service channel via a client path from a subnet in the channel to an interface on a subnet at or after the start of the attack path.,FALSE,FALSE

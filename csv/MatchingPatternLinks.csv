@@ -425,6 +425,8 @@ package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Link-Process-ena
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Link-Process-receives-Data,TRUE
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Link-Process-uses-Service,FALSE
 package#DataLifecycleInference,domain#MP-Pc-rDSH-S-Hu-DA,domain#Link-Service-serves-Data,FALSE
+package#DataLifecycleInference,domain#MP-PIP-S,domain#Link-DataOutput-isSource-Data,FALSE
+package#DataLifecycleInference,domain#MP-PIP-S,domain#Link-RemoteUserAccess-isSource-Data,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH+S-Hu-DA,domain#Link-DataAccess-usedBy-Process,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH+S-Hu-DA,domain#Link-DataAccess-usedFor-Data,FALSE
 package#DataLifecycleInference,domain#MP-Pr-cDSH+S-Hu-DA,domain#Link-Process-creates-Data,TRUE
