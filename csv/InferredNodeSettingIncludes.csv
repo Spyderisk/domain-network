@@ -288,6 +288,8 @@ package#ProcessCommsInference,domain#INS-CS-SP+DX-DataExchange,domain#Node-Clien
 package#ProcessCommsInference,domain#INS-CS-SP+DX-DataExchange,domain#Node-Service-Process
 package#ProcessCommsInference,domain#INS-CuvS+CC-ClientChannel,domain#Node-Client-Process
 package#ProcessCommsInference,domain#INS-CuvS+CC-ClientChannel,domain#Node-Process-Process
+package#ProcessCommsInference,domain#INS-CzS-CC+AC-AuthChannel,domain#Node-Client-Process
+package#ProcessCommsInference,domain#INS-CzS-CC+AC-AuthChannel,domain#Node-Service-Process
 package#ProcessCommsInference,domain#INS-RDvSPHP-iPL-RAS+DtS-Service,domain#Node-Host-Host
 package#ProcessCommsInference,domain#INS-RDvSPHP-iPL-RAS+DtS-Service,domain#Node-RemoteAccessClient-RemoteDesktop
 package#ProcessCommsInference,domain#INS-RTvSPHP-iPL-RAS+LnS-Service,domain#Node-Host-Host

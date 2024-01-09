@@ -834,10 +834,13 @@ package#Privacy,domain#MADS-MalwareInfection-HealthData,domain#HealthData,domain
 package#Privacy,domain#MADS-MalwareInfection-HealthSensor,domain#HealthSensor,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Privacy,domain#MADS-Overloaded-HealthSensor,domain#HealthSensor,domain#Overloaded,domain#ImpactLevelNegligible
 package#Privacy,domain#MADS-TrojanInsertion-HealthSensor,domain#HealthSensor,domain#TrojanInsertion,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-ClientImpersonation-AuthChannel,domain#AuthChannel,domain#ClientImpersonation,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-ClientImpersonation-ClientChannel,domain#ClientChannel,domain#ClientImpersonation,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-CommsSnoopable-AuthChannel,domain#AuthChannel,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-CommsSnoopable-ClientChannel,domain#ClientChannel,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-CommsSnoopable-ServiceChannel,domain#ServiceChannel,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-DeputyConfusion-ClientChannel,domain#ClientChannel,domain#DeputyConfusion,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-InService-AuthChannel,domain#AuthChannel,domain#InService,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-InService-ClientChannel,domain#ClientChannel,domain#InService,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-InService-ClientPath,domain#ClientPath,domain#InService,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-InService-ClosedClientAttackPath,domain#ClosedClientAttackPath,domain#InService,domain#ImpactLevelNegligible
@@ -850,6 +853,7 @@ package#ProcessComms,domain#MADS-LocalLossOfUserTW-ServiceProxy,domain#ServicePr
 package#ProcessComms,domain#MADS-LossOfAccessibility-ClientChannel,domain#ClientChannel,domain#LossOfAccessibility,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfAnonUserTW-ClientChannel,domain#ClientChannel,domain#LossOfAnonUserTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfAvailability-ServiceProxy,domain#ServiceProxy,domain#LossOfAvailability,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-LossOfClientTW-AuthChannel,domain#AuthChannel,domain#LossOfClientTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfClientTW-ClientChannel,domain#ClientChannel,domain#LossOfClientTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfConnectivity-ServiceChannel,domain#ServiceChannel,domain#LossOfConnectivity,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfDefaultTW-ServiceProxy,domain#ServiceProxy,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
@@ -868,6 +872,7 @@ package#ProcessComms,domain#MADS-ServiceChannelsAllowed-DeNATSegment,domain#DeNA
 package#ProcessComms,domain#MADS-ServiceChannelsAllowed-Interface,domain#Interface,domain#ServiceChannelsAllowed,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-ServiceChannelsAllowed-NATSegment,domain#NATSegment,domain#ServiceChannelsAllowed,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-ServiceChannelsAllowed-OpenSegment,domain#OpenSegment,domain#ServiceChannelsAllowed,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-ServiceImpersonation-AuthChannel,domain#AuthChannel,domain#ServiceImpersonation,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-ServiceImpersonation-ClientChannel,domain#ClientChannel,domain#ServiceImpersonation,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-TrojanInsertion-ServiceProxy,domain#ServiceProxy,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-Theft-BaseStation,domain#BaseStation,domain#Theft,domain#ImpactLevelNegligible

@@ -48,12 +48,15 @@ package#DataLifecycle,domain#Role_FlowsFrom,FlowsFrom,A process from which data 
 package#DataLifecycle,domain#Role_FlowsOutTo,FlowsOutTo,A process that is the destination for an outbound data flow.
 package#DataLifecycle,domain#Role_FlowsTo,FlowsTo,A process to which data is flowing.
 package#DataLifecycle,domain#Role_InFlow,InFlow,A data flow to a process.
+package#DataLifecycle,domain#Role_InputAsset,InputAsset,A Data Asset that is inbound to a process.
 package#DataLifecycle,domain#Role_InStep,InStep,A data step to a process.
 package#DataLifecycle,domain#Role_OutFlow,OutFlow,A data flow from a process.
+package#DataLifecycle,domain#Role_OutputAsset,OutputAsset,A Data Asset that is outbound from a Process.
 package#DataLifecycle,domain#Role_OutStep,OutStep,A data step from a process.
 package#DataLifecycle,domain#Role_RemoteUserAccess,RemoteUserAccess,A DataAccess asset relating to a remote access client used to enable user interaction with a remote process.
 package#DataLifecycle,domain#Role_StepFrom,StepFrom,A process from which data is transferred.
 package#DataLifecycle,domain#Role_StepTo,StepTo,A process to which data is transferred.
+package#DataLifecycle,domain#Role_Vault,Vault,Fulfilled by a process playing the role of key vault in relation to some data asset.
 package#DataLifecycleInference,domain#Role_DataChannel,DataChannel,A data channel used in construction patterns.
 package#DataLifecycleInference,domain#Role_DataExchange,DataExchange,A connection between processes indicating they can exchange data.
 package#DataLifecycleInference,domain#Role_DataPath,DataPath,A data path used in construction patterns.
@@ -148,7 +151,7 @@ package#Physical,domain#Role_Space,Space,A space.
 package#Physical,domain#Role_World,World,The (inferred) global public space.
 package#Privacy,domain#Role_DataSubject,DataSubject,A natural person who is the subject of personal data.
 package#ProcessComms,domain#Role_AttackPath,AttackPath,A privileged path through the network to a service from a subnet accessible by attackers .
-package#ProcessComms,domain#Role_AuthChannel,AuthChannel,A trust relationship between a client and a service that relates to the use of that service to authenticate the client.
+package#ProcessComms,domain#Role_AuthChannel,AuthChannel,A trust relationship between a client and a service that relates to the use of that service to authenticate the client and/or verify their access rights.
 package#ProcessComms,domain#Role_AuthZChannel,AuthZChannel,A trust relationship between a client and a service that relates to the use of that service to verify third party access rights.
 package#ProcessComms,domain#Role_BasePath,BasePath,A network path that provides a basis for attacks on services via NAT devices.
 package#ProcessComms,domain#Role_ClientAttackPath,ClientAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages would be addressed in a way that is consistent with a specific client.
@@ -160,7 +163,7 @@ package#ProcessComms,domain#Role_DHost,DHost,The host of a service. This role na
 package#ProcessComms,domain#Role_DService,DService,A process acting as a service. This role name is chosen so alphanumeric sorting puts it between client-related roles and the network path used by those clients to communicate with the service.
 package#ProcessComms,domain#Role_EntrySubnet,EntrySubnet,A subnet on a path between client and service where messages from an attacker could join that path and benefit from newtork address translation en route to the service.
 package#ProcessComms,domain#Role_FirstChannel,FirstChannel,A client service trust relationship in a chain between a client and a service via a reverse proxy.
-package#ProcessComms,domain#Role_IndirectChannel,IndirectChannel,A client service trust relationship between a client and a service that communicate via a reverse proxy.
+package#ProcessComms,domain#Role_IndirectChannel,IndirectChannel,A client service trust relationship between a client and a service that communicate indirectly.
 package#ProcessComms,domain#Role_LastChannel,LastChannel,A client service trust relationship in a chain between a client and a service via a reverse proxy.
 package#ProcessComms,domain#Role_LastSubnet,LastSubnet,"Refers to a pre-existing subnet, which (if present) changes the significance of assets matching other roles in the same pattern."
 package#ProcessComms,domain#Role_OpenClientAttackPath,OpenClientAttackPath,"A privileged path through the network to a service from a subnet accessible by attackers whose messages are addressed in a way that is consistent with a specific client, and are not rewritten by a NAT gateway."

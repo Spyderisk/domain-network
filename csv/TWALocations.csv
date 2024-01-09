@@ -69,12 +69,12 @@ package#Physical,domain#OccupantTW,domain#Space
 package#Physical,domain#PhysicalControl,domain#PrivateSpace
 package#ProcessComms,domain#AnonUserTW,domain#ClientChannel
 package#ProcessComms,domain#ChannelConfidentiality,domain#ConnectionChannel
-package#ProcessComms,domain#ClientAuthenticity,domain#ClientChannel
-package#ProcessComms,domain#ClientTW,domain#ClientChannel
+package#ProcessComms,domain#ClientAuthenticity,domain#AuthChannel
+package#ProcessComms,domain#ClientTW,domain#AuthChannel
 package#ProcessComms,domain#DeputyUserTW,domain#ClientChannel
 package#ProcessComms,domain#OutOfService,domain#ConnectionAsset
 package#ProcessComms,domain#ProxyUserTW,domain#ClientChannel
-package#ProcessComms,domain#ServiceAuthenticity,domain#ClientChannel
+package#ProcessComms,domain#ServiceAuthenticity,domain#AuthChannel
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#Interface
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#LogicalSegment
 package#ProcessComms,domain#ServiceTW,domain#ClientChannel

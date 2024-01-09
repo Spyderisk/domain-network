@@ -719,9 +719,12 @@ package#Privacy,domain#TWAADS-TrojanTW-HealthSensor,domain#TrojanTW,domain#Healt
 package#Privacy,domain#TWAADS-UserTW-HealthSensor,domain#UserTW,domain#HealthSensor,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-AnonUserTW-ClientChannel,domain#AnonUserTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-Availability-ServiceProxy,domain#Availability,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#TWAADS-ChannelConfidentiality-AuthChannel,domain#ChannelConfidentiality,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ChannelConfidentiality-ClientChannel,domain#ChannelConfidentiality,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ChannelConfidentiality-ServiceChannel,domain#ChannelConfidentiality,domain#ServiceChannel,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#TWAADS-ClientAuthenticity-AuthChannel,domain#ClientAuthenticity,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ClientAuthenticity-ClientChannel,domain#ClientAuthenticity,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#TWAADS-ClientTW-AuthChannel,domain#ClientTW,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ClientTW-ClientChannel,domain#ClientTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-DefaultTW-ServiceProxy,domain#DefaultTW,domain#ServiceProxy,domain#TrustworthinessLevelVeryLow,TRUE
 package#ProcessComms,domain#TWAADS-DeputyUserTW-ClientChannel,domain#DeputyUserTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
@@ -729,6 +732,7 @@ package#ProcessComms,domain#TWAADS-ExploitTW-ServiceProxy,domain#ExploitTW,domai
 package#ProcessComms,domain#TWAADS-ExtrinsicTW-ServiceProxy,domain#ExtrinsicTW,domain#ServiceProxy,domain#TrustworthinessLevelHigh,TRUE
 package#ProcessComms,domain#TWAADS-Health-ServiceProxy,domain#Health,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-IntrinsicTW-ServiceProxy,domain#IntrinsicTW,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#TWAADS-OutOfService-AuthChannel,domain#OutOfService,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-OutOfService-ClientChannel,domain#OutOfService,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-OutOfService-ClientPath,domain#OutOfService,domain#ClientPath,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-OutOfService-ClosedClientAttackPath,domain#OutOfService,domain#ClosedClientAttackPath,domain#TrustworthinessLevelSafe,TRUE
@@ -739,6 +743,7 @@ package#ProcessComms,domain#TWAADS-OutOfService-ServiceChannel,domain#OutOfServi
 package#ProcessComms,domain#TWAADS-OutOfService-ServiceProxy,domain#OutOfService,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ProxyUserTW-ClientChannel,domain#ProxyUserTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-Reliability-ServiceProxy,domain#Reliability,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#TWAADS-ServiceAuthenticity-AuthChannel,domain#ServiceAuthenticity,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceAuthenticity-ClientChannel,domain#ServiceAuthenticity,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-ClosedSegment,domain#ServiceChannelsBlocked,domain#ClosedSegment,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-DeNATSegment,domain#ServiceChannelsBlocked,domain#DeNATSegment,domain#TrustworthinessLevelSafe,TRUE

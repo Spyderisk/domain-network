@@ -17,6 +17,7 @@ package#CloudManagement,domain#Anomalies,domain#P.E.HuiHP.9
 package#DataLifecycle,domain#Anomalies,domain#D.E.D+DS-cP-iHu.9
 package#DataLifecycle,domain#Anomalies,domain#D.E.D-DS-cP-iHu.9
 package#DataLifecycle,domain#Anomalies,domain#D.E.HuaD-DS.9
+package#DataLifecycle,domain#Anomalies,domain#P.E.DAVPDA.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.HPDDR+DS+DFfi-fiDF.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.HPDDR+DS-DA2.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.HPDDR+DS-DFfo+foDF.9
@@ -24,6 +25,7 @@ package#DataLifecycle,domain#Anomalies,domain#P.E.HPDDR-DS+DFfi-fiDF.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.HPDDR-DS-DA2.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.HuirPD.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.PaD-DS.9
+package#DataLifecycle,domain#Anomalies,domain#P.E.PDADAV.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.PDI+DO-DS-S.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.PDI+DS-S.9
 package#DataLifecycle,domain#Anomalies,domain#P.E.PDO+DS-S.9

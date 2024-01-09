@@ -4,12 +4,14 @@ package#AccessContext,domain#accessFrom,domain#Space
 package#Application,domain#amends,domain#Data
 package#Application,domain#amendsData,domain#Data
 package#Application,domain#appends,domain#Data
+package#Application,domain#containsField,domain#DataField
 package#Application,domain#creates,domain#Data
 package#Application,domain#enablesUserAccess,domain#Data
 package#Application,domain#enablesUserInput,domain#Data
 package#Application,domain#enablesUserOutput,domain#Data
 package#Application,domain#enablesUserUpdate,domain#Data
 package#Application,domain#handles,domain#Data
+package#Application,domain#ignoresField,domain#DataField
 package#Application,domain#inputsData,domain#Data
 package#Application,domain#interactsWithData,domain#Data
 package#Application,domain#isSpam,domain#Data
@@ -26,8 +28,10 @@ package#Application,domain#viewsData,domain#Data
 package#CloudManagement,domain#contains,domain#Process
 package#CloudManagement,domain#isContainer,domain#Host
 package#CloudManagement,domain#isPod,domain#Host
+package#DataLifecycle,domain#canGetKeys,domain#DataAsset
 package#DataLifecycle,domain#canRead,domain#DataCopy
 package#DataLifecycle,domain#canWrite,domain#DataCopy
+package#DataLifecycle,domain#controls,domain#DataAsset
 package#DataLifecycle,domain#copyOf,domain#Data
 package#DataLifecycle,domain#crudc,domain#DataCopy
 package#DataLifecycle,domain#crudd,domain#DataCopy
@@ -121,6 +125,7 @@ package#Network,domain#hasPhysicalHost,domain#Host
 package#Network,domain#hosts,domain#Process
 package#Network,domain#impersonalDevice,domain#PhysicalHost
 package#Network,domain#implements,domain#AbstractSubnet
+package#Network,domain#indirectAuthZ,domain#Process
 package#Network,domain#interactsRemotelyWith,domain#Process
 package#Network,domain#interactsWith,domain#InteractiveHost
 package#Network,domain#interactsWith,domain#MobileClient
@@ -191,8 +196,11 @@ package#ProcessComms,domain#channelFrom,domain#Process
 package#ProcessComms,domain#channelTo,domain#Process
 package#ProcessComms,domain#channelVia,domain#ConnectionAsset
 package#ProcessComms,domain#channelVia,domain#LogicalPath
+package#ProcessComms,domain#flowsViaChannel,domain#AuthChannel
 package#ProcessComms,domain#flowsViaChannel,domain#ClientChannel
+package#ProcessComms,domain#flowsViaCS,domain#AuthChannel
 package#ProcessComms,domain#flowsViaCS,domain#ClientChannel
+package#ProcessComms,domain#flowsViaSC,domain#AuthChannel
 package#ProcessComms,domain#flowsViaSC,domain#ClientChannel
 package#ProcessComms,domain#fromInterface,domain#Interface
 package#ProcessComms,domain#fromSubnet,domain#LogicalSubnet

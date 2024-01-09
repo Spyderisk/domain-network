@@ -142,6 +142,7 @@ package#ProcessCommsInference,domain#CP-CSLS2H2-SC+SC,domain#Node-ServiceChannel
 package#ProcessCommsInference,domain#CP-CSLSH2-SC+SC,domain#Node-ServiceChannel-ServiceChannel,domain#INS-CSLSH2-SC+SC-ServiceChannel,TRUE,FALSE,domain#Node-DService-Process
 package#ProcessCommsInference,domain#CP-CS-SP+DX,domain#Node-DataExchange-DataExchange,domain#INS-CS-SP+DX-DataExchange,FALSE,TRUE,domain#Link-Client-uses-Service
 package#ProcessCommsInference,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
+package#ProcessCommsInference,domain#CP-CzS-CC+AC,domain#Node-AuthChannel-AuthChannel,domain#INS-CzS-CC+AC-AuthChannel,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessCommsInference,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#Node-Service-DesktopService,domain#INS-RDvSPHP-iPL-RAS+DtS-Service,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessCommsInference,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#Node-Service-LoginService,domain#INS-RTvSPHP-iPL-RAS+LnS-Service,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessCommsInference,domain#CP-SCCAP+CSAP,domain#Node-ClosedServiceAttackPath-ClosedServiceAttackPath,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
