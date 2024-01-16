@@ -360,6 +360,11 @@ package#DataLifecycle,domain#MADS-NotEncrypted-DataCache,domain#DataCache,domain
 package#DataLifecycle,domain#MADS-NotEncrypted-DataCopy,domain#DataCopy,domain#NotEncrypted,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-NotEncrypted-DataFlow,domain#DataFlow,domain#NotEncrypted,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-Overloaded-DataStep,domain#DataStep,domain#Overloaded,domain#ImpactLevelNegligible
+package#DataStructure,domain#MADS-LossOfAuthenticity-DataField,domain#DataField,domain#LossOfAuthenticity,domain#ImpactLevelLow
+package#DataStructure,domain#MADS-LossOfAvailability-DataField,domain#DataField,domain#LossOfAvailability,domain#ImpactLevelNegligible
+package#DataStructure,domain#MADS-LossOfConfidentiality-DataField,domain#DataField,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
+package#DataStructure,domain#MADS-LossOfIntegrity-DataField,domain#DataField,domain#LossOfIntegrity,domain#ImpactLevelNegligible
+package#DataStructure,domain#MADS-LossOfTimeliness-DataField,domain#DataField,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#GDPR,domain#MADS-LossOfAuthenticity-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfAuthenticity,domain#ImpactLevelLow
 package#GDPR,domain#MADS-LossOfAvailability-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#GDPR,domain#MADS-LossOfConfidentiality-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfConfidentiality,domain#ImpactLevelMedium

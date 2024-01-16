@@ -7,6 +7,7 @@ package#CloudManagement,package#Virtualisation
 package#DataLifecycle,package#Application
 package#DataLifecycleInference,package#DataLifecycle
 package#DataLifecycleInference,package#NetworkInference
+package#DataStructure,package#DataLifecycleInference
 package#GDPR,package#Legal
 package#IoT,package#DataLifecycle
 package#Legal,package#Privacy

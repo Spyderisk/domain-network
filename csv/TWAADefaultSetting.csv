@@ -312,6 +312,11 @@ package#DataLifecycle,domain#TWAADS-OutOfService-DataStep,domain#OutOfService,do
 package#DataLifecycle,domain#TWAADS-Timeliness-DataCache,domain#Timeliness,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Timeliness-DataCopy,domain#Timeliness,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Timeliness-DataFlow,domain#Timeliness,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
+package#DataStructure,domain#TWAADS-Authenticity-DataField,domain#Authenticity,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
+package#DataStructure,domain#TWAADS-Availability-DataField,domain#Availability,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
+package#DataStructure,domain#TWAADS-Confidentiality-DataField,domain#Confidentiality,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
+package#DataStructure,domain#TWAADS-Integrity-DataField,domain#Integrity,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
+package#DataStructure,domain#TWAADS-Timeliness-DataField,domain#Timeliness,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#TWAADS-Authenticity-SpecialCategoryData,domain#Authenticity,domain#SpecialCategoryData,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#TWAADS-Availability-SpecialCategoryData,domain#Availability,domain#SpecialCategoryData,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#TWAADS-Confidentiality-SpecialCategoryData,domain#Confidentiality,domain#SpecialCategoryData,domain#TrustworthinessLevelSafe,TRUE

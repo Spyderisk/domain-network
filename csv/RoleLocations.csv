@@ -75,6 +75,8 @@ package#DataLifecycleInference,domain#Role_NewDataChannel,domain#DataChannel
 package#DataLifecycleInference,domain#Role_NewDataPath,domain#DataPath
 package#DataLifecycleInference,domain#Role_OldDataChannel,domain#DataChannel
 package#DataLifecycleInference,domain#Role_OldDataPath,domain#DataPath
+package#DataStructure,domain#Role_DataField,domain#DataField
+package#DataStructure,domain#Role_InputField,domain#DataField
 package#IoT,domain#Role_Controller,domain#Controller
 package#IoT,domain#Role_Sensor,domain#Sensor
 package#IoT,domain#Role_Thing,domain#Thing

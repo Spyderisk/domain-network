@@ -4,14 +4,12 @@ package#AccessContext,domain#accessFrom,domain#Space
 package#Application,domain#amends,domain#Data
 package#Application,domain#amendsData,domain#Data
 package#Application,domain#appends,domain#Data
-package#Application,domain#containsField,domain#DataField
 package#Application,domain#creates,domain#Data
 package#Application,domain#enablesUserAccess,domain#Data
 package#Application,domain#enablesUserInput,domain#Data
 package#Application,domain#enablesUserOutput,domain#Data
 package#Application,domain#enablesUserUpdate,domain#Data
 package#Application,domain#handles,domain#Data
-package#Application,domain#ignoresField,domain#DataField
 package#Application,domain#inputsData,domain#Data
 package#Application,domain#interactsWithData,domain#Data
 package#Application,domain#isSpam,domain#Data
@@ -88,6 +86,10 @@ package#DataLifecycleInference,domain#revPath,domain#DataPath
 package#DataLifecycleInference,domain#revRelay,domain#DataAccess
 package#DataLifecycleInference,domain#toProc,domain#Process
 package#DataLifecycleInference,domain#usesDataPath,domain#DataPath
+package#DataStructure,domain#containsField,domain#DataField
+package#DataStructure,domain#ignoresField,domain#DataField
+package#DataStructure,domain#includesField,domain#DataField
+package#DataStructure,domain#needsField,domain#DataField
 package#IoT,domain#amendsController,domain#Controller
 package#IoT,domain#amendsSensor,domain#Sensor
 package#IoT,domain#controlsSensor,domain#Sensor

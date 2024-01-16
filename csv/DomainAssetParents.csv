@@ -20,8 +20,6 @@ package#Application,domain#CmdLineProcess,domain#ProcessPalette
 package#Application,domain#ConsoleProcess,domain#InteractiveProcess
 package#Application,domain#Data,domain#DataLifecycleAsset
 package#Application,domain#Data,domain#DataPalette
-package#Application,domain#DataField,domain#DataLifecycleAsset
-package#Application,domain#DataField,domain#DataPalette
 package#Application,domain#DataLifecycleAsset,core#Asset
 package#Application,domain#DataPalette,core#PaletteType
 package#Application,domain#DataService,domain#ProcessPalette
@@ -108,6 +106,8 @@ package#DataLifecycle,domain#UpdatePool,domain#OutputPool
 package#DataLifecycleInference,domain#DataChannel,domain#DataInferenceAsset
 package#DataLifecycleInference,domain#DataExchange,domain#DataInferenceAsset
 package#DataLifecycleInference,domain#DataPath,domain#DataInferenceAsset
+package#DataStructure,domain#DataField,domain#DataLifecycleAsset
+package#DataStructure,domain#DataField,domain#DataPalette
 package#GDPR,domain#BiometricData,domain#GDPRArt94Data
 package#GDPR,domain#GDPRArt94Data,domain#GDPRArt9Data
 package#GDPR,domain#GDPRArt9Data,domain#TypeOverlayData

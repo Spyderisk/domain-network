@@ -12,7 +12,6 @@ package#Application,domain#Integrity,domain#Data
 package#Application,domain#Timeliness,domain#Data
 package#Application,domain#Timeliness,domain#Human
 package#Application,domain#Timeliness,domain#Process
-package#Core,domain#DefaultTW,domain#DebugMarker
 package#DataLifecycle,domain#Authenticity,domain#DataAsset
 package#DataLifecycle,domain#Availability,domain#DataAsset
 package#DataLifecycle,domain#Confidentiality,domain#DataContainer
@@ -25,6 +24,11 @@ package#DataLifecycle,domain#Integrity,domain#DataAsset
 package#DataLifecycle,domain#OutOfService,domain#DataAsset
 package#DataLifecycle,domain#OutOfService,domain#DataStep
 package#DataLifecycle,domain#Timeliness,domain#DataAsset
+package#DataStructure,domain#Authenticity,domain#DataField
+package#DataStructure,domain#Availability,domain#DataField
+package#DataStructure,domain#Confidentiality,domain#DataField
+package#DataStructure,domain#Integrity,domain#DataField
+package#DataStructure,domain#Timeliness,domain#DataField
 package#IoT,domain#Authenticity,domain#Sensor
 package#IoT,domain#Integrity,domain#Sensor
 package#IoT,domain#Timeliness,domain#Sensor

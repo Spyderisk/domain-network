@@ -7,6 +7,7 @@ package#CloudManagement,CloudManagement,Model of cloud hosting and automated man
 package#Core,Core,Generic base asset classes,1,Core
 package#DataLifecycle,DataLifecycle,"Model of data processing, movement and persistence.",60,DataLifecycle
 package#DataLifecycleInference,DataLifecycleInference,"Data processing, movement and persistence inference rules and state.",70,DataLifecycleInference
+package#DataStructure,DataStructure,Model of elements (fields) within a Data asset,70,DataStructure
 package#GDPR,GDPR,Model of GDPR compliance requirements.,100,GDPR
 package#IoT,InternetOfThings,Model of network accessible physical sensing and control devices.,70,InternetOfThings
 package#Legal,Legal,"Model of legally significant assets, relationships and controls.",90,Legal

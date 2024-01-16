@@ -16,6 +16,7 @@ package#Application,domain#Role_Editor,Editor,"An editor process, i.e. one that 
 package#Application,domain#Role_Input,Input,A data asset that is a process input.
 package#Application,domain#Role_InteractiveProcess,InteractiveProcess,A process facilitating (possibly specialised to support) user interactions with data.
 package#Application,domain#Role_Output,Output,A data asset that is a process output.
+package#Application,domain#Role_OutputField,OutputField,A Data Field used as output.
 package#Application,domain#Role_RemoteDesktop,RemoteDesktop,A remote desktop client process.
 package#Application,domain#Role_TextEditor,TextEditor,"A text editor process, i.e. one that allows user interactions with data via a non-graphical login shell."
 package#Application,domain#Role_WebBrowser,WebBrowser,A web browser.
@@ -64,6 +65,8 @@ package#DataLifecycleInference,domain#Role_NewDataChannel,NewDataChannel,A data 
 package#DataLifecycleInference,domain#Role_NewDataPath,NewDataPath,A data path created in construction patterns.
 package#DataLifecycleInference,domain#Role_OldDataChannel,OldDataChannel,A data channel used in construction patterns.
 package#DataLifecycleInference,domain#Role_OldDataPath,OldDataPath,A data path used in construction patterns.
+package#DataStructure,domain#Role_DataField,DataField,A field in a data schema or serialized data asset.
+package#DataStructure,domain#Role_InputField,InputField,A Data Field used as input.
 package#IoT,domain#Role_Controller,Controller,An IoT Thing acting as a controller.
 package#IoT,domain#Role_Sensor,Sensor,An IoT Thing acting as a sensor.
 package#IoT,domain#Role_Thing,Thing,An IoT Thing.

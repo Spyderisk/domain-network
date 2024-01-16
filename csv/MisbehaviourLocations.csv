@@ -12,7 +12,6 @@ package#Application,domain#LossOfTimeliness,domain#Data
 package#Application,domain#LossOfTimeliness,domain#Human
 package#Application,domain#LossOfTimeliness,domain#Process
 package#Application,domain#MalwareInfection,domain#Data
-package#Core,domain#LossOfDefaultTW,domain#DebugMarker
 package#DataLifecycle,domain#InService,domain#DataAsset
 package#DataLifecycle,domain#InService,domain#DataStep
 package#DataLifecycle,domain#LossOfAuthenticity,domain#DataAsset
@@ -26,6 +25,11 @@ package#DataLifecycle,domain#NotDecrypted,domain#DataFlow
 package#DataLifecycle,domain#NotEncrypted,domain#DataCopy
 package#DataLifecycle,domain#NotEncrypted,domain#DataFlow
 package#DataLifecycle,domain#Overloaded,domain#DataStep
+package#DataStructure,domain#LossOfAuthenticity,domain#DataField
+package#DataStructure,domain#LossOfAvailability,domain#DataField
+package#DataStructure,domain#LossOfConfidentiality,domain#DataField
+package#DataStructure,domain#LossOfIntegrity,domain#DataField
+package#DataStructure,domain#LossOfTimeliness,domain#DataField
 package#IoT,domain#LossOfAuthenticity,domain#Sensor
 package#IoT,domain#LossOfIntegrity,domain#Sensor
 package#IoT,domain#LossOfTimeliness,domain#Sensor

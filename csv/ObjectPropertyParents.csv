@@ -21,6 +21,7 @@ package#Application,domain#viewsData,domain#interactsWithData
 package#DataLifecycle,domain#crudc,domain#crudd
 package#DataLifecycle,domain#crudu,domain#crudd
 package#DataLifecycle,domain#crudu,domain#crudr
+package#DataLifecycle,domain#flows,domain#copyOf
 package#DataLifecycle,domain#flowsIn,domain#flows
 package#DataLifecycle,domain#flowsOut,domain#flows
 package#DataLifecycle,domain#noDX,domain#noDU

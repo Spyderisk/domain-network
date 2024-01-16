@@ -7,10 +7,10 @@ package#Application,domain#Authenticity,Authenticity,"The data (which may be emb
 package#Application,domain#Confidentiality,Confidentiality,Signifies that data (which may be embedded in an IoT device) is only accessible to authorised users.,TRUE
 package#Application,domain#Integrity,Integrity,The data (which may be embedded in an IoT device) is correct and fit for purpose.,TRUE
 package#Application,domain#Timeliness,Timeliness,"Represents a state in which a data asset is up to date, or a process or human has up to date inputs.",TRUE
-package#Core,domain#DefaultTW,DefaultTW,"Modelling artefact: an attribute that is always set to the lowest trustworthiness level, and used as a cause for threats that are triggered entirely by the use of security controls.",FALSE
 package#DataLifecycle,domain#Decrypted,Decrypted,"An attribute of stored or flowing copies of data, signifying that the data is accessible in unencrypted form. Considered a trustworthiness attribute as it precludes loss of availability where a process lacks a suitable decryption key, and used to model side effects of encryption controls.",FALSE
 package#DataLifecycle,domain#Encrypted,Encrypted,"An attribute of stored or flowing copies of data, signifying that the data is accessible in encrypted form. Considered a trustworthiness attribute as it prevents loss of confidentiality unless the key is compromised, and used to model side effects of encryption controls.",TRUE
 package#Network,domain#Capacity,Capacity,"Represents the total capacity at a Data Centre, or more accurately, the level of trust that it will be able to handle any demand placed on it by automatically provisioned for hosts and processes.",TRUE
+package#Network,domain#DefaultTW,DefaultTW,"Modelling artefact: an attribute that is always set to the lowest trustworthiness level, and used as a cause for threats that are triggered entirely by the use of security controls.",FALSE
 package#Network,domain#ExtrinsicTW,ExtrinsicTW,Free of software vulnerabilities in processes and devices that are likely to be discovered by potential attackers.,TRUE
 package#Network,domain#Health,Health,Free of self-propagating malware.,TRUE
 package#Network,domain#IntrinsicTW,IntrinsicTW,Free of functional software bugs that cause errors or crashes without external provocation.,TRUE

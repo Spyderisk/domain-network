@@ -225,6 +225,12 @@ package#DataLifecycleInference,domain#R-RevDFtDP2P,RevDFtDP2P,Finds an inbound (
 package#DataLifecycleInference,domain#R-SDADPPDXP,SDADPPDXP,Finds a service with a data access to which there is a data path from a process that exchanges data with a third process.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-SDADPPDXPRAC,SDADPPDXPRAC,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, and there is a remote access client using remotely the second and third processes.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-SDADPPDXRAC,SDADPPDXRAC,Finds a service with a data access to which there is a data path from a process that exchanges data with a remote access client that is remotely using the second process.,FALSE,FALSE
+package#DataStructure,domain#R-DAODADInDF,DAODADInDF,Finds an output data asset fulfilling (via a data access) an input data asset that needs a field contained in the data.,FALSE,FALSE
+package#DataStructure,domain#R-DAOiDADInDF,DAOiDADInDF,Finds an output data asset that includes a field contained in the data fulfilling (via a data access) an input data asset that needs the field.,FALSE,FALSE
+package#DataStructure,domain#R-DAPDADF,DAPDADF,"Finds a Process receiving Data that contains a Data Field, via a Data Asset.",FALSE,FALSE
+package#DataStructure,domain#R-DSDDF,DSDDF,Finds a Data Copy of a Data asset containing a Data Field.,FALSE,FALSE
+package#DataStructure,domain#R-PDIDDF,PDIDDF,Finds a Process using Data as input that contains a Data Field.,FALSE,FALSE
+package#DataStructure,domain#R-PDODAnDF,PDODAnDF,"Finds a process creating data, the data access asset (a data output), and fulfilled output data asset, where the output asset needs a field.",FALSE,FALSE
 package#GDPR,domain#R-HuSDPoS,HuSDPoS,"Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject, where the subject operates the Service providing (and controlling) access to the data.",FALSE,FALSE
 package#GDPR,domain#R-HuSDPS,HuSDPS,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject.,FALSE,FALSE
 package#GDPR,domain#R-NDFHu,NDFHu,Finds nationally regulated personal data being transferred across a border.,FALSE,FALSE

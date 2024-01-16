@@ -309,6 +309,9 @@ package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Node-FlowsFrom-P
 package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXPRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataStructure,domain#MP-DSDDF-Hu-P,domain#Node-Human-Human,FALSE,TRUE,FALSE
+package#DataStructure,domain#MP-DSDDF-Hu-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
+package#DataStructure,domain#MP-PDIDDF-DA,domain#Node-DataAsset-DataAsset,FALSE,TRUE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human1-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human2-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Operator-Stakeholder,FALSE,FALSE,FALSE

@@ -465,6 +465,15 @@ package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Link-NewDataPa
 package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Link-NewDataPath-toProc-DB
 package#DataLifecycleInference,domain#CP-SDUDADS+W,domain#Link-DataUse-canWrite-DataCopy
 package#DataLifecycleInference,domain#CP-SDUDSDA+R,domain#Link-DataUse-canRead-DataCopy
+package#DataStructure,domain#CP-DAOiDADInDF-i+i,domain#Link-InputAsset-includesField-DataField
+package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#Link-InputAsset-includesField-DataField
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n,domain#Link-OutputAsset-needsField-DataField
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n-Replay,domain#Link-OutputAsset-needsField-DataField
+package#DataStructure,domain#CP-DAPDADF-g+n,domain#Link-DataAsset-needsField-DataField
+package#DataStructure,domain#CP-DSDDF-Hu-P+i,domain#Link-DataCopy-includesField-DataField
+package#DataStructure,domain#CP-DSD-iDF+n,domain#Link-DataCopy-needsField-DataField
+package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#Link-DataAsset-includesField-DataField
+package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#Link-DataAsset-includesField-DataField
 package#IoT,domain#CP-Co+cD,domain#Link-Controller-stores-Data
 package#IoT,domain#CP-Co+cD,domain#Link-Data-controlsThing-Controller
 package#IoT,domain#CP-DcTh+DS,domain#Link-SimpleProcess-serves-Data

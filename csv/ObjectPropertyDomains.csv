@@ -4,14 +4,12 @@ package#AccessContext,domain#accessFrom,domain#AccessContext
 package#Application,domain#amends,domain#Process
 package#Application,domain#amendsData,domain#Human
 package#Application,domain#appends,domain#Process
-package#Application,domain#containsField,domain#Data
 package#Application,domain#creates,domain#Process
 package#Application,domain#enablesUserAccess,domain#Process
 package#Application,domain#enablesUserInput,domain#Process
 package#Application,domain#enablesUserOutput,domain#Process
 package#Application,domain#enablesUserUpdate,domain#Process
 package#Application,domain#handles,domain#Process
-package#Application,domain#ignoresField,domain#Process
 package#Application,domain#inputsData,domain#Human
 package#Application,domain#interactsWithData,domain#Human
 package#Application,domain#isSpam,domain#Data
@@ -31,7 +29,7 @@ package#CloudManagement,domain#isPod,domain#Host
 package#DataLifecycle,domain#canGetKeys,domain#DataAccess
 package#DataLifecycle,domain#canRead,domain#DataUse
 package#DataLifecycle,domain#canWrite,domain#DataUse
-package#DataLifecycle,domain#copyOf,domain#DataCopy
+package#DataLifecycle,domain#copyOf,domain#DataAsset
 package#DataLifecycle,domain#crudc,domain#Process
 package#DataLifecycle,domain#crudd,domain#Process
 package#DataLifecycle,domain#crudr,domain#Process
@@ -88,6 +86,10 @@ package#DataLifecycleInference,domain#toProc,domain#DataChannel
 package#DataLifecycleInference,domain#toProc,domain#DataPath
 package#DataLifecycleInference,domain#usesDataPath,domain#DataChannel
 package#DataLifecycleInference,domain#usesDataPath,domain#DataFlow
+package#DataStructure,domain#containsField,domain#Data
+package#DataStructure,domain#ignoresField,domain#Process
+package#DataStructure,domain#includesField,domain#DataAsset
+package#DataStructure,domain#needsField,domain#DataAsset
 package#IoT,domain#amendsController,domain#Process
 package#IoT,domain#amendsSensor,domain#Process
 package#IoT,domain#controlsSensor,domain#Process

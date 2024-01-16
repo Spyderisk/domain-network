@@ -7,10 +7,10 @@ package#Application,domain#TWIS-Authenticity-LossOfAuthenticity,domain#LossOfAut
 package#Application,domain#TWIS-Confidentiality-LossOfConfidentiality,domain#LossOfConfidentiality,domain#Confidentiality
 package#Application,domain#TWIS-Integrity-LossOfIntegrity,domain#LossOfIntegrity,domain#Integrity
 package#Application,domain#TWIS-Timeliness-LossOfTimeliness,domain#LossOfTimeliness,domain#Timeliness
-package#Core,domain#TWIS-DefaultTW-LossOfDefaultTW,domain#LossOfDefaultTW,domain#DefaultTW
 package#DataLifecycle,domain#TWIS-Decrypted-NotDecrypted,domain#NotDecrypted,domain#Decrypted
 package#DataLifecycle,domain#TWIS-Encrypted-NotEncrypted,domain#NotEncrypted,domain#Encrypted
 package#Network,domain#TWIS-Capacity-LossOfCapacity,domain#LossOfCapacity,domain#Capacity
+package#Network,domain#TWIS-DefaultTW-LossOfDefaultTW,domain#LossOfDefaultTW,domain#DefaultTW
 package#Network,domain#TWIS-ExtrinsicTW-LossOfExtrinsicTW,domain#LossOfExtrinsicTW,domain#ExtrinsicTW
 package#Network,domain#TWIS-Health-MalwareInfection,domain#MalwareInfection,domain#Health
 package#Network,domain#TWIS-IntrinsicTW-LossOfIntrinsicTW,domain#LossOfIntrinsicTW,domain#IntrinsicTW
