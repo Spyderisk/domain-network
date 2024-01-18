@@ -225,6 +225,9 @@ package#NetworkInference,domain#INS-HCHLSS+NC-HostNetContext,domain#Node-Host-Ho
 package#NetworkInference,domain#INS-HCHLSS+NC-HostNetContext,domain#Node-LogicalSubnet-LogicalSubnet
 package#NetworkInference,domain#INS-Hc-pN-hP+AC-AuthClient,domain#Node-Host-Host
 package#NetworkInference,domain#INS-Hc-pN-hP+AC-AuthClient,domain#Node-LogicalSubnet-AbstractSubnet
+package#NetworkInference,domain#INS-HPAC-AC+rI-DebugMarker,domain#Node-Host-Host
+package#NetworkInference,domain#INS-HPAC-AC+rI-DebugMarker,domain#Node-Process-Process
+package#NetworkInference,domain#INS-HPAC-AC+rI-DebugMarker,domain#Node-Space-Space
 package#NetworkInference,domain#INS-HuiCHLnS-AC+AC-RemoteTerminal,domain#Node-ConsoleHost-ConsoleHost
 package#NetworkInference,domain#INS-HuiCHLnS-AC+AC-RemoteTerminal,domain#Node-Human-Human
 package#NetworkInference,domain#INS-HuSP+SMS-Process,domain#Node-SmartPhone-Smartphone
@@ -296,6 +299,10 @@ package#ProcessCommsInference,domain#INS-RTvSPHP-iPL-RAS+LnS-Service,domain#Node
 package#ProcessCommsInference,domain#INS-RTvSPHP-iPL-RAS+LnS-Service,domain#Node-RemoteAccessClient-RemoteTerminal
 package#ProcessCommsInference,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,domain#Node-AttackerSubnet-LogicalSubnet
 package#ProcessCommsInference,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,domain#Node-Process-Process
+package#ProcessCommsInference,domain#INS-SCLSRASHPAC+rI-DebugMarker,domain#Node-Host-Host
+package#ProcessCommsInference,domain#INS-SCLSRASHPAC+rI-DebugMarker,domain#Node-LogicalSubnet-LogicalSubnet
+package#ProcessCommsInference,domain#INS-SCLSRASHPAC+rI-DebugMarker,domain#Node-Process-Process
+package#ProcessCommsInference,domain#INS-SCLSRASHPAC+rI-DebugMarker,domain#Node-Space-Space
 package#ProcessCommsInference,domain#INS-SOCAP+OSAP-OpenServiceAttackPath,domain#Node-AttackerSubnet-LogicalSubnet
 package#ProcessCommsInference,domain#INS-SOCAP+OSAP-OpenServiceAttackPath,domain#Node-Process-Process
 package#VirtualisationInference,domain#INS-DCCVH-LS+LS-VirtualSubnet,domain#Node-DataCentre-DataCentre

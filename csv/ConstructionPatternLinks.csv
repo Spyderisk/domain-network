@@ -151,6 +151,11 @@ package#DataLifecycleInference,domain#CP-DADSDCSDD-f+ch,domain#Link-NewDataChann
 package#DataLifecycleInference,domain#CP-DADSDCSDD-f+ch,domain#Link-NewDataChannel-dataChannelFrom-Process
 package#DataLifecycleInference,domain#CP-DADSDCSDD-f+ch,domain#Link-NewDataChannel-dataChannelTo-Service
 package#DataLifecycleInference,domain#CP-DADU-eS+eA,domain#Link-Service-enablesAccess-DataUse
+package#DataLifecycleInference,domain#CP-DAOiDADInDF-i+i,domain#Link-InputAsset-includesField-DataField
+package#DataLifecycleInference,domain#CP-DAOiDADInDF-i+i-Replay,domain#Link-InputAsset-includesField-DataField
+package#DataLifecycleInference,domain#CP-DAO-iDADInDF-n+n,domain#Link-OutputAsset-needsField-DataField
+package#DataLifecycleInference,domain#CP-DAO-iDADInDF-n+n-Replay,domain#Link-OutputAsset-needsField-DataField
+package#DataLifecycleInference,domain#CP-DAPDADF-g+n,domain#Link-DataAsset-needsField-DataField
 package#DataLifecycleInference,domain#CP-DC1+x,domain#Link-DataChannel-extendsDC-DataChannel
 package#DataLifecycleInference,domain#CP-DC2TDRfDP2+xf,domain#Link-DataAccess-fwdRelay-DataAccess
 package#DataLifecycleInference,domain#CP-DC2TDRfDP2+xf,domain#Link-OldDataChannel-extendsFwdFlow-NewDataChannel
@@ -161,6 +166,8 @@ package#DataLifecycleInference,domain#CP-DC2xrDA2+f,domain#Link-DataSource-fulfi
 package#DataLifecycleInference,domain#CP-DC3-x+x,domain#Link-NewDataChannel-extendsDC-OldDataChannel
 package#DataLifecycleInference,domain#CP-DC3xf-xf+xf,domain#Link-OldDataChannel-extendsFwdFlow-NewDataChannel
 package#DataLifecycleInference,domain#CP-DC3xr-xr+xr,domain#Link-OldDataChannel-extendsRevFlow-NewDataChannel
+package#DataLifecycleInference,domain#CP-DCDFcV+c,domain#Link-Vault-controls-DataCache
+package#DataLifecycleInference,domain#CP-DCDFDF+i,domain#Link-DataCache-includesField-DataField
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Link-NewDataChannel-dataChannelFor-DataAccess
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Link-NewDataChannel-fromProc-Process
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Link-NewDataChannel-toProc-Service
@@ -219,6 +226,8 @@ package#DataLifecycleInference,domain#CP-DSDCDP2oDD+DC,domain#Link-NewDataChanne
 package#DataLifecycleInference,domain#CP-DSDCDP2oDD+DC,domain#Link-OldDataChannel-channelTried-OldDataChannel
 package#DataLifecycleInference,domain#CP-DSDCDP2oDD+DC,domain#Link-OldDataChannel-extendsDC-NewDataChannel
 package#DataLifecycleInference,domain#CP-DSDCDP2oDD+DC,domain#Link-Service-relaysAccess-DataAccess
+package#DataLifecycleInference,domain#CP-DSDDF-Hu-P+i,domain#Link-DataCopy-includesField-DataField
+package#DataLifecycleInference,domain#CP-DSD-iDF+n,domain#Link-DataCopy-needsField-DataField
 package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Link-DataChannel-dataChannelFor-DataAccess
 package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Link-DataChannel-fromProc-Process
 package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Link-DataChannel-toProc-Service
@@ -371,6 +380,8 @@ package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataP
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathTo-DataOutput
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-dataPathVisits-Process
 package#DataLifecycleInference,domain#CP-PDO-DI+DP,domain#Link-NewDataPath-fromProc-Process
+package#DataLifecycleInference,domain#CP-PDO-gDAnDF-i+i,domain#Link-DataAsset-includesField-DataField
+package#DataLifecycleInference,domain#CP-PDO-gDAnDF-i+i-Replay,domain#Link-DataAsset-includesField-DataField
 package#DataLifecycleInference,domain#CP-PDOScDD-DS+z,domain#Link-Process-usesForAuth-Vault
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathFor-Data
 package#DataLifecycleInference,domain#CP-PDP+DP,domain#Link-NewDataPath-dataPathTo-DataPool
@@ -465,15 +476,7 @@ package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Link-NewDataPa
 package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Link-NewDataPath-toProc-DB
 package#DataLifecycleInference,domain#CP-SDUDADS+W,domain#Link-DataUse-canWrite-DataCopy
 package#DataLifecycleInference,domain#CP-SDUDSDA+R,domain#Link-DataUse-canRead-DataCopy
-package#DataStructure,domain#CP-DAOiDADInDF-i+i,domain#Link-InputAsset-includesField-DataField
-package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#Link-InputAsset-includesField-DataField
-package#DataStructure,domain#CP-DAO-iDADInDF-n+n,domain#Link-OutputAsset-needsField-DataField
-package#DataStructure,domain#CP-DAO-iDADInDF-n+n-Replay,domain#Link-OutputAsset-needsField-DataField
-package#DataStructure,domain#CP-DAPDADF-g+n,domain#Link-DataAsset-needsField-DataField
-package#DataStructure,domain#CP-DSDDF-Hu-P+i,domain#Link-DataCopy-includesField-DataField
-package#DataStructure,domain#CP-DSD-iDF+n,domain#Link-DataCopy-needsField-DataField
-package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#Link-DataAsset-includesField-DataField
-package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#Link-DataAsset-includesField-DataField
+package#DataStructure,domain#CP-PpD-iDF+a,domain#Link-Process-accessesField-DataField
 package#IoT,domain#CP-Co+cD,domain#Link-Controller-stores-Data
 package#IoT,domain#CP-Co+cD,domain#Link-Data-controlsThing-Controller
 package#IoT,domain#CP-DcTh+DS,domain#Link-SimpleProcess-serves-Data

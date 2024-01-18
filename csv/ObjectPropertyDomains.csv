@@ -48,6 +48,7 @@ package#DataLifecycle,domain#fromSource,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
 package#DataLifecycle,domain#fulfils,domain#Process
+package#DataLifecycle,domain#includesField,domain#DataAsset
 package#DataLifecycle,domain#noDX,domain#Process
 package#DataLifecycle,domain#storesCopy,domain#Host
 package#DataLifecycle,domain#usedBy,domain#DataAccess
@@ -77,6 +78,7 @@ package#DataLifecycleInference,domain#fwdRelay,domain#DataAccess
 package#DataLifecycleInference,domain#isDest,domain#DataAccess
 package#DataLifecycleInference,domain#isPool,domain#DataAccess
 package#DataLifecycleInference,domain#isSource,domain#DataAccess
+package#DataLifecycleInference,domain#needsField,domain#DataAsset
 package#DataLifecycleInference,domain#possDataDest,domain#DataAccess
 package#DataLifecycleInference,domain#possRevPath,domain#DataAccess
 package#DataLifecycleInference,domain#relaysAccess,domain#Process
@@ -86,10 +88,9 @@ package#DataLifecycleInference,domain#toProc,domain#DataChannel
 package#DataLifecycleInference,domain#toProc,domain#DataPath
 package#DataLifecycleInference,domain#usesDataPath,domain#DataChannel
 package#DataLifecycleInference,domain#usesDataPath,domain#DataFlow
+package#DataStructure,domain#accessesField,domain#Process
 package#DataStructure,domain#containsField,domain#Data
 package#DataStructure,domain#ignoresField,domain#Process
-package#DataStructure,domain#includesField,domain#DataAsset
-package#DataStructure,domain#needsField,domain#DataAsset
 package#IoT,domain#amendsController,domain#Process
 package#IoT,domain#amendsSensor,domain#Process
 package#IoT,domain#controlsSensor,domain#Process

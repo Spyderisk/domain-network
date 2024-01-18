@@ -201,6 +201,7 @@ package#ProcessComms,domain#Role_ProxyChannel,domain#ClientChannel
 package#ProcessComms,domain#Role_ProxyClient,domain#Process
 package#ProcessComms,domain#Role_ServiceAttackPath,domain#ServiceAttackPath
 package#ProcessComms,domain#Role_ServiceChannel,domain#ServiceChannel
+package#ProcessComms,domain#Role_VaultChannel,domain#ClientChannel
 package#Users,domain#Role_Adult,domain#Adult
 package#Users,domain#Role_Child,domain#Child
 package#Users,domain#Role_Employer,domain#Stakeholder

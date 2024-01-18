@@ -176,6 +176,7 @@ package#ProcessComms,domain#Role_ProxyChannel,ProxyChannel,A client-service trus
 package#ProcessComms,domain#Role_ProxyClient,ProxyClient,A process acting as a client to a reverse proxy.
 package#ProcessComms,domain#Role_ServiceAttackPath,ServiceAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages would be addressed in a way that is consistent with at least one client.
 package#ProcessComms,domain#Role_ServiceChannel,ServiceChannel,A privileged communication path through the network between a client and a service.
+package#ProcessComms,domain#Role_VaultChannel,VaultChannel,A client channel representing the relationship between a process and a key vault holding keys used by the process to access data.
 package#Users,domain#Role_Adult,Adult,A human who is not a Child.
 package#Users,domain#Role_Child,Child,A Human who is not an Adult.
 package#Users,domain#Role_Employer,Employer,A stakeholder that employs one or more individuals to act in one or more system roles.

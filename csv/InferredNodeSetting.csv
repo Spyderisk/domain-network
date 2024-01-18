@@ -116,6 +116,7 @@ package#NetworkInference,domain#CP-DC-R+RW,domain#Node-Router-Router,domain#INS-
 package#NetworkInference,domain#CP-DC-R+RW,domain#Node-WiredLAN-WiredLAN,domain#INS-DC-R+RW-WiredLAN,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#NetworkInference,domain#CP-HCHLSS+NC,domain#Node-HostNetContext-HostNetContext,domain#INS-HCHLSS+NC-HostNetContext,TRUE,FALSE,domain#Node-Host-Host
 package#NetworkInference,domain#CP-Hc-pN-hP+AC,domain#Node-AuthClient-AuthClient,domain#INS-Hc-pN-hP+AC-AuthClient,TRUE,FALSE,domain#Node-Host-Host
+package#NetworkInference,domain#CP-HPAC-AC+rI,domain#Node-DebugMarker-DebugMarker,domain#INS-HPAC-AC+rI-DebugMarker,TRUE,FALSE,domain#Node-Process-Process
 package#NetworkInference,domain#CP-HuiCHLnS-AC+AC,domain#Node-RemoteTerminal-RemoteTerminal,domain#INS-HuiCHLnS-AC+AC-RemoteTerminal,TRUE,FALSE,domain#Node-ConsoleHost-ConsoleHost
 package#NetworkInference,domain#CP-HuSP+SMS,domain#Node-Process-SMSClient,domain#INS-HuSP+SMS-Process,TRUE,FALSE,domain#Node-SmartPhone-Smartphone
 package#NetworkInference,domain#CP-InternetMP+W,domain#Node-World-World,domain#INS-InternetMP+W-World,TRUE,FALSE,domain#Node-Internet-Internet
@@ -146,6 +147,7 @@ package#ProcessCommsInference,domain#CP-CzS-CC+AC,domain#Node-AuthChannel-AuthCh
 package#ProcessCommsInference,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#Node-Service-DesktopService,domain#INS-RDvSPHP-iPL-RAS+DtS-Service,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessCommsInference,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#Node-Service-LoginService,domain#INS-RTvSPHP-iPL-RAS+LnS-Service,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessCommsInference,domain#CP-SCCAP+CSAP,domain#Node-ClosedServiceAttackPath-ClosedServiceAttackPath,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
+package#ProcessCommsInference,domain#CP-SCLSRASHPAC+rI,domain#Node-DebugMarker-DebugMarker,domain#INS-SCLSRASHPAC+rI-DebugMarker,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessCommsInference,domain#CP-SOCAP+OSAP,domain#Node-OpenServiceAttackPath-OpenServiceAttackPath,domain#INS-SOCAP+OSAP-OpenServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
 package#VirtualisationInference,domain#CP-DCCVH-LS+LS,domain#Node-VirtualSubnet-VXLAN,domain#INS-DCCVH-LS+LS-VirtualSubnet,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#VirtualisationInference,domain#CP-H2dPH2+VC,domain#Node-VirtualChannel-VirtualChannel,domain#INS-H2dPH2+VC-VirtualChannel,TRUE,FALSE,domain#Node-VirtualSubnet-VirtualSubnet
