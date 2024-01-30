@@ -281,9 +281,9 @@ package#Network,domain#P.A.HumHP-iT.6.4,domain#MS-LossOfAvailability-Process
 package#Network,domain#P.IS.HP.8,domain#MS-InService-Process
 package#Network,domain#P.IS.HPsAC.1,domain#MS-InService-Process
 package#Network,domain#P.J.SHP-iT.7,domain#MS-TrojanInsertion-Process
-package#Network,domain#P.L.HPmAC.0,domain#MS-LocalLossOfUserTW-ProcAccess
+package#Network,domain#P.L.HPmAC.0,domain#MS-LocalLossOfUserTW-Process
 package#Network,domain#P.L.HPmAC.1,domain#MS-LocalLossOfUserTW-ProcAccess
-package#Network,domain#P.L.HPsAC.0,domain#MS-LocalLossOfUserTW-ProcAccess
+package#Network,domain#P.L.HPsAC.0,domain#MS-LossOfUserTW-Process
 package#Network,domain#P.L.HuHE2AC.3,domain#MS-LocalLossOfUserTW-ProcAccess
 package#Network,domain#P.L.HuiPCHS.3.1,domain#MS-LocalLossOfUserTW-ProcAccess
 package#Network,domain#P.L.HuiPCHS-iP.3.2,domain#MS-LocalLossOfUserTW-ProcAccess
@@ -339,11 +339,11 @@ package#ProcessComms,domain#CAP.IS.SCmCAP.8,domain#MS-InService-ClientAttackPath
 package#ProcessComms,domain#CC.AuA.CCAPNaS.1,domain#MS-LossOfAnonUserTW-ClientChannel
 package#ProcessComms,domain#CC.AuA.OCAPNaS.1,domain#MS-LossOfAnonUserTW-ClientChannel
 package#ProcessComms,domain#CC.AuC.CACHcLSS.1,domain#MS-ClientImpersonation-ClientChannel
-package#ProcessComms,domain#CC.AuC.CAC-iSScS.1,domain#MS-ClientImpersonation-AuthChannel
-package#ProcessComms,domain#CC.AuC.CAC-iSScS.3.1,domain#MS-ClientImpersonation-AuthChannel
-package#ProcessComms,domain#CC.AuC.CAC-iSScS.3.2,domain#MS-ClientImpersonation-AuthChannel
-package#ProcessComms,domain#CC.AuC.CAC-iSScS.3.3,domain#MS-ClientImpersonation-AuthChannel
 package#ProcessComms,domain#CC.AuC.CACSSaS.3.2,domain#MS-ClientImpersonation-AuthChannel
+package#ProcessComms,domain#CC.AuC.CACSScS.1,domain#MS-ClientImpersonation-AuthChannel
+package#ProcessComms,domain#CC.AuC.CACSScS.3.1,domain#MS-ClientImpersonation-AuthChannel
+package#ProcessComms,domain#CC.AuC.CACSScS.3.2,domain#MS-ClientImpersonation-AuthChannel
+package#ProcessComms,domain#CC.AuC.CACSScS.3.3,domain#MS-ClientImpersonation-AuthChannel
 package#ProcessComms,domain#CC.AuC.CCC-nS.3.2,domain#MS-ClientImpersonation-ClientChannel
 package#ProcessComms,domain#CC.AuC.CCC-nS.3.3,domain#MS-ClientImpersonation-ClientChannel
 package#ProcessComms,domain#CC.AuC.CCC-nS-i.1,domain#MS-ClientImpersonation-ClientChannel
@@ -364,6 +364,8 @@ package#ProcessComms,domain#CC.AuS.CRoSG.3,domain#MS-ServiceImpersonation-Client
 package#ProcessComms,domain#CC.AuS.CRoSG.3,domain#MS-ServiceImpersonation-IndirectChannel
 package#ProcessComms,domain#CC.AuS.CRoSI.3,domain#MS-ServiceImpersonation-ClientChannel
 package#ProcessComms,domain#CC.AuS.CRoSI.3,domain#MS-ServiceImpersonation-IndirectChannel
+package#ProcessComms,domain#CC.AX.CACSSaS.0,domain#MS-LossOfAccessibility-AuthChannel
+package#ProcessComms,domain#CC.AX.CACSScS.0,domain#MS-LossOfAccessibility-AuthChannel
 package#ProcessComms,domain#CC.AX.CCCmSCS.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCC-nmCCS.6.1.5,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCC-nmSCS.6.1.5,domain#MS-LossOfAccessibility-ClientChannel
@@ -373,8 +375,6 @@ package#ProcessComms,domain#CC.AX.CCCS.1.3,domain#MS-LossOfAccessibility-ClientC
 package#ProcessComms,domain#CC.AX.CCCS.6.1,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCCS.6.2,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCCS.6.3,domain#MS-LossOfAccessibility-ClientChannel
-package#ProcessComms,domain#CC.AX.CCCSSaS-i.0,domain#MS-LossOfAccessibility-AuthChannel
-package#ProcessComms,domain#CC.AX.CCCSScS-i.0,domain#MS-LossOfAccessibility-AuthChannel
 package#ProcessComms,domain#CC.AX.CCCvCCS.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCDFSFS.6.4,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCDFSTS.6.4,domain#MS-LossOfAccessibility-ClientChannel

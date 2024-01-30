@@ -141,13 +141,15 @@ package#Network,domain#P.A.HP.0,domain#MS-LossOfAvailability-Host
 package#Network,domain#P.A.HP-iT.6,domain#MS-Overloaded-Process
 package#Network,domain#P.A.HuirP.0,domain#MS-LossOfAvailability-Human
 package#Network,domain#P.A.HuirRACP.0,domain#MS-LossOfAvailability-RemoteAccessClient
+package#Network,domain#P.L.HPmAC.0,domain#MS-LocalLossOfUserTW-ProcAccess
+package#Network,domain#P.L.HPsAC.0,domain#MS-LocalLossOfUserTW-ProcAccess
 package#Network,domain#P.U.HP.0,domain#MS-InService-Host
 package#Network,domain#P.U.HP.0,domain#MS-LossOfReliability-Host
 package#NetworkConnectivity,domain#I.A.I.0,domain#MS-Overloaded-Interface
 package#NetworkConnectivity,domain#Sg.A.Sg.0,domain#MS-LossOfAvailability-Gateway
+package#ProcessComms,domain#CC.AX.CACSSaS.0,domain#MS-LossOfAccessibility-ClientChannel
+package#ProcessComms,domain#CC.AX.CACSScS.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCCmSCS.0,domain#MS-LossOfConnectivity-ServiceChannel
-package#ProcessComms,domain#CC.AX.CCCSSaS-i.0,domain#MS-LossOfAccessibility-ClientChannel
-package#ProcessComms,domain#CC.AX.CCCSScS-i.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCCvCCS.0,domain#MS-LossOfAccessibility-ProxyChannel
 package#ProcessComms,domain#CC.AX.CCDFSFS.6.4,domain#MS-Overloaded-DataStep
 package#ProcessComms,domain#CC.AX.CCDFSTS.6.4,domain#MS-Overloaded-DataStep

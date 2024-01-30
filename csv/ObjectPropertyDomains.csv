@@ -185,6 +185,7 @@ package#ProcessComms,domain#attackPathVia,domain#AttackPath
 package#ProcessComms,domain#channelFrom,domain#ConnectionAsset
 package#ProcessComms,domain#channelTo,domain#ConnectionAsset
 package#ProcessComms,domain#channelVia,domain#ConnectionChannel
+package#ProcessComms,domain#controlsChannel,domain#AuthChannel
 package#ProcessComms,domain#flowsViaChannel,domain#DataFlow
 package#ProcessComms,domain#flowsViaChannel,domain#DataStep
 package#ProcessComms,domain#flowsViaCS,domain#DataFlow
@@ -203,6 +204,7 @@ package#ProcessComms,domain#toInterface,domain#ConnectionAsset
 package#ProcessComms,domain#usesAsProxy,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#ConnectionChannel
 package#ProcessComms,domain#usesViaProxy,domain#Process
+package#ProcessComms,domain#validatesChannel,domain#AuthChannel
 package#ProcessComms,domain#viaInterface,domain#ConnectionChannel
 package#ProcessComms,domain#viaProxy,domain#Process
 package#ProcessComms,domain#viaSharedCredentials,domain#Process

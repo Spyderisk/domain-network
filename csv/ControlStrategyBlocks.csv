@@ -56,7 +56,7 @@ package#CloudManagement,domain#CSG-AutoSuspendSensitiveDataFlow-Implementation-R
 package#CloudManagement,domain#CSG-AutoSuspendSensitiveDataFlow-Implementation-Runtime,domain#DF.C.AC-iDF-VTC.3.6
 package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess,domain#CC.R.CCCS-i.1
 package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.R.CCCS-i.1
-package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AuC.CAC-iSScS.1
+package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AuC.CACSScS.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AuD.CCCSCCS-i.3
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AuP.CCCPCCS-i.3
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.R.HuoStCCCS.1
@@ -76,7 +76,7 @@ package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#D
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#LS.L.HLSISC.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#P.L.CCCLnSAC.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#P.L.CCCSAC.3
-package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuC.CAC-iSScS.1
+package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuC.CACSScS.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuD.CCCSCCS-i.3
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuP.CCCPCCS-i.3
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.R.HuoStCCCS.1
@@ -466,12 +466,16 @@ package#ProcessComms,domain#CSG-ClientX509Authentication,domain#CC.AuC.CCCvsCC-n
 package#ProcessComms,domain#CSG-DataBaseAccessControl,domain#DS.A.CDBSC-DSF.4
 package#ProcessComms,domain#CSG-DataBaseAccessControl,domain#DS.Auth.CDBSC-DSF.4
 package#ProcessComms,domain#CSG-DataBaseAccessControl,domain#DS.C.CDBSC-DST.4
+package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.Auth.CCCSDF-VCCS-i.3
+package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.Auth.CCCSPDF-VCCS-i.3
 package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.ACDF-VCS-i.3.1
 package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.ACDF-VSC-i.3.2
 package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.AC-iDF-VCS.3.2
 package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.AC-iDF-VCS.3.3
 package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.AC-iDF-VSC.3.2
 package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.AC-iDF-VSC.3.3
+package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.CCCSCCSDF-Vi.3
+package#ProcessComms,domain#CSG-DataFlowEncryption,domain#DF.C.CCCSPCCSDF-Vi.3
 package#ProcessComms,domain#CSG-DataFlowIntegrityProtection,domain#DF.Auth.ACDF-VSC-i.3.1
 package#ProcessComms,domain#CSG-DataFlowIntegrityProtection,domain#DF.Auth.AC-iDF-VCS.3.2
 package#ProcessComms,domain#CSG-DataFlowIntegrityProtection,domain#DF.Auth.AC-iDF-VSC.3.2
@@ -521,7 +525,7 @@ package#ProcessComms,domain#CSG-SuspendSensitiveDataFlow-Implementation-Runtime,
 package#ProcessComms,domain#CSG-SuspendSensitiveDataFlow-Implementation-Runtime,domain#DF.C.AC-iDF-VTC.3.6
 package#ProcessComms,domain#CSG-SuspendUnauthenticClientAccess,domain#CC.R.CCCS-i.1
 package#ProcessComms,domain#CSG-SuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.R.CCCS-i.1
-package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AuC.CAC-iSScS.1
+package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AuC.CACSScS.1
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AuD.CCCSCCS-i.3
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AuP.CCCPCCS-i.3
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.R.HuoStCCCS.1
@@ -541,7 +545,7 @@ package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#DS.C.CDB
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#LS.L.HLSISC.1
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#P.L.CCCLnSAC.1
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess,domain#P.L.CCCSAC.3
-package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuC.CAC-iSScS.1
+package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuC.CACSScS.1
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuD.CCCSCCS-i.3
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AuP.CCCPCCS-i.3
 package#ProcessComms,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.R.HuoStCCCS.1

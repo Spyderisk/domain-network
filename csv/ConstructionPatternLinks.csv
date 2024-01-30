@@ -727,6 +727,8 @@ package#ProcessComms,domain#CP-DFDSCS+f,domain#Link-DataFlow-flowsViaCS-ClientCh
 package#ProcessComms,domain#CP-DFDSSC+f,domain#Link-DataFlow-flowsViaSC-ClientChannel
 package#ProcessCommsInference,domain#CP-APxSCtI+tI,domain#Link-ServiceAttackPath-toInterface-Interface
 package#ProcessCommsInference,domain#CP-APxSCtI+tI,domain#Link-ServiceAttackPath-viaSubnet-LogicalSubnet
+package#ProcessCommsInference,domain#CP-CAC-pPzAC-pS+cvc,domain#Link-AuthZChannel-validatesChannel-ClientChannel
+package#ProcessCommsInference,domain#CP-CAC-pScAC-pP+cc,domain#Link-AuthChannel-controlsChannel-ClientChannel
 package#ProcessCommsInference,domain#CP-CAPlISAP+lI,domain#Link-ServiceAttackPath-lastInterface-Interface
 package#ProcessCommsInference,domain#CP-CAPNPSAP+pV,domain#Link-ServiceAttackPath-attackPathFrom-NetworkPath
 package#ProcessCommsInference,domain#CP-CaS-SP+CC,domain#Link-ClientChannel-channelFrom-Client
