@@ -2138,6 +2138,11 @@ package#ProcessComms,domain#R-CACHLSS,domain#Node-LogicalSubnet-LogicalSubnet,TR
 package#ProcessComms,domain#R-CACHLSS,domain#Node-ProcNetContext-ProcNetContext,TRUE
 package#ProcessComms,domain#R-CACHLSS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-CACHLSS,domain#Node-SHost-Host,TRUE
+package#ProcessComms,domain#R-CACPaACS,domain#Node-AuthZChannel-AuthChannel,TRUE
+package#ProcessComms,domain#R-CACPaACS,domain#Node-ClientChannel-AuthChannel,TRUE
+package#ProcessComms,domain#R-CACPaACS,domain#Node-Client-Process,TRUE
+package#ProcessComms,domain#R-CACPaACS,domain#Node-Process-Process,TRUE
+package#ProcessComms,domain#R-CACPaACS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-CACPzACS,domain#Node-AuthZChannel-AuthChannel,TRUE
 package#ProcessComms,domain#R-CACPzACS,domain#Node-ClientChannel-AuthChannel,TRUE
 package#ProcessComms,domain#R-CACPzACS,domain#Node-Client-Process,TRUE

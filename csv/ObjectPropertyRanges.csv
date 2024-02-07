@@ -47,6 +47,7 @@ package#DataLifecycle,domain#flowsVia,domain#DataStep
 package#DataLifecycle,domain#fromSource,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
+package#DataLifecycle,domain#includesField,domain#DataField
 package#DataLifecycle,domain#noDX,domain#Process
 package#DataLifecycle,domain#storesCopy,domain#DataCopy
 package#DataLifecycle,domain#usedBy,domain#Process
@@ -90,7 +91,6 @@ package#DataLifecycleInference,domain#usesDataPath,domain#DataPath
 package#DataStructure,domain#accessesField,domain#DataField
 package#DataStructure,domain#containsField,domain#DataField
 package#DataStructure,domain#ignoresField,domain#DataField
-package#DataStructure,domain#includesField,domain#DataField
 package#IoT,domain#amendsController,domain#Controller
 package#IoT,domain#amendsSensor,domain#Sensor
 package#IoT,domain#controlsSensor,domain#Sensor

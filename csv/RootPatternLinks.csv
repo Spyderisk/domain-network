@@ -2095,6 +2095,13 @@ package#ProcessComms,domain#R-CACHLSS,domain#Link-ProcNetContext-accessTo-CHost
 package#ProcessComms,domain#R-CACHLSS,domain#Link-ProcNetContext-accessTo-Client
 package#ProcessComms,domain#R-CACHLSS,domain#Link-ProcNetContext-accessVia-LogicalSubnet
 package#ProcessComms,domain#R-CACHLSS,domain#Link-SHost-hosts-Service
+package#ProcessComms,domain#R-CACPaACS,domain#Link-AuthZChannel-channelFrom-Process
+package#ProcessComms,domain#R-CACPaACS,domain#Link-AuthZChannel-channelTo-Service
+package#ProcessComms,domain#R-CACPaACS,domain#Link-Client-accessesService-Process
+package#ProcessComms,domain#R-CACPaACS,domain#Link-ClientChannel-channelFrom-Client
+package#ProcessComms,domain#R-CACPaACS,domain#Link-ClientChannel-channelTo-Process
+package#ProcessComms,domain#R-CACPaACS,domain#Link-Client-usesForAuth-Service
+package#ProcessComms,domain#R-CACPaACS,domain#Link-Process-usesForAuthZ-Service
 package#ProcessComms,domain#R-CACPzACS,domain#Link-AuthZChannel-channelFrom-Process
 package#ProcessComms,domain#R-CACPzACS,domain#Link-AuthZChannel-channelTo-Service
 package#ProcessComms,domain#R-CACPzACS,domain#Link-ClientChannel-channelFrom-Client

@@ -1107,6 +1107,8 @@ package#ProcessComms,domain#MP-CACHcLSS,domain#Link-Human-interactsRemotelyWith-
 package#ProcessComms,domain#MP-CACHLSS,domain#Link-Client-noAuthN-Service,TRUE
 package#ProcessComms,domain#MP-CACHLSS,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessComms,domain#MP-CACHLSS,domain#Link-Human-interactsWith-Client,FALSE
+package#ProcessComms,domain#MP-CAC-pPaAC-pS,domain#Link-Client-proxyAuthN-Process,FALSE
+package#ProcessComms,domain#MP-CAC-pPaAC-pS,domain#Link-Process-proxyAuthN-Service,FALSE
 package#ProcessComms,domain#MP-CAC-pPzAC-pS,domain#Link-Client-proxyAuthN-Process,FALSE
 package#ProcessComms,domain#MP-CAC-pPzAC-pS,domain#Link-Process-proxyAuthN-Service,FALSE
 package#ProcessComms,domain#MP-CAC-pScAC-pP,domain#Link-Client-proxyAuthN-Process,TRUE
