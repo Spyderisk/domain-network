@@ -17,9 +17,10 @@ package#Application,domain#ApplicationProcess,domain#ProcessPalette
 package#Application,domain#CmdLineProcess,domain#ConsoleProcess
 package#Application,domain#CmdLineProcess,domain#GeneralProcess
 package#Application,domain#CmdLineProcess,domain#ProcessPalette
-package#Application,domain#ConsoleProcess,domain#TypeOverlayProcess
-package#Application,domain#Data,core#Asset
+package#Application,domain#ConsoleProcess,domain#InteractiveProcess
+package#Application,domain#Data,domain#DataLifecycleAsset
 package#Application,domain#Data,domain#DataPalette
+package#Application,domain#DataLifecycleAsset,core#Asset
 package#Application,domain#DataPalette,core#PaletteType
 package#Application,domain#DataService,domain#ProcessPalette
 package#Application,domain#DataService,domain#SimpleProcess
@@ -28,10 +29,14 @@ package#Application,domain#DB,domain#ProcessPalette
 package#Application,domain#DesktopService,domain#ProcessPalette
 package#Application,domain#DesktopService,domain#RemoteAccessService
 package#Application,domain#Editor,domain#GeneralProcess
+package#Application,domain#Editor,domain#InteractiveProcess
 package#Application,domain#Editor,domain#ProcessPalette
 package#Application,domain#EmailClient,domain#InteractiveProcess
 package#Application,domain#EmailMX,domain#GeneralProcess
 package#Application,domain#EmailMX,domain#ProcessPalette
+package#Application,domain#InteractiveApplication,domain#ApplicationProcess
+package#Application,domain#InteractiveApplication,domain#InteractiveProcess
+package#Application,domain#InteractiveApplication,domain#ProcessPalette
 package#Application,domain#InteractiveProcess,domain#TypeOverlayProcess
 package#Application,domain#RemoteDesktop,domain#ProcessPalette
 package#Application,domain#RemoteDesktop,domain#RemoteAccessClient
@@ -79,7 +84,6 @@ package#DataLifecycle,domain#DataFlow,domain#DataContainer
 package#DataLifecycle,domain#DataInferenceAsset,core#Asset
 package#DataLifecycle,domain#DataInput,domain#DataAccess
 package#DataLifecycle,domain#DataInput,domain#DataProcess
-package#DataLifecycle,domain#DataLifecycleAsset,core#Asset
 package#DataLifecycle,domain#DataOutput,domain#DataAccess
 package#DataLifecycle,domain#DataOutput,domain#DataProcess
 package#DataLifecycle,domain#DataProcess,domain#DataUse
@@ -102,6 +106,8 @@ package#DataLifecycle,domain#UpdatePool,domain#OutputPool
 package#DataLifecycleInference,domain#DataChannel,domain#DataInferenceAsset
 package#DataLifecycleInference,domain#DataExchange,domain#DataInferenceAsset
 package#DataLifecycleInference,domain#DataPath,domain#DataInferenceAsset
+package#DataStructure,domain#DataField,domain#DataLifecycleAsset
+package#DataStructure,domain#DataField,domain#DataPalette
 package#GDPR,domain#BiometricData,domain#GDPRArt94Data
 package#GDPR,domain#GDPRArt94Data,domain#GDPRArt9Data
 package#GDPR,domain#GDPRArt9Data,domain#TypeOverlayData
@@ -289,8 +295,9 @@ package#Privacy,domain#HealthData,domain#SensitiveData
 package#Privacy,domain#HealthSensor,domain#HostPalette
 package#Privacy,domain#HealthSensor,domain#Sensor
 package#ProcessComms,domain#AttackPath,domain#ConnectionAsset
+package#ProcessComms,domain#AuthChannel,domain#ConnectionChannel
 package#ProcessComms,domain#ClientAttackPath,domain#AttackPath
-package#ProcessComms,domain#ClientChannel,domain#ConnectionChannel
+package#ProcessComms,domain#ClientChannel,domain#AuthChannel
 package#ProcessComms,domain#ClientPath,domain#ConnectionPath
 package#ProcessComms,domain#ClosedClientAttackPath,domain#ClientAttackPath
 package#ProcessComms,domain#ClosedServiceAttackPath,domain#ServiceAttackPath

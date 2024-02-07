@@ -5,10 +5,10 @@ package#5G,domain#DNG-CrCcL3-0,domain#MP-CrCcL3,0
 package#5G,domain#DNG-CScGcCS-0,domain#MP-CScGcCS,0
 package#5G,domain#DNG-L3cCrC-0,domain#MP-L3cCrC,0
 package#5G,domain#DNG-RrBcC-0,domain#MP-RrBcC,0
-package#DataLifecycle,domain#DNG-CSDFdDA2-0,domain#MP-CSDFdDA2,0
+package#DataLifecycle,domain#DNG-CSDF-VdDA2-0,domain#MP-CSDF-VdDA2,0
 package#DataLifecycle,domain#DNG-HPDADS2dDO-0,domain#MP-HPDADS2dDO,0
-package#DataLifecycle,domain#DNG-PcPr-uDS-0,domain#MP-PcPr-uDS,0
-package#DataLifecycle,domain#DNG-PcPuDS-0,domain#MP-PcPuDS,0
+package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#MP-PcPr-uDS-V,0
+package#DataLifecycle,domain#DNG-PcPuDS-V-0,domain#MP-PcPuDS-V,0
 package#DataLifecycle,domain#DNG-S2dC2dDX-0,domain#MP-S2dC2dDX,0
 package#DataLifecycle,domain#DNG-S2dC2dDX-1,domain#MP-S2dC2dDX,1
 package#DataLifecycleInference,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#MP-HSDADPPDXP-Hu-DP,0

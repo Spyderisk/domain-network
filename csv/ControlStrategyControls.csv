@@ -68,6 +68,8 @@ package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#CS-AccessKey-A
 package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#CS-Encryption-DataAsset,FALSE
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#CS-EncryptedProcessing-DataAccess,FALSE
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#CS-HomomorphicEncryption-Process,FALSE
+package#DataLifecycle,domain#CSG-EncryptedDataProcessingAtService,domain#CS-EncryptedProcessing-DataAccess,FALSE
+package#DataLifecycle,domain#CSG-EncryptedDataProcessingAtService,domain#CS-HomomorphicEncryption-Service,FALSE
 package#DataLifecycle,domain#CSG-EncryptedQueryProcessing,domain#CS-EncryptedProcessing-DataAccess,FALSE
 package#DataLifecycle,domain#CSG-EncryptedQueryProcessing,domain#CS-HomomorphicEncryption-Service,FALSE
 package#DataLifecycle,domain#CSG-ParquetDataEncryption,domain#CS-ParquetEncryption-DataCopy,FALSE
@@ -422,6 +424,7 @@ package#ProcessComms,domain#CSG-DisableServiceAccess-Runtime,domain#CS-FWBlock-I
 package#ProcessComms,domain#CSG-DisableServiceChannel,domain#CS-DisableServiceChannel-ServiceChannel,FALSE
 package#ProcessComms,domain#CSG-DisableServiceChannel-Runtime,domain#CS-DisableServiceChannel-ServiceChannel,FALSE
 package#ProcessComms,domain#CSG-DisableServiceChannel-Runtime,domain#CS-SystemSecurityTraining-ServiceManager,FALSE
+package#ProcessComms,domain#CSG-IgnoreConfusedDeputyAttack,domain#CS-ClearDeputy-Service,FALSE
 package#ProcessComms,domain#CSG-SuspendExcessiveClientAccess,domain#CS-SuspendExcessiveClientAccess-ClientChannel,FALSE
 package#ProcessComms,domain#CSG-SuspendExcessiveClientAccess,domain#CS-SystemSecurityTraining-ServiceManager,FALSE
 package#ProcessComms,domain#CSG-SuspendExcessiveClientAccess-Implementation-Runtime,domain#CS-DisableClientAccess-ClientChannel,FALSE

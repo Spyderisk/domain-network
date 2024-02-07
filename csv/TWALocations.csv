@@ -12,7 +12,6 @@ package#Application,domain#Integrity,domain#Data
 package#Application,domain#Timeliness,domain#Data
 package#Application,domain#Timeliness,domain#Human
 package#Application,domain#Timeliness,domain#Process
-package#Core,domain#DefaultTW,domain#DebugMarker
 package#DataLifecycle,domain#Authenticity,domain#DataAsset
 package#DataLifecycle,domain#Availability,domain#DataAsset
 package#DataLifecycle,domain#Confidentiality,domain#DataContainer
@@ -25,6 +24,11 @@ package#DataLifecycle,domain#Integrity,domain#DataAsset
 package#DataLifecycle,domain#OutOfService,domain#DataAsset
 package#DataLifecycle,domain#OutOfService,domain#DataStep
 package#DataLifecycle,domain#Timeliness,domain#DataAsset
+package#DataStructure,domain#Authenticity,domain#DataField
+package#DataStructure,domain#Availability,domain#DataField
+package#DataStructure,domain#Confidentiality,domain#DataField
+package#DataStructure,domain#Integrity,domain#DataField
+package#DataStructure,domain#Timeliness,domain#DataField
 package#IoT,domain#Authenticity,domain#Sensor
 package#IoT,domain#Integrity,domain#Sensor
 package#IoT,domain#Timeliness,domain#Sensor
@@ -60,7 +64,7 @@ package#Network,domain#Underload,domain#DataCentre
 package#Network,domain#UserTW,domain#Host
 package#Network,domain#UserTW,domain#Process
 package#NetworkConnectivity,domain#BandwidthManaged,domain#Interface
-package#NetworkConnectivity,domain#CommsNotSnoopable,domain#AbstractSubnet
+package#NetworkConnectivity,domain#ChannelConfidentiality,domain#AbstractSubnet
 package#NetworkConnectivity,domain#ConnectionsBlocked,domain#Interface
 package#NetworkConnectivity,domain#ConnectionsBlocked,domain#LogicalPath
 package#NetworkConnectivity,domain#ConnectionsBlocked,domain#LogicalSegment
@@ -68,12 +72,13 @@ package#NetworkConnectivity,domain#NetworkAuthenticity,domain#Interface
 package#Physical,domain#OccupantTW,domain#Space
 package#Physical,domain#PhysicalControl,domain#PrivateSpace
 package#ProcessComms,domain#AnonUserTW,domain#ClientChannel
-package#ProcessComms,domain#ClientAuthenticity,domain#ClientChannel
-package#ProcessComms,domain#ClientTW,domain#ClientChannel
-package#ProcessComms,domain#CommsNotSnoopable,domain#ConnectionChannel
+package#ProcessComms,domain#ChannelConfidentiality,domain#ConnectionChannel
+package#ProcessComms,domain#ClientAuthenticity,domain#AuthChannel
+package#ProcessComms,domain#ClientTW,domain#AuthChannel
+package#ProcessComms,domain#DeputyUserTW,domain#ClientChannel
 package#ProcessComms,domain#OutOfService,domain#ConnectionAsset
 package#ProcessComms,domain#ProxyUserTW,domain#ClientChannel
-package#ProcessComms,domain#ServiceAuthenticity,domain#ClientChannel
+package#ProcessComms,domain#ServiceAuthenticity,domain#AuthChannel
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#Interface
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#LogicalSegment
 package#ProcessComms,domain#ServiceTW,domain#ClientChannel
@@ -87,7 +92,7 @@ package#Users,domain#Benevolence,domain#Stakeholder
 package#Users,domain#Competence,domain#Human
 package#Users,domain#Reliability,domain#Human
 package#Users,domain#Trust,domain#Human
-package#Virtualisation,domain#CommsNotSnoopable,domain#HostChannel
+package#Virtualisation,domain#ChannelConfidentiality,domain#HostChannel
 package#VulnerabilityCVSS,domain#Extrinsic-A-TW,domain#Host
 package#VulnerabilityCVSS,domain#Extrinsic-A-TW,domain#Process
 package#VulnerabilityCVSS,domain#Extrinsic-AU-TW,domain#Host
