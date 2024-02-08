@@ -1,5 +1,8 @@
 package,inPattern,hasNode,hasSetting,displayedAtNode,displayedAtLink,displayedAt
-domain#000000,domain#CP-CcBrR+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-CcBrR+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-BaseStation
+domain#000000,domain#CP-Co-cD+cD,domain#Node-Data-Data,domain#INS-Co-cD+cD-Data,TRUE,FALSE,domain#Node-Controller-Controller
+,domain#CP-Co-cD+cD,domain#Node-Data-Data,domain#INS-Co-cD+cD-Data,TRUE,FALSE,domain#Node-Controller-Controller
+,domain#CP-Se-cD+cD,domain#Node-Data-ControlData,domain#INS-Se-cD+cD-Data,TRUE,FALSE,domain#Node-Sensor-Sensor
+,domain#CP-Se-sD+sD,domain#Node-Data-Data,domain#INS-Se-sD+sD-Data,TRUE,FALSE,domain#Node-Sensor-Sensor
 package#5G,domain#CP-CcBrR+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-CcBrR+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-BaseStation
 package#5G,domain#CP-CNHS+AN,domain#Node-BaseStation-BaseStation,domain#INS-CNHS+AN-BaseStation,TRUE,FALSE,domain#Node-Space-Space
 package#5G,domain#CP-CNHS+AN,domain#Node-RAN-RAN,domain#INS-CNHS+AN-RAN,TRUE,FALSE,domain#Node-Space-Space
@@ -80,11 +83,8 @@ package#DataLifecycleInference,domain#CP-S2dC2dDX+DS,domain#Node-DataCopy-DataCa
 package#DataLifecycleInference,domain#CP-SDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXPRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
-package#IoT,domain#CP-Co+cD,domain#Node-Data-Data,domain#INS-Co+cD-Data,TRUE,FALSE,domain#Node-Controller-Controller
 package#IoT,domain#CP-DcTh+DS,domain#Node-SimpleProcess-DataService,domain#INS-DcTh+DS-SimpleProcess,TRUE,FALSE,domain#Node-Thing-Thing
 package#IoT,domain#CP-HuiCo+UI,domain#Node-Process-ControlProcess,domain#INS-HuiCo+UI-Process,TRUE,FALSE,domain#Node-Controller-Controller
-package#IoT,domain#CP-Se+cD,domain#Node-Data-ControlData,domain#INS-Se+cD-Data,TRUE,FALSE,domain#Node-Sensor-Sensor
-package#IoT,domain#CP-Se+sD,domain#Node-Data-Data,domain#INS-Se+sD-Data,TRUE,FALSE,domain#Node-Sensor-Sensor
 package#IoT,domain#CP-SesD+SP,domain#Node-SimpleProcess-SensorProcess,domain#INS-SesD+SP-SimpleProcess,TRUE,FALSE,domain#Node-Sensor-Sensor
 package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-BPcGcBP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#Node-BluetoothPair-BluetoothPair,domain#INS-HpBRH+B-BluetoothPair,FALSE,TRUE,domain#Link-RemoteHost-pairsViaBluetooth-LocalHost
