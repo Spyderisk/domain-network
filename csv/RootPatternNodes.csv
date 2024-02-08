@@ -1,5 +1,6 @@
 package,URI,hasNode,keyNode
-domain#000000,domain#000000,domain#Node-CellularNetwork-CellularNetwork,TRUE
+domain#000000,domain#000000,domain#Node-Sensor-HealthSensor,TRUE
+,domain#R-Hs,domain#Node-Sensor-HealthSensor,TRUE
 package#5G,domain#R-CcBrR,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-CcBrR,domain#Node-FromSubnet-CoreNetwork,TRUE
 package#5G,domain#R-CcBrR,domain#Node-Gateway-BaseStation,TRUE

@@ -1,5 +1,7 @@
 package,URI,requiresTreatmentOf
-domain#000000,domain#000000,domain#H.E.CScGcCS.9
+domain#000000,domain#000000,
+,domain#Anomalies,
+,domain#Anomalies,domain#Hs.E.Hs.9
 package#5G,domain#Anomalies,domain#H.E.CScGcCS.9
 package#Application,domain#Anomalies,domain#D.E.HuaD-P.9
 package#Application,domain#Anomalies,domain#D.E.Hui-vD-P.9
