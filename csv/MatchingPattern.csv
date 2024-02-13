@@ -303,7 +303,6 @@ package#IoT,domain#MP-Co-cD,Co-cD,Finds a solo Controller that does not have onb
 package#IoT,domain#MP-CoPDS,CoPDS,Finds a Controller with its stored control input data.,domain#R-CoPDS,FALSE,FALSE
 package#IoT,domain#MP-DcTh,DcTh,Finds an IoT Thing and its control input Data.,domain#R-DcTh,FALSE,FALSE
 package#IoT,domain#MP-DScSePDmFF,DScSePDmFF,"Finds a Sensor with its onboard process and output data, and its stored copy of control input data, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-DScSePD,FALSE,FALSE
-package#IoT,domain#MP-Hs,Hs,Finds a solo Health Sensor.,domain#R-Hs,FALSE,FALSE
 package#IoT,domain#MP-HuiCo,HuiCo,"Finds the control input for an IoT Controller, which is being used interactively by a Human.",domain#R-HuiCo,FALSE,FALSE
 package#IoT,domain#MP-HuiSe,HuiSe,"Finds the control input and sensed output for an IoT Sensor, which is being used interactively by a Human, plus the interactive process that creates the output.",domain#R-HuiSe,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,HuiThaS-S,Finds a Human that has access to a space and uses an IoT Thing which has no specified location.,domain#R-HuiThaS,FALSE,FALSE
@@ -587,6 +586,7 @@ package#Privacy,domain#MP-DHuDC,DHuDC,Finds a data asset relating to a human alo
 package#Privacy,domain#MP-DHuDF,DHuDF,Finds a data asset relating to a human along with a flowing copy of the data.,domain#R-DHuDF,FALSE,FALSE
 package#Privacy,domain#MP-D-Hu-Th,D-Hu-Th,"Finds a solo Data asset which is not spam, not created by a Sensor or stored on an IoT Thing, and does not relate to a human subject.",domain#R-D,FALSE,FALSE
 package#Privacy,domain#MP-H-Hu,H-Hu,"Finds a Host that has no interactive user, no manager, and does not relate to any user.",domain#R-H,FALSE,FALSE
+package#Privacy,domain#MP-Hs,Hs,Finds a solo Health Sensor.,domain#R-Hs,FALSE,FALSE
 package#Privacy,domain#MP-Hu-aDPoS-i,Hu-aDPoS-i,"Finds Stakeholder operating a Process that is using Data relating to a Human data subject who may be a child via a controlling Service, where the subject operates the Service but not the Process.",domain#R-HuDPoS,FALSE,FALSE
 package#Privacy,domain#MP-Hu-aDPS-io,Hu-aDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject who may be a child via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE
 package#Privacy,domain#MP-HuDPoS-i,HuDPoS-i,"Finds Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject operates the Service but not the Process.",domain#R-HuDPoS,FALSE,FALSE

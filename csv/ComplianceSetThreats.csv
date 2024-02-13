@@ -1,7 +1,6 @@
 package,URI,requiresTreatmentOf
 domain#000000,domain#000000,
 ,domain#Anomalies,
-,domain#Anomalies,domain#Hs.E.Hs.9
 package#5G,domain#Anomalies,domain#H.E.CScGcCS.9
 package#Application,domain#Anomalies,domain#D.E.HuaD-P.9
 package#Application,domain#Anomalies,domain#D.E.Hui-vD-P.9
@@ -47,6 +46,7 @@ package#GDPR,domain#GDPR,domain#P.GDPR.HuDPoS-i.6
 package#GDPR,domain#GDPR,domain#P.GDPR.HuDPS-io.6
 package#GDPR,domain#GDPR,domain#P.GDPR.HuSDPoS-i.9
 package#GDPR,domain#GDPR,domain#P.GDPR.HuSDPS-io.9
+package#IoT,domain#Anomalies,domain#Hs.E.Hs.9
 package#Legal,domain#Anomalies,domain#D.E.HuDP-J.9
 package#Legal,domain#Anomalies,domain#D.E.HuDSH-J.9
 package#Network,domain#Anomalies,domain#H.E.HHu2d.9

@@ -1,6 +1,5 @@
 package,URI,hasNode,keyNode
-domain#000000,domain#000000,domain#Node-Sensor-HealthSensor,TRUE
-,domain#R-Hs,domain#Node-Sensor-HealthSensor,TRUE
+domain#000000,domain#000000,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-CcBrR,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-CcBrR,domain#Node-FromSubnet-CoreNetwork,TRUE
 package#5G,domain#R-CcBrR,domain#Node-Gateway-BaseStation,TRUE
@@ -1989,6 +1988,7 @@ package#Privacy,domain#R-DHuDC,domain#Node-Human-Human,TRUE
 package#Privacy,domain#R-DHuDF,domain#Node-Data-Data,TRUE
 package#Privacy,domain#R-DHuDF,domain#Node-DataFlow-DataFlow,TRUE
 package#Privacy,domain#R-DHuDF,domain#Node-Human-Human,TRUE
+package#Privacy,domain#R-Hs,domain#Node-Sensor-HealthSensor,TRUE
 package#Privacy,domain#R-HuDoPS,domain#Node-DataAccess-DataAccess,TRUE
 package#Privacy,domain#R-HuDoPS,domain#Node-Data-Data,TRUE
 package#Privacy,domain#R-HuDoPS,domain#Node-DataSubject-Human,TRUE
