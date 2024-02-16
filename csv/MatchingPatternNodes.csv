@@ -1,5 +1,8 @@
 package,URI,hasNode,mandatoryNode,prohibitedNode,sufficientNode
-domain#000000,domain#000000,domain#Node-Gateway-Router,FALSE,FALSE,FALSE
+domain#000000,domain#000000,domain#Node-Data-ControlData,FALSE,FALSE,FALSE
+,domain#MP-Co-cD-cD,domain#Node-Data-ControlData,TRUE,FALSE,FALSE
+,domain#MP-Se-cD-cD,domain#Node-Data-ControlData,TRUE,FALSE,FALSE
+,domain#MP-Se-sD-sD,domain#Node-Data-SensedData,TRUE,FALSE,FALSE
 package#5G,domain#MP-CN-R,domain#Node-Gateway-Router,FALSE,TRUE,FALSE
 package#Application,domain#MP-HIP-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuaDirPaD-P,domain#Node-Service-Process,FALSE,TRUE,FALSE

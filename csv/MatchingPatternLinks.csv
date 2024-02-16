@@ -1,5 +1,8 @@
 package,URI,hasLink,prohibited
-domain#000000,domain#000000,domain#Link-CellularNetwork-providedBy-Host,FALSE
+domain#000000,domain#000000,domain#Link-Data-controlsThing-Controller,FALSE
+,domain#MP-Co-cD-cD,domain#Link-Data-controlsThing-Controller,FALSE
+,domain#MP-Se-cD-cD,domain#Link-Data-controlsThing-Sensor,FALSE
+,domain#MP-Se-sD-sD,domain#Link-Sensor-senses-Data,FALSE
 package#5G,domain#MP-CNHS,domain#Link-CellularNetwork-providedBy-Host,TRUE
 package#5G,domain#MP-CN-R,domain#Link-CellularNetwork-providedBy-Gateway,FALSE
 package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-implements-CellularNetwork,TRUE
