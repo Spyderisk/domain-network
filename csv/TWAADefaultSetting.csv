@@ -1,5 +1,12 @@
 package,URI,hasTrustworthinessAttribute,metaLocatedAt,hasLevel,independentLevels
-domain#000000,domain#000000,domain#Availability,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
+domain#000000,domain#000000,domain#Authenticity,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
+,domain#TWAADS-Authenticity-SensedData,domain#Authenticity,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
+,domain#TWAADS-Availability-SensedData,domain#Availability,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
+,domain#TWAADS-Confidentiality-SensedData,domain#Confidentiality,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
+,domain#TWAADS-DefaultTW-SensedData,domain#DefaultTW,domain#SensedData,domain#TrustworthinessLevelVeryLow,TRUE
+,domain#TWAADS-Health-SensedData,domain#Health,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
+,domain#TWAADS-Integrity-SensedData,domain#Integrity,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
+,domain#TWAADS-Timeliness-SensedData,domain#Timeliness,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-Availability-BaseStation,domain#Availability,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-Availability-PrivateCellularNetwork,domain#Availability,domain#PrivateCellularNetwork,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-Availability-PublicCellularNetwork,domain#Availability,domain#PublicCellularNetwork,domain#TrustworthinessLevelSafe,TRUE

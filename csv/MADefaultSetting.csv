@@ -1,5 +1,12 @@
 package,URI,metaLocatedAt,hasMisbehaviour,hasLevel
-domain#000000,domain#000000,domain#PrivateCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
+domain#000000,domain#000000,domain#SensedData,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
+,domain#MADS-LossOfAuthenticity-SensedData,domain#SensedData,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
+,domain#MADS-LossOfAvailability-SensedData,domain#SensedData,domain#LossOfAvailability,domain#ImpactLevelNegligible
+,domain#MADS-LossOfConfidentiality-SensedData,domain#SensedData,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
+,domain#MADS-LossOfDefaultTW-SensedData,domain#SensedData,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
+,domain#MADS-LossOfIntegrity-SensedData,domain#SensedData,domain#LossOfIntegrity,domain#ImpactLevelNegligible
+,domain#MADS-LossOfTimeliness-SensedData,domain#SensedData,domain#LossOfTimeliness,domain#ImpactLevelNegligible
+,domain#MADS-MalwareInfection-SensedData,domain#SensedData,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-PrivateCellularNetwork,domain#PrivateCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-PublicCellularNetwork,domain#PublicCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-RAN,domain#RAN,domain#CommsSnoopable,domain#ImpactLevelNegligible

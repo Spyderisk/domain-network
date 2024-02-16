@@ -1,5 +1,6 @@
 package,URI,includesNodeInURI
-domain#000000,domain#000000,domain#Node-FromSubnet-CoreNetwork
+domain#000000,domain#000000,domain#Node-Sensor-Sensor
+,domain#INS-Se-sD+sD-Data,domain#Node-Sensor-Sensor
 package#5G,domain#INS-CcBrR+CSg-LogicalSegment,domain#Node-FromSubnet-CoreNetwork
 package#5G,domain#INS-CcBrR+CSg-LogicalSegment,domain#Node-Gateway-BaseStation
 package#5G,domain#INS-CcBrR+CSg-LogicalSegment,domain#Node-ToSubnet-RAN
@@ -159,7 +160,6 @@ package#IoT,domain#INS-Co-cD+cD-Data,domain#Node-Controller-Controller
 package#IoT,domain#INS-DcTh+DS-SimpleProcess,domain#Node-Thing-Thing
 package#IoT,domain#INS-HuiCo+UI-Process,domain#Node-Controller-Controller
 package#IoT,domain#INS-Se-cD+cD-Data,domain#Node-Sensor-Sensor
-package#IoT,domain#INS-Se-sD+sD-Data,domain#Node-Sensor-Sensor
 package#IoT,domain#INS-SesD+SP-SimpleProcess,domain#Node-Sensor-Sensor
 package#LocalDeviceConnectivity,domain#INS-BPcGcBP+OSg-LogicalSegment,domain#Node-FromSubnet-BluetoothPair
 package#LocalDeviceConnectivity,domain#INS-BPcGcBP+OSg-LogicalSegment,domain#Node-Gateway-PhysicalHost

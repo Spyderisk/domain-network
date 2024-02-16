@@ -46,7 +46,6 @@ package#GDPR,domain#GDPR,domain#P.GDPR.HuDPoS-i.6
 package#GDPR,domain#GDPR,domain#P.GDPR.HuDPS-io.6
 package#GDPR,domain#GDPR,domain#P.GDPR.HuSDPoS-i.9
 package#GDPR,domain#GDPR,domain#P.GDPR.HuSDPS-io.9
-package#IoT,domain#Anomalies,domain#Hs.E.Hs.9
 package#Legal,domain#Anomalies,domain#D.E.HuDP-J.9
 package#Legal,domain#Anomalies,domain#D.E.HuDSH-J.9
 package#Network,domain#Anomalies,domain#H.E.HHu2d.9
@@ -73,6 +72,7 @@ package#NetworkConnectivity,domain#Anomalies,domain#H.E.RScGcRS.9
 package#NetworkConnectivity,domain#Anomalies,domain#H.E.WScMcWS.9
 package#Privacy,domain#Anomalies,domain#D.E.D-Hu-Th.9
 package#Privacy,domain#Anomalies,domain#H.E.H-Hu.9
+package#Privacy,domain#Anomalies,domain#Hs.E.Hs.9
 package#Privacy,domain#Anomalies,domain#Th.E.IoT-Hu.9
 package#ProcessComms,domain#Anomalies,domain#CC.E.CSCC-SC.9
 package#ProcessComms,domain#Anomalies,domain#P.E.HuiSP.9
