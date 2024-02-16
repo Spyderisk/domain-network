@@ -1,5 +1,7 @@
 package,URI,hasControlSet,optional
-domain#000000,domain#000000,domain#CS-MultipleCellNIC-Gateway,FALSE
+domain#000000,domain#000000,domain#CS-InferredDataAsset-Data,FALSE
+,domain#CSG-InferredControlData,domain#CS-InferredDataAsset-Data,FALSE
+,domain#CSG-InferredSensedData,domain#CS-InferredDataAsset-Data,FALSE
 package#5G,domain#CSG-HostWithMultipleCellNIC,domain#CS-MultipleCellNIC-Gateway,FALSE
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#CS-AAA-LogicalSubnet,FALSE
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#CS-SIM-Host,FALSE

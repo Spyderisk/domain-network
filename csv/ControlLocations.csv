@@ -143,6 +143,8 @@ package#Privacy,domain#ConsentInterface,domain#Human
 package#Privacy,domain#ConsentManagement,domain#Data
 package#Privacy,domain#ImpersonalData,domain#Data
 package#Privacy,domain#ImpersonalData,domain#Thing
+package#Privacy,domain#InferredDataAsset,domain#ControlData
+package#Privacy,domain#InferredDataAsset,domain#SensedData
 package#Privacy,domain#VitalInterests,domain#Process
 package#ProcessComms,domain#AddressWhitelisting,domain#ServiceChannel
 package#ProcessComms,domain#ApplicationFW,domain#ServiceProxy

@@ -1643,6 +1643,8 @@ package#Privacy,domain#CAS-ImpersonalData-SensitiveData,domain#SensitiveData,dom
 package#Privacy,domain#CAS-ImpersonalData-Sensor,domain#Sensor,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ImpersonalData-SpamData,domain#SpamData,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-IndependentInstances-HealthSensor,domain#HealthSensor,domain#IndependentInstances,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-InferredDataAsset-ControlData,domain#ControlData,domain#InferredDataAsset,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-InferredDataAsset-SensedData,domain#SensedData,domain#InferredDataAsset,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-LoadMonitoring-HealthSensor,domain#HealthSensor,domain#LoadMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-MultipleCellNIC-HealthSensor,domain#HealthSensor,domain#MultipleCellNIC,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-MultipleWiFiNIC-HealthSensor,domain#HealthSensor,domain#MultipleWiFiNIC,TRUE,domain#TrustworthinessLevelSafe,TRUE
