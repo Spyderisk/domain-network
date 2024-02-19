@@ -1,8 +1,5 @@
 package,URI,blocks
-domain#000000,domain#000000,domain#Co.E.Co-cD-cD.9
-,domain#CSG-InferredControlData,domain#Co.E.Co-cD-cD.9
-,domain#CSG-InferredControlData,domain#Se.E.Se-cD-cD.9
-,domain#CSG-InferredSensedData,domain#Se.E.Se-sD-sD.9
+domain#000000,domain#000000,domain#H.E.CScGcCS.9
 package#5G,domain#CSG-HostWithMultipleCellNIC,domain#H.E.CScGcCS.9
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#I.A.GdHRS.6
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#I.A.GdHRSi.6
@@ -429,6 +426,9 @@ package#Physical,domain#CSG-PhysicalLocksAtSpace,domain#S.L.PSS.3
 package#Physical,domain#CSG-StaffScreening,domain#S.L.HuPSoSt.1
 package#Privacy,domain#CSG-ImpersonalData,domain#D.E.D-Hu-Th.9
 package#Privacy,domain#CSG-ImpersonalThing,domain#Th.E.IoT-Hu.9
+package#Privacy,domain#CSG-InferredControlData,domain#Co.E.Co-cD-cD.9
+package#Privacy,domain#CSG-InferredControlData,domain#Se.E.Se-cD-cD.9
+package#Privacy,domain#CSG-InferredSensedData,domain#Se.E.Se-sD-sD.9
 package#ProcessComms,domain#CSG-AccountLockingAtService,domain#CC.AuC.HumCCC-nS.3
 package#ProcessComms,domain#CSG-AntiMalwareAtHost,domain#P.L.HuHW2ACE.3
 package#ProcessComms,domain#CSG-ClientAddressWhitelisting,domain#CC.AuA.OCAPNaS.1
