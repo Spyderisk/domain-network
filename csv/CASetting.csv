@@ -1,10 +1,5 @@
 package,URI,metaLocatedAt,hasControl,isAssertable,hasLevel,independentLevels
-domain#000000,domain#000000,domain#SensedData,domain#AccessPolicy,TRUE,domain#TrustworthinessLevelSafe,TRUE
-,domain#CAS-AccessPolicy-SensedData,domain#SensedData,domain#AccessPolicy,TRUE,domain#TrustworthinessLevelSafe,FALSE
-,domain#CAS-BreakTheGlass-SensedData,domain#SensedData,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,FALSE
-,domain#CAS-ConsentManagement-SensedData,domain#SensedData,domain#ConsentManagement,TRUE,domain#TrustworthinessLevelSafe,FALSE
-,domain#CAS-ImpersonalData-SensedData,domain#SensedData,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,FALSE
-,domain#CAS-StaticData-SensedData,domain#SensedData,domain#StaticData,TRUE,domain#TrustworthinessLevelSafe,FALSE
+domain#000000,domain#000000,domain#PrivateCellularNetwork,domain#AAA,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-AAA-PrivateCellularNetwork,domain#PrivateCellularNetwork,domain#AAA,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-AAA-PublicCellularNetwork,domain#PublicCellularNetwork,domain#AAA,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-AAA-RAN,domain#RAN,domain#AAA,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -730,6 +725,7 @@ package#IoT,domain#CAS-AccessControl-ControlProcess,domain#ControlProcess,domain
 package#IoT,domain#CAS-AccessControl-Sensor,domain#Sensor,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-AccessControl-SensorProcess,domain#SensorProcess,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-AccessPolicy-ControlData,domain#ControlData,domain#AccessPolicy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#IoT,domain#CAS-AccessPolicy-SensedData,domain#SensedData,domain#AccessPolicy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#IoT,domain#CAS-AntiMalware-Controller,domain#Controller,domain#AntiMalware,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-AntiMalware-Sensor,domain#Sensor,domain#AntiMalware,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-AuthenticationLimits-ControlProcess,domain#ControlProcess,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -836,6 +832,7 @@ package#IoT,domain#CAS-SoftwareTesting-ControlProcess,domain#ControlProcess,doma
 package#IoT,domain#CAS-SoftwareTesting-Sensor,domain#Sensor,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-SoftwareTesting-SensorProcess,domain#SensorProcess,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-StaticData-ControlData,domain#ControlData,domain#StaticData,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#IoT,domain#CAS-StaticData-SensedData,domain#SensedData,domain#StaticData,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#IoT,domain#CAS-SuspendInfectedHost-Controller,domain#Controller,domain#SuspendInfectedHost,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-SuspendInfectedHost-Sensor,domain#Sensor,domain#SuspendInfectedHost,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-SuspendInfectedProcess-ControlProcess,domain#ControlProcess,domain#SuspendInfectedProcess,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1594,6 +1591,7 @@ package#Privacy,domain#CAS-BreakTheGlass-ControlData,domain#ControlData,domain#B
 package#Privacy,domain#CAS-BreakTheGlass-Data,domain#Data,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-BreakTheGlass-GeneticData,domain#GeneticData,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-BreakTheGlass-HealthData,domain#HealthData,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-BreakTheGlass-SensedData,domain#SensedData,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#Privacy,domain#CAS-BreakTheGlass-SensitiveData,domain#SensitiveData,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-BreakTheGlass-SpamData,domain#SpamData,domain#BreakTheGlass,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ChipAndPINVerifier-HealthSensor,domain#HealthSensor,domain#ChipAndPINVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1628,6 +1626,7 @@ package#Privacy,domain#CAS-ConsentManagement-ControlData,domain#ControlData,doma
 package#Privacy,domain#CAS-ConsentManagement-Data,domain#Data,domain#ConsentManagement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentManagement-GeneticData,domain#GeneticData,domain#ConsentManagement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentManagement-HealthData,domain#HealthData,domain#ConsentManagement,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-ConsentManagement-SensedData,domain#SensedData,domain#ConsentManagement,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#Privacy,domain#CAS-ConsentManagement-SensitiveData,domain#SensitiveData,domain#ConsentManagement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentManagement-SpamData,domain#SpamData,domain#ConsentManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ContinuousAuthN-HealthSensor,domain#HealthSensor,domain#ContinuousAuthN,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1644,6 +1643,7 @@ package#Privacy,domain#CAS-ImpersonalData-Data,domain#Data,domain#ImpersonalData
 package#Privacy,domain#CAS-ImpersonalData-GeneticData,domain#GeneticData,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ImpersonalData-HealthData,domain#HealthData,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ImpersonalData-HealthSensor,domain#HealthSensor,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-ImpersonalData-SensedData,domain#SensedData,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#Privacy,domain#CAS-ImpersonalData-SensitiveData,domain#SensitiveData,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ImpersonalData-Sensor,domain#Sensor,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ImpersonalData-SpamData,domain#SpamData,domain#ImpersonalData,TRUE,domain#TrustworthinessLevelSafe,TRUE
