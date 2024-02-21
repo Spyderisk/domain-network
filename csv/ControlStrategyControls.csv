@@ -415,6 +415,8 @@ package#Physical,domain#CSG-PhysicalLocksAtSpace,domain#CS-PhysicalLock-Space,FA
 package#Physical,domain#CSG-PhysicalPatrolsInSpace,domain#CS-PhysicalPatrols-Space,FALSE
 package#Privacy,domain#CSG-ImpersonalData,domain#CS-ImpersonalData-Data,FALSE
 package#Privacy,domain#CSG-ImpersonalThing,domain#CS-ImpersonalData-Thing,FALSE
+package#Privacy,domain#CSG-InferredControlData,domain#CS-InferredDataAsset-Data,FALSE
+package#Privacy,domain#CSG-InferredSensedData,domain#CS-InferredDataAsset-Data,FALSE
 package#ProcessComms,domain#CSG-ApplicationFirewall,domain#CS-ApplicationFW-Proxy,FALSE
 package#ProcessComms,domain#CSG-ClientAddressWhitelisting,domain#CS-AddressReservation-Interface,FALSE
 package#ProcessComms,domain#CSG-ClientAddressWhitelisting,domain#CS-AddressWhitelisting-ServiceChannel,FALSE

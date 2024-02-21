@@ -67,6 +67,7 @@ package#IoT,domain#ControlData,ControlData,FALSE,TRUE,TRUE,Data used to control 
 package#IoT,domain#Controller,IOT Actuator,TRUE,FALSE,TRUE,"A Thing that is able to affect aspects of the physical environment in ways defined by data sent to it. A Controller has no console allowing login, but it may have an interface allowing some interaction with a human user.",actuator.svg,FALSE
 package#IoT,domain#ControlProcess,ControlProcess,FALSE,TRUE,FALSE,A simple process that runs on a controller and handles conversion of input data into control signals for robotic or other interaction with the real (physical) world.,,FALSE
 package#IoT,domain#IoTProcess,IoTProcess,FALSE,FALSE,FALSE,Base class for inferred onboard sensor acquisition and control processes running on an IoT Thing.,,FALSE
+package#IoT,domain#SensedData,SensedData,FALSE,TRUE,TRUE,Data sensed by the physical sensor hardware in an IoT device.,,FALSE
 package#IoT,domain#Sensor,IOT Sensor,TRUE,FALSE,TRUE,"A Thing that can sense its physical environment and produce data describing aspects of that environment including the device user. A sensor has no console allowing login, but it may have an interface allowing some interaction with a human user.",sensor.svg,FALSE
 package#IoT,domain#SensorProcess,SensorProcess,FALSE,TRUE,FALSE,A simple process that runs on a sensor and handles the acquisition and sending of data from the real (physical) world.,,FALSE
 package#IoT,domain#Thing,Thing,FALSE,FALSE,FALSE,A device with onboard processing able to interact with the physical world.,,FALSE

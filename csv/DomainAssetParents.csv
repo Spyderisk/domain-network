@@ -120,6 +120,7 @@ package#IoT,domain#Controller,domain#HostPalette
 package#IoT,domain#Controller,domain#Thing
 package#IoT,domain#ControlProcess,domain#IoTProcess
 package#IoT,domain#IoTProcess,domain#SimpleProcess
+package#IoT,domain#SensedData,domain#Data
 package#IoT,domain#Sensor,domain#HostPalette
 package#IoT,domain#Sensor,domain#Thing
 package#IoT,domain#SensorProcess,domain#IoTProcess

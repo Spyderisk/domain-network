@@ -494,6 +494,7 @@ package#Physical,domain#R-PSS,PSS,"Finds two spaces, one of which is accessible 
 package#Physical,domain#R-W,W,Finds a solo World asset (i.e. the inferred global public space).,FALSE,FALSE
 package#Privacy,domain#R-DHuDC,DHuDC,Finds a data asset relating to a human along with a stored copy of the data.,FALSE,FALSE
 package#Privacy,domain#R-DHuDF,DHuDF,Finds a data asset relating to a human along with a flowing copy of the data.,FALSE,FALSE
+package#Privacy,domain#R-Hs,Hs,Finds a solo Health Sensor.,FALSE,FALSE
 package#Privacy,domain#R-HuDoPS,HuDoPS,"Finds a Process that serves data relating to a Human data subject, along with its host and operator.",FALSE,FALSE
 package#Privacy,domain#R-HuDP,HuDP,Finds a Process that is using Data relating to a Human data subject who is a citizen or resident in some jurisdiction.,FALSE,FALSE
 package#Privacy,domain#R-HuDPoS,HuDPoS,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject operates the Service.",FALSE,FALSE

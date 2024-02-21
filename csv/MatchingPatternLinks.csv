@@ -576,6 +576,8 @@ package#GDPR,domain#MP-NDFHuoO,domain#Link-DataSubject-operates-Process,TRUE
 package#GDPR,domain#MP-NDFHuoO,domain#Link-Human1-manages-FlowsFrom,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Link-Human2-manages-Process,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Link-Operator-operates-Process,FALSE
+package#IoT,domain#MP-Co-cD,domain#Link-Input-controlsThing-Controller,FALSE
+package#IoT,domain#MP-Co-cD-cD,domain#Link-Data-controlsThing-Controller,FALSE
 package#IoT,domain#MP-CoPDS,domain#Link-HostManager-manages-Controller,FALSE
 package#IoT,domain#MP-DScSePDmFF,domain#Link-DataFlow-flows-Data,FALSE
 package#IoT,domain#MP-DScSePDmFF,domain#Link-DataFlow-flowsFrom-Process,FALSE
@@ -583,10 +585,14 @@ package#IoT,domain#MP-HuiThaS-S,domain#Link-Thing-locatedIn-OtherSpace,FALSE
 package#IoT,domain#MP-HumThP-m,domain#Link-ProcessManager-manages-Process,FALSE
 package#IoT,domain#MP-Pa-uCo,domain#Link-Client-updatesController-Controller,TRUE
 package#IoT,domain#MP-Pp-uSe,domain#Link-Client-readsSensor-Sensor,TRUE
+package#IoT,domain#MP-Se-cD,domain#Link-Input-controlsThing-Sensor,FALSE
+package#IoT,domain#MP-Se-cD-cD,domain#Link-Data-controlsThing-Sensor,FALSE
 package#IoT,domain#MP-SePDmFF,domain#Link-DataFlow-flows-Data,FALSE
 package#IoT,domain#MP-SePDmFF,domain#Link-DataFlow-flowsFrom-Process,FALSE
 package#IoT,domain#MP-SePDsFF,domain#Link-DataFlow-flows-Data,FALSE
 package#IoT,domain#MP-SePDsFF,domain#Link-DataFlow-flowsFrom-Process,FALSE
+package#IoT,domain#MP-Se-sD,domain#Link-Sensor-senses-Output,FALSE
+package#IoT,domain#MP-Se-sD-sD,domain#Link-Sensor-senses-Data,FALSE
 package#IoT,domain#MP-SHuTh-Hu,domain#Link-HostManager-manages-Thing,FALSE
 package#Legal,domain#MP-DFHuoO,domain#Link-DataSubject-operates-FlowsFrom,TRUE
 package#Legal,domain#MP-DFHuoO,domain#Link-DataSubject-operates-Process,TRUE
