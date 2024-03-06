@@ -264,13 +264,12 @@ package#DataLifecycle,domain#MP-P-uDFDI,domain#Node-ProcessManager-Human,FALSE,F
 package#DataLifecycle,domain#MP-ScDSPDI-DD,domain#Node-OutputAsset-DataAsset,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-DDDCDP2oDS,domain#Node-DataSource-DataAccess,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DDDCDP2oDS,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
-package#DataLifecycleInference,domain#MP-DDDPS-DC,domain#Node-OldDataChannel-DataChannel,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-DO-fDCSDD,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-DSDCDP2oDD,domain#Node-DataSource-DataAccess,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DSDCDP2oDD,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-DSDDF-Hu-P,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-DSDDF-Hu-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
-package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Node-DataPool-DataPool,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-HDSPDIfdDA-DP-f,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Node-DataDestination-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HPrD-DS-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HPrD-DS-DA,domain#Node-DataCopy-DataCopy,FALSE,TRUE,FALSE

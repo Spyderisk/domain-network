@@ -43,9 +43,9 @@ package#DataLifecycleInference,domain#INS-DDDCDP2oDS+DC-NewDataChannel,domain#No
 package#DataLifecycleInference,domain#INS-DDDCDS2P+DF-DataFlow,domain#Node-Data-Data
 package#DataLifecycleInference,domain#INS-DDDCDS2P+DF-DataFlow,domain#Node-FlowsFrom-Process
 package#DataLifecycleInference,domain#INS-DDDCDS2P+DF-DataFlow,domain#Node-FlowsTo-Process
-package#DataLifecycleInference,domain#INS-DDDPS-DC+DC-DataChannel,domain#Node-Data-Data
-package#DataLifecycleInference,domain#INS-DDDPS-DC+DC-DataChannel,domain#Node-Process-Process
-package#DataLifecycleInference,domain#INS-DDDPS-DC+DC-DataChannel,domain#Node-Service-Process
+package#DataLifecycleInference,domain#INS-DDDPS+DC-DataChannel,domain#Node-Data-Data
+package#DataLifecycleInference,domain#INS-DDDPS+DC-DataChannel,domain#Node-Process-Process
+package#DataLifecycleInference,domain#INS-DDDPS+DC-DataChannel,domain#Node-Service-Process
 package#DataLifecycleInference,domain#INS-DSDCDD2P+DF-DataFlow,domain#Node-Data-Data
 package#DataLifecycleInference,domain#INS-DSDCDD2P+DF-DataFlow,domain#Node-FlowsFrom-Process
 package#DataLifecycleInference,domain#INS-DSDCDD2P+DF-DataFlow,domain#Node-FlowsTo-Process

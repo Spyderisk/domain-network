@@ -182,11 +182,11 @@ package#DataLifecycleInference,domain#CP-DDDCDS2P+DF,domain#Link-DataFlow-flowsI
 package#DataLifecycleInference,domain#CP-DDDCDS2P+DF,domain#Link-DataFlow-flowsToDP-OldDataPath
 package#DataLifecycleInference,domain#CP-DDDCDS2P+DF,domain#Link-DataFlow-flowsTo-FlowsTo
 package#DataLifecycleInference,domain#CP-DDDCDS2P+DF,domain#Link-DataFlow-fulfils-AccessTo
-package#DataLifecycleInference,domain#CP-DDDPS-DC+DC,domain#Link-DataChannel-dataChannelFor-DataAccess
-package#DataLifecycleInference,domain#CP-DDDPS-DC+DC,domain#Link-DataChannel-fromProc-Process
-package#DataLifecycleInference,domain#CP-DDDPS-DC+DC,domain#Link-DataChannel-toProc-Service
-package#DataLifecycleInference,domain#CP-DDDPS-DC+DC,domain#Link-DataChannel-usesDataPath-DataPath
-package#DataLifecycleInference,domain#CP-DDDPS-DC+DC,domain#Link-Service-relaysAccess-DataAccess
+package#DataLifecycleInference,domain#CP-DDDPS+DC,domain#Link-DataChannel-dataChannelFor-DataAccess
+package#DataLifecycleInference,domain#CP-DDDPS+DC,domain#Link-DataChannel-fromProc-Process
+package#DataLifecycleInference,domain#CP-DDDPS+DC,domain#Link-DataChannel-toProc-Service
+package#DataLifecycleInference,domain#CP-DDDPS+DC,domain#Link-DataChannel-usesDataPath-DataPath
+package#DataLifecycleInference,domain#CP-DDDPS+DC,domain#Link-Service-relaysAccess-DataAccess
 package#DataLifecycleInference,domain#CP-DD-fDCSDS+ch,domain#Link-DataRelay-possRevPath-DataChannel
 package#DataLifecycleInference,domain#CP-DD-fDCSDS+ch,domain#Link-DataSource-possDataDest-DataDestination
 package#DataLifecycleInference,domain#CP-DFFPACS+fFI,domain#Link-DataFlow-flowsFromIn-ProcAccess
@@ -203,6 +203,8 @@ package#DataLifecycleInference,domain#CP-DO-fDCSDD+ch,domain#Link-DataDestinatio
 package#DataLifecycleInference,domain#CP-DO-fDCSDD+ch,domain#Link-DataOutput-fromSource-DataOutput
 package#DataLifecycleInference,domain#CP-DO-fDCSDD+ch,domain#Link-DataOutput-fulfils-DataDestination
 package#DataLifecycleInference,domain#CP-DO-fDCSDD+ch,domain#Link-DataOutput-fwdPath-DataChannel
+package#DataLifecycleInference,domain#CP-DOpdDI-iP+fS,domain#Link-DataSource-fromSource-DataSource
+package#DataLifecycleInference,domain#CP-DOpdRA+fS,domain#Link-DataSource-fromSource-DataSource
 package#DataLifecycleInference,domain#CP-DP1+x,domain#Link-DataPath-extendsDP-DataPath
 package#DataLifecycleInference,domain#CP-DP3-x+x,domain#Link-NewDataPath-extendsDP-OldDataPath
 package#DataLifecycleInference,domain#CP-DSDA+R,domain#Link-DataAccess-canRead-DataCopy
@@ -249,6 +251,7 @@ package#DataLifecycleInference,domain#CP-FwdDFtDP2P+DS,domain#Link-DataStep-flow
 package#DataLifecycleInference,domain#CP-HD-aHD-DS+DS,domain#Link-DataCopy-copyOf-Data
 package#DataLifecycleInference,domain#CP-HD-aHD-DS+DS,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycleInference,domain#CP-HDS2DPfDA+fS,domain#Link-DataPool-fromSource-DataSource
+package#DataLifecycleInference,domain#CP-HDSPDIfdDA-DP-f+f,domain#Link-DataDestination-fulfils-DataCopy
 package#DataLifecycleInference,domain#CP-HHuWE+D,domain#Link-DataFlow-flows-Data
 package#DataLifecycleInference,domain#CP-HHuWE+D,domain#Link-DataFlow-flowsFrom-MUA
 package#DataLifecycleInference,domain#CP-HHuWE+D,domain#Link-DataFlow-flowsTo-WebBrowser
@@ -264,7 +267,6 @@ package#DataLifecycleInference,domain#CP-HHuWSMS+D,domain#Link-MUA-enablesUserOu
 package#DataLifecycleInference,domain#CP-HPDADS2dDO+crudu,domain#Link-Process-crudu-DataCopy
 package#DataLifecycleInference,domain#CP-HPDADS-crudu+crudc,domain#Link-Process-crudc-DataCopy
 package#DataLifecycleInference,domain#CP-HPDADSDU+crudu,domain#Link-Process-crudu-DataCopy
-package#DataLifecycleInference,domain#CP-HPDFDI-fDS-DP+f,domain#Link-DataAccess-fulfils-DataCopy
 package#DataLifecycleInference,domain#CP-HPDO-fDS-DA+f,domain#Link-DataAccess-fulfils-DataCopy
 package#DataLifecycleInference,domain#CP-HPDO-fDS-DA+f,domain#Link-Process-enablesAccess-DataAccess
 package#DataLifecycleInference,domain#CP-HPDSDA-crudr+crudr,domain#Link-Process-crudr-DataCopy

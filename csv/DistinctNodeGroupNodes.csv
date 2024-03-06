@@ -22,6 +22,8 @@ package#DataLifecycle,domain#DNG-S2dC2dDX-0,domain#Node-Data-Data
 package#DataLifecycle,domain#DNG-S2dC2dDX-0,domain#Node-Input-Data
 package#DataLifecycle,domain#DNG-S2dC2dDX-1,domain#Node-Client-Process
 package#DataLifecycle,domain#DNG-S2dC2dDX-1,domain#Node-FlowsFrom-Process
+package#DataLifecycleInference,domain#DNG-HDSPDIfdDA-DP-f-0,domain#Node-DataDestination-DataInput
+package#DataLifecycleInference,domain#DNG-HDSPDIfdDA-DP-f-0,domain#Node-DataSource-DataAccess
 package#DataLifecycleInference,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#Node-Process-Process
 package#DataLifecycleInference,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#Node-Service-Process
 package#DataLifecycleInference,domain#DNG-SDADPPDXP-Hu-DP-0,domain#Node-Process-Process

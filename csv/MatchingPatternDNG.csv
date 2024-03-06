@@ -11,6 +11,7 @@ package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#MP-PcPr-uDS-V,0
 package#DataLifecycle,domain#DNG-PcPuDS-V-0,domain#MP-PcPuDS-V,0
 package#DataLifecycle,domain#DNG-S2dC2dDX-0,domain#MP-S2dC2dDX,0
 package#DataLifecycle,domain#DNG-S2dC2dDX-1,domain#MP-S2dC2dDX,1
+package#DataLifecycleInference,domain#DNG-HDSPDIfdDA-DP-f-0,domain#MP-HDSPDIfdDA-DP-f,0
 package#DataLifecycleInference,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#MP-HSDADPPDXP-Hu-DP,0
 package#DataLifecycleInference,domain#DNG-SDADPPDXP-Hu-DP-0,domain#MP-SDADPPDXP-Hu-DP,0
 package#DataLifecycleInference,domain#DNG-SDADPPDXPRAC-DP-0,domain#MP-SDADPPDXPRAC-DP,0

@@ -26,7 +26,7 @@ package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#Node-Container-Container,dom
 package#CloudManagement,domain#CP-VH-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-VH-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-VirtualHost-VirtualHost
 package#DataLifecycleInference,domain#CP-DDDCDP2oDS+DC,domain#Node-NewDataChannel-DataChannel,domain#INS-DDDCDP2oDS+DC-NewDataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
 package#DataLifecycleInference,domain#CP-DDDCDS2P+DF,domain#Node-DataFlow-DataFlow,domain#INS-DDDCDS2P+DF-DataFlow,TRUE,FALSE,domain#Node-Data-Data
-package#DataLifecycleInference,domain#CP-DDDPS-DC+DC,domain#Node-DataChannel-DataChannel,domain#INS-DDDPS-DC+DC-DataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
+package#DataLifecycleInference,domain#CP-DDDPS+DC,domain#Node-DataChannel-DataChannel,domain#INS-DDDPS+DC-DataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
 package#DataLifecycleInference,domain#CP-DSDCDD2P+DF,domain#Node-DataFlow-DataFlow,domain#INS-DSDCDD2P+DF-DataFlow,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-DSDCDP2oDD+DC,domain#Node-NewDataChannel-DataChannel,domain#INS-DSDCDP2oDD+DC-NewDataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
 package#DataLifecycleInference,domain#CP-DSDPS+DC,domain#Node-DataChannel-DataChannel,domain#INS-DSDPS+DC-DataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess

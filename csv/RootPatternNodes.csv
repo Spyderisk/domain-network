@@ -481,13 +481,6 @@ package#DataLifecycle,domain#R-HPDFDI,domain#Node-FlowsFrom-Process,TRUE
 package#DataLifecycle,domain#R-HPDFDI,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycle,domain#R-HPDFDI,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HPDFDI,domain#Node-Process-Process,TRUE
-package#DataLifecycle,domain#R-HPDFDI-fDS,domain#Node-DataAccess-DataInput,TRUE
-package#DataLifecycle,domain#R-HPDFDI-fDS,domain#Node-DataCopy-DataCopy,TRUE
-package#DataLifecycle,domain#R-HPDFDI-fDS,domain#Node-Data-Data,TRUE
-package#DataLifecycle,domain#R-HPDFDI-fDS,domain#Node-DataFlow-DataFlow,TRUE
-package#DataLifecycle,domain#R-HPDFDI-fDS,domain#Node-FlowsFrom-Process,TRUE
-package#DataLifecycle,domain#R-HPDFDI-fDS,domain#Node-Host-Host,TRUE
-package#DataLifecycle,domain#R-HPDFDI-fDS,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-HPDOcDS,domain#Node-DataAccess-DataOutput,TRUE
 package#DataLifecycle,domain#R-HPDOcDS,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-HPDOcDS,domain#Node-Data-Data,TRUE
@@ -965,6 +958,12 @@ package#DataLifecycleInference,domain#R-DODCSDD,domain#Node-Data-Data,TRUE
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Node-DataDestination-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Node-DataOutput-DataOutput,TRUE
 package#DataLifecycleInference,domain#R-DODCSDD,domain#Node-Service-Process,TRUE
+package#DataLifecycleInference,domain#R-DOpdDI,domain#Node-Data-Data,TRUE
+package#DataLifecycleInference,domain#R-DOpdDI,domain#Node-DataDestination-DataInput,TRUE
+package#DataLifecycleInference,domain#R-DOpdDI,domain#Node-DataSource-DataOutput,TRUE
+package#DataLifecycleInference,domain#R-DOpdRA,domain#Node-Data-Data,TRUE
+package#DataLifecycleInference,domain#R-DOpdRA,domain#Node-DataDestination-RemoteUserAccess,TRUE
+package#DataLifecycleInference,domain#R-DOpdRA,domain#Node-DataSource-DataOutput,TRUE
 package#DataLifecycleInference,domain#R-DP1,domain#Node-DataPath-DataPath,TRUE
 package#DataLifecycleInference,domain#R-DP3,domain#Node-DataPath-DataPath,TRUE
 package#DataLifecycleInference,domain#R-DP3,domain#Node-NewDataPath-DataPath,TRUE
@@ -998,6 +997,7 @@ package#DataLifecycleInference,domain#R-DSDDF,domain#Node-Data-Data,TRUE
 package#DataLifecycleInference,domain#R-DSDDF,domain#Node-DataField-DataField,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-Data-Data,TRUE
+package#DataLifecycleInference,domain#R-DSDPS,domain#Node-DataDestination-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-DataPath-DataPath,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-Process-Process,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-Service-Process,TRUE
@@ -1026,6 +1026,12 @@ package#DataLifecycleInference,domain#R-HDS2DPfDA,domain#Node-DataSource-DataAcc
 package#DataLifecycleInference,domain#R-HDS2DPfDA,domain#Node-Host-Host,TRUE
 package#DataLifecycleInference,domain#R-HDS2DPfDA,domain#Node-Process-Process,TRUE
 package#DataLifecycleInference,domain#R-HDS2DPfDA,domain#Node-Service-Process,TRUE
+package#DataLifecycleInference,domain#R-HDSPDIfDA,domain#Node-DataCopy-DataCopy,TRUE
+package#DataLifecycleInference,domain#R-HDSPDIfDA,domain#Node-Data-Data,TRUE
+package#DataLifecycleInference,domain#R-HDSPDIfDA,domain#Node-DataDestination-DataInput,TRUE
+package#DataLifecycleInference,domain#R-HDSPDIfDA,domain#Node-DataSource-DataAccess,TRUE
+package#DataLifecycleInference,domain#R-HDSPDIfDA,domain#Node-Host-Host,TRUE
+package#DataLifecycleInference,domain#R-HDSPDIfDA,domain#Node-Process-Process,TRUE
 package#DataLifecycleInference,domain#R-HPDXfrAC,domain#Node-Data-Data,TRUE
 package#DataLifecycleInference,domain#R-HPDXfrAC,domain#Node-DataExchange-DataExchange,TRUE
 package#DataLifecycleInference,domain#R-HPDXfrAC,domain#Node-DataFlow-DataFlow,TRUE

@@ -473,11 +473,10 @@ package#DataLifecycleInference,domain#MP-DDDCDP2oDS,domain#Link-FlowsFrom-relays
 package#DataLifecycleInference,domain#MP-DDDCDP2oDS,domain#Link-OldDataChannel-channelTried-OldDataChannel,TRUE
 package#DataLifecycleInference,domain#MP-DDDCDS2P,domain#Link-AccessFrom-revRelay-AccessFrom,TRUE
 package#DataLifecycleInference,domain#MP-DDDCDS2P,domain#Link-AccessTo-revRelay-AccessTo,TRUE
-package#DataLifecycleInference,domain#MP-DDDPS-DC,domain#Link-OldDataChannel-dataChannelFor-DataAccess,FALSE
-package#DataLifecycleInference,domain#MP-DDDPS-DC,domain#Link-OldDataChannel-usesDataPath-DataPath,FALSE
 package#DataLifecycleInference,domain#MP-DD-fDCSDS,domain#Link-DataSource-possDataDest-DataDestination,TRUE
 package#DataLifecycleInference,domain#MP-DI-fDCSDS,domain#Link-DataInput-isPool-Data,TRUE
 package#DataLifecycleInference,domain#MP-DO-fDCSDD,domain#Link-DataOutput-fromSource-DataAccess,FALSE
+package#DataLifecycleInference,domain#MP-DOpdDI-iP,domain#Link-DataDestination-isPool-Data,TRUE
 package#DataLifecycleInference,domain#MP-DP3-x,domain#Link-NewDataPath-extendsDP-OldDataPath,TRUE
 package#DataLifecycleInference,domain#MP-DSDAfDD-fS,domain#Link-DataDestination-fromSource-AccessFrom,TRUE
 package#DataLifecycleInference,domain#MP-DSDCDD2P,domain#Link-AccessFrom-fwdRelay-AccessFrom,TRUE
@@ -490,9 +489,9 @@ package#DataLifecycleInference,domain#MP-DSDDF-Hu-P,domain#Link-Data-isSpam-Data
 package#DataLifecycleInference,domain#MP-DSDDF-Hu-P,domain#Link-Human-inputsData-Data,FALSE
 package#DataLifecycleInference,domain#MP-DSDDF-Hu-P,domain#Link-Process-creates-Data,FALSE
 package#DataLifecycleInference,domain#MP-DSD-iDF,domain#Link-DataCopy-includesField-DataField,TRUE
-package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Link-DataAccess-fulfils-DataCopy,TRUE
-package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Link-DataPool-atHost-Host,FALSE
-package#DataLifecycleInference,domain#MP-HPDFDI-fDS-DP,domain#Link-DataPool-usedFor-Data,FALSE
+package#DataLifecycleInference,domain#MP-HDSPDIfdDA-DP-f,domain#Link-DataAccess-fromSource-DataSource,FALSE
+package#DataLifecycleInference,domain#MP-HDSPDIfdDA-DP-f,domain#Link-DataAccess-fulfils-DataCopy,FALSE
+package#DataLifecycleInference,domain#MP-HDSPDIfdDA-DP-f,domain#Link-DataDestination-fulfils-DataCopy,TRUE
 package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Link-DataAccess-fulfils-DataCopy,TRUE
 package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Link-DataDestination-fromSource-DataAccess,FALSE
 package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Link-DataDestination-fulfils-DataCopy,FALSE
