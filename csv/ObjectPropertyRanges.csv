@@ -60,6 +60,7 @@ package#DataLifecycleInference,domain#dataChannelEnd,domain#DataAccess
 package#DataLifecycleInference,domain#dataChannelFor,domain#DataAccess
 package#DataLifecycleInference,domain#dataChannelFrom,domain#Process
 package#DataLifecycleInference,domain#dataChannelTo,domain#Process
+package#DataLifecycleInference,domain#dataPathEnd,domain#Process
 package#DataLifecycleInference,domain#dataPathFor,domain#Data
 package#DataLifecycleInference,domain#dataPathFor,domain#DataPool
 package#DataLifecycleInference,domain#dataPathTo,domain#DataAccess

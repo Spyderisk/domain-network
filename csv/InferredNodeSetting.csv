@@ -42,6 +42,7 @@ package#DataLifecycleInference,domain#CP-HPDXfr-cAC+DS,domain#Node-DataCopy-Data
 package#DataLifecycleInference,domain#CP-HPDXtr-cAC+DS,domain#Node-DataCopy-DataCache,domain#INS-HPDXtr-cAC+DS-DataCopy,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-HPrD-DS-DA+DR,domain#Node-DataRelay-TempDataRelay,domain#INS-HPrD-DS-DA+DR-DataRelay,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-HPsD-DS+DR,domain#Node-DataRelay-DataRelay,domain#INS-HPsD-DS+DR-DataRelay,TRUE,FALSE,domain#Node-Data-Data
+package#DataLifecycleInference,domain#CP-HSDADPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-HSDADPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-DB-Process
 package#DataLifecycleInference,domain#CP-HSDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-HuaDPH-DS-DA+DU,domain#Node-DataUpdate-DataUpdate,domain#INS-HuaDPH-DS-DA+DU-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycleInference,domain#CP-HuaDPH-DS-DP+UP,domain#Node-DataUpdate-UpdatePool,domain#INS-HuaDPH-DS-DP+UP-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
@@ -77,6 +78,9 @@ package#DataLifecycleInference,domain#CP-RevDFf2DP2P+DS,domain#Node-DataStep-Dat
 package#DataLifecycleInference,domain#CP-RevDFfDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-RevDFfDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
 package#DataLifecycleInference,domain#CP-RevDFtDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-RevDFtDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
 package#DataLifecycleInference,domain#CP-S2dC2dDX+DS,domain#Node-DataCopy-DataCache,domain#INS-S2dC2dDX+DS-DataCopy,TRUE,FALSE,domain#Node-Data-Data
+package#DataLifecycleInference,domain#CP-SDADPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-DB-Process
+package#DataLifecycleInference,domain#CP-SDADPDXPRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPDXPRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-DB-Process
+package#DataLifecycleInference,domain#CP-SDADPDXRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPDXRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-DB-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXPRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
 package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-SDADPPDXRAC-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process

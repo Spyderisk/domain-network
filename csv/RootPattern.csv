@@ -225,7 +225,8 @@ package#DataLifecycleInference,domain#R-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a
 package#DataLifecycleInference,domain#R-HDSPDIfDA,HDSPDIfDA,Finds a data input that is a destination for data from a source and used by a process whose host stores a copy of the data.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-HPDXfrAC,HPDXfrAC,Finds a host running a process in a context from which data flows.,FALSE,TRUE
 package#DataLifecycleInference,domain#R-HPDXtrAC,HPDXtrAC,Finds a host running a process in a context to which data flows.,FALSE,TRUE
-package#DataLifecycleInference,domain#R-HSDADPPDXP,HSDADPPDXP,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, where all thhree processes are on the same Host.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-HSDADPDXP,HSDADPDXP,"Finds a service with a data access at the end of a data path process that exchanges data with a second process, where both processes have the same Host.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-HSDADPPDXP,HSDADPPDXP,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, where all three processes have the same Host.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-PDODAnDF,PDODAnDF,"Finds a process creating data, the data access asset (a data output), and fulfilled output data asset, where the output asset needs a field.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-PTDR,PTDR,Finds a temporary data relay asset and the associated process and data.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-RADCSDD,RADCSDD,"Finds a remote access client acting as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
@@ -233,9 +234,12 @@ package#DataLifecycleInference,domain#R-RADCSDS,RADCSDS,"Finds a remote access c
 package#DataLifecycleInference,domain#R-RevDFf2DP2P,RevDFf2DP2P,"Finds an inbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
 package#DataLifecycleInference,domain#R-RevDFfDP2P,RevDFfDP2P,Finds an inbound (reverse) data flow to a process on a data path leading to that process.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-RevDFtDP2P,RevDFtDP2P,Finds an inbound (reverse) data flow from a process on a data path leading from that process.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-SDADPDXP,SDADPDXP,Finds a service with a data access at the end of a data path that exchanges data with a second process.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-SDADPDXPRAC,SDADPDXPRAC,"Finds a service at the end of a data path that exchanges data with a second process, and there is a remote access client using remotely both processes.",FALSE,FALSE
+package#DataLifecycleInference,domain#R-SDADPDXRAC,SDADPDXRAC,Finds a service at the end of a data path that exchanges data with a remote access client.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-SDADPPDXP,SDADPPDXP,Finds a service with a data access to which there is a data path from a process that exchanges data with a third process.,FALSE,FALSE
 package#DataLifecycleInference,domain#R-SDADPPDXPRAC,SDADPPDXPRAC,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, and there is a remote access client using remotely the second and third processes.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-SDADPPDXRAC,SDADPPDXRAC,Finds a service with a data access to which there is a data path from a process that exchanges data with a remote access client that is remotely using the second process.,FALSE,FALSE
+package#DataLifecycleInference,domain#R-SDADPPDXRAC,SDADPPDXRAC,Finds a service with a data access to which there is a data path from a process that exchanges data with a remote access client.,FALSE,FALSE
 package#DataStructure,domain#R-PpDDF,PpDDF,"Finds a Process, processing Data which contains a Data Field.",FALSE,FALSE
 package#GDPR,domain#R-HuSDPoS,HuSDPoS,"Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject, where the subject operates the Service providing (and controlling) access to the data.",FALSE,FALSE
 package#GDPR,domain#R-HuSDPS,HuSDPS,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject.,FALSE,FALSE

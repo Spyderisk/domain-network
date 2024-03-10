@@ -79,6 +79,8 @@ package#DataLifecycleInference,domain#INS-HPrD-DS-DA+DR-DataRelay,domain#Node-Da
 package#DataLifecycleInference,domain#INS-HPrD-DS-DA+DR-DataRelay,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-HPsD-DS+DR-DataRelay,domain#Node-Data-Data
 package#DataLifecycleInference,domain#INS-HPsD-DS+DR-DataRelay,domain#Node-Process-Process
+package#DataLifecycleInference,domain#INS-HSDADPDXP-Hu-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
+package#DataLifecycleInference,domain#INS-HSDADPDXP-Hu-DP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
 package#DataLifecycleInference,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-HuaDPH-DS-DA+DU-DataUpdate,domain#Node-Data-Data
@@ -149,6 +151,12 @@ package#DataLifecycleInference,domain#INS-RevDFtDP2P+DS-DataStep,domain#Node-Flo
 package#DataLifecycleInference,domain#INS-RevDFtDP2P+DS-DataStep,domain#Node-FlowsTo-Process
 package#DataLifecycleInference,domain#INS-S2dC2dDX+DS-DataCopy,domain#Node-Data-Data
 package#DataLifecycleInference,domain#INS-S2dC2dDX+DS-DataCopy,domain#Node-Host-Host
+package#DataLifecycleInference,domain#INS-SDADPDXP-Hu-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
+package#DataLifecycleInference,domain#INS-SDADPDXP-Hu-DP+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycleInference,domain#INS-SDADPDXPRAC-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
+package#DataLifecycleInference,domain#INS-SDADPDXPRAC-DP+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycleInference,domain#INS-SDADPDXRAC-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
+package#DataLifecycleInference,domain#INS-SDADPDXRAC-DP+DP-NewDataPath,domain#Node-RemoteAccessClient-RemoteAccessClient
 package#DataLifecycleInference,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
 package#DataLifecycleInference,domain#INS-SDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycleInference,domain#INS-SDADPPDXPRAC-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath

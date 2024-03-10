@@ -61,6 +61,7 @@ package#DataLifecycleInference,domain#dataChannelEnd,domain#DataChannel
 package#DataLifecycleInference,domain#dataChannelFor,domain#DataChannel
 package#DataLifecycleInference,domain#dataChannelFrom,domain#DataChannel
 package#DataLifecycleInference,domain#dataChannelTo,domain#DataChannel
+package#DataLifecycleInference,domain#dataPathEnd,domain#Data
 package#DataLifecycleInference,domain#dataPathFor,domain#DataPath
 package#DataLifecycleInference,domain#dataPathTo,domain#DataPath
 package#DataLifecycleInference,domain#dataPathVisits,domain#DataPath

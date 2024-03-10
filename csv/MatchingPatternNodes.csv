@@ -273,6 +273,8 @@ package#DataLifecycleInference,domain#MP-HDSPDIfdDA-DP-f,domain#Node-DataAccess-
 package#DataLifecycleInference,domain#MP-HPDO-fDS-DA,domain#Node-DataDestination-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HPrD-DS-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HPrD-DS-DA,domain#Node-DataCopy-DataCopy,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-HSDADPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycleInference,domain#MP-HSDADPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-HuaDSPH+S-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
@@ -295,6 +297,10 @@ package#DataLifecycleInference,domain#MP-Pr-cDSH-S-Hu-DA,domain#Node-Service-Pro
 package#DataLifecycleInference,domain#MP-PSDP-S,domain#Node-DataOutput-DataOutput,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-PSDP-S,domain#Node-RemoteUserAccess-RemoteUserAccess,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-RA-fDCSDD,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-SDADPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycleInference,domain#MP-SDADPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
+package#DataLifecycleInference,domain#MP-SDADPDXPRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycleInference,domain#MP-SDADPDXRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#MP-SDADPPDXPRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
