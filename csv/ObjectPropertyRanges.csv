@@ -187,11 +187,10 @@ package#Physical,domain#canAccess,domain#Space
 package#Physical,domain#controlledBy,domain#Stakeholder
 package#Physical,domain#isWorld,domain#Space
 package#Privacy,domain#relatesTo,domain#Human
-package#ProcessComms,domain#accessFromClient,domain#ClientAttackPath
-package#ProcessComms,domain#accessFromClient,domain#ClientPath
 package#ProcessComms,domain#accessFromClient,domain#ConnectionChannel
-package#ProcessComms,domain#accessFromClient,domain#Process
+package#ProcessComms,domain#accessInterrupted,domain#AuthChannel
 package#ProcessComms,domain#accessToService,domain#ConnectionAsset
+package#ProcessComms,domain#accessUninterrupted,domain#AuthChannel
 package#ProcessComms,domain#attackPathFrom,domain#NetworkPath
 package#ProcessComms,domain#attackPathFrom,domain#ServiceChannel
 package#ProcessComms,domain#attackPathVia,domain#AttackPath

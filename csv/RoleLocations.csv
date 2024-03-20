@@ -197,7 +197,7 @@ package#ProcessComms,domain#Role_LastSubnet,domain#L01Subnet
 package#ProcessComms,domain#Role_OpenClientAttackPath,domain#OpenClientAttackPath
 package#ProcessComms,domain#Role_OpenServiceAttackPath,domain#OpenServiceAttackPath
 package#ProcessComms,domain#Role_Proxy,domain#Process
-package#ProcessComms,domain#Role_ProxyChannel,domain#ClientChannel
+package#ProcessComms,domain#Role_ProxyChannel,domain#AuthChannel
 package#ProcessComms,domain#Role_ProxyClient,domain#Process
 package#ProcessComms,domain#Role_ServiceAttackPath,domain#ServiceAttackPath
 package#ProcessComms,domain#Role_ServiceChannel,domain#ServiceChannel

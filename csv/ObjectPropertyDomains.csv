@@ -180,7 +180,9 @@ package#Privacy,domain#relatesTo,domain#DataAccess
 package#Privacy,domain#relatesTo,domain#DataAsset
 package#Privacy,domain#relatesTo,domain#Thing
 package#ProcessComms,domain#accessFromClient,domain#PContext
+package#ProcessComms,domain#accessInterrupted,domain#PContext
 package#ProcessComms,domain#accessToService,domain#AccessContext
+package#ProcessComms,domain#accessUninterrupted,domain#PContext
 package#ProcessComms,domain#attackPathFrom,domain#AttackPath
 package#ProcessComms,domain#attackPathVia,domain#AttackPath
 package#ProcessComms,domain#channelFrom,domain#ConnectionAsset
