@@ -223,7 +223,7 @@ package#DataLifecycle,domain#MP-PDFODADFO,domain#Node-ProcessManager-Human,FALSE
 package#DataLifecycle,domain#MP-PDFV,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDF-V,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDF-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#MP-PDI+DO-DS-S,domain#Node-DataCopy-DataCopy,TRUE,FALSE,FALSE
+package#DataLifecycle,domain#MP-PDI+DO-DS-S,domain#Node-DataCopy-DataCopy,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PDI+DO-DS-S,domain#Node-DataOutput-DataOutput,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDI+DO-DS-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PDI+DS-S,domain#Node-DataCopy-DataCopy,TRUE,FALSE,FALSE
@@ -308,13 +308,14 @@ package#DataLifecycleInference,domain#MP-SDADPPDXRAC-DP,domain#Node-FlowsFrom-Pr
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human1-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Human2-Human,FALSE,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,domain#Node-Operator-Stakeholder,FALSE,FALSE,FALSE
-package#IoT,domain#MP-Co-cD,domain#Node-Input-Data,FALSE,TRUE,FALSE
+package#IoT,domain#MP-Co,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#IoT,domain#MP-Co-cD-cD,domain#Node-Data-ControlData,TRUE,FALSE,FALSE
+package#IoT,domain#MP-CoPD,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#IoT,domain#MP-CoPDS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#IoT,domain#MP-DScSePDmFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#IoT,domain#MP-HumThP-m,domain#Node-ProcessManager-Human,FALSE,TRUE,FALSE
-package#IoT,domain#MP-Se-cD,domain#Node-Input-Data,FALSE,TRUE,FALSE
+package#IoT,domain#MP-IoT-cD,domain#Node-Input-Data,FALSE,TRUE,FALSE
 package#IoT,domain#MP-Se-cD-cD,domain#Node-Data-ControlData,TRUE,FALSE,FALSE
 package#IoT,domain#MP-SePDmFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,FALSE
 package#IoT,domain#MP-SePDsFF,domain#Node-DataFlow-DataFlow,TRUE,FALSE,TRUE

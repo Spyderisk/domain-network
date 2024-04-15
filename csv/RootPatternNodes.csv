@@ -1118,6 +1118,8 @@ package#GDPR,domain#R-NDFHu,domain#Node-Jurisdiction-Jurisdiction,TRUE
 package#GDPR,domain#R-NDFHu,domain#Node-Process-Process,TRUE
 package#GDPR,domain#R-NDFHu,domain#Node-RemoteJurisdiction-Jurisdiction,TRUE
 package#IoT,domain#R-Co,domain#Node-Controller-Controller,TRUE
+package#IoT,domain#R-CoPD,domain#Node-Controller-Controller,TRUE
+package#IoT,domain#R-CoPD,domain#Node-Data-Data,TRUE
 package#IoT,domain#R-CoPDS,domain#Node-Controller-Controller,TRUE
 package#IoT,domain#R-CoPDS,domain#Node-DataCopy-DataCopy,TRUE
 package#IoT,domain#R-CoPDS,domain#Node-Data-Data,TRUE

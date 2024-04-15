@@ -298,8 +298,9 @@ package#DataStructure,domain#MP-PpD-iDF,PpD-iDF,"Finds a Process, processing Dat
 package#GDPR,domain#MP-HuSDPoS-i,HuSDPoS-i,"Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject, where the subject operates the Service providing (and controlling) access to the data but not the Process using it.",domain#R-HuSDPoS,FALSE,FALSE
 package#GDPR,domain#MP-HuSDPS-io,HuSDPS-io,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject who is not operating the process providing access to the data.,domain#R-HuSDPS,FALSE,FALSE
 package#GDPR,domain#MP-NDFHuoO,NDFHuoO,Finds nationally regulated personal data being transferred across a border to a process that optionally has an operator organisation.,domain#R-NDFHu,FALSE,FALSE
-package#IoT,domain#MP-Co-cD,Co-cD,Finds a solo Controller that does not have onboard control data.,domain#R-Co,FALSE,FALSE
+package#IoT,domain#MP-Co,Co,Finds a Controller and optionally its human manager.,domain#R-Co,FALSE,FALSE
 package#IoT,domain#MP-Co-cD-cD,Co-cD-cD,Finds a solo Controller that is bieng controlled by onboard control data.,domain#R-Co,FALSE,FALSE
+package#IoT,domain#MP-CoPD,CoPD,"Finds a Controller and its control input data, and optionally a human manager.",domain#R-CoPD,FALSE,FALSE
 package#IoT,domain#MP-CoPDS,CoPDS,Finds a Controller with its stored control input data.,domain#R-CoPDS,FALSE,FALSE
 package#IoT,domain#MP-DcTh,DcTh,Finds an IoT Thing and its control input Data.,domain#R-DcTh,FALSE,FALSE
 package#IoT,domain#MP-DScSePDmFF,DScSePDmFF,"Finds a Sensor with its onboard process and output data, and its stored copy of control input data, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-DScSePD,FALSE,FALSE
@@ -307,13 +308,13 @@ package#IoT,domain#MP-HuiCo,HuiCo,"Finds the control input for an IoT Controller
 package#IoT,domain#MP-HuiSe,HuiSe,"Finds the control input and sensed output for an IoT Sensor, which is being used interactively by a Human, plus the interactive process that creates the output.",domain#R-HuiSe,FALSE,FALSE
 package#IoT,domain#MP-HuiThaS-S,HuiThaS-S,Finds a Human that has access to a space and uses an IoT Thing which has no specified location.,domain#R-HuiThaS,FALSE,FALSE
 package#IoT,domain#MP-HumThP-m,HumThP-m,Finds a Human managing a Thing with an unmanaged onboard process.,domain#R-HumThP,FALSE,FALSE
+package#IoT,domain#MP-IoT-cD,IoT-cD,Finds a solo IoT Thing that does not have onboard control data.,domain#R-IoT,FALSE,FALSE
 package#IoT,domain#MP-Pa-uCo,Pa-uCo,"Finds a client Process that amends (but does not update) an IoT Controller, along with its control input Data and onboard  communication Process.",domain#R-PaCo,FALSE,TRUE
 package#IoT,domain#MP-PcSe,PcSe,"Finds a client Process that alters control input to an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PcSe,FALSE,FALSE
 package#IoT,domain#MP-Pp-uSe,Pp-uSe,"Finds a client Process that polls (but does not read) an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PpSe,FALSE,TRUE
 package#IoT,domain#MP-PrSe,PrSe,"Finds a client Process that receives data from an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PrSe,FALSE,FALSE
 package#IoT,domain#MP-PuCo,PuCo,"Finds a client Process that updates an IoT Controller, along with its control input Data and onboard  communication Process.",domain#R-PuCo,FALSE,FALSE
 package#IoT,domain#MP-PuSe,PuSe,"Finds a client Process that reads data from an IoT Sensor, along with its onboard simple communication Process and Data.",domain#R-PuSe,FALSE,FALSE
-package#IoT,domain#MP-Se-cD,Se-cD,Finds a Sensor without onboard control data.,domain#R-Se,FALSE,FALSE
 package#IoT,domain#MP-Se-cD-cD,Se-cD-cD,Finds a Sensor with onboard control data controlling it.,domain#R-Se,FALSE,FALSE
 package#IoT,domain#MP-SePD,SePD,Finds a Sensor with its onboard process and data.,domain#R-SePD,FALSE,FALSE
 package#IoT,domain#MP-SePDmFF,SePDmFF,"Finds a Sensor with its onboard process and data, plus all flows of this data from the process (i.e., out of the sensor), all of which must be involved in the pattern.",domain#R-SePD,FALSE,FALSE

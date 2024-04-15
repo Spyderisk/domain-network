@@ -489,10 +489,9 @@ package#DataLifecycleInference,domain#CP-SDADPPDXRAC-DP+DP,domain#Link-NewDataPa
 package#DataLifecycleInference,domain#CP-SDUDADS+W,domain#Link-DataUse-canWrite-DataCopy
 package#DataLifecycleInference,domain#CP-SDUDSDA+R,domain#Link-DataUse-canRead-DataCopy
 package#DataStructure,domain#CP-PpD-iDF+a,domain#Link-Process-accessesField-DataField
-package#IoT,domain#CP-Co-cD+cD,domain#Link-Controller-stores-Data
-package#IoT,domain#CP-Co-cD+cD,domain#Link-Data-controlsThing-Controller
 package#IoT,domain#CP-DcTh+DS,domain#Link-SimpleProcess-serves-Data
 package#IoT,domain#CP-DcTh+DS,domain#Link-Thing-hosts-SimpleProcess
+package#IoT,domain#CP-DcTh+s,domain#Link-Thing-stores-Data
 package#IoT,domain#CP-HuiCo+UI,domain#Link-Controller-hosts-Process
 package#IoT,domain#CP-HuiCo+UI,domain#Link-Human-interactsWith-Process
 package#IoT,domain#CP-HuiCo+UI,domain#Link-Process-creates-Data
@@ -501,6 +500,7 @@ package#IoT,domain#CP-HuiSe+Rel,domain#Link-Human-interactsWith-Process
 package#IoT,domain#CP-HuiSe+Rel,domain#Link-Human-viewsData-Output
 package#IoT,domain#CP-HuiSe+Rel,domain#Link-Process-creates-Input
 package#IoT,domain#CP-HumThP-m+m,domain#Link-Human-manages-Process
+package#IoT,domain#CP-IoT-cD+cD,domain#Link-Data-controlsThing-Thing
 package#IoT,domain#CP-Pa-uCo+Rel,domain#Link-Client-amends-Data
 package#IoT,domain#CP-Pa-uCo+Rel,domain#Link-Client-uses-Process
 package#IoT,domain#CP-PcSe+Rel,domain#Link-Client-amends-Data
@@ -513,8 +513,6 @@ package#IoT,domain#CP-PuCo+Rel,domain#Link-Client-updates-Data
 package#IoT,domain#CP-PuCo+Rel,domain#Link-Client-uses-Process
 package#IoT,domain#CP-PuSe+Rel,domain#Link-Client-reads-Data
 package#IoT,domain#CP-PuSe+Rel,domain#Link-Client-uses-SimpleProcess
-package#IoT,domain#CP-Se-cD+cD,domain#Link-Data-controlsThing-Sensor
-package#IoT,domain#CP-Se-cD+cD,domain#Link-Sensor-stores-Data
 package#IoT,domain#CP-Se-sD+sD,domain#Link-Sensor-senses-Data
 package#IoT,domain#CP-SesD+SP,domain#Link-Sensor-hosts-SimpleProcess
 package#IoT,domain#CP-SesD+SP,domain#Link-SimpleProcess-creates-Data

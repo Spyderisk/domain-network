@@ -238,6 +238,7 @@ package#GDPR,domain#R-HuSDPoS,HuSDPoS,"Finds a Stakeholder operating a Process t
 package#GDPR,domain#R-HuSDPS,HuSDPS,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject.,FALSE,FALSE
 package#GDPR,domain#R-NDFHu,NDFHu,Finds nationally regulated personal data being transferred across a border.,FALSE,FALSE
 package#IoT,domain#R-Co,Co,Finds a solo Controller.,FALSE,FALSE
+package#IoT,domain#R-CoPD,CoPD,Finds a Controller and its control input data.,FALSE,FALSE
 package#IoT,domain#R-CoPDS,CoPDS,Finds a Controller with its stored control input data.,FALSE,FALSE
 package#IoT,domain#R-DcTh,DcTh,Finds an IoT Thing and its control input Data.,FALSE,FALSE
 package#IoT,domain#R-DScSePD,DScSePD,"Finds a Sensor with its onboard process and output data, and its stored copy of control input data.",FALSE,FALSE

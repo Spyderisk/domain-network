@@ -114,11 +114,11 @@ package#DataLifecycle,domain#P.U.HP-iDSDI.0,domain#MS-LossOfIntegrity-DataCopy
 package#DataLifecycle,domain#P.U.HuirPiD-DF-DS.0,domain#MS-LossOfReliability-Human
 package#DataLifecycle,domain#P.U.P-iDFDI.0,domain#MS-InService-DataFlow
 package#DataLifecycle,domain#P.U.P-iDFDI.0,domain#MS-LossOfIntegrity-DataFlow
-package#IoT,domain#Co.C.CoPDS.0,domain#MS-LossOfConfidentiality-Data
+package#IoT,domain#Co.C.CoPD.0,domain#MS-LossOfConfidentiality-Data
 package#IoT,domain#Co.M.CoPDS.0,domain#MS-LossOfAuthenticity-DataCopy
+package#IoT,domain#Co.U.Co.0,domain#MS-LossOfAvailability-Controller
 package#IoT,domain#Co.U.CoPDS.0.1,domain#MS-LossOfIntegrity-DataCopy
 package#IoT,domain#Co.U.CoPDS.0.2,domain#MS-LossOfTimeliness-DataCopy
-package#IoT,domain#Co.U.CoPDS.0.3,domain#MS-LossOfAvailability-Controller
 package#IoT,domain#DF.I.DScSePDmFF.0.1,domain#MS-LossOfIntegrity-DataCopy
 package#IoT,domain#DF.I.DScSePDmFF.0.2,domain#MS-LossOfTimeliness-DataCopy
 package#IoT,domain#Se.A.SePDmFF.0,domain#MS-LossOfAvailability-DataFlow

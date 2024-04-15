@@ -1148,6 +1148,7 @@ package#GDPR,domain#R-NDFHu,domain#Link-Data-relatesTo-DataSubject
 package#GDPR,domain#R-NDFHu,domain#Link-FlowsFrom-subjectTo-Jurisdiction
 package#GDPR,domain#R-NDFHu,domain#Link-Host-hosts-FlowsFrom
 package#GDPR,domain#R-NDFHu,domain#Link-Process-subjectTo-RemoteJurisdiction
+package#IoT,domain#R-CoPD,domain#Link-Data-controlsThing-Controller
 package#IoT,domain#R-CoPDS,domain#Link-Controller-storesCopy-DataCopy
 package#IoT,domain#R-CoPDS,domain#Link-Data-controlsThing-Controller
 package#IoT,domain#R-CoPDS,domain#Link-DataCopy-copyOf-Data
