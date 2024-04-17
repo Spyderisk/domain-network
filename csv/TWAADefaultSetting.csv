@@ -293,10 +293,10 @@ package#DataLifecycle,domain#TWAADS-Availability-DataFlow,domain#Availability,do
 package#DataLifecycle,domain#TWAADS-Confidentiality-DataCache,domain#Confidentiality,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Confidentiality-DataCopy,domain#Confidentiality,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Confidentiality-DataFlow,domain#Confidentiality,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
-package#DataLifecycle,domain#TWAADS-Decrypted-DataCache,domain#Decrypted,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
+package#DataLifecycle,domain#TWAADS-Decrypted-DataCache,domain#Decrypted,domain#DataCache,domain#TrustworthinessLevelSafe,FALSE
 package#DataLifecycle,domain#TWAADS-Decrypted-DataCopy,domain#Decrypted,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Decrypted-DataFlow,domain#Decrypted,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
-package#DataLifecycle,domain#TWAADS-Encrypted-DataCache,domain#Encrypted,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
+package#DataLifecycle,domain#TWAADS-Encrypted-DataCache,domain#Encrypted,domain#DataCache,domain#TrustworthinessLevelSafe,FALSE
 package#DataLifecycle,domain#TWAADS-Encrypted-DataCopy,domain#Encrypted,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Encrypted-DataFlow,domain#Encrypted,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#TWAADS-Health-DataCache,domain#Health,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE

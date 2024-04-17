@@ -675,9 +675,7 @@ package#DataLifecycle,domain#CAS-Encryption-DataFlow,domain#DataFlow,domain#Encr
 package#DataLifecycle,domain#CAS-IntegrityProtection-DataCache,domain#DataCache,domain#IntegrityProtection,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-IntegrityProtection-DataCopy,domain#DataCopy,domain#IntegrityProtection,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-IntegrityProtection-DataFlow,domain#DataFlow,domain#IntegrityProtection,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#DataLifecycle,domain#CAS-ParquetEncryption-DataCache,domain#DataCache,domain#ParquetEncryption,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-ParquetEncryption-DataCopy,domain#DataCopy,domain#ParquetEncryption,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#DataLifecycle,domain#CAS-Replication-DataCache,domain#DataCache,domain#Replication,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-Replication-DataCopy,domain#DataCopy,domain#Replication,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-SuspendCorruptDataFlow-DataFlow,domain#DataFlow,domain#SuspendCorruptDataFlow,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-SuspendOutboundFlow-DataFlow,domain#DataFlow,domain#SuspendOutboundFlow,TRUE,domain#TrustworthinessLevelSafe,TRUE

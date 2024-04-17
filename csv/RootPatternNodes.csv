@@ -402,11 +402,11 @@ package#DataLifecycle,domain#R-HDCDF,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycle,domain#R-HDCDF,domain#Node-FlowsFrom-Process,TRUE
 package#DataLifecycle,domain#R-HDCDF,domain#Node-FlowsTo-Process,TRUE
 package#DataLifecycle,domain#R-HDCDF,domain#Node-Host-Host,TRUE
-package#DataLifecycle,domain#R-HDS,domain#Node-DataCopy-DataCopy,TRUE
+package#DataLifecycle,domain#R-HDS,domain#Node-DataCopy-DataCache,TRUE
 package#DataLifecycle,domain#R-HDS,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HDS,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HDS,domain#Node-PhysicalHost-PhysicalHost,TRUE
-package#DataLifecycle,domain#R-HDSV,domain#Node-DataCopy-DataCopy,TRUE
+package#DataLifecycle,domain#R-HDSV,domain#Node-DataCopy-DataCache,TRUE
 package#DataLifecycle,domain#R-HDSV,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HDSV,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HDSV,domain#Node-PhysicalHost-PhysicalHost,TRUE
@@ -760,7 +760,7 @@ package#DataLifecycle,domain#R-PDR,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDR,domain#Node-DataRelay-DataRelay,TRUE
 package#DataLifecycle,domain#R-PDR,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PHHDS,domain#Node-AHost-Host,TRUE
-package#DataLifecycle,domain#R-PHHDS,domain#Node-DataCopy-DataCopy,TRUE
+package#DataLifecycle,domain#R-PHHDS,domain#Node-DataCopy-DataCache,TRUE
 package#DataLifecycle,domain#R-PHHDS,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PHHDS,domain#Node-Host-PhysicalHost,TRUE
 package#DataLifecycle,domain#R-PHHDS,domain#Node-Space-Space,TRUE

@@ -42,7 +42,7 @@ package#DataLifecycle,domain#Role_DataAccess,domain#DataProcess
 package#DataLifecycle,domain#Role_DataAccess,domain#DataUse
 package#DataLifecycle,domain#Role_DataAsset,domain#DataAsset
 package#DataLifecycle,domain#Role_DataCache,domain#DataCache
-package#DataLifecycle,domain#Role_DataCopy,domain#DataCopy
+package#DataLifecycle,domain#Role_DataCopy,domain#DataCache
 package#DataLifecycle,domain#Role_DataDestination,domain#DataAccess
 package#DataLifecycle,domain#Role_DataFlow,domain#DataFlow
 package#DataLifecycle,domain#Role_DataInput,domain#DataInput
