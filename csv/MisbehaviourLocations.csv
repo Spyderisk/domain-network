@@ -82,12 +82,12 @@ package#ProcessComms,domain#ClientImpersonation,domain#AuthChannel
 package#ProcessComms,domain#CommsSnoopable,domain#ConnectionChannel
 package#ProcessComms,domain#DeputyConfusion,domain#ClientChannel
 package#ProcessComms,domain#InService,domain#ConnectionAsset
-package#ProcessComms,domain#LossOfAccessibility,domain#ClientChannel
+package#ProcessComms,domain#LossOfAccessibility,domain#AuthChannel
 package#ProcessComms,domain#LossOfAnonUserTW,domain#ClientChannel
 package#ProcessComms,domain#LossOfClientTW,domain#AuthChannel
 package#ProcessComms,domain#LossOfConnectivity,domain#ServiceChannel
 package#ProcessComms,domain#LossOfProxyUserTW,domain#ClientChannel
-package#ProcessComms,domain#LossOfServiceTW,domain#ClientChannel
+package#ProcessComms,domain#LossOfServiceTW,domain#AuthChannel
 package#ProcessComms,domain#ServiceChannelsAllowed,domain#Interface
 package#ProcessComms,domain#ServiceChannelsAllowed,domain#LogicalSegment
 package#ProcessComms,domain#ServiceImpersonation,domain#AuthChannel

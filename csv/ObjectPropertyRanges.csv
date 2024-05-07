@@ -163,6 +163,7 @@ package#Network,domain#usesForAuthZ,domain#Process
 package#Network,domain#usesIndirectly,domain#Process
 package#Network,domain#usesRemotely,domain#Process
 package#Network,domain#usesService,domain#Process
+package#Network,domain#usesViaDeputy,domain#Process
 package#NetworkConnectivity,domain#blockedPath,domain#LogicalPath
 package#NetworkConnectivity,domain#blockedSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#connectsFrom,domain#Host
