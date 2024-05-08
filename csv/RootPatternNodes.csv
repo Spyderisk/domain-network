@@ -2274,7 +2274,7 @@ package#ProcessComms,domain#R-CCCvCCS,domain#Node-ProxyClient-Process,TRUE
 package#ProcessComms,domain#R-CCCvCCS,domain#Node-Proxy-Process,TRUE
 package#ProcessComms,domain#R-CCCvCCS,domain#Node-Service-Process,TRUE
 package#ProcessComms,domain#R-CCCvCCS,domain#Node-SHost-Host,TRUE
-package#ProcessComms,domain#R-CCCvCCvLS,domain#Node-ClientChannel-ClientChannel,TRUE
+package#ProcessComms,domain#R-CCCvCCvLS,domain#Node-ClientChannel-AuthChannel,TRUE
 package#ProcessComms,domain#R-CCCvCCvLS,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CCCvCCvLS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-CCCvCCvLS,domain#Node-ProxyChannel-ClientChannel,TRUE
