@@ -60,6 +60,7 @@ package#DataLifecycleInference,domain#dataChannelEnd,domain#DataAccess
 package#DataLifecycleInference,domain#dataChannelFor,domain#DataAccess
 package#DataLifecycleInference,domain#dataChannelFrom,domain#Process
 package#DataLifecycleInference,domain#dataChannelTo,domain#Process
+package#DataLifecycleInference,domain#dataPathEnd,domain#Process
 package#DataLifecycleInference,domain#dataPathFor,domain#Data
 package#DataLifecycleInference,domain#dataPathFor,domain#DataPool
 package#DataLifecycleInference,domain#dataPathTo,domain#DataAccess
@@ -162,6 +163,7 @@ package#Network,domain#usesForAuthZ,domain#Process
 package#Network,domain#usesIndirectly,domain#Process
 package#Network,domain#usesRemotely,domain#Process
 package#Network,domain#usesService,domain#Process
+package#Network,domain#usesViaDeputy,domain#Process
 package#NetworkConnectivity,domain#blockedPath,domain#LogicalPath
 package#NetworkConnectivity,domain#blockedSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#connectsFrom,domain#Host
@@ -186,11 +188,10 @@ package#Physical,domain#canAccess,domain#Space
 package#Physical,domain#controlledBy,domain#Stakeholder
 package#Physical,domain#isWorld,domain#Space
 package#Privacy,domain#relatesTo,domain#Human
-package#ProcessComms,domain#accessFromClient,domain#ClientAttackPath
-package#ProcessComms,domain#accessFromClient,domain#ClientPath
 package#ProcessComms,domain#accessFromClient,domain#ConnectionChannel
-package#ProcessComms,domain#accessFromClient,domain#Process
+package#ProcessComms,domain#accessInterrupted,domain#AuthChannel
 package#ProcessComms,domain#accessToService,domain#ConnectionAsset
+package#ProcessComms,domain#accessUninterrupted,domain#AuthChannel
 package#ProcessComms,domain#attackPathFrom,domain#NetworkPath
 package#ProcessComms,domain#attackPathFrom,domain#ServiceChannel
 package#ProcessComms,domain#attackPathVia,domain#AttackPath

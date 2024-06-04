@@ -862,6 +862,7 @@ package#ProcessComms,domain#MADS-InService-OpenServiceAttackPath,domain#OpenServ
 package#ProcessComms,domain#MADS-InService-ServiceChannel,domain#ServiceChannel,domain#InService,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-InService-ServiceProxy,domain#ServiceProxy,domain#InService,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LocalLossOfUserTW-ServiceProxy,domain#ServiceProxy,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-LossOfAccessibility-AuthChannel,domain#AuthChannel,domain#LossOfAccessibility,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfAccessibility-ClientChannel,domain#ClientChannel,domain#LossOfAccessibility,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfAnonUserTW-ClientChannel,domain#ClientChannel,domain#LossOfAnonUserTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfAvailability-ServiceProxy,domain#ServiceProxy,domain#LossOfAvailability,domain#ImpactLevelNegligible
@@ -874,6 +875,7 @@ package#ProcessComms,domain#MADS-LossOfExtrinsicTW-ServiceProxy,domain#ServicePr
 package#ProcessComms,domain#MADS-LossOfIntrinsicTW-ServiceProxy,domain#ServiceProxy,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfProxyUserTW-ClientChannel,domain#ClientChannel,domain#LossOfProxyUserTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfReliability-ServiceProxy,domain#ServiceProxy,domain#LossOfReliability,domain#ImpactLevelNegligible
+package#ProcessComms,domain#MADS-LossOfServiceTW-AuthChannel,domain#AuthChannel,domain#LossOfServiceTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfServiceTW-ClientChannel,domain#ClientChannel,domain#LossOfServiceTW,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfTimeliness-ServiceProxy,domain#ServiceProxy,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-LossOfUserTW-ServiceProxy,domain#ServiceProxy,domain#LossOfUserTW,domain#ImpactLevelNegligible

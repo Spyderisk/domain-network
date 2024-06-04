@@ -36,11 +36,12 @@ package#Network,domain#uses,domain#usesService
 package#Network,domain#usesForAuth,domain#usesService
 package#Network,domain#usesForAuthZ,domain#accessesService
 package#Network,domain#usesService,domain#accessesService
+package#Network,domain#usesViaDeputy,domain#usesIndirectly
 package#ProcessComms,domain#flowsViaCS,domain#flowsViaChannel
 package#ProcessComms,domain#flowsViaSC,domain#flowsViaChannel
 package#ProcessComms,domain#proxyAuthN,domain#noAuthN
 package#ProcessComms,domain#proxyAuthN,domain#sharesCredentials
 package#ProcessComms,domain#usesAsProxy,domain#viaProxy
-package#ProcessComms,domain#usesViaProxy,domain#usesIndirectly
+package#ProcessComms,domain#usesViaProxy,domain#usesViaDeputy
 package#ProcessComms,domain#usesViaProxy,domain#viaProxy
-package#ProcessComms,domain#viaSharedCredentials,domain#usesIndirectly
+package#ProcessComms,domain#viaSharedCredentials,domain#usesViaDeputy

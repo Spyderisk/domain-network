@@ -15,10 +15,8 @@ package#Application,domain#Timeliness,domain#Process
 package#DataLifecycle,domain#Authenticity,domain#DataAsset
 package#DataLifecycle,domain#Availability,domain#DataAsset
 package#DataLifecycle,domain#Confidentiality,domain#DataContainer
-package#DataLifecycle,domain#Decrypted,domain#DataCopy
-package#DataLifecycle,domain#Decrypted,domain#DataFlow
-package#DataLifecycle,domain#Encrypted,domain#DataCopy
-package#DataLifecycle,domain#Encrypted,domain#DataFlow
+package#DataLifecycle,domain#Decrypted,domain#DataAsset
+package#DataLifecycle,domain#Encrypted,domain#DataAsset
 package#DataLifecycle,domain#Health,domain#DataAsset
 package#DataLifecycle,domain#Integrity,domain#DataAsset
 package#DataLifecycle,domain#OutOfService,domain#DataAsset
@@ -81,7 +79,7 @@ package#ProcessComms,domain#ProxyUserTW,domain#ClientChannel
 package#ProcessComms,domain#ServiceAuthenticity,domain#AuthChannel
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#Interface
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#LogicalSegment
-package#ProcessComms,domain#ServiceTW,domain#ClientChannel
+package#ProcessComms,domain#ServiceTW,domain#AuthChannel
 package#Theft,domain#OwnerControl,domain#AccessContext
 package#Theft,domain#OwnerControl,domain#Host
 package#Theft,domain#OwnerControl,domain#Process

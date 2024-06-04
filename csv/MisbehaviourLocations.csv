@@ -20,10 +20,8 @@ package#DataLifecycle,domain#LossOfConfidentiality,domain#DataContainer
 package#DataLifecycle,domain#LossOfIntegrity,domain#DataAsset
 package#DataLifecycle,domain#LossOfTimeliness,domain#DataAsset
 package#DataLifecycle,domain#MalwareInfection,domain#DataAsset
-package#DataLifecycle,domain#NotDecrypted,domain#DataCopy
-package#DataLifecycle,domain#NotDecrypted,domain#DataFlow
-package#DataLifecycle,domain#NotEncrypted,domain#DataCopy
-package#DataLifecycle,domain#NotEncrypted,domain#DataFlow
+package#DataLifecycle,domain#NotDecrypted,domain#DataAsset
+package#DataLifecycle,domain#NotEncrypted,domain#DataAsset
 package#DataLifecycle,domain#Overloaded,domain#DataStep
 package#DataStructure,domain#LossOfAuthenticity,domain#DataField
 package#DataStructure,domain#LossOfAvailability,domain#DataField
@@ -84,12 +82,12 @@ package#ProcessComms,domain#ClientImpersonation,domain#AuthChannel
 package#ProcessComms,domain#CommsSnoopable,domain#ConnectionChannel
 package#ProcessComms,domain#DeputyConfusion,domain#ClientChannel
 package#ProcessComms,domain#InService,domain#ConnectionAsset
-package#ProcessComms,domain#LossOfAccessibility,domain#ClientChannel
+package#ProcessComms,domain#LossOfAccessibility,domain#AuthChannel
 package#ProcessComms,domain#LossOfAnonUserTW,domain#ClientChannel
 package#ProcessComms,domain#LossOfClientTW,domain#AuthChannel
 package#ProcessComms,domain#LossOfConnectivity,domain#ServiceChannel
 package#ProcessComms,domain#LossOfProxyUserTW,domain#ClientChannel
-package#ProcessComms,domain#LossOfServiceTW,domain#ClientChannel
+package#ProcessComms,domain#LossOfServiceTW,domain#AuthChannel
 package#ProcessComms,domain#ServiceChannelsAllowed,domain#Interface
 package#ProcessComms,domain#ServiceChannelsAllowed,domain#LogicalSegment
 package#ProcessComms,domain#ServiceImpersonation,domain#AuthChannel

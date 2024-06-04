@@ -61,6 +61,7 @@ package#DataLifecycleInference,domain#dataChannelEnd,domain#DataChannel
 package#DataLifecycleInference,domain#dataChannelFor,domain#DataChannel
 package#DataLifecycleInference,domain#dataChannelFrom,domain#DataChannel
 package#DataLifecycleInference,domain#dataChannelTo,domain#DataChannel
+package#DataLifecycleInference,domain#dataPathEnd,domain#Data
 package#DataLifecycleInference,domain#dataPathFor,domain#DataPath
 package#DataLifecycleInference,domain#dataPathTo,domain#DataPath
 package#DataLifecycleInference,domain#dataPathVisits,domain#DataPath
@@ -151,6 +152,7 @@ package#Network,domain#usesIndirectly,domain#Process
 package#Network,domain#usesRemotely,domain#RemoteAccessClient
 package#Network,domain#usesRemotely,domain#RemoteAccessService
 package#Network,domain#usesService,domain#Process
+package#Network,domain#usesViaDeputy,domain#Process
 package#NetworkConnectivity,domain#blockedPath,domain#LogicalPath
 package#NetworkConnectivity,domain#blockedSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#connectsFrom,domain#Interface
@@ -179,7 +181,9 @@ package#Privacy,domain#relatesTo,domain#DataAccess
 package#Privacy,domain#relatesTo,domain#DataAsset
 package#Privacy,domain#relatesTo,domain#Thing
 package#ProcessComms,domain#accessFromClient,domain#PContext
+package#ProcessComms,domain#accessInterrupted,domain#PContext
 package#ProcessComms,domain#accessToService,domain#AccessContext
+package#ProcessComms,domain#accessUninterrupted,domain#PContext
 package#ProcessComms,domain#attackPathFrom,domain#AttackPath
 package#ProcessComms,domain#attackPathVia,domain#AttackPath
 package#ProcessComms,domain#channelFrom,domain#ConnectionAsset

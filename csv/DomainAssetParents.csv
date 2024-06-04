@@ -76,9 +76,9 @@ package#CloudManagement,domain#Worker,domain#VCluster
 package#Core,domain#DebugMarker,core#Asset
 package#DataLifecycle,domain#DataAccess,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataAsset,domain#DataLifecycleAsset
-package#DataLifecycle,domain#DataCache,domain#DataCopy
-package#DataLifecycle,domain#DataCopy,domain#DataAsset
-package#DataLifecycle,domain#DataCopy,domain#DataContainer
+package#DataLifecycle,domain#DataCache,domain#DataAsset
+package#DataLifecycle,domain#DataCache,domain#DataContainer
+package#DataLifecycle,domain#DataCopy,domain#DataCache
 package#DataLifecycle,domain#DataFlow,domain#DataAsset
 package#DataLifecycle,domain#DataFlow,domain#DataContainer
 package#DataLifecycle,domain#DataInferenceAsset,core#Asset
