@@ -1580,6 +1580,8 @@ package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-ProxyClient-uses-
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-ProxyClient-viaSharedCredentials-Service,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-Service-sharesCredentials-Process,FALSE
 package#ProcessCommsInference,domain#MP-H-sDFcCaiAC,domain#Link-Host-stores-Data,TRUE
+package#ProcessCommsInference,domain#MP-H-sDFcCr-aAC,domain#Link-Host-stores-Data,TRUE
+package#ProcessCommsInference,domain#MP-H-sDFcCr-aAC,domain#Link-ProcAccess-accessFromClient-AuthChannel,FALSE
 package#ProcessCommsInference,domain#MP-H-sDFCFdS-ACau,domain#Link-Host-stores-Data,TRUE
 package#ProcessCommsInference,domain#MP-H-sDFCFdS-ACau,domain#Link-ProcAccess-accessFromClient-AuthChannel,FALSE
 package#ProcessCommsInference,domain#MP-H-sDFCFdS-ACau,domain#Link-ProcAccess-accessTo-Host,FALSE
@@ -1596,6 +1598,7 @@ package#ProcessCommsInference,domain#MP-H-sDFuCudDFdS-ACau,domain#Link-ProcAcces
 package#ProcessCommsInference,domain#MP-H-sDFuCudDFdS-ACau,domain#Link-ProcAccess-accessTo-Process,FALSE
 package#ProcessCommsInference,domain#MP-H-sDFuCudDFdS-ACau,domain#Link-ProcAccess-accessUninterrupted-ClientChannel,FALSE
 package#ProcessCommsInference,domain#MP-H-sDFuSdC,domain#Link-Host-stores-Data,TRUE
+package#ProcessCommsInference,domain#MP-IDFfCCCftS-s,domain#Link-Host-stores-Data,TRUE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-channelFrom-Client,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-channelTo-Service,FALSE
 package#ProcessCommsInference,domain#MP-NP1CCAPSC,domain#Link-LastChannel-viaSubnet-AttackerSubnet,FALSE

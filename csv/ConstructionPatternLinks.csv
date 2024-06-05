@@ -878,6 +878,11 @@ package#ProcessCommsInference,domain#CP-H-sDFcCaiAC+DS,domain#Link-DataCopy-fulf
 package#ProcessCommsInference,domain#CP-H-sDFcCaiAC+DS,domain#Link-DataFlow-fulfils-DataCopy
 package#ProcessCommsInference,domain#CP-H-sDFcCaiAC+DS,domain#Link-Host-storesCopy-DataCopy
 package#ProcessCommsInference,domain#CP-H-sDFcCaiAC+DS,domain#Link-Host-stores-Data
+package#ProcessCommsInference,domain#CP-H-sDFcCr-aAC+DS,domain#Link-DataCopy-copyOf-Data
+package#ProcessCommsInference,domain#CP-H-sDFcCr-aAC+DS,domain#Link-DataCopy-fulfils-DataFlow
+package#ProcessCommsInference,domain#CP-H-sDFcCr-aAC+DS,domain#Link-DataFlow-fulfils-DataCopy
+package#ProcessCommsInference,domain#CP-H-sDFcCr-aAC+DS,domain#Link-Host-storesCopy-DataCopy
+package#ProcessCommsInference,domain#CP-H-sDFcCr-aAC+DS,domain#Link-Host-stores-Data
 package#ProcessCommsInference,domain#CP-H-sDFCFdS-ACau+DS,domain#Link-DataCopy-copyOf-Data
 package#ProcessCommsInference,domain#CP-H-sDFCFdS-ACau+DS,domain#Link-DataCopy-fulfils-DataFlow
 package#ProcessCommsInference,domain#CP-H-sDFCFdS-ACau+DS,domain#Link-DataFlow-fulfils-DataCopy
@@ -909,6 +914,7 @@ package#ProcessCommsInference,domain#CP-H-sDFuSdC+DS,domain#Link-DataFlow-fulfil
 package#ProcessCommsInference,domain#CP-H-sDFuSdC+DS,domain#Link-Host-storesCopy-DataCopy
 package#ProcessCommsInference,domain#CP-H-sDFuSdC+DS,domain#Link-Host-stores-Data
 package#ProcessCommsInference,domain#CP-HuRACP+i,domain#Link-Human-interactsRemotelyWith-Process
+package#ProcessCommsInference,domain#CP-IDFfCCCftS-s+rI,domain#Link-Service-runsIn-ProcAccess
 package#ProcessCommsInference,domain#CP-NP1CCAPSC+pT,domain#Link-NetworkPath-pathTo-ServiceChannel
 package#ProcessCommsInference,domain#CP-NP2CCAPSC+pT,domain#Link-NetworkPath-pathTo-ServiceChannel
 package#ProcessCommsInference,domain#CP-PCaFCSCCC+aFC,domain#Link-ProcAccess-accessFromClient-ClientChannel

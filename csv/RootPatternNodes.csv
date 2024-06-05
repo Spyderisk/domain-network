@@ -3046,6 +3046,12 @@ package#ProcessCommsInference,domain#R-HDFcCaiAC,domain#Node-DataFlow-DataFlow,T
 package#ProcessCommsInference,domain#R-HDFcCaiAC,domain#Node-Host-Host,TRUE
 package#ProcessCommsInference,domain#R-HDFcCaiAC,domain#Node-ProcAccess-ProcessContext,TRUE
 package#ProcessCommsInference,domain#R-HDFcCaiAC,domain#Node-Process-Process,TRUE
+package#ProcessCommsInference,domain#R-HDFcCrAC,domain#Node-AuthChannel-AuthChannel,TRUE
+package#ProcessCommsInference,domain#R-HDFcCrAC,domain#Node-Data-Data,TRUE
+package#ProcessCommsInference,domain#R-HDFcCrAC,domain#Node-DataFlow-DataFlow,TRUE
+package#ProcessCommsInference,domain#R-HDFcCrAC,domain#Node-Host-Host,TRUE
+package#ProcessCommsInference,domain#R-HDFcCrAC,domain#Node-ProcAccess-ProcessContext,TRUE
+package#ProcessCommsInference,domain#R-HDFcCrAC,domain#Node-Process-Process,TRUE
 package#ProcessCommsInference,domain#R-HDFCFS,domain#Node-AuthChannel-AuthChannel,TRUE
 package#ProcessCommsInference,domain#R-HDFCFS,domain#Node-ClientChannel-AuthChannel,TRUE
 package#ProcessCommsInference,domain#R-HDFCFS,domain#Node-Data-Data,TRUE
@@ -3091,6 +3097,12 @@ package#ProcessCommsInference,domain#R-HDFuSC,domain#Node-Data-Data,TRUE
 package#ProcessCommsInference,domain#R-HDFuSC,domain#Node-DataFlow-DataFlow,TRUE
 package#ProcessCommsInference,domain#R-HDFuSC,domain#Node-Host-Host,TRUE
 package#ProcessCommsInference,domain#R-HDFuSC,domain#Node-Process-Process,TRUE
+package#ProcessCommsInference,domain#R-IDFfCCCftS,domain#Node-ClientChannel-AuthChannel,TRUE
+package#ProcessCommsInference,domain#R-IDFfCCCftS,domain#Node-Data-Data,TRUE
+package#ProcessCommsInference,domain#R-IDFfCCCftS,domain#Node-DataFlow-DataFlow,TRUE
+package#ProcessCommsInference,domain#R-IDFfCCCftS,domain#Node-Host-Host,TRUE
+package#ProcessCommsInference,domain#R-IDFfCCCftS,domain#Node-ProcAccess-ProcessContext,TRUE
+package#ProcessCommsInference,domain#R-IDFfCCCftS,domain#Node-Service-Process,TRUE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,domain#Node-AttackerSubnet-LogicalSubnet,TRUE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,domain#Node-CHost-Host,TRUE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,domain#Node-Client-Process,TRUE
