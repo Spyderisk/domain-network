@@ -762,6 +762,7 @@ package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-DeNATSegment,domain#Se
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-Interface,domain#ServiceChannelsBlocked,domain#Interface,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-NATSegment,domain#ServiceChannelsBlocked,domain#NATSegment,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-OpenSegment,domain#ServiceChannelsBlocked,domain#OpenSegment,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessComms,domain#TWAADS-ServiceTW-AuthChannel,domain#ServiceTW,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-ServiceTW-ClientChannel,domain#ServiceTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-Timeliness-ServiceProxy,domain#Timeliness,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-TrojanTW-ServiceProxy,domain#TrojanTW,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE

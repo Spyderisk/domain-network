@@ -1544,7 +1544,7 @@ package#ProcessComms,domain#MP-SPNaS,domain#Link-ProcAccess-accessTo-SHost,FALSE
 package#ProcessComms,domain#MP-SPNaS,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessComms,domain#MP-SPuS,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-CaS-SP,domain#Link-Client-isLnS-Client,TRUE
-package#ProcessCommsInference,domain#MP-CaS-SP,domain#Link-Client-usesIndirectly-Service,TRUE
+package#ProcessCommsInference,domain#MP-CaS-SP,domain#Link-Client-usesViaDeputy-Service,TRUE
 package#ProcessCommsInference,domain#MP-CaS-SP,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-CCCfS+aFC-aI,domain#Link-ProcAccess-accessInterrupted-ClientChannel,TRUE
 package#ProcessCommsInference,domain#MP-CCCfS-aFC,domain#Link-ProcAccess-accessFromClient-ClientChannel,TRUE
@@ -1570,7 +1570,9 @@ package#ProcessCommsInference,domain#MP-CS-SP,domain#Link-Service-noDX-Service,T
 package#ProcessCommsInference,domain#MP-CucSaP,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-CucSaP,domain#Link-Service-usesService-Process,TRUE
 package#ProcessCommsInference,domain#MP-CuPiS-i,domain#Link-Client-usesIndirectly-Service,TRUE
+package#ProcessCommsInference,domain#MP-CuPiS-i,domain#Link-Client-uses-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuPuS-i,domain#Link-Client-usesIndirectly-Service,TRUE
+package#ProcessCommsInference,domain#MP-CuPuS-i,domain#Link-Client-uses-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuScS,domain#Link-Client-usesViaRAS-Service,TRUE
 package#ProcessCommsInference,domain#MP-CuSPvS-U,domain#Link-Client-usesViaProxy-Service,TRUE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Link-Client-viaSharedCredentials-Process,FALSE

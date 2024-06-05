@@ -152,6 +152,7 @@ package#Network,domain#usesIndirectly,domain#Process
 package#Network,domain#usesRemotely,domain#RemoteAccessClient
 package#Network,domain#usesRemotely,domain#RemoteAccessService
 package#Network,domain#usesService,domain#Process
+package#Network,domain#usesViaDeputy,domain#Process
 package#NetworkConnectivity,domain#blockedPath,domain#LogicalPath
 package#NetworkConnectivity,domain#blockedSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#connectsFrom,domain#Interface
