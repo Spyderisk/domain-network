@@ -1886,6 +1886,11 @@ package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-LogicalRoute-via
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-OldPath-end-LogicalSubnet
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-OldPath-start-ToSubnet
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-PPE-pEndsAt-LogicalSubnet
+package#PatientHarms,domain#R-HuiSAeuoDht,domain#Link-Data-definesTreatmentFor-Human
+package#PatientHarms,domain#R-HuiSAeuoDht,domain#Link-Human-interactsWith-InteractiveProcess
+package#PatientHarms,domain#R-HuiSAeuoDht,domain#Link-Human-interactsWith-SmartPhone
+package#PatientHarms,domain#R-HuiSAeuoDht,domain#Link-InteractiveProcess-enablesUserOutput-Data
+package#PatientHarms,domain#R-HuiSAeuoDht,domain#Link-SmartPhone-hosts-InteractiveProcess
 package#Physical,domain#R-HuaSaE,domain#Link-Human-canAccess-Space
 package#Physical,domain#R-HuaSaE,domain#Link-Space-accessibleVia-Entrance
 package#Physical,domain#R-HuPS,domain#Link-Human-canAccess-Space

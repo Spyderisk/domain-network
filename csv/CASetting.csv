@@ -1565,6 +1565,8 @@ package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,
 package#NetworkConnectivity,domain#CAS-FWBlock-Interface,domain#Interface,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-NATSegment,domain#NATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-OpenSegment,domain#OpenSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#PatientHarms,domain#CAS-RealTimeDataUnneeded-HealthData,domain#HealthData,domain#RealTimeDataUnneeded,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#PatientHarms,domain#CAS-WaitForUptoDateData-HealthData,domain#HealthData,domain#WaitForUptoDateData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Physical,domain#CAS-BiometricLock-PrivateSpace,domain#PrivateSpace,domain#BiometricLock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Physical,domain#CAS-ChipAndPINLock-PrivateSpace,domain#PrivateSpace,domain#ChipAndPINLock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Physical,domain#CAS-ContinuousOccupation-PrivateSpace,domain#PrivateSpace,domain#ContinuousOccupation,TRUE,domain#TrustworthinessLevelSafe,TRUE

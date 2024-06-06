@@ -141,6 +141,7 @@ package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#I.IS.INC.
 package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#I.IS.INC.2
 package#NetworkConnectivity,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.A.L3SSg2.6.1
 package#NetworkConnectivity,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.L3SSg2AC.1
+package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Hu.Ph-Td.HuiSAeuoDht.0
 package#Physical,domain#CSG-BiometricAccessControlAtSpace,domain#P.A.HuiHPSP.6
 package#Physical,domain#CSG-ChipAndPinAccessControlAtSpace,domain#P.A.HuiHPSP.6
 package#Physical,domain#CSG-InconsistentPhysicalControlsAtWorld,domain#W.E.WmPH.9

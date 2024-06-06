@@ -126,6 +126,8 @@ package#NetworkConnectivity,domain#DisableServiceAccess,domain#Interface
 package#NetworkConnectivity,domain#DisableServiceAccess,domain#LogicalSegment
 package#NetworkConnectivity,domain#FWBlock,domain#Interface
 package#NetworkConnectivity,domain#FWBlock,domain#LogicalSegment
+package#PatientHarms,domain#RealTimeDataUnneeded,domain#HealthData
+package#PatientHarms,domain#WaitForUptoDateData,domain#HealthData
 package#Physical,domain#BiometricLock,domain#PrivateSpace
 package#Physical,domain#ChipAndPINLock,domain#PrivateSpace
 package#Physical,domain#ContinuousOccupation,domain#PrivateSpace

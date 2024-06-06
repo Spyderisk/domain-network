@@ -417,6 +417,8 @@ package#NetworkConnectivity,domain#CSG-SecureHostConfig,domain#H.L.IoH.3
 package#NetworkConnectivity,domain#CSG-SecureHostConfig,domain#H.L.NoH.3
 package#NetworkConnectivity,domain#CSG-SecureHostConfig,domain#H.M.IoH.3
 package#NetworkConnectivity,domain#CSG-SecureHostConfig,domain#H.M.NoH.3
+package#PatientHarms,domain#CSG-RealTimeDataUnneeded,domain#Dh.Ph-I.HuiSAeuoDht.0
+package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Dh.Ph-I.HuiSAeuoDht.0
 package#Physical,domain#CSG-BiometricAccessControlAtSpace,domain#S.L.PSS.3
 package#Physical,domain#CSG-ChipAndPinAccessControlAtSpace,domain#S.L.PSS.3
 package#Physical,domain#CSG-ContinuouslyOccupiedSpace,domain#S.L.PSS.3

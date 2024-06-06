@@ -17,6 +17,7 @@ package#Network,Network,"Model of hosts connected to networks, plus control proc
 package#NetworkConnectivity,NetworkConnectivity,Model of network routing and network paths.,50,NetworkConnectivity
 package#NetworkConnectivityInference,NetworkConnectivityInference,Network routes and routing inference rules and state.,60,NetworkConnectivityInference
 package#NetworkInference,NetworkInference,"Host, network and control inference rules and state.",50,NetworkInference
+package#PatientHarms,PatientHarms,Model of patient harms.,100,PatientHarms
 package#Physical,Physical,Physical spaces and physical accessibility.,20,Physical
 package#Privacy,Privacy,Model of personal data including specific types of personal data.,90,Privacy
 package#ProcessComms,ProcessComms,Model of process-process communications.,90,ProcessComms

@@ -37,6 +37,7 @@ package#Network,domain#usesForAuth,domain#usesService
 package#Network,domain#usesForAuthZ,domain#accessesService
 package#Network,domain#usesService,domain#accessesService
 package#Network,domain#usesViaDeputy,domain#usesIndirectly
+package#PatientHarms,domain#definesTreatmentFor,domain#relatesTo
 package#ProcessComms,domain#flowsViaCS,domain#flowsViaChannel
 package#ProcessComms,domain#flowsViaSC,domain#flowsViaChannel
 package#ProcessComms,domain#proxyAuthN,domain#noAuthN

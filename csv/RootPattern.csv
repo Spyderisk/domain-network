@@ -484,6 +484,7 @@ package#NetworkConnectivityInference,domain#R-OPLS1,OPLS1,"Finds a zero-length L
 package#NetworkConnectivityInference,domain#R-OPLS2,OPLS2,"Finds a Network Path and terminator to a Logical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
 package#NetworkConnectivityInference,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
+package#PatientHarms,domain#R-HuiSAeuoDht,HuiSAeuoDht,"Finds a Human interacting with a Smartphone App that enables user output of Health Data, which is the treatment plan that the Human uses to form their self-care actions.",FALSE,FALSE
 package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
 package#Physical,domain#R-HuPS,HuPS,Finds a Human with access to a Private Space.,FALSE,FALSE
 package#Physical,domain#R-HuPSSt,HuPSSt,"Finds a Human with access to a Private Space, and their employer.",FALSE,FALSE
