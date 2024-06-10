@@ -2,13 +2,15 @@
 
 ## Introduction
 
-This is a SPYDERISK domain model describing IT networks, their users and physical environment. It can be deployed to a SPYDERISK system-modeller service, allowing the service to be used to create and analyse models of IT systems and applications as socio-cyber-physical systems.
+This is a Spyderisk domain model describing IT networks, their users and physical environment. It can be deployed to a [Spyderisk system-modeller](https://github.com/Spyderisk/system-modeller) service, allowing the service to be used to create and analyse models of IT systems and applications as socio-cyber-physical systems.
+
+The source files for the most complete version of this domain model can be found in the [6a branch](https://github.com/Spyderisk/domain-network/tree/6a) and pre-built [packages for installation](https://github.com/Spyderisk/domain-network/packages/1826148) containing the RDF in NQ format along with icon sets are available.
 
 This README explains considerations, compatibility issues and their implications for version management and repository structure.
 
 ## Considerations
 
-A SPYDERISK domain model is a knowledge base, in which several different considerations must be balanced against each other:
+A Spyderisk domain model is a knowledge base, in which several different considerations must be balanced against each other:
 
 - approach: how are IT networks represented in detail (given basic invariants like users, locations, devices and networks)?
 - coverage: what features and variations are supported?
