@@ -69,6 +69,8 @@ package#Network,domain#Overloaded,domain#Process
 package#Network,domain#TotalLoad,domain#DataCentre
 package#Network,domain#TrojanInsertion,domain#Host
 package#Network,domain#TrojanInsertion,domain#Process
+package#Network,domain#VulnerabilityDiscovered,domain#Host
+package#Network,domain#VulnerabilityDiscovered,domain#Process
 package#NetworkConnectivity,domain#BandwidthUnmanaged,domain#Interface
 package#NetworkConnectivity,domain#CommsSnoopable,domain#AbstractSubnet
 package#NetworkConnectivity,domain#ConnectionsAllowed,domain#Interface
