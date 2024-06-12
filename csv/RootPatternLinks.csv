@@ -1385,7 +1385,6 @@ package#Network,domain#R-CS,domain#Link-Client-uses-Service
 package#Network,domain#R-CScP,domain#Link-Client-accessesService-Service
 package#Network,domain#R-CScP,domain#Link-Process-controls-Service
 package#Network,domain#R-CuP,domain#Link-Client-usesService-Process
-package#Network,domain#R-CuS,domain#Link-Client-usesService-Service
 package#Network,domain#R-CuScS,domain#Link-Client-usesService-Service
 package#Network,domain#R-CuScS,domain#Link-Service-controls-Client
 package#Network,domain#R-CuSHS,domain#Link-Client-accessesService-Service
@@ -2929,10 +2928,6 @@ package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Link-ClientChannel-chan
 package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Link-ProcAccess-accessFromClient-ClientChannel
 package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Link-ProcAccess-accessTo-Client
 package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Link-ToContext-accessTo-Service
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Link-ClientChannel-channelFrom-Client
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Link-ClientChannel-channelTo-Service
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Link-ToContext-accessTo-Service
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Link-ToContext-accessToService-ClientChannel
 package#ProcessCommsInference,domain#R-CSCCAPNP4,domain#Link-BasePath-extends-SubPath
 package#ProcessCommsInference,domain#R-CSCCAPNP4,domain#Link-NetworkPath-end-EntrySubnet
 package#ProcessCommsInference,domain#R-CSCCAPNP4,domain#Link-NetworkPath-pathTo-ServiceChannel
@@ -3078,8 +3073,6 @@ package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-OldPath-start-FromS
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-ServiceChannel-channelFrom-Client
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-ServiceChannel-channelTo-Service
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Link-ServiceChannel-sourceViaNAT-EntrySubnet
-package#ProcessCommsInference,domain#R-POP,domain#Link-DataOutput-usedBy-Process
-package#ProcessCommsInference,domain#R-POP,domain#Link-DataOutput-usedFor-Data
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Link-LogicalSegment-from-FromSubnet
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Link-LogicalSegment-to-OutboundIF
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Link-LogicalSegment-to-ToSubnet

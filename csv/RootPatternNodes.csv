@@ -1368,8 +1368,6 @@ package#Network,domain#R-CScP,domain#Node-Process-Process,TRUE
 package#Network,domain#R-CScP,domain#Node-Service-Process,TRUE
 package#Network,domain#R-CuP,domain#Node-Client-Process,TRUE
 package#Network,domain#R-CuP,domain#Node-Process-Process,TRUE
-package#Network,domain#R-CuS,domain#Node-Client-Process,TRUE
-package#Network,domain#R-CuS,domain#Node-Service-Process,TRUE
 package#Network,domain#R-CuScS,domain#Node-Client-Process,TRUE
 package#Network,domain#R-CuScS,domain#Node-Service-Process,TRUE
 package#Network,domain#R-CuSHS,domain#Node-Client-Process,TRUE
@@ -2990,10 +2988,6 @@ package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Node-Client-Process,TRU
 package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Node-ProcAccess-ProcessContext,TRUE
 package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Node-Service-Process,TRUE
 package#ProcessCommsInference,domain#R-CCCftS+aFC,domain#Node-ToContext-ProcessContext,TRUE
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Node-ClientChannel-AuthChannel,TRUE
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Node-Client-Process,TRUE
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Node-Service-Process,TRUE
-package#ProcessCommsInference,domain#R-CCCtS+aTS,domain#Node-ToContext-ProcessContext,TRUE
 package#ProcessCommsInference,domain#R-CSCCAPNP4,domain#Node-AttackerSubnet-LogicalSubnet,TRUE
 package#ProcessCommsInference,domain#R-CSCCAPNP4,domain#Node-BasePath-NetworkPath,TRUE
 package#ProcessCommsInference,domain#R-CSCCAPNP4,domain#Node-Client-Process,TRUE
@@ -3124,9 +3118,6 @@ package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-NetworkPath-Network
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-OldPath-NetworkPath,TRUE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-ServiceChannel-ServiceChannel,TRUE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,domain#Node-Service-Process,TRUE
-package#ProcessCommsInference,domain#R-POP,domain#Node-Data-Data,TRUE
-package#ProcessCommsInference,domain#R-POP,domain#Node-DataOutput-OutputPool,TRUE
-package#ProcessCommsInference,domain#R-POP,domain#Node-Process-Process,TRUE
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Node-FromSubnet-LogicalSubnet,TRUE
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Node-LogicalSegment-NATSegment,TRUE
 package#ProcessCommsInference,domain#R-SCLSgfTS,domain#Node-OutboundIF-Interface,TRUE

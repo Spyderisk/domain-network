@@ -27,6 +27,11 @@ package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Link-Human2-viewsData-D
 package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Link-Process-enablesUserInput-Data,TRUE
 package#Application,domain#MP-HuirPeI-OD-p,domain#Link-Process-enablesUserOutput-Data,TRUE
 package#Application,domain#MP-HuirPeI-OD-p,domain#Link-Process-processes-Data,TRUE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Link-Client-creates-Data,FALSE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Link-Host-stores-Data,FALSE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Link-Human2-inputsData-Data,FALSE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Link-Process-enablesUserInput-Data,TRUE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Link-Process-processes-Data,TRUE
 package#Application,domain#MP-HuirPeO-ID-p,domain#Link-Process-enablesUserInput-Data,TRUE
 package#Application,domain#MP-HuirPeO-ID-p,domain#Link-Process-processes-Data,TRUE
 package#Application,domain#MP-HuirPeUD-a,domain#Link-Process-amends-Data,TRUE

@@ -18,7 +18,6 @@ package#Application,domain#interactsWithData,domain#Data
 package#Application,domain#isSpam,domain#Data
 package#Application,domain#noDU,domain#Process
 package#Application,domain#processes,domain#Data
-package#Application,domain#processesRemotely,domain#Data
 package#Application,domain#reads,domain#Data
 package#Application,domain#receives,domain#Data
 package#Application,domain#relays,domain#Data
@@ -57,7 +56,6 @@ package#DataLifecycle,domain#usedBy,domain#Process
 package#DataLifecycle,domain#usedFor,domain#Data
 package#DataLifecycleInference,domain#atHost,domain#Host
 package#DataLifecycleInference,domain#channelTried,domain#DataChannel
-package#DataLifecycleInference,domain#connectedIn,domain#AccessContext
 package#DataLifecycleInference,domain#connectsData,domain#Process
 package#DataLifecycleInference,domain#dataChannelEnd,domain#DataAccess
 package#DataLifecycleInference,domain#dataChannelFor,domain#DataAccess

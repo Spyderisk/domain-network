@@ -9,6 +9,9 @@ package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Node-Human2-Human,FALSE
 package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Node-Client-Process,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,domain#Node-Human2-Human,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Node-Client-Process,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Node-Host-Host,FALSE,TRUE,FALSE
+package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,domain#Node-Human2-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPr-iD-cD,domain#Node-Output-Data,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Client-Process,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirPr-vD-cC-iHu-DS,domain#Node-Host-Host,FALSE,TRUE,FALSE

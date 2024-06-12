@@ -18,7 +18,6 @@ package#Application,domain#interactsWithData,interactsWithData,"Relationship bet
 package#Application,domain#isSpam,isSpam,"Self-referential relationship used to designate data flows that contain unsolicited messages sent to users, so they can be included or excluded in matching patterns on base classes as appropriate.",TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
 package#Application,domain#noDU,noDU,"Self-referential relationship used to designate Process assets that are not involved in application data processing, so they can be included or excluded in matching patterns as appropriate. Note that these processes can still be involved in data exchanges.",TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
 package#Application,domain#processes,processes,The base type for relationships signifying that the Process in some way makes use of the Data.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-package#Application,domain#processesRemotely,processesRemotely,"A relationship between an interactive client and data, indicating that the data is processed by a process accessed remotely via the host shell using the interactive client.",TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
 package#Application,domain#reads,reads,"The Process uses the Data values without altering them, and is blocked if it cannot access the Data.",FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
 package#Application,domain#receives,receives,"The Process uses the Data values without altering them, and is not blocked if it cannot access the Data.",FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
 package#Application,domain#relays,relays,Link from a process to a data asset indicating that the process acts as a transparent relay for this data.,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
@@ -55,7 +54,6 @@ package#DataLifecycle,domain#usedBy,usedBy,The DataUse represents a use of some 
 package#DataLifecycle,domain#usedFor,usedFor,The DataUse represents a use of the Data by some Process.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycleInference,domain#atHost,atHost,"Link from a DataPool representing data loaded by a data source or service, and the process host.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#channelTried,channelTried,Self-referential relationship marking a data channel as having already been visited by an iterative construction pattern.,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE
-package#DataLifecycleInference,domain#connectedIn,connectedIn,Relates a data exchange connection to an access context where it can operate.,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#connectsData,connectsData,The DataConnection represents an exchange of data to or from the related Process.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#dataChannelEnd,dataChannelEnd,"Link from a DataChannel to a DataAccess asset, indicating the process associated with the DataAsset is the end of the Channel.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycleInference,domain#dataChannelFor,dataChannelFor,The DataPath represents a chain of process-process communications enabling the use of data represented by the DataUse asset.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
