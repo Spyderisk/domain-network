@@ -4,6 +4,9 @@ package#AccessContext,domain#accessFrom,domain#AccessContext
 package#Application,domain#amends,domain#Process
 package#Application,domain#amendsData,domain#Human
 package#Application,domain#appends,domain#Process
+package#Application,domain#assertedAmendsData,domain#Human
+package#Application,domain#assertedInputsData,domain#Human
+package#Application,domain#assertedViewsData,domain#Human
 package#Application,domain#creates,domain#Process
 package#Application,domain#enablesUserAccess,domain#Process
 package#Application,domain#enablesUserInput,domain#Process

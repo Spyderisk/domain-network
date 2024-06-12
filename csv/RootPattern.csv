@@ -23,14 +23,14 @@ package#Application,domain#R-HIP,HIP,Finds a solo interactive process and its ho
 package#Application,domain#R-HPrD,HPrD,Finds a Process relaying Data and the process host.,FALSE,FALSE
 package#Application,domain#R-HPsD,HPsD,Finds a Process serving Data and the process host.,FALSE,FALSE
 package#Application,domain#R-HuaD,HuaD,Finds a Human interactively amending Data.,FALSE,TRUE
-package#Application,domain#R-HuaDirPaD,HuaDirPaD,"Find a Human interacting (possibly remotely) with a Process that amends Data, where the Human amends that Data.",FALSE,TRUE
 package#Application,domain#R-HuaDPH,HuaDPH,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
 package#Application,domain#R-HuaDRAC,HuaDRAC,Finds a Human interacting with Data remotely via a Remote Access Client.,FALSE,FALSE
+package#Application,domain#R-HuaID,HuaID,"Finds a Human interactively entering Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
+package#Application,domain#R-HuaUD,HuaUD,"Finds a Human interactively amending Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
+package#Application,domain#R-HuaVD,HuaVD,"Finds a Human interactively viewing Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
 package#Application,domain#R-HuHWES,HuHWES,Finds a Human using a web browser running on a host to access email.,FALSE,FALSE
 package#Application,domain#R-HuiCHDtS,HuiCHDtS,Finds a human interacting with a console host and a desktop service running on a possibly remote host.,FALSE,FALSE
 package#Application,domain#R-HuiD,HuiD,Finds a Human entering Data.,FALSE,FALSE
-package#Application,domain#R-HuiDirIPpD,HuiDirIPpD,"Find a Human interacting (possibly remotely) with an Interactive Process that processes Data, where the Human enters that Data.",FALSE,FALSE
-package#Application,domain#R-HuiDirPpD,HuiDirPpD,"Find a Human interacting (possibly remotely) with a Process that processes Data, where the Human enters that Data.",FALSE,FALSE
 package#Application,domain#R-HuiDPH,HuiDPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
 package#Application,domain#R-HuiPiDCHS,HuiPiDCHS,Finds a user interacting directly with a process to enter data using a console host located in a space.,FALSE,FALSE
 package#Application,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data via remote interaction with a process using a remote access client on a console host located in a space.,FALSE,FALSE
@@ -40,12 +40,13 @@ package#Application,domain#R-HuirIPaD,HuirIPaD,Finds Human interacting (possibly
 package#Application,domain#R-HuirIPpD,HuirIPpD,Finds Human interacting (possibly remotely) with an Interactive Process that processes data.,FALSE,FALSE
 package#Application,domain#R-HuirPaD+eUI,HuirPaD+eUI,"Finds Human interacting (possibly remotely) with a process that amends (creates and receives) data, and enables user input of the data.",FALSE,TRUE
 package#Application,domain#R-HuirPcD,HuirPcD,Finds Human interacting (possibly remotely) with a process that creates data.,FALSE,FALSE
+package#Application,domain#R-HuirPeID,HuirPeID,Finds a human interacting (possibly remotely) with a process that enables user entry of some Data.,FALSE,FALSE
+package#Application,domain#R-HuirPeOD,HuirPeOD,Finds a human interacting (possibly remotely) with a process that enables user access to some Data.,FALSE,FALSE
+package#Application,domain#R-HuirPeUD,HuirPeUD,Finds a human interacting (possibly remotely) with a process that enables user update of some Data.,FALSE,TRUE
 package#Application,domain#R-HuirPrD,HuirPrD,Finds Human interacting (possibly remotely) with a process that receives data.,FALSE,FALSE
 package#Application,domain#R-HuirPsD,HuirPsD,Finds Human interacting (possibly remotely) with a process that serves data. This conflicts with domain model assumptions.,FALSE,FALSE
-package#Application,domain#R-HuRACuPD,HuRACuPD,Finds Human interacting remotely via a remote access client with a process that processes data.,FALSE,FALSE
+package#Application,domain#R-HuuD,HuuD,"Finds a Human interactively amending Data, where this is expressed as a single relationship.",FALSE,FALSE
 package#Application,domain#R-HuvD,HuvD,Finds a Human viewing Data.,FALSE,FALSE
-package#Application,domain#R-HuvDirPcD,HuvDirPcD,"Finds a Human interacting (possibly remotely) with a Process that creates Data, where the Human views that Data.",FALSE,FALSE
-package#Application,domain#R-HuvDirPrD,HuvDirPrD,"Finds a Human interacting (possibly remotely) with a Process that receives Data, where the Human views that Data.",FALSE,FALSE
 package#Application,domain#R-HuWES,HuWES,Finds a Human using a web browser to access email.,FALSE,FALSE
 package#Application,domain#R-PaD,PaD,"Finds a Process that is amending data, using separate creates and receives links in case they were added separately.",FALSE,TRUE
 package#Application,domain#R-PaDH,PaDH,Finds a Host running a Process that is amending data.,FALSE,TRUE
@@ -407,6 +408,7 @@ package#Network,domain#R-PS,PS,Finds a solo Physical Subnet.,FALSE,FALSE
 package#Network,domain#R-RAC,RAC,Finds a remote access client.,FALSE,FALSE
 package#Network,domain#R-RACuHRASP,RACuHRASP,"Finds a host running a process and a remote access service that uses the process, and is used by a remote access client.",FALSE,FALSE
 package#Network,domain#R-RACuP,RACuP,Finds a Remote Access Client using a Process.,FALSE,FALSE
+package#Network,domain#R-RACuRHRASP,RACuRHRASP,"Finds a host running a process and a remote access service that uses the process, where both are used remotely by a remote access client.",FALSE,FALSE
 package#Network,domain#R-RAS,RAS,Finds a remote access service.,FALSE,FALSE
 package#Network,domain#R-Rr,Rr,Finds a solo Router.,FALSE,FALSE
 package#Network,domain#R-RSS,RSS,"Finds a Radio Subnet accessible from a Space, and the (abstract) hotspot or cellular network it implements locally.",FALSE,FALSE

@@ -4,6 +4,9 @@ package#AccessContext,domain#accessFrom,domain#Space
 package#Application,domain#amends,domain#Data
 package#Application,domain#amendsData,domain#Data
 package#Application,domain#appends,domain#Data
+package#Application,domain#assertedAmendsData,domain#Data
+package#Application,domain#assertedInputsData,domain#Data
+package#Application,domain#assertedViewsData,domain#Data
 package#Application,domain#creates,domain#Data
 package#Application,domain#enablesUserAccess,domain#Data
 package#Application,domain#enablesUserInput,domain#Data
