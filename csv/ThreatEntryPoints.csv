@@ -258,10 +258,10 @@ package#NetworkConnectivity,domain#Sg.DA.L3SSg2AC-b.1,domain#TWAS-OutOfService-T
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2-b.8,domain#TWAS-OutOfService-FwdSegment
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-InboundIF
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-OutboundIF
-package#PatientHarms,domain#Dh.Ph-I.HuiSAeuoDht.0,domain#TWAS-Timeliness-Data
-package#PatientHarms,domain#Hu.Ph-Ta.HuiSAeuoDht.0,domain#TWAS-Availability-Data
-package#PatientHarms,domain#Hu.Ph-Td.HuiSAeuoDht.0,domain#TWAS-Timeliness-Data
-package#PatientHarms,domain#Hu.Ph-Ti.HuiSAeuoDht.0,domain#TWAS-Integrity-Data
+package#PatientHarms,domain#Dh.Ph-I.HuirAieuoDht.0,domain#TWAS-Timeliness-Data
+package#PatientHarms,domain#Hu.Ph-Ta.HuirAieuoDht.0,domain#TWAS-Availability-Data
+package#PatientHarms,domain#Hu.Ph-Td.HuirAieuoDht.0,domain#TWAS-Timeliness-Data
+package#PatientHarms,domain#Hu.Ph-Ti.HuirAieuoDht.0,domain#TWAS-Integrity-Data
 package#Physical,domain#S.L.HuPSoSt.1,domain#TWAS-Benevolence-Human
 package#Physical,domain#S.L.HuPSSt.1,domain#TWAS-Astuteness-Human
 package#Physical,domain#S.L.HuPSSt.1,domain#TWAS-Benevolence-Employer
