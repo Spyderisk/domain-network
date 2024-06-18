@@ -158,6 +158,8 @@ package#NetworkConnectivityInference,domain#pVia,pVia,The path terminating at th
 package#NetworkInference,domain#runsIn,runsIn,Link from a process to an context where it needs to execute.,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
 package#NetworkInference,domain#usesViaRAS,usesViaRAS,Inferred link between a client and a service that encodes the fact that the client access the service via a login or remote desktop shell on the service host.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#PatientHarms,domain#definesTreatmentFor,definesTreatmentFor,"Data that defines the treatment plan from which the treatment actions are taken, either by the Clinician through a treats relationship to the patient or by the Patient themselves.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#diagnoses,diagnoses,Indicates an Adult (Clinician) diagnosing a Human (Patient).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#diagnosisFor,diagnosisFor,"Data that defines the diagnosis of a Patient, through a Clinician diagnoses Patient relationship.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#PatientHarms,domain#treats,treats,Indicates an Adult (Clinician) treating a Human (Patient).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#Physical,domain#accessibleVia,accessibleVia,The first Space is inside or adjacent to and can be entered from the second Space.,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
 package#Physical,domain#canAccess,canAccess,The Human (acting in a specific system role) needs and has the right to enter the Space.,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE

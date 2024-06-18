@@ -171,6 +171,8 @@ package#NetworkConnectivity,domain#Role_ToSubnet,domain#LogicalSubnet
 package#NetworkConnectivity,domain#Role_ToSubnet,domain#TypeOverlaySubnet
 package#NetworkConnectivityInference,domain#Role_NPE,domain#NPE
 package#NetworkConnectivityInference,domain#Role_PPE,domain#PPE
+package#PatientHarms,domain#Role_Clinician,domain#Adult
+package#PatientHarms,domain#Role_Patient,domain#Human
 package#Physical,domain#Role_Entrance,domain#Space
 package#Physical,domain#Role_LocalSpace,domain#Space
 package#Physical,domain#Role_OtherSpace,domain#Space

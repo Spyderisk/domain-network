@@ -1886,6 +1886,12 @@ package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-LogicalRoute-via
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-OldPath-end-LogicalSubnet
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-OldPath-start-ToSubnet
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-PPE-pEndsAt-LogicalSubnet
+package#PatientHarms,domain#R-HucdHupiDhd,domain#Link-Clinician-diagnoses-Patient
+package#PatientHarms,domain#R-HucdHupiDhd,domain#Link-Clinician-interactsWithData-Data
+package#PatientHarms,domain#R-HucdHupiDhd,domain#Link-Data-diagnosisFor-Patient
+package#PatientHarms,domain#R-HuctHupiDht,domain#Link-Clinician-interactsWithData-Data
+package#PatientHarms,domain#R-HuctHupiDht,domain#Link-Clinician-treats-Patient
+package#PatientHarms,domain#R-HuctHupiDht,domain#Link-Data-definesTreatmentFor-Patient
 package#PatientHarms,domain#R-HuirAieuoDht,domain#Link-Data-definesTreatmentFor-Human
 package#PatientHarms,domain#R-HuirAieuoDht,domain#Link-Human-interactsRemotelyWith-InteractiveProcess
 package#PatientHarms,domain#R-HuirAieuoDht,domain#Link-InteractiveProcess-enablesUserOutput-Data

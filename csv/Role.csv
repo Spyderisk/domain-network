@@ -146,6 +146,8 @@ package#NetworkConnectivity,domain#Role_ToHost,ToHost,A host that is (or hosts) 
 package#NetworkConnectivity,domain#Role_ToSubnet,ToSubnet,A subnet at the end of a network path or communication channel.
 package#NetworkConnectivityInference,domain#Role_NPE,NPE,"A logical network path terminator, whose relationships hold network connectivity construction state."
 package#NetworkConnectivityInference,domain#Role_PPE,PPE,"A physical network path terminator, whose relationships hold network connectivity construction state."
+package#PatientHarms,domain#Role_Clinician,Clinician,An Adult who is a Clinician.
+package#PatientHarms,domain#Role_Patient,Patient,A Human who is a Patient.
 package#Physical,domain#Role_Entrance,Entrance,A space from which another space can be entered.
 package#Physical,domain#Role_LocalSpace,LocalSpace,A nearby space.
 package#Physical,domain#Role_OtherSpace,OtherSpace,A second or subsequent space in a pattern.

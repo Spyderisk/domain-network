@@ -184,6 +184,8 @@ package#NetworkConnectivityInference,domain#pVia,domain#LogicalSubnet
 package#NetworkInference,domain#runsIn,domain#AccessContext
 package#NetworkInference,domain#usesViaRAS,domain#Process
 package#PatientHarms,domain#definesTreatmentFor,domain#Human
+package#PatientHarms,domain#diagnoses,domain#Human
+package#PatientHarms,domain#diagnosisFor,domain#Human
 package#PatientHarms,domain#treats,domain#Human
 package#Physical,domain#accessibleVia,domain#Space
 package#Physical,domain#canAccess,domain#Space

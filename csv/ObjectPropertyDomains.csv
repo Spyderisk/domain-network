@@ -173,6 +173,8 @@ package#NetworkConnectivityInference,domain#pVia,domain#PPE
 package#NetworkInference,domain#runsIn,domain#Process
 package#NetworkInference,domain#usesViaRAS,domain#Process
 package#PatientHarms,domain#definesTreatmentFor,domain#HealthData
+package#PatientHarms,domain#diagnoses,domain#Adult
+package#PatientHarms,domain#diagnosisFor,domain#HealthData
 package#PatientHarms,domain#treats,domain#Adult
 package#Physical,domain#accessibleVia,domain#Space
 package#Physical,domain#canAccess,domain#Human

@@ -1947,6 +1947,12 @@ package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-LogicalSubnet-Lo
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-OldPath-PhysicalPath,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-PPE-PPE,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-ToSubnet-LogicalSubnet,TRUE
+package#PatientHarms,domain#R-HucdHupiDhd,domain#Node-Clinician-Adult,TRUE
+package#PatientHarms,domain#R-HucdHupiDhd,domain#Node-Data-HealthData,TRUE
+package#PatientHarms,domain#R-HucdHupiDhd,domain#Node-Patient-Human,TRUE
+package#PatientHarms,domain#R-HuctHupiDht,domain#Node-Clinician-Adult,TRUE
+package#PatientHarms,domain#R-HuctHupiDht,domain#Node-Data-HealthData,TRUE
+package#PatientHarms,domain#R-HuctHupiDht,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HuirAieuoDht,domain#Node-Data-HealthData,TRUE
 package#PatientHarms,domain#R-HuirAieuoDht,domain#Node-Human-Human,TRUE
 package#PatientHarms,domain#R-HuirAieuoDht,domain#Node-InteractiveProcess-InteractiveApplication,TRUE
