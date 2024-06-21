@@ -222,6 +222,7 @@ package#Network,domain#H.A.HsAC.1.2,domain#MS-LossOfAvailability-Host
 package#Network,domain#H.A.HumH.6.2,domain#MS-LossOfAvailability-Host
 package#Network,domain#H.A.HumH.6.4,domain#MS-LossOfAvailability-Host
 package#Network,domain#H.A.PHS.3,domain#MS-LossOfAvailability-Host
+package#Network,domain#H.E-D.H.8,domain#MS-VulnerabilityDiscovered-Host
 package#Network,domain#H.IS.PH.8,domain#MS-InService-Host
 package#Network,domain#H.IS.PHS-iP.1,domain#MS-InService-Host
 package#Network,domain#H.J.PHS-iC.3,domain#MS-TrojanInsertion-Host
@@ -278,6 +279,7 @@ package#Network,domain#P.A.HuirP.0,domain#MS-LossOfAvailability-Process
 package#Network,domain#P.A.HuirRACP.0,domain#MS-LossOfAvailability-Process
 package#Network,domain#P.A.HumHP-iT.6.2,domain#MS-LossOfAvailability-Process
 package#Network,domain#P.A.HumHP-iT.6.4,domain#MS-LossOfAvailability-Process
+package#Network,domain#P.E-D.HP.8,domain#MS-VulnerabilityDiscovered-Process
 package#Network,domain#P.IS.HP.8,domain#MS-InService-Process
 package#Network,domain#P.IS.HPsAC.1,domain#MS-InService-Process
 package#Network,domain#P.J.SHP-iT.7,domain#MS-TrojanInsertion-Process

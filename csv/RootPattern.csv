@@ -23,14 +23,14 @@ package#Application,domain#R-HIP,HIP,Finds a solo interactive process and its ho
 package#Application,domain#R-HPrD,HPrD,Finds a Process relaying Data and the process host.,FALSE,FALSE
 package#Application,domain#R-HPsD,HPsD,Finds a Process serving Data and the process host.,FALSE,FALSE
 package#Application,domain#R-HuaD,HuaD,Finds a Human interactively amending Data.,FALSE,TRUE
-package#Application,domain#R-HuaDirPaD,HuaDirPaD,"Find a Human interacting (possibly remotely) with a Process that amends Data, where the Human amends that Data.",FALSE,TRUE
 package#Application,domain#R-HuaDPH,HuaDPH,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
 package#Application,domain#R-HuaDRAC,HuaDRAC,Finds a Human interacting with Data remotely via a Remote Access Client.,FALSE,FALSE
+package#Application,domain#R-HuaID,HuaID,"Finds a Human interactively entering Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
+package#Application,domain#R-HuaUD,HuaUD,"Finds a Human interactively amending Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
+package#Application,domain#R-HuaVD,HuaVD,"Finds a Human interactively viewing Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
 package#Application,domain#R-HuHWES,HuHWES,Finds a Human using a web browser running on a host to access email.,FALSE,FALSE
 package#Application,domain#R-HuiCHDtS,HuiCHDtS,Finds a human interacting with a console host and a desktop service running on a possibly remote host.,FALSE,FALSE
 package#Application,domain#R-HuiD,HuiD,Finds a Human entering Data.,FALSE,FALSE
-package#Application,domain#R-HuiDirIPpD,HuiDirIPpD,"Find a Human interacting (possibly remotely) with an Interactive Process that processes Data, where the Human enters that Data.",FALSE,FALSE
-package#Application,domain#R-HuiDirPpD,HuiDirPpD,"Find a Human interacting (possibly remotely) with a Process that processes Data, where the Human enters that Data.",FALSE,FALSE
 package#Application,domain#R-HuiDPH,HuiDPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
 package#Application,domain#R-HuiPiDCHS,HuiPiDCHS,Finds a user interacting directly with a process to enter data using a console host located in a space.,FALSE,FALSE
 package#Application,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data via remote interaction with a process using a remote access client on a console host located in a space.,FALSE,FALSE
@@ -40,12 +40,13 @@ package#Application,domain#R-HuirIPaD,HuirIPaD,Finds Human interacting (possibly
 package#Application,domain#R-HuirIPpD,HuirIPpD,Finds Human interacting (possibly remotely) with an Interactive Process that processes data.,FALSE,FALSE
 package#Application,domain#R-HuirPaD+eUI,HuirPaD+eUI,"Finds Human interacting (possibly remotely) with a process that amends (creates and receives) data, and enables user input of the data.",FALSE,TRUE
 package#Application,domain#R-HuirPcD,HuirPcD,Finds Human interacting (possibly remotely) with a process that creates data.,FALSE,FALSE
+package#Application,domain#R-HuirPeID,HuirPeID,Finds a human interacting (possibly remotely) with a process that enables user entry of some Data.,FALSE,FALSE
+package#Application,domain#R-HuirPeOD,HuirPeOD,Finds a human interacting (possibly remotely) with a process that enables user access to some Data.,FALSE,FALSE
+package#Application,domain#R-HuirPeUD,HuirPeUD,Finds a human interacting (possibly remotely) with a process that enables user update of some Data.,FALSE,TRUE
 package#Application,domain#R-HuirPrD,HuirPrD,Finds Human interacting (possibly remotely) with a process that receives data.,FALSE,FALSE
 package#Application,domain#R-HuirPsD,HuirPsD,Finds Human interacting (possibly remotely) with a process that serves data. This conflicts with domain model assumptions.,FALSE,FALSE
-package#Application,domain#R-HuRACuPD,HuRACuPD,Finds Human interacting remotely via a remote access client with a process that processes data.,FALSE,FALSE
+package#Application,domain#R-HuuD,HuuD,"Finds a Human interactively amending Data, where this is expressed as a single relationship.",FALSE,FALSE
 package#Application,domain#R-HuvD,HuvD,Finds a Human viewing Data.,FALSE,FALSE
-package#Application,domain#R-HuvDirPcD,HuvDirPcD,"Finds a Human interacting (possibly remotely) with a Process that creates Data, where the Human views that Data.",FALSE,FALSE
-package#Application,domain#R-HuvDirPrD,HuvDirPrD,"Finds a Human interacting (possibly remotely) with a Process that receives Data, where the Human views that Data.",FALSE,FALSE
 package#Application,domain#R-HuWES,HuWES,Finds a Human using a web browser to access email.,FALSE,FALSE
 package#Application,domain#R-PaD,PaD,"Finds a Process that is amending data, using separate creates and receives links in case they were added separately.",FALSE,TRUE
 package#Application,domain#R-PaDH,PaDH,Finds a Host running a Process that is amending data.,FALSE,TRUE
@@ -304,7 +305,6 @@ package#Network,domain#R-CHS,CHS,Finds a Console Host located in a Space.,FALSE,
 package#Network,domain#R-CS,CS,Finds a client using a service.,FALSE,FALSE
 package#Network,domain#R-CScP,CScP,Finds a client directly or indirectly accessing a service which is controlled by another process.,FALSE,FALSE
 package#Network,domain#R-CuP,CuP,Finds a client accessing a service but not to get authorization decisions about 3rd parties.,FALSE,FALSE
-package#Network,domain#R-CuS,CuS,Finds a client accessing a service but not to get authorization decisions about 3rd parties.,FALSE,FALSE
 package#Network,domain#R-CuScS,CuScS,Finds a client using a service for application or authentication and also controlled by the service.,FALSE,TRUE
 package#Network,domain#R-CuSHS,CuSHS,"Finds a Host running both a Client and a Service used by the Client, in a Space.",FALSE,FALSE
 package#Network,domain#R-DC,DC,Finds a solo Data Centre.,FALSE,FALSE
@@ -407,6 +407,7 @@ package#Network,domain#R-PS,PS,Finds a solo Physical Subnet.,FALSE,FALSE
 package#Network,domain#R-RAC,RAC,Finds a remote access client.,FALSE,FALSE
 package#Network,domain#R-RACuHRASP,RACuHRASP,"Finds a host running a process and a remote access service that uses the process, and is used by a remote access client.",FALSE,FALSE
 package#Network,domain#R-RACuP,RACuP,Finds a Remote Access Client using a Process.,FALSE,FALSE
+package#Network,domain#R-RACuRHRASP,RACuRHRASP,"Finds a host running a process and a remote access service that uses the process, where both are used remotely by a remote access client.",FALSE,FALSE
 package#Network,domain#R-RAS,RAS,Finds a remote access service.,FALSE,FALSE
 package#Network,domain#R-Rr,Rr,Finds a solo Router.,FALSE,FALSE
 package#Network,domain#R-RSS,RSS,"Finds a Radio Subnet accessible from a Space, and the (abstract) hotspot or cellular network it implements locally.",FALSE,FALSE
@@ -675,7 +676,6 @@ package#ProcessCommsInference,domain#R-APxSCtI,APxSCtI,"Finds an Attack Path sta
 package#ProcessCommsInference,domain#R-CCCfS,CCCfS,"Finds a client-service channel, the client and service, and an access context at the client.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CCCfS+aFC,CCCfS+aFC,"Finds a client-service channel, the client and service, and an access context at the client in which the client can access the channel.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CCCftS+aFC,CCCftS+aFC,"Finds a client-service channel, the client and service, and an access context on each side, where the channel can be accessed from the client.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CCCtS+aTS,CCCtS+aTS,"Finds a client-service channel, the client and service, and an access context on the service side where the service can be accessed via the channel.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCCAPNP4,CSCCAPNP4,"Finds a service channel from a client to a service with a network path from an attacker subnet into the channel via a closed subnet, where the network path is consistent with an extension of the on-channel subpath.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCscLS,CSCscLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses are obscured by NAT.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-CSCsdLS,CSCsdLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses remain unaltered by NAT.",FALSE,FALSE
@@ -688,15 +688,16 @@ package#ProcessCommsInference,domain#R-DFtCCCtS,DFtCCCtS,"Finds a client-service
 package#ProcessCommsInference,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-DFuCuS,DFuCuS,"Finds a data flow via two processes, one of which is indirectly a client of the other via a chain of credential sharing/forwarding intermediaries.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-HDFcCaiAC,HDFcCaiAC,"Finds a Process that creates data and sends it to a service over one channel, and has a location access context in which it can connect to the service by access may be interrupted.",FALSE,TRUE
+package#ProcessCommsInference,domain#R-HDFcCrAC,HDFcCrAC,"Finds a Process that creates data in a context, and sends it to a service over a channel.",FALSE,TRUE
 package#ProcessCommsInference,domain#R-HDFCFS,HDFCFS,"Finds a Process that receives a data flow from a service over one channel, and sends the same data in a data flow to a service over a second channel.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-HDFrSACDFiaS,HDFrSACDFiaS,"Finds a Process that receives a data flow from a client over one channel, and reads data in a data flow from a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-HDFSACaiFS,HDFSACaiFS,"Finds a Process that receives a data flow from a client over one channel, and sends the same data in a data flow to a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-HDFSFC,HDFSFC,"Finds a process that receives data over a channel from a client, and sends the data over a channel from a client, plus the process host.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-HDFuCuDFS,HDFuCuDFS,"Finds a Process that reads (needs) a data flow from a service over one channel, and reads (needs) a data flow from a service over a second channel, plus the process host.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-HDFuSC,HDFuSC,"Finds a process that reads (needs) data sent over a channel from a client, and a second channel to the process that may or may not be from a distinct client, plus the process host.",FALSE,FALSE
+package#ProcessCommsInference,domain#R-IDFfCCCftS,IDFfCCCftS,"Finds a client-service channel to a service, and a location context at the service where it can be accessed via the channel, plus a data flow over the channel from client to service which flows to the service in that context and is used as input by the service.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service channel via a closed subnet (before a subsequent NAT gateway) and a network path into the channel via this subnet traversing a single logical segment.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-POP,POP,"Finds an output pool, with the associated process and data.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCLSgvTS,SCLSgvTS,"Finds a Logical Path traversing a logical segment, and the subnets on either side, where source addresses in the subnet after the segment are not meaningfully comparable to client addresses.",FALSE,FALSE
 package#ProcessCommsInference,domain#R-SCNP2CPtI,SCNP2CPtI,Finds a service channel via a client path from a subnet in the channel to an interface on a subnet at or after the start of the attack path.,FALSE,FALSE

@@ -293,6 +293,8 @@ package#ProcessCommsInference,domain#INS-CzS-CC+AC-AuthChannel,domain#Node-Clien
 package#ProcessCommsInference,domain#INS-CzS-CC+AC-AuthChannel,domain#Node-Service-Process
 package#ProcessCommsInference,domain#INS-H-sDFcCaiAC+DS-DataCopy,domain#Node-Data-Data
 package#ProcessCommsInference,domain#INS-H-sDFcCaiAC+DS-DataCopy,domain#Node-Host-Host
+package#ProcessCommsInference,domain#INS-H-sDFcCr-aAC+DS-DataCopy,domain#Node-Data-Data
+package#ProcessCommsInference,domain#INS-H-sDFcCr-aAC+DS-DataCopy,domain#Node-Host-Host
 package#ProcessCommsInference,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,domain#Node-Data-Data
 package#ProcessCommsInference,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,domain#Node-Host-Host
 package#ProcessCommsInference,domain#INS-H-sDFrSACdDFiaS+DS-DataCopy,domain#Node-Data-Data
