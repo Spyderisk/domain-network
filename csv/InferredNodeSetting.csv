@@ -144,6 +144,7 @@ package#ProcessCommsInference,domain#CP-CS-SP+DX,domain#Node-DataExchange-DataEx
 package#ProcessCommsInference,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessCommsInference,domain#CP-CzS-CC+AC,domain#Node-AuthChannel-AuthChannel,domain#INS-CzS-CC+AC-AuthChannel,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessCommsInference,domain#CP-H-sDFcCaiAC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFcCaiAC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#ProcessCommsInference,domain#CP-H-sDFcCr-aAC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFcCr-aAC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessCommsInference,domain#CP-H-sDFCFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessCommsInference,domain#CP-H-sDFrSACdDFiaS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFrSACdDFiaS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessCommsInference,domain#CP-H-sDFSACaiFS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSACaiFS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
