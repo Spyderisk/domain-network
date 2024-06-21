@@ -331,10 +331,10 @@ package#NetworkConnectivity,domain#Sg.A.Sg.0,domain#MS-LossOfAvailability-Logica
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2AC-b.1,domain#MS-ConnectionsAllowed-FwdSegment
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2-b.8,domain#MS-ConnectionsAllowed-FwdSegment
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#MS-InService-LogicalSegment
-package#PatientHarms,domain#Dh.Ph-I.HuirAieuoDht.0,domain#MS-LossOfIntegrity-Data
-package#PatientHarms,domain#Hu.Ph-Ta.HuirAieuoDht.0,domain#MS-AbsenceOfTreatment-Human
-package#PatientHarms,domain#Hu.Ph-Td.HuirAieuoDht.0,domain#MS-DelayedTreatment-Human
-package#PatientHarms,domain#Hu.Ph-Ti.HuirAieuoDht.0,domain#MS-InappropriateTreatment-Human
+package#PatientHarms,domain#Dh.Ph-I.HupatDht.0,domain#MS-LossOfIntegrity-Data
+package#PatientHarms,domain#Hu.Ph-Ta.HupatDht.0,domain#MS-AbsenceOfTreatment-Patient
+package#PatientHarms,domain#Hu.Ph-Td.HupatDht.0,domain#MS-DelayedTreatment-Patient
+package#PatientHarms,domain#Hu.Ph-Ti.HupatDht.0,domain#MS-InappropriateTreatment-Patient
 package#Physical,domain#S.L.HuPSoSt.1,domain#MS-PhysicalIntrusion-Space
 package#Physical,domain#S.L.HuPSSt.1,domain#MS-PhysicalIntrusion-Space
 package#Physical,domain#S.L.PPS.1,domain#MS-PhysicalIntrusion-Space

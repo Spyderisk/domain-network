@@ -721,6 +721,8 @@ package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-accessi
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-implements-Hotspot
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-providedBy-Host
 package#NetworkInference,domain#CP-WS-H+I,domain#Link-LogicalSubnet-implements-LogicalSubnet
+package#PatientHarms,domain#CP-HuctHupiDht+at,domain#Link-Clinician-administersTreatment-Data
+package#PatientHarms,domain#CP-HupvdDhdt-Hucat+at,domain#Link-Patient-administersTreatment-Data
 package#Physical,domain#CP-HuaSaE+cA,domain#Link-Human-canAccess-Entrance
 package#Physical,domain#CP-PPS-E+W,domain#Link-Space-accessibleVia-World
 package#Privacy,domain#CP-DHuDC+r,domain#Link-DataCopy-relatesTo-Human

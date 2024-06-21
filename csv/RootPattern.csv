@@ -486,8 +486,10 @@ package#NetworkConnectivityInference,domain#R-OPLS2,OPLS2,"Finds a Network Path 
 package#NetworkConnectivityInference,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
 package#PatientHarms,domain#R-HucdHupiDhd,HucdHupiDhd,A Clinician diagnosing a Patient interacts with the patient monitoring data that is Health Data to form the diagnosis.,FALSE,FALSE
+package#PatientHarms,domain#R-HuctHupatDht,HuctHupatDht,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Health Data, which defines the treatemnt for the Human (Patient).",FALSE,FALSE
 package#PatientHarms,domain#R-HuctHupiDht,HuctHupiDht,A Clinician treating a Patient interacts with the patient treatment plan that is Health Data to take the instructed actions to treat patient.,FALSE,FALSE
-package#PatientHarms,domain#R-HuirAieuoDht,HuirAieuoDht,"Finds a Human remotely interacting with an Interactive Application that enables user output of Health Data, which is the treatment plan that the Human uses to form their self-care actions.",FALSE,FALSE
+package#PatientHarms,domain#R-HupatDht,HupatDht,"A Patient administering their treatment, as defined by their Health Data treatment plan, via self-care.",FALSE,TRUE
+package#PatientHarms,domain#R-HupvdDhdt,HupvdDhdt,A patient viewing Health Data that defines their treatment.,FALSE,TRUE
 package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
 package#Physical,domain#R-HuPS,HuPS,Finds a Human with access to a Private Space.,FALSE,FALSE
 package#Physical,domain#R-HuPSSt,HuPSSt,"Finds a Human with access to a Private Space, and their employer.",FALSE,FALSE

@@ -1,5 +1,6 @@
 package,URI,subPropertyOf
-domain#000000,domain#000000,domain#creates
+domain#000000,domain#000000,
+,domain#administersTreatment,
 package#Application,domain#amends,domain#creates
 package#Application,domain#amends,domain#receives
 package#Application,domain#amendsData,domain#inputsData
