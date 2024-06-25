@@ -1882,6 +1882,15 @@ package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-LogicalRoute-via
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-OldPath-end-LogicalSubnet
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-OldPath-start-ToSubnet
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Link-PPE-pEndsAt-LogicalSubnet
+package#PatientHarms,domain#R-CttHup,domain#Link-Controller-treats-Patient
+package#PatientHarms,domain#R-CttHupatDhdt,domain#Link-Controller-administersTreatment-Data
+package#PatientHarms,domain#R-CttHupatDhdt,domain#Link-Controller-treats-Patient
+package#PatientHarms,domain#R-CttHupatDhdt,domain#Link-Data-definesTreatmentFor-Patient
+package#PatientHarms,domain#R-CttHupDhct,domain#Link-Controller-treats-Patient
+package#PatientHarms,domain#R-CttHupDhct,domain#Link-Data-controlsThing-Controller
+package#PatientHarms,domain#R-HucdHupcdDhd,domain#Link-Clinician-confirmsDiagnosis-Data
+package#PatientHarms,domain#R-HucdHupcdDhd,domain#Link-Clinician-diagnoses-Patient
+package#PatientHarms,domain#R-HucdHupcdDhd,domain#Link-Data-diagnosisFor-Patient
 package#PatientHarms,domain#R-HucdHupiDhd,domain#Link-Clinician-diagnoses-Patient
 package#PatientHarms,domain#R-HucdHupiDhd,domain#Link-Clinician-interactsWithData-Data
 package#PatientHarms,domain#R-HucdHupiDhd,domain#Link-Data-diagnosisFor-Patient

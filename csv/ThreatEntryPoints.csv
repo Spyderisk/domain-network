@@ -260,9 +260,17 @@ package#NetworkConnectivity,domain#Sg.DA.L3SSg2AC-b.1,domain#TWAS-OutOfService-T
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2-b.8,domain#TWAS-OutOfService-FwdSegment
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-InboundIF
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-OutboundIF
+package#PatientHarms,domain#Dh.Ph-I.CttHupatDhdt.0,domain#TWAS-Timeliness-Data
+package#PatientHarms,domain#Dh.Ph-I.HuctHupatDht.0,domain#TWAS-Timeliness-Data
 package#PatientHarms,domain#Dh.Ph-I.HupatDht.0,domain#TWAS-Timeliness-Data
+package#PatientHarms,domain#Hu.Ph-Ta.CttHupatDhdt.0,domain#TWAS-Availability-Data
+package#PatientHarms,domain#Hu.Ph-Ta.HuctHupatDht.0,domain#TWAS-Availability-Data
 package#PatientHarms,domain#Hu.Ph-Ta.HupatDht.0,domain#TWAS-Availability-Data
+package#PatientHarms,domain#Hu.Ph-Td.CttHupatDhdt.0,domain#TWAS-Timeliness-Data
+package#PatientHarms,domain#Hu.Ph-Td.HuctHupatDht.0,domain#TWAS-Timeliness-Data
 package#PatientHarms,domain#Hu.Ph-Td.HupatDht.0,domain#TWAS-Timeliness-Data
+package#PatientHarms,domain#Hu.Ph-Ti.CttHupatDhdt.0,domain#TWAS-Integrity-Data
+package#PatientHarms,domain#Hu.Ph-Ti.HuctHupatDht.0,domain#TWAS-Integrity-Data
 package#PatientHarms,domain#Hu.Ph-Ti.HupatDht.0,domain#TWAS-Integrity-Data
 package#Physical,domain#S.L.HuPSoSt.1,domain#TWAS-Benevolence-Human
 package#Physical,domain#S.L.HuPSSt.1,domain#TWAS-Astuteness-Human
