@@ -592,7 +592,6 @@ package#PatientHarms,domain#MP-HucdHupiDhd,HucdHupiDhd,A Clinician diagnosing a 
 package#PatientHarms,domain#MP-HuctHupatDht,HuctHupatDht,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Health Data, which defines the treatemnt for the Human (Patient).",domain#R-HuctHupatDht,FALSE,FALSE
 package#PatientHarms,domain#MP-HuctHupiDht,HuctHupiDht,A Clinician treating a Patient interacts with the patient treatment plan that is Health Data to take the instructed actions to treat patient.,domain#R-HuctHupiDht,FALSE,FALSE
 package#PatientHarms,domain#MP-HupatDht,HupatDht,"A Patient administering their treatment, as defined by their Health Data treatment plan, via self-care.",domain#R-HupatDht,FALSE,FALSE
-package#PatientHarms,domain#MP-HupvdDhdt-Hucat,HupvdDhdt-Hucat,"Change from: A patient viewing Health Data that defines their treatment, without a Clinician being present to administer the treatment.",domain#R-HupvdDhdt,FALSE,FALSE
 package#PatientHarms,domain#MP-HupvdDhdt-Hucat-Ctat,HupvdDhdt-Hucat-Ctat,"A patient viewing Health Data that defines their treatment, without a Clinician or Controller (Actuator) being present to administer the treatment.",domain#R-HupvdDhdt,FALSE,FALSE
 package#Physical,domain#MP-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,domain#R-HuaSaE,FALSE,FALSE
 package#Physical,domain#MP-HuPSoSt,HuPSoSt,"Finds a Human with access to a Private Space, and an optional employer of the Human.",domain#R-HuPS,FALSE,FALSE
@@ -611,8 +610,7 @@ package#Privacy,domain#MP-Hu-aDPS-io,Hu-aDPS-io,"Finds a Stakeholder operating a
 package#Privacy,domain#MP-HuDPoS-i,HuDPoS-i,"Finds Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject operates the Service but not the Process.",domain#R-HuDPoS,FALSE,FALSE
 package#Privacy,domain#MP-HuDPS-io,HuDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE
 package#Privacy,domain#MP-HurH-StSt,HurH-StSt,"Finds a Human who does not work for anyone else, with a related personal device that has no operator.",domain#R-HurH,FALSE,FALSE
-package#Privacy,domain#MP-HurSesD,HurSesD,Finds Data produced as output by a Sensor related to a Human.,domain#R-HurSesD,FALSE,FALSE
-package#Privacy,domain#MP-HurThcD,HurThcD,Finds control input to an IoT Thing related to a Human.,domain#R-HurThcD,FALSE,FALSE
+package#Privacy,domain#MP-HurSesD-Rel,HurSesD-Rel,"Finds Data produced as output by a Sensor related to a Human, where the data has not been inferred or asserted to be related to the Human.",domain#R-HurSesD,FALSE,FALSE
 package#Privacy,domain#MP-HurThcD-Rel,HurThcD-Rel,"Finds control input to an IoT Thing related to a Human, where the control input has not been asserted to be related to the Human.",domain#R-HurThcD,FALSE,FALSE
 package#Privacy,domain#MP-HurTh-S-m,HurTh-S-m,"Finds a Thing relating to a Human, plus onboard data and processing, where there is no manager and no specified location.",domain#R-HurTh,FALSE,FALSE
 package#Privacy,domain#MP-HuwStrH-St,HuwStrH-St,"Finds a Human working for an Employer, with a personal device that has no other operator.",domain#R-HuwStrH,FALSE,FALSE

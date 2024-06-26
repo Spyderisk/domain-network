@@ -733,7 +733,7 @@ package#Privacy,domain#CP-DHuDC+r,domain#Link-DataCopy-relatesTo-Human
 package#Privacy,domain#CP-DHuDF+r,domain#Link-DataFlow-relatesTo-Human
 package#Privacy,domain#CP-HuiThaS-S+r,domain#Link-Thing-relatesTo-Human
 package#Privacy,domain#CP-HurH-StSt+o,domain#Link-Human-operates-Host
-package#Privacy,domain#CP-HurSesD+Rel,domain#Link-Data-relatesTo-Human
+package#Privacy,domain#CP-HurSesD-Rel+Rel,domain#Link-Data-relatesTo-Human
 package#Privacy,domain#CP-HurThcD-Rel+Rel,domain#Link-Data-relatesTo-Human
 package#Privacy,domain#CP-HurTh-S-m+m,domain#Link-Human-manages-Thing
 package#Privacy,domain#CP-HuwStrH-St+o,domain#Link-Employer-operates-Host
