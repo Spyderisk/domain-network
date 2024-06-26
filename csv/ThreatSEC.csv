@@ -147,6 +147,10 @@ package#Network,domain#P.U.HP.0,domain#MS-InService-Host
 package#Network,domain#P.U.HP.0,domain#MS-LossOfReliability-Host
 package#NetworkConnectivity,domain#I.A.I.0,domain#MS-Overloaded-Interface
 package#NetworkConnectivity,domain#Sg.A.Sg.0,domain#MS-LossOfAvailability-Gateway
+package#PatientHarms,domain#Hu.Ph-Ta.Hup.0.0,domain#MS-Misdiagnosis-Patient
+package#PatientHarms,domain#Hu.Ph-Ta.Hup.0.1,domain#MS-AbsenceOfDiagnosis-Patient
+package#PatientHarms,domain#Hu.Ph-Td.Hup.0,domain#MS-DelayedDiagnosis-Patient
+package#PatientHarms,domain#Hu.Ph-Ti.Hup.0,domain#MS-Misdiagnosis-Patient
 package#ProcessComms,domain#CC.AX.CACSSaS.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CACSScS.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessComms,domain#CC.AX.CCCmSCS.0,domain#MS-LossOfConnectivity-ServiceChannel

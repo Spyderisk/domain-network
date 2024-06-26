@@ -492,6 +492,7 @@ package#PatientHarms,domain#R-HucdHupcdDhd,HucdHupcdDhd,Clinician diagnosing pat
 package#PatientHarms,domain#R-HucdHupiDhd,HucdHupiDhd,A Clinician diagnosing a Patient interacts with the patient monitoring data that is Health Data to confirm the diagnosis.,FALSE,FALSE
 package#PatientHarms,domain#R-HuctHupatDht,HuctHupatDht,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Health Data, which defines the treatemnt for the Human (Patient).",FALSE,FALSE
 package#PatientHarms,domain#R-HuctHupiDht,HuctHupiDht,A Clinician treating a Patient interacts with the patient treatment plan that is Health Data to take the instructed actions to treat patient.,FALSE,FALSE
+package#PatientHarms,domain#R-Hup,Hup,Finds a solo Human (Patient).,FALSE,FALSE
 package#PatientHarms,domain#R-HupatDht,HupatDht,"A Patient administering their treatment, as defined by their Health Data treatment plan, via self-care.",FALSE,TRUE
 package#PatientHarms,domain#R-HupvdDhdt,HupvdDhdt,A patient viewing Health Data that defines their treatment.,FALSE,TRUE
 package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE

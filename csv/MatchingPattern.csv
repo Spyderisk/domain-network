@@ -586,11 +586,11 @@ package#PatientHarms,domain#MP-CttHupatDhdt,CttHupatDhdt,Controller (Actuator) t
 package#PatientHarms,domain#MP-CttHupDhct-at,CttHupDhct-at,"A Controller (Actuator) being controlled by thing Health Data and treating a Human (Patient), where the Controller has not been asserted to administer the treatment that is the Health Data.",domain#R-CttHupDhct,FALSE,TRUE
 package#PatientHarms,domain#MP-CttHupDhct-dt,CttHupDhct-dt,"A Controller (Actuator) being controlled by thing Health Data and treating a Human (Patient), where the Health Data has not been asserted to define the treatment for the Human (Patient).",domain#R-CttHupDhct,FALSE,FALSE
 package#PatientHarms,domain#MP-CttHup-rel,CttHup-rel,A Controller (Actuator) treating a Patient that is missing the relatesTo relationship.,domain#R-CttHup,FALSE,TRUE
-package#PatientHarms,domain#MP-Hu,Hu,Finds a solo human.,domain#R-Hu,FALSE,FALSE
 package#PatientHarms,domain#MP-HucdHupcdDhd,HucdHupcdDhd,Clinician diagnosing patient interacts with monitoring Health Data to confirm the diagnosis.,domain#R-HucdHupcdDhd,FALSE,FALSE
 package#PatientHarms,domain#MP-HucdHupiDhd,HucdHupiDhd,A Clinician diagnosing a Patient interacts with the patient monitoring data that is Health Data to confirm the diagnosis.,domain#R-HucdHupiDhd,FALSE,FALSE
 package#PatientHarms,domain#MP-HuctHupatDht,HuctHupatDht,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Health Data, which defines the treatemnt for the Human (Patient).",domain#R-HuctHupatDht,FALSE,FALSE
 package#PatientHarms,domain#MP-HuctHupiDht,HuctHupiDht,A Clinician treating a Patient interacts with the patient treatment plan that is Health Data to take the instructed actions to treat patient.,domain#R-HuctHupiDht,FALSE,FALSE
+package#PatientHarms,domain#MP-Hup,Hup,Finds a solo Human (Patient).,domain#R-Hup,FALSE,FALSE
 package#PatientHarms,domain#MP-HupatDht,HupatDht,"A Patient administering their treatment, as defined by their Health Data treatment plan, via self-care.",domain#R-HupatDht,FALSE,FALSE
 package#PatientHarms,domain#MP-HupvdDhdt-Hucat-Ctat,HupvdDhdt-Hucat-Ctat,"A patient viewing Health Data that defines their treatment, without a Clinician or Controller (Actuator) being present to administer the treatment.",domain#R-HupvdDhdt,FALSE,FALSE
 package#Physical,domain#MP-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,domain#R-HuaSaE,FALSE,FALSE

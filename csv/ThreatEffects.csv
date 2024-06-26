@@ -340,12 +340,16 @@ package#PatientHarms,domain#Hu.Ph-Dd.HucdHupcdDhd.0,domain#MS-DelayedDiagnosis-P
 package#PatientHarms,domain#Hu.Ph-Dm.HucdHupcdDhd.0,domain#MS-Misdiagnosis-Patient
 package#PatientHarms,domain#Hu.Ph-Ta.CttHupatDhdt.0,domain#MS-AbsenceOfTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Ta.HuctHupatDht.0,domain#MS-AbsenceOfTreatment-Patient
+package#PatientHarms,domain#Hu.Ph-Ta.Hup.0.0,domain#MS-AbsenceOfTreatment-Patient
+package#PatientHarms,domain#Hu.Ph-Ta.Hup.0.1,domain#MS-AbsenceOfTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Ta.HupatDht.0,domain#MS-AbsenceOfTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Td.CttHupatDhdt.0,domain#MS-DelayedTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Td.HuctHupatDht.0,domain#MS-DelayedTreatment-Patient
+package#PatientHarms,domain#Hu.Ph-Td.Hup.0,domain#MS-DelayedTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Td.HupatDht.0,domain#MS-DelayedTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Ti.CttHupatDhdt.0,domain#MS-InappropriateTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Ti.HuctHupatDht.0,domain#MS-InappropriateTreatment-Patient
+package#PatientHarms,domain#Hu.Ph-Ti.Hup.0,domain#MS-InappropriateTreatment-Patient
 package#PatientHarms,domain#Hu.Ph-Ti.HupatDht.0,domain#MS-InappropriateTreatment-Patient
 package#Physical,domain#S.L.HuPSoSt.1,domain#MS-PhysicalIntrusion-Space
 package#Physical,domain#S.L.HuPSSt.1,domain#MS-PhysicalIntrusion-Space

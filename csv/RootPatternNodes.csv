@@ -1967,6 +1967,7 @@ package#PatientHarms,domain#R-HuctHupatDht,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HuctHupiDht,domain#Node-Clinician-Adult,TRUE
 package#PatientHarms,domain#R-HuctHupiDht,domain#Node-Data-HealthData,TRUE
 package#PatientHarms,domain#R-HuctHupiDht,domain#Node-Patient-Human,TRUE
+package#PatientHarms,domain#R-Hup,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HupatDht,domain#Node-Data-HealthData,TRUE
 package#PatientHarms,domain#R-HupatDht,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HupvdDhdt,domain#Node-Data-HealthData,TRUE
