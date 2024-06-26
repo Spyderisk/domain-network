@@ -1022,6 +1022,8 @@ package#Privacy,domain#MP-HuDPS-io,domain#Link-DataSubject-operates-Process,TRUE
 package#Privacy,domain#MP-HuDPS-io,domain#Link-DataSubject-operates-Service,TRUE
 package#Privacy,domain#MP-HurH-StSt,domain#Link-Human-worksFor-Employer,FALSE
 package#Privacy,domain#MP-HurH-StSt,domain#Link-Operator-operates-Host,FALSE
+package#Privacy,domain#MP-HurSesD-Rel,domain#Link-Data-relatesTo-Human,TRUE
+package#Privacy,domain#MP-HurThcD-Rel,domain#Link-Data-relatesTo-Human,TRUE
 package#Privacy,domain#MP-HurTh-S-m,domain#Link-HostManager-manages-Thing,FALSE
 package#Privacy,domain#MP-HurTh-S-m,domain#Link-Thing-locatedIn-Space,FALSE
 package#Privacy,domain#MP-HuwStrH-St,domain#Link-Operator-operates-Host,FALSE
