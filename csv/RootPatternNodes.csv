@@ -961,7 +961,6 @@ package#DataLifecycleInference,domain#R-DSDDF,domain#Node-Data-Data,TRUE
 package#DataLifecycleInference,domain#R-DSDDF,domain#Node-DataField-DataField,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-Data-Data,TRUE
-package#DataLifecycleInference,domain#R-DSDPS,domain#Node-DataDestination-DataAccess,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-DataPath-DataPath,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-Process-Process,TRUE
 package#DataLifecycleInference,domain#R-DSDPS,domain#Node-Service-Process,TRUE

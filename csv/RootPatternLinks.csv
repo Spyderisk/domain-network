@@ -985,8 +985,6 @@ package#DataLifecycleInference,domain#R-DSDDF,domain#Link-Data-containsField-Dat
 package#DataLifecycleInference,domain#R-DSDDF,domain#Link-DataCopy-copyOf-Data
 package#DataLifecycleInference,domain#R-DSDPS,domain#Link-DataAccess-isSource-Data
 package#DataLifecycleInference,domain#R-DSDPS,domain#Link-DataAccess-usedBy-Process
-package#DataLifecycleInference,domain#R-DSDPS,domain#Link-DataDestination-isDest-Data
-package#DataLifecycleInference,domain#R-DSDPS,domain#Link-DataDestination-usedBy-Service
 package#DataLifecycleInference,domain#R-DSDPS,domain#Link-DataPath-dataPathFor-Data
 package#DataLifecycleInference,domain#R-DSDPS,domain#Link-DataPath-fromProc-Process
 package#DataLifecycleInference,domain#R-DSDPS,domain#Link-DataPath-toProc-Service
