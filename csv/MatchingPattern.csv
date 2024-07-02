@@ -599,8 +599,8 @@ package#Privacy,domain#MP-Hu-aDPS-io,Hu-aDPS-io,"Finds a Stakeholder operating a
 package#Privacy,domain#MP-HuDPoS-i,HuDPoS-i,"Finds Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject operates the Service but not the Process.",domain#R-HuDPoS,FALSE,FALSE
 package#Privacy,domain#MP-HuDPS-io,HuDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE
 package#Privacy,domain#MP-HurH-StSt,HurH-StSt,"Finds a Human who does not work for anyone else, with a related personal device that has no operator.",domain#R-HurH,FALSE,FALSE
-package#Privacy,domain#MP-HurSesD,HurSesD,Finds Data produced as output by a Sensor related to a Human.,domain#R-HurSesD,FALSE,FALSE
-package#Privacy,domain#MP-HurThcD,HurThcD,Finds control input to an IoT Thing related to a Human.,domain#R-HurThcD,FALSE,FALSE
+package#Privacy,domain#MP-HurSesD-Rel,HurSesD-Rel,"Finds Data produced as output by a Sensor related to a Human, where the data has not been inferred or asserted to be related to the Human.",domain#R-HurSesD,FALSE,FALSE
+package#Privacy,domain#MP-HurThcD-Rel,HurThcD-Rel,"Finds control input to an IoT Thing related to a Human, where the data has not been inferred or asserted to be related to the Human.",domain#R-HurThcD,FALSE,FALSE
 package#Privacy,domain#MP-HurTh-S-m,HurTh-S-m,"Finds a Thing relating to a Human, plus onboard data and processing, where there is no manager and no specified location.",domain#R-HurTh,FALSE,FALSE
 package#Privacy,domain#MP-HuwStrH-St,HuwStrH-St,"Finds a Human working for an Employer, with a personal device that has no other operator.",domain#R-HuwStrH,FALSE,FALSE
 package#Privacy,domain#MP-IoT-Hu,IoT-Hu,"Finds a solo IoT Thing that does not relate to a Human data subject. Not used at present, but reserved for a future extension.",domain#R-IoT,FALSE,FALSE
