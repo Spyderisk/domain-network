@@ -721,12 +721,12 @@ package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-accessi
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-implements-Hotspot
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-providedBy-Host
 package#NetworkInference,domain#CP-WS-H+I,domain#Link-LogicalSubnet-implements-LogicalSubnet
-package#PatientHarms,domain#CP-CttHupDhct-at+at,domain#Link-Controller-administersTreatment-Data
-package#PatientHarms,domain#CP-CttHupDhct-dt+dt,domain#Link-Data-definesTreatmentFor-Patient
+package#PatientHarms,domain#CP-CttHupDct-at+at,domain#Link-Controller-administersTreatment-Data
+package#PatientHarms,domain#CP-CttHupDct-dt+dt,domain#Link-Data-definesTreatmentFor-Patient
 package#PatientHarms,domain#CP-CttHup-rel+rel,domain#Link-Controller-relatesTo-Patient
-package#PatientHarms,domain#CP-HucdHupiDhd+cd,domain#Link-Clinician-confirmsDiagnosis-Data
-package#PatientHarms,domain#CP-HuctHupiDht+at,domain#Link-Clinician-administersTreatment-Data
-package#PatientHarms,domain#CP-HupvdDhdt-Hucat-Ctat+at,domain#Link-Patient-administersTreatment-Data
+package#PatientHarms,domain#CP-HucdHupiDd+cd,domain#Link-Clinician-confirmsDiagnosis-Data
+package#PatientHarms,domain#CP-HuctHupiDt+at,domain#Link-Clinician-administersTreatment-Data
+package#PatientHarms,domain#CP-HupvdDdt-Hucat-Ctat+at,domain#Link-Patient-administersTreatment-Data
 package#Physical,domain#CP-HuaSaE+cA,domain#Link-Human-canAccess-Entrance
 package#Physical,domain#CP-PPS-E+W,domain#Link-Space-accessibleVia-World
 package#Privacy,domain#CP-DHuDC+r,domain#Link-DataCopy-relatesTo-Human

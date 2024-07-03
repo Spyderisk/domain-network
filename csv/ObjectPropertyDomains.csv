@@ -176,9 +176,9 @@ package#NetworkInference,domain#usesViaRAS,domain#Process
 package#PatientHarms,domain#administersTreatment,domain#Controller
 package#PatientHarms,domain#administersTreatment,domain#Human
 package#PatientHarms,domain#confirmsDiagnosis,domain#Adult
-package#PatientHarms,domain#definesTreatmentFor,domain#HealthData
+package#PatientHarms,domain#definesTreatmentFor,domain#Data
 package#PatientHarms,domain#diagnoses,domain#Adult
-package#PatientHarms,domain#diagnosisFor,domain#HealthData
+package#PatientHarms,domain#diagnosisFor,domain#Data
 package#PatientHarms,domain#treats,domain#Adult
 package#PatientHarms,domain#treats,domain#Controller
 package#Physical,domain#accessibleVia,domain#Space

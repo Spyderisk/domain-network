@@ -158,8 +158,8 @@ package#NetworkConnectivityInference,domain#pEndsAt,pEndsAt,The path terminating
 package#NetworkConnectivityInference,domain#pVia,pVia,The path terminating at the NPE/PPE terminator goes via the LogicalSubnet.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#NetworkInference,domain#runsIn,runsIn,Link from a process to an context where it needs to execute.,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
 package#NetworkInference,domain#usesViaRAS,usesViaRAS,Inferred link between a client and a service that encodes the fact that the client access the service via a login or remote desktop shell on the service host.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
-package#PatientHarms,domain#administersTreatment,administersTreatment,Indicates an Adult (Clinician) or Human (Patient) using and acting on the Health Data that is the treatment plan.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-package#PatientHarms,domain#confirmsDiagnosis,confirmsDiagnosis,Indicates an Adult (Clinician) confirming the diagnosis that is the Health Data.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#administersTreatment,administersTreatment,Indicates an Adult (Clinician) or Human (Patient) using and acting on the Data that is the treatment plan.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#confirmsDiagnosis,confirmsDiagnosis,Indicates an Adult (Clinician) confirming the diagnosis that is the Data.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 package#PatientHarms,domain#definesTreatmentFor,definesTreatmentFor,"Data that defines the treatment plan from which the treatment actions are taken, either by the Clinician through a treats relationship to the patient or by the Patient themselves.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#PatientHarms,domain#diagnoses,diagnoses,Indicates an Adult (Clinician) diagnosing a Human (Patient).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#PatientHarms,domain#diagnosisFor,diagnosisFor,"Data that defines the diagnosis of a Patient, through a Clinician diagnoses Patient relationship.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
