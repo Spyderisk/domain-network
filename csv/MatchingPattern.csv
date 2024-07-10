@@ -1,19 +1,28 @@
 package,URI,label,comment,hasRootPattern,usesLoopback,usesParallel
-domain#000000,domain#000000,CcBrR,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,domain#R-CcBrR,FALSE,FALSE
-package#5G,domain#MP-CcBrR,CcBrR,"Finds a Base Station connected to a backhaul Core Network and providing a RAN, both of which are part of a Cellular Network.",domain#R-CcBrR,FALSE,FALSE
+domain#000000,domain#000000,CNCN,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,domain#R-CNCN,FALSE,FALSE
 package#5G,domain#MP-CNCN,CNCN,Finds a Cellular Network implemented by a Core Network.,domain#R-CNCN,FALSE,FALSE
-package#5G,domain#MP-CNHS,CNHS,Finds a core network implementing a cellular network accessible from a space in which there is a device connected to but not providing the cellular network.,domain#R-CNHS,FALSE,TRUE
-package#5G,domain#MP-CNR,CNR,Finds a cellular network provided by a router.,domain#R-CNR,FALSE,FALSE
-package#5G,domain#MP-CN-R,CN-R,Finds a cellular network that is not provided by a router.,domain#R-CN,FALSE,FALSE
-package#5G,domain#MP-CrCcL3,CrCcL3,"Finds a core router providing a core network backhaul for a cellular network, connected to an IP subnet that is not part of the cellular network.",domain#R-CrCcL3,FALSE,FALSE
+package#5G,domain#MP-CNHS+RAN,CNHS+RAN,Finds a backbone network implementing a cellular network accessible from a space in which there is a RAN and a device connected to the cellular network that does not provide any of the networks.,domain#R-CNHS+RAN,FALSE,TRUE
+package#5G,domain#MP-CN-R,CN-R,Finds a Cellular Network that is not provided by any host.,domain#R-CN,FALSE,FALSE
+package#5G,domain#MP-CNRAN2dS,CNRAN2dS,"Finds a radio access network implementing part of a cellular network, provided by a host serving as the base station and having (at least) two distinct locations.",domain#R-CNRAN2S,FALSE,FALSE
+package#5G,domain#MP-CNR-CN,CNR-CN,Finds a cellular network provided by a router that has no backbone IP network.,domain#R-CNR,FALSE,FALSE
+package#5G,domain#MP-CNRS,CNRS,Finds a cellular network provided by a gateway host which therefore also provides the backbone network.,domain#R-CNRS,FALSE,FALSE
+package#5G,domain#MP-CNS+RAN+BS-S,CNS+RAN+BS-S,Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network provided by a gateway with no physical location.,domain#R-CNS+RAN+BS,FALSE,FALSE
+package#5G,domain#MP-CNS+RAN-BS,CNS+RAN-BS,"Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network, but this is not provided by a host acting as a base station.",domain#R-CNS+RAN,FALSE,FALSE
+package#5G,domain#MP-CNS-RAN,CNS-RAN,"Finds a backbone network implementing a cellular network accessible from a space, but lacking a radio access network in that space.",domain#R-CNS,FALSE,FALSE
+package#5G,domain#MP-CrCcL3,CrCcL3,"Finds a gateway host providing a backbone network for a cellular network, connected to an IP subnet that is not part of the cellular network.",domain#R-CrCcL3,FALSE,FALSE
 package#5G,domain#MP-CScGcCS,CScGcCS,"Finds a Physical Host connected between two distinct Cellular networks, both in the same space.",domain#R-CScGcCS,FALSE,FALSE
 package#5G,domain#MP-FCNS,FCNS,Finds a Cellular Network to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FCNS,FALSE,FALSE
-package#5G,domain#MP-L3cCrC,L3cCrC,"Finds a core router providing a core network backhaul for a cellular network, connected to an IP subnet that is not part of the cellular network.",domain#R-L3cCrC,FALSE,FALSE
+package#5G,domain#MP-L3cCrPC,L3cCrPC,Finds a host acting as a router providing the backbone network of a private cellular network and connected to an external IP subnet that is not a hotspot and not part of the same cellular network.,domain#R-L3cCrPC,FALSE,FALSE
+package#5G,domain#MP-L3cCrUC,L3cCrUC,Finds a host acting as a router providing the backbone network of a public cellular network and connected to an external IP subnet that is not a hotspot and not part of the same cellular network.,domain#R-L3cCrUC,FALSE,FALSE
 package#5G,domain#MP-MPCNS,MPCNS,Finds a Public Cellular Network to which is connected a Mobile Host (or a Virtual Host running on it) located in a Space.,domain#R-MPCNS,FALSE,FALSE
-package#5G,domain#MP-PcCN,PcCN,Finds a process controlling a cellular network and an associated RAN.,domain#R-PcCN,FALSE,FALSE
+package#5G,domain#MP-PCcBrR,PCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Private Cellular Network.",domain#R-PCcBrR,FALSE,FALSE
+package#5G,domain#MP-PcCNLS-S,PcCNLS-S,"Finds a process controlling a cellular network, and a logical subnet that implements part of the cellular network, where this logical subnet has no controlling service.",domain#R-PcCNLS,FALSE,FALSE
 package#5G,domain#MP-PCN,PCN,Finds a Public Cellular Network.,domain#R-PCN,FALSE,FALSE
+package#5G,domain#MP-PCN-R,PCN-R,Finds a public cellular network that is not provided by any host.,domain#R-PCN,FALSE,FALSE
 package#5G,domain#MP-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which should also be accessible from the World.",domain#R-PCNRWI,FALSE,FALSE
+package#5G,domain#MP-PCNS+RAN+BS-S,PCNS+RAN+BS-S,Finds a backbone network implementing a private cellular network accessible from a space in which it has a radio access network provided by a gateway with no physical location.,domain#R-PCNS+RAN+BS,FALSE,FALSE
 package#5G,domain#MP-RrBcC,RrBcC,Finds a BaseStation providing a RAN and connected to a core network both of which are part of a cellular network.,domain#R-RrBcC,FALSE,FALSE
+package#5G,domain#MP-UCcBrR,UCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Public Cellular Network.",domain#R-UCcBrR,FALSE,FALSE
 package#Application,domain#MP-CP,CP,Finds a solo Control Process.,domain#R-CP,FALSE,FALSE
 package#Application,domain#MP-D,D,Finds a solo Data asset that is not unsolicited email.,domain#R-D,FALSE,FALSE
 package#Application,domain#MP-HHuWE,HHuWE,Finds a Human using both an email client and a web browser on the same host.,domain#R-HHuWE,FALSE,FALSE
@@ -403,7 +412,7 @@ package#Network,domain#MP-Hc-pN-hP,Hc-pN-hP,"Finds a Host connected to but not p
 package#Network,domain#MP-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",domain#R-HcWHS,FALSE,FALSE
 package#Network,domain#MP-HHu2d,HHu2d,Finds a host with two distinct interactive users.,domain#R-HHu2,FALSE,FALSE
 package#Network,domain#MP-H-iR-iMCHIUS,H-iR-iMCHIUS,Finds a Host that is not a Router or a Mobile Console Host in a Public Space connected to the Internet.,domain#R-HIUS,FALSE,FALSE
-package#Network,domain#MP-HL3S,HL3S,"Finds a host connected to an L3 subnet, and an associated network access context, plus optionally the host manager.",domain#R-HL3S,FALSE,FALSE
+package#Network,domain#MP-HL23S,HL23S,"Finds a host connected to an L2 or L3 subnet, and an associated network access context, plus optionally the host manager.",domain#R-HL23S,FALSE,FALSE
 package#Network,domain#MP-HLnSP-hCLI,HLnSP-hCLI,Finds a Login Service and a Process used by it on the same Host that does not have a CLI.,domain#R-HLnSP,FALSE,FALSE
 package#Network,domain#MP-HLS,HLS,Finds a Host connected to a LogicalSubnet.,domain#R-HLS,FALSE,FALSE
 package#Network,domain#MP-Hm2dHu,Hm2dHu,Finds a host and two distinct humans that manage the host.,domain#R-Hm2Hu,FALSE,FALSE
@@ -415,7 +424,7 @@ package#Network,domain#MP-HPAC,HPAC,"Finds a non-trivial Process running on a Ho
 package#Network,domain#MP-HPHLS-S,HPHLS-S,"Finds a logical subnet to which is connected a host that directly is or indirectly has a physical host, but the subnet is not accessible from any space where the host can be located. Note that there must be at least one host location, so this threat should not detect inferred routers implementing abstract subnets.",domain#R-HPHLS,FALSE,FALSE
 package#Network,domain#MP-HP-iT,HP-iT,"Finds a non-trivial Process and its Host, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
 package#Network,domain#MP-HPmAC,HPmAC,"Finds a Process and its Host with associated access contexts, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
-package#Network,domain#MP-HprL3SAC,HprL3SAC,"Finds a Layer 3 LogicalSubnet provided by a Host, along with an associated network access context.",domain#R-HprL3SAC,FALSE,FALSE
+package#Network,domain#MP-HprL23SAC,HprL23SAC,"Finds a Layer 2 or 3 LogicalSubnet provided by a Host, along with an associated network access context.",domain#R-HprL23SAC,FALSE,FALSE
 package#Network,domain#MP-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,domain#R-HprLS,FALSE,FALSE
 package#Network,domain#MP-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,domain#R-HprLSAC,FALSE,FALSE
 package#Network,domain#MP-HPsAC,HPsAC,"Finds a Process and its Host with any associated location access contexts, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
@@ -553,9 +562,9 @@ package#NetworkConnectivity,domain#MP-ILSA,ILSA,Finds an Interface connecting to
 package#NetworkConnectivity,domain#MP-INC,INC,"Finds a solo Interface, plus the associated host, subnet, and a host network access context where the interface is connected.",domain#R-INC,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,IoH,"Finds an open network path from the Internet to (but not via) a Host connected to a local subnet, and the associated network interface and access context, plus the location contexts for the host being on that subnet, and optionally the host manager.",domain#R-IoH,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,L3c-rGc-rL3,"Finds a Host connected from an IP subnet to a second distinct IP subnet, both in the same space, where neither is a hotspot and neither is provided by the gateway.",domain#R-L3cGcL3,FALSE,TRUE
-package#NetworkConnectivity,domain#MP-L3c-rGrL3,L3c-rGrL3,"Finds a Host connected from an IP subnet it does not provide to a second, distinct IP subnet that is provided by the Host, both in the same space, where neither subnet is a hotspot.",domain#R-L3cGrL3,FALSE,TRUE
+package#NetworkConnectivity,domain#MP-L3c-rGrL3,L3c-rGrL3,"Finds a Host connected from an IP subnet it does not provide to a second, distinct IP subnet that is provided by the Host, both in the same space, where neither subnet is a hotspot, and there is no logical segment representing the route between subnets via the host..",domain#R-L3cGrL3,FALSE,TRUE
 package#NetworkConnectivity,domain#MP-L3rGc-rL3,L3rGc-rL3,"Finds a Host connected from an IP subnet it provides to a second, distinct IP subnet that it does not provide, both in the same space, where neither subnet is a hotspot.",domain#R-L3rGcL3,FALSE,TRUE
-package#NetworkConnectivity,domain#MP-L3rGrL3,L3rGrL3,Finds a Host providing two distinct IP subnets both in the same space.,domain#R-L3rGrL3,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-L3rGrL3,L3rGrL3,"Finds a Host providing two distinct IP subnets both in the same space, where there is no logical segment representing the route between subnets via the host.",domain#R-L3rGrL3,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2,L3SSg2,"Finds a gateway from an IP subnet to a distinct IP subnet, along with the forward and (open) return path segments via the gateway.",domain#R-L3SSg2,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2+b,L3SSg2+b,"Finds a gateway from one IP subnet to a second IP subnet, along with the segment asset representing the route via the gateway, where this route is blocked by default.",domain#R-L3SSg2+b,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2AC,L3SSg2AC,"Finds a gateway from an IP subnet to a distinct IP subnet, along with the forward and (open) return path segments via the gateway, and a context in which the gateway is connected to both subnets.",domain#R-L3SSg2AC,FALSE,FALSE

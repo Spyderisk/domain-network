@@ -101,7 +101,7 @@ package#Network,domain#Role_CHost,domain#Host
 package#Network,domain#Role_Client,domain#Process
 package#Network,domain#Role_Cluster,domain#ClusterHost
 package#Network,domain#Role_ConsoleHost,domain#ConsoleHost
-package#Network,domain#Role_CoreNetwork,domain#CoreNetwork
+package#Network,domain#Role_CoreNetwork,domain#L3Subnet
 package#Network,domain#Role_DataCentre,domain#DataCentre
 package#Network,domain#Role_Gateway,domain#Host
 package#Network,domain#Role_GeneralProcess,domain#GeneralProcess

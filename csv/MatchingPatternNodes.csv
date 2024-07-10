@@ -1,6 +1,13 @@
 package,URI,hasNode,mandatoryNode,prohibitedNode,sufficientNode
-domain#000000,domain#000000,domain#Node-Gateway-Router,FALSE,FALSE,FALSE
-package#5G,domain#MP-CN-R,domain#Node-Gateway-Router,FALSE,TRUE,FALSE
+domain#000000,domain#000000,domain#Node-Gateway-Host,FALSE,FALSE,FALSE
+package#5G,domain#MP-CN-R,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
+package#5G,domain#MP-CNR-CN,domain#Node-LogicalSubnet-L3Subnet,FALSE,TRUE,FALSE
+package#5G,domain#MP-CNS+RAN+BS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
+package#5G,domain#MP-CNS+RAN-BS,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
+package#5G,domain#MP-CNS-RAN,domain#Node-LogicalSubnet-RAN,FALSE,TRUE,FALSE
+package#5G,domain#MP-PcCNLS-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
+package#5G,domain#MP-PCN-R,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
+package#5G,domain#MP-PCNS+RAN+BS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#Application,domain#MP-HIP-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuiCHDtS-AC,domain#Node-Process-RemoteDesktop,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Node-Client-Process,FALSE,TRUE,FALSE
@@ -375,7 +382,7 @@ package#Network,domain#MP-HACPmAC,domain#Node-HostManager-Human,FALSE,FALSE,FALS
 package#Network,domain#MP-HACPmAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HACPmAC,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#Network,domain#MP-HACPmNC,domain#Node-ProcAccess-ProcNetContext,TRUE,FALSE,FALSE
-package#Network,domain#MP-HL3S,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#Network,domain#MP-HL23S,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HmAC,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#Network,domain#MP-HmAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HmAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
@@ -395,7 +402,7 @@ package#Network,domain#MP-HP-iT,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HPmAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HPmAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HPmAC,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
-package#Network,domain#MP-HprL3SAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#Network,domain#MP-HprL23SAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HprLS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HprLSAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-HPsAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
@@ -523,6 +530,8 @@ package#NetworkConnectivity,domain#MP-HWSGSoS,domain#Node-Process-Process,FALSE,
 package#NetworkConnectivity,domain#MP-I,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-L3c-rGrL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
+package#NetworkConnectivity,domain#MP-L3rGrL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2+b,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2AC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE

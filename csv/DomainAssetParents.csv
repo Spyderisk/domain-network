@@ -2,6 +2,7 @@ package,URI,subClassOf
 domain#000000,domain#000000,domain#DumbHost
 package#5G,domain#BaseStation,domain#DumbHost
 package#5G,domain#BaseStation,domain#FixedHost
+package#5G,domain#BaseStation,domain#HostPalette
 package#5G,domain#BaseStation,domain#SimpleHost
 package#5G,domain#CellularNetwork,domain#AbstractSubnet
 package#5G,domain#PrivateCellularNetwork,domain#CellularNetwork
@@ -9,7 +10,6 @@ package#5G,domain#PrivateCellularNetwork,domain#NetworkPalette
 package#5G,domain#PublicCellularNetwork,domain#CellularNetwork
 package#5G,domain#PublicCellularNetwork,domain#NetworkPalette
 package#5G,domain#RAN,domain#L2Subnet
-package#5G,domain#RAN,domain#L3Subnet
 package#5G,domain#RAN,domain#RadioSubnet
 package#AccessContext,domain#AccessContext,core#Asset
 package#Application,domain#ApplicationProcess,domain#GeneralProcess
@@ -169,6 +169,7 @@ package#Network,domain#Cluster,domain#HostPalette
 package#Network,domain#ClusterHost,domain#TypeOverlayHost
 package#Network,domain#ConsoleHost,domain#InteractiveHost
 package#Network,domain#CoreNetwork,domain#L3Subnet
+package#Network,domain#CoreNetwork,domain#NetworkPalette
 package#Network,domain#CoreNetwork,domain#PhysicalSubnet
 package#Network,domain#CoreRouter,domain#Router
 package#Network,domain#DataCentre,domain#PrivateSpace

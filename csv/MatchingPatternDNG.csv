@@ -1,10 +1,13 @@
 package,hasDistinctNodeGroup,URI,label
-domain#000000,domain#DNG-CcBrR-0,domain#000000,0
-package#5G,domain#DNG-CcBrR-0,domain#MP-CcBrR,0
+domain#000000,domain#DNG-CNRAN2dS-0,domain#000000,0
+package#5G,domain#DNG-CNRAN2dS-0,domain#MP-CNRAN2dS,0
 package#5G,domain#DNG-CrCcL3-0,domain#MP-CrCcL3,0
 package#5G,domain#DNG-CScGcCS-0,domain#MP-CScGcCS,0
-package#5G,domain#DNG-L3cCrC-0,domain#MP-L3cCrC,0
+package#5G,domain#DNG-L3cCrPC-0,domain#MP-L3cCrPC,0
+package#5G,domain#DNG-L3cCrUC-0,domain#MP-L3cCrUC,0
+package#5G,domain#DNG-PCcBrR-0,domain#MP-PCcBrR,0
 package#5G,domain#DNG-RrBcC-0,domain#MP-RrBcC,0
+package#5G,domain#DNG-UCcBrR-0,domain#MP-UCcBrR,0
 package#DataLifecycle,domain#DNG-CSDF-VdDA2-0,domain#MP-CSDF-VdDA2,0
 package#DataLifecycle,domain#DNG-HPDADS2dDO-0,domain#MP-HPDADS2dDO,0
 package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#MP-PcPr-uDS-V,0

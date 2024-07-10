@@ -258,14 +258,14 @@ package#Network,domain#LS.IS.HprLS.8,domain#MS-InService-LogicalSubnet
 package#Network,domain#LS.IS.HprLSAC.1,domain#MS-InService-LogicalSubnet
 package#Network,domain#LS.IS.LS-prH.8,domain#MS-InService-LogicalSubnet
 package#Network,domain#LS.IS.WHmWS.8,domain#MS-InService-Hotspot
-package#Network,domain#LS.L.HL3S.1,domain#MS-LossOfNetworkUserTW-LogicalSubnet
+package#Network,domain#LS.L.HL23S.1,domain#MS-LossOfNetworkUserTW-LogicalSubnet
 package#Network,domain#LS.L.RSSH.1,domain#MS-LossOfNetworkUserTW-RadioSubnet
 package#Network,domain#LS.L.RSS-HP.3,domain#MS-LossOfNetworkUserTW-RadioSubnet
 package#Network,domain#LS.L.RSSH-P.3,domain#MS-LossOfNetworkUserTW-RadioSubnet
 package#Network,domain#LS.L.WSSH.1,domain#MS-LossOfNetworkUserTW-LogicalSubnet
 package#Network,domain#LS.L.WSS-HP.3,domain#MS-LossOfNetworkUserTW-LogicalSubnet
 package#Network,domain#LS.L.WSSH-P.3,domain#MS-LossOfNetworkUserTW-LogicalSubnet
-package#Network,domain#LS.M.HprL3SAC.1,domain#MS-LossOfNetworkControl-LogicalSubnet
+package#Network,domain#LS.M.HprL23SAC.1,domain#MS-LossOfNetworkControl-LogicalSubnet
 package#Network,domain#P.A.HP.0,domain#MS-LossOfAvailability-Process
 package#Network,domain#P.A.HP.1.1,domain#MS-LossOfAvailability-Process
 package#Network,domain#P.A.HP.6.1,domain#MS-LossOfAvailability-Process
@@ -559,7 +559,7 @@ package#Theft,domain#H.M.MHHS.2.1,domain#MS-TheftOfControl-HostAccess
 package#Theft,domain#H.M.PHdH.2,domain#MS-TheftOfControl-Host
 package#Theft,domain#H.P.PHS-iC.3,domain#MS-Theft-Host
 package#Theft,domain#I.IS.INC.2,domain#MS-InService-Interface
-package#Theft,domain#LS.L.HL3S.2,domain#MS-LossOfNetworkUserTW-LogicalSubnet
+package#Theft,domain#LS.L.HL23S.2,domain#MS-LossOfNetworkUserTW-LogicalSubnet
 package#Theft,domain#P.IS.HP.2,domain#MS-InService-Process
 package#Theft,domain#P.L.HuiPCH.2.1,domain#MS-TheftOfControl-Process
 package#Theft,domain#P.L.HuiPCH.2.2,domain#MS-TheftOfControl-Process
