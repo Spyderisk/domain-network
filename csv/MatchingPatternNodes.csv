@@ -3,11 +3,11 @@ domain#000000,domain#000000,domain#Node-Gateway-Host,FALSE,FALSE,FALSE
 package#5G,domain#MP-CN-R,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-CNR-CN,domain#Node-LogicalSubnet-L3Subnet,FALSE,TRUE,FALSE
 package#5G,domain#MP-CNS+RAN+BS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
-package#5G,domain#MP-CNS+RAN-BS,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
+package#5G,domain#MP-CNSBSRAN-p,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-CNS-RAN,domain#Node-LogicalSubnet-RAN,FALSE,TRUE,FALSE
+package#5G,domain#MP-CNSRAN-p,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-PcCNLS-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#5G,domain#MP-PCN-R,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
-package#5G,domain#MP-PCNS+RAN+BS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#Application,domain#MP-HIP-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuiCHDtS-AC,domain#Node-Process-RemoteDesktop,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,domain#Node-Client-Process,FALSE,TRUE,FALSE

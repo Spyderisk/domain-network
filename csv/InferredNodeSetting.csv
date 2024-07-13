@@ -1,10 +1,10 @@
 package,inPattern,hasNode,hasSetting,displayedAtNode,displayedAtLink,displayedAt
 domain#000000,domain#CP-CNR-CN+CN,domain#Node-CoreNetwork-CoreNetwork,domain#INS-CNR-CN+CN-CoreNetwork,TRUE,FALSE,domain#Node-CellularNetwork-CellularNetwork
 package#5G,domain#CP-CNR-CN+CN,domain#Node-CoreNetwork-CoreNetwork,domain#INS-CNR-CN+CN-CoreNetwork,TRUE,FALSE,domain#Node-CellularNetwork-CellularNetwork
-package#5G,domain#CP-CNS+RAN-BS+BS,domain#Node-BaseStation-BaseStation,domain#INS-CNS+RAN-BS+BS-BaseStation,TRUE,FALSE,domain#Node-Space-Space
 package#5G,domain#CP-CNS-RAN+RAN,domain#Node-RAN-RAN,domain#INS-CNS-RAN+RAN-RAN,TRUE,FALSE,domain#Node-Space-Space
+package#5G,domain#CP-CNSRAN-p+BS,domain#Node-BaseStation-BaseStation,domain#INS-CNSRAN-p+BS-BaseStation,TRUE,FALSE,domain#Node-Space-Space
 package#5G,domain#CP-CrCcL3+NSg,domain#Node-LogicalSegment-NATSegment,domain#INS-CrCcL3+NSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
-package#5G,domain#CP-L3cCrPC+DSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-L3cCrPC+DSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
+package#5G,domain#CP-L3cCrPC+DSg,domain#Node-LogicalSegment-DeNATSegment,domain#INS-L3cCrPC+DSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#5G,domain#CP-L3cCrUC+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-L3cCrUC+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#5G,domain#CP-PCcBrR+DSg,domain#Node-LogicalSegment-DeNATSegment,domain#INS-PCcBrR+DSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#5G,domain#CP-PCN+W,domain#Node-World-World,domain#INS-PCN+W-World,TRUE,FALSE,domain#Node-PublicCellularNetwork-PublicCellularNetwork

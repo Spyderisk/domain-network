@@ -1,10 +1,10 @@
 package,URI,includesNodeInURI
 domain#000000,domain#000000,domain#Node-CellularNetwork-CellularNetwork
 package#5G,domain#INS-CNR-CN+CN-CoreNetwork,domain#Node-CellularNetwork-CellularNetwork
-package#5G,domain#INS-CNS+RAN-BS+BS-BaseStation,domain#Node-CellularNetwork-CellularNetwork
-package#5G,domain#INS-CNS+RAN-BS+BS-BaseStation,domain#Node-Space-Space
 package#5G,domain#INS-CNS-RAN+RAN-RAN,domain#Node-CellularNetwork-CellularNetwork
 package#5G,domain#INS-CNS-RAN+RAN-RAN,domain#Node-Space-Space
+package#5G,domain#INS-CNSRAN-p+BS-BaseStation,domain#Node-CellularNetwork-CellularNetwork
+package#5G,domain#INS-CNSRAN-p+BS-BaseStation,domain#Node-Space-Space
 package#5G,domain#INS-CrCcL3+NSg-LogicalSegment,domain#Node-FromSubnet-L3Subnet
 package#5G,domain#INS-CrCcL3+NSg-LogicalSegment,domain#Node-Gateway-Host
 package#5G,domain#INS-CrCcL3+NSg-LogicalSegment,domain#Node-ToSubnet-L3Subnet

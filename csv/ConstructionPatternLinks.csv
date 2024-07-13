@@ -4,10 +4,12 @@ package#5G,domain#CP-CNHS+RAN+cT,domain#Link-PhysicalHost-connectedTo-RAN
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-providedBy-Gateway
 package#5G,domain#CP-CNRS+aF,domain#Link-LogicalSubnet-accessibleFrom-Space
-package#5G,domain#CP-CNS+RAN-BS+BS,domain#Link-BaseStation-connectedTo-CoreNetwork
-package#5G,domain#CP-CNS+RAN-BS+BS,domain#Link-RAN-providedBy-BaseStation
+package#5G,domain#CP-CNSBSRAN-p+p,domain#Link-RAN-providedBy-Gateway
 package#5G,domain#CP-CNS-RAN+RAN,domain#Link-RAN-accessibleFrom-Space
 package#5G,domain#CP-CNS-RAN+RAN,domain#Link-RAN-implementsCN-CellularNetwork
+package#5G,domain#CP-CNSRAN-p+BS,domain#Link-BaseStation-connectedTo-CoreNetwork
+package#5G,domain#CP-CNSRAN-p+BS,domain#Link-BaseStation-hasPhysicalHost-BaseStation
+package#5G,domain#CP-CNSRAN-p+BS,domain#Link-RAN-providedBy-BaseStation
 package#5G,domain#CP-CrCcL3+NSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-CrCcL3+NSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-CrCcL3+NSg,domain#Link-LogicalSegment-via-Gateway

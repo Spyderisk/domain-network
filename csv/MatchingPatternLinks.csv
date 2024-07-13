@@ -7,10 +7,10 @@ package#5G,domain#MP-CN-R,domain#Link-CellularNetwork-providedBy-Gateway,FALSE
 package#5G,domain#MP-CNR-CN,domain#Link-LogicalSubnet-implementsCN-CellularNetwork,FALSE
 package#5G,domain#MP-CNR-CN,domain#Link-LogicalSubnet-providedBy-Gateway,FALSE
 package#5G,domain#MP-CNS+RAN+BS-S,domain#Link-PhysicalHost-locatedIn-OtherSpace,FALSE
-package#5G,domain#MP-CNS+RAN-BS,domain#Link-Gateway-connectedTo-CoreNetwork,FALSE
-package#5G,domain#MP-CNS+RAN-BS,domain#Link-RAN-providedBy-Gateway,FALSE
+package#5G,domain#MP-CNSBSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-CNS-RAN,domain#Link-LogicalSubnet-accessibleFrom-Space,FALSE
 package#5G,domain#MP-CNS-RAN,domain#Link-LogicalSubnet-implementsCN-CellularNetwork,FALSE
+package#5G,domain#MP-CNSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-implements-CellularNetwork,TRUE
 package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#5G,domain#MP-L3cCrPC,domain#Link-FromSubnet-implementsCN-CellularNetwork,TRUE
@@ -19,7 +19,6 @@ package#5G,domain#MP-L3cCrUC,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#MP-L3cCrUC,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
 package#5G,domain#MP-PcCNLS-S,domain#Link-Service-controls-LogicalSubnet,FALSE
 package#5G,domain#MP-PCN-R,domain#Link-PublicCellularNetwork-providedBy-Gateway,FALSE
-package#5G,domain#MP-PCNS+RAN+BS-S,domain#Link-PhysicalHost-locatedIn-OtherSpace,FALSE
 package#Application,domain#MP-D,domain#Link-Data-isSpam-Data,TRUE
 package#Application,domain#MP-HIP-Hu,domain#Link-Human-interactsRemotelyWith-InteractiveProcess,FALSE
 package#Application,domain#MP-HuiCHDtS-AC,domain#Link-Human-interactsRemotelyWith-Process,FALSE

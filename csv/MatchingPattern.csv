@@ -6,9 +6,10 @@ package#5G,domain#MP-CN-R,CN-R,Finds a Cellular Network that is not provided by 
 package#5G,domain#MP-CNRAN2dS,CNRAN2dS,"Finds a radio access network implementing part of a cellular network, provided by a host serving as the base station and having (at least) two distinct locations.",domain#R-CNRAN2S,FALSE,FALSE
 package#5G,domain#MP-CNR-CN,CNR-CN,Finds a cellular network provided by a router that has no backbone IP network.,domain#R-CNR,FALSE,FALSE
 package#5G,domain#MP-CNRS,CNRS,Finds a cellular network provided by a gateway host which therefore also provides the backbone network.,domain#R-CNRS,FALSE,FALSE
-package#5G,domain#MP-CNS+RAN+BS-S,CNS+RAN+BS-S,Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network provided by a gateway with no physical location.,domain#R-CNS+RAN+BS,FALSE,FALSE
-package#5G,domain#MP-CNS+RAN-BS,CNS+RAN-BS,"Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network, but this is not provided by a host acting as a base station.",domain#R-CNS+RAN,FALSE,FALSE
+package#5G,domain#MP-CNS+RAN+BS-S,CNS+RAN+BS-S,Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network provided by a gateway running on a base station with no physical location.,domain#R-CNS+RAN+BS,FALSE,FALSE
+package#5G,domain#MP-CNSBSRAN-p,CNSBSRAN-p,"Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network not provided by any host, and there is a base station in the same space that is connected to the cellular newtork backbone, or hosts a virtual base station that is connected to the cellular network backbone.",domain#R-CNSBSRAN,FALSE,FALSE
 package#5G,domain#MP-CNS-RAN,CNS-RAN,"Finds a backbone network implementing a cellular network accessible from a space, but lacking a radio access network in that space.",domain#R-CNS,FALSE,FALSE
+package#5G,domain#MP-CNSRAN-p,CNSRAN-p,Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network not provided by any host.,domain#R-CNSRAN,FALSE,FALSE
 package#5G,domain#MP-CrCcL3,CrCcL3,"Finds a gateway host providing a backbone network for a cellular network, connected to an IP subnet that is not part of the cellular network.",domain#R-CrCcL3,FALSE,FALSE
 package#5G,domain#MP-CScGcCS,CScGcCS,"Finds a Physical Host connected between two distinct Cellular networks, both in the same space.",domain#R-CScGcCS,FALSE,FALSE
 package#5G,domain#MP-FCNS,FCNS,Finds a Cellular Network to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FCNS,FALSE,FALSE
@@ -20,7 +21,6 @@ package#5G,domain#MP-PcCNLS-S,PcCNLS-S,"Finds a process controlling a cellular n
 package#5G,domain#MP-PCN,PCN,Finds a Public Cellular Network.,domain#R-PCN,FALSE,FALSE
 package#5G,domain#MP-PCN-R,PCN-R,Finds a public cellular network that is not provided by any host.,domain#R-PCN,FALSE,FALSE
 package#5G,domain#MP-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which should also be accessible from the World.",domain#R-PCNRWI,FALSE,FALSE
-package#5G,domain#MP-PCNS+RAN+BS-S,PCNS+RAN+BS-S,Finds a backbone network implementing a private cellular network accessible from a space in which it has a radio access network provided by a gateway with no physical location.,domain#R-PCNS+RAN+BS,FALSE,FALSE
 package#5G,domain#MP-RrBcC,RrBcC,Finds a BaseStation providing a RAN and connected to a core network both of which are part of a cellular network.,domain#R-RrBcC,FALSE,FALSE
 package#5G,domain#MP-UCcBrR,UCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Public Cellular Network.",domain#R-UCcBrR,FALSE,FALSE
 package#Application,domain#MP-CP,CP,Finds a solo Control Process.,domain#R-CP,FALSE,FALSE
