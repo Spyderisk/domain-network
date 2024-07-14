@@ -20,6 +20,7 @@ package#5G,domain#MP-PCcBrR,PCcBrR,"Finds a host acting as a base station, conne
 package#5G,domain#MP-PcCNLS-S,PcCNLS-S,"Finds a process controlling a cellular network, and a logical subnet that implements part of the cellular network, where this logical subnet has no controlling service.",domain#R-PcCNLS,FALSE,FALSE
 package#5G,domain#MP-PCN,PCN,Finds a Public Cellular Network.,domain#R-PCN,FALSE,FALSE
 package#5G,domain#MP-PCN-R,PCN-R,Finds a public cellular network that is not provided by any host.,domain#R-PCN,FALSE,FALSE
+package#5G,domain#MP-PCNRSI,PCNRSI,Finds a Public Cellular Network provided by a Gateway Host which is physically located in a Space and also connected to the Internet.,domain#R-PCNRSI,FALSE,FALSE
 package#5G,domain#MP-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which should also be accessible from the World.",domain#R-PCNRWI,FALSE,FALSE
 package#5G,domain#MP-RrBcC,RrBcC,Finds a BaseStation providing a RAN and connected to a core network both of which are part of a cellular network.,domain#R-RrBcC,FALSE,FALSE
 package#5G,domain#MP-UCcBrR,UCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Public Cellular Network.",domain#R-UCcBrR,FALSE,FALSE

@@ -29,6 +29,7 @@ package#5G,domain#CP-PCN+W,domain#Link-PublicCellularNetwork-accessibleFrom-Worl
 package#5G,domain#CP-PCN+W,domain#Link-World-isWorld-World
 package#5G,domain#CP-PCN-R+R,domain#Link-PublicCellularNetwork-providedBy-Router
 package#5G,domain#CP-PCN-R+R,domain#Link-Router-hasPhysicalHost-Router
+package#5G,domain#CP-PCNRSI+aF,domain#Link-Internet-accessibleFrom-Space
 package#5G,domain#CP-PCNRWI+ct,domain#Link-Gateway-connectedTo-Internet
 package#5G,domain#CP-RrBcC+NSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-RrBcC+NSg,domain#Link-LogicalSegment-to-ToSubnet

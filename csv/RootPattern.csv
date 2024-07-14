@@ -19,7 +19,8 @@ package#5G,domain#R-MPCNS,MPCNS,Finds a Public Cellular Network to which is conn
 package#5G,domain#R-PCcBrR,PCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Private Cellular Network.",FALSE,FALSE
 package#5G,domain#R-PcCNLS,PcCNLS,"Finds a process controlling a cellular network, and a logical subnet that implements part of the cellular network.",FALSE,FALSE
 package#5G,domain#R-PCN,PCN,Finds a Public Cellular Network.,FALSE,FALSE
-package#5G,domain#R-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which should also be accessible from the World.",FALSE,FALSE
+package#5G,domain#R-PCNRSI,PCNRSI,Finds a Public Cellular Network provided by a Gateway Host which is physically located in a Space and also connected to the Internet.,FALSE,FALSE
+package#5G,domain#R-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which is also accessible from the World.",FALSE,FALSE
 package#5G,domain#R-RrBcC,RrBcC,"Finds a host acting as a base station providing a RAN and connected to a backbone network, both of which are part of a cellular network.",FALSE,FALSE
 package#5G,domain#R-UCcBrR,UCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Public Cellular Network.",FALSE,FALSE
 package#Application,domain#R-CP,CP,Finds a solo Console Process.,FALSE,FALSE

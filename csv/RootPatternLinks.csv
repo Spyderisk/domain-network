@@ -64,6 +64,10 @@ package#5G,domain#R-PCcBrR,domain#Link-ToSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-PCcBrR,domain#Link-ToSubnet-providedBy-Gateway
 package#5G,domain#R-PcCNLS,domain#Link-LogicalSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-PcCNLS,domain#Link-Process-controls-CellularNetwork
+package#5G,domain#R-PCNRSI,domain#Link-Gateway-connectedTo-Internet
+package#5G,domain#R-PCNRSI,domain#Link-Gateway-hasPhysicalHost-PhysicalHost
+package#5G,domain#R-PCNRSI,domain#Link-PhysicalHost-locatedIn-Space
+package#5G,domain#R-PCNRSI,domain#Link-PublicCellularNetwork-providedBy-Gateway
 package#5G,domain#R-PCNRWI,domain#Link-Internet-accessibleFrom-World
 package#5G,domain#R-PCNRWI,domain#Link-PublicCellularNetwork-accessibleFrom-World
 package#5G,domain#R-PCNRWI,domain#Link-PublicCellularNetwork-providedBy-Gateway
