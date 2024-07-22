@@ -13,16 +13,28 @@ package#5G,domain#R-CNSRAN,CNSRAN,Finds a backbone network implementing a cellul
 package#5G,domain#R-CrCcL3,CrCcL3,"Finds a gateway host providing a backbone network for a cellular network, connected to an IP subnet.",FALSE,FALSE
 package#5G,domain#R-CScGcCS,CScGcCS,"Finds a Physical Host connected between two Cellular networks, both in the same space.",FALSE,FALSE
 package#5G,domain#R-FCNS,FCNS,Finds a Cellular Network to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
+package#5G,domain#R-L3cBrPR,L3cBrPR,"Finds a host acting as a base station providing a RAN in a private cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
+package#5G,domain#R-L3cBrUR,L3cBrUR,"Finds a host acting as a base station providing a RAN in a public cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
 package#5G,domain#R-L3cCrPC,L3cCrPC,Finds a host acting as a router connected to an external IP subnet and providing the backbone network of a private cellular network.,FALSE,FALSE
 package#5G,domain#R-L3cCrUC,L3cCrUC,Finds a host acting as a router connected to an external IP subnet and providing the backbone network of a public cellular network.,FALSE,FALSE
+package#5G,domain#R-L3cGcR,L3cGcR,"Finds a host connected to a RAN in a cellular network, an L2 or L3 Subnet accessible in the same Space as the RAN.",FALSE,FALSE
+package#5G,domain#R-L3rBrPR,L3rBrPR,"Finds a host acting as a base station providing a RAN in a private cellular network, and also providing an L2 or L3 Subnet.",FALSE,FALSE
+package#5G,domain#R-L3rBrR,L3rBrR,"Finds a host acting as a base station providing the RAN in a space for a cellular network, and also providing a backbone network in the same cellular network.",FALSE,FALSE
+package#5G,domain#R-L3rBrUR,L3rBrUR,"Finds a host acting as a base station providing a RAN in a public cellular network, and also providing an L2 or L3 Subnet.",FALSE,FALSE
 package#5G,domain#R-MPCNS,MPCNS,Finds a Public Cellular Network to which is connected a Mobile Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
-package#5G,domain#R-PCcBrR,PCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Private Cellular Network.",FALSE,FALSE
+package#5G,domain#R-PCcBrPR,PCcBrPR,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a private cellular network.",FALSE,FALSE
 package#5G,domain#R-PcCNLS,PcCNLS,"Finds a process controlling a cellular network, and a logical subnet that implements part of the cellular network.",FALSE,FALSE
 package#5G,domain#R-PCN,PCN,Finds a Public Cellular Network.,FALSE,FALSE
 package#5G,domain#R-PCNRSI,PCNRSI,Finds a Public Cellular Network provided by a Gateway Host which is physically located in a Space and also connected to the Internet.,FALSE,FALSE
 package#5G,domain#R-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which is also accessible from the World.",FALSE,FALSE
-package#5G,domain#R-RrBcC,RrBcC,"Finds a host acting as a base station providing a RAN and connected to a backbone network, both of which are part of a cellular network.",FALSE,FALSE
-package#5G,domain#R-UCcBrR,UCcBrR,"Finds a host acting as a base station, connected to a cellular network backbone network and providing a RAN, both of which are part of a Public Cellular Network.",FALSE,FALSE
+package#5G,domain#R-PRrBcL3,PRrBcL3,"Finds a host acting as a base station providing a RAN in a private cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
+package#5G,domain#R-PRrBrPR,PRrBrPR,"Finds a host acting as a base station providing two RANs, both of which are part of the same private cellular network.",FALSE,FALSE
+package#5G,domain#R-RcGcL3,RcGcL3,"Finds a host connected to a RAN in a cellular network, and an L2 or L3 Subnet accessible in the same Space as the RAN.",FALSE,FALSE
+package#5G,domain#R-RrBcC,RrBcC,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a cellular network.",FALSE,FALSE
+package#5G,domain#R-RrBrL3,RrBrL3,"Finds a host acting as a base station providing a RAN in a cellular network, and also providing an L2 or L3 Subnet.",FALSE,FALSE
+package#5G,domain#R-UCcBrUR,UCcBrUR,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a public cellular network.",FALSE,FALSE
+package#5G,domain#R-URrBcL3,URrBcL3,"Finds a host acting as a base station providing a RAN in a public cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
+package#5G,domain#R-URrBrUR,URrBrUR,"Finds a host acting as a base station providing two RANs, both of which are part of the same public cellular network.",FALSE,FALSE
 package#Application,domain#R-CP,CP,Finds a solo Console Process.,FALSE,FALSE
 package#Application,domain#R-D,D,Finds a solo Data asset.,FALSE,FALSE
 package#Application,domain#R-HD,HD,Finds Data stored at a Host.,FALSE,FALSE
@@ -286,12 +298,12 @@ package#LocalDeviceConnectivity,domain#R-HumHBTTH,HumHBTTH,Finds a Human managin
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,HumHUSBTH,Finds a TrivialHost paired via Bluetooth with another host managed by a Human.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HUSBTHS,HUSBTHS,Finds a Host in a Space that accepts pairing via USB with a TrivialHost.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host with a pairing connection that is also connected to an IP subnet, all in the same space.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,L1rGcL3,"Finds a Bluetooth or USB device connected from a host to an IP subnet, all in the same space.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host with a pairing connection that is also connected to an L2/L3 subnet, all in the same space.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L1rGcL3,L1rGcL3,"Finds a Bluetooth or USB device connected from a host to an L2/L3 subnet, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,L1SSg2,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the segment asset representing the path via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L3cGcL1,L3cGcL1,"Finds a Physical Host gateway on an IP subnet with a paring connection, all in the same space.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L3cGrL1,L3cGrL1,"Finds a USB/Bluetooth device connected from an IP subnet to a Host, all in the same space.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L3cGcL1,L3cGcL1,"Finds a Physical Host gateway on an L2/L3 subnet with a paring connection, all in the same space.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L3cGrL1,L3cGrL1,"Finds a USB/Bluetooth device connected from an L2/L3 subnet to a Host, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-LTethSg2,LTethSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,LTethSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-LTRevSg2,LTRevSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a reverse tethered gateway to an IP subnet, and the forward path segment via the gateway.",FALSE,FALSE
