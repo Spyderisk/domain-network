@@ -3,8 +3,6 @@ domain#000000,domain#000000,domain#Node-CellularNetwork-CellularNetwork
 package#5G,domain#INS-CNR-CN+CN-CoreNetwork,domain#Node-CellularNetwork-CellularNetwork
 package#5G,domain#INS-CNS-RAN+RAN-RAN,domain#Node-CellularNetwork-CellularNetwork
 package#5G,domain#INS-CNS-RAN+RAN-RAN,domain#Node-Space-Space
-package#5G,domain#INS-CNSRAN-p+BS-BaseStation,domain#Node-CellularNetwork-CellularNetwork
-package#5G,domain#INS-CNSRAN-p+BS-BaseStation,domain#Node-Space-Space
 package#5G,domain#INS-CrCcL3+NSg-LogicalSegment,domain#Node-FromSubnet-L3Subnet
 package#5G,domain#INS-CrCcL3+NSg-LogicalSegment,domain#Node-Gateway-Host
 package#5G,domain#INS-CrCcL3+NSg-LogicalSegment,domain#Node-ToSubnet-L3Subnet
@@ -33,6 +31,8 @@ package#5G,domain#INS-PCc-rBrPR+DSg-LogicalSegment,domain#Node-FromSubnet-L23Sub
 package#5G,domain#INS-PCc-rBrPR+DSg-LogicalSegment,domain#Node-Gateway-Host
 package#5G,domain#INS-PCc-rBrPR+DSg-LogicalSegment,domain#Node-ToSubnet-RAN
 package#5G,domain#INS-PCN-R+R-Router,domain#Node-PublicCellularNetwork-PublicCellularNetwork
+package#5G,domain#INS-PCNSRAN-p+BS-BaseStation,domain#Node-CellularNetwork-CellularNetwork
+package#5G,domain#INS-PCNSRAN-p+BS-BaseStation,domain#Node-Space-Space
 package#5G,domain#INS-PRrBc-rL3+NSg-LogicalSegment,domain#Node-FromSubnet-RAN
 package#5G,domain#INS-PRrBc-rL3+NSg-LogicalSegment,domain#Node-Gateway-Host
 package#5G,domain#INS-PRrBc-rL3+NSg-LogicalSegment,domain#Node-ToSubnet-L23Subnet
@@ -51,6 +51,8 @@ package#5G,domain#INS-RrBrL3+NSg-LogicalSegment,domain#Node-ToSubnet-L23Subnet
 package#5G,domain#INS-UCc-rBrUR+CSg-LogicalSegment,domain#Node-FromSubnet-L23Subnet
 package#5G,domain#INS-UCc-rBrUR+CSg-LogicalSegment,domain#Node-Gateway-Host
 package#5G,domain#INS-UCc-rBrUR+CSg-LogicalSegment,domain#Node-ToSubnet-RAN
+package#5G,domain#INS-UCNSRAN-p+BS-BaseStation,domain#Node-CellularNetwork-CellularNetwork
+package#5G,domain#INS-UCNSRAN-p+BS-BaseStation,domain#Node-Space-Space
 package#5G,domain#INS-URrBc-rL3+CSg-LogicalSegment,domain#Node-FromSubnet-RAN
 package#5G,domain#INS-URrBc-rL3+CSg-LogicalSegment,domain#Node-Gateway-Host
 package#5G,domain#INS-URrBc-rL3+CSg-LogicalSegment,domain#Node-ToSubnet-L23Subnet

@@ -10,7 +10,6 @@ package#5G,domain#MP-CNS+RAN+BS-S,domain#Link-PhysicalHost-locatedIn-OtherSpace,
 package#5G,domain#MP-CNSBSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-CNS-RAN,domain#Link-LogicalSubnet-accessibleFrom-Space,FALSE
 package#5G,domain#MP-CNS-RAN,domain#Link-LogicalSubnet-implementsCN-CellularNetwork,FALSE
-package#5G,domain#MP-CNSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-implements-CellularNetwork,TRUE
 package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#5G,domain#MP-L3cCrPC,domain#Link-FromSubnet-implementsCN-CellularNetwork,TRUE
@@ -35,6 +34,7 @@ package#5G,domain#MP-PcCNLS-S,domain#Link-Service-controls-LogicalSubnet,FALSE
 package#5G,domain#MP-PCc-rBrPR,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
 package#5G,domain#MP-PCc-rBrPR,domain#Link-FromSubnet-providedBy-Gateway,TRUE
 package#5G,domain#MP-PCN-R,domain#Link-PublicCellularNetwork-providedBy-Gateway,FALSE
+package#5G,domain#MP-PCNSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-PRrBc-rL3,domain#Link-ToSubnet-implementsCN-CellularNetwork,TRUE
 package#5G,domain#MP-PRrBc-rL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#5G,domain#MP-PRrBc-rL3,domain#Link-ToSubnet-providedBy-Gateway,TRUE
@@ -47,6 +47,7 @@ package#5G,domain#MP-RrBrL3,domain#Link-ToSubnet-implementsCN-CellularNetwork,TR
 package#5G,domain#MP-RrBrL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#5G,domain#MP-UCc-rBrUR,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
 package#5G,domain#MP-UCc-rBrUR,domain#Link-FromSubnet-providedBy-Gateway,TRUE
+package#5G,domain#MP-UCNSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-URrBc-rL3,domain#Link-ToSubnet-implementsCN-CellularNetwork,TRUE
 package#5G,domain#MP-URrBc-rL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#5G,domain#MP-URrBc-rL3,domain#Link-ToSubnet-providedBy-Gateway,TRUE

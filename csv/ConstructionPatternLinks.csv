@@ -7,9 +7,6 @@ package#5G,domain#CP-CNRS+aF,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#5G,domain#CP-CNSBSRAN-p+p,domain#Link-RAN-providedBy-Gateway
 package#5G,domain#CP-CNS-RAN+RAN,domain#Link-RAN-accessibleFrom-Space
 package#5G,domain#CP-CNS-RAN+RAN,domain#Link-RAN-implementsCN-CellularNetwork
-package#5G,domain#CP-CNSRAN-p+BS,domain#Link-BaseStation-connectedTo-CoreNetwork
-package#5G,domain#CP-CNSRAN-p+BS,domain#Link-BaseStation-hasPhysicalHost-BaseStation
-package#5G,domain#CP-CNSRAN-p+BS,domain#Link-RAN-providedBy-BaseStation
 package#5G,domain#CP-CrCcL3+NSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-CrCcL3+NSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-CrCcL3+NSg,domain#Link-LogicalSegment-via-Gateway
@@ -46,6 +43,9 @@ package#5G,domain#CP-PCN-R+R,domain#Link-PublicCellularNetwork-providedBy-Router
 package#5G,domain#CP-PCN-R+R,domain#Link-Router-hasPhysicalHost-Router
 package#5G,domain#CP-PCNRSI+aF,domain#Link-Internet-accessibleFrom-Space
 package#5G,domain#CP-PCNRWI+ct,domain#Link-Gateway-connectedTo-Internet
+package#5G,domain#CP-PCNSRAN-p+BS,domain#Link-BaseStation-connectedTo-CoreNetwork
+package#5G,domain#CP-PCNSRAN-p+BS,domain#Link-BaseStation-hasPhysicalHost-BaseStation
+package#5G,domain#CP-PCNSRAN-p+BS,domain#Link-RAN-providedBy-BaseStation
 package#5G,domain#CP-PRrBc-rL3+NSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-PRrBc-rL3+NSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-PRrBc-rL3+NSg,domain#Link-LogicalSegment-via-Gateway
@@ -64,6 +64,9 @@ package#5G,domain#CP-RrBrL3+NSg,domain#Link-LogicalSegment-via-Gateway
 package#5G,domain#CP-UCc-rBrUR+CSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-UCc-rBrUR+CSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-UCc-rBrUR+CSg,domain#Link-LogicalSegment-via-Gateway
+package#5G,domain#CP-UCNSRAN-p+BS,domain#Link-BaseStation-connectedTo-CoreNetwork
+package#5G,domain#CP-UCNSRAN-p+BS,domain#Link-BaseStation-hasPhysicalHost-BaseStation
+package#5G,domain#CP-UCNSRAN-p+BS,domain#Link-RAN-providedBy-BaseStation
 package#5G,domain#CP-URrBc-rL3+CSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-URrBc-rL3+CSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-URrBc-rL3+CSg,domain#Link-LogicalSegment-via-Gateway

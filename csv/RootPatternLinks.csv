@@ -34,10 +34,6 @@ package#5G,domain#R-CNSBSRAN,domain#Link-Gateway-connectedTo-CoreNetwork
 package#5G,domain#R-CNSBSRAN,domain#Link-Gateway-hasPhysicalHost-BaseStation
 package#5G,domain#R-CNSBSRAN,domain#Link-RAN-accessibleFrom-Space
 package#5G,domain#R-CNSBSRAN,domain#Link-RAN-implements-CellularNetwork
-package#5G,domain#R-CNSRAN,domain#Link-CellularNetwork-accessibleFrom-Space
-package#5G,domain#R-CNSRAN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
-package#5G,domain#R-CNSRAN,domain#Link-RAN-accessibleFrom-Space
-package#5G,domain#R-CNSRAN,domain#Link-RAN-implementsCN-CellularNetwork
 package#5G,domain#R-CrCcL3,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-CrCcL3,domain#Link-FromSubnet-providedBy-Gateway
 package#5G,domain#R-CrCcL3,domain#Link-Gateway-connectedTo-ToSubnet
@@ -97,6 +93,10 @@ package#5G,domain#R-PCNRSI,domain#Link-PublicCellularNetwork-providedBy-Gateway
 package#5G,domain#R-PCNRWI,domain#Link-Internet-accessibleFrom-World
 package#5G,domain#R-PCNRWI,domain#Link-PublicCellularNetwork-accessibleFrom-World
 package#5G,domain#R-PCNRWI,domain#Link-PublicCellularNetwork-providedBy-Gateway
+package#5G,domain#R-PCNSRAN,domain#Link-CellularNetwork-accessibleFrom-Space
+package#5G,domain#R-PCNSRAN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
+package#5G,domain#R-PCNSRAN,domain#Link-RAN-accessibleFrom-Space
+package#5G,domain#R-PCNSRAN,domain#Link-RAN-implementsCN-CellularNetwork
 package#5G,domain#R-PRrBcL3,domain#Link-FromSubnet-accessibleFrom-Space
 package#5G,domain#R-PRrBcL3,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-PRrBcL3,domain#Link-FromSubnet-providedBy-Gateway
@@ -122,6 +122,10 @@ package#5G,domain#R-UCcBrUR,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-UCcBrUR,domain#Link-Gateway-connectedTo-FromSubnet
 package#5G,domain#R-UCcBrUR,domain#Link-ToSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-UCcBrUR,domain#Link-ToSubnet-providedBy-Gateway
+package#5G,domain#R-UCNSRAN,domain#Link-CellularNetwork-accessibleFrom-Space
+package#5G,domain#R-UCNSRAN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
+package#5G,domain#R-UCNSRAN,domain#Link-RAN-accessibleFrom-Space
+package#5G,domain#R-UCNSRAN,domain#Link-RAN-implementsCN-CellularNetwork
 package#5G,domain#R-URrBcL3,domain#Link-FromSubnet-accessibleFrom-Space
 package#5G,domain#R-URrBcL3,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-URrBcL3,domain#Link-FromSubnet-providedBy-Gateway
