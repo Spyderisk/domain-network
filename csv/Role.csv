@@ -127,6 +127,7 @@ package#Network,domain#Role_Subnet,Subnet,A logical subnet.
 package#Network,domain#Role_TrivialHost,TrivialHost,"A trivial host unable to support shell access, e.g. a removable storage device or an IoT device."
 package#Network,domain#Role_TrivialProcess,TrivialProcess,A process that is so trivial it is not subject to some types of threats.
 package#Network,domain#Role_WiredLAN,WiredLAN,A wired local area network.
+package#NetworkConnectivity,domain#Role_ExPath,ExPath,A temporary network path from which some other path has been contructed.
 package#NetworkConnectivity,domain#Role_FromHost,FromHost,A host that is (or hosts) the source of a message or data flow.
 package#NetworkConnectivity,domain#Role_FromSubnet,FromSubnet,A subnet at the start of a network path or communication channel.
 package#NetworkConnectivity,domain#Role_FwdSegment,FwdSegment,A logical segment representing the forward path for connections via a gateway.

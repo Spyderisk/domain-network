@@ -156,6 +156,7 @@ package#NetworkConnectivity,domain#via,via,The LogicalSegment routes messages ac
 package#NetworkConnectivity,domain#visits,visits,"The Network Path passes through the Logical Subnet, which is either at the start or end of the path, or between the start and end of the path.",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#visitsGateway,visitsGateway,The NetworkPath goes from one subnet to another via the host.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#NetworkConnectivityInference,domain#extends,extends,The first NetworkPath is a longer path consisting of a step from the starting subnet followed by the second path from that subnet.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
+package#NetworkConnectivityInference,domain#hasTempPath,hasTempPath,"Relates a Logical Path (i.e., some type of network path) to a temporary path from which it was constructed.",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 package#NetworkConnectivityInference,domain#pEndsAt,pEndsAt,The path terminating at the NPE/PPE terminator goes to the LogicalSubnet.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#NetworkConnectivityInference,domain#pVia,pVia,The path terminating at the NPE/PPE terminator goes via the LogicalSubnet.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#NetworkInference,domain#runsIn,runsIn,Link from a process to an context where it needs to execute.,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE

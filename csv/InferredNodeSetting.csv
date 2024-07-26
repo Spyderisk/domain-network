@@ -103,10 +103,8 @@ package#IoT,domain#CP-SesD+SP,domain#Node-SimpleProcess-SensorProcess,domain#INS
 package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-BPcGcBP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#Node-BluetoothPair-BluetoothPair,domain#INS-HpBRH+B-BluetoothPair,FALSE,TRUE,domain#Link-RemoteHost-pairsViaBluetooth-LocalHost
 package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#Node-USBPair-USBPair,domain#INS-HpURH+U-USBPair,FALSE,TRUE,domain#Link-RemoteHost-pairsViaUSB-LocalHost
-package#LocalDeviceConnectivity,domain#CP-L1c-rGcL3+NSg,domain#Node-LogicalSegment-ReverseTetheringSegment,domain#INS-L1c-rGcL3+NSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
-package#LocalDeviceConnectivity,domain#CP-L1rGcL3+OSg,domain#Node-LogicalSegment-TetheringSegment,domain#INS-L1rGcL3+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
-package#LocalDeviceConnectivity,domain#CP-L3cGc-rL1+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-L3cGc-rL1+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
-package#LocalDeviceConnectivity,domain#CP-L3cGrL1+OSg,domain#Node-LogicalSegment-OpenSegment,domain#INS-L3cGrL1+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
+package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#Node-LogicalSegment-TetheringSegment,domain#INS-L1cGcL3+NSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
+package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-L3cGcL1+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-UHDrP-S+S,domain#Node-DataService-DataService,domain#INS-UHDrP-S+S-DataService,TRUE,FALSE,domain#Node-USBHost-USBHost
 package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-UPc-rGrUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-UPrGc-rUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost

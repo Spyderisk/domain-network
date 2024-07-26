@@ -1361,11 +1361,6 @@ package#LocalDeviceConnectivity,domain#R-L1cGcL3,domain#Node-FromSubnet-L1Subnet
 package#LocalDeviceConnectivity,domain#R-L1cGcL3,domain#Node-Gateway-PhysicalHost,TRUE
 package#LocalDeviceConnectivity,domain#R-L1cGcL3,domain#Node-Space-Space,TRUE
 package#LocalDeviceConnectivity,domain#R-L1cGcL3,domain#Node-ToSubnet-L23Subnet,TRUE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,domain#Node-FromHost-Host,TRUE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,domain#Node-FromSubnet-L1Subnet,TRUE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,domain#Node-Gateway-PhysicalHost,TRUE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,domain#Node-Space-Space,TRUE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,domain#Node-ToSubnet-L23Subnet,TRUE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Node-FromHost-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Node-FromSubnet-L1Subnet,TRUE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Node-FwdSegment-LogicalRoute,TRUE
@@ -1384,11 +1379,6 @@ package#LocalDeviceConnectivity,domain#R-L3cGcL1,domain#Node-Gateway-PhysicalHos
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,domain#Node-Space-Space,TRUE
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,domain#Node-ToHost-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,domain#Node-ToSubnet-L1Subnet,TRUE
-package#LocalDeviceConnectivity,domain#R-L3cGrL1,domain#Node-FromSubnet-L23Subnet,TRUE
-package#LocalDeviceConnectivity,domain#R-L3cGrL1,domain#Node-Gateway-PhysicalHost,TRUE
-package#LocalDeviceConnectivity,domain#R-L3cGrL1,domain#Node-Space-Space,TRUE
-package#LocalDeviceConnectivity,domain#R-L3cGrL1,domain#Node-ToHost-Host,TRUE
-package#LocalDeviceConnectivity,domain#R-L3cGrL1,domain#Node-ToSubnet-L1Subnet,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-FromSubnet-L1Subnet,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-FwdSegment-TetheringSegment,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-Gateway-Host,TRUE

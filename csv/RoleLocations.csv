@@ -150,6 +150,7 @@ package#Network,domain#Role_Subnet,domain#LogicalSubnet
 package#Network,domain#Role_TrivialHost,domain#TrivialHost
 package#Network,domain#Role_TrivialProcess,domain#TrivialProcess
 package#Network,domain#Role_WiredLAN,domain#WiredLAN
+package#NetworkConnectivity,domain#Role_ExPath,domain#TempLogicalPath
 package#NetworkConnectivity,domain#Role_FromHost,domain#Host
 package#NetworkConnectivity,domain#Role_FromSubnet,domain#LogicalSubnet
 package#NetworkConnectivity,domain#Role_FromSubnet,domain#TypeOverlaySubnet

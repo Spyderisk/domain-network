@@ -149,7 +149,7 @@ package#LocalDeviceConnectivity,domain#Router,domain#USBHost
 package#LocalDeviceConnectivity,domain#Server,domain#USBHost
 package#LocalDeviceConnectivity,domain#Smartphone,domain#USBDevice
 package#LocalDeviceConnectivity,domain#Tablet,domain#USBDevice
-package#LocalDeviceConnectivity,domain#TetheringSegment,domain#OpenSegment
+package#LocalDeviceConnectivity,domain#TetheringSegment,domain#NATSegment
 package#LocalDeviceConnectivity,domain#Thing,domain#USBDevice
 package#LocalDeviceConnectivity,domain#USBDevice,domain#TypeOverlayHost
 package#LocalDeviceConnectivity,domain#USBHost,domain#TypeOverlayHost

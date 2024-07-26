@@ -341,6 +341,7 @@ package#Legal,domain#MP-HuDSHoJoSt,domain#Node-Jurisdiction-Jurisdiction,FALSE,F
 package#Legal,domain#MP-HuDSHoJoSt,domain#Node-Operator-Stakeholder,FALSE,FALSE,FALSE
 package#Legal,domain#MP-HuDSH-St,domain#Node-DataController-Stakeholder,FALSE,TRUE,FALSE
 package#Legal,domain#MP-JuSS,domain#Node-RemoteJurisdiction-Jurisdiction,FALSE,TRUE,FALSE
+package#LocalDeviceConnectivity,domain#MP-BPcGcBP,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HBImSG,domain#Node-OtherSpace-Space,TRUE,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HBTTHS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HL1H,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
@@ -350,8 +351,10 @@ package#LocalDeviceConnectivity,domain#MP-HuiHUSBTH-Hu,domain#Node-HostManager-H
 package#LocalDeviceConnectivity,domain#MP-HumHBTTH-Hu,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HumHUSBTH-Hu,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HUSBTHS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
+package#LocalDeviceConnectivity,domain#MP-L1cGcL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2AC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-LTethSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-LTethSg2AC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-LTRevSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
@@ -360,6 +363,8 @@ package#LocalDeviceConnectivity,domain#MP-UHDrP-S,domain#Node-Service-Process,FA
 package#LocalDeviceConnectivity,domain#MP-UHDSrP,domain#Node-Client-Process,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-UHS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-UHS,domain#Node-Human-Human,FALSE,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#MP-UPc-rGrUP,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
+package#LocalDeviceConnectivity,domain#MP-UPrGc-rUP,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-USBD-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#Network,domain#MP-CH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-CH,domain#Node-Human-Human,FALSE,FALSE,FALSE

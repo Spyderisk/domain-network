@@ -299,8 +299,7 @@ package#LocalDeviceConnectivity,domain#R-HumHBTTH,HumHBTTH,Finds a Human managin
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,HumHUSBTH,Finds a TrivialHost paired via Bluetooth with another host managed by a Human.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HUSBTHS,HUSBTHS,Finds a Host in a Space that accepts pairing via USB with a TrivialHost.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host with a pairing connection that is also connected to an L2/L3 subnet, all in the same space.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,L1rGcL3,"Finds a Bluetooth or USB device connected from a host to an L2/L3 subnet, all in the same space.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host connected to an L2/L3 subnet with a pairing connection from another host, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,L1SSg2,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the segment asset representing the path via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,L3cGcL1,"Finds a Physical Host gateway on an L2/L3 subnet with a paring connection, all in the same space.",FALSE,FALSE

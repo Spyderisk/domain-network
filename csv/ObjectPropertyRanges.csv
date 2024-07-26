@@ -182,6 +182,8 @@ package#NetworkConnectivity,domain#via,domain#Host
 package#NetworkConnectivity,domain#visits,domain#LogicalSubnet
 package#NetworkConnectivity,domain#visitsGateway,domain#Host
 package#NetworkConnectivityInference,domain#extends,domain#LogicalPath
+package#NetworkConnectivityInference,domain#extends,domain#TempLogicalPath
+package#NetworkConnectivityInference,domain#hasTempPath,domain#TempLogicalPath
 package#NetworkConnectivityInference,domain#pEndsAt,domain#LogicalSubnet
 package#NetworkConnectivityInference,domain#pVia,domain#LogicalSubnet
 package#NetworkInference,domain#runsIn,domain#AccessContext
