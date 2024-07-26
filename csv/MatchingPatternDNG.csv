@@ -45,8 +45,6 @@ package#LocalDeviceConnectivity,domain#DNG-L1SSg2AC-1,domain#MP-L1SSg2AC,1
 package#LocalDeviceConnectivity,domain#DNG-L3cGcL1-0,domain#MP-L3cGcL1,0
 package#LocalDeviceConnectivity,domain#DNG-LTethSg2-0,domain#MP-LTethSg2,0
 package#LocalDeviceConnectivity,domain#DNG-LTethSg2AC-0,domain#MP-LTethSg2AC,0
-package#LocalDeviceConnectivity,domain#DNG-LTRevSg2-0,domain#MP-LTRevSg2,0
-package#LocalDeviceConnectivity,domain#DNG-LTRevSg2AC-0,domain#MP-LTRevSg2AC,0
 package#LocalDeviceConnectivity,domain#DNG-UHDSrP-0,domain#MP-UHDSrP,0
 package#LocalDeviceConnectivity,domain#DNG-UHDSrP-1,domain#MP-UHDSrP,1
 package#LocalDeviceConnectivity,domain#DNG-UPc-rGrUP-0,domain#MP-UPc-rGrUP,0

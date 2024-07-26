@@ -90,10 +90,6 @@ package#LocalDeviceConnectivity,domain#DNG-LTethSg2-0,domain#Node-Gateway-Host
 package#LocalDeviceConnectivity,domain#DNG-LTethSg2-0,domain#Node-Host-Host
 package#LocalDeviceConnectivity,domain#DNG-LTethSg2AC-0,domain#Node-Gateway-Host
 package#LocalDeviceConnectivity,domain#DNG-LTethSg2AC-0,domain#Node-Host-Host
-package#LocalDeviceConnectivity,domain#DNG-LTRevSg2-0,domain#Node-Gateway-Host
-package#LocalDeviceConnectivity,domain#DNG-LTRevSg2-0,domain#Node-Host-Host
-package#LocalDeviceConnectivity,domain#DNG-LTRevSg2AC-0,domain#Node-Gateway-Host
-package#LocalDeviceConnectivity,domain#DNG-LTRevSg2AC-0,domain#Node-Host-Host
 package#LocalDeviceConnectivity,domain#DNG-UHDSrP-0,domain#Node-Host-Host
 package#LocalDeviceConnectivity,domain#DNG-UHDSrP-0,domain#Node-USBDevice-USBDevice
 package#LocalDeviceConnectivity,domain#DNG-UHDSrP-1,domain#Node-Host-Host

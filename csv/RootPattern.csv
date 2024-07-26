@@ -303,11 +303,8 @@ package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host 
 package#LocalDeviceConnectivity,domain#R-L1SSg2,L1SSg2,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the segment asset representing the path via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,L3cGcL1,"Finds a Physical Host gateway on an L2/L3 subnet with a paring connection, all in the same space.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L3cGrL1,L3cGrL1,"Finds a USB/Bluetooth device connected from an L2/L3 subnet to a Host, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-LTethSg2,LTethSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,LTethSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-LTRevSg2,LTRevSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a reverse tethered gateway to an IP subnet, and the forward path segment via the gateway.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-LTRevSg2AC,LTRevSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a reverse tethered gateway to an IP subnet, and the forward path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDpP,UHDpP,Finds Data stored on a USB Device paired with a USB Host which is running a process that handles the data.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDrP,UHDrP,"Finds Data stored on a USB Device paired with a USB Host, where the data is used by a Process running on some host.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDSrP,UHDSrP,"Finds Data stored on a USB Device paired with a USB Host running a service for the Data, where the data is used by a Process running on some host.",FALSE,FALSE
@@ -315,7 +312,6 @@ package#LocalDeviceConnectivity,domain#R-UHS,UHS,Finds a USB Host located in a S
 package#LocalDeviceConnectivity,domain#R-UPcGrUP,UPcGrUP,Finds a possible USB hub between a USB device and a USB host (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UPrGcUP,UPrGcUP,Finds a possible USB hub between a USB host and a USB device (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-USBD,USBD,Finds Data stored on a USB device.,FALSE,FALSE
-package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,LPLRTSg,Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet.,FALSE,FALSE
 package#Network,domain#R-AC,AC,Finds a solo AuthClient.,FALSE,FALSE
 package#Network,domain#R-AS,AS,Finds a solo authentication/authorisation service.,FALSE,FALSE
 package#Network,domain#R-C,C,Finds a Host that represents a virtual or physical cluster.,FALSE,FALSE

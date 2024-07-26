@@ -357,8 +357,6 @@ package#LocalDeviceConnectivity,domain#MP-L1SSg2AC,domain#Node-HostManager-Human
 package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-LTethSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-LTethSg2AC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#MP-LTRevSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#MP-LTRevSg2AC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-UHDrP-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-UHDSrP,domain#Node-Client-Process,FALSE,TRUE,FALSE
 package#LocalDeviceConnectivity,domain#MP-UHS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
@@ -536,7 +534,9 @@ package#NetworkConnectivity,domain#MP-HWSGSoS,domain#Node-Process-Process,FALSE,
 package#NetworkConnectivity,domain#MP-I,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-L3c-rGrL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
+package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-L3rGrL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3SSg2+b,domain#Node-HostManager-Human,FALSE,FALSE,FALSE

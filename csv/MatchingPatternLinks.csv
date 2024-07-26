@@ -696,8 +696,6 @@ package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Link-RetSegment-via-Gat
 package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#LocalDeviceConnectivity,domain#MP-LTethSg2,domain#Link-HostManager-manages-Gateway,FALSE
 package#LocalDeviceConnectivity,domain#MP-LTethSg2AC,domain#Link-HostManager-manages-Gateway,FALSE
-package#LocalDeviceConnectivity,domain#MP-LTRevSg2,domain#Link-HostManager-manages-Gateway,FALSE
-package#LocalDeviceConnectivity,domain#MP-LTRevSg2AC,domain#Link-HostManager-manages-Gateway,FALSE
 package#LocalDeviceConnectivity,domain#MP-UHDpP-S,domain#Link-USBHost-stores-Data,TRUE
 package#LocalDeviceConnectivity,domain#MP-UHDrP-S,domain#Link-Service-serves-Data,FALSE
 package#LocalDeviceConnectivity,domain#MP-UHDrP-S,domain#Link-Service-uses-DB,FALSE
@@ -722,8 +720,6 @@ package#LocalDeviceConnectivity,domain#MP-UPrGc-rUP,domain#Link-RetSegment-via-G
 package#LocalDeviceConnectivity,domain#MP-UPrGc-rUP,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#LocalDeviceConnectivity,domain#MP-USBD-S,domain#Link-Service-serves-Data,FALSE
 package#LocalDeviceConnectivity,domain#MP-USBD-S,domain#Link-USBDevice-hosts-Service,FALSE
-package#LocalDeviceConnectivityInference,domain#MP-LPLRTSg-f,domain#Link-RetSegment-from-ToSubnet,TRUE
-package#LocalDeviceConnectivityInference,domain#MP-LPLRTSg-f,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#Network,domain#MP-CH,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-CH,domain#Link-Human-interactsWith-Host,FALSE
 package#Network,domain#MP-CHS,domain#Link-HostAccess-accessFrom-Space,FALSE
@@ -1007,6 +1003,9 @@ package#NetworkConnectivity,domain#MP-IoH,domain#Link-NetworkPath-blockedPath-Ne
 package#NetworkConnectivity,domain#MP-IoH,domain#Link-NetworkPath-visitsGateway-Host,TRUE
 package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
 package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Link-FromSubnet-providedBy-Gateway,TRUE
+package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Link-RetSegment-from-FromSubnet,FALSE
+package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Link-RetSegment-to-ToSubnet,FALSE
+package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Link-RetSegment-via-Gateway,FALSE
 package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#NetworkConnectivity,domain#MP-L3c-rGrL3,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
@@ -1016,6 +1015,9 @@ package#NetworkConnectivity,domain#MP-L3c-rGrL3,domain#Link-RetSegment-to-ToSubn
 package#NetworkConnectivity,domain#MP-L3c-rGrL3,domain#Link-RetSegment-via-Gateway,FALSE
 package#NetworkConnectivity,domain#MP-L3c-rGrL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
+package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Link-RetSegment-from-FromSubnet,FALSE
+package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Link-RetSegment-to-ToSubnet,FALSE
+package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Link-RetSegment-via-Gateway,FALSE
 package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#NetworkConnectivity,domain#MP-L3rGrL3,domain#Link-FromSubnet-isHotspot-FromSubnet,TRUE
