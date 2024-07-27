@@ -150,7 +150,6 @@ package#Network,domain#Role_Subnet,domain#LogicalSubnet
 package#Network,domain#Role_TrivialHost,domain#TrivialHost
 package#Network,domain#Role_TrivialProcess,domain#TrivialProcess
 package#Network,domain#Role_WiredLAN,domain#WiredLAN
-package#NetworkConnectivity,domain#Role_ExPath,domain#TempLogicalPath
 package#NetworkConnectivity,domain#Role_FromHost,domain#Host
 package#NetworkConnectivity,domain#Role_FromSubnet,domain#LogicalSubnet
 package#NetworkConnectivity,domain#Role_FromSubnet,domain#TypeOverlaySubnet
@@ -182,7 +181,7 @@ package#Privacy,domain#Role_DataSubject,domain#Human
 package#ProcessComms,domain#Role_AttackPath,domain#AttackPath
 package#ProcessComms,domain#Role_AuthChannel,domain#AuthChannel
 package#ProcessComms,domain#Role_AuthZChannel,domain#AuthChannel
-package#ProcessComms,domain#Role_BasePath,domain#NetworkPath
+package#ProcessComms,domain#Role_BasePath,domain#LogicalPath
 package#ProcessComms,domain#Role_ClientAttackPath,domain#ClientAttackPath
 package#ProcessComms,domain#Role_ClientChannel,domain#AuthChannel
 package#ProcessComms,domain#Role_ClientPath,domain#ClientPath
