@@ -144,7 +144,6 @@ package#LocalDeviceConnectivity,domain#L1Subnet,domain#L01Subnet
 package#LocalDeviceConnectivity,domain#MeshRoutingSegment,domain#OpenSegment
 package#LocalDeviceConnectivity,domain#Notebook,domain#USBHost
 package#LocalDeviceConnectivity,domain#RemovableMedia,domain#USBDevice
-package#LocalDeviceConnectivity,domain#ReverseTetheringSegment,domain#NATSegment
 package#LocalDeviceConnectivity,domain#Router,domain#USBHost
 package#LocalDeviceConnectivity,domain#Server,domain#USBHost
 package#LocalDeviceConnectivity,domain#Smartphone,domain#USBDevice
