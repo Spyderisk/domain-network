@@ -33,6 +33,8 @@ package#IoT,domain#updatesSensor,domain#controlsSensor
 package#IoT,domain#updatesSensor,domain#readsSensor
 package#Network,domain#implementsHS,domain#implements
 package#Network,domain#interactsWith,domain#interactsRemotelyWith
+package#Network,domain#isHostLAN,domain#isLocalSubnet
+package#Network,domain#isHotspot,domain#isAbstractSubnet
 package#Network,domain#locatedIn,domain#mayBeIn
 package#Network,domain#uses,domain#usesService
 package#Network,domain#usesForAuth,domain#usesService

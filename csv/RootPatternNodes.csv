@@ -118,6 +118,7 @@ package#5G,domain#R-PRrBrPR,domain#Node-CellularNetwork-PrivateCellularNetwork,T
 package#5G,domain#R-PRrBrPR,domain#Node-FromSubnet-RAN,TRUE
 package#5G,domain#R-PRrBrPR,domain#Node-Gateway-Host,TRUE
 package#5G,domain#R-PRrBrPR,domain#Node-ToSubnet-RAN,TRUE
+package#5G,domain#R-RAN,domain#Node-LogicalSubnet-RAN,TRUE
 package#5G,domain#R-RcGcL3,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-RcGcL3,domain#Node-FromSubnet-RAN,TRUE
 package#5G,domain#R-RcGcL3,domain#Node-Gateway-Host,TRUE
@@ -1473,11 +1474,11 @@ package#Network,domain#R-DCWH,domain#Node-Host-FixedHost,TRUE
 package#Network,domain#R-DCWH,domain#Node-Router-Router,TRUE
 package#Network,domain#R-DCWH,domain#Node-WiredLAN-WiredLAN,TRUE
 package#Network,domain#R-FcLSS,domain#Node-Host-Host,TRUE
-package#Network,domain#R-FcLSS,domain#Node-LogicalSubnet-L3Subnet,TRUE
+package#Network,domain#R-FcLSS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#Network,domain#R-FcLSS,domain#Node-PhysicalHost-FixedHost,TRUE
 package#Network,domain#R-FcLSS,domain#Node-Space-Space,TRUE
 package#Network,domain#R-FpLSS,domain#Node-Host-Host,TRUE
-package#Network,domain#R-FpLSS,domain#Node-LogicalSubnet-L3Subnet,TRUE
+package#Network,domain#R-FpLSS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#Network,domain#R-FpLSS,domain#Node-PhysicalHost-FixedHost,TRUE
 package#Network,domain#R-FpLSS,domain#Node-Space-Space,TRUE
 package#Network,domain#R-GH,domain#Node-Host-GeneralHost,TRUE
@@ -1810,7 +1811,6 @@ package#Network,domain#R-WpHS,domain#Node-Hotspot-WiFiLAN,TRUE
 package#Network,domain#R-WpHS,domain#Node-PhysicalHost-MobileHost,TRUE
 package#Network,domain#R-WpHSH,domain#Node-Host-Host,TRUE
 package#Network,domain#R-WpHSH,domain#Node-Hotspot-WiFiLAN,TRUE
-package#Network,domain#R-WpHSH,domain#Node-LogicalSubnet-WiFiLAN,TRUE
 package#Network,domain#R-WpHSH,domain#Node-PhysicalHost-MobileHost,TRUE
 package#Network,domain#R-WpHSH,domain#Node-Space-Space,TRUE
 package#Network,domain#R-WS,domain#Node-LogicalSubnet-WiFiLAN,TRUE

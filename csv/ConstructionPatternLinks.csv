@@ -52,6 +52,7 @@ package#5G,domain#CP-PRrBc-rL3+NSg,domain#Link-LogicalSegment-via-Gateway
 package#5G,domain#CP-PRrBrPR+OSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-PRrBrPR+OSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-PRrBrPR+OSg,domain#Link-LogicalSegment-via-Gateway
+package#5G,domain#CP-RAN+iLS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-via-Gateway
@@ -571,10 +572,12 @@ package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#Link-LogicalSegment
 package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#Link-LogicalSegment-via-Gateway
 package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#Link-TrivialHost-locatedIn-Space
 package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#Link-BluetoothPair-accessibleFrom-Space
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#Link-BluetoothPair-isLocalSubnet-BluetoothPair
 package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#Link-BluetoothPair-providedBy-RemoteHost
 package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#Link-LocalHost-connectedTo-BluetoothPair
 package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#Link-LocalHost-connectedTo-USBPair
 package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#Link-USBPair-accessibleFrom-Space
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#Link-USBPair-isLocalSubnet-USBPair
 package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#Link-USBPair-providedBy-RemoteHost
 package#LocalDeviceConnectivity,domain#CP-HuiHBTTH-Hu+m,domain#Link-Human-manages-TrivialHost
 package#LocalDeviceConnectivity,domain#CP-HuiHUSBTH-Hu+m,domain#Link-Human-manages-TrivialHost
@@ -660,6 +663,7 @@ package#NetworkConnectivityInference,domain#CP-SgHfILS+f,domain#Link-LogicalSegm
 package#NetworkConnectivityInference,domain#CP-SgHtILS+t,domain#Link-LogicalSegment-to-Interface
 package#NetworkInference,domain#CP-C+iC,domain#Link-Cluster-isCluster-Cluster
 package#NetworkInference,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-accessibleFrom-Space
+package#NetworkInference,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
 package#NetworkInference,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-providedBy-Host
 package#NetworkInference,domain#CP-DC-C+C,domain#Link-Cluster-hasPhysicalHost-Cluster
 package#NetworkInference,domain#CP-DC-C+C,domain#Link-Cluster-isCluster-Cluster
@@ -756,6 +760,7 @@ package#NetworkInference,domain#CP-TP+iT,domain#Link-TrivialProcess-isTrivial-Tr
 package#NetworkInference,domain#CP-WpHS-aF+iH,domain#Link-Hotspot-isHotspot-Hotspot
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-implementsHS-Hotspot
+package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
 package#NetworkInference,domain#CP-WpHSH-aF+WH,domain#Link-LogicalSubnet-providedBy-Host
 package#NetworkInference,domain#CP-WS-H+I,domain#Link-LogicalSubnet-implementsHS-LogicalSubnet
 package#Physical,domain#CP-HuaSaE+cA,domain#Link-Human-canAccess-Entrance
@@ -1037,7 +1042,7 @@ package#VirtualisationInference,domain#CP-HCLPLSg+t,domain#Link-HostChannel-uses
 package#VirtualisationInference,domain#CP-HCLPvLS+v,domain#Link-HostChannel-viaPhysicalSubnet-LogicalSubnet
 package#VirtualisationInference,domain#CP-HCLSg+vf,domain#Link-HostChannel-fromPhysicalInterface-OutboundIF
 package#VirtualisationInference,domain#CP-HCLSg+vt,domain#Link-HostChannel-toPhysicalInterface-InboundIF
-package#VirtualisationInference,domain#CP-HL+iH,domain#Link-LogicalSubnet-isHostLAN-LogicalSubnet
+package#VirtualisationInference,domain#CP-HL+iLS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
 package#VirtualisationInference,domain#CP-HumHVH-Hu+m,domain#Link-Human-manages-Host
 package#VirtualisationInference,domain#CP-HVH-a+a,domain#Link-Host-above-SHost
 package#VirtualisationInference,domain#CP-HVHS+VS,domain#Link-Host-connectedTo-HostLAN

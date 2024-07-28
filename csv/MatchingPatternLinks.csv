@@ -682,14 +682,12 @@ package#LocalDeviceConnectivity,domain#MP-HuiHUSBTH-Hu,domain#Link-HostManager-m
 package#LocalDeviceConnectivity,domain#MP-HumHBTTH-Hu,domain#Link-HostManager-manages-TrivialHost,FALSE
 package#LocalDeviceConnectivity,domain#MP-HumHUSBTH-Hu,domain#Link-HostManager-manages-TrivialHost,FALSE
 package#LocalDeviceConnectivity,domain#MP-HUSBTHS-S,domain#Link-TrivialHost-locatedIn-OtherSpace,FALSE
-package#LocalDeviceConnectivity,domain#MP-L1cGcL3,domain#Link-FromSubnet-providedBy-Gateway,TRUE
 package#LocalDeviceConnectivity,domain#MP-L1cGcL3,domain#Link-RetSegment-from-FromSubnet,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1cGcL3,domain#Link-RetSegment-to-ToSubnet,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1cGcL3,domain#Link-RetSegment-via-Gateway,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1cGcL3,domain#Link-ToSubnet-isHotspot-ToSubnet,TRUE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2,domain#Link-HostManager-manages-Gateway,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2AC,domain#Link-HostManager-manages-Gateway,FALSE
-package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Link-FromSubnet-providedBy-Gateway,TRUE
 package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Link-RetSegment-from-FromSubnet,FALSE
 package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Link-RetSegment-to-ToSubnet,FALSE
 package#LocalDeviceConnectivity,domain#MP-L3cGcL1,domain#Link-RetSegment-via-Gateway,FALSE
@@ -737,10 +735,12 @@ package#Network,domain#MP-DC-R,domain#Link-Host-resourcedBy-DataCentre,FALSE
 package#Network,domain#MP-DCVHRS-H,domain#Link-LogicalSubnet-providedBy-Gateway,FALSE
 package#Network,domain#MP-DCVHWS-H,domain#Link-LogicalSubnet-providedBy-Gateway,FALSE
 package#Network,domain#MP-DCWH-LS,domain#Link-Host-connectedTo-LogicalSubnet,FALSE
-package#Network,domain#MP-FcLSS,domain#Link-LogicalSubnet-isHostLAN-LogicalSubnet,TRUE
+package#Network,domain#MP-FcLSS,domain#Link-LogicalSubnet-isAbstractSubnet-LogicalSubnet,TRUE
+package#Network,domain#MP-FcLSS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet,TRUE
 package#Network,domain#MP-FcLSS,domain#Link-LogicalSubnet-providedBy-Host,TRUE
-package#Network,domain#MP-FpLSS,domain#Link-LogicalSubnet-isHostLAN-LogicalSubnet,TRUE
+package#Network,domain#MP-FpLSS,domain#Link-LogicalSubnet-isAbstractSubnet-LogicalSubnet,TRUE
 package#Network,domain#MP-FpLSS,domain#Link-LogicalSubnet-isHotspot-LogicalSubnet,TRUE
+package#Network,domain#MP-FpLSS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet,TRUE
 package#Network,domain#MP-GH,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-H,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-H,domain#Link-Human-interactsWith-Host,FALSE
@@ -960,6 +960,7 @@ package#Network,domain#MP-WpHS-aF,domain#Link-Hotspot-accessibleFrom-OtherSpace,
 package#Network,domain#MP-WpHSH-aF,domain#Link-Host-connectedTo-PhysicalSubnet,FALSE
 package#Network,domain#MP-WpHSH-aF,domain#Link-PhysicalSubnet-accessibleFrom-Space,FALSE
 package#Network,domain#MP-WpHSH-aF,domain#Link-RadioSubnet-accessibleFrom-Space,TRUE
+package#Network,domain#MP-WpHSH-aF,domain#Link-RadioSubnet-providedBy-Host,FALSE
 package#Network,domain#MP-WS-H,domain#Link-LogicalSubnet-isHotspot-LogicalSubnet,TRUE
 package#Network,domain#MP-WSSH,domain#Link-HostManager-manages-Gateway,FALSE
 package#Network,domain#MP-WSSH,domain#Link-Process-controls-LogicalSubnet,FALSE

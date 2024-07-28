@@ -29,6 +29,7 @@ package#5G,domain#R-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Netw
 package#5G,domain#R-PCNSRAN,PCNSRAN,Finds a backbone network implementing a private cellular network accessible from a space in which it has a radio access network.,FALSE,FALSE
 package#5G,domain#R-PRrBcL3,PRrBcL3,"Finds a host acting as a base station providing a RAN in a private cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
 package#5G,domain#R-PRrBrPR,PRrBrPR,"Finds a host acting as a base station providing two RANs, both of which are part of the same private cellular network.",FALSE,FALSE
+package#5G,domain#R-RAN,RAN,Finds a solo cellular Radio Access Network.,FALSE,FALSE
 package#5G,domain#R-RcGcL3,RcGcL3,"Finds a host connected to a RAN in a cellular network, and an L2 or L3 Subnet accessible in the same Space as the RAN.",FALSE,FALSE
 package#5G,domain#R-RrBcC,RrBcC,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a cellular network.",FALSE,FALSE
 package#5G,domain#R-RrBrL3,RrBrL3,"Finds a host acting as a base station providing a RAN in a cellular network, and also providing an L2 or L3 Subnet.",FALSE,FALSE

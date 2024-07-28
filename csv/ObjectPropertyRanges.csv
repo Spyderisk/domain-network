@@ -139,11 +139,13 @@ package#Network,domain#interactsWith,domain#MobileClient
 package#Network,domain#interactsWith,domain#Process
 package#Network,domain#interactsWith,domain#Smartwatch
 package#Network,domain#interactsWith,domain#Workstation
+package#Network,domain#isAbstractSubnet,domain#AbstractSubnet
 package#Network,domain#isCluster,domain#Host
 package#Network,domain#isHostLAN,domain#L3Subnet
 package#Network,domain#isHotspot,domain#WiFiLAN
 package#Network,domain#isInternet,domain#LogicalSubnet
 package#Network,domain#isLnS,domain#Process
+package#Network,domain#isLocalSubnet,domain#LogicalSubnet
 package#Network,domain#isMHC,domain#Host
 package#Network,domain#isPersonalDevice,domain#PhysicalHost
 package#Network,domain#isRouter,domain#Host
