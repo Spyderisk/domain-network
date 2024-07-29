@@ -1392,9 +1392,6 @@ package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Link-FwdSegment-via-Gat
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Link-Gateway-connectedTo-FromSubnet
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Link-Gateway-connectedTo-LogicalSubnet
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Link-Host-connectedTo-FromSubnet
-package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Link-RetSegment-from-LogicalSubnet
-package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Link-RetSegment-to-FromSubnet
-package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Link-RetSegment-via-Gateway
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-FwdSegment-from-FromSubnet
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-FwdSegment-to-LogicalSubnet
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-FwdSegment-via-Gateway
@@ -1404,9 +1401,6 @@ package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-HostAccess-acces
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-HostAccess-accessVia-FromSubnet
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-HostAccess-accessVia-LogicalSubnet
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-Host-connectedTo-FromSubnet
-package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-RetSegment-from-LogicalSubnet
-package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-RetSegment-to-FromSubnet
-package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Link-RetSegment-via-Gateway
 package#LocalDeviceConnectivity,domain#R-UHDpP,domain#Link-DB-serves-Data
 package#LocalDeviceConnectivity,domain#R-UHDpP,domain#Link-Process-handles-Data
 package#LocalDeviceConnectivity,domain#R-UHDpP,domain#Link-USBDevice-hosts-DB

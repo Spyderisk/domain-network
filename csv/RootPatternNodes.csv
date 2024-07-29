@@ -1385,14 +1385,12 @@ package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-FwdSegment-Tetheri
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-Gateway-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-Host-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-LogicalSubnet-L3Subnet,TRUE
-package#LocalDeviceConnectivity,domain#R-LTethSg2,domain#Node-RetSegment-LogicalRoute,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Node-FromSubnet-L1Subnet,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Node-FwdSegment-TetheringSegment,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Node-Gateway-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Node-HostAccess-HostContext,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Node-Host-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Node-LogicalSubnet-L3Subnet,TRUE
-package#LocalDeviceConnectivity,domain#R-LTethSg2AC,domain#Node-RetSegment-LogicalRoute,TRUE
 package#LocalDeviceConnectivity,domain#R-UHDpP,domain#Node-Data-Data,TRUE
 package#LocalDeviceConnectivity,domain#R-UHDpP,domain#Node-DB-Process,TRUE
 package#LocalDeviceConnectivity,domain#R-UHDpP,domain#Node-Process-Process,TRUE
