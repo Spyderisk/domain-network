@@ -10,6 +10,7 @@ package#5G,domain#PrivateCellularNetwork,domain#NetworkPalette
 package#5G,domain#PublicCellularNetwork,domain#CellularNetwork
 package#5G,domain#PublicCellularNetwork,domain#NetworkPalette
 package#5G,domain#RAN,domain#L2Subnet
+package#5G,domain#RAN,domain#NetworkPalette
 package#5G,domain#RAN,domain#RadioSubnet
 package#AccessContext,domain#AccessContext,core#Asset
 package#Application,domain#ApplicationProcess,domain#GeneralProcess
