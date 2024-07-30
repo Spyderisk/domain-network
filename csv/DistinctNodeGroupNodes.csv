@@ -152,8 +152,6 @@ package#ProcessComms,domain#DNG-CCCSPSFSC-0,domain#Node-Client-Process
 package#ProcessComms,domain#DNG-CCCSPSFSC-0,domain#Node-Service-Process
 package#ProcessComms,domain#DNG-CSCC-SC-0,domain#Node-CHost-Host
 package#ProcessComms,domain#DNG-CSCC-SC-0,domain#Node-SHost-Host
-package#ProcessComms,domain#DNG-CSL1H2-0,domain#Node-FromHost-Host
-package#ProcessComms,domain#DNG-CSL1H2-0,domain#Node-ToHost-Host
 package#ProcessComms,domain#DNG-CuPnS-U-0,domain#Node-Client-Process
 package#ProcessComms,domain#DNG-CuPnS-U-0,domain#Node-Service-Process
 package#ProcessComms,domain#DNG-PccCuS-0,domain#Node-Client-Process
@@ -162,6 +160,8 @@ package#ProcessComms,domain#DNG-PnPnS-U-0,domain#Node-Client-Process
 package#ProcessComms,domain#DNG-PnPnS-U-0,domain#Node-Service-Process
 package#ProcessComms,domain#DNG-SPuS-0,domain#Node-Client-ServiceProxy
 package#ProcessComms,domain#DNG-SPuS-0,domain#Node-Service-Process
+package#ProcessCommsInference,domain#DNG-CSL1H2-0,domain#Node-FromHost-Host
+package#ProcessCommsInference,domain#DNG-CSL1H2-0,domain#Node-ToHost-Host
 package#ProcessCommsInference,domain#DNG-CSLS2H2-SC-0,domain#Node-FromHost-Host
 package#ProcessCommsInference,domain#DNG-CSLS2H2-SC-0,domain#Node-ToHost-Host
 package#ProcessCommsInference,domain#DNG-CSLS2H2-SC-1,domain#Node-FromSubnet-LogicalSubnet

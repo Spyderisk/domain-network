@@ -76,11 +76,11 @@ package#Physical,domain#DNG-PSS-0,domain#MP-PSS,0
 package#ProcessComms,domain#DNG-CCCSPSFCS-0,domain#MP-CCCSPSFCS,0
 package#ProcessComms,domain#DNG-CCCSPSFSC-0,domain#MP-CCCSPSFSC,0
 package#ProcessComms,domain#DNG-CSCC-SC-0,domain#MP-CSCC-SC,0
-package#ProcessComms,domain#DNG-CSL1H2-0,domain#MP-CSL1H2,0
 package#ProcessComms,domain#DNG-CuPnS-U-0,domain#MP-CuPnS-U,0
 package#ProcessComms,domain#DNG-PccCuS-0,domain#MP-PccCuS,0
 package#ProcessComms,domain#DNG-PnPnS-U-0,domain#MP-PnPnS-U,0
 package#ProcessComms,domain#DNG-SPuS-0,domain#MP-SPuS,0
+package#ProcessCommsInference,domain#DNG-CSL1H2-0,domain#MP-CSL1H2,0
 package#ProcessCommsInference,domain#DNG-CSLS2H2-SC-0,domain#MP-CSLS2H2-SC,0
 package#ProcessCommsInference,domain#DNG-CSLS2H2-SC-1,domain#MP-CSLS2H2-SC,1
 package#ProcessCommsInference,domain#DNG-CSLSH2-SC-0,domain#MP-CSLSH2-SC,0

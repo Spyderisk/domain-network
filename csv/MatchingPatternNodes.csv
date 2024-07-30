@@ -886,10 +886,9 @@ package#ProcessComms,domain#MP-SPNaS,domain#Node-HostManager-Human,FALSE,FALSE,F
 package#ProcessComms,domain#MP-SPNaS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessComms,domain#MP-SPNaS,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-SPNaS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
+package#ProcessCommsInference,domain#MP-CSL1H2,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-CSLS2H2-SC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
-package#ProcessCommsInference,domain#MP-CSLS2H2-SC,domain#Node-LastSubnet-L01Subnet,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
-package#ProcessCommsInference,domain#MP-CSLSH2-SC,domain#Node-LastSubnet-L01Subnet,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-DFuCuS-C-P,domain#Node-ProxyClient-Process,FALSE,TRUE,FALSE
 package#ProcessCommsInference,domain#MP-H-sDFCFdS-ACau,domain#Node-ProcAccess-ProcessContext,FALSE,TRUE,FALSE
