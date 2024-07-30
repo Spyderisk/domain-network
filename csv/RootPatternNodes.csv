@@ -1,5 +1,11 @@
 package,URI,hasNode,keyNode
-domain#000000,domain#000000,domain#Node-CellularNetwork-CellularNetwork,TRUE
+domain#000000,domain#000000,domain#Node-BaseStation-BaseStation,TRUE
+package#5G,domain#R-BSCNSRAN,domain#Node-BaseStation-BaseStation,TRUE
+package#5G,domain#R-BSCNSRAN,domain#Node-CellularNetwork-CellularNetwork,TRUE
+package#5G,domain#R-BSCNSRAN,domain#Node-CoreNetwork-L3Subnet,TRUE
+package#5G,domain#R-BSCNSRAN,domain#Node-Gateway-Host,TRUE
+package#5G,domain#R-BSCNSRAN,domain#Node-RAN-RAN,TRUE
+package#5G,domain#R-BSCNSRAN,domain#Node-Space-Space,TRUE
 package#5G,domain#R-CN,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-CNCN,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-CNCN,domain#Node-CoreNetwork-L3Subnet,TRUE

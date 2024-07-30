@@ -1,5 +1,6 @@
 package,URI,hasNode,mandatoryNode,prohibitedNode,sufficientNode
-domain#000000,domain#000000,domain#Node-Gateway-Host,FALSE,FALSE,FALSE
+domain#000000,domain#000000,domain#Node-Host-Host,FALSE,FALSE,FALSE
+package#5G,domain#MP-BSCNSRAN-p,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-CN-R,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-CNR-CN,domain#Node-LogicalSubnet-L3Subnet,FALSE,TRUE,FALSE
 package#5G,domain#MP-CNS+RAN+BS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE

@@ -34,6 +34,8 @@ package#5G,domain#DNG-UCc-rBrUR-0,domain#Node-FromSubnet-L23Subnet
 package#5G,domain#DNG-UCc-rBrUR-0,domain#Node-ToSubnet-RAN
 package#5G,domain#DNG-URrBc-rL3-0,domain#Node-FromSubnet-RAN
 package#5G,domain#DNG-URrBc-rL3-0,domain#Node-ToSubnet-L23Subnet
+package#5G,domain#DNG-URrBrUR-0,domain#Node-FromSubnet-RAN
+package#5G,domain#DNG-URrBrUR-0,domain#Node-ToSubnet-RAN
 package#DataLifecycle,domain#DNG-CSDF-VdDA2-0,domain#Node-Client-Process
 package#DataLifecycle,domain#DNG-CSDF-VdDA2-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-HPDADS2dDO-0,domain#Node-DataOutput-DataOutput

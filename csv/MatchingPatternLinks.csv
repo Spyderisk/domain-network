@@ -1,5 +1,6 @@
 package,URI,hasLink,prohibited
-domain#000000,domain#000000,domain#Link-CellularNetwork-providedBy-Host,FALSE
+domain#000000,domain#000000,domain#Link-RAN-providedBy-Host,FALSE
+package#5G,domain#MP-BSCNSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-CNHS+RAN,domain#Link-CellularNetwork-providedBy-Host,TRUE
 package#5G,domain#MP-CNHS+RAN,domain#Link-CoreNetwork-providedBy-Host,TRUE
 package#5G,domain#MP-CNHS+RAN,domain#Link-RAN-providedBy-Host,TRUE

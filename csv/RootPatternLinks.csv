@@ -1,5 +1,12 @@
 package,URI,hasLink
-domain#000000,domain#000000,domain#Link-CoreNetwork-implementsCN-CellularNetwork
+domain#000000,domain#000000,domain#Link-BaseStation-locatedIn-Space
+package#5G,domain#R-BSCNSRAN,domain#Link-BaseStation-locatedIn-Space
+package#5G,domain#R-BSCNSRAN,domain#Link-CellularNetwork-accessibleFrom-Space
+package#5G,domain#R-BSCNSRAN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
+package#5G,domain#R-BSCNSRAN,domain#Link-Gateway-connectedTo-CellularNetwork
+package#5G,domain#R-BSCNSRAN,domain#Link-Gateway-hasPhysicalHost-BaseStation
+package#5G,domain#R-BSCNSRAN,domain#Link-RAN-accessibleFrom-Space
+package#5G,domain#R-BSCNSRAN,domain#Link-RAN-implements-CellularNetwork
 package#5G,domain#R-CNCN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
 package#5G,domain#R-CNHS+RAN,domain#Link-CellularNetwork-accessibleFrom-Space
 package#5G,domain#R-CNHS+RAN,domain#Link-CoreNetwork-implementsCN-CellularNetwork

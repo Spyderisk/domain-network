@@ -1,5 +1,7 @@
 package,URI,hasInferredLink
-domain#000000,domain#000000,domain#Link-PhysicalHost-connectedTo-RAN
+domain#000000,domain#000000,domain#Link-Gateway-connectedTo-CoreNetwork
+package#5G,domain#CP-BSCNSRAN-p+p,domain#Link-Gateway-connectedTo-CoreNetwork
+package#5G,domain#CP-BSCNSRAN-p+p,domain#Link-RAN-providedBy-Gateway
 package#5G,domain#CP-CNHS+RAN+cT,domain#Link-PhysicalHost-connectedTo-RAN
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-providedBy-Gateway
