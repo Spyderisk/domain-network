@@ -2,9 +2,12 @@ package,URI,label,comment,hasRootPattern,usesLoopback,usesParallel
 domain#000000,domain#000000,BSCNSRAN-p,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,domain#R-BSCNSRAN,FALSE,FALSE
 package#5G,domain#MP-BSCNSRAN-p,BSCNSRAN-p,"Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network not provided by any host, and there is a base station in the same space that is connected to the cellular newtork, or hosts a virtual base station that is connected to the cellular network.",domain#R-BSCNSRAN,FALSE,FALSE
 package#5G,domain#MP-CNCN,CNCN,Finds a Cellular Network implemented by a Core Network.,domain#R-CNCN,FALSE,FALSE
+package#5G,domain#MP-CNCNBSS,CNCNBSS,Finds a cellular network with a backbone network to which is connected a base station (or a virtual host running on the base station) in a space.,domain#R-CNCNBSS,FALSE,FALSE
 package#5G,domain#MP-CNHS+RAN,CNHS+RAN,Finds a backbone network implementing a cellular network accessible from a space in which there is a RAN and a device connected to the cellular network that does not provide any of the networks.,domain#R-CNHS+RAN,FALSE,TRUE
 package#5G,domain#MP-CN-R,CN-R,Finds a Cellular Network that is not provided by any host.,domain#R-CN,FALSE,FALSE
 package#5G,domain#MP-CNRAN2dS,CNRAN2dS,"Finds a radio access network implementing part of a cellular network, provided by a host serving as the base station and having (at least) two distinct locations.",domain#R-CNRAN2S,FALSE,FALSE
+package#5G,domain#MP-CNRANBSS,CNRANBSS,Finds a cellular network implemented by a radio access network provided by a base station (or virtual host running on the base station) which is located in a space.,domain#R-CNRANBSS,FALSE,FALSE
+package#5G,domain#MP-CNRANS,CNRANS,"Finds a radio access network accessible in a space, and the cellular network it belongs to.",domain#R-CNRANS,FALSE,FALSE
 package#5G,domain#MP-CNR-CN,CNR-CN,Finds a cellular network provided by a router that has no backbone IP network.,domain#R-CNR,FALSE,FALSE
 package#5G,domain#MP-CNRS,CNRS,Finds a cellular network provided by a gateway host which therefore also provides the backbone network.,domain#R-CNRS,FALSE,FALSE
 package#5G,domain#MP-CNS+RAN+BS-S,CNS+RAN+BS-S,Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network provided by a gateway running on a base station with no physical location.,domain#R-CNS+RAN+BS,FALSE,FALSE
@@ -425,7 +428,7 @@ package#Network,domain#MP-HHu2d,HHu2d,Finds a host with two distinct interactive
 package#Network,domain#MP-H-iR-iMCHIUS,H-iR-iMCHIUS,Finds a Host that is not a Router or a Mobile Console Host in a Public Space connected to the Internet.,domain#R-HIUS,FALSE,FALSE
 package#Network,domain#MP-HL23S,HL23S,"Finds a host connected to an L2 or L3 subnet, and an associated network access context, plus optionally the host manager.",domain#R-HL23S,FALSE,FALSE
 package#Network,domain#MP-HLnSP-hCLI,HLnSP-hCLI,Finds a Login Service and a Process used by it on the same Host that does not have a CLI.,domain#R-HLnSP,FALSE,FALSE
-package#Network,domain#MP-HLS,HLS,Finds a Host connected to a LogicalSubnet.,domain#R-HLS,FALSE,FALSE
+package#Network,domain#MP-HLS,HLS,Finds a Host connected to a non-abstract LogicalSubnet.,domain#R-HLS,FALSE,FALSE
 package#Network,domain#MP-Hm2dHu,Hm2dHu,Finds a host and two distinct humans that manage the host.,domain#R-Hm2Hu,FALSE,FALSE
 package#Network,domain#MP-HmAC,HmAC,"Finds a solo Host plus all location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-HmACPAC,HmACPAC,"Finds a process running on a host in a space and an associated process location access context, plus related host access contexts and optionally the host manager and process user.",domain#R-HPAC,FALSE,FALSE
@@ -494,6 +497,7 @@ package#Network,domain#MP-LnSuP-H,LnSuP-H,Finds a login service using a process 
 package#Network,domain#MP-LS,LS,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LS-iH,LS-iH,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LS-prH,LS-prH,Finds a Logical Subnet not provided by any host.,domain#R-LS,FALSE,FALSE
+package#Network,domain#MP-LS-S,LS-S,"Finds a Logical Subnet that is not abstract, but is accessible from no physical space.",domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-MHC,MHC,Finds a solo Mobile Console Host.,domain#R-MHC,FALSE,FALSE
 package#Network,domain#MP-MHcIS,MHcIS,Finds a Mobile Console Host in a Public Space connected to the Internet.,domain#R-MHcIS,FALSE,FALSE
 package#Network,domain#MP-MHHS,MHHS,"Finds a Host whose physical host is a Mobile Console Host in a Space, where it can access at least one Logical Subnet (this pattern contains only multiple network access contexts), plus optionally an interactive user and system manager.",domain#R-MHHS,FALSE,FALSE
@@ -503,6 +507,7 @@ package#Network,domain#MP-PCPHLSS,PCPHLSS,"Finds a Process location access conte
 package#Network,domain#MP-PcWH,PcWH,"Finds a WiFiLAN and its local implementation, plus a controlling process.",domain#R-PcWH,FALSE,FALSE
 package#Network,domain#MP-PH,PH,"Finds a solo physical host, and optionally its manager.",domain#R-PH,FALSE,FALSE
 package#Network,domain#MP-PH2,PH2,Finds a process with two distinct hosts.,domain#R-PH2,FALSE,FALSE
+package#Network,domain#MP-PH2dS,PH2dS,Finds a physical host located in two different spaces.,domain#R-PH2S,FALSE,FALSE
 package#Network,domain#MP-PHdH,PHdH,Finds a host that has a physical host (but is not the physical host).,domain#R-PHH,FALSE,FALSE
 package#Network,domain#MP-PHHPS,PHHPS,Finds a process running on a host that can be accessed from a space.,domain#R-PHHPS,FALSE,FALSE
 package#Network,domain#MP-PHHS,PHHS,"Finds a host that directly is or indirectly has a physical host in a space, and all connected logical subnets accessible from that space.",domain#R-PHHS,FALSE,FALSE
@@ -564,11 +569,11 @@ package#NetworkConnectivity,domain#MP-GdHWS,GdHWS,"Finds a gateway providing a w
 package#NetworkConnectivity,domain#MP-HIoH,HIoH,"Finds a Host connected to the Internet, and the associated network Interface, plus optionally the host manager.",domain#R-HIoH,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-HLoH,HLoH,"Finds a Host with optional system manager, connected to a Layer 2 Logical Subnet, and the associated network Interface, and a second, distinct host on the same subnet.",domain#R-HLoH,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-HRoH,HRoH,"Finds a Host with optional system manager, connected to a Layer 3 Logical Subnet (but not the Internet), and the associated network Interface, and a second, remote host on the same subnet.",domain#R-HRoH,FALSE,FALSE
-package#NetworkConnectivity,domain#MP-HRSGSoS,HRSGSoS,"Finds a host connecting to a radio subnet that is not an abstract hotspot, a gateway host located in a space that is providing the radio subnet, and optionally a service that controls access to the radio subnet.",domain#R-HRSGS,FALSE,FALSE
-package#NetworkConnectivity,domain#MP-HSRSoGS,HSRSoGS,"Finds a host located in a space connecting to a radio subnet that is not a hotspot, plus optionally the controlling host and service for the subnet.",domain#R-HSRS,FALSE,TRUE
+package#NetworkConnectivity,domain#MP-HRSGSoS,HRSGSoS,"Finds a host connecting to a radio subnet, a gateway host located in a space that is providing the radio subnet, and optionally a service that controls access to the radio subnet.",domain#R-HRSGS,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-HSRSoGS,HSRSoGS,"Finds a host located in a space connecting to a radio subnet, plus optionally the controlling host and service for the subnet.",domain#R-HSRS,FALSE,TRUE
 package#NetworkConnectivity,domain#MP-HSWSoGS,HSWSoGS,"Finds a host located in a space connecting to a wired subnet it does not provide, plus optionally the host manager, and the gateway and service controlling the subnet.",domain#R-HSWS,FALSE,TRUE
 package#NetworkConnectivity,domain#MP-HWSGSoS,HWSGSoS,"Finds a host connecting to a wired network it does not provide, a gateway host located in a space that is providing the network, and optionally the gateway host manager, and a service that controls access to the network.",domain#R-HWSGS,FALSE,TRUE
-package#NetworkConnectivity,domain#MP-I,I,"Finds a solo Interface, plus the associated host and subnet (which is not a hotspot) and optionally the host manager.",domain#R-I,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-I,I,"Finds a solo Interface, plus the associated host and subnet and optionally the host manager.",domain#R-I,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-ILSA,ILSA,Finds an Interface connecting to a Logical Subnet that implements an Abstract Subnet that is not the same as the Logical Subnet.,domain#R-ILSA,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-INC,INC,"Finds a solo Interface, plus the associated host, subnet, and a host network access context where the interface is connected.",domain#R-INC,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,IoH,"Finds an open network path from the Internet to (but not via) a Host connected to a local subnet, and the associated network interface and access context, plus the location contexts for the host being on that subnet, and optionally the host manager.",domain#R-IoH,FALSE,FALSE
@@ -738,7 +743,7 @@ package#ProcessComms,domain#MP-DFsXSS,DFsXSS,"Finds a human using a web browser 
 package#ProcessComms,domain#MP-DoS,DoS,"Finds a service with its host, and a service attack path to the service from a (possibly remote) subnet, and all the interfaces to which traffic would flow along this attack path.",domain#R-DoS,FALSE,FALSE
 package#ProcessComms,domain#MP-DSrXSS,DSrXSS,"Finds human using a web browser that uses a service with a host, where the browser also uses locally stored data not entered or updated by the user, along with optional host and service managers.",domain#R-DSrXSS,FALSE,TRUE
 package#ProcessComms,domain#MP-DSsXSS,DSsXSS,"Finds a human using a web browser that accesses a service running on a host and using stored input data, along with optional host and service managers.",domain#R-DSsXSS,FALSE,FALSE
-package#ProcessComms,domain#MP-HLSISC,HLSISC,"Finds a host connecting to a logical subnet that is not a hotspot, by authenticating to a controlling service.",domain#R-HLSISC,FALSE,FALSE
+package#ProcessComms,domain#MP-HLSISC,HLSISC,"Finds a host connecting to a logical subnet, by authenticating to a controlling service.",domain#R-HLSISC,FALSE,FALSE
 package#ProcessComms,domain#MP-HPsACdDSCCV,HPsACdDSCCV,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, plus the data access asset representing the data deserialization, and a channel to a key vault that controls the stored data, plus any data fields included in the data copy and used by the process, the process access contexts (a non-unique sufficient match), and optionally the process host manager.",domain#R-HPdDSCCV,FALSE,FALSE
 package#ProcessComms,domain#MP-HPsACrDSCCV,HPsACrDSCCV,"Finds a host running a Process with read access (crudr) to a locally stored data copy, plus the data access asset representing the data deserialization, and a channel to a key vault that controls the stored data, plus any data fields included in the data copy and used by the process, the process access contexts (a non-unique sufficient match), and optionally the process host manager.",domain#R-HPrDSCCV,FALSE,FALSE
 package#ProcessComms,domain#MP-HuCAPmSC,HuCAPmSC,"Finds a client attack path from a subnet, plus the associated client, service process, host and manager, with service channels via the client attack path.",domain#R-HuCAP,FALSE,FALSE

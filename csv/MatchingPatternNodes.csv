@@ -456,6 +456,7 @@ package#Network,domain#MP-HuwStmH-St,domain#Node-Operator-Stakeholder,FALSE,TRUE
 package#Network,domain#MP-HuwStmP-St,domain#Node-Operator-Stakeholder,FALSE,TRUE,FALSE
 package#Network,domain#MP-LnSuP-H,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-LS-prH,domain#Node-Host-Host,FALSE,TRUE,FALSE
+package#Network,domain#MP-LS-S,domain#Node-Space-Space,FALSE,TRUE,FALSE
 package#Network,domain#MP-MHHS,domain#Node-HostAccess-HostNetContext,TRUE,FALSE,FALSE
 package#Network,domain#MP-MHHS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-MHHS,domain#Node-Human-Human,FALSE,FALSE,FALSE

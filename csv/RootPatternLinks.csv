@@ -6,8 +6,12 @@ package#5G,domain#R-BSCNSRAN,domain#Link-CoreNetwork-implementsCN-CellularNetwor
 package#5G,domain#R-BSCNSRAN,domain#Link-Gateway-connectedTo-CellularNetwork
 package#5G,domain#R-BSCNSRAN,domain#Link-Gateway-hasPhysicalHost-BaseStation
 package#5G,domain#R-BSCNSRAN,domain#Link-RAN-accessibleFrom-Space
-package#5G,domain#R-BSCNSRAN,domain#Link-RAN-implements-CellularNetwork
+package#5G,domain#R-BSCNSRAN,domain#Link-RAN-implementsCN-CellularNetwork
 package#5G,domain#R-CNCN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
+package#5G,domain#R-CNCNBSS,domain#Link-BaseStation-locatedIn-Space
+package#5G,domain#R-CNCNBSS,domain#Link-CoreNetwork-implementsCN-CellularNetwork
+package#5G,domain#R-CNCNBSS,domain#Link-Gateway-connectedTo-CoreNetwork
+package#5G,domain#R-CNCNBSS,domain#Link-Gateway-hasPhysicalHost-BaseStation
 package#5G,domain#R-CNHS+RAN,domain#Link-CellularNetwork-accessibleFrom-Space
 package#5G,domain#R-CNHS+RAN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
 package#5G,domain#R-CNHS+RAN,domain#Link-Host-connectedTo-CellularNetwork
@@ -21,6 +25,12 @@ package#5G,domain#R-CNRAN2S,domain#Link-PhysicalHost-locatedIn-OtherSpace
 package#5G,domain#R-CNRAN2S,domain#Link-PhysicalHost-locatedIn-Space
 package#5G,domain#R-CNRAN2S,domain#Link-RAN-implementsCN-CellularNetwork
 package#5G,domain#R-CNRAN2S,domain#Link-RAN-providedBy-Gateway
+package#5G,domain#R-CNRANBSS,domain#Link-BaseStation-locatedIn-Space
+package#5G,domain#R-CNRANBSS,domain#Link-Gateway-hasPhysicalHost-BaseStation
+package#5G,domain#R-CNRANBSS,domain#Link-RAN-implementsCN-CellularNetwork
+package#5G,domain#R-CNRANBSS,domain#Link-RAN-providedBy-Gateway
+package#5G,domain#R-CNRANS,domain#Link-LogicalSubnet-accessibleFrom-Space
+package#5G,domain#R-CNRANS,domain#Link-LogicalSubnet-implements-CellularNetwork
 package#5G,domain#R-CNRS,domain#Link-CellularNetwork-providedBy-Gateway
 package#5G,domain#R-CNRS,domain#Link-Gateway-locatedIn-Space
 package#5G,domain#R-CNRS,domain#Link-LogicalSubnet-implementsCN-CellularNetwork
@@ -1647,6 +1657,8 @@ package#Network,domain#R-PcWH,domain#Link-LogicalSubnet-implementsHS-Hotspot
 package#Network,domain#R-PcWH,domain#Link-Process-controls-Hotspot
 package#Network,domain#R-PH2,domain#Link-Host-hosts-Process
 package#Network,domain#R-PH2,domain#Link-OtherHost-hosts-Process
+package#Network,domain#R-PH2S,domain#Link-PhysicalHost-locatedIn-OtherSpace
+package#Network,domain#R-PH2S,domain#Link-PhysicalHost-locatedIn-Space
 package#Network,domain#R-PHH,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#R-PHHPS,domain#Link-HostAccess-accessFrom-Space
 package#Network,domain#R-PHHPS,domain#Link-HostAccess-accessTo-Host
@@ -1724,6 +1736,7 @@ package#Network,domain#R-WiFiSS,domain#Link-RadioSubnet-accessibleFrom-Space
 package#Network,domain#R-WiFiSS,domain#Link-RadioSubnet-implementsHS-LogicalSubnet
 package#Network,domain#R-WpHS,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#R-WpHS,domain#Link-Hotspot-providedBy-Host
+package#Network,domain#R-WpHS,domain#Link-PhysicalHost-isMobile-PhysicalHost
 package#Network,domain#R-WpHSH,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#R-WpHSH,domain#Link-Hotspot-isHotspot-Hotspot
 package#Network,domain#R-WpHSH,domain#Link-Hotspot-providedBy-Host

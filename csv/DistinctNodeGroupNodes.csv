@@ -116,6 +116,8 @@ package#Network,domain#DNG-Hui2H-0,domain#Node-Human1-Human
 package#Network,domain#DNG-Hui2H-0,domain#Node-Human2-Human
 package#Network,domain#DNG-PH2-0,domain#Node-Host-Host
 package#Network,domain#DNG-PH2-0,domain#Node-OtherHost-Host
+package#Network,domain#DNG-PH2dS-0,domain#Node-OtherSpace-Space
+package#Network,domain#DNG-PH2dS-0,domain#Node-Space-Space
 package#Network,domain#DNG-PHdH-0,domain#Node-Host-Host
 package#Network,domain#DNG-PHdH-0,domain#Node-PhysicalHost-PhysicalHost
 package#NetworkConnectivity,domain#DNG-GdHRS-0,domain#Node-Gateway-Host

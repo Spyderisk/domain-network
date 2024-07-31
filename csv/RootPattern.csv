@@ -3,16 +3,19 @@ domain#000000,domain#000000,BSCNSRAN,1234567812345678123456781234567812345678123
 package#5G,domain#R-BSCNSRAN,BSCNSRAN,"Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network, and there is a base station in the same space that is connected to the cellular network, or hosts a virtual base station that is connected to the cellular network.",FALSE,FALSE
 package#5G,domain#R-CN,CN,Finds a Cellular Network.,FALSE,FALSE
 package#5G,domain#R-CNCN,CNCN,Finds a Cellular Network implemented by a Core Network.,FALSE,FALSE
+package#5G,domain#R-CNCNBSS,CNCNBSS,Finds a cellular network with a backbone network to which is connected a base station (or a virtual host running on the base station) in a space.,FALSE,FALSE
 package#5G,domain#R-CNHS+RAN,CNHS+RAN,Finds a backbone network implementing a cellular network accessible from a space in which there is a RAN and a device connected to the cellular network.,FALSE,FALSE
 package#5G,domain#R-CNR,CNR,Finds a cellular network provided by a gateway host.,FALSE,FALSE
 package#5G,domain#R-CNRAN2S,CNRAN2S,"Finds a radio access network implementing part of a cellular network, provided by a host serving as the base station and having two locations.",FALSE,FALSE
+package#5G,domain#R-CNRANBSS,CNRANBSS,Finds a cellular network implemented by a radio access network provided by a base station (or virtual host running on the base station) which is located in a space.,FALSE,FALSE
+package#5G,domain#R-CNRANS,CNRANS,"Finds a radio access network accessible in a space, and the cellular network it belongs to.",FALSE,FALSE
 package#5G,domain#R-CNRS,CNRS,Finds a cellular network provided by a gateway host which therefore also provides the backbone network.,FALSE,FALSE
 package#5G,domain#R-CNS,CNS,Finds a backbone network implementing a cellular network accessible from a space.,FALSE,FALSE
 package#5G,domain#R-CNS+RAN+BS,CNS+RAN+BS,Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network provided by a gateway running on a base station.,FALSE,FALSE
 package#5G,domain#R-CNSBSRAN,CNSBSRAN,"Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network, and there is a base station in the same space that is connected to the cellular newtork backbone, or hosts a virtual base station that is connected to the cellular network backbone.",FALSE,FALSE
 package#5G,domain#R-CrCcL3,CrCcL3,"Finds a gateway host providing a backbone network for a cellular network, connected to an IP subnet.",FALSE,FALSE
 package#5G,domain#R-CScGcCS,CScGcCS,"Finds a Physical Host connected between two Cellular networks, both in the same space.",FALSE,FALSE
-package#5G,domain#R-FCNS,FCNS,Finds a Cellular Network to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
+package#5G,domain#R-FCNS,FCNS,Finds a Cellular Network to which is connected a Physical Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
 package#5G,domain#R-L3cBrPR,L3cBrPR,"Finds a host acting as a base station providing a RAN in a private cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
 package#5G,domain#R-L3cBrUR,L3cBrUR,"Finds a host acting as a base station providing a RAN in a public cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
 package#5G,domain#R-L3cCrPC,L3cCrPC,Finds a host acting as a router connected to an external IP subnet and providing the backbone network of a private cellular network.,FALSE,FALSE
@@ -334,8 +337,8 @@ package#Network,domain#R-DCPS,DCPS,Finds a Process hosted directly on a Data Cen
 package#Network,domain#R-DCVHRS,DCVHRS,Finds a Host that is physically in a DataCentre and connected to a WiFi LAN.,FALSE,FALSE
 package#Network,domain#R-DCVHWS,DCVHWS,Finds a Host that is physically in a DataCentre and connected to a Wired LAN.,FALSE,FALSE
 package#Network,domain#R-DCWH,DCWH,"Finds a Data Centre with a router and wired network, in which is located another Fixed Host.",FALSE,FALSE
-package#Network,domain#R-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
-package#Network,domain#R-FpLSS,FpLSS,Finds a Logical Subnet which is provided by a Fixed Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
+package#Network,domain#R-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a non-mobile Physical Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
+package#Network,domain#R-FpLSS,FpLSS,Finds a Logical Subnet which is provided by a non-mobile Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
 package#Network,domain#R-GH,GH,Finds a General Host.,FALSE,FALSE
 package#Network,domain#R-H,H,Finds a solo Host.,FALSE,FALSE
 package#Network,domain#R-HAC,HAC,Finds a Host in a Space with the associated access context.,FALSE,FALSE
@@ -416,6 +419,7 @@ package#Network,domain#R-PcSHLnS,PcSHLnS,Finds a Process controlling a Shell Hos
 package#Network,domain#R-PcWH,PcWH,"Finds a WiFiLAN and its local implementation, plus a controlling process.",FALSE,FALSE
 package#Network,domain#R-PH,PH,Finds a solo physical host.,FALSE,FALSE
 package#Network,domain#R-PH2,PH2,Finds a process with two hosts.,FALSE,FALSE
+package#Network,domain#R-PH2S,PH2S,Finds a physical host located in two spaces which may or may not be the same space.,FALSE,FALSE
 package#Network,domain#R-PHH,PHH,Finds a host that directly is or indirectly has a physical host.,FALSE,FALSE
 package#Network,domain#R-PHHPS,PHHPS,Finds a process running on a host that can be accessed from a space.,FALSE,FALSE
 package#Network,domain#R-PHHS,PHHS,Finds a host that directly is or indirectly has a physical host in a space.,FALSE,FALSE

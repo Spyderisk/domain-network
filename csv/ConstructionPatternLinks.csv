@@ -2,7 +2,10 @@ package,URI,hasInferredLink
 domain#000000,domain#000000,domain#Link-Gateway-connectedTo-CoreNetwork
 package#5G,domain#CP-BSCNSRAN-p+p,domain#Link-Gateway-connectedTo-CoreNetwork
 package#5G,domain#CP-BSCNSRAN-p+p,domain#Link-RAN-providedBy-Gateway
+package#5G,domain#CP-CNCNBSS+aF,domain#Link-CellularNetwork-accessibleFrom-Space
 package#5G,domain#CP-CNHS+RAN+cT,domain#Link-PhysicalHost-connectedTo-RAN
+package#5G,domain#CP-CNRANBSS+aF,domain#Link-RAN-accessibleFrom-Space
+package#5G,domain#CP-CNRANS+aF,domain#Link-CellularNetwork-accessibleFrom-Space
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-providedBy-Gateway
 package#5G,domain#CP-CNRS+aF,domain#Link-LogicalSubnet-accessibleFrom-Space
@@ -733,6 +736,7 @@ package#NetworkInference,domain#CP-PCPHLSS+NC,domain#Link-ProcNetContext-accessT
 package#NetworkInference,domain#CP-PCPHLSS+NC,domain#Link-ProcNetContext-accessVia-Subnet
 package#NetworkInference,domain#CP-PcWH+c,domain#Link-Process-controls-LogicalSubnet
 package#NetworkInference,domain#CP-PH+hPH,domain#Link-Host-hasPhysicalHost-Host
+package#NetworkInference,domain#CP-PH2dS+iM,domain#Link-PhysicalHost-isMobile-PhysicalHost
 package#NetworkInference,domain#CP-PHHPS+AC,domain#Link-HostAccess-propagatesTo-ProcAccess
 package#NetworkInference,domain#CP-PHHPS+AC,domain#Link-ProcAccess-accessFrom-Space
 package#NetworkInference,domain#CP-PHHPS+AC,domain#Link-ProcAccess-accessTo-Host
