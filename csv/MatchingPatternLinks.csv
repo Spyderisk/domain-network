@@ -11,7 +11,7 @@ package#5G,domain#MP-CNS+RAN+BS-S,domain#Link-PhysicalHost-locatedIn-OtherSpace,
 package#5G,domain#MP-CNSBSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-CNS-RAN,domain#Link-LogicalSubnet-accessibleFrom-Space,FALSE
 package#5G,domain#MP-CNS-RAN,domain#Link-LogicalSubnet-implementsCN-CellularNetwork,FALSE
-package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-implements-CellularNetwork,TRUE
+package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-implementsCN-CellularNetwork,TRUE
 package#5G,domain#MP-CrCcL3,domain#Link-ToSubnet-isAbstractSubnet-ToSubnet,TRUE
 package#5G,domain#MP-FCNS,domain#Link-PhysicalHost-isMobile-PhysicalHost,TRUE
 package#5G,domain#MP-L3cCrPC,domain#Link-FromSubnet-implementsCN-CellularNetwork,TRUE

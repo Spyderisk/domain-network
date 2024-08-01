@@ -127,7 +127,7 @@ package#Network,domain#hasPhysicalHost,domain#Host
 package#Network,domain#hosts,domain#DataCentre
 package#Network,domain#hosts,domain#Host
 package#Network,domain#impersonalDevice,domain#PhysicalHost
-package#Network,domain#implements,domain#PhysicalSubnet
+package#Network,domain#implementsAN,domain#LogicalSubnet
 package#Network,domain#implementsHS,domain#WiFiLAN
 package#Network,domain#indirectAuthZ,domain#Process
 package#Network,domain#interactsRemotelyWith,domain#Human
