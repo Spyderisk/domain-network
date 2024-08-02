@@ -1,5 +1,7 @@
 package,URI,subPropertyOf
-domain#000000,domain#000000,domain#creates
+domain#000000,domain#000000,domain#implements
+package#5G,domain#implementsCN,domain#implements
+package#5G,domain#implementsCN,domain#implementsAN
 package#Application,domain#amends,domain#creates
 package#Application,domain#amends,domain#receives
 package#Application,domain#amendsData,domain#inputsData
@@ -30,7 +32,11 @@ package#IoT,domain#amendsSensor,domain#pollsSensor
 package#IoT,domain#readsSensor,domain#pollsSensor
 package#IoT,domain#updatesSensor,domain#controlsSensor
 package#IoT,domain#updatesSensor,domain#readsSensor
+package#Network,domain#implementsHS,domain#implements
+package#Network,domain#implementsHS,domain#implementsAN
 package#Network,domain#interactsWith,domain#interactsRemotelyWith
+package#Network,domain#isHostLAN,domain#isLocalSubnet
+package#Network,domain#isHotspot,domain#isAbstractSubnet
 package#Network,domain#locatedIn,domain#mayBeIn
 package#Network,domain#uses,domain#usesService
 package#Network,domain#usesForAuth,domain#usesService

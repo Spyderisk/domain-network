@@ -242,7 +242,6 @@ package#IoT,domain#CSG-SuspendUnreliableController-Implementation-Runtime,domain
 package#LocalDeviceConnectivity,domain#CSG-AntiMalwareAtHost,domain#H.W.HL1H.3
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.TA.L1SSg2.8
 package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.TA.LTethSg2.8
-package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.TA.LTRevSg2.8
 package#LocalDeviceConnectivity,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.J.UHS.3
 package#LocalDeviceConnectivity,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.W.UHS.3
 package#LocalDeviceConnectivity,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#I.Auth.HBImSG.6

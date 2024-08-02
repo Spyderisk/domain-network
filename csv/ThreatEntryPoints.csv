@@ -97,7 +97,6 @@ package#LocalDeviceConnectivity,domain#LS.L.HL1HS.1,domain#TWAS-OutOfService-Rem
 package#LocalDeviceConnectivity,domain#LS.L.HL1HS.1,domain#TWAS-UserTW-FromContext
 package#LocalDeviceConnectivity,domain#Sg.A.L1SSg2.6.1,domain#TWAS-DefaultTW-Gateway
 package#LocalDeviceConnectivity,domain#Sg.A.LTethSg2.6.1,domain#TWAS-DefaultTW-Gateway
-package#LocalDeviceConnectivity,domain#Sg.A.LTRevSg2.6.1,domain#TWAS-DefaultTW-Gateway
 package#LocalDeviceConnectivity,domain#Sg.DA.L1SSg2AC.1,domain#TWAS-Control-HostAccess
 package#LocalDeviceConnectivity,domain#Sg.DA.L1SSg2AC.1,domain#TWAS-OutOfService-FromHost
 package#LocalDeviceConnectivity,domain#Sg.DA.L1SSg2AC.1,domain#TWAS-OutOfService-Gateway
@@ -106,10 +105,6 @@ package#LocalDeviceConnectivity,domain#Sg.TA.LTethSg2.8,domain#TWAS-OutOfService
 package#LocalDeviceConnectivity,domain#Sg.TA.LTethSg2AC.1,domain#TWAS-Control-HostAccess
 package#LocalDeviceConnectivity,domain#Sg.TA.LTethSg2AC.1,domain#TWAS-OutOfService-Gateway
 package#LocalDeviceConnectivity,domain#Sg.TA.LTethSg2AC.1,domain#TWAS-OutOfService-LogicalSubnet
-package#LocalDeviceConnectivity,domain#Sg.TA.LTRevSg2.8,domain#TWAS-OutOfService-FwdSegment
-package#LocalDeviceConnectivity,domain#Sg.TA.LTRevSg2AC.1,domain#TWAS-Control-HostAccess
-package#LocalDeviceConnectivity,domain#Sg.TA.LTRevSg2AC.1,domain#TWAS-OutOfService-Gateway
-package#LocalDeviceConnectivity,domain#Sg.TA.LTRevSg2AC.1,domain#TWAS-OutOfService-LogicalSubnet
 package#Network,domain#DC.A.DC.0,domain#TWAS-Capacity-DataCentre
 package#Network,domain#DC.RTW.StDC.1,domain#TWAS-Benevolence-Operator
 package#Network,domain#H.A.H.1.1,domain#TWAS-ResourceTW-Host
@@ -151,8 +146,8 @@ package#Network,domain#LS.IS.HprLS.8,domain#TWAS-OutOfService-Gateway
 package#Network,domain#LS.IS.HprLSAC.1,domain#TWAS-Control-HostAccess
 package#Network,domain#LS.IS.LS-prH.8,domain#TWAS-DefaultTW-LogicalSubnet
 package#Network,domain#LS.IS.WHmWS.8,domain#TWAS-OutOfService-LogicalSubnet
-package#Network,domain#LS.L.HL3S.1,domain#TWAS-OutOfService-Host
-package#Network,domain#LS.L.HL3S.1,domain#TWAS-UserTW-HostAccess
+package#Network,domain#LS.L.HL23S.1,domain#TWAS-OutOfService-Host
+package#Network,domain#LS.L.HL23S.1,domain#TWAS-UserTW-HostAccess
 package#Network,domain#LS.L.RSSH.1,domain#TWAS-Control-HostAccess
 package#Network,domain#LS.L.RSSH.1,domain#TWAS-OccupantTW-Space
 package#Network,domain#LS.L.RSS-HP.3,domain#TWAS-OccupantTW-Space
@@ -165,7 +160,7 @@ package#Network,domain#LS.L.WSS-HP.3,domain#TWAS-OccupantTW-Space
 package#Network,domain#LS.L.WSS-HP.3,domain#TWAS-OutOfService-LogicalSubnet
 package#Network,domain#LS.L.WSSH-P.3,domain#TWAS-OccupantTW-Space
 package#Network,domain#LS.L.WSSH-P.3,domain#TWAS-OutOfService-LogicalSubnet
-package#Network,domain#LS.M.HprL3SAC.1,domain#TWAS-Control-HostAccess
+package#Network,domain#LS.M.HprL23SAC.1,domain#TWAS-Control-HostAccess
 package#Network,domain#P.A.HP.1.1,domain#TWAS-ResourceTW-Host
 package#Network,domain#P.A.HP-iT.1.3,domain#TWAS-UserTW-Process
 package#Network,domain#P.A.HP-iT.5,domain#TWAS-IntrinsicTW-Process
@@ -508,7 +503,7 @@ package#Theft,domain#H.M.PHdH.2,domain#TWAS-OwnerControl-PhysicalHost
 package#Theft,domain#H.P.PHS-iC.3,domain#TWAS-OccupantTW-Space
 package#Theft,domain#I.IS.INC.2,domain#TWAS-OutOfService-LogicalSubnet
 package#Theft,domain#I.IS.INC.2,domain#TWAS-OwnerControl-HostAccess
-package#Theft,domain#LS.L.HL3S.2,domain#TWAS-OwnerControl-HostAccess
+package#Theft,domain#LS.L.HL23S.2,domain#TWAS-OwnerControl-HostAccess
 package#Theft,domain#P.IS.HP.2,domain#TWAS-OutOfService-Host
 package#Theft,domain#P.IS.HP.2,domain#TWAS-OwnerControl-Host
 package#Theft,domain#P.L.HuiPCH.2.1,domain#TWAS-Possession-Host

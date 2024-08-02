@@ -2,6 +2,7 @@ package,URI,subClassOf
 domain#000000,domain#000000,domain#DumbHost
 package#5G,domain#BaseStation,domain#DumbHost
 package#5G,domain#BaseStation,domain#FixedHost
+package#5G,domain#BaseStation,domain#HostPalette
 package#5G,domain#BaseStation,domain#SimpleHost
 package#5G,domain#CellularNetwork,domain#AbstractSubnet
 package#5G,domain#PrivateCellularNetwork,domain#CellularNetwork
@@ -9,7 +10,7 @@ package#5G,domain#PrivateCellularNetwork,domain#NetworkPalette
 package#5G,domain#PublicCellularNetwork,domain#CellularNetwork
 package#5G,domain#PublicCellularNetwork,domain#NetworkPalette
 package#5G,domain#RAN,domain#L2Subnet
-package#5G,domain#RAN,domain#L3Subnet
+package#5G,domain#RAN,domain#NetworkPalette
 package#5G,domain#RAN,domain#RadioSubnet
 package#AccessContext,domain#AccessContext,core#Asset
 package#Application,domain#ApplicationProcess,domain#GeneralProcess
@@ -144,12 +145,11 @@ package#LocalDeviceConnectivity,domain#L1Subnet,domain#L01Subnet
 package#LocalDeviceConnectivity,domain#MeshRoutingSegment,domain#OpenSegment
 package#LocalDeviceConnectivity,domain#Notebook,domain#USBHost
 package#LocalDeviceConnectivity,domain#RemovableMedia,domain#USBDevice
-package#LocalDeviceConnectivity,domain#ReverseTetheringSegment,domain#NATSegment
 package#LocalDeviceConnectivity,domain#Router,domain#USBHost
 package#LocalDeviceConnectivity,domain#Server,domain#USBHost
 package#LocalDeviceConnectivity,domain#Smartphone,domain#USBDevice
 package#LocalDeviceConnectivity,domain#Tablet,domain#USBDevice
-package#LocalDeviceConnectivity,domain#TetheringSegment,domain#OpenSegment
+package#LocalDeviceConnectivity,domain#TetheringSegment,domain#NATSegment
 package#LocalDeviceConnectivity,domain#Thing,domain#USBDevice
 package#LocalDeviceConnectivity,domain#USBDevice,domain#TypeOverlayHost
 package#LocalDeviceConnectivity,domain#USBHost,domain#TypeOverlayHost
@@ -169,6 +169,7 @@ package#Network,domain#Cluster,domain#HostPalette
 package#Network,domain#ClusterHost,domain#TypeOverlayHost
 package#Network,domain#ConsoleHost,domain#InteractiveHost
 package#Network,domain#CoreNetwork,domain#L3Subnet
+package#Network,domain#CoreNetwork,domain#NetworkPalette
 package#Network,domain#CoreNetwork,domain#PhysicalSubnet
 package#Network,domain#CoreRouter,domain#Router
 package#Network,domain#DataCentre,domain#PrivateSpace
@@ -271,6 +272,7 @@ package#Network,domain#Workstation,domain#HostPalette
 package#NetworkConnectivity,domain#ClosedSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#CommsAsset,domain#NetworkAsset
 package#NetworkConnectivity,domain#DeNATSegment,domain#LogicalRoute
+package#NetworkConnectivity,domain#FreeSegment,domain#LogicalRoute
 package#NetworkConnectivity,domain#Interface,domain#CommsAsset
 package#NetworkConnectivity,domain#LogicalPath,domain#CommsAsset
 package#NetworkConnectivity,domain#LogicalRoute,domain#LogicalSegment

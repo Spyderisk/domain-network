@@ -75,9 +75,7 @@ package#IoT,domain#CSG-SuspendUnreliableController-Trigger,domain#Co.A.Co.6
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.A.L1SSg2.6.1
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.DA.L1SSg2AC.1
 package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.A.LTethSg2.6.1
-package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.A.LTRevSg2.6.1
 package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.TA.LTethSg2AC.1
-package#LocalDeviceConnectivity,domain#CSG-DisableTethering,domain#Sg.TA.LTRevSg2AC.1
 package#LocalDeviceConnectivity,domain#CSG-SimpleSecurePairing-Local,domain#I.Auth.HBImSG.6
 package#LocalDeviceConnectivity,domain#CSG-SimpleSecurePairing-Remote,domain#I.Auth.HBImSG.6
 package#Network,domain#CSG-BiometricAccessControlAtHost,domain#P.A.HuiHP.6
