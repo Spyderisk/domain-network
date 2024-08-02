@@ -415,6 +415,7 @@ package#Network,domain#MP-DCVHRS-H,DCVHRS-H,Finds a Host that is physically in a
 package#Network,domain#MP-DCVHWS-H,DCVHWS-H,Finds a Host that is physically in a DataCentre and connected to a Wired LAN that is not provided by any host.,domain#R-DCVHWS,FALSE,FALSE
 package#Network,domain#MP-DCWH-LS,DCWH-LS,"Finds a Data Centre with a router and wired network, in which is located another Fixed Host not connected to or providing any subnet.",domain#R-DCWH,FALSE,FALSE
 package#Network,domain#MP-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FcLSS,FALSE,TRUE
+package#Network,domain#MP-FHmS,FHmS,"Finds a fixed physical host that has mutiple locations, along with those locations.",domain#R-FH+iM,FALSE,FALSE
 package#Network,domain#MP-FpLSS,FpLSS,Finds a Logical Subnet which is provided by a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FpLSS,FALSE,FALSE
 package#Network,domain#MP-GH,GH,Finds a General Host (i.e. a host that can run arbitrary processes).,domain#R-GH,FALSE,FALSE
 package#Network,domain#MP-H,H,"Finds a solo Host, with optionally its manager(s) and interactive user(s).",domain#R-H,FALSE,FALSE

@@ -1485,6 +1485,7 @@ package#Network,domain#R-DCWH,domain#Link-WiredLAN-providedBy-Router
 package#Network,domain#R-FcLSS,domain#Link-Host-connectedTo-LogicalSubnet
 package#Network,domain#R-FcLSS,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#R-FcLSS,domain#Link-PhysicalHost-locatedIn-Space
+package#Network,domain#R-FH+iM,domain#Link-PhysicalHost-isMobile-PhysicalHost
 package#Network,domain#R-FpLSS,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#R-FpLSS,domain#Link-LogicalSubnet-providedBy-Host
 package#Network,domain#R-FpLSS,domain#Link-PhysicalHost-locatedIn-Space

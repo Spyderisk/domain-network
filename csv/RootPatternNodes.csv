@@ -104,7 +104,7 @@ package#5G,domain#R-L3rBrUR,domain#Node-FromSubnet-L23Subnet,TRUE
 package#5G,domain#R-L3rBrUR,domain#Node-Gateway-Host,TRUE
 package#5G,domain#R-L3rBrUR,domain#Node-ToSubnet-RAN,TRUE
 package#5G,domain#R-MPCNS,domain#Node-Host-Host,TRUE
-package#5G,domain#R-MPCNS,domain#Node-PhysicalHost-MobileHost,TRUE
+package#5G,domain#R-MPCNS,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#5G,domain#R-MPCNS,domain#Node-PublicCellularNetwork-PublicCellularNetwork,TRUE
 package#5G,domain#R-MPCNS,domain#Node-Space-Space,TRUE
 package#5G,domain#R-PCcBrPR,domain#Node-CellularNetwork-PrivateCellularNetwork,TRUE
@@ -1494,6 +1494,7 @@ package#Network,domain#R-FcLSS,domain#Node-Host-Host,TRUE
 package#Network,domain#R-FcLSS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#Network,domain#R-FcLSS,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#Network,domain#R-FcLSS,domain#Node-Space-Space,TRUE
+package#Network,domain#R-FH+iM,domain#Node-PhysicalHost-FixedHost,TRUE
 package#Network,domain#R-FpLSS,domain#Node-Host-Host,TRUE
 package#Network,domain#R-FpLSS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#Network,domain#R-FpLSS,domain#Node-PhysicalHost-PhysicalHost,TRUE

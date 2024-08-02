@@ -7,6 +7,7 @@ package#5G,domain#CP-CNHS+RAN+cT,domain#Link-PhysicalHost-connectedTo-RAN
 package#5G,domain#CP-CNRANBSS+aF,domain#Link-RAN-accessibleFrom-Space
 package#5G,domain#CP-CNRANS+aF,domain#Link-CellularNetwork-accessibleFrom-Space
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
+package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-isNowhere-CoreNetwork
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-providedBy-Gateway
 package#5G,domain#CP-CNRS+aF,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#5G,domain#CP-CNSBSRAN-p+p,domain#Link-RAN-providedBy-Gateway

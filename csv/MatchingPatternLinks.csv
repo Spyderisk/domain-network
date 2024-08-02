@@ -741,6 +741,7 @@ package#Network,domain#MP-FcLSS,domain#Link-LogicalSubnet-isAbstractSubnet-Logic
 package#Network,domain#MP-FcLSS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet,TRUE
 package#Network,domain#MP-FcLSS,domain#Link-LogicalSubnet-providedBy-Host,TRUE
 package#Network,domain#MP-FcLSS,domain#Link-PhysicalHost-isMobile-PhysicalHost,TRUE
+package#Network,domain#MP-FHmS,domain#Link-PhysicalHost-locatedIn-Space,FALSE
 package#Network,domain#MP-FpLSS,domain#Link-LogicalSubnet-isAbstractSubnet-LogicalSubnet,TRUE
 package#Network,domain#MP-FpLSS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet,TRUE
 package#Network,domain#MP-FpLSS,domain#Link-PhysicalHost-isMobile-PhysicalHost,TRUE
@@ -872,6 +873,7 @@ package#Network,domain#MP-LS-iH,domain#Link-LogicalSubnet-isAbstractSubnet-Logic
 package#Network,domain#MP-LS-prH,domain#Link-LogicalSubnet-providedBy-Host,FALSE
 package#Network,domain#MP-LS-S,domain#Link-LogicalSubnet-accessibleFrom-Space,FALSE
 package#Network,domain#MP-LS-S,domain#Link-LogicalSubnet-isAbstractSubnet-LogicalSubnet,TRUE
+package#Network,domain#MP-LS-S,domain#Link-LogicalSubnet-isNowhere-LogicalSubnet,TRUE
 package#Network,domain#MP-MHHS,domain#Link-HostAccess-accessFrom-Space,FALSE
 package#Network,domain#MP-MHHS,domain#Link-HostAccess-accessTo-Host,FALSE
 package#Network,domain#MP-MHHS,domain#Link-HostManager-manages-Host,FALSE

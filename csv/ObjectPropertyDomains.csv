@@ -141,6 +141,7 @@ package#Network,domain#isLnS,domain#Process
 package#Network,domain#isLocalSubnet,domain#LogicalSubnet
 package#Network,domain#isMHC,domain#Host
 package#Network,domain#isMobile,domain#PhysicalHost
+package#Network,domain#isNowhere,domain#LogicalSubnet
 package#Network,domain#isPersonalDevice,domain#PhysicalHost
 package#Network,domain#isRouter,domain#Host
 package#Network,domain#isTrivial,domain#Process

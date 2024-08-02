@@ -378,6 +378,7 @@ package#Network,domain#MP-DC-R,domain#Node-Host-Router,FALSE,TRUE,FALSE
 package#Network,domain#MP-DCVHRS-H,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-DCVHWS-H,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#Network,domain#MP-DCWH-LS,domain#Node-LogicalSubnet-LogicalSubnet,FALSE,TRUE,FALSE
+package#Network,domain#MP-FHmS,domain#Node-Space-Space,TRUE,FALSE,FALSE
 package#Network,domain#MP-GH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-H,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#Network,domain#MP-H,domain#Node-Human-Human,FALSE,FALSE,FALSE

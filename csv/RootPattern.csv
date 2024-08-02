@@ -24,7 +24,7 @@ package#5G,domain#R-L3cGcR,L3cGcR,"Finds a host connected to a RAN in a cellular
 package#5G,domain#R-L3rBrPR,L3rBrPR,"Finds a host acting as a base station providing a RAN in a private cellular network, and also providing an L2 or L3 Subnet.",FALSE,FALSE
 package#5G,domain#R-L3rBrR,L3rBrR,"Finds a host acting as a base station providing the RAN in a space for a cellular network, and also providing a backbone network in the same cellular network.",FALSE,FALSE
 package#5G,domain#R-L3rBrUR,L3rBrUR,"Finds a host acting as a base station providing a RAN in a public cellular network, and also providing an L2 or L3 Subnet.",FALSE,FALSE
-package#5G,domain#R-MPCNS,MPCNS,Finds a Public Cellular Network to which is connected a Mobile Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
+package#5G,domain#R-MPCNS,MPCNS,Finds a Public Cellular Network to which is connected any host located in a Space.,FALSE,FALSE
 package#5G,domain#R-PCcBrPR,PCcBrPR,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a private cellular network.",FALSE,FALSE
 package#5G,domain#R-PcCNLS,PcCNLS,"Finds a process controlling a cellular network, and a logical subnet that implements part of the cellular network.",FALSE,FALSE
 package#5G,domain#R-PCN,PCN,Finds a Public Cellular Network.,FALSE,FALSE
@@ -338,6 +338,7 @@ package#Network,domain#R-DCVHRS,DCVHRS,Finds a Host that is physically in a Data
 package#Network,domain#R-DCVHWS,DCVHWS,Finds a Host that is physically in a DataCentre and connected to a Wired LAN.,FALSE,FALSE
 package#Network,domain#R-DCWH,DCWH,"Finds a Data Centre with a router and wired network, in which is located another Fixed Host.",FALSE,FALSE
 package#Network,domain#R-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a non-mobile Physical Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
+package#Network,domain#R-FH+iM,FH+iM,"Finds a solo fixed, physical host that has multiple locations.",FALSE,FALSE
 package#Network,domain#R-FpLSS,FpLSS,Finds a Logical Subnet which is provided by a non-mobile Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
 package#Network,domain#R-GH,GH,Finds a General Host.,FALSE,FALSE
 package#Network,domain#R-H,H,Finds a solo Host.,FALSE,FALSE
