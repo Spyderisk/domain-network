@@ -48,6 +48,11 @@ package#AIHarms,domain#MADS-LossOfExploitTW-MLModel,domain#MLModel,domain#LossOf
 package#AIHarms,domain#MADS-LossOfExploitTW-MLTrainingAlgorithm,domain#MLTrainingAlgorithm,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfExtrinsicTW-MLModel,domain#MLModel,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfExtrinsicTW-MLTrainingAlgorithm,domain#MLTrainingAlgorithm,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
+package#AIHarms,domain#MADS-LossOfFairness-Data,domain#Data,domain#LossOfFairness,domain#ImpactLevelMedium
+package#AIHarms,domain#MADS-LossOfFairness-SensitiveData,domain#SensitiveData,domain#LossOfFairness,domain#ImpactLevelNegligible
+package#AIHarms,domain#MADS-LossOfFairness-SpamData,domain#SpamData,domain#LossOfFairness,domain#ImpactLevelNegligible
+package#AIHarms,domain#MADS-LossOfFairProcessing-MLModel,domain#MLModel,domain#LossOfFairProcessing,domain#ImpactLevelNegligible
+package#AIHarms,domain#MADS-LossOfFairProcessing-MLTrainingAlgorithm,domain#MLTrainingAlgorithm,domain#LossOfFairProcessing,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfIntrinsicTW-MLModel,domain#MLModel,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfIntrinsicTW-MLTrainingAlgorithm,domain#MLTrainingAlgorithm,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfReliability-MLModel,domain#MLModel,domain#LossOfReliability,domain#ImpactLevelNegligible
@@ -421,6 +426,7 @@ package#GDPR,domain#MADS-LossOfAuthenticity-SpecialCategoryData,domain#SpecialCa
 package#GDPR,domain#MADS-LossOfAvailability-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#GDPR,domain#MADS-LossOfConfidentiality-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfConfidentiality,domain#ImpactLevelMedium
 package#GDPR,domain#MADS-LossOfDefaultTW-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
+package#GDPR,domain#MADS-LossOfFairness-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfFairness,domain#ImpactLevelNegligible
 package#GDPR,domain#MADS-LossOfIntegrity-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfIntegrity,domain#ImpactLevelLow
 package#GDPR,domain#MADS-LossOfTimeliness-SpecialCategoryData,domain#SpecialCategoryData,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#GDPR,domain#MADS-MalwareInfection-SpecialCategoryData,domain#SpecialCategoryData,domain#MalwareInfection,domain#ImpactLevelNegligible
@@ -465,6 +471,8 @@ package#IoT,domain#MADS-LossOfExtrinsicTW-Controller,domain#Controller,domain#Lo
 package#IoT,domain#MADS-LossOfExtrinsicTW-ControlProcess,domain#ControlProcess,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfExtrinsicTW-Sensor,domain#Sensor,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfExtrinsicTW-SensorProcess,domain#SensorProcess,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfFairness-ControlData,domain#ControlData,domain#LossOfFairness,domain#ImpactLevelNegligible
+package#IoT,domain#MADS-LossOfFairness-SensedData,domain#SensedData,domain#LossOfFairness,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfIntegrity-ControlData,domain#ControlData,domain#LossOfIntegrity,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfIntegrity-SensedData,domain#SensedData,domain#LossOfIntegrity,domain#ImpactLevelNegligible
 package#IoT,domain#MADS-LossOfIntegrity-Sensor,domain#Sensor,domain#LossOfIntegrity,domain#ImpactLevelNegligible
@@ -907,6 +915,9 @@ package#Privacy,domain#MADS-LossOfDefaultTW-HealthData,domain#HealthData,domain#
 package#Privacy,domain#MADS-LossOfDefaultTW-HealthSensor,domain#HealthSensor,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Privacy,domain#MADS-LossOfExploitTW-HealthSensor,domain#HealthSensor,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Privacy,domain#MADS-LossOfExtrinsicTW-HealthSensor,domain#HealthSensor,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
+package#Privacy,domain#MADS-LossOfFairness-BiometricData,domain#BiometricData,domain#LossOfFairness,domain#ImpactLevelNegligible
+package#Privacy,domain#MADS-LossOfFairness-GeneticData,domain#GeneticData,domain#LossOfFairness,domain#ImpactLevelNegligible
+package#Privacy,domain#MADS-LossOfFairness-HealthData,domain#HealthData,domain#LossOfFairness,domain#ImpactLevelMedium
 package#Privacy,domain#MADS-LossOfIntegrity-BiometricData,domain#BiometricData,domain#LossOfIntegrity,domain#ImpactLevelMedium
 package#Privacy,domain#MADS-LossOfIntegrity-GeneticData,domain#GeneticData,domain#LossOfIntegrity,domain#ImpactLevelMedium
 package#Privacy,domain#MADS-LossOfIntegrity-HealthData,domain#HealthData,domain#LossOfIntegrity,domain#ImpactLevelMedium
