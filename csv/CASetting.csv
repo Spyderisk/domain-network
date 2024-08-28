@@ -63,6 +63,8 @@ package#5G,domain#CAS-Unmanaged-BaseStation,domain#BaseStation,domain#Unmanaged,
 package#5G,domain#CAS-X509-BaseStation,domain#BaseStation,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-X509ClientVerifier-BaseStation,domain#BaseStation,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-X509ServiceVerifier-BaseStation,domain#BaseStation,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#CAS-ModelRetraining-MLModel,domain#MLModel,domain#ModelRetraining,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#CAS-ModelValidation-MLModel,domain#MLModel,domain#ModelValidation,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-ApplicationProcess,domain#ApplicationProcess,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-CmdLineProcess,domain#CmdLineProcess,domain#AccessControl,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-AccessControl-DataService,domain#DataService,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE

@@ -3,6 +3,8 @@ domain#000000,domain#000000,domain#CS-MultipleCellNIC-Gateway,FALSE
 package#5G,domain#CSG-HostWithMultipleCellNIC,domain#CS-MultipleCellNIC-Gateway,FALSE
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#CS-AAA-LogicalSubnet,FALSE
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#CS-SIM-Host,FALSE
+package#AIHarms,domain#CSG-ModelValidationAndRetraining,domain#CS-ModelRetraining-MLModel,FALSE
+package#AIHarms,domain#CSG-ModelValidationAndRetraining,domain#CS-ModelValidation-MLModel,FALSE
 package#Application,domain#CSG-DataAccessControl,domain#CS-AccessControl-Host,FALSE
 package#Application,domain#CSG-DataAccessControl,domain#CS-AccessPolicy-Data,FALSE
 package#Application,domain#CSG-DataBaseAccessControl,domain#CS-AccessControl-Service,FALSE

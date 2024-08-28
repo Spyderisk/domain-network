@@ -2,6 +2,8 @@ package,URI,metaLocatedAt
 domain#000000,domain#000000,domain#PhysicalHost
 package#5G,domain#MultipleCellNIC,domain#PhysicalHost
 package#5G,domain#SIM,domain#PhysicalHost
+package#AIHarms,domain#ModelRetraining,domain#MLModel
+package#AIHarms,domain#ModelValidation,domain#MLModel
 package#Application,domain#AccessPolicy,domain#Data
 package#Application,domain#StaticData,domain#Data
 package#CloudManagement,domain#AutoDataGovernance,domain#Process
