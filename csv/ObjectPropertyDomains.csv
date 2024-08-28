@@ -1,6 +1,15 @@
 package,URI,domain
 domain#000000,domain#000000,domain#AccessContext
 package#AccessContext,domain#accessFrom,domain#AccessContext
+package#AIHarms,domain#hasHyperparameters,domain#MLTrainingAlgorithm
+package#AIHarms,domain#hasParameters,domain#MLModel
+package#AIHarms,domain#informs,domain#Data
+package#AIHarms,domain#predictionInputs,domain#Data
+package#AIHarms,domain#predicts,domain#MLModel
+package#AIHarms,domain#trains,domain#MLTrainingAlgorithm
+package#AIHarms,domain#usesToTest,domain#MLTrainingAlgorithm
+package#AIHarms,domain#usesToTrain,domain#MLTrainingAlgorithm
+package#AIHarms,domain#usesToValidate,domain#MLTrainingAlgorithm
 package#Application,domain#amends,domain#Process
 package#Application,domain#amendsData,domain#Human
 package#Application,domain#appends,domain#Process

@@ -2,6 +2,9 @@ package,dependsOn
 domain#000000,package#NetworkConnectivity
 package#5G,package#NetworkConnectivity
 package#AccessContext,package#Physical
+package#AIHarms,package#Application
+package#AIHarms,package#Network
+package#AIHarms,package#Users
 package#Application,package#Network
 package#CloudManagement,package#Virtualisation
 package#DataLifecycle,package#DataStructure

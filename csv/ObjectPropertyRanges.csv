@@ -1,6 +1,15 @@
 package,URI,range
 domain#000000,domain#000000,domain#Space
 package#AccessContext,domain#accessFrom,domain#Space
+package#AIHarms,domain#hasHyperparameters,domain#Data
+package#AIHarms,domain#hasParameters,domain#Data
+package#AIHarms,domain#informs,domain#Data
+package#AIHarms,domain#predictionInputs,domain#MLModel
+package#AIHarms,domain#predicts,domain#Data
+package#AIHarms,domain#trains,domain#MLModel
+package#AIHarms,domain#usesToTest,domain#Data
+package#AIHarms,domain#usesToTrain,domain#Data
+package#AIHarms,domain#usesToValidate,domain#Data
 package#Application,domain#amends,domain#Data
 package#Application,domain#amendsData,domain#Data
 package#Application,domain#appends,domain#Data

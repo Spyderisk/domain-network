@@ -12,6 +12,10 @@ package#5G,domain#RAN,domain#L2Subnet
 package#5G,domain#RAN,domain#L3Subnet
 package#5G,domain#RAN,domain#RadioSubnet
 package#AccessContext,domain#AccessContext,core#Asset
+package#AIHarms,domain#MLModel,domain#GeneralProcess
+package#AIHarms,domain#MLModel,domain#ProcessPalette
+package#AIHarms,domain#MLTrainingAlgorithm,domain#GeneralProcess
+package#AIHarms,domain#MLTrainingAlgorithm,domain#ProcessPalette
 package#Application,domain#ApplicationProcess,domain#GeneralProcess
 package#Application,domain#ApplicationProcess,domain#ProcessPalette
 package#Application,domain#CmdLineProcess,domain#ConsoleProcess

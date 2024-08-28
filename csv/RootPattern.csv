@@ -14,6 +14,12 @@ package#5G,domain#R-PcCN,PcCN,Finds a process controlling a cellular network and
 package#5G,domain#R-PCN,PCN,Finds a Public Cellular Network.,FALSE,FALSE
 package#5G,domain#R-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which should also be accessible from the World.",FALSE,FALSE
 package#5G,domain#R-RrBcC,RrBcC,Finds a BaseStation providing a RAN and connected to a (backhaul) core network both of which are part of a cellular network.,FALSE,FALSE
+package#AIHarms,domain#R-DiPmlm,DiPmlm,Input data is the prediction inputs to ML Model.,FALSE,FALSE
+package#AIHarms,domain#R-DiuPmlmpDp,DiuPmlmpDp,"Input data is the prediction inputs to ML Model, which makes predictions using it.",FALSE,FALSE
+package#AIHarms,domain#R-PmlmpDmp,PmlmpDmp,A ML Model and its model parameters.,FALSE,FALSE
+package#AIHarms,domain#R-PmlmpDp,PmlmpDp,Process (ML Model) predicts Data (Predictions).,FALSE,FALSE
+package#AIHarms,domain#R-PtatPmlmpaDmp,PtatPmlmpaDmp,A Training Algorithm Process that trains a ML Model process which has Data as its model parameters.,FALSE,FALSE
+package#AIHarms,domain#R-PtautDt,PtautDt,A ML training algorithm process uses training data to train.,FALSE,FALSE
 package#Application,domain#R-CP,CP,Finds a solo Console Process.,FALSE,FALSE
 package#Application,domain#R-D,D,Finds a solo Data asset.,FALSE,FALSE
 package#Application,domain#R-HD,HD,Finds Data stored at a Host.,FALSE,FALSE

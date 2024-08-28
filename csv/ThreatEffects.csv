@@ -1,6 +1,14 @@
 package,URI,causesMisbehaviour
 domain#000000,domain#000000,domain#MS-InService-CellularNetwork
 package#5G,domain#LS.IS.CNCN.8,domain#MS-InService-CellularNetwork
+package#AIHarms,domain#D.Ml-Ac.DiuPmlmpDp.0,domain#MS-LossOfAccuracy-Output
+package#AIHarms,domain#D.Ml-Ac.PmlmpDp.0,domain#MS-LossOfAccuracy-Data
+package#AIHarms,domain#D.Ml-Au.DiPmlm.0,domain#MS-LossOfAuthenticity-Input
+package#AIHarms,domain#D.Ml-I.PtatPmlmpaDmp.0,domain#MS-LossOfIntegrity-ModelParameters
+package#AIHarms,domain#P.Ml-R.PmlmpDmp.0.0,domain#MS-LossOfReliability-MLModel
+package#AIHarms,domain#P.Ml-R.PmlmpDmp.0.1,domain#MS-LossOfReliability-MLModel
+package#AIHarms,domain#P.Ml-R.PtautDt.0.0,domain#MS-LossOfReliability-MLTrainingAlgorithm
+package#AIHarms,domain#P.Ml-R.PtautDt.0.1,domain#MS-LossOfReliability-MLTrainingAlgorithm
 package#Application,domain#D.C.HuiPiDCHS.3,domain#MS-LossOfConfidentiality-Data
 package#Application,domain#D.C.HuiRACHSPiD.3,domain#MS-LossOfConfidentiality-Data
 package#Application,domain#H.W.HuHWES.3,domain#MS-MalwareInfection-Host

@@ -8,6 +8,14 @@ package#5G,domain#Role_RAN,domain#RAN
 package#AccessContext,domain#Role_AccessContext,domain#AccessContext
 package#AccessContext,domain#Role_FromContext,domain#AccessContext
 package#AccessContext,domain#Role_ToContext,domain#AccessContext
+package#AIHarms,domain#Role_Hyperparameters,domain#Data
+package#AIHarms,domain#Role_MLModel,domain#MLModel
+package#AIHarms,domain#Role_MLTrainingAlgorithm,domain#MLTrainingAlgorithm
+package#AIHarms,domain#Role_ModelInputData,domain#Data
+package#AIHarms,domain#Role_ModelParameters,domain#Data
+package#AIHarms,domain#Role_TestingData,domain#Data
+package#AIHarms,domain#Role_TrainingData,domain#Data
+package#AIHarms,domain#Role_ValidationData,domain#Data
 package#Application,domain#Role_Data,domain#Data
 package#Application,domain#Role_Data,domain#TypeOverlayData
 package#Application,domain#Role_DataService,domain#DataService

@@ -3,6 +3,7 @@ domain#000000,domain#000000,domain#AccessContext
 package#AccessContext,domain#LocalLossOfControl,domain#AccessContext
 package#AccessContext,domain#LocalLossOfUserTW,domain#AccessContext
 package#AccessContext,domain#LossOfExploitTW,domain#AccessContext
+package#AIHarms,domain#LossOfAccuracy,domain#Data
 package#Application,domain#LossOfAuthenticity,domain#Data
 package#Application,domain#LossOfAvailability,domain#Data
 package#Application,domain#LossOfConfidentiality,domain#Data

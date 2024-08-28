@@ -28,6 +28,28 @@ package#5G,domain#TWAADS-Reliability-BaseStation,domain#Reliability,domain#BaseS
 package#5G,domain#TWAADS-ResourceTW-BaseStation,domain#ResourceTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-TrojanTW-BaseStation,domain#TrojanTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-UserTW-BaseStation,domain#UserTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Availability-MLModel,domain#Availability,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Availability-MLTrainingAlgorithm,domain#Availability,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-DefaultTW-MLModel,domain#DefaultTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-DefaultTW-MLTrainingAlgorithm,domain#DefaultTW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-ExploitTW-MLModel,domain#ExploitTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-ExploitTW-MLTrainingAlgorithm,domain#ExploitTW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-ExtrinsicTW-MLModel,domain#ExtrinsicTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-ExtrinsicTW-MLTrainingAlgorithm,domain#ExtrinsicTW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Health-MLModel,domain#Health,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Health-MLTrainingAlgorithm,domain#Health,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-IntrinsicTW-MLModel,domain#IntrinsicTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-IntrinsicTW-MLTrainingAlgorithm,domain#IntrinsicTW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-OutOfService-MLModel,domain#OutOfService,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-OutOfService-MLTrainingAlgorithm,domain#OutOfService,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Reliability-MLModel,domain#Reliability,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Reliability-MLTrainingAlgorithm,domain#Reliability,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Timeliness-MLModel,domain#Timeliness,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Timeliness-MLTrainingAlgorithm,domain#Timeliness,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-TrojanTW-MLModel,domain#TrojanTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-TrojanTW-MLTrainingAlgorithm,domain#TrojanTW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-UserTW-MLModel,domain#UserTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-UserTW-MLTrainingAlgorithm,domain#UserTW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Authenticity-Data,domain#Authenticity,domain#Data,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Authenticity-SensitiveData,domain#Authenticity,domain#SensitiveData,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Authenticity-SpamData,domain#Authenticity,domain#SpamData,domain#TrustworthinessLevelVeryLow,TRUE
@@ -788,6 +810,8 @@ package#Theft,domain#TWAADS-OwnerControl-HostContext,domain#OwnerControl,domain#
 package#Theft,domain#TWAADS-OwnerControl-HostNetContext,domain#OwnerControl,domain#HostNetContext,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-InteractiveApplication,domain#OwnerControl,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-LoginService,domain#OwnerControl,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
+package#Theft,domain#TWAADS-OwnerControl-MLModel,domain#OwnerControl,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#Theft,domain#TWAADS-OwnerControl-MLTrainingAlgorithm,domain#OwnerControl,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-MobileClient,domain#OwnerControl,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-Notebook,domain#OwnerControl,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-ProcessContext,domain#OwnerControl,domain#ProcessContext,domain#TrustworthinessLevelSafe,TRUE
@@ -922,6 +946,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Ingress,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-InteractiveApplication,domain#Extrinsic-A-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-LoginService,domain#Extrinsic-A-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Master,domain#Extrinsic-A-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-MLModel,domain#Extrinsic-A-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-MLTrainingAlgorithm,domain#Extrinsic-A-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-MobileClient,domain#Extrinsic-A-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Notebook,domain#Extrinsic-A-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Pod,domain#Extrinsic-A-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -969,6 +995,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Ingress,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-InteractiveApplication,domain#Extrinsic-AU-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-LoginService,domain#Extrinsic-AU-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Master,domain#Extrinsic-AU-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-MLModel,domain#Extrinsic-AU-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-MLTrainingAlgorithm,domain#Extrinsic-AU-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-MobileClient,domain#Extrinsic-AU-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Notebook,domain#Extrinsic-AU-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Pod,domain#Extrinsic-AU-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1016,6 +1044,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Ingress,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-InteractiveApplication,domain#Extrinsic-C-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-LoginService,domain#Extrinsic-C-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Master,domain#Extrinsic-C-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-MLModel,domain#Extrinsic-C-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-MLTrainingAlgorithm,domain#Extrinsic-C-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-MobileClient,domain#Extrinsic-C-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Notebook,domain#Extrinsic-C-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Pod,domain#Extrinsic-C-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1063,6 +1093,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Ingress,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-InteractiveApplication,domain#Extrinsic-I-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-LoginService,domain#Extrinsic-I-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Master,domain#Extrinsic-I-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-MLModel,domain#Extrinsic-I-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-MLTrainingAlgorithm,domain#Extrinsic-I-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-MobileClient,domain#Extrinsic-I-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Notebook,domain#Extrinsic-I-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Pod,domain#Extrinsic-I-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1110,6 +1142,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Ingress,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-InteractiveApplication,domain#Extrinsic-M-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-LoginService,domain#Extrinsic-M-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Master,domain#Extrinsic-M-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-MLModel,domain#Extrinsic-M-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-MLTrainingAlgorithm,domain#Extrinsic-M-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-MobileClient,domain#Extrinsic-M-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Notebook,domain#Extrinsic-M-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Pod,domain#Extrinsic-M-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1150,6 +1184,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-EmailService,domain#Extr
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-Ingress,domain#Extrinsic-QI-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-InteractiveApplication,domain#Extrinsic-QI-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-LoginService,domain#Extrinsic-QI-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-MLModel,domain#Extrinsic-QI-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-MLTrainingAlgorithm,domain#Extrinsic-QI-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-RemoteDesktop,domain#Extrinsic-QI-TW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-RemoteTerminal,domain#Extrinsic-QI-TW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-SensorProcess,domain#Extrinsic-QI-TW,domain#SensorProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1182,6 +1218,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Ingress,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-InteractiveApplication,domain#Extrinsic-U-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-LoginService,domain#Extrinsic-U-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Master,domain#Extrinsic-U-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-MLModel,domain#Extrinsic-U-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-MLTrainingAlgorithm,domain#Extrinsic-U-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-MobileClient,domain#Extrinsic-U-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Notebook,domain#Extrinsic-U-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Pod,domain#Extrinsic-U-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1229,6 +1267,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Ingress,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-InteractiveApplication,domain#Extrinsic-VA-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-LoginService,domain#Extrinsic-VA-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Master,domain#Extrinsic-VA-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-MLModel,domain#Extrinsic-VA-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-MLTrainingAlgorithm,domain#Extrinsic-VA-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-MobileClient,domain#Extrinsic-VA-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Notebook,domain#Extrinsic-VA-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Pod,domain#Extrinsic-VA-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1276,6 +1316,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Ingress,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-InteractiveApplication,domain#Extrinsic-VL-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-LoginService,domain#Extrinsic-VL-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Master,domain#Extrinsic-VL-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-MLModel,domain#Extrinsic-VL-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-MLTrainingAlgorithm,domain#Extrinsic-VL-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-MobileClient,domain#Extrinsic-VL-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Notebook,domain#Extrinsic-VL-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Pod,domain#Extrinsic-VL-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1323,6 +1365,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Ingress,domain#Extrinsic
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-InteractiveApplication,domain#Extrinsic-VN-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-LoginService,domain#Extrinsic-VN-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Master,domain#Extrinsic-VN-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-MLModel,domain#Extrinsic-VN-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-MLTrainingAlgorithm,domain#Extrinsic-VN-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-MobileClient,domain#Extrinsic-VN-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Notebook,domain#Extrinsic-VN-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Pod,domain#Extrinsic-VN-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1370,6 +1414,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Ingress,domain#Extrinsic-
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-InteractiveApplication,domain#Extrinsic-W-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-LoginService,domain#Extrinsic-W-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Master,domain#Extrinsic-W-TW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-MLModel,domain#Extrinsic-W-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-MLTrainingAlgorithm,domain#Extrinsic-W-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-MobileClient,domain#Extrinsic-W-TW,domain#MobileClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Notebook,domain#Extrinsic-W-TW,domain#Notebook,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Pod,domain#Extrinsic-W-TW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
@@ -1410,6 +1456,8 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-EmailService,domain#Extr
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-Ingress,domain#Extrinsic-XS-TW,domain#Ingress,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-InteractiveApplication,domain#Extrinsic-XS-TW,domain#InteractiveApplication,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-LoginService,domain#Extrinsic-XS-TW,domain#LoginService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-MLModel,domain#Extrinsic-XS-TW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-MLTrainingAlgorithm,domain#Extrinsic-XS-TW,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-RemoteDesktop,domain#Extrinsic-XS-TW,domain#RemoteDesktop,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-RemoteTerminal,domain#Extrinsic-XS-TW,domain#RemoteTerminal,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-SensorProcess,domain#Extrinsic-XS-TW,domain#SensorProcess,domain#TrustworthinessLevelSafe,TRUE

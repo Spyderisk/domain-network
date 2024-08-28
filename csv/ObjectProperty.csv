@@ -1,6 +1,15 @@
 package,URI,label,comment,hidden,isAssertable,isVisible,isLoopback,isConstructed,constructionState
 domain#000000,domain#000000,accessFrom,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 package#AccessContext,domain#accessFrom,accessFrom,Refers from an access context to the space in which access has or may have taken place.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+package#AIHarms,domain#hasHyperparameters,hasHyperparameters,Indicating that a data asset (hyperparameters of a ML training algortihm) form the hyperparameters of a ML training algorithm.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#hasParameters,hasParameters,Indicating that a ML Model has model parameters (or weights) represented by a data asset (model parameters of a ML model).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#informs,informs,Indicating that one data asset (validation data of a ML training algortihm) informs the values of another data asset (hyperparameters of a ML training algortihm).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#predictionInputs,predictionInputs,Indicating the data asset (prediction inputerss of a ML Model) form the inputs a ML Model predicts from.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#predicts,predicts,Indicating the data asset (predictions of a ML Model) that a ML Model predicts.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#trains,trains,Indicating that a ML training algorithm trains a ML Model.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#usesToTest,usesToTest,Indicating that a data asset (testing data of a ML training algortihm) is used by a ML training algorithm to test a ML model.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#usesToTrain,usesToTrain,Indicating that a data asset (training data of a ML training algortihm) is used by  a ML training algorithm to train a ML model.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#usesToValidate,usesToValidate,Indicating that a data asset (validation data of a ML training algortihm) is used by  a ML training algorithm to inform the values of the hyperparameters.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#Application,domain#amends,amends,"The Process uses and alters the value of an instance of Data, and is not blocked if it cannot access the Data.",FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
 package#Application,domain#amendsData,amends,"Relationship between an interactive process user and data they enter, review and update by using the process.",TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
 package#Application,domain#appends,appends,"The Process creates new instances of Data, adding them to a collection but not overwriting existing instances. This is a type of update operation, but the Process does not need access to previous values.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE

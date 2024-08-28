@@ -8,6 +8,14 @@ package#5G,domain#Role_RAN,RAN,A radio access network providing cellular network
 package#AccessContext,domain#Role_AccessContext,AccessContext,A context in which access rights may be held or gained.
 package#AccessContext,domain#Role_FromContext,FromContext,A context in which access rights are held and may be exploited.
 package#AccessContext,domain#Role_ToContext,ToContext,A context in which access rights may be obtained.
+package#AIHarms,domain#Role_Hyperparameters,Hyperparameters,The data asset representing the hyperparameters of a ML training algorithm.
+package#AIHarms,domain#Role_MLModel,MLModel,A process that is a ML model.
+package#AIHarms,domain#Role_MLTrainingAlgorithm,MLTrainingAlgorithm,A process that is a ML training algorithm.
+package#AIHarms,domain#Role_ModelInputData,ModelInputData,The data that is input into a ML model.
+package#AIHarms,domain#Role_ModelParameters,ModelParameters,The model parameters (or weights) of a ML model.
+package#AIHarms,domain#Role_TestingData,TestingData,The testing data of a ML training algorithm.
+package#AIHarms,domain#Role_TrainingData,TrainingData,The training data of a ML training algorithm.
+package#AIHarms,domain#Role_ValidationData,ValidationData,The validation data of a ML training algorithm.
 package#Application,domain#Role_Data,Data,A data role.
 package#Application,domain#Role_DataService,DataService,A data service role.
 package#Application,domain#Role_DB,DB,"A process role, usually filled by a DB process supporting complex data queries."
