@@ -79,7 +79,9 @@ package#DataLifecycle,domain#DataAccess,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataAsset,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataCache,domain#DataAsset
 package#DataLifecycle,domain#DataCache,domain#DataContainer
+package#DataLifecycle,domain#DataChannel,domain#DataInferenceAsset
 package#DataLifecycle,domain#DataCopy,domain#DataCache
+package#DataLifecycle,domain#DataExchange,domain#DataInferenceAsset
 package#DataLifecycle,domain#DataFlow,domain#DataAsset
 package#DataLifecycle,domain#DataFlow,domain#DataContainer
 package#DataLifecycle,domain#DataInferenceAsset,core#Asset
@@ -87,6 +89,7 @@ package#DataLifecycle,domain#DataInput,domain#DataAccess
 package#DataLifecycle,domain#DataInput,domain#DataProcess
 package#DataLifecycle,domain#DataOutput,domain#DataAccess
 package#DataLifecycle,domain#DataOutput,domain#DataProcess
+package#DataLifecycle,domain#DataPath,domain#DataInferenceAsset
 package#DataLifecycle,domain#DataProcess,domain#DataUse
 package#DataLifecycle,domain#DataRelay,domain#DataAccess
 package#DataLifecycle,domain#DataRelay,domain#DataUse
@@ -104,9 +107,6 @@ package#DataLifecycle,domain#TempDataRelay,domain#DataAccess
 package#DataLifecycle,domain#TempDataRelay,domain#DataUse
 package#DataLifecycle,domain#UpdatePool,domain#InputPool
 package#DataLifecycle,domain#UpdatePool,domain#OutputPool
-package#DataLifecycleInference,domain#DataChannel,domain#DataInferenceAsset
-package#DataLifecycleInference,domain#DataExchange,domain#DataInferenceAsset
-package#DataLifecycleInference,domain#DataPath,domain#DataInferenceAsset
 package#DataStructure,domain#DataField,domain#DataLifecycleAsset
 package#DataStructure,domain#DataField,domain#DataPalette
 package#GDPR,domain#BiometricData,domain#GDPRArt94Data
@@ -278,12 +278,12 @@ package#NetworkConnectivity,domain#LogicalPath,domain#CommsAsset
 package#NetworkConnectivity,domain#LogicalRoute,domain#LogicalSegment
 package#NetworkConnectivity,domain#LogicalSegment,domain#CommsAsset
 package#NetworkConnectivity,domain#NATSegment,domain#LogicalRoute
+package#NetworkConnectivity,domain#NetworkInferenceAsset,core#Asset
 package#NetworkConnectivity,domain#NetworkPath,domain#LogicalPath
+package#NetworkConnectivity,domain#NPE,domain#NetworkInferenceAsset
 package#NetworkConnectivity,domain#OpenSegment,domain#LogicalRoute
 package#NetworkConnectivity,domain#PhysicalPath,domain#LogicalPath
-package#NetworkConnectivityInference,domain#NetworkInferenceAsset,core#Asset
-package#NetworkConnectivityInference,domain#NPE,domain#NetworkInferenceAsset
-package#NetworkConnectivityInference,domain#PPE,domain#NetworkInferenceAsset
+package#NetworkConnectivity,domain#PPE,domain#NetworkInferenceAsset
 package#Physical,domain#BoundedSpace,domain#PublicSpace
 package#Physical,domain#PhysicalPalette,core#PaletteType
 package#Physical,domain#PrivateSpace,domain#PhysicalPalette

@@ -33,11 +33,14 @@ package#DataLifecycle,domain#Role_AccessTo,AccessTo,A data access asset associat
 package#DataLifecycle,domain#Role_DataAccess,DataAccess,A data access role.
 package#DataLifecycle,domain#Role_DataAsset,DataAsset,A data asset role fulfilled by any serialised copy of data (i.e. data copy or data flow).
 package#DataLifecycle,domain#Role_DataCache,DataCache,A stored data copy created as a data flow cache.
+package#DataLifecycle,domain#Role_DataChannel,DataChannel,A data channel used in construction patterns.
 package#DataLifecycle,domain#Role_DataCopy,DataCopy,A data copy role.
 package#DataLifecycle,domain#Role_DataDestination,DataDestination,A data access asset associated with a destination process.
+package#DataLifecycle,domain#Role_DataExchange,DataExchange,A connection between processes indicating they can exchange data.
 package#DataLifecycle,domain#Role_DataFlow,DataFlow,A flow of data between processes.
 package#DataLifecycle,domain#Role_DataInput,DataInput,A data access role associated with data consumed by a process.
 package#DataLifecycle,domain#Role_DataOutput,DataOutput,A data access role associated with data produced by a process.
+package#DataLifecycle,domain#Role_DataPath,DataPath,A data path used in construction patterns.
 package#DataLifecycle,domain#Role_DataPool,DataPool,A data access role associated with data served by a process.
 package#DataLifecycle,domain#Role_DataProcess,DataProcess,A data access role associated with data used by a process.
 package#DataLifecycle,domain#Role_DataRelay,DataRelay,A data access role associated with data forwarding by a process.
@@ -51,6 +54,10 @@ package#DataLifecycle,domain#Role_FlowsTo,FlowsTo,A process to which data is flo
 package#DataLifecycle,domain#Role_InFlow,InFlow,A data flow to a process.
 package#DataLifecycle,domain#Role_InputAsset,InputAsset,A Data Asset that is inbound to a process.
 package#DataLifecycle,domain#Role_InStep,InStep,A data step to a process.
+package#DataLifecycle,domain#Role_NewDataChannel,NewDataChannel,A data channel created in construction patterns.
+package#DataLifecycle,domain#Role_NewDataPath,NewDataPath,A data path created in construction patterns.
+package#DataLifecycle,domain#Role_OldDataChannel,OldDataChannel,A data channel used in construction patterns.
+package#DataLifecycle,domain#Role_OldDataPath,OldDataPath,A data path used in construction patterns.
 package#DataLifecycle,domain#Role_OutFlow,OutFlow,A data flow from a process.
 package#DataLifecycle,domain#Role_OutputAsset,OutputAsset,A Data Asset that is outbound from a Process.
 package#DataLifecycle,domain#Role_OutStep,OutStep,A data step from a process.
@@ -58,13 +65,6 @@ package#DataLifecycle,domain#Role_RemoteUserAccess,RemoteUserAccess,A DataAccess
 package#DataLifecycle,domain#Role_StepFrom,StepFrom,A process from which data is transferred.
 package#DataLifecycle,domain#Role_StepTo,StepTo,A process to which data is transferred.
 package#DataLifecycle,domain#Role_Vault,Vault,Fulfilled by a process playing the role of key vault in relation to some data asset.
-package#DataLifecycleInference,domain#Role_DataChannel,DataChannel,A data channel used in construction patterns.
-package#DataLifecycleInference,domain#Role_DataExchange,DataExchange,A connection between processes indicating they can exchange data.
-package#DataLifecycleInference,domain#Role_DataPath,DataPath,A data path used in construction patterns.
-package#DataLifecycleInference,domain#Role_NewDataChannel,NewDataChannel,A data channel created in construction patterns.
-package#DataLifecycleInference,domain#Role_NewDataPath,NewDataPath,A data path created in construction patterns.
-package#DataLifecycleInference,domain#Role_OldDataChannel,OldDataChannel,A data channel used in construction patterns.
-package#DataLifecycleInference,domain#Role_OldDataPath,OldDataPath,A data path used in construction patterns.
 package#DataStructure,domain#Role_DataField,DataField,A field in a data schema or serialized data asset.
 package#DataStructure,domain#Role_InputField,InputField,A Data Field used as input.
 package#IoT,domain#Role_Controller,Controller,An IoT Thing acting as a controller.
@@ -137,15 +137,15 @@ package#NetworkConnectivity,domain#Role_LogicalRoute,LogicalRoute,A logical segm
 package#NetworkConnectivity,domain#Role_LogicalSegment,LogicalSegment,A route through a gateway between subnets.
 package#NetworkConnectivity,domain#Role_NetworkPath,NetworkPath,"A path through the network, usually between a subnet accessible to attackers and a subnet to which a target host is connected."
 package#NetworkConnectivity,domain#Role_NewPath,NewPath,A constructed network path.
+package#NetworkConnectivity,domain#Role_NPE,NPE,"A logical network path terminator, whose relationships hold network connectivity construction state."
 package#NetworkConnectivity,domain#Role_OldPath,OldPath,A pre-existing network path from which other paths will be contructed.
 package#NetworkConnectivity,domain#Role_OutboundIF,OutboundIF,An interface via which communication enters a subnet from a host.
 package#NetworkConnectivity,domain#Role_PhysicalPath,PhysicalPath,A physical network path.
+package#NetworkConnectivity,domain#Role_PPE,PPE,"A physical network path terminator, whose relationships hold network connectivity construction state."
 package#NetworkConnectivity,domain#Role_RetSegment,RetSegment,A logical segment representing the return path for connections via a gateway.
 package#NetworkConnectivity,domain#Role_SubPath,SubPath,Role assigned to a subpath of some other network path.
 package#NetworkConnectivity,domain#Role_ToHost,ToHost,A host that is (or hosts) the destination of a message or data flow.
 package#NetworkConnectivity,domain#Role_ToSubnet,ToSubnet,A subnet at the end of a network path or communication channel.
-package#NetworkConnectivityInference,domain#Role_NPE,NPE,"A logical network path terminator, whose relationships hold network connectivity construction state."
-package#NetworkConnectivityInference,domain#Role_PPE,PPE,"A physical network path terminator, whose relationships hold network connectivity construction state."
 package#Physical,domain#Role_Entrance,Entrance,A space from which another space can be entered.
 package#Physical,domain#Role_LocalSpace,LocalSpace,A nearby space.
 package#Physical,domain#Role_OtherSpace,OtherSpace,A second or subsequent space in a pattern.
