@@ -1,2 +1,1063 @@
 package,URI,hasSuccessor,redundant,note
-package#000000,domain#000000,hasSuccessor,No,note
+domain#000000,domain#000000,domain#CP-UCNSRAN-p+BS,No,creates asset BaseStation that should not be matched here
+package#5G,domain#CP-BSCNSRAN-p+p,domain#CP-UCNSRAN-p+BS,FALSE,creates asset BaseStation that should not be matched here
+package#5G,domain#CP-BSCNSRAN-p+p,domain#CP-UCNSRAN-p+BS,FALSE,should match link RAN-providedBy-Host created here
+package#5G,domain#CP-CNCNBSS+aF,domain#CP-CNR-CN+CN,FALSE,creates asset CoreNetwork that should not be matched here
+package#5G,domain#CP-CNCNBSS+aF,domain#CP-PCNRWI+ct,FALSE,should match link CellularNetwork-accessibleFrom-Space created here
+package#5G,domain#CP-CNCNBSS+aF,domain#CP-PCNRWI+ct,FALSE,creates link Host-connectedTo-Internet that should not be matched here
+package#5G,domain#CP-CNHS+RAN+cT,domain#CP-CNSBSRAN-p+p,FALSE,creates link RAN-providedBy-Host that should not be matched here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-L3cGc-rR+NSg,FALSE,should match link RAN-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-L3c-rBrPR+DSg,FALSE,should match link RAN-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-L3c-rBrUR+CSg,FALSE,should match link RAN-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-PCPHLSS+NC,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHLSS+aV,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-PRrBc-rL3+NSg,FALSE,should match link RAN-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-Rc-rGcL3+DSg,FALSE,should match link RAN-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-URrBc-rL3+CSg,FALSE,should match link RAN-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANS+aF,domain#CP-CNS-RAN+RAN,FALSE,creates asset RAN that should not be matched here
+package#5G,domain#CP-CNRANS+aF,domain#CP-CNS-RAN+RAN,FALSE,should match link CellularNetwork-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANS+aF,domain#CP-PCNRWI+ct,FALSE,should match link CellularNetwork-accessibleFrom-Space created here
+package#5G,domain#CP-CNR-CN+CN,domain#CP-CNRS+aF,FALSE,should match asset CoreNetwork created here
+package#5G,domain#CP-CNR-CN+CN,domain#CP-CNS-RAN+RAN,FALSE,should match asset CoreNetwork created here
+package#5G,domain#CP-CNRS+aF,domain#CP-L3cGc-rR+NSg,FALSE,should match link L3Subnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRS+aF,domain#CP-L3c-rBrPR+DSg,FALSE,should match link L3Subnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRS+aF,domain#CP-L3c-rBrUR+CSg,FALSE,should match link L3Subnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRS+aF,domain#CP-PCPHLSS+NC,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRS+aF,domain#CP-PHLSS+aV,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRS+aF,domain#CP-PRrBc-rL3+NSg,FALSE,should match link L3Subnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRS+aF,domain#CP-Rc-rGcL3+DSg,FALSE,should match link L3Subnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRS+aF,domain#CP-URrBc-rL3+CSg,FALSE,should match link L3Subnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-HuiPDaS-S+l,FALSE,creates link PhysicalHost-locatedIn-Space that should not be matched here
+package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-PCN+W,FALSE,creates asset World that should not be matched here
+package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-PH+hPH,FALSE,creates link PhysicalHost-hasPhysicalHost-PhysicalHost that should not be matched here
+package#5G,domain#CP-CNSBSRAN-p+p,domain#CP-BSCNSRAN-p+p,FALSE,creates link RAN-providedBy-Host that should not be matched here
+package#5G,domain#CP-CNSBSRAN-p+p,domain#CP-BSCNSRAN-p+p,FALSE,should match link RAN-providedBy-Host created here
+package#5G,domain#CP-CNSBSRAN-p+p,domain#CP-BSCNSRAN-p+p,FALSE,creates link Host-connectedTo-L3Subnet that should not be matched here
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-CNHS+RAN+cT,FALSE,should match asset RAN created here
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-ILSA+c,FALSE,should match asset LogicalSubnet created here
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-PcCNLS-S+c,FALSE,should match asset RAN created here
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-RAN+iLS,FALSE,should match  asset domain#RAN created here
+package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-FCNS+aF,domain#CP-CNS-RAN+RAN,FALSE,should match link CellularNetwork-accessibleFrom-Space created here
+package#5G,domain#CP-FCNS+aF,domain#CP-PCN-R+R,FALSE,creates asset CoreRouter that should not be matched here
+package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-MPCNS+aF,domain#CP-CNS-RAN+RAN,FALSE,should match link PublicCellularNetwork-accessibleFrom-Space created here
+package#5G,domain#CP-MPCNS+aF,domain#CP-PCN-R+R,FALSE,creates asset CoreRouter that should not be matched here
+package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-PCN+W,domain#CP-CNS-RAN+RAN,FALSE,should match asset World created here
+package#5G,domain#CP-PCN+W,domain#CP-PCNRWI+ct,FALSE,should match asset World created here
+package#5G,domain#CP-PCN-R+R,domain#CP-CNR-CN+CN,FALSE,should match asset CoreRouter created here
+package#5G,domain#CP-PCN-R+R,domain#CP-PCNRWI+ct,FALSE,should match asset CoreRouter created here
+package#5G,domain#CP-PCN-R+R,domain#CP-PHHS+AC,FALSE,should match asset Host created here
+package#5G,domain#CP-PCNRSI+aF,domain#CP-BSCNSRAN-p+p,FALSE,creates link Host-connectedTo-L3Subnet that should not be matched here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-CNRS+aF,FALSE,creates link L3Subnet-accessibleFrom-Space that should not be matched here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-CNSBSRAN-p+p,FALSE,should match link Host-connectedTo-Internet created here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-CrCcL3+NSg,FALSE,should match link Host-connectedTo-Internet created here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-HLS+I,FALSE,should match link Host-connectedTo-Internet created here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-L3cCrPC+DSg,FALSE,should match link Host-connectedTo-Internet created here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-L3cCrUC+CSg,FALSE,should match link Host-connectedTo-Internet created here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-PCNRSI+aF,FALSE,creates link Internet-accessibleFrom-Space that should not be matched here
+package#5G,domain#CP-PCNRWI+ct,domain#CP-PCNRSI+aF,FALSE,should match link Host-connectedTo-Internet created here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-CNRANBSS+aF,FALSE,creates link RAN-accessibleFrom-Space that should not be matched here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-CNRANBSS+aF,FALSE,should match asset BaseStation created here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FcLSS+aF,FALSE,should match asset Host created here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FcLSS+aF,FALSE,creates link LogicalSubnet-accessibleFrom-Space that should not be matched here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FpLSS+aF,FALSE,should match asset Host created here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FpLSS+aF,FALSE,creates link LogicalSubnet-accessibleFrom-Space that should not be matched here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-L3rBrPR+DSg,FALSE,should match asset BaseStation created here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-L3rBrUR+CSg,FALSE,should match asset BaseStation created here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-PHHS+AC,FALSE,should match asset Host created here
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-RrBrL3+NSg,FALSE,should match asset BaseStation created here
+package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-PRrBrPR+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-RAN+iLS,domain#CP-FcLSS+aF,FALSE,should match link LogicalSubnet-isLocalSubnet-RAN created here
+package#5G,domain#CP-RAN+iLS,domain#CP-FpLSS+aF,FALSE,should match link LogicalSubnet-isLocalSubnet-RAN created here
+package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-PCNSRAN-p+BS,FALSE,creates asset BaseStation that should not be matched here
+package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-PCNSRAN-p+BS,FALSE,should match asset BaseStation created here
+package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#5G,domain#CP-URrBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CP+hCLI,FALSE,should match  asset domain#RemoteTerminal created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-HuirPeID+iD,FALSE,should match asset RemoteDesktop created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-HuirPeOD+vD,FALSE,should match asset RemoteDesktop created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-HuirPeUD+aD,FALSE,should match asset RemoteDesktop created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-HuirPeUD-a+a,FALSE,should match asset RemoteDesktop created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-RAC+noDU,FALSE,should match  asset domain#RemoteTerminal created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-RAC+noDU,FALSE,should match  asset domain#RemoteDesktop created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-RACuP-iP+uR,FALSE,should match asset RemoteAccessClient created here
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-TP+iT,FALSE,should match  asset domain#TrivialProcess created here
+package#Application,domain#CP-HuirEc-rD+iD,domain#CP-HuirEr-vD-cC-iHu-DS+iD,FALSE,should match link Human-inputsData-Data created here
+package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#CP-HuirPr-vD-cC-iHu-DS+iD,FALSE,creates link Human-inputsData-Data that should not be matched here
+package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#CP-HuirPr-vD-cC-iHu-DS+iD,FALSE,should match link Human-inputsData-Data created here
+package#Application,domain#CP-HuirIPaD+aD,domain#CP-HuirEc-rD+iD,FALSE,creates link Human-inputsData-Data that should not be matched here
+package#Application,domain#CP-HuirIPp-iD+vD,domain#CP-HuirPc-iD-rC-vHu-DS+vD,FALSE,creates link Human-viewsData-Data that should not be matched here
+package#Application,domain#CP-HuirIPp-iD+vD,domain#CP-HuirPc-iD-rC-vHu-DS+vD,FALSE,should match link Human-viewsData-Data created here
+package#Application,domain#CP-HuirPc-iD-rC-vHu-DS+vD,domain#CP-HuirPr-iD-cD+vD,FALSE,creates link Human-viewsData-Data that should not be matched here
+package#Application,domain#CP-HuirPeID+iD,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,FALSE,should match link Human-inputsData-Data created here
+package#Application,domain#CP-HuirPeI-OD-p+r,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,FALSE,should match link Process-receives-Data created here
+package#Application,domain#CP-HuirPeI-OD-p+r,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,FALSE,creates link Process-creates-Data that should not be matched here
+package#Application,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,domain#CP-HuirPeO-ID-p+r,FALSE,creates link Process-receives-Data that should not be matched here
+package#Application,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,domain#CP-HuirPeO-ID-p+r,FALSE,should match link Process-creates-Data created here
+package#Application,domain#CP-HuirPeOD+vD,domain#CP-HuirIPaD+aD,FALSE,creates link InteractiveProcess-enablesUserUpdate-Data that should not be matched here
+package#Application,domain#CP-HuirPeOD+vD,domain#CP-HuirIPaD+aD,FALSE,should match link Human-viewsData-Data created here
+package#Application,domain#CP-HuirPeO-ID-p+r,domain#CP-HuirIPaD+aD,FALSE,creates link InteractiveProcess-enablesUserUpdate-Data that should not be matched here
+package#Application,domain#CP-HuirPeO-ID-p+r,domain#CP-HuirIPaD+aD,FALSE,should match link Process-receives-Data created here
+package#Application,domain#CP-HuirPeUD+aD,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,FALSE,should match link Human-amendsData-Data created here
+package#Application,domain#CP-HuirPeUD-a+a,domain#CP-HuirPeI-OD-p+r,FALSE,should match link Process-amends-Data created here
+package#Application,domain#CP-HuirPr-iD-cD+vD,domain#CP-HuirPaD+eUI-O+vD,FALSE,should match link Process-enablesUserOutput-Data created here
+package#Application,domain#CP-HuirPr-vD-cC-iHu-DS+iD,domain#CP-HuirIPp-iD+vD,FALSE,should match link Process-enablesUserInput-Data created here
+package#Application,domain#CP-HuirPr-vD-cC-iHu-DS+iD,domain#CP-HuirIPp-iD+vD,FALSE,should match link Human-inputsData-Data created here
+package#Application,domain#CP-HuirPr-vD-cC-iHu-DS+iD,domain#CP-HuirIPp-iD+vD,FALSE,creates link Human-viewsData-Data that should not be matched here
+package#Application,domain#CP-Hui-uD+aID,domain#CP-HuirPeID+iD,FALSE,creates link Human-inputsData-Data that should not be matched here
+package#Application,domain#CP-Hui-uD+aID,domain#CP-HuirPeUD+aD,FALSE,creates link Human-amendsData-Data that should not be matched here
+package#Application,domain#CP-HuuD+aUD,domain#CP-HuirPeUD+aD,FALSE,creates link Human-amendsData-Data that should not be matched here
+package#Application,domain#CP-Huv-uD+aVD,domain#CP-HuirPeOD+vD,FALSE,creates link Human-viewsData-Data that should not be matched here
+package#Application,domain#CP-Huv-uD+aVD,domain#CP-HuirPeUD+aD,FALSE,creates link Human-amendsData-Data that should not be matched here
+package#Application,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,should match asset DesktopService created here
+package#Application,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,creates asset LoginService that should not be matched here
+package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RDuRTuS-uR+uR,FALSE,should match link RemoteDesktop-usesRemotely-Process created here
+package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RDuRTuS-uR+uR,FALSE,creates link RemoteDesktop-usesRemotely-Process that should not be matched here
+package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,FALSE,should match link RemoteAccessClient-usesRemotely-Process created here
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,should match asset RemoteAccessService created here
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,should match asset Process created here
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RAS+noDU,FALSE,should match  asset domain#LoginService created here
+package#Application,domain#CP-RTuRTuS-uR+uR,domain#CP-RDuRTuS-uR+uR,FALSE,should match link RemoteTerminal-usesRemotely-Process created here
+package#CloudManagement,domain#CP-Ct+iC,domain#CP-DCVHC+p,FALSE,should match link Container-isContainer-Container created here
+package#CloudManagement,domain#CP-CtHaH+a,domain#CP-HD-aHD-DS+DS,FALSE,should match link Host-above-Host created here
+package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,FALSE,should match link VirtualHost-above-Host created here
+package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,FALSE,should match link Host-above-Host created here
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-CuSHS+SL,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHRS-H+p,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHVS-H+p,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHWS-H+p,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-PHHS+AC,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-WpHS-aF+iH,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#CloudManagement,domain#CP-DCCM-A+A,domain#CP-DCCMCAP+c,FALSE,should match asset APIServer created here
+package#CloudManagement,domain#CP-DCCM-A+A,domain#CP-VHHsD-HsS-S+S,FALSE,should match asset Process created here
+package#CloudManagement,domain#CP-DCCMCAP+c,domain#CP-KPxCuScP+aa,FALSE,should match link Process-controls-Ingress created here
+package#CloudManagement,domain#CP-DCCMCAP+c,domain#CP-KPxCuScP+aa,FALSE,should match link Process-controls-APIServer created here
+package#CloudManagement,domain#CP-DCCM-P+P,domain#CP-DCCMCAP+c,FALSE,should match asset Ingress created here
+package#CloudManagement,domain#CP-DCCM-P+P,domain#CP-VHHsD-HsS-S+S,FALSE,should match asset Process created here
+package#CloudManagement,domain#CP-DCCt-Pod+Pod,domain#CP-PodDCC-M+M,FALSE,should match asset Pod created here
+package#CloudManagement,domain#CP-DCCt-Pod+Pod,domain#CP-PodP-Cn+Cn,FALSE,creates asset Container that should not be matched here
+package#CloudManagement,domain#CP-DCCt-Pod+Pod,domain#CP-PodP-Cn+Cn,FALSE,should match asset Pod created here
+package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,FALSE,should match asset VirtualSubnet created here
+package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-MWHLS+CIP,FALSE,creates asset ClusterIP that should not be matched here
+package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-MWHLS+CIP,FALSE,should match asset VXLAN created here
+package#CloudManagement,domain#CP-DCPHM+p,domain#CP-PodDCC-M+M,FALSE,creates asset Master that should not be matched here
+package#CloudManagement,domain#CP-DCPHM+p,domain#CP-PodDCC-M+M,FALSE,should match link Master-managedBy-DataCentre created here
+package#CloudManagement,domain#CP-DCPHW+p,domain#CP-PodDCMC-W-H+W,FALSE,creates asset Worker that should not be matched here
+package#CloudManagement,domain#CP-DCPHW+p,domain#CP-PodDCMC-W-H+W,FALSE,should match link Worker-managedBy-DataCentre created here
+package#CloudManagement,domain#CP-DCPS-Pod+Pod,domain#CP-DCCt-Pod+Pod,FALSE,should match asset Pod created here
+package#CloudManagement,domain#CP-DCPS-Pod+Pod,domain#CP-DCCt-Pod+Pod,FALSE,creates asset Pod that should not be matched here
+package#CloudManagement,domain#CP-DCVHC+p,domain#CP-DCPHM+p,FALSE,should match link VirtualHost-hasPhysicalHost-Cluster created here
+package#CloudManagement,domain#CP-DCVHC+p,domain#CP-DCPHM+p,FALSE,creates link Master-managedBy-DataCentre that should not be matched here
+package#CloudManagement,domain#CP-DCVHC+p,domain#CP-DCPHW+p,FALSE,should match link VirtualHost-hasPhysicalHost-Cluster created here
+package#CloudManagement,domain#CP-DCVHC+p,domain#CP-DCPHW+p,FALSE,creates link Worker-managedBy-DataCentre that should not be matched here
+package#CloudManagement,domain#CP-DCVHC+p,domain#CP-DCPS-Pod+Pod,FALSE,creates asset Pod that should not be matched here
+package#CloudManagement,domain#CP-DCVHC+p,domain#CP-HVH-a+a,FALSE,should match link VirtualHost-provisionedBy-Cluster created here
+package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHDtS-AC+AC,FALSE,should match link Human-interactsRemotelyWith-RemoteAccessService created here
+package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHLnS-AC+AC,FALSE,should match link Human-interactsRemotelyWith-RemoteAccessService created here
+package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Hum-iHRAS+i,FALSE,should match asset LoginService created here
+package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Pc-hSHLnS+c,FALSE,should match asset LoginService created here
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-Hc-pN-hP+AC,FALSE,creates asset AuthClient that should not be matched here
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,FALSE,should match link Human-manages-Container created here
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,FALSE,creates link Human-manages-VirtualHost that should not be matched here
+package#CloudManagement,domain#CP-KIP-S+c,domain#CP-RDvSPHP-iPL-RAS+DtS,FALSE,creates asset DesktopService that should not be matched here
+package#CloudManagement,domain#CP-KPxCaaSI+aa,domain#CP-KPxCuScP+aa,FALSE,creates link Process-usesForAuth-Ingress that should not be matched here
+package#CloudManagement,domain#CP-KPxCaaSI+aa,domain#CP-KPxCuScP+aa,FALSE,creates link Ingress-usesForAuth-Process that should not be matched here
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,FALSE,creates link Host-connectedTo-WiFiLAN that should not be matched here
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-KIP-S+c,FALSE,should match link Process-usesForAuthZ-Ingress created here
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-KIP-S+c,FALSE,should match link Ingress-usesForAuthZ-Process created here
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,creates asset DesktopService that should not be matched here
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,FALSE,should match link Process-usesForAuthZ-Ingress created here
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,FALSE,should match link Process-usesForAuthZ-Process created here
+package#CloudManagement,domain#CP-KPxCLnSA+uu,domain#CP-KPxCuuSI+uu,FALSE,creates link Ingress-uses-Process that should not be matched here
+package#CloudManagement,domain#CP-KPxCLnSA+uu,domain#CP-KPxCuuSI+uu,FALSE,should match link Process-uses-APIServer created here
+package#CloudManagement,domain#CP-KPxCLnSA+uu,domain#CP-KPxCuuSI+uu,FALSE,should match link APIServer-uses-RemoteAccessService created here
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,FALSE,creates link Host-connectedTo-WiFiLAN that should not be matched here
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-KIP-S+c,FALSE,should match link Ingress-usesForAuth-Process created here
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-KIP-S+c,FALSE,should match link Process-usesForAuth-Ingress created here
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-KIP-S+c,FALSE,creates link Process-controls-Ingress that should not be matched here
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,creates asset DesktopService that should not be matched here
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-ScDSPDADD-cz+c,FALSE,should match link Process-usesForAuth-Process created here
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-ScDSPDADD-cz+c,FALSE,should match link Process-usesForAuth-Ingress created here
+package#CloudManagement,domain#CP-KPxCuuSI+uu,domain#CP-KPxCuScP+aa,FALSE,should match link Ingress-uses-Process created here
+package#CloudManagement,domain#CP-KPxCuuSI+uu,domain#CP-KPxCuScP+aa,FALSE,should match link Process-uses-Ingress created here
+package#CloudManagement,domain#CP-KPxCuuSI+uu,domain#CP-RACuP-iP+uR,FALSE,should match link RemoteAccessClient-uses-Ingress created here
+package#CloudManagement,domain#CP-KPxCuuSI+uu,domain#CP-SPuS+U,FALSE,should match link ServiceProxy-uses-Ingress created here
+package#CloudManagement,domain#CP-KPxCuuSI+uu,domain#CP-SPuS+U,FALSE,should match link ServiceProxy-uses-Process created here
+package#CloudManagement,domain#CP-KPxMLnSA+uu,domain#CP-KPxWLnSA+uu,FALSE,creates link APIServer-uses-RemoteAccessService that should not be matched here
+package#CloudManagement,domain#CP-KPxMLnSA+uu,domain#CP-KPxWLnSA+uu,FALSE,should match link APIServer-uses-RemoteAccessService created here
+package#CloudManagement,domain#CP-KPxWLnSA+uu,domain#CP-KPxCLnSA+uu,FALSE,creates link APIServer-uses-RemoteAccessService that should not be matched here
+package#CloudManagement,domain#CP-KPxWLnSA+uu,domain#CP-KPxCLnSA+uu,FALSE,should match link APIServer-uses-RemoteAccessService created here
+package#CloudManagement,domain#CP-MWHLS+CIP,domain#CP-MWPodLS2+c,FALSE,should match asset ClusterIP created here
+package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,FALSE,creates asset VXLAN that should not be matched here
+package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,FALSE,should match link VirtualHost-connectedTo-ClusterIP created here
+package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHDtS-AC+AC,FALSE,creates asset RemoteDesktop that should not be matched here
+package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHLnS-AC+AC,FALSE,creates asset RemoteTerminal that should not be matched here
+package#CloudManagement,domain#CP-PodCnD+s,domain#CP-PodCnPD+s,FALSE,creates link Container-stores-Data that should not be matched here
+package#CloudManagement,domain#CP-PodCnD+s,domain#CP-PodCnPD+s,FALSE,should match link Pod-stores-Data created here
+package#CloudManagement,domain#CP-PodCnP+c,domain#CP-VHHsD-HsS-S+S,FALSE,creates asset DataService that should not be matched here
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-HD-aHD-DS+DS,FALSE,should match link Host-stores-Data created here
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-HuirPeUD-a+a,FALSE,creates link Process-amends-Data that should not be matched here
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,should match link Host-stores-Data created here
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,should match link VirtualHost-stores-Data created here
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,creates asset DataService that should not be matched here
+package#CloudManagement,domain#CP-PodDCC-M+M,domain#CP-DCCM-A+A,FALSE,should match asset Master created here
+package#CloudManagement,domain#CP-PodDCC-M+M,domain#CP-DCCM-P+P,FALSE,should match asset Master created here
+package#CloudManagement,domain#CP-PodDCC-M+M,domain#CP-PodDCMC-W-H+W,FALSE,should match asset Master created here
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-DCMW-LS+VX,FALSE,should match asset Worker created here
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,FALSE,should match asset Host created here
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,FALSE,should match asset VirtualHost created here
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-PodHaH+a,FALSE,should match asset Worker created here
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-PodHhPH+hPH,FALSE,should match asset Worker created here
+package#CloudManagement,domain#CP-PodHaH+a,domain#CP-CtHaH+a,FALSE,should match link Pod-above-Host created here
+package#CloudManagement,domain#CP-PodHaH+a,domain#CP-CtHaH+a,FALSE,creates link Container-above-Host that should not be matched here
+package#CloudManagement,domain#CP-PodHhPH+hPH,domain#CP-CtHhPH+hPH,FALSE,should match link Pod-hasPhysicalHost-PhysicalHost created here
+package#CloudManagement,domain#CP-PodHhPH+hPH,domain#CP-CtHhPH+hPH,FALSE,creates link Container-hasPhysicalHost-PhysicalHost that should not be matched here
+package#CloudManagement,domain#CP-PodMP+iP,domain#CP-DCVHC+p,FALSE,should match link Pod-isPod-Pod created here
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-CtHhPH+hPH,FALSE,should match asset Container created here
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-HuiHRAC+i,FALSE,should match asset Host created here
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-PodCnD+s,FALSE,should match asset Container created here
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-PodCnP+c,FALSE,creates link Pod-contains-Process that should not be matched here
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-PodCnP+c,FALSE,should match asset Container created here
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-PodHaH+a,FALSE,should match asset Container created here
+package#CloudManagement,domain#CP-VH-LnS+LnS,domain#CP-Hum-iSH-LnS+LnS,FALSE,creates asset LoginService that should not be matched here
+package#CloudManagement,domain#CP-VH-LnS+LnS,domain#CP-Hum-iSH-LnS+LnS,FALSE,should match asset LoginService created here
+package#DataLifecycle,domain#CP-DADS+ds,domain#CP-DI-fDCSDS+ch,FALSE,should match link DataAccess-isPool-Data created here
+package#DataLifecycle,domain#CP-DADS+ds,domain#CP-HPsDPDFDS+f,FALSE,creates link DataPool-fulfils-DataCopy that should not be matched here
+package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,domain#CP-PDO+fS,FALSE,creates link DataOutput-fromSource-DataOutput that should not be matched here
+package#DataLifecycle,domain#CP-DADU-eS+eA,domain#CP-SDUDADS+W,FALSE,should match link Process-enablesAccess-DataUse created here
+package#DataLifecycle,domain#CP-DADU-eS+eA,domain#CP-SDUDSDA+R,FALSE,should match link Process-enablesAccess-DataUse created here
+package#DataLifecycle,domain#CP-DAOiDADInDF-i+i,domain#CP-DAPDADF-g+n,FALSE,should match link DataAsset-includesField-DataField created here
+package#DataLifecycle,domain#CP-DAOiDADInDF-i+i,domain#CP-DAPDADF-g+n,FALSE,creates link DataAsset-needsField-DataField that should not be matched here
+package#DataLifecycle,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-DCDFDF+i,FALSE,creates link DataCache-includesField-DataField that should not be matched here
+package#DataLifecycle,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-DCDFDF+i,FALSE,should match link DataAsset-includesField-DataField created here
+package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n,domain#CP-PDO-gDAnDF-i+i,FALSE,creates link DataAsset-includesField-DataField that should not be matched here
+package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n,domain#CP-PDO-gDAnDF-i+i,FALSE,should match link DataAsset-needsField-DataField created here
+package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,FALSE,should match link DataAsset-needsField-DataField created here
+package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,FALSE,creates link DataAsset-includesField-DataField that should not be matched here
+package#DataLifecycle,domain#CP-DAPDADF-g+n,domain#CP-DAO-iDADInDF-n+n-Replay,FALSE,should match link DataAsset-needsField-DataField created here
+package#DataLifecycle,domain#CP-DC1+x,domain#CP-DDDCDS2P+DF,FALSE,should match link DataChannel-extendsDC-DataChannel created here
+package#DataLifecycle,domain#CP-DC1+x,domain#CP-DSDCDD2P+DF,FALSE,should match link DataChannel-extendsDC-DataChannel created here
+package#DataLifecycle,domain#CP-DC2TDRfDP2+xf,domain#CP-DC3xf-xf+xf,FALSE,should match link DataChannel-extendsFwdFlow-DataChannel created here
+package#DataLifecycle,domain#CP-DC2TDRrDP2+xr,domain#CP-DC3xr-xr+xr,FALSE,should match link DataChannel-extendsRevFlow-DataChannel created here
+package#DataLifecycle,domain#CP-DC2xfDA2+f,domain#CP-DDDCDS2P+DF,FALSE,should match link DataAccess-fulfils-DataAccess created here
+package#DataLifecycle,domain#CP-DC2xfDA2+f,domain#CP-DSDCDD2P+DF,FALSE,should match link DataAccess-fulfils-DataAccess created here
+package#DataLifecycle,domain#CP-DC2xfDA2+f,domain#CP-DUDA-eS+eA,FALSE,should match link DataAccess-fulfils-DataAccess created here
+package#DataLifecycle,domain#CP-DC2xrDA2+f,domain#CP-DDDCDS2P+DF,FALSE,should match link DataAccess-fulfils-DataAccess created here
+package#DataLifecycle,domain#CP-DC2xrDA2+f,domain#CP-DSDCDD2P+DF,FALSE,should match link DataAccess-fulfils-DataAccess created here
+package#DataLifecycle,domain#CP-DC2xrDA2+f,domain#CP-DUDA-eS+eA,FALSE,should match link DataAccess-fulfils-DataAccess created here
+package#DataLifecycle,domain#CP-DC3-x+x,domain#CP-DC1+x,FALSE,creates link DataChannel-extendsDC-DataChannel that should not be matched here
+package#DataLifecycle,domain#CP-DC3xf-xf+xf,domain#CP-DC2xfDA2+f,FALSE,should match link DataChannel-extendsFwdFlow-DataChannel created here
+package#DataLifecycle,domain#CP-DC3xr-xr+xr,domain#CP-DC2xrDA2+f,FALSE,should match link DataChannel-extendsRevFlow-DataChannel created here
+package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#CP-DC3-x+x,FALSE,should match asset DataChannel created here
+package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#CP-DI-fDCSDS+ch,FALSE,should match asset DataChannel created here
+package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#CP-DP3-x+x,FALSE,creates link DataPath-extendsDP-DataPath that should not be matched here
+package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#CP-RA-fDCSDD+ch,FALSE,should match asset DataChannel created here
+package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#CP-RA-fDCSDS+ch,FALSE,should match asset DataChannel created here
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-HPsDPDFDS+f,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-HPsDPDSDF+f,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-RevDFf2DP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-RevDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-RevDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DDDPS+DC,domain#CP-DDDCDP2oDS+DC,FALSE,should match asset DataChannel created here
+package#DataLifecycle,domain#CP-DDDPS+DC,domain#CP-DDDCDP2oDS+DC,FALSE,should match link Process-relaysAccess-DataAccess created here
+package#DataLifecycle,domain#CP-DD-fDCSDS+ch,domain#CP-DSDAfDD-fS+fS,FALSE,should match link DataAccess-possDataDest-DataAccess created here
+package#DataLifecycle,domain#CP-DD-fDCSDS+ch,domain#CP-DSDAfDD-fS+fS,FALSE,should match link DataAccess-possRevPath-DataChannel created here
+package#DataLifecycle,domain#CP-DI-fDCSDS+ch,domain#CP-DD-fDCSDS+ch,FALSE,should match link DataAccess-possDataDest-DataInput created here
+package#DataLifecycle,domain#CP-DI-fDCSDS+ch,domain#CP-DD-fDCSDS+ch,FALSE,should match link DataInput-possDataDest-DataInput created here
+package#DataLifecycle,domain#CP-DI-fDCSDS+ch,domain#CP-DD-fDCSDS+ch,FALSE,should match link DataInput-possRevPath-DataChannel created here
+package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-DADSDCSDD-f+ch,FALSE,should match link DataChannel-dataChannelFrom-Process created here
+package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-DADSDCSDD-f+ch,FALSE,should match link DataAccess-fromSource-DataOutput created here
+package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-DADSDCSDD-f+ch,FALSE,should match link DataChannel-dataChannelEnd-DataAccess created here
+package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-DADSDCSDD-f+ch,FALSE,creates link DataAccess-fromSource-DataAccess that should not be matched here
+package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-DADSDCSDD-f+ch,FALSE,should match link DataOutput-fwdPath-DataChannel created here
+package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-DADSDCSDD-f+ch,FALSE,should match link DataOutput-fromSource-DataOutput created here
+package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-DADSDCSDD-f+ch,FALSE,should match link DataOutput-fulfils-DataAccess created here
+package#DataLifecycle,domain#CP-DP1+x,domain#CP-DADSDCSDD-f+ch,FALSE,should match link DataPath-extendsDP-DataPath created here
+package#DataLifecycle,domain#CP-DP1+x,domain#CP-DD-fDCSDS+ch,FALSE,should match link DataPath-extendsDP-DataPath created here
+package#DataLifecycle,domain#CP-DP3-x+x,domain#CP-DP1+x,FALSE,creates link DataPath-extendsDP-DataPath that should not be matched here
+package#DataLifecycle,domain#CP-DSDAfDD-fS+fS,domain#CP-DC2TDRfDP2+xf,FALSE,should match link DataChannel-dataChannelEnd-DataAccess created here
+package#DataLifecycle,domain#CP-DSDAfDD-fS+fS,domain#CP-DC2TDRrDP2+xr,FALSE,should match link DataChannel-dataChannelEnd-DataAccess created here
+package#DataLifecycle,domain#CP-DSDAfDD-fS+fS,domain#CP-DC2TDRrDP2+xr,FALSE,should match link DataAccess-revPath-DataChannel created here
+package#DataLifecycle,domain#CP-DSDAfDD-fS+fS,domain#CP-HDSPDIfdDA-DP-f+f,FALSE,should match link DataAccess-fromSource-DataAccess created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-FwdDFf2DP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-FwdDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-FwdDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-HPsDPDFDS+f,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-HPsDPDSDF+f,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-RevDFf2DP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-RevDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDD2P+DF,domain#CP-RevDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-DSDCDP2oDD+DC,domain#CP-DDDPS+DC,FALSE,creates link Process-relaysAccess-DataAccess that should not be matched here
+package#DataLifecycle,domain#CP-DSDCDP2oDD+DC,domain#CP-DDDPS+DC,FALSE,creates asset DataChannel that should not be matched here
+package#DataLifecycle,domain#CP-DSDDF-Hu-P+i,domain#CP-DSD-iDF+n,FALSE,should match link DataCopy-includesField-DataField created here
+package#DataLifecycle,domain#CP-DSD-iDF+n,domain#CP-DAO-iDADInDF-n+n,FALSE,should match link DataCopy-needsField-DataField created here
+package#DataLifecycle,domain#CP-DSDPS+DC,domain#CP-DSDCDP2oDD+DC,FALSE,should match link Process-relaysAccess-DataAccess created here
+package#DataLifecycle,domain#CP-DSDPS+DC,domain#CP-DSDCDP2oDD+DC,FALSE,should match asset DataChannel created here
+package#DataLifecycle,domain#CP-DUDA-eS+eA,domain#CP-DADU-eS+eA,FALSE,should match link Process-enablesAccess-DataUse created here
+package#DataLifecycle,domain#CP-DUDA-eS+eA,domain#CP-DADU-eS+eA,FALSE,creates link Process-enablesAccess-DataUse that should not be matched here
+package#DataLifecycle,domain#CP-FwdDFf2DP2P+DS,domain#CP-DDDCDS2P+DF,FALSE,creates asset DataFlow that should not be matched here
+package#DataLifecycle,domain#CP-FwdDFfDP2P+DS,domain#CP-DDDCDS2P+DF,FALSE,creates asset DataFlow that should not be matched here
+package#DataLifecycle,domain#CP-FwdDFtDP2P+DS,domain#CP-DDDCDS2P+DF,FALSE,creates asset DataFlow that should not be matched here
+package#DataLifecycle,domain#CP-HD-aHD-DS+DS,domain#CP-DSDDF-Hu-P+i,FALSE,should match asset DataCopy created here
+package#DataLifecycle,domain#CP-HD-aHD-DS+DS,domain#CP-HPsD-DS+DR,FALSE,should match asset DataCopy created here
+package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-HPsDPDFDS+f,FALSE,creates link DataPool-fulfils-DataCopy that should not be matched here
+package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PIP-S+fS,FALSE,creates link InputPool-fromSource-InputPool that should not be matched here
+package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PSDP-S+fS,FALSE,creates link StoredDataPool-fromSource-StoredDataPool that should not be matched here
+package#DataLifecycle,domain#CP-HDSPDIfdDA-DP-f+f,domain#CP-HPDO-fDS-DA+f,FALSE,creates link DataOutput-fulfils-DataCopy that should not be matched here
+package#DataLifecycle,domain#CP-HDSPDIfdDA-DP-f+f,domain#CP-HPDO-fDS-DA+f,FALSE,should match link DataInput-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-FwdDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-FwdDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeOD+vD,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD+aD,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD-a+a,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-RevDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-RevDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-FwdDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-FwdDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeOD+vD,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD+aD,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD-a+a,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-RevDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-RevDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HPDADS2dDO+crudu,domain#CP-HPDADS-crudu+crudc,FALSE,should match link Process-crudu-DataCopy created here
+package#DataLifecycle,domain#CP-HPDADS2dDO+crudu,domain#CP-HPDSDA-crudr+crudr,FALSE,should match link Process-crudu-DataCopy created here
+package#DataLifecycle,domain#CP-HPDADSDU+crudu,domain#CP-HPDADS-crudu+crudc,FALSE,should match link Process-crudu-DataCopy created here
+package#DataLifecycle,domain#CP-HPDADSDU+crudu,domain#CP-HPDSDA-crudr+crudr,FALSE,should match link Process-crudu-DataCopy created here
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-DADS+W,FALSE,should match link DataOutput-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-DAO-iDADInDF-n+n,FALSE,should match link DataOutput-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-DUDA-eS+eA,FALSE,should match link Process-enablesAccess-DataOutput created here
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-HPDADS2dDO+crudu,FALSE,should match link DataOutput-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-HPDADSDU+crudu,FALSE,should match link DataOutput-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-HPeD+crudu,FALSE,should match link DataOutput-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-ScDSPDADD-cz+c,FALSE,should match link DataOutput-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,domain#CP-DAO-iDADInDF-n+n,FALSE,should match link DataCopy-fulfils-DataInput created here
+package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,domain#CP-DSDA+R,FALSE,should match link DataCopy-fulfils-DataInput created here
+package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,domain#CP-HPDSDA-crudr+crudr,FALSE,should match link DataCopy-fulfils-DataInput created here
+package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,domain#CP-ScDSPDADD-cz+c,FALSE,should match link DataCopy-fulfils-DataInput created here
+package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,domain#CP-SDUDSDA+R,FALSE,should match link DataCopy-fulfils-DataInput created here
+package#DataLifecycle,domain#CP-HPeD+crudu,domain#CP-HPDADS-crudu+crudc,FALSE,should match link Process-crudu-DataCopy created here
+package#DataLifecycle,domain#CP-HPeD+crudu,domain#CP-HPDSDA-crudr+crudr,FALSE,should match link Process-crudu-DataCopy created here
+package#DataLifecycle,domain#CP-HPrD-DS-DA+DR,domain#CP-PsDSH-DP+DP,FALSE,creates asset StoredDataPool that should not be matched here
+package#DataLifecycle,domain#CP-HPrD-DS-DA+DR,domain#CP-PTDR+ds,FALSE,should match asset TempDataRelay created here
+package#DataLifecycle,domain#CP-HPsD-DS+DR,domain#CP-HPrD-DS-DA+DR,FALSE,should match asset DataRelay created here
+package#DataLifecycle,domain#CP-HPsD-DS+DR,domain#CP-HPrD-DS-DA+DR,FALSE,creates asset TempDataRelay that should not be matched here
+package#DataLifecycle,domain#CP-HPsD-DS+DR,domain#CP-PDR+ds,FALSE,should match asset DataRelay created here
+package#DataLifecycle,domain#CP-HPsDPDFDS+f,domain#CP-HDSPDIfdDA-DP-f+f,FALSE,should match link DataPool-fulfils-DataCopy created here
+package#DataLifecycle,domain#CP-HPsDPDSDF+f,domain#CP-HPDS-fDI-DO-DFI+f,FALSE,should match link DataCopy-fulfils-DataPool created here
+package#DataLifecycle,domain#CP-HSDADPDXP-Hu-DP+DP,domain#CP-HSDADPPDXP-Hu-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-HSDADPDXP-Hu-DP+DP,domain#CP-HSDADPPDXP-Hu-DP+DP,FALSE,creates asset DataPath that should not be matched here
+package#DataLifecycle,domain#CP-HSDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,FALSE,creates asset DataPath that should not be matched here
+package#DataLifecycle,domain#CP-HSDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-HuaDPH-DS-DA+DU,domain#CP-Pc-rDSH-S-Hu-DA+DO,FALSE,creates asset OutputPool that should not be matched here
+package#DataLifecycle,domain#CP-HuaDPH-DS-DA+DU,domain#CP-Pc-rDSH-S-Hu-DA+DO,FALSE,should match asset DataUpdate created here
+package#DataLifecycle,domain#CP-HuaDPH-DS-DP+UP,domain#CP-Pc-rDH-DS-Hu-DP+OP,FALSE,creates asset OutputPool that should not be matched here
+package#DataLifecycle,domain#CP-HuaDPH-DS-DP+UP,domain#CP-Pc-rDH-DS-Hu-DP+OP,FALSE,should match asset UpdatePool created here
+package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-DADS+ds,FALSE,should match asset RemoteUserAccess created here
+package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-HSDADPDXP-Hu-DP+DP,FALSE,should match asset RemoteUserAccess created here
+package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-RUIDO+ds,FALSE,should match asset RemoteUserAccess created here
+package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-RUODI+ds,FALSE,should match asset RemoteUserAccess created here
+package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-SDUDSDA+R,FALSE,should match asset RemoteUserAccess created here
+package#DataLifecycle,domain#CP-HuaDSPH+S-DA+DU,domain#CP-PaDH-DS-Hu-DA+DU,FALSE,creates asset DataUpdate that should not be matched here
+package#DataLifecycle,domain#CP-HuaDSPH+S-DA+DU,domain#CP-PaDH-DS-Hu-DA+DU,FALSE,should match asset DataUpdate created here
+package#DataLifecycle,domain#CP-HuaDSPH-DP+UP,domain#CP-Pc-rDSH-Hu-DP+OP,FALSE,should match asset UpdatePool created here
+package#DataLifecycle,domain#CP-HuaDSPH-DP+UP,domain#CP-Pc-rDSH-Hu-DP+OP,FALSE,creates asset OutputPool that should not be matched here
+package#DataLifecycle,domain#CP-HuaDSPH-S-DA+DU,domain#CP-PaDSH+S-Hu-DA+DU,FALSE,should match asset UpdatePool created here
+package#DataLifecycle,domain#CP-HuaDSPH-S-DA+DU,domain#CP-PaDSH+S-Hu-DA+DU,FALSE,creates asset DataUpdate that should not be matched here
+package#DataLifecycle,domain#CP-Hui-vDPH-DS-DA+DO,domain#CP-PDO+s,FALSE,should match asset DataOutput created here
+package#DataLifecycle,domain#CP-Hui-vDPH-DS-DA+DO,domain#CP-Pr-cDSH-S-Hu-DA+DI,FALSE,should match asset DataOutput created here
+package#DataLifecycle,domain#CP-Hui-vDPH-DS-DA+DO,domain#CP-Pr-cDSH-S-Hu-DA+DI,FALSE,creates asset DataInput that should not be matched here
+package#DataLifecycle,domain#CP-Hui-vDPH-DS-DP+OP,domain#CP-PaDSH-S-Hu-DA+DU,FALSE,creates asset UpdatePool that should not be matched here
+package#DataLifecycle,domain#CP-Hui-vDPH-DS-DP+OP,domain#CP-PaDSH-S-Hu-DA+DU,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-Hui-vDSPH+S-DA+DO,domain#CP-Pc-rDH-DS-Hu-DA+DO,FALSE,creates asset DataOutput that should not be matched here
+package#DataLifecycle,domain#CP-Hui-vDSPH+S-DA+DO,domain#CP-Pc-rDH-DS-Hu-DA+DO,FALSE,should match asset DataOutput created here
+package#DataLifecycle,domain#CP-Hui-vDSPH-DP+OP,domain#CP-Pr-cDSH-Hu-DP+IP,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-Hui-vDSPH-DP+OP,domain#CP-Pr-cDSH-Hu-DP+IP,FALSE,creates asset InputPool that should not be matched here
+package#DataLifecycle,domain#CP-Hui-vDSPH-S-DA+DO,domain#CP-Pc-rDSH+S-Hu-DA+DO,FALSE,creates asset DataOutput that should not be matched here
+package#DataLifecycle,domain#CP-Hui-vDSPH-S-DA+DO,domain#CP-Pc-rDSH+S-Hu-DA+DO,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-Hui-vDSPH-S-DA+DO,domain#CP-PDP+DP,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-Hui-vDSPH-S-DA+DO,domain#CP-PDP+ds,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-FwdDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-FwdDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeOD+vD,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD+aD,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD-a+a,FALSE,should match asset Data created here
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-RevDFfDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-RevDFtDP2P+DS,FALSE,should match asset DataFlow created here
+package#DataLifecycle,domain#CP-PaDH-DS-Hu-DA+DU,domain#CP-HuaDPH-DS-DA+DU,FALSE,creates asset DataUpdate that should not be matched here
+package#DataLifecycle,domain#CP-PaDH-DS-Hu-DA+DU,domain#CP-HuaDPH-DS-DA+DU,FALSE,should match asset DataUpdate created here
+package#DataLifecycle,domain#CP-PaDH-DS-Hu-DP+UP,domain#CP-HuaDPH-DS-DP+UP,FALSE,creates asset UpdatePool that should not be matched here
+package#DataLifecycle,domain#CP-PaDH-DS-Hu-DP+UP,domain#CP-HuaDPH-DS-DP+UP,FALSE,should match asset UpdatePool created here
+package#DataLifecycle,domain#CP-PaDSH+S-Hu-DA+DU,domain#CP-HuaDSPH+S-DA+DU,FALSE,should match asset DataUpdate created here
+package#DataLifecycle,domain#CP-PaDSH+S-Hu-DA+DU,domain#CP-HuaDSPH+S-DA+DU,FALSE,creates asset DataUpdate that should not be matched here
+package#DataLifecycle,domain#CP-PaDSH-Hu-DP+UP,domain#CP-HuaDSPH-DP+UP,FALSE,should match asset UpdatePool created here
+package#DataLifecycle,domain#CP-PaDSH-Hu-DP+UP,domain#CP-HuaDSPH-DP+UP,FALSE,creates asset UpdatePool that should not be matched here
+package#DataLifecycle,domain#CP-PaDSH-S-Hu-DA+DU,domain#CP-HuaDSPH-S-DA+DU,FALSE,should match asset UpdatePool created here
+package#DataLifecycle,domain#CP-PaDSH-S-Hu-DA+DU,domain#CP-HuaDSPH-S-DA+DU,FALSE,creates asset UpdatePool that should not be matched here
+package#DataLifecycle,domain#CP-Pc-rDH-DS-Hu-DA+DO,domain#CP-Hui-vDPH-DS-DA+DO,FALSE,creates asset DataOutput that should not be matched here
+package#DataLifecycle,domain#CP-Pc-rDH-DS-Hu-DA+DO,domain#CP-Hui-vDPH-DS-DA+DO,FALSE,should match asset DataOutput created here
+package#DataLifecycle,domain#CP-Pc-rDH-DS-Hu-DP+OP,domain#CP-Hui-vDPH-DS-DP+OP,FALSE,creates asset OutputPool that should not be matched here
+package#DataLifecycle,domain#CP-Pc-rDH-DS-Hu-DP+OP,domain#CP-Hui-vDPH-DS-DP+OP,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-Pc-rDSH+S-Hu-DA+DO,domain#CP-Hui-vDSPH+S-DA+DO,FALSE,should match asset DataOutput created here
+package#DataLifecycle,domain#CP-Pc-rDSH+S-Hu-DA+DO,domain#CP-Hui-vDSPH+S-DA+DO,FALSE,creates asset DataOutput that should not be matched here
+package#DataLifecycle,domain#CP-Pc-rDSH-Hu-DP+OP,domain#CP-Hui-vDSPH-DP+OP,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-Pc-rDSH-Hu-DP+OP,domain#CP-Hui-vDSPH-DP+OP,FALSE,creates asset OutputPool that should not be matched here
+package#DataLifecycle,domain#CP-Pc-rDSH-S-Hu-DA+DO,domain#CP-Hui-vDSPH-S-DA+DO,FALSE,creates asset OutputPool that should not be matched here
+package#DataLifecycle,domain#CP-Pc-rDSH-S-Hu-DA+DO,domain#CP-Hui-vDSPH-S-DA+DO,FALSE,should match asset OutputPool created here
+package#DataLifecycle,domain#CP-PDI+d,domain#CP-DSDCDP2oDD+DC,FALSE,should match link DataInput-isDest-Data created here
+package#DataLifecycle,domain#CP-PDI-Hu+d,domain#CP-DSDPS+DC,FALSE,should match link DataInput-isSource-Data created here
+package#DataLifecycle,domain#CP-PDO+fS,domain#CP-HDS2DPfDA+fS,FALSE,should match link DataOutput-fromSource-DataOutput created here
+package#DataLifecycle,domain#CP-PDO+s,domain#CP-DSDPS+DC,FALSE,should match link DataOutput-isSource-Data created here
+package#DataLifecycle,domain#CP-PDO-DI+DP,domain#CP-HSDADPDXP-Hu-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAOiDADInDF-i+i,FALSE,should match link DataAsset-includesField-DataField created here
+package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAOiDADInDF-i+i,FALSE,creates link DataAsset-includesField-DataField that should not be matched here
+package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAOiDADInDF-i+i-Replay,FALSE,creates link DataAsset-includesField-DataField that should not be matched here
+package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAOiDADInDF-i+i-Replay,FALSE,should match link DataAsset-includesField-DataField created here
+package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-DCDFcV+c,FALSE,creates link Process-controls-DataCache that should not be matched here
+package#DataLifecycle,domain#CP-PDP+DP,domain#CP-HSDADPDXP-Hu-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-PDP+ds,domain#CP-DI-fDCSDS+ch,FALSE,should match link DataPool-isPool-Data created here
+package#DataLifecycle,domain#CP-PDR+ds,domain#CP-DSDPS+DC,FALSE,should match link DataRelay-isSource-Data created here
+package#DataLifecycle,domain#CP-PIP-S+fS,domain#CP-DSDAfDD-fS+fS,FALSE,should match link InputPool-fromSource-InputPool created here
+package#DataLifecycle,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#CP-HuaDRAC-DA+RUA,FALSE,should match asset DataInput created here
+package#DataLifecycle,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#CP-HuaDRAC-DA+RUA,FALSE,creates asset RemoteUserAccess that should not be matched here
+package#DataLifecycle,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#CP-PDI+d,FALSE,should match asset DataInput created here
+package#DataLifecycle,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#CP-PDI-Hu+d,FALSE,should match asset DataInput created here
+package#DataLifecycle,domain#CP-Pr-cDH-DS-Hu-DA+DI,domain#CP-PDO-DI+DP,FALSE,should match asset DataInput created here
+package#DataLifecycle,domain#CP-Pr-cDSH+S-Hu-DA+DI,domain#CP-Pr-cDH-DS-Hu-DA+DI,FALSE,creates asset DataInput that should not be matched here
+package#DataLifecycle,domain#CP-Pr-cDSH+S-Hu-DA+DI,domain#CP-Pr-cDH-DS-Hu-DA+DI,FALSE,should match asset DataInput created here
+package#DataLifecycle,domain#CP-Pr-cDSH-Hu-DP+IP,domain#CP-PaDH-DS-Hu-DP+UP,FALSE,creates asset UpdatePool that should not be matched here
+package#DataLifecycle,domain#CP-Pr-cDSH-Hu-DP+IP,domain#CP-PaDH-DS-Hu-DP+UP,FALSE,should match asset InputPool created here
+package#DataLifecycle,domain#CP-Pr-cDSH-S-Hu-DA+DI,domain#CP-Pr-cDSH+S-Hu-DA+DI,FALSE,creates asset DataInput that should not be matched here
+package#DataLifecycle,domain#CP-Pr-cDSH-S-Hu-DA+DI,domain#CP-Pr-cDSH+S-Hu-DA+DI,FALSE,should match asset DataInput created here
+package#DataLifecycle,domain#CP-PSDP+ds,domain#CP-DSDPS+DC,FALSE,should match link StoredDataPool-isSource-Data created here
+package#DataLifecycle,domain#CP-PSDP-S+fS,domain#CP-DSDAfDD-fS+fS,FALSE,should match link StoredDataPool-fromSource-StoredDataPool created here
+package#DataLifecycle,domain#CP-PsDSH-DP+DP,domain#CP-PaDSH-Hu-DP+UP,FALSE,should match asset StoredDataPool created here
+package#DataLifecycle,domain#CP-PsDSH-DP+DP,domain#CP-PaDSH-Hu-DP+UP,FALSE,creates asset UpdatePool that should not be matched here
+package#DataLifecycle,domain#CP-PsDSH-DP+DP,domain#CP-PSDP+ds,FALSE,should match asset StoredDataPool created here
+package#DataLifecycle,domain#CP-PTDR+ds,domain#CP-DSDPS+DC,FALSE,should match link TempDataRelay-isSource-Data created here
+package#DataLifecycle,domain#CP-RA-fDCSDD+ch,domain#CP-DO-fDCSDD+ch,FALSE,creates link DataAccess-fromSource-DataOutput that should not be matched here
+package#DataLifecycle,domain#CP-RA-fDCSDD+ch,domain#CP-DO-fDCSDD+ch,FALSE,should match link DataAccess-fromSource-RemoteUserAccess created here
+package#DataLifecycle,domain#CP-RA-fDCSDS+ch,domain#CP-DD-fDCSDS+ch,FALSE,should match link RemoteUserAccess-possRevPath-DataChannel created here
+package#DataLifecycle,domain#CP-RA-fDCSDS+ch,domain#CP-DD-fDCSDS+ch,FALSE,should match link RemoteUserAccess-possDataDest-RemoteUserAccess created here
+package#DataLifecycle,domain#CP-RA-fDCSDS+ch,domain#CP-DD-fDCSDS+ch,FALSE,should match link DataAccess-possDataDest-RemoteUserAccess created here
+package#DataLifecycle,domain#CP-RUIDO+ds,domain#CP-DSDPS+DC,FALSE,should match link RemoteUserAccess-isSource-Data created here
+package#DataLifecycle,domain#CP-RUODI+ds,domain#CP-DSDPS+DC,FALSE,should match link DataInput-isSource-Data created here
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-PDOScDD-DS+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-PDOScDD-DS+z,FALSE,should match link Process-controls-DataAsset created here
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDIcD+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDIcD+z,FALSE,should match link Process-controls-DataAsset created here
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDI-DD+z,FALSE,should match link Process-controls-DataAsset created here
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDI-DD+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#DataLifecycle,domain#CP-ScDSPDADD-cz+c,domain#CP-ScDDPDADS-cz+c,FALSE,creates link Process-controls-DataAsset that should not be matched here
+package#DataLifecycle,domain#CP-ScDSPDADD-cz+c,domain#CP-ScDDPDADS-cz+c,FALSE,should match link Process-controls-DataAsset created here
+package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-DCDFcV+c,FALSE,creates link Process-controls-DataCache that should not be matched here
+package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-DCDFcV+c,FALSE,creates link Process-controls-DataCache that should not be matched here
+package#DataLifecycle,domain#CP-SDADPDXP-Hu-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,FALSE,creates asset DataPath that should not be matched here
+package#DataLifecycle,domain#CP-SDADPDXP-Hu-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXPRAC-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXPRAC-DP+DP,FALSE,creates asset DataPath that should not be matched here
+package#DataLifecycle,domain#CP-SDADPDXRAC-DP+DP,domain#CP-SDADPPDXRAC-DP+DP,FALSE,creates asset DataPath that should not be matched here
+package#DataLifecycle,domain#CP-SDADPDXRAC-DP+DP,domain#CP-SDADPPDXRAC-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXPRAC-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXPRAC-DP+DP,FALSE,creates asset DataPath that should not be matched here
+package#DataLifecycle,domain#CP-SDADPPDXPRAC-DP+DP,domain#CP-SDADPDXRAC-DP+DP,FALSE,should match asset DataPath created here
+package#DataLifecycle,domain#CP-SDADPPDXPRAC-DP+DP,domain#CP-SDADPDXRAC-DP+DP,FALSE,creates asset DataPath that should not be matched here
+package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-DSDPS+DC,FALSE,should match asset DataPath created here
+package#IoT,domain#CP-DcTh+DS,domain#CP-HumThP-m+m,FALSE,should match asset DataService created here
+package#IoT,domain#CP-DcTh+DS,domain#CP-Pa-uCo+Rel,FALSE,should match asset DataService created here
+package#IoT,domain#CP-DcTh+DS,domain#CP-PcSe+Rel,FALSE,should match asset DataService created here
+package#IoT,domain#CP-DcTh+DS,domain#CP-PuCo+Rel,FALSE,should match asset DataService created here
+package#IoT,domain#CP-DcTh+s,domain#CP-HD-aHD-DS+DS,FALSE,should match link Host-stores-Data created here
+package#IoT,domain#CP-DcTh+s,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,FALSE,should match link Host-stores-Data created here
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeID+iD,FALSE,should match asset Process created here
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeOD+vD,FALSE,should match asset Process created here
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD+aD,FALSE,should match asset Process created here
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD-a+a,FALSE,should match asset Process created here
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HumThP-m+m,FALSE,should match asset ControlProcess created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWE+D,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWSMS+D,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuE+e,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuirPeID+iD,FALSE,should match link Process-enablesUserInput-Data created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuirPeID+iD,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+D,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+e,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,creates asset DesktopService that should not be matched here
+package#IoT,domain#CP-HumThP-m+m,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,creates asset DesktopService that should not be matched here
+package#IoT,domain#CP-IoT-cD+cD,domain#CP-DcTh+DS,FALSE,should match asset ControlData created here
+package#IoT,domain#CP-IoT-cD+cD,domain#CP-DcTh+s,FALSE,should match asset ControlData created here
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-HuiCo+UI,FALSE,creates asset ControlProcess that should not be matched here
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-HuiSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-Pp-uSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-PrSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-PuSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-PcSe+Rel,domain#CP-HuiSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-PcSe+Rel,domain#CP-Pp-uSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-PcSe+Rel,domain#CP-PrSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-PcSe+Rel,domain#CP-PuSe+Rel,FALSE,should match link Process-amends-Data created here
+package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-HuirPeUD-a+a,FALSE,creates link Process-amends-Data that should not be matched here
+package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-RACuP-iP+uR,FALSE,should match link RemoteAccessClient-uses-SensorProcess created here
+package#IoT,domain#CP-PrSe+Rel,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#IoT,domain#CP-PrSe+Rel,domain#CP-HuirPeUD-a+a,FALSE,creates link Process-amends-Data that should not be matched here
+package#IoT,domain#CP-PuCo+Rel,domain#CP-HuiCo+UI,FALSE,creates asset ControlProcess that should not be matched here
+package#IoT,domain#CP-PuCo+Rel,domain#CP-HuiSe+Rel,FALSE,should match link Process-updates-Data created here
+package#IoT,domain#CP-PuCo+Rel,domain#CP-Pp-uSe+Rel,FALSE,should match link Process-updates-Data created here
+package#IoT,domain#CP-PuCo+Rel,domain#CP-PrSe+Rel,FALSE,should match link Process-updates-Data created here
+package#IoT,domain#CP-PuCo+Rel,domain#CP-PuSe+Rel,FALSE,should match link Process-updates-Data created here
+package#IoT,domain#CP-PuSe+Rel,domain#CP-HuirPeUD-a+a,FALSE,creates link Process-amends-Data that should not be matched here
+package#IoT,domain#CP-PuSe+Rel,domain#CP-RACuP-iP+uR,FALSE,should match link RemoteAccessClient-uses-SensorProcess created here
+package#IoT,domain#CP-Se-sD+sD,domain#CP-SesD+SP,FALSE,should match asset SensedData created here
+package#IoT,domain#CP-SesD+SP,domain#CP-HuiSe+Rel,FALSE,should match asset SensorProcess created here
+package#IoT,domain#CP-SesD+SP,domain#CP-HumThP-m+m,FALSE,should match asset SensorProcess created here
+package#IoT,domain#CP-SesD+SP,domain#CP-Pp-uSe+Rel,FALSE,should match asset SensorProcess created here
+package#IoT,domain#CP-SesD+SP,domain#CP-PrSe+Rel,FALSE,should match asset SensorProcess created here
+package#IoT,domain#CP-SesD+SP,domain#CP-PuSe+Rel,FALSE,should match asset SensorProcess created here
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HuiPDaS-S+l,FALSE,creates link PhysicalHost-locatedIn-Space that should not be matched here
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,FALSE,should match link Human-manages-Thing created here
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,FALSE,creates link Human-manages-Host that should not be matched here
+package#Legal,domain#CP-JuPHS+s,domain#CP-JuHP+s,FALSE,should match link Host-subjectTo-Jurisdiction created here
+package#Legal,domain#CP-JuSS+s,domain#CP-JuPHS+s,FALSE,should match link Space-subjectTo-Jurisdiction created here
+package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#CP-HUSBTHS-S+l,FALSE,creates link TrivialHost-locatedIn-Space that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#CP-HUSBTHS-S+l,FALSE,should match link TrivialHost-locatedIn-Space created here
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FcLSS+aF,FALSE,should match asset LogicalSubnet created here
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FpLSS+aF,FALSE,should match asset LogicalSubnet created here
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FcLSS+aF,FALSE,should match asset LogicalSubnet created here
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FpLSS+aF,FALSE,should match asset LogicalSubnet created here
+package#LocalDeviceConnectivity,domain#CP-HuiHBTTH-Hu+m,domain#CP-HuiHUSBTH-Hu+m,FALSE,should match link Human-manages-TrivialHost created here
+package#LocalDeviceConnectivity,domain#CP-HuiHBTTH-Hu+m,domain#CP-HuiHUSBTH-Hu+m,FALSE,creates link Human-manages-TrivialHost that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-HuiHUSBTH-Hu+m,domain#CP-HumHBTTH-Hu+m,FALSE,creates link Human-manages-TrivialHost that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-HuiHUSBTH-Hu+m,domain#CP-HumHBTTH-Hu+m,FALSE,should match link Human-manages-TrivialHost created here
+package#LocalDeviceConnectivity,domain#CP-HumHBTTH-Hu+m,domain#CP-HumHUSBTH-Hu+m,FALSE,should match link Human-manages-TrivialHost created here
+package#LocalDeviceConnectivity,domain#CP-HumHBTTH-Hu+m,domain#CP-HumHUSBTH-Hu+m,FALSE,creates link Human-manages-TrivialHost that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,FALSE,should match link Human-manages-TrivialHost created here
+package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,FALSE,creates link Human-manages-Host that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-HumTHS+cA,domain#CP-HuaSaE+cA,FALSE,should match link Human-canAccess-Space created here
+package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,FALSE,creates asset World that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,FALSE,should match link PhysicalHost-locatedIn-Space created here
+package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#LocalDeviceConnectivity,domain#CP-UHDpP-S+S,domain#CP-UHDrP-S+S,FALSE,should match link Process-uses-Process created here
+package#LocalDeviceConnectivity,domain#CP-UHDpP-S+S,domain#CP-UHDrP-S+S,FALSE,creates asset DataService that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-UHDrP-S+S,domain#CP-UHDSrP+u,FALSE,should match asset DataService created here
+package#LocalDeviceConnectivity,domain#CP-UHDrP-S+S,domain#CP-UHDSrP+u,FALSE,creates link Process-uses-Process that should not be matched here
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-HuWES+D,FALSE,should match link WebBrowser-uses-Process created here
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-RACuP-iP+uR,FALSE,should match link RemoteAccessClient-uses-Process created here
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-SPuS+U,FALSE,should match link ServiceProxy-uses-Process created here
+package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,should match asset LogicalSegment created here
+package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#CP-UHDpP-S+S,FALSE,should match asset DataService created here
+package#Network,domain#CP-C+iC,domain#CP-DC-C+C,FALSE,creates  asset domain#Cluster that should not be matched here
+package#Network,domain#CP-CuSHS+SL,domain#CP-FcLSS+aF,FALSE,should match asset SocketLAN created here
+package#Network,domain#CP-CuSHS+SL,domain#CP-FpLSS+aF,FALSE,should match asset SocketLAN created here
+package#Network,domain#CP-DC-C+C,domain#CP-CuSHS+SL,FALSE,should match asset Cluster created here
+package#Network,domain#CP-DC-C+C,domain#CP-DCVHRS-H+p,FALSE,should match asset Cluster created here
+package#Network,domain#CP-DC-C+C,domain#CP-DCWH-LS+c,FALSE,should match asset Cluster created here
+package#Network,domain#CP-DC-C+C,domain#CP-PH2dS+iM,FALSE,should match asset Cluster created here
+package#Network,domain#CP-DC-C+C,domain#CP-PHHS+AC,FALSE,should match asset Cluster created here
+package#Network,domain#CP-DC-C+C,domain#CP-SHuPH-Hu+m-Replay1,FALSE,should match asset Cluster created here
+package#Network,domain#CP-DC-C+C,domain#CP-StSPH-St+o,FALSE,should match asset Cluster created here
+package#Network,domain#CP-DCH+l,domain#CP-HuiHS+cA,FALSE,should match link PhysicalHost-locatedIn-DataCentre created here
+package#Network,domain#CP-DCH+l,domain#CP-SHuPH-Hu+m,FALSE,should match link PhysicalHost-locatedIn-DataCentre created here
+package#Network,domain#CP-DCLS+RWS,domain#CP-DCVHRS-H+p,FALSE,should match link Router-connectedTo-AbstractSubnet created here
+package#Network,domain#CP-DCLS+RWS,domain#CP-DCVHWS-H+p,FALSE,should match link Router-connectedTo-AbstractSubnet created here
+package#Network,domain#CP-DCLS+RWS,domain#CP-Hc-pN-hP+AC,FALSE,should match link Router-connectedTo-AbstractSubnet created here
+package#Network,domain#CP-DCpLS+RWS,domain#CP-Hc-pN-hP+AC,FALSE,should match link LogicalSubnet-providedBy-Router created here
+package#Network,domain#CP-DCpLS+RWS,domain#CP-WpHS-aF+iH,FALSE,should match link LogicalSubnet-providedBy-Router created here
+package#Network,domain#CP-DCpLS+RWS,domain#CP-WpHS-aF+iH,FALSE,should match link LogicalSubnet-accessibleFrom-DataCentre created here
+package#Network,domain#CP-DC-R+RW,domain#CP-DCWH-LS+c,FALSE,should match asset Router created here
+package#Network,domain#CP-DC-R+RW,domain#CP-DCWH-LS+c,FALSE,should match asset WiredLAN created here
+package#Network,domain#CP-DC-R+RW,domain#CP-PH2dS+iM,FALSE,should match asset Router created here
+package#Network,domain#CP-DC-R+RW,domain#CP-PHHS+AC,FALSE,should match asset Router created here
+package#Network,domain#CP-DC-R+RW,domain#CP-Rr+iR,FALSE,should match  asset domain#Router created here
+package#Network,domain#CP-DC-R+RW,domain#CP-SHuPH-Hu+m-Replay1,FALSE,should match asset Router created here
+package#Network,domain#CP-DC-R+RW,domain#CP-StSPH-St+o,FALSE,should match asset Router created here
+package#Network,domain#CP-DCVHRS-H+p,domain#CP-DCpLS+RWS,FALSE,creates link LogicalSubnet-providedBy-Router that should not be matched here
+package#Network,domain#CP-DCVHRS-H+p,domain#CP-DCpLS+RWS,FALSE,should match link WiFiLAN-providedBy-DataCentre created here
+package#Network,domain#CP-DCVHWS-H+p,domain#CP-DCpLS+RWS,FALSE,should match link WiredLAN-providedBy-DataCentre created here
+package#Network,domain#CP-DCVHWS-H+p,domain#CP-DCpLS+RWS,FALSE,creates link LogicalSubnet-providedBy-Router that should not be matched here
+package#Network,domain#CP-DCWH-LS+c,domain#CP-DCLS+RWS,FALSE,creates link Router-connectedTo-AbstractSubnet that should not be matched here
+package#Network,domain#CP-FcLSS+aF,domain#CP-HprLS+c,FALSE,creates link Host-connectedTo-LogicalSubnet that should not be matched here
+package#Network,domain#CP-FpLSS+aF,domain#CP-PCPHLSS+NC,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+package#Network,domain#CP-FpLSS+aF,domain#CP-PHLSS+aV,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-HuiHAC+i,FALSE,should match asset AuthClient created here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-PC-LnS+LnS,FALSE,should match asset AuthClient created here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-PC-LnS+LnS,FALSE,creates asset LoginService that should not be matched here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-Rr-LnS+LnS,FALSE,should match asset AuthClient created here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-Rr-LnS+LnS,FALSE,creates asset LoginService that should not be matched here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-Sv-LnS+LnS,FALSE,creates asset LoginService that should not be matched here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-Sv-LnS+LnS,FALSE,should match asset AuthClient created here
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-WpHSH-aF+WH,FALSE,creates asset WiFiLAN that should not be matched here
+package#Network,domain#CP-HcWHS+c,domain#CP-FcLSS+aF,FALSE,should match link Host-connectedTo-WiFiLAN created here
+package#Network,domain#CP-HcWHS+c,domain#CP-FcLSS+aF,FALSE,creates link LogicalSubnet-accessibleFrom-Space that should not be matched here
+package#Network,domain#CP-HcWHS+c,domain#CP-FpLSS+aF,FALSE,creates link LogicalSubnet-accessibleFrom-Space that should not be matched here
+package#Network,domain#CP-HprLS+c,domain#CP-PCPHLSS+NC,FALSE,should match link Host-connectedTo-LogicalSubnet created here
+package#Network,domain#CP-HprLS+c,domain#CP-PHLSS+aV,FALSE,should match link Host-connectedTo-LogicalSubnet created here
+package#Network,domain#CP-Hui2H+iD,domain#CP-HuiPH-iD+iP,FALSE,should match link PhysicalHost-impersonalDevice-PhysicalHost created here
+package#Network,domain#CP-Hui2H+iD,domain#CP-HuSP+SMS,FALSE,should match link PhysicalHost-impersonalDevice-PhysicalHost created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-CuSHS+SL,FALSE,should match asset RemoteTerminal created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-HACPmNC+p,FALSE,should match asset RemoteTerminal created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-HumHP-im+m,FALSE,should match asset RemoteTerminal created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-PHHPS+AC,FALSE,should match asset RemoteTerminal created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-RACuHRASP-iPL+uR,FALSE,should match asset RemoteTerminal created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-RACuP-iP+uR,FALSE,should match asset RemoteTerminal created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-StHP+o,FALSE,should match asset RemoteTerminal created here
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-TP+iT,FALSE,should match  asset domain#RemoteTerminal created here
+package#Network,domain#CP-HuiHAC+i,domain#CP-HumHP-im+m,FALSE,should match link Human-interactsWith-AuthClient created here
+package#Network,domain#CP-HuiH-Hu+m,domain#CP-SHuPH-Hu+m-Replay1,FALSE,creates link Human-manages-FixedHost that should not be matched here
+package#Network,domain#CP-HuiH-Hu+m,domain#CP-SHuPH-Hu+m-Replay1,FALSE,should match link Human-manages-Host created here
+package#Network,domain#CP-HuiHP-m+m,domain#CP-HumPH-m+m,FALSE,should match link Human-manages-Process created here
+package#Network,domain#CP-HuiHP-m+m-Replay1,domain#CP-HumP-StSt+o,FALSE,should match link Human-manages-Process created here
+package#Network,domain#CP-HuiHRAC+i,domain#CP-HuiCHLnS-AC+AC,FALSE,creates asset RemoteTerminal that should not be matched here
+package#Network,domain#CP-HuiHRAC+i,domain#CP-HuiCHLnS-AC+AC,FALSE,should match link Human-interactsRemotelyWith-RemoteAccessClient created here
+package#Network,domain#CP-HuiHS+cA,domain#CP-HuaSaE+cA,FALSE,should match link Human-canAccess-Space created here
+package#Network,domain#CP-HuiPDaS-S+l,domain#CP-PH-S+W,FALSE,creates asset World that should not be matched here
+package#Network,domain#CP-HuiPDaS-S+l,domain#CP-PH-S+W,FALSE,should match link PhysicalHost-locatedIn-Space created here
+package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HumPH-m+m,FALSE,creates link Human-manages-Host that should not be matched here
+package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HumPH-m+m,FALSE,should match link Human-manages-PersonalHost created here
+package#Network,domain#CP-HuiPH-iD+iP,domain#CP-HuiPDaS-S+l,FALSE,should match link PersonalHost-isPersonalDevice-PersonalHost created here
+package#Network,domain#CP-HumHP-im+m,domain#CP-HuiHP-m+m-Replay1,FALSE,creates link Human-manages-Process that should not be matched here
+package#Network,domain#CP-HumHP-im+m,domain#CP-HuiHP-m+m-Replay1,FALSE,should match link Human-manages-Process created here
+package#Network,domain#CP-HumH-StSt+o,domain#CP-HuwStmH-St+o,FALSE,creates link Stakeholder-operates-Host that should not be matched here
+package#Network,domain#CP-HumH-StSt+o,domain#CP-HuwStmH-St+o,FALSE,should match link Human-operates-Host created here
+package#Network,domain#CP-HumPH-m+m,domain#CP-Hc-pN-hP+AC,FALSE,creates asset AuthClient that should not be matched here
+package#Network,domain#CP-HumPH-m+m,domain#CP-HuiH-Hu+m,FALSE,creates link Human-manages-Host that should not be matched here
+package#Network,domain#CP-HumPH-m+m,domain#CP-HuiH-Hu+m,FALSE,should match link Human-manages-Host created here
+package#Network,domain#CP-HumP-StSt+o,domain#CP-HuwStmP-St+o,FALSE,creates link Stakeholder-operates-Process that should not be matched here
+package#Network,domain#CP-HumP-StSt+o,domain#CP-HuwStmP-St+o,FALSE,should match link Human-operates-Process created here
+package#Network,domain#CP-HuoH-m+m,domain#CP-HuiPH-Hu+m,FALSE,creates link Human-manages-PersonalHost that should not be matched here
+package#Network,domain#CP-HuoH-m+m,domain#CP-HuiPH-Hu+m,FALSE,should match link Human-manages-Host created here
+package#Network,domain#CP-HuoH-m+m,domain#CP-SHuPH-Hu+m,FALSE,creates link Human-manages-FixedHost that should not be matched here
+package#Network,domain#CP-HuoH-m+m,domain#CP-SHuPH-Hu+m,FALSE,should match link Human-manages-Host created here
+package#Network,domain#CP-HuPCH+i,domain#CP-Hc-pN-hP+AC,FALSE,creates asset AuthClient that should not be matched here
+package#Network,domain#CP-HuPCH+i,domain#CP-Hui2H+iD,FALSE,should match link Human-interactsWith-InteractiveHost created here
+package#Network,domain#CP-HuPCH+i,domain#CP-HuiHRAC+i,FALSE,should match link Human-interactsWith-InteractiveHost created here
+package#Network,domain#CP-HuPCH+i,domain#CP-HuiHS+cA,FALSE,should match link Human-interactsWith-InteractiveHost created here
+package#Network,domain#CP-HuPCH+i,domain#CP-HuiPH-Hu+m,FALSE,should match link Human-interactsWith-InteractiveHost created here
+package#Network,domain#CP-HuSP+SMS,domain#CP-CuSHS+SL,FALSE,should match asset SMSClient created here
+package#Network,domain#CP-HuSP+SMS,domain#CP-HACPmNC+p,FALSE,should match asset SMSClient created here
+package#Network,domain#CP-HuSP+SMS,domain#CP-HumHP-im+m,FALSE,should match asset SMSClient created here
+package#Network,domain#CP-HuSP+SMS,domain#CP-PHHPS+AC,FALSE,should match asset SMSClient created here
+package#Network,domain#CP-HuSP+SMS,domain#CP-StHP+o,FALSE,should match asset SMSClient created here
+package#Network,domain#CP-HuSP+SMS,domain#CP-TP+iT,FALSE,should match  asset domain#SMSClient created here
+package#Network,domain#CP-HuwStmH-St+o,domain#CP-StSPH-St+o,FALSE,should match link Stakeholder-operates-Host created here
+package#Network,domain#CP-HuwStmH-St+o,domain#CP-StSPH-St+o,FALSE,creates link Stakeholder-operates-FixedHost that should not be matched here
+package#Network,domain#CP-HuwStmP-St+o,domain#CP-StHP+o,FALSE,creates link Stakeholder-operates-Process that should not be matched here
+package#Network,domain#CP-HuwStmP-St+o,domain#CP-StHP+o,FALSE,should match link Stakeholder-operates-Process created here
+package#Network,domain#CP-InternetMP+W,domain#CP-PCPHLSS+NC,FALSE,should match asset World created here
+package#Network,domain#CP-InternetMP+W,domain#CP-PHLSS+aV,FALSE,should match asset World created here
+package#Network,domain#CP-MHcIS+aF,domain#CP-HprLS+c,FALSE,creates link Host-connectedTo-LogicalSubnet that should not be matched here
+package#Network,domain#CP-PC-LnS+LnS,domain#CP-HuiCHLnS-AC+AC,FALSE,should match asset LoginService created here
+package#Network,domain#CP-PCPHLSS+NC,domain#CP-HACPmNC+p,FALSE,should match asset ProcNetContext created here
+package#Network,domain#CP-PCPHLSS+NC,domain#CP-HmNCPAC+p,FALSE,should match asset ProcNetContext created here
+package#Network,domain#CP-PH+hPH,domain#CP-CuSHS+SL,FALSE,should match link PhysicalHost-hasPhysicalHost-PhysicalHost created here
+package#Network,domain#CP-PH+hPH,domain#CP-DCVHRS-H+p,FALSE,should match link PhysicalHost-hasPhysicalHost-PhysicalHost created here
+package#Network,domain#CP-PH+hPH,domain#CP-DCVHWS-H+p,FALSE,should match link PhysicalHost-hasPhysicalHost-PhysicalHost created here
+package#Network,domain#CP-PH+hPH,domain#CP-PHHS+AC,FALSE,should match link PhysicalHost-hasPhysicalHost-PhysicalHost created here
+package#Network,domain#CP-PH+hPH,domain#CP-WpHS-aF+iH,FALSE,should match link PhysicalHost-hasPhysicalHost-PhysicalHost created here
+package#Network,domain#CP-PH2dS+iM,domain#CP-WpHS-aF+iH,FALSE,should match link PhysicalHost-isMobile-PhysicalHost created here
+package#Network,domain#CP-PHHPS+AC,domain#CP-PCPHLSS+NC,FALSE,should match asset ProcessContext created here
+package#Network,domain#CP-PHHS+AC,domain#CP-HACPmNC+p,FALSE,should match asset HostContext created here
+package#Network,domain#CP-PHHS+AC,domain#CP-PHHPS+AC,FALSE,should match asset HostContext created here
+package#Network,domain#CP-PHHS+AC,domain#CP-PHLSS+aV,FALSE,should match asset HostContext created here
+package#Network,domain#CP-PHLSS+aV,domain#CP-HCHLSS+NC,FALSE,should match link HostContext-accessVia-LogicalSubnet created here
+package#Network,domain#CP-PH-S+W,domain#CP-DC-C+C,FALSE,creates asset Cluster that should not be matched here
+package#Network,domain#CP-PH-S+W,domain#CP-DC-R+RW,FALSE,creates asset Router that should not be matched here
+package#Network,domain#CP-PH-S+W,domain#CP-MHcIS+aF,FALSE,should match asset World created here
+package#Network,domain#CP-PH-S+W,domain#CP-WpHSH-aF+WH,FALSE,should match asset World created here
+package#Network,domain#CP-RACuHRASP-iPL+uR,domain#CP-RACuRHRASP-iPL+uRAS,FALSE,should match link RemoteAccessClient-usesRemotely-RemoteAccessService created here
+package#Network,domain#CP-RACuHRASP-iPL+uR,domain#CP-RACuRHRASP-iPL+uRAS,FALSE,should match link RemoteAccessClient-usesRemotely-Process created here
+package#Network,domain#CP-RACuP-iP+uR,domain#CP-RACuRHRASP-iPL+uRAS,FALSE,should match link RemoteAccessClient-usesRemotely-Process created here
+package#Network,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-HuSP+SMS,FALSE,creates asset SMSClient that should not be matched here
+package#Network,domain#CP-RAS+iL,domain#CP-HuPCH+i,FALSE,should match link RemoteAccessService-isLnS-RemoteAccessService created here
+package#Network,domain#CP-Rr-LnS+LnS,domain#CP-HuiCHLnS-AC+AC,FALSE,should match asset LoginService created here
+package#Network,domain#CP-SHuPH-Hu+m,domain#CP-HuiPDaS-S+l,FALSE,creates link PhysicalHost-locatedIn-Space that should not be matched here
+package#Network,domain#CP-SHuPH-Hu+m,domain#CP-HumPH-m+m,FALSE,should match link Human-manages-FixedHost created here
+package#Network,domain#CP-SHuPH-Hu+m,domain#CP-HumPH-m+m,FALSE,creates link Human-manages-Host that should not be matched here
+package#Network,domain#CP-SHuPH-Hu+m-Replay1,domain#CP-HumHP-im+m,FALSE,should match link Human-manages-FixedHost created here
+package#Network,domain#CP-SHuPH-Hu+m-Replay1,domain#CP-HumH-StSt+o,FALSE,should match link Human-manages-FixedHost created here
+package#Network,domain#CP-StSPH-St+o,domain#CP-StHP+o,FALSE,should match link Stakeholder-operates-FixedHost created here
+package#Network,domain#CP-Sv-LnS+LnS,domain#CP-HuiCHLnS-AC+AC,FALSE,should match asset LoginService created here
+package#Network,domain#CP-WpHS-aF+iH,domain#CP-WpHSH-aF+WH,FALSE,creates asset WiFiLAN that should not be matched here
+package#Network,domain#CP-WpHS-aF+iH,domain#CP-WpHSH-aF+WH,FALSE,should match link WiFiLAN-isHotspot-WiFiLAN created here
+package#Network,domain#CP-WpHS-aF+iH,domain#CP-WS-H+I,FALSE,should match link WiFiLAN-isHotspot-WiFiLAN created here
+package#Network,domain#CP-WpHSH-aF+WH,domain#CP-HcWHS+c,FALSE,creates link Host-connectedTo-WiFiLAN that should not be matched here
+package#Network,domain#CP-WpHSH-aF+WH,domain#CP-HcWHS+c,FALSE,should match asset WiFiLAN created here
+package#Network,domain#CP-WpHSH-aF+WH,domain#CP-PcWH+c,FALSE,should match asset WiFiLAN created here
+package#Network,domain#CP-WS-H+I,domain#CP-HcWHS+c,FALSE,should match link WiFiLAN-implementsHS-WiFiLAN created here
+package#Network,domain#CP-WS-H+I,domain#CP-PcWH+c,FALSE,should match link WiFiLAN-implementsHS-WiFiLAN created here
+package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-ILSA+c,FALSE,should match asset Interface created here
+package#NetworkConnectivity,domain#CP-ILSA+c,domain#CP-SgHfILS+f,FALSE,should match link Interface-connectsTo-AbstractSubnet created here
+package#NetworkConnectivity,domain#CP-ILSA+c,domain#CP-SgHtILS+t,FALSE,should match link Interface-connectsTo-AbstractSubnet created here
+package#NetworkConnectivity,domain#CP-L3c-rGc-rL3+OSg,domain#CP-L3c-rGrL3+DSg,FALSE,creates asset DeNATSegment that should not be matched here
+package#NetworkConnectivity,domain#CP-L3c-rGc-rL3+OSg,domain#CP-L3c-rGrL3+DSg,FALSE,should match asset OpenSegment created here
+package#NetworkConnectivity,domain#CP-L3c-rGrL3+DSg,domain#CP-L3rGc-rL3+NSg,FALSE,creates asset NATSegment that should not be matched here
+package#NetworkConnectivity,domain#CP-L3c-rGrL3+DSg,domain#CP-L3rGc-rL3+NSg,FALSE,should match asset DeNATSegment created here
+package#NetworkConnectivity,domain#CP-L3rGc-rL3+NSg,domain#CP-L3rGrL3+OSg,FALSE,creates asset OpenSegment that should not be matched here
+package#NetworkConnectivity,domain#CP-L3rGc-rL3+NSg,domain#CP-L3rGrL3+OSg,FALSE,should match asset NATSegment created here
+package#NetworkConnectivity,domain#CP-L3rGrL3+OSg,domain#CP-OPLS1+NP,FALSE,should match asset OpenSegment created here
+package#NetworkConnectivity,domain#CP-L3rGrL3+OSg,domain#CP-OPPS1+PP,FALSE,should match asset OpenSegment created here
+package#NetworkConnectivity,domain#CP-L3rGrL3+OSg,domain#CP-SgHfILS+f,FALSE,should match asset OpenSegment created here
+package#NetworkConnectivity,domain#CP-L3rGrL3+OSg,domain#CP-SgHtILS+t,FALSE,should match asset OpenSegment created here
+package#NetworkConnectivity,domain#CP-LS-iH+NPE,domain#CP-OPLS1+NP,FALSE,should match asset NPE created here
+package#NetworkConnectivity,domain#CP-LS-iH+NPE,domain#CP-OPLS1+NP,FALSE,should match asset NetworkPath created here
+package#NetworkConnectivity,domain#CP-NP2LSg+t,domain#CP-LPLS2NSg2+b,FALSE,should match link LogicalPath-traverses-LogicalSegment created here
+package#NetworkConnectivity,domain#CP-NP3+x,domain#CP-NP2LS+v,FALSE,should match link LogicalPath-extends-LogicalPath created here
+package#NetworkConnectivity,domain#CP-NP3+x,domain#CP-NP2LSg+t,FALSE,should match link LogicalPath-extends-LogicalPath created here
+package#NetworkConnectivity,domain#CP-OPLS1+NP,domain#CP-OPLS2+NP,FALSE,should match link NPE-pVia-LogicalSubnet created here
+package#NetworkConnectivity,domain#CP-OPLS1+NP,domain#CP-OPLS2+NP,FALSE,should match asset NetworkPath created here
+package#NetworkConnectivity,domain#CP-OPLS1+NP,domain#CP-OPLS2+NP,FALSE,creates asset NetworkPath that should not be matched here
+package#NetworkConnectivity,domain#CP-OPLS2+NP,domain#CP-LPsLS+v,FALSE,should match asset NetworkPath created here
+package#NetworkConnectivity,domain#CP-OPLS2+NP,domain#CP-NP3+x,FALSE,should match asset NetworkPath created here
+package#NetworkConnectivity,domain#CP-OPPS1+PP,domain#CP-OPPS2+PP,FALSE,should match link PPE-pVia-PhysicalSubnet created here
+package#NetworkConnectivity,domain#CP-OPPS1+PP,domain#CP-OPPS2+PP,FALSE,creates asset PhysicalPath that should not be matched here
+package#NetworkConnectivity,domain#CP-OPPS1+PP,domain#CP-OPPS2+PP,FALSE,should match asset PhysicalPath created here
+package#NetworkConnectivity,domain#CP-OPPS2+PP,domain#CP-LPsLS+v,FALSE,should match asset PhysicalPath created here
+package#NetworkConnectivity,domain#CP-OPPS2+PP,domain#CP-NP3+x,FALSE,should match asset PhysicalPath created here
+package#NetworkConnectivity,domain#CP-PS-iH+PPE,domain#CP-OPPS1+PP,FALSE,should match asset PPE created here
+package#NetworkConnectivity,domain#CP-PS-iH+PPE,domain#CP-OPPS1+PP,FALSE,should match asset PhysicalPath created here
+package#Physical,domain#CP-PPS-E+W,domain#CP-HuaSaE+cA,FALSE,should match asset World created here
+package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HuiPDaS-S+l,FALSE,creates link PhysicalHost-locatedIn-Space that should not be matched here
+package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HurH-StSt+o,FALSE,should match link Thing-relatesTo-Human created here
+package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HurSesD-Rel+Rel,FALSE,should match link Thing-relatesTo-Human created here
+package#Privacy,domain#CP-HurH-StSt+o,domain#CP-HuwStrH-St+o,FALSE,creates link Stakeholder-operates-Host that should not be matched here
+package#Privacy,domain#CP-HurH-StSt+o,domain#CP-HuwStrH-St+o,FALSE,should match link Human-operates-Host created here
+package#Privacy,domain#CP-HurSesD-Rel+Rel,domain#CP-HurThcD-Rel+Rel,FALSE,creates link Data-relatesTo-Human that should not be matched here
+package#Privacy,domain#CP-HurSesD-Rel+Rel,domain#CP-HurThcD-Rel+Rel,FALSE,should match link Data-relatesTo-Human created here
+package#Privacy,domain#CP-HurThcD-Rel+Rel,domain#CP-DHuDC+r,FALSE,should match link Data-relatesTo-Human created here
+package#Privacy,domain#CP-HurThcD-Rel+Rel,domain#CP-DHuDF+r,FALSE,should match link Data-relatesTo-Human created here
+package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-HuiThaS-S+r,FALSE,creates link Thing-relatesTo-Human that should not be matched here
+package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,FALSE,should match link Human-manages-Thing created here
+package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,FALSE,creates link Human-manages-Thing that should not be matched here
+package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,FALSE,creates link Stakeholder-operates-FixedHost that should not be matched here
+package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,FALSE,should match link Stakeholder-operates-Host created here
+package#ProcessComms,domain#CP-CaS-SP+CC,domain#CP-CSDS+fV,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CaS-SP+CC,domain#CP-CSL0H+SC,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CaS-SP+CC,domain#CP-CSL3H+SC,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CaS-SP+CC,domain#CP-CzS-CC+AC,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CaS-SP+CC,domain#CP-SCDS+fV,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CCCfS-aFC+aI,FALSE,should match link PContext-accessFromClient-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CCCftS+aFC-aTS+aI,FALSE,should match link PContext-accessFromClient-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-DFfCCCfS+ff,FALSE,should match link PContext-accessFromClient-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-DFtCCCfS+ft,FALSE,should match link PContext-accessFromClient-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-H-sDFCFdS-ACau+DS,FALSE,should match link PContext-accessFromClient-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-DFfCCCfS+ff-Replay,FALSE,should match link PContext-accessFromClient-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-DFtCCCfS+ft-Replay,FALSE,should match link PContext-accessFromClient-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfS+aFC-aI+aU,domain#CP-H-sDFCFdS-ACau+DS,FALSE,should match link ProcessContext-accessUninterrupted-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfS-aFC+aI,domain#CP-CCCfS+aFC-aI+aU,FALSE,should match link ProcessContext-accessInterrupted-AuthChannel created here
+package#ProcessComms,domain#CP-CCCfS-aFC+aI,domain#CP-H-sDFSACaiFS+DS,FALSE,should match link ProcessContext-accessInterrupted-AuthChannel created here
+package#ProcessComms,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCfS+aFC-aI+aU,FALSE,should match link ProcessContext-accessInterrupted-AuthChannel created here
+package#ProcessComms,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-H-sDFSACaiFS+DS,FALSE,should match link ProcessContext-accessInterrupted-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-DFfCCCfS+ff,FALSE,should match link DataFlow-flowsViaCS-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-DFfCCCfS+ff-Replay,FALSE,should match link DataFlow-flowsViaCS-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-DFfCCCtS+ft,FALSE,should match link DataFlow-flowsViaCS-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-H-sDFSFdC+DS,FALSE,should match link DataFlow-flowsViaCS-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-DFtCCCfS+ft,FALSE,should match link DataFlow-flowsViaSC-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-DFtCCCfS+ft-Replay,FALSE,should match link DataFlow-flowsViaSC-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-DFtCCCtS+ff,FALSE,should match link DataFlow-flowsViaSC-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-DFtCCCtS+ff-Replay,FALSE,should match link DataFlow-flowsViaSC-AuthChannel created here
+package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-H-sDFSFdC+DS,FALSE,should match link DataFlow-flowsViaSC-AuthChannel created here
+package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CCCftS+aFC-aTS+aI,FALSE,should match link PContext-accessToService-AuthChannel created here
+package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-DFfCCCtS+ft,FALSE,should match link PContext-accessToService-AuthChannel created here
+package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-DFtCCCtS+ff,FALSE,should match link PContext-accessToService-AuthChannel created here
+package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuPvnS+n,FALSE,should match link Process-usesForAuth-Process created here
+package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-DCDFcV+c,FALSE,creates link Process-controls-DataCache that should not be matched here
+package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-DCDFcV+c,FALSE,creates link Process-controls-DataCache that should not be matched here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CCSCAP+ch,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CCSCCP+ch,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CCSCfI+fI,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CCSCtI+tI,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CCSCtSg+tSg,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CCSCvI+vI,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CCSCvLS+vLS,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CuvS+CC,FALSE,creates asset ClientChannel that should not be matched here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-PCaFCSCCC+aFC,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSC+ch,domain#CP-PCaTSSCCC+aTS,FALSE,should match link ClientChannel-channelVia-ServiceChannel created here
+package#ProcessComms,domain#CP-CCSCAP+ch,domain#CP-CCCCAP+ch,FALSE,should match link ClientChannel-channelVia-ClientAttackPath created here
+package#ProcessComms,domain#CP-CCSCvLS+vLS,domain#CP-CCCvCCvLS+vLS,FALSE,should match link ClientChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-CSCCAPNP4+CCAP,domain#CP-CCSCAP+ch,FALSE,should match asset ClosedClientAttackPath created here
+package#ProcessComms,domain#CP-CSCCAPNP4+CCAP,domain#CP-SSClIAP+ch,FALSE,should match asset ClosedClientAttackPath created here
+package#ProcessComms,domain#CP-CSCLS+aFC,domain#CP-PCaFCSCCC+aFC,FALSE,should match link PContext-accessFromClient-ServiceChannel created here
+package#ProcessComms,domain#CP-CSCLS+ii+PNC,domain#CP-CCCfCCS+aFC+aFC-Replay,FALSE,should match asset ProcNetContext created here
+package#ProcessComms,domain#CP-CSCLS+ii+PNC,domain#CP-DFfCCCtS+ft-Replay,FALSE,should match asset ProcNetContext created here
+package#ProcessComms,domain#CP-CSCLS+ii+PNC,domain#CP-DFtCCCtS+ff-Replay,FALSE,should match asset ProcNetContext created here
+package#ProcessComms,domain#CP-CSCLS-ii+PNC,domain#CP-CCCfCCS+aFC+aFC-Replay,FALSE,should match asset ProcNetContext created here
+package#ProcessComms,domain#CP-CSCLS-ii+PNC,domain#CP-DFfCCCtS+ft-Replay,FALSE,should match asset ProcNetContext created here
+package#ProcessComms,domain#CP-CSCLS-ii+PNC,domain#CP-DFtCCCtS+ff-Replay,FALSE,should match asset ProcNetContext created here
+package#ProcessComms,domain#CP-CScP-v+AA,domain#CP-CaS-SP+CC,FALSE,should match link Process-usesForAuth-Process created here
+package#ProcessComms,domain#CP-CScP-v+AA,domain#CP-CuvS+CC,FALSE,should match link Process-usesForAuth-Process created here
+package#ProcessComms,domain#CP-CSCscLS+CCAP,domain#CP-CCSCAP+ch,FALSE,should match asset ClosedClientAttackPath created here
+package#ProcessComms,domain#CP-CSCscLS+CCAP,domain#CP-SSClIAP+ch,FALSE,should match asset ClosedClientAttackPath created here
+package#ProcessComms,domain#CP-CSCsdLS+OCAP,domain#CP-CCSCAP+ch,FALSE,should match asset OpenClientAttackPath created here
+package#ProcessComms,domain#CP-CSCsdLS+OCAP,domain#CP-SSClIAP+ch,FALSE,should match asset OpenClientAttackPath created here
+package#ProcessComms,domain#CP-CSCvLS+CP,domain#CP-CCSCCP+ch,FALSE,should match asset ClientPath created here
+package#ProcessComms,domain#CP-CSCvLS+CP,domain#CP-SCNP2CPtI+vt,FALSE,should match asset ClientPath created here
+package#ProcessComms,domain#CP-CSDS+fV,domain#CP-DFDSCS+f,FALSE,should match link DataStep-flowsViaCS-ClientChannel created here
+package#ProcessComms,domain#CP-CSL0H+SC,domain#CP-CSL1H2+SC,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSL1H2+SC,domain#CP-CSLSH2-SC+SC,FALSE,creates asset ServiceChannel that should not be matched here
+package#ProcessComms,domain#CP-CSL1H2+SC,domain#CP-CSLSH2-SC+SC,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSL3H+SC,domain#CP-CSL1H2+SC,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSLS2H2-SC+SC,domain#CP-CCSC+ch,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSLS2H2-SC+SC,domain#CP-CSCscLS+CCAP,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSLS2H2-SC+SC,domain#CP-SCCHNPLS-lI+lI,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSLS2H2-SC+SC,domain#CP-SCLPLSg+t,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSLS2H2-SC+SC,domain#CP-SCLPvLS+v,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSLSH2-SC+SC,domain#CP-CSLS2H2-SC+SC,FALSE,should match asset ServiceChannel created here
+package#ProcessComms,domain#CP-CSLSH2-SC+SC,domain#CP-CSLS2H2-SC+SC,FALSE,creates asset ServiceChannel that should not be matched here
+package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-DFuCuS-C-P+u,FALSE,creates link Process-uses-Process that should not be matched here
+package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,FALSE,should match asset DataExchange created here
+package#ProcessComms,domain#CP-CucSaP+c,domain#CP-CuScS+N,FALSE,should match link Process-controls-Process created here
+package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HuSP+SMS,FALSE,creates  asset domain#SMSClient that should not be matched here
+package#ProcessComms,domain#CP-CucSaP+c,domain#CP-PccCuS+N,FALSE,should match link Process-controls-Process created here
+package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-PnPnS-U+U,FALSE,creates link Process-viaSharedCredentials-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,creates asset DesktopService that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-CCDFCDAScDA-c+a,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-CCDFSDAScDA-c+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-CCDFSDAScDA-c+z,FALSE,creates link Process-usesForAuthZ-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-CCDFSDAScDA-c+z,FALSE,should match link Process-viaSharedCredentials-Process created here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-DFuCuS-C-P+u,FALSE,creates link Process-uses-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-DFuCuS-C-P+u,FALSE,should match link Process-sharesCredentials-Process created here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-DFuCuS-C-P+u,FALSE,should match link Process-viaSharedCredentials-Process created here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PDOScDD-DS+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDACDACCDF-c+a,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDASDACCDF-c+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDASDACCDF-c+z,FALSE,creates link Process-usesForAuthZ-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDASDACCDF-c+z,FALSE,should match link Process-viaSharedCredentials-Process created here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDIcD+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDI-DD+z,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CCCCAP+ch,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CCCfCCS+aFC+aFC,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CCCSPSFCS+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CCCSPSFSC+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CCCtCCS+aTS+aTS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CCCvCCvLS+vLS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPuS-i+i,domain#CP-CuPiS-i+i,FALSE,creates link Process-usesIndirectly-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPuS-i+i,domain#CP-CuPiS-i+i,FALSE,should match link Process-usesIndirectly-Process created here
+package#ProcessComms,domain#CP-CuPvnS+n,domain#CP-CScP-v+AA,FALSE,creates link Process-usesForAuth-Process that should not be matched here
+package#ProcessComms,domain#CP-CuPvnS+n,domain#CP-CScP-v+AA,FALSE,should match link Process-proxyAuthN-Process created here
+package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CCCCAP+ch,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CCCfCCS+aFC+aFC,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CCCSPSFCS+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CCCSPSFSC+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CCCtCCS+aTS+aTS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CCCvCCvLS+vLS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CuScS+N,domain#CP-PnPnS-U+U,FALSE,should match link Process-proxyAuthN-Process created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-CuPuS-i+i,FALSE,should match link Process-usesViaProxy-Process created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RDvSPDtS+uR,FALSE,should match link Process-usesAsProxy-ServiceProxy created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RDvSPDtS+uR,FALSE,should match link Process-usesViaProxy-Process created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RDvSPIP+uR,FALSE,should match link Process-usesViaProxy-Process created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RDvSPIP+uR,FALSE,should match link Process-usesAsProxy-ServiceProxy created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RTvSPCP+uR,FALSE,should match link Process-usesAsProxy-ServiceProxy created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RTvSPCP+uR,FALSE,should match link Process-usesViaProxy-Process created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RTvSPRAS+uR,FALSE,should match link Process-usesAsProxy-ServiceProxy created here
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-RTvSPRAS+uR,FALSE,should match link Process-usesViaProxy-Process created here
+package#ProcessComms,domain#CP-CuvS+CC,domain#CP-CSDS+fV,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CuvS+CC,domain#CP-CzS-CC+AC,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CuvS+CC,domain#CP-SCDS+fV,FALSE,should match asset ClientChannel created here
+package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CCCCAP+ch,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CCCfCCS+aFC+aFC,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CCCSPSFCS+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CCCSPSFSC+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CCCtCCS+aTS+aTS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CCCvCCvLS+vLS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CCCCAP+ch,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CCCfCCS+aFC+aFC,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CCCSPSFCS+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CCCSPSFSC+f,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CCCtCCS+aTS+aTS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CCCvCCvLS+vLS,FALSE,should match link AuthChannel-channelVia-ClientChannel created here
+package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CAC-pPaAC-pS+cvc,FALSE,should match asset AuthChannel created here
+package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CAC-pPzAC-pS+cvc,FALSE,should match asset AuthChannel created here
+package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CAC-pScAC-pP+cc,FALSE,should match asset AuthChannel created here
+package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CuPuSCC+c,FALSE,should match asset AuthChannel created here
+package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CuPvSCC+c,FALSE,should match asset AuthChannel created here
+package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CvPuSCC+c,FALSE,should match asset AuthChannel created here
+package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CvPvSCC+c,FALSE,should match asset AuthChannel created here
+package#ProcessComms,domain#CP-CzSzP+AA,domain#CP-CuPvnS+n,FALSE,should match link Process-usesForAuth-Process created here
+package#ProcessComms,domain#CP-DFDSCS+f,domain#CP-CCCSPSFCS+f,FALSE,should match link DataFlow-flowsViaCS-ClientChannel created here
+package#ProcessComms,domain#CP-DFDSfP+fVP,domain#CP-DFuCuS-C-P+u,FALSE,should match link DataFlow-flowsViaProcess-Process created here
+package#ProcessComms,domain#CP-DFDSSC+f,domain#CP-CCCSPSFSC+f,FALSE,should match link DataFlow-flowsViaSC-ClientChannel created here
+package#ProcessComms,domain#CP-DFfCCCfS+ff,domain#CP-CSCLS+ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFfCCCfS+ff,domain#CP-CSCLS-ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFfCCCtS+ft,domain#CP-CSCLS+ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFfCCCtS+ft,domain#CP-CSCLS-ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFfCCCtS+ft,domain#CP-IDFfCCCftS-s+rI,FALSE,should match link DataFlow-flowsToIn-PContext created here
+package#ProcessComms,domain#CP-DFtCCCfS+ft,domain#CP-CSCLS+ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFtCCCfS+ft,domain#CP-CSCLS-ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFtCCCfS+ft,domain#CP-IDFfCCCftS-s+rI,FALSE,should match link DataFlow-flowsToIn-PContext created here
+package#ProcessComms,domain#CP-DFtCCCtS+ff,domain#CP-CSCLS+ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFtCCCtS+ff,domain#CP-CSCLS-ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-DFtP+fVP,domain#CP-DFuCuS-C-P+u,FALSE,should match link DataFlow-flowsViaProcess-Process created here
+package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-CuPvnS+n,FALSE,creates link Process-proxyAuthN-Process that should not be matched here
+package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-CuPvnS+n,FALSE,should match link Process-uses-Process created here
+package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-HuWES+e,FALSE,should match link WebBrowser-uses-Process created here
+package#ProcessComms,domain#CP-HRASuPcC+c,domain#CP-HRASuPcS+c,FALSE,should match link RemoteAccessService-controls-Process created here
+package#ProcessComms,domain#CP-HRASuPcC+c,domain#CP-HRASuPcS+c,FALSE,creates link Process-controls-RemoteAccessService that should not be matched here
+package#ProcessComms,domain#CP-HRASuPCcS+c,domain#CP-HRASuPScS+c,FALSE,should match link RemoteAccessService-controls-Process created here
+package#ProcessComms,domain#CP-HRASuPCcS+c,domain#CP-HRASuPScS+c,FALSE,creates link Process-controls-RemoteAccessService that should not be matched here
+package#ProcessComms,domain#CP-HRASuPcS+c,domain#CP-HRASuPCcS+c,FALSE,creates link RemoteAccessService-controls-Process that should not be matched here
+package#ProcessComms,domain#CP-HRASuPcS+c,domain#CP-HRASuPCcS+c,FALSE,should match link Process-controls-RemoteAccessService created here
+package#ProcessComms,domain#CP-HRASuPScS+c,domain#CP-CucSaP+c,FALSE,creates link Process-controls-Process that should not be matched here
+package#ProcessComms,domain#CP-HRASuPScS+c,domain#CP-CucSaP+c,FALSE,should match link Process-controls-RemoteAccessService created here
+package#ProcessComms,domain#CP-H-sDFcCaiAC+DS,domain#CP-IDFfCCCftS-s+rI,FALSE,should match link Host-stores-Data created here
+package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-CCCfCCS+aFC+aFC-Replay,FALSE,creates link PContext-accessFromClient-AuthChannel that should not be matched here
+package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,FALSE,should match asset DataCache created here
+package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,FALSE,should match asset DataCache created here
+package#ProcessComms,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFuSdC+DS,FALSE,creates link Host-stores-Data that should not be matched here
+package#ProcessComms,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFuSdC+DS,FALSE,should match link Host-stores-Data created here
+package#ProcessComms,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,FALSE,should match link Host-stores-Data created here
+package#ProcessComms,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,FALSE,creates link Host-stores-Data that should not be matched here
+package#ProcessComms,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFCFdS-ACau+DS,FALSE,creates link Host-stores-Data that should not be matched here
+package#ProcessComms,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFCFdS-ACau+DS,FALSE,should match link Host-stores-Data created here
+package#ProcessComms,domain#CP-H-sDFSFdC+DS,domain#CP-H-sDFSACaiFS+DS,FALSE,should match link Host-stores-Data created here
+package#ProcessComms,domain#CP-H-sDFSFdC+DS,domain#CP-H-sDFSACaiFS+DS,FALSE,creates link Host-stores-Data that should not be matched here
+package#ProcessComms,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFcCaiAC+DS,FALSE,creates link Host-stores-Data that should not be matched here
+package#ProcessComms,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFcCaiAC+DS,FALSE,should match link Host-stores-Data created here
+package#ProcessComms,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFrSACdDFiaS+DS,FALSE,creates link Host-stores-Data that should not be matched here
+package#ProcessComms,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFrSACdDFiaS+DS,FALSE,should match link Host-stores-Data created here
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HHuWE+D,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuE+e,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuSP+SMS,FALSE,creates asset SMSClient that should not be matched here
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+D,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+e,FALSE,should match link Human-interactsRemotelyWith-Process created here
+package#ProcessComms,domain#CP-IDFfCCCftS-s+rI,domain#CP-DFfCCCtS+ft-Replay,FALSE,creates link DataFlow-flowsToIn-PContext that should not be matched here
+package#ProcessComms,domain#CP-IDFfCCCftS-s+rI,domain#CP-DFtCCCfS+ft-Replay,FALSE,creates link DataFlow-flowsToIn-PContext that should not be matched here
+package#ProcessComms,domain#CP-IDFfCCCftS-s+rI,domain#CP-H-sDFcCr-aAC+DS,FALSE,should match link Process-runsIn-ProcessContext created here
+package#ProcessComms,domain#CP-IDFfCCCftS-s+rI,domain#CP-H-sDFcCr-aAC+DS,FALSE,creates link Host-stores-Data that should not be matched here
+package#ProcessComms,domain#CP-NP1CCAPSC+pT,domain#CP-NP2CCAPSC+pT,FALSE,should match link NetworkPath-pathTo-ServiceChannel created here
+package#ProcessComms,domain#CP-NP2CCAPSC+pT,domain#CP-CSCCAPNP4+CCAP,FALSE,should match link NetworkPath-pathTo-ServiceChannel created here
+package#ProcessComms,domain#CP-PCaFCSCCC+aFC,domain#CP-CCCfCCS+aFC+aFC,FALSE,should match link PContext-accessFromClient-ClientChannel created here
+package#ProcessComms,domain#CP-PCaTSSCCC+aTS,domain#CP-CCCtCCS+aTS+aTS,FALSE,should match link PContext-accessToService-ClientChannel created here
+package#ProcessComms,domain#CP-PccCuS+N,domain#CP-PnPnS-U+U,FALSE,should match link Process-proxyAuthN-Process created here
+package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-CuPnS-U+U,FALSE,should match link Process-viaSharedCredentials-Process created here
+package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-CuPnS-U+U,FALSE,should match link Process-sharesCredentials-Process created here
+package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-CuPnS-U+U,FALSE,creates link Process-viaSharedCredentials-Process that should not be matched here
+package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-CuPnS-U+U,FALSE,creates link Process-sharesCredentials-Process that should not be matched here
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,FALSE,should match link RemoteDesktop-usesRemotely-Process created here
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,FALSE,should match link RemoteDesktop-usesRemotely-RemoteAccessService created here
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,FALSE,should match link RemoteTerminal-usesRemotely-Process created here
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,FALSE,should match link RemoteTerminal-usesRemotely-RemoteAccessService created here
+package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,should match link RemoteDesktop-usesRemotely-DesktopService created here
+package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,should match link RemoteDesktop-usesRemotely-ServiceProxy created here
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,should match asset RemoteAccessService created here
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,creates asset LoginService that should not be matched here
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,should match asset Process created here
+package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,should match link RemoteDesktop-usesRemotely-InteractiveProcess created here
+package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,should match link RemoteDesktop-usesRemotely-ServiceProxy created here
+package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,should match link RemoteTerminal-usesRemotely-ServiceProxy created here
+package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,should match link RemoteTerminal-usesRemotely-ConsoleProcess created here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-HRASuPcC+c,FALSE,should match asset LoginService created here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,should match asset Process created here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,should match asset RemoteAccessService created here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACvSPHRASP-iPL+uR,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACvSPHRASP-iPL+uR,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACvSPHRASP-iPL+uR,FALSE,should match asset LoginService created here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RAS+noDU,FALSE,should match  asset domain#RemoteAccessService created here
+package#ProcessComms,domain#CP-RTvSPRAS+uR,domain#CP-RDvSPHP-iPL-RAS+DtS,FALSE,creates asset DesktopService that should not be matched here
+package#ProcessComms,domain#CP-SCCAP+CSAP,domain#CP-SOCAP+OSAP,FALSE,should match asset ClosedServiceAttackPath created here
+package#ProcessComms,domain#CP-SCCHNPLS-lI+lI,domain#CP-SSClIAP+ch,FALSE,should match link ServiceChannel-lastInterface-Interface created here
+package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuPvnS+n,FALSE,should match link Process-usesForAuth-Process created here
+package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-DCDFcV+c,FALSE,creates link Process-controls-DataCache that should not be matched here
+package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,FALSE,should match link Process-accessesService-Process created here
+package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-DCDFcV+c,FALSE,creates link Process-controls-DataCache that should not be matched here
+package#ProcessComms,domain#CP-SCDS+fV,domain#CP-DFDSSC+f,FALSE,should match link DataStep-flowsViaSC-ClientChannel created here
+package#ProcessComms,domain#CP-SCLPLSg+t,domain#CP-CCSCtSg+tSg,FALSE,should match link ServiceChannel-usesLogicalRoute-LogicalSegment created here
+package#ProcessComms,domain#CP-SCLPLSg+t,domain#CP-SCLSg+vf,FALSE,should match link ServiceChannel-usesLogicalRoute-LogicalSegment created here
+package#ProcessComms,domain#CP-SCLPLSg+t,domain#CP-SCLSg+vt,FALSE,should match link ServiceChannel-usesLogicalRoute-LogicalSegment created here
+package#ProcessComms,domain#CP-SCLPLSg+t,domain#CP-SCLSgfTS+lI,FALSE,should match link ServiceChannel-usesLogicalRoute-LogicalSegment created here
+package#ProcessComms,domain#CP-SCLPLSg+t,domain#CP-SCNSg+vS,FALSE,should match link ServiceChannel-usesLogicalRoute-LogicalSegment created here
+package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-CCSCvLS+vLS,FALSE,should match link ServiceChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-CSCLS+aFC,FALSE,should match link ServiceChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-CSCvLS+CP,FALSE,should match link ServiceChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-NP1CCAPSC+pT,FALSE,should match link ServiceChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-SCAPvLS+v,FALSE,should match link ServiceChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-SCvLS-vS+fS,FALSE,should match link ServiceChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-SSCLS+aTS,FALSE,should match link ServiceChannel-viaSubnet-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLSg+vf,domain#CP-CCSCfI+fI,FALSE,should match link ServiceChannel-fromInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSg+vf,domain#CP-CCSCvI+vI,FALSE,should match link ServiceChannel-viaInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSg+vf,domain#CP-CSCvLS+CP,FALSE,should match link ServiceChannel-fromInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSg+vf,domain#CP-SCvLS-vS+fS,FALSE,should match link ServiceChannel-fromInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSg+vt,domain#CP-CCSCtI+tI,FALSE,should match link ServiceChannel-toInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSg+vt,domain#CP-CCSCvI+vI,FALSE,should match link ServiceChannel-viaInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSg+vt,domain#CP-SCNP2CPtI+vt,FALSE,should match link ServiceChannel-toInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSgfTS+lI,domain#CP-SCCHNPLS-lI+lI,FALSE,should match link ServiceChannel-lastInterface-Interface created here
+package#ProcessComms,domain#CP-SCLSgvTS-vS+vS,domain#CP-CSCscLS+CCAP,FALSE,should match link ServiceChannel-sourceViaNAT-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLSgvTS-vS+vS,domain#CP-NP1CCAPSC+pT,FALSE,should match link ServiceChannel-sourceViaNAT-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCLSgvTS-vS+vS,domain#CP-SCvLS-vS+fS,FALSE,should match link ServiceChannel-sourceViaNAT-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCNSg+vS,domain#CP-SCLSgvTS-vS+vS,FALSE,should match link ServiceChannel-sourceViaNAT-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCvLS-vS+fS,domain#CP-CSCsdLS+OCAP,FALSE,should match link ServiceChannel-sourceDirect-LogicalSubnet created here
+package#ProcessComms,domain#CP-SCvLS-vS+fS,domain#CP-SCLSgfTS+lI,FALSE,should match link ServiceChannel-sourceDirect-LogicalSubnet created here
+package#ProcessComms,domain#CP-SOCAP+OSAP,domain#CP-APxSCtI+tI,FALSE,should match asset OpenServiceAttackPath created here
+package#ProcessComms,domain#CP-SOCAP+OSAP,domain#CP-CAPlISAP+lI,FALSE,should match asset OpenServiceAttackPath created here
+package#ProcessComms,domain#CP-SOCAP+OSAP,domain#CP-CAPNPSAP+pV,FALSE,should match asset OpenServiceAttackPath created here
+package#ProcessComms,domain#CP-SOCAP+OSAP,domain#CP-PCaTSSCAP+aTS,FALSE,should match asset OpenServiceAttackPath created here
+package#ProcessComms,domain#CP-SOCAP+OSAP,domain#CP-SCAPvLS+v,FALSE,should match asset OpenServiceAttackPath created here
+package#ProcessComms,domain#CP-SOCAP+OSAP,domain#CP-SCsAPtI+tI,FALSE,should match asset OpenServiceAttackPath created here
+package#ProcessComms,domain#CP-SOCAP+OSAP,domain#CP-SCxAPtI+tI,FALSE,should match asset OpenServiceAttackPath created here
+package#ProcessComms,domain#CP-SP+iP,domain#CP-RACuP-iP+uR,FALSE,should match link Process-isProxy-ServiceProxy created here
+package#ProcessComms,domain#CP-SPuS+U,domain#CP-SPvSPvS-U+U,FALSE,should match link ServiceProxy-usesAsProxy-Process created here
+package#ProcessComms,domain#CP-SPvSPvS-U+U,domain#CP-CuSPvS-U+U,FALSE,creates link Process-usesAsProxy-ServiceProxy that should not be matched here
+package#ProcessComms,domain#CP-SPvSPvS-U+U,domain#CP-CuSPvS-U+U,FALSE,creates link Process-usesViaProxy-Process that should not be matched here
+package#ProcessComms,domain#CP-SPvSPvS-U+U,domain#CP-CuSPvS-U+U,FALSE,should match link ServiceProxy-usesAsProxy-Process created here
+package#ProcessComms,domain#CP-SPvSPvS-U+U,domain#CP-CuSPvS-U+U,FALSE,should match link ServiceProxy-usesViaProxy-Process created here
+package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-SCCAP+CSAP,FALSE,creates asset ClosedServiceAttackPath that should not be matched here
+package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-CSCLS+ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-CSCLS-ii+PNC,FALSE,creates asset ProcNetContext that should not be matched here
+package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-PCaTSSCAP+aTS,FALSE,should match link PContext-accessToService-ServiceChannel created here
+package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-PCaTSSCCC+aTS,FALSE,should match link PContext-accessToService-ServiceChannel created here
+package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#CP-DCpLS+RWS,FALSE,should match asset LogicalSubnet created here
+package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#CP-HVHS+VS,FALSE,creates asset HostLAN that should not be matched here
+package#Virtualisation,domain#CP-DCVHVS-H+p,domain#CP-DCCVH-LS+LS,FALSE,creates asset VXLAN that should not be matched here
+package#Virtualisation,domain#CP-H2dPH2+VC,domain#CP-SC4HVSVC+vVC,FALSE,should match asset VirtualChannel created here
+package#Virtualisation,domain#CP-H2dPH2+VC,domain#CP-VCH2LS2PP+HC,FALSE,should match asset VirtualChannel created here
+package#Virtualisation,domain#CP-HCLPLSg+t,domain#CP-HCLSg+vf,FALSE,should match link HostChannel-usesPhysicalRoute-LogicalSegment created here
+package#Virtualisation,domain#CP-HCLPLSg+t,domain#CP-HCLSg+vt,FALSE,should match link HostChannel-usesPhysicalRoute-LogicalSegment created here
+package#Virtualisation,domain#CP-HCLPvLS+v,domain#CP-VSVCHCLS+uPS,FALSE,should match link HostChannel-viaPhysicalSubnet-LogicalSubnet created here
+package#Virtualisation,domain#CP-HL+iLS,domain#CP-FcLSS+aF,FALSE,should match link LogicalSubnet-isLocalSubnet-HostLAN created here
+package#Virtualisation,domain#CP-HL+iLS,domain#CP-FpLSS+aF,FALSE,should match link LogicalSubnet-isLocalSubnet-HostLAN created here
+package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumHP-im+m,FALSE,should match link Human-manages-VirtualHost created here
+package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumH-StSt+o,FALSE,should match link Human-manages-VirtualHost created here
+package#Virtualisation,domain#CP-HVH-a+a,domain#CP-VH2H-a+a,FALSE,creates link VirtualHost-above-Host that should not be matched here
+package#Virtualisation,domain#CP-HVH-a+a,domain#CP-VH2H-a+a,FALSE,should match link VirtualHost-above-Host created here
+package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,FALSE,should match asset AbstractSubnet created here
+package#Virtualisation,domain#CP-HVHS+VS,domain#CP-HL+iLS,FALSE,should match  asset domain#HostLAN created here
+package#Virtualisation,domain#CP-SC4HVSHC+vHC,domain#CP-CCSCHC+ch,FALSE,should match link ServiceChannel-viaHostChannel-HostChannel created here
+package#Virtualisation,domain#CP-SC4HVSVC+vVC,domain#CP-CCSCVC+ch,FALSE,should match link ServiceChannel-viaVirtualChannel-VirtualChannel created here
+package#Virtualisation,domain#CP-VCH2LS2PP+HC,domain#CP-HCLPLSg+t,FALSE,should match asset HostChannel created here
+package#Virtualisation,domain#CP-VCH2LS2PP+HC,domain#CP-HCLPvLS+v,FALSE,should match asset HostChannel created here
+package#Virtualisation,domain#CP-VCH2LS2PP+HC,domain#CP-VSVCHC+v,FALSE,should match asset HostChannel created here
+package#Virtualisation,domain#CP-VH2H-a+a,domain#CP-HD-aHD-DS+DS,FALSE,should match link Host-above-Host created here
+package#Virtualisation,domain#CP-VH2H-a+a,domain#CP-VHHsD-HsS-S+S,FALSE,should match link VirtualHost-above-Host created here
+package#Virtualisation,domain#CP-VH2H-a+a,domain#CP-VHPH+hPH,FALSE,should match link VirtualHost-above-Host created here
+package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#CP-VHPhDHS-HsS-S+u,FALSE,should match asset DataService created here
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-CuSHS+SL,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHRS-H+p,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHVS-H+p,FALSE,should match link VirtualHost-hasPhysicalHost-PhysicalHost created here
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHWS-H+p,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-PHHS+AC,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-WpHS-aF+iH,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
+package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Hc-pN-hP+AC,FALSE,creates asset AuthClient that should not be matched here
+package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-HuWES+D,FALSE,should match link WebBrowser-uses-Process created here
+package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-SPuS+U,FALSE,should match link ServiceProxy-uses-Process created here
+package#Virtualisation,domain#CP-VSVCHC+v,domain#CP-SC4HVSHC+vHC,FALSE,should match link VirtualSubnet-viaHostChannel-HostChannel created here
