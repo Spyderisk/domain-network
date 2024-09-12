@@ -3,6 +3,7 @@ domain#000000,domain#000000,domain#H.E.CScGcCS.9
 package#5G,domain#CSG-HostWithMultipleCellNIC,domain#H.E.CScGcCS.9
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#I.A.GdHRS.6
 package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#I.A.GdHRSi.6
+package#5G,domain#CSG-NetworkEAP-SIM-Client,domain#I.A.GdHVS.6
 package#Application,domain#CSG-AntiMalwareAtHost,domain#H.W.HuHWES.3
 package#Application,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#D.C.HuiPiDCHS.3
 package#Application,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#D.C.HuiRACHSPiD.3
@@ -633,7 +634,6 @@ package#Virtualisation,domain#CSG-NetworkEAP-AAA,domain#LS.L.VSPS-HP.3
 package#Virtualisation,domain#CSG-NetworkEAP-AAA,domain#LS.L.VSPSH-P.3
 package#Virtualisation,domain#CSG-NetworkEAP-PSK,domain#LS.L.VSPSH-P.3
 package#Virtualisation,domain#CSG-NetworkEAP-PSK-Client,domain#I.A.GdHVS.6
-package#Virtualisation,domain#CSG-NetworkEAP-SIM-Client,domain#I.A.GdHVS.6
 package#Virtualisation,domain#CSG-NetworkEAP-TLS,domain#LS.L.VSPSH-P.3
 package#Virtualisation,domain#CSG-NetworkEAP-TLS-Client,domain#I.A.GdHVS.6
 package#Virtualisation,domain#CSG-VirtualSubnetEncryption,domain#SC.C.VSHCmSC.3

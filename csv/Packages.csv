@@ -1,6 +1,6 @@
 URI,Label,Description,Rank,PresentedAs
 domain#000000,5G,Model of cellular networks (5G and similar).,0,5G
-package#5G,5G,Model of cellular networks (5G and similar).,60,5G
+package#5G,5G,Model of cellular networks (5G and similar).,100,5G
 package#AccessContext,AccessRights,"Model of access rights, restricted to specific contexts.",30,AccessContext
 package#Application,Application,Model of application data and processes,50,Application
 package#CloudManagement,CloudManagement,Model of cloud hosting and automated management.,100,CloudManagement
