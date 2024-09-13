@@ -31,6 +31,8 @@ package#5G,domain#MADS-LossOfUserTW-BaseStation,domain#BaseStation,domain#LossOf
 package#5G,domain#MADS-MalwareInfection-BaseStation,domain#BaseStation,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#5G,domain#MADS-Overloaded-BaseStation,domain#BaseStation,domain#Overloaded,domain#ImpactLevelNegligible
 package#5G,domain#MADS-Overloaded-RAN,domain#RAN,domain#Overloaded,domain#ImpactLevelNegligible
+package#5G,domain#MADS-Theft-BaseStation,domain#BaseStation,domain#Theft,domain#ImpactLevelNegligible
+package#5G,domain#MADS-TheftOfControl-BaseStation,domain#BaseStation,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#5G,domain#MADS-TrojanInsertion-BaseStation,domain#BaseStation,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#5G,domain#MADS-VulnerabilityDiscovered-BaseStation,domain#BaseStation,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
 package#Application,domain#MADS-InService-ApplicationProcess,domain#ApplicationProcess,domain#InService,domain#ImpactLevelNegligible
@@ -929,7 +931,6 @@ package#ProcessComms,domain#MADS-ServiceImpersonation-AuthChannel,domain#AuthCha
 package#ProcessComms,domain#MADS-ServiceImpersonation-ClientChannel,domain#ClientChannel,domain#ServiceImpersonation,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-TrojanInsertion-ServiceProxy,domain#ServiceProxy,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#ProcessComms,domain#MADS-VulnerabilityDiscovered-ServiceProxy,domain#ServiceProxy,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
-package#Theft,domain#MADS-Theft-BaseStation,domain#BaseStation,domain#Theft,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-Theft-Cluster,domain#Cluster,domain#Theft,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-Theft-Controller,domain#Controller,domain#Theft,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-Theft-CoreRouter,domain#CoreRouter,domain#Theft,domain#ImpactLevelNegligible
@@ -939,7 +940,6 @@ package#Theft,domain#MADS-Theft-Notebook,domain#Notebook,domain#Theft,domain#Imp
 package#Theft,domain#MADS-TheftOfControl-ApplicationProcess,domain#ApplicationProcess,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-AuthClient,domain#AuthClient,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-AuthService,domain#AuthService,domain#TheftOfControl,domain#ImpactLevelNegligible
-package#Theft,domain#MADS-TheftOfControl-BaseStation,domain#BaseStation,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-Cluster,domain#Cluster,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-CmdLineProcess,domain#CmdLineProcess,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-Controller,domain#Controller,domain#TheftOfControl,domain#ImpactLevelNegligible

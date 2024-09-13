@@ -1,8 +1,7 @@
 package,URI,hasSuccessor,fake,asserted,note
-domain#000000,domain#000000,domain#CP-CSLSH2-SC+SC,No,No,should match link LogicalSubnet-accessibleFrom-Space created here
-package#5G,domain#CP-CNRANBSS+aF,domain#CP-CSLSH2-SC+SC,FALSE,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+domain#000000,domain#000000,domain#CP-PCPHLSS+NC,No,No,should match link LogicalSubnet-accessibleFrom-Space created here
 package#5G,domain#CP-CNRANBSS+aF,domain#CP-PCPHLSS+NC,FALSE,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
-package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHLSS+aV,FALSE,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHH+hPH,FALSE,FALSE,creates link Host-hasPhysicalHost-PhysicalHost that should not be matched here
 package#5G,domain#CP-CNRS+aF,domain#CP-CSL3H+SC,FALSE,FALSE,should match link L3Subnet-accessibleFrom-Space created here
 package#5G,domain#CP-CNRS+aF,domain#CP-PCPHLSS+NC,FALSE,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
 package#5G,domain#CP-CNRS+aF,domain#CP-PHLSS+aV,FALSE,FALSE,should match link LogicalSubnet-accessibleFrom-Space created here
@@ -22,14 +21,7 @@ package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should 
 package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link(s) with asset LogicalSegment created here
 package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link(s) with asset LogicalSegment created here
 package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link(s) with asset LogicalSegment created here
-package#5G,domain#CP-PCN-R+R,domain#CP-H2dPH2+VC,FALSE,FALSE,should match link(s) with asset Host created here
-package#5G,domain#CP-PCN-R+R,domain#CP-PHHS+AC,FALSE,FALSE,should match link(s) with asset Host created here
 package#5G,domain#CP-PCNRWI+ct,domain#CP-HLS+I,FALSE,FALSE,should match link Host-connectedTo-Internet created here
-package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FcLSS+aF,FALSE,FALSE,should match link(s) with asset Host created here
-package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FcLSS+aF,FALSE,FALSE,creates link LogicalSubnet-accessibleFrom-Space that should not be matched here
-package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FpLSS+aF,FALSE,FALSE,creates link LogicalSubnet-accessibleFrom-Space that should not be matched here
-package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-FpLSS+aF,FALSE,FALSE,should match link(s) with asset Host created here
-package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-PHHS+AC,FALSE,FALSE,should match link(s) with asset Host created here
 package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link(s) with asset LogicalSegment created here
 package#5G,domain#CP-PRrBrPR+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link(s) with asset LogicalSegment created here
 package#5G,domain#CP-RAN+iLS,domain#CP-FcLSS+aF,FALSE,FALSE,should match link LogicalSubnet-isLocalSubnet-RAN created here
@@ -43,9 +35,9 @@ package#5G,domain#CP-URrBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should ma
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-RACuP-iP+uR,FALSE,FALSE,should match link(s) with asset RemoteAccessClient created here
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-TP+iT,FALSE,FALSE,should match asset TrivialProcess created here
 package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,FALSE,FALSE,should match link RemoteAccessClient-usesRemotely-Process created here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
 package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link(s) with asset Process created here
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
 package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link(s) with asset RemoteAccessService created here
 package#CloudManagement,domain#CP-CtHaH+a,domain#CP-HD-aHD-DS+DS,FALSE,FALSE,should match link Host-above-Host created here
 package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link Host-above-Host created here
@@ -54,7 +46,6 @@ package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-CuSHS+SL,FALSE,FALSE,shou
 package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHRS-H+p,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHVS-H+p,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHWS-H+p,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
-package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-PHHS+AC,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-WpHS-aF+iH,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#CloudManagement,domain#CP-DCCM-A+A,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link(s) with asset Process created here
 package#CloudManagement,domain#CP-DCCM-P+P,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link(s) with asset Process created here
@@ -68,8 +59,8 @@ package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,FALSE,FALSE,c
 package#CloudManagement,domain#CP-KIP-S+c,domain#CP-RDvSPHP-iPL-RAS+DtS,FALSE,FALSE,creates link(s) with asset DesktopService that should not be matched here
 package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,FALSE,FALSE,creates link Host-connectedTo-WiFiLAN that should not be matched here
 package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,creates link(s) with asset DesktopService that should not be matched here
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Process-usesForAuthZ-Ingress created here
 package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Process-usesForAuthZ-Process created here
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Process-usesForAuthZ-Ingress created here
 package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,FALSE,FALSE,creates link Host-connectedTo-WiFiLAN that should not be matched here
 package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,creates link(s) with asset DesktopService that should not be matched here
 package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Process-usesForAuth-Process created here
@@ -84,9 +75,9 @@ package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHLnS-AC+AC,FALSE,FAL
 package#CloudManagement,domain#CP-PodCnP+c,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,creates link(s) with asset DataService that should not be matched here
 package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-HD-aHD-DS+DS,FALSE,FALSE,should match link Host-stores-Data created here
 package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-HuirPeUD-a+a,FALSE,FALSE,creates link Process-amends-Data that should not be matched here
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link VirtualHost-stores-Data created here
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link Host-stores-Data created here
 package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,creates link(s) with asset DataService that should not be matched here
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link Host-stores-Data created here
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link VirtualHost-stores-Data created here
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,FALSE,FALSE,should match link(s) with asset VirtualHost created here
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,FALSE,FALSE,should match link(s) with asset Host created here
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-HuiHRAC+i,FALSE,FALSE,should match link(s) with asset Host created here
@@ -171,22 +162,22 @@ package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuE+e,FALSE,FALSE,should match
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuSP+SMS,FALSE,FALSE,creates link(s) with asset SMSClient that should not be matched here
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+D,FALSE,FALSE,should match link Human-interactsRemotelyWith-Process created here
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+e,FALSE,FALSE,should match link Human-interactsRemotelyWith-Process created here
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-RemoteAccessService created here
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-Process created here
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-RemoteAccessService created here
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,FALSE,FALSE,should match link RemoteTerminal-usesRemotely-RemoteAccessService created here
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,FALSE,FALSE,should match link RemoteTerminal-usesRemotely-Process created here
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-DesktopService created here
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-ServiceProxy created here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,creates link(s) with asset LoginService that should not be matched here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link(s) with asset Process created here
 package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link(s) with asset RemoteAccessService created here
-package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-InteractiveProcess created here
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link(s) with asset Process created here
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,creates link(s) with asset LoginService that should not be matched here
 package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-ServiceProxy created here
+package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop-usesRemotely-InteractiveProcess created here
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link RemoteTerminal-usesRemotely-ServiceProxy created here
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link RemoteTerminal-usesRemotely-ConsoleProcess created here
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link(s) with asset Process created here
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link(s) with asset RemoteAccessService created here
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RAS+noDU,FALSE,FALSE,should match asset RemoteAccessService created here
 package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process-accessesService-Process created here
@@ -201,11 +192,11 @@ package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumHP-im+m,FALSE,FALSE,sh
 package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumH-StSt+o,FALSE,FALSE,should match link Human-manages-VirtualHost created here
 package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,FALSE,FALSE,should match link(s) with asset AbstractSubnet created here
 package#Virtualisation,domain#CP-HVHS+VS,domain#CP-LS-iH+NPE,FALSE,FALSE,should match asset LogicalSubnet created here
+package#Virtualisation,domain#CP-HVHS+VS,domain#CP-PHH+hPH,FALSE,FALSE,creates link Host-hasPhysicalHost-PhysicalHost that should not be matched here
 package#Virtualisation,domain#CP-VH2H-a+a,domain#CP-HD-aHD-DS+DS,FALSE,FALSE,should match link Host-above-Host created here
 package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHRS-H+p,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHWS-H+p,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
-package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-PHHS+AC,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-WpHS-aF+iH,FALSE,FALSE,should match link Host-hasPhysicalHost-PhysicalHost created here
 package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Hc-pN-hP+AC,FALSE,FALSE,creates link(s) with asset AuthClient that should not be matched here
 package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-HuWES+D,FALSE,FALSE,should match link WebBrowser-uses-Process created here

@@ -510,6 +510,7 @@ package#Network,domain#MP-PH,PH,"Finds a solo physical host, and optionally its 
 package#Network,domain#MP-PH2,PH2,Finds a process with two distinct hosts.,domain#R-PH2,FALSE,FALSE
 package#Network,domain#MP-PH2dS,PH2dS,Finds a physical host located in two different spaces.,domain#R-PH2S,FALSE,FALSE
 package#Network,domain#MP-PHdH,PHdH,Finds a host that has a physical host (but is not the physical host).,domain#R-PHH,FALSE,FALSE
+package#Network,domain#MP-PHH,PHH,Finds a host that has a physical host which may or may not be the same host.,domain#R-PHH,FALSE,FALSE
 package#Network,domain#MP-PHHPS,PHHPS,Finds a process running on a host that can be accessed from a space.,domain#R-PHHPS,FALSE,FALSE
 package#Network,domain#MP-PHHS,PHHS,"Finds a host that directly is or indirectly has a physical host in a space, and all connected logical subnets accessible from that space.",domain#R-PHHS,FALSE,FALSE
 package#Network,domain#MP-PHLSS,PHLSS,Finds a host that has or directly is a physical host in a space and is connected to a logical subnet accessible from that space (other than an abstract hotspot).,domain#R-PHLSS,FALSE,FALSE

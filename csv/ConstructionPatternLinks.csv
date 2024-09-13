@@ -681,6 +681,7 @@ package#Network,domain#CP-PCPHLSS+NC,domain#Link-ProcNetContext-accessVia-Subnet
 package#Network,domain#CP-PcWH+c,domain#Link-Process-controls-LogicalSubnet
 package#Network,domain#CP-PH+hPH,domain#Link-Host-hasPhysicalHost-Host
 package#Network,domain#CP-PH2dS+iM,domain#Link-PhysicalHost-isMobile-PhysicalHost
+package#Network,domain#CP-PHH+hPH,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#CP-PHHPS+AC,domain#Link-HostAccess-propagatesTo-ProcAccess
 package#Network,domain#CP-PHHPS+AC,domain#Link-ProcAccess-accessFrom-Space
 package#Network,domain#CP-PHHPS+AC,domain#Link-ProcAccess-accessTo-Host
