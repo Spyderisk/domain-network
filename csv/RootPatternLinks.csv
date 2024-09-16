@@ -1639,6 +1639,7 @@ package#Network,domain#R-LnScP,domain#Link-LoginService-controls-Process
 package#Network,domain#R-LnSucP,domain#Link-LoginService-uses-Process
 package#Network,domain#R-LnSucP,domain#Link-Process-controls-LoginService
 package#Network,domain#R-LnSuP,domain#Link-LoginService-uses-Process
+package#Network,domain#R-LSaS,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#Network,domain#R-MHcIS,domain#Link-Host-connectedTo-Internet
 package#Network,domain#R-MHcIS,domain#Link-Host-locatedIn-Space
 package#Network,domain#R-MHHS,domain#Link-Host-hasPhysicalHost-MobileClient

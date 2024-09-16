@@ -1691,6 +1691,8 @@ package#Network,domain#R-LnSucP,domain#Node-Process-Process,TRUE
 package#Network,domain#R-LnSuP,domain#Node-LoginService-RemoteAccessService,TRUE
 package#Network,domain#R-LnSuP,domain#Node-Process-Process,TRUE
 package#Network,domain#R-LS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
+package#Network,domain#R-LSaS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
+package#Network,domain#R-LSaS,domain#Node-Space-Space,TRUE
 package#Network,domain#R-MHC,domain#Node-Host-MobileClient,TRUE
 package#Network,domain#R-MHcIS,domain#Node-Host-MobileClient,TRUE
 package#Network,domain#R-MHcIS,domain#Node-Internet-Internet,TRUE

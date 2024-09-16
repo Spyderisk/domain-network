@@ -668,6 +668,7 @@ package#Network,domain#CP-HuwStmP-St+o,domain#Link-Employer-operates-Process
 package#Network,domain#CP-InternetMP+ii,domain#Link-Internet-isInternet-Internet
 package#Network,domain#CP-InternetMP+W,domain#Link-Internet-accessibleFrom-World
 package#Network,domain#CP-InternetMP+W,domain#Link-World-isWorld-World
+package#Network,domain#CP-LSaS+a,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#Network,domain#CP-MHC+iMHC,domain#Link-Host-isMHC-Host
 package#Network,domain#CP-MHcIS+aF,domain#Link-Internet-accessibleFrom-Space
 package#Network,domain#CP-PC-LnS+LnS,domain#Link-Cluster-hosts-LoginService
@@ -681,7 +682,8 @@ package#Network,domain#CP-PCPHLSS+NC,domain#Link-ProcNetContext-accessVia-Subnet
 package#Network,domain#CP-PcWH+c,domain#Link-Process-controls-LogicalSubnet
 package#Network,domain#CP-PH+hPH,domain#Link-Host-hasPhysicalHost-Host
 package#Network,domain#CP-PH2dS+iM,domain#Link-PhysicalHost-isMobile-PhysicalHost
-package#Network,domain#CP-PHH+hPH,domain#Link-Host-hasPhysicalHost-PhysicalHost
+package#Network,domain#CP-PHH+hPH-1,domain#Link-Host-hasPhysicalHost-PhysicalHost
+package#Network,domain#CP-PHH+hPH-2,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#CP-PHHPS+AC,domain#Link-HostAccess-propagatesTo-ProcAccess
 package#Network,domain#CP-PHHPS+AC,domain#Link-ProcAccess-accessFrom-Space
 package#Network,domain#CP-PHHPS+AC,domain#Link-ProcAccess-accessTo-Host

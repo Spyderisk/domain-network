@@ -407,6 +407,7 @@ package#Network,domain#R-LnScP,LnScP,Finds a login service controlling access to
 package#Network,domain#R-LnSucP,LnSucP,Finds a remote access service using a process to which it forwards credentials.,FALSE,TRUE
 package#Network,domain#R-LnSuP,LnSuP,Finds a login service using a process.,FALSE,FALSE
 package#Network,domain#R-LS,LS,Finds a solo Logical Subnet.,FALSE,FALSE
+package#Network,domain#R-LSaS,LSaS,Finds a logical subnet accessible from a space.,FALSE,FALSE
 package#Network,domain#R-MHC,MHC,Finds a solo Mobile Console Host.,FALSE,FALSE
 package#Network,domain#R-MHcIS,MHcIS,Finds a Mobile Console Host in a Public Space connected to the Internet.,FALSE,FALSE
 package#Network,domain#R-MHHS,MHHS,Finds a Host whose physical host is a Mobile Client that may be in a Space.,FALSE,FALSE
