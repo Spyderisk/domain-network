@@ -77,6 +77,7 @@ package#Application,domain#MP-HuuD,HuuD,"Finds a Human interactively amending Da
 package#Application,domain#MP-Huv-iD-P,Huv-iD-P,"Finds a Human viewing but not entering Data, where the Data is not Spam, and there is no interactive process mediating the interaction.",domain#R-HuvD,FALSE,TRUE
 package#Application,domain#MP-Huv-uD,Huv-uD,"Finds a Human viewing Data, but not implied by an amends relationship.",domain#R-HuvD,FALSE,FALSE
 package#Application,domain#MP-HuWES,HuWES,Finds a Human using a web browser to access email.,domain#R-HuWES,FALSE,FALSE
+package#Application,domain#MP-PD,PD,Finds a process that (in any way) handles data.,domain#R-PD,FALSE,FALSE
 package#Application,domain#MP-PpD+noDU,PpD+noDU,"Finds a Process that is processing Data, where the Process has a self-referential noDU link indicating it should not be processing data.",domain#R-PpD+noDU,FALSE,FALSE
 package#Application,domain#MP-RDuHP-iPL-RAS,RDuHP-iPL-RAS,"Finds a Host running a Process that is not a remote access service or reverse proxy, but is used remotely by a Remote Desktop client, not mediated by a collocated remote access service, nor by a reverse proxy.",domain#R-RDuHP,FALSE,TRUE
 package#Application,domain#MP-RDuRDuS-uR,RDuRDuS-uR,Finds a remote desktop using remotely another remote desktop which is using remotely a third process that is not yet remotely used by the first.,domain#R-RDuRDuS,FALSE,FALSE

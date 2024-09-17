@@ -244,6 +244,7 @@ package#Application,domain#R-PaDH,domain#Link-Process-creates-Data
 package#Application,domain#R-PaDH,domain#Link-Process-receives-Data
 package#Application,domain#R-PcDH,domain#Link-Host-hosts-Process
 package#Application,domain#R-PcDH,domain#Link-Process-creates-Data
+package#Application,domain#R-PD,domain#Link-Process-handles-Data
 package#Application,domain#R-PpD+noDU,domain#Link-Process-noDU-Process
 package#Application,domain#R-PpD+noDU,domain#Link-Process-processes-Data
 package#Application,domain#R-PrDH,domain#Link-Host-hosts-Process

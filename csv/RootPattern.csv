@@ -78,6 +78,7 @@ package#Application,domain#R-HuWES,HuWES,Finds a Human using a web browser to ac
 package#Application,domain#R-PaD,PaD,"Finds a Process that is amending data, using separate creates and receives links in case they were added separately.",FALSE,TRUE
 package#Application,domain#R-PaDH,PaDH,Finds a Host running a Process that is amending data.,FALSE,TRUE
 package#Application,domain#R-PcDH,PcDH,Finds a Host running a Process that is creating data.,FALSE,FALSE
+package#Application,domain#R-PD,PD,Finds a process that (in any way) handles data.,FALSE,FALSE
 package#Application,domain#R-PpD+noDU,PpD+noDU,"Finds a Process that is processing Data, where the Process has a self-referential noDU link indicating it should not be processing data.",FALSE,FALSE
 package#Application,domain#R-PrDH,PrDH,Finds a Host running a Process that is receiving data stored on the same host.,FALSE,FALSE
 package#Application,domain#R-RDuHP,RDuHP,Finds a Host running a Process used remotely by a Remote Desktop client.,FALSE,FALSE

@@ -277,6 +277,8 @@ package#Application,domain#R-PaDH,domain#Node-Process-Process,TRUE
 package#Application,domain#R-PcDH,domain#Node-Data-Data,TRUE
 package#Application,domain#R-PcDH,domain#Node-Host-Host,TRUE
 package#Application,domain#R-PcDH,domain#Node-Process-Process,TRUE
+package#Application,domain#R-PD,domain#Node-Data-Data,TRUE
+package#Application,domain#R-PD,domain#Node-Process-Process,TRUE
 package#Application,domain#R-PpD+noDU,domain#Node-Data-Data,TRUE
 package#Application,domain#R-PpD+noDU,domain#Node-Process-Process,TRUE
 package#Application,domain#R-PrDH,domain#Node-Data-Data,TRUE
