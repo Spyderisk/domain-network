@@ -611,6 +611,7 @@ package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#Link-LogicalSegme
 package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#Link-DataService-serves-Data
 package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#Link-USBDevice-hosts-DataService
 package#Network,domain#CP-C+iC,domain#Link-Cluster-isCluster-Cluster
+package#Network,domain#CP-CS+u,domain#Link-Client-uses-Service
 package#Network,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#Network,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
 package#Network,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-providedBy-Host

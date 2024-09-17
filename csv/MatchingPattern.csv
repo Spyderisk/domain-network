@@ -405,6 +405,7 @@ package#Network,domain#MP-CcuS,CcuS,Finds a client accessing a service and contr
 package#Network,domain#MP-CH,CH,Finds a solo Fixed Console Host.,domain#R-CH,FALSE,FALSE
 package#Network,domain#MP-CHS,CHS,"Finds a Console Host located in a Space, with associated access contexts and optionally an interactive user and system manager.",domain#R-CHS,FALSE,FALSE
 package#Network,domain#MP-CHS-iP,CHS-iP,"Finds a Console Host located in a Space, with associated access contexts and optionally an interactive user and system manager, where the device is not a personal device.",domain#R-CHS,FALSE,FALSE
+package#Network,domain#MP-CS,CS,Finds a client using a service.,domain#R-CS,FALSE,FALSE
 package#Network,domain#MP-CuSHS,CuSHS,"Finds a Host that is not a Cluster running both a Client and a Service used by the Client, in a Space.",domain#R-CuSHS,FALSE,FALSE
 package#Network,domain#MP-DC,DC,Finds a solo Data Centre.,domain#R-DC,FALSE,FALSE
 package#Network,domain#MP-DC-C,DC-C,Finds a Data Centre with no server cluster of its own.,domain#R-DC,FALSE,FALSE
