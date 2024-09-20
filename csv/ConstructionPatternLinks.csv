@@ -81,6 +81,7 @@ package#5G,domain#CP-URrBrUR+CSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-URrBrUR+CSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-URrBrUR+CSg,domain#Link-LogicalSegment-via-Gateway
 package#Application,domain#CP-CP+hCLI,domain#Link-Process-hasCLI-Process
+package#Application,domain#CP-HD+s,domain#Link-Host-stores-Data
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Link-ConsoleHost-hosts-RemoteDesktop
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Link-Human-interactsWith-RemoteDesktop
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Link-RemoteDesktop-uses-DesktopService
@@ -641,7 +642,6 @@ package#Network,domain#CP-HCHLSS+NC,domain#Link-HostNetContext-accessVia-Logical
 package#Network,domain#CP-Hc-pN-hP+AC,domain#Link-AuthClient-usesForAuth-Process
 package#Network,domain#CP-Hc-pN-hP+AC,domain#Link-Host-hosts-AuthClient
 package#Network,domain#CP-HcWHS+c,domain#Link-Host-connectedTo-LogicalSubnet
-package#Network,domain#CP-HD+s,domain#Link-Host-stores-Data
 package#Network,domain#CP-HmNCPAC+p,domain#Link-ProcAccess-propagatesTo-ProcNetContext
 package#Network,domain#CP-HprLS+c,domain#Link-Gateway-connectedTo-LogicalSubnet
 package#Network,domain#CP-HuE+e,domain#Link-Human-hasEmail-Human

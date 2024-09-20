@@ -1,6 +1,5 @@
 package,URI,label,comment,hasRootPattern,usesLoopback,usesParallel
-domain#000000,domain#000000,HD,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,domain#R-HD,FALSE,FALSE
-,domain#MP-HD,HD,Finds Data stored at a Host.,domain#R-HD,FALSE,FALSE
+domain#000000,domain#000000,BSCNSRAN-p,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,domain#R-BSCNSRAN,FALSE,FALSE
 package#5G,domain#MP-BSCNSRAN-p,BSCNSRAN-p,"Finds a backbone network implementing a cellular network accessible from a space in which it has a radio access network not provided by any host, and there is a base station in the same space that is connected to the cellular newtork, or hosts a virtual base station that is connected to the cellular network.",domain#R-BSCNSRAN,FALSE,FALSE
 package#5G,domain#MP-CNCN,CNCN,Finds a Cellular Network implemented by a Core Network.,domain#R-CNCN,FALSE,FALSE
 package#5G,domain#MP-CNCNBSS,CNCNBSS,Finds a cellular network with a backbone network to which is connected a base station (or a virtual host running on the base station) in a space.,domain#R-CNCNBSS,FALSE,FALSE
@@ -45,6 +44,7 @@ package#5G,domain#MP-URrBc-rL3,URrBc-rL3,"Finds a host acting as a base station 
 package#5G,domain#MP-URrBrUR,URrBrUR,"Finds a host acting as a base station providing two RANs, both of which are part of the same public cellular network, and may or may not be the same RAN.",domain#R-URrBrUR,FALSE,FALSE
 package#Application,domain#MP-CP,CP,Finds a solo Control Process.,domain#R-CP,FALSE,FALSE
 package#Application,domain#MP-D,D,Finds a solo Data asset that is not unsolicited email.,domain#R-D,FALSE,FALSE
+package#Application,domain#MP-HD,HD,Finds Data stored at a Host.,domain#R-HD,FALSE,FALSE
 package#Application,domain#MP-HHuWE,HHuWE,Finds a Human using both an email client and a web browser on the same host.,domain#R-HHuWE,FALSE,FALSE
 package#Application,domain#MP-HHuWSMS,HHuWSMS,Finds a Human using both an SMS client and a web browser on the same host.,domain#R-HHuWSMS,FALSE,FALSE
 package#Application,domain#MP-HIP-Hu,HIP-Hu,Finds a host running an interactive process that doesn't have a user.,domain#R-HIP,FALSE,FALSE
