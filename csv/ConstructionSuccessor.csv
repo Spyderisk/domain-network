@@ -1,232 +1,232 @@
-package,URI,hasSuccessor,fake,asserted,note
-domain#000000,domain#000000,domain#CP-LSaS+a,No,No,should match link RAN-accessibleFrom-Space created here
-package#5G,domain#CP-CNRANBSS+aF,domain#CP-LSaS+a,FALSE,FALSE,should match link RAN-accessibleFrom-Space created here
-package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHH+hPH-2,FALSE,FALSE,creates link Host-hasPhysicalHost-PhysicalHost that should not be matched here
-package#5G,domain#CP-CNRS+aF,domain#CP-LSaS+a,FALSE,FALSE,should match link L3Subnet(LogicalSubnet)-accessibleFrom-Space created here
-package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-DCCVH-LS+LS,FALSE,FALSE,creates link VirtualHost-connectedTo-VXLAN(VirtualSubnet) that should not be matched here
-package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-HuiPDaS-S+l,FALSE,FALSE,creates link PhysicalHost(Host)-locatedIn-Space that should not be matched here
-package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-PH+hPH,FALSE,FALSE,creates link PhysicalHost(Host)-hasPhysicalHost-PhysicalHost(Host) that should not be matched here
-package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-VHPH+hPH,FALSE,FALSE,creates link VirtualHost-hasPhysicalHost-PhysicalHost that should not be matched here
-package#5G,domain#CP-CNS-RAN+RAN,domain#CP-ILSA+c,FALSE,FALSE,should match link RAN-implementsCN-CellularNetwork created here
-package#5G,domain#CP-CNS-RAN+RAN,domain#CP-LS-iH+NPE,FALSE,FALSE,should match asset RAN created here
-package#5G,domain#CP-CNS-RAN+RAN,domain#CP-PS-iH+PPE,FALSE,FALSE,should match asset RAN created here
-package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created here
-package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created here
-package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created here
-package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created here
-package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created here
-package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created here
-package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#5G,domain#CP-PCNRWI+ct,domain#CP-HLS+I,FALSE,FALSE,should match link Host(Gateway)-connectedTo-Internet created here
-package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here
-package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-PRrBrPR+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link OpenSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-RAN+iLS,domain#CP-FcLSS+aF,FALSE,FALSE,should match link RAN(LogicalSubnet)-isLocalSubnet-RAN(LogicalSubnet) created here
-package#5G,domain#CP-RAN+iLS,domain#CP-FpLSS+aF,FALSE,FALSE,should match link RAN(LogicalSubnet)-isLocalSubnet-RAN(LogicalSubnet) created here
-package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link DeNATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here
-package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here
-package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here
-package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here
-package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here
-package#5G,domain#CP-URrBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here
-package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,FALSE,FALSE,creates link Process(Client)-uses-Process(Service) that should not be matched here
-package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,FALSE,FALSE,should match link RemoteDesktop-uses-DesktopService created here
-package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-TP+iT,FALSE,FALSE,should match asset RemoteTerminal created here
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,FALSE,FALSE,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link Host-hosts-LoginService(Service) created here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link LoginService(Service)-isLnS-LoginService(Service) created here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link LoginService(Service)-uses-Process created here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link RemoteTerminal(RemoteAccessClient)-uses-LoginService(Service) created here
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
-package#CloudManagement,domain#CP-CtHaH+a,domain#CP-HD-aHD-DS+DS,FALSE,FALSE,should match link Container-above-Host created here
-package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link Container-above-Host created here
-package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHRS-H+p,FALSE,FALSE,should match link Container-hasPhysicalHost-PhysicalHost created here
-package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHVS-H+p,FALSE,FALSE,should match link Container-hasPhysicalHost-PhysicalHost created here
-package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHWS-H+p,FALSE,FALSE,should match link Container-hasPhysicalHost-PhysicalHost created here
-package#CloudManagement,domain#CP-DCCM-A+A,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link Master(CloudMaster)-hosts-APIServer created here
-package#CloudManagement,domain#CP-DCCM-P+P,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link Master(CloudMaster)-hosts-Ingress created here
-package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,FALSE,FALSE,should match link Master(CloudMaster)-connectedTo-VXLAN(VirtualSubnet) created here
-package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,FALSE,FALSE,should match link Worker(CloudWorker)-connectedTo-VXLAN(VirtualSubnet) created here
-package#CloudManagement,domain#CP-DCVHC+p,domain#CP-HVH-a+a,FALSE,FALSE,should match link VirtualHost-provisionedBy-Cluster created here
-package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHDtS-AC+AC,FALSE,FALSE,should match link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created here
-package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHLnS-AC+AC,FALSE,FALSE,should match link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created here
-package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-Hc-pN-hP+AC,FALSE,FALSE,creates link Host-hosts-AuthClient that should not be matched here
-package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,FALSE,FALSE,creates link Human-manages-VirtualHost(Host) that should not be matched here
-package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,FALSE,FALSE,should match link Human(ProcessManager)-manages-Container created here
-package#CloudManagement,domain#CP-KIP-S+c,domain#CP-CS+u,FALSE,FALSE,creates link Process(Client)-uses-Process(Service) that should not be matched here
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,FALSE,FALSE,creates link Host-connectedTo-WiFiLAN(LogicalSubnet) that should not be matched here
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,creates link Host-hosts-DesktopService(Service) that should not be matched here
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Process(Client)-usesForAuthZ-Ingress created here
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Ingress-usesForAuthZ-Process created here
-package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,FALSE,FALSE,creates link Host-connectedTo-WiFiLAN(LogicalSubnet) that should not be matched here
-package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Ingress-usesForAuth-Process created here
-package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-ScDSPDADD-cz+c,FALSE,FALSE,should match link Process(Client)-usesForAuth-Ingress created here
-package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,FALSE,FALSE,should match link Pod-connectedTo-ClusterIP created here
-package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,FALSE,FALSE,creates link VirtualHost-connectedTo-VXLAN(VirtualSubnet) that should not be matched here
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHDtS-AC+AC,FALSE,FALSE,creates link ConsoleHost-hosts-RemoteDesktop that should not be matched here
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHLnS-AC+AC,FALSE,FALSE,creates link ConsoleHost-hosts-RemoteTerminal that should not be matched here
-package#CloudManagement,domain#CP-PodCnP+c,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,creates link Host-hosts-DataService that should not be matched here
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,should match link Container-stores-Data created here
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,creates link Host-hosts-DataService that should not be matched here
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,FALSE,FALSE,creates link DataService-serves-Data that should not be matched here
-package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,FALSE,FALSE,should match link Pod-provisionedBy-Worker(CloudWorker) created here
-package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,FALSE,FALSE,should match link Worker(CloudWorker)-provisionedBy-Cluster created here
-package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-HuiHRAC+i,FALSE,FALSE,should match link Container-hosts-Process created here
-package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeOD+vD,FALSE,FALSE,should match link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD+aD,FALSE,FALSE,should match link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD-a+a,FALSE,FALSE,should match link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeOD+vD,FALSE,FALSE,should match link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD+aD,FALSE,FALSE,should match link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD-a+a,FALSE,FALSE,should match link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeOD+vD,FALSE,FALSE,should match link WebBrowser-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD+aD,FALSE,FALSE,should match link WebBrowser-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD-a+a,FALSE,FALSE,should match link WebBrowser-enablesUserOutput-SpamData(Data) created here
-package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process-usesForAuth-Process(Vault) created here
-package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process-usesForAuth-Process(Vault) created here
-package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process-usesForAuth-Process(Vault) created here
-package#IoT,domain#CP-DcTh+s,domain#CP-HD+s,FALSE,FALSE,should match link Thing-stores-Data created here
-package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeID+iD,FALSE,FALSE,should match link ControlProcess(Process)-enablesUserInput-Data created here
-package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeID+iD,FALSE,FALSE,should match link Human-interactsWith-ControlProcess(Process) created here
-package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeOD+vD,FALSE,FALSE,should match link Human-interactsWith-ControlProcess(Process) created here
-package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD+aD,FALSE,FALSE,should match link ControlProcess(Process)-enablesUserInput-Data created here
-package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD+aD,FALSE,FALSE,should match link Human-interactsWith-ControlProcess(Process) created here
-package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD-a+a,FALSE,FALSE,should match link ControlProcess(Process)-enablesUserInput-Data created here
-package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD-a+a,FALSE,FALSE,should match link Human-interactsWith-ControlProcess(Process) created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWE+D,FALSE,FALSE,should match link Human-interactsWith-Process created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWSMS+D,FALSE,FALSE,should match link Human-interactsWith-Process created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuE+e,FALSE,FALSE,should match link Human-interactsWith-Process created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuirPeID+iD,FALSE,FALSE,should match link Process-enablesUserUpdate-Data(Input) created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuirPeID+iD,FALSE,FALSE,should match link Human-interactsWith-Process created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+D,FALSE,FALSE,should match link Human-interactsWith-Process created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+e,FALSE,FALSE,should match link Human-interactsWith-Process created here
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,creates link Host-hosts-DesktopService(Service) that should not be matched here
-package#IoT,domain#CP-HumThP-m+m,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,creates link Host-hosts-DesktopService(Service) that should not be matched here
-package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-CS+u,FALSE,FALSE,should match link Process(Client)-uses-SensorProcess(SimpleProcess) created here
-package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-PD+h,FALSE,FALSE,should match link Process(Client)-receives-Data created here
-package#IoT,domain#CP-PrSe+Rel,domain#CP-CS+u,FALSE,FALSE,should match link SensorProcess(SimpleProcess)-uses-Process(Client) created here
-package#IoT,domain#CP-PrSe+Rel,domain#CP-PD+h,FALSE,FALSE,should match link Process(Client)-receives-Data created here
-package#IoT,domain#CP-PuSe+Rel,domain#CP-CS+u,FALSE,FALSE,should match link Process(Client)-uses-SensorProcess(SimpleProcess) created here
-package#IoT,domain#CP-PuSe+Rel,domain#CP-PD+h,FALSE,FALSE,should match link Process(Client)-reads-Data created here
-package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HuiPDaS-S+l,FALSE,FALSE,creates link PhysicalHost(Host)-locatedIn-Space that should not be matched here
-package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,FALSE,FALSE,creates link Human(ProcessManager)-manages-Host that should not be matched here
-package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,FALSE,FALSE,should match link Human-manages-Thing created here
-package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FcLSS+aF,FALSE,FALSE,should match link BluetoothPair-providedBy-PhysicalHost(RemoteHost) created here
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FcLSS+aF,FALSE,FALSE,should match link PhysicalHost(LocalHost)-connectedTo-BluetoothPair created here
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FcLSS+aF,FALSE,FALSE,should match link BluetoothPair-isLocalSubnet-BluetoothPair created here
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FpLSS+aF,FALSE,FALSE,should match link BluetoothPair-isLocalSubnet-BluetoothPair created here
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FpLSS+aF,FALSE,FALSE,should match link BluetoothPair-providedBy-PhysicalHost(RemoteHost) created here
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-LS-iH+NPE,FALSE,FALSE,should match asset BluetoothPair created here
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-PS-iH+PPE,FALSE,FALSE,should match asset BluetoothPair created here
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FcLSS+aF,FALSE,FALSE,should match link USBPair-isLocalSubnet-USBPair created here
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FcLSS+aF,FALSE,FALSE,should match link USBPair-providedBy-PhysicalHost(RemoteHost) created here
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FcLSS+aF,FALSE,FALSE,should match link PhysicalHost(LocalHost)-connectedTo-USBPair created here
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FpLSS+aF,FALSE,FALSE,should match link USBPair-isLocalSubnet-USBPair created here
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FpLSS+aF,FALSE,FALSE,should match link USBPair-providedBy-PhysicalHost(RemoteHost) created here
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-LS-iH+NPE,FALSE,FALSE,should match asset USBPair created here
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-PS-iH+PPE,FALSE,FALSE,should match asset USBPair created here
-package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,FALSE,FALSE,creates link Human-manages-Host that should not be matched here
-package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,FALSE,FALSE,should match link Human-manages-TrivialHost created here
-package#LocalDeviceConnectivity,domain#CP-HumTHS+cA,domain#CP-HuaSaE+cA,FALSE,FALSE,should match link Human(HostManager)-canAccess-Space created here
-package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,FALSE,FALSE,creates link PhysicalHost(Host)-locatedIn-World that should not be matched here
-package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,FALSE,FALSE,should match link TrivialHost-locatedIn-Space created here
-package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link TetheringSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here
-package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link TetheringSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here
-package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here
-package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here
-package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,FALSE,FALSE,creates link Process(Client)-uses-Process(Service) that should not be matched here
-package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,FALSE,FALSE,should match link Process-uses-Process(Service) created here
-package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here
-package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-L3c-rGc-rL3+OSg,FALSE,FALSE,should match link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here
-package#Network,domain#CP-HuiHS+cA,domain#CP-HuaSaE+cA,FALSE,FALSE,should match link Human-canAccess-Space created here
-package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HuiPDaS-S+l,FALSE,FALSE,creates link PhysicalHost(Host)-locatedIn-Space that should not be matched here
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,FALSE,FALSE,creates link Human-manages-Thing that should not be matched here
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,FALSE,FALSE,should match link Human-manages-Thing created here
-package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,FALSE,FALSE,creates link Stakeholder-operates-FixedHost(Host) that should not be matched here
-package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,FALSE,FALSE,should match link Stakeholder(Employer)-operates-Host created here
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process(Client)-usesForAuth-Process(Vault) created here
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-DCDFcV+c,FALSE,FALSE,creates link Process(Vault)-controls-DataCache that should not be matched here
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process(Service)-usesForAuthZ-Process(Vault) created here
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process(Client)-usesForAuth-Process(Vault) created here
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-DCDFcV+c,FALSE,FALSE,creates link Process(Vault)-controls-DataCache that should not be matched here
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,FALSE,FALSE,should match link DataExchange-connectsData-Process(Client) created here
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,FALSE,FALSE,should match link DataExchange-connectsData-Process(Service) created here
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HuSP+SMS,FALSE,FALSE,creates asset SMSClient(Process) that should not be matched here
-package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,creates link RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) that should not be matched here
-package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,creates link DesktopService(Service)-uses-Process that should not be matched here
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PDOScDD-DS+z,FALSE,FALSE,creates link Process-usesForAuth-Process(Vault) that should not be matched here
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDIcD+z,FALSE,FALSE,creates link Process-usesForAuth-Process(Vault) that should not be matched here
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDI-DD+z,FALSE,FALSE,creates link Process-usesForAuth-Process(Vault) that should not be matched here
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-HuWES+e,FALSE,FALSE,should match link Process(Client)-uses-Process(Service) created here
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,FALSE,FALSE,should match link DataFlow-fulfils-DataCache(DataCopy) created here
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,FALSE,FALSE,should match link DataCache(DataCopy)-fulfils-DataFlow created here
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,FALSE,FALSE,should match link DataCache(DataCopy)-fulfils-DataFlow created here
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,FALSE,FALSE,should match link DataFlow-fulfils-DataCache(DataCopy) created here
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HHuWE+D,FALSE,FALSE,should match link Human-interactsRemotelyWith-Process created here
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuE+e,FALSE,FALSE,should match link Human-interactsRemotelyWith-Process created here
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuSP+SMS,FALSE,FALSE,creates link Smartphone-hosts-SMSClient(Process) that should not be matched here
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+D,FALSE,FALSE,should match link Human-interactsRemotelyWith-Process created here
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+e,FALSE,FALSE,should match link Human-interactsRemotelyWith-Process created here
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,FALSE,FALSE,should match link RemoteAccessClient-usesRemotely-RemoteAccessService created here
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,FALSE,FALSE,should match link RemoteAccessClient-usesRemotely-Process created here
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,FALSE,FALSE,should match link RemoteAccessClient-usesRemotely-RemoteAccessService created here
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,FALSE,FALSE,should match link RemoteAccessClient-usesRemotely-Process created here
-package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created here
-package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link DesktopService(Service)-isLnS-DesktopService(Service) created here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link DesktopService(Service)-uses-Process created here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,creates link LoginService(Service)-isLnS-LoginService(Service) that should not be matched here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link Host-hosts-DesktopService(Service) created here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,creates link Host-hosts-LoginService(Service) that should not be matched here
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,creates link LoginService(Service)-uses-Process that should not be matched here
-package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-InteractiveProcess(Process) created here
-package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,FALSE,FALSE,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created here
-package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link RemoteTerminal(RemoteAccessClient)-usesRemotely-ConsoleProcess(Process) created here
-package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,FALSE,FALSE,should match link RemoteTerminal(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created here
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link Host-hosts-LoginService(Service) created here
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link LoginService(Service)-isLnS-LoginService(Service) created here
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,FALSE,FALSE,should match link LoginService(Service)-uses-Process created here
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RAS+noDU,FALSE,FALSE,should match asset LoginService(Service) created here
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process(Client)-usesForAuth-Process(Vault) created here
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-DCDFcV+c,FALSE,FALSE,creates link Process(Vault)-controls-DataCache that should not be matched here
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process(Client)-usesForAuth-Process(Vault) created here
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,FALSE,FALSE,should match link Process(Service)-usesForAuthZ-Process(Vault) created here
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-DCDFcV+c,FALSE,FALSE,creates link Process(Vault)-controls-DataCache that should not be matched here
-package#ProcessComms,domain#CP-SP+iP,domain#CP-RACuP-iP+uR,FALSE,FALSE,should match link ServiceProxy(Proxy)-isProxy-ServiceProxy(Proxy) created here
-package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#CP-DCpLS+RWS,FALSE,FALSE,should match link VXLAN(VirtualSubnet)-providedBy-DataCentre created here
-package#Virtualisation,domain#CP-HL+iLS,domain#CP-FcLSS+aF,FALSE,FALSE,should match link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created here
-package#Virtualisation,domain#CP-HL+iLS,domain#CP-FpLSS+aF,FALSE,FALSE,should match link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created here
-package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumHP-im+m,FALSE,FALSE,should match link Human-manages-VirtualHost(Host) created here
-package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumH-StSt+o,FALSE,FALSE,should match link Human-manages-VirtualHost(Host) created here
-package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,FALSE,FALSE,should match link VirtualHost(Host)-connectedTo-HostLAN created here
-package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,FALSE,FALSE,should match link HostLAN-providedBy-Host(SHost) created here
-package#Virtualisation,domain#CP-HVHS+VS,domain#CP-LS-iH+NPE,FALSE,FALSE,should match asset HostLAN created here
-package#Virtualisation,domain#CP-HVHS+VS,domain#CP-PHH+hPH-1,FALSE,FALSE,creates link Host-hasPhysicalHost-PhysicalHost that should not be matched here
-package#Virtualisation,domain#CP-VH2H-a+a,domain#CP-HD-aHD-DS+DS,FALSE,FALSE,should match link VirtualHost-above-Host(SHost) created here
-package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#CP-HD+s,FALSE,FALSE,creates link Host-stores-Data that should not be matched here
-package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHRS-H+p,FALSE,FALSE,should match link VirtualHost-hasPhysicalHost-PhysicalHost created here
-package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHWS-H+p,FALSE,FALSE,should match link VirtualHost-hasPhysicalHost-PhysicalHost created here
-package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Hc-pN-hP+AC,FALSE,FALSE,creates link Host-hosts-AuthClient that should not be matched here
-package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-PD+h,FALSE,FALSE,creates link Process-handles-Data that should not be matched here
+package,URI,hasSuccessor,note,fake,asserted
+domain#000000,domain#000000,domain#CP-LSaS+a,should match link RAN-accessibleFrom-Space created here,No,No
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-LSaS+a,should match link RAN-accessibleFrom-Space created here,FALSE,FALSE
+package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHH+hPH-2,creates link Host-hasPhysicalHost-PhysicalHost that should not be matched here,FALSE,FALSE
+package#5G,domain#CP-CNRS+aF,domain#CP-LSaS+a,should match link L3Subnet(LogicalSubnet)-accessibleFrom-Space created here,FALSE,FALSE
+package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-DCCVH-LS+LS,creates link VirtualHost-connectedTo-VXLAN(VirtualSubnet) that should not be matched here,FALSE,FALSE
+package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-HuiPDaS-S+l,creates link PhysicalHost(Host)-locatedIn-Space that should not be matched here,FALSE,FALSE
+package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-PH+hPH,creates link PhysicalHost(Host)-hasPhysicalHost-PhysicalHost(Host) that should not be matched here,FALSE,FALSE
+package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-VHPH+hPH,creates link VirtualHost-hasPhysicalHost-PhysicalHost that should not be matched here,FALSE,FALSE
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-ILSA+c,should match link RAN-implementsCN-CellularNetwork created here,FALSE,FALSE
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-LS-iH+NPE,should match asset RAN created here,FALSE,FALSE
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-PS-iH+PPE,should match asset RAN created here,FALSE,FALSE
+package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-PCNRWI+ct,domain#CP-HLS+I,should match link Host(Gateway)-connectedTo-Internet created here,FALSE,FALSE
+package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-PRrBrPR+OSg,domain#CP-L3c-rGc-rL3+OSg,should match link OpenSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-RAN+iLS,domain#CP-FcLSS+aF,should match link RAN(LogicalSubnet)-isLocalSubnet-RAN(LogicalSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-RAN+iLS,domain#CP-FpLSS+aF,should match link RAN(LogicalSubnet)-isLocalSubnet-RAN(LogicalSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-L3c-rGc-rL3+OSg,should match link DeNATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link NATSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here,FALSE,FALSE
+package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#5G,domain#CP-URrBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-via-Host(Gateway) created here,FALSE,FALSE
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,creates link Process(Client)-uses-Process(Service) that should not be matched here,FALSE,FALSE
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,should match link RemoteDesktop-uses-DesktopService created here,FALSE,FALSE
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-TP+iT,should match asset RemoteTerminal created here,FALSE,FALSE
+package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created here,FALSE,FALSE
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here,FALSE,FALSE
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here,FALSE,FALSE
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,should match link Host-hosts-LoginService(Service) created here,FALSE,FALSE
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,should match link LoginService(Service)-isLnS-LoginService(Service) created here,FALSE,FALSE
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,should match link LoginService(Service)-uses-Process created here,FALSE,FALSE
+package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,should match link RemoteTerminal(RemoteAccessClient)-uses-LoginService(Service) created here,FALSE,FALSE
+package#CloudManagement,domain#CP-CtHaH+a,domain#CP-HD-aHD-DS+DS,should match link Container-above-Host created here,FALSE,FALSE
+package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,should match link Container-above-Host created here,FALSE,FALSE
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHRS-H+p,should match link Container-hasPhysicalHost-PhysicalHost created here,FALSE,FALSE
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHVS-H+p,should match link Container-hasPhysicalHost-PhysicalHost created here,FALSE,FALSE
+package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHWS-H+p,should match link Container-hasPhysicalHost-PhysicalHost created here,FALSE,FALSE
+package#CloudManagement,domain#CP-DCCM-A+A,domain#CP-VHHsD-HsS-S+S,should match link Master(CloudMaster)-hosts-APIServer created here,FALSE,FALSE
+package#CloudManagement,domain#CP-DCCM-P+P,domain#CP-VHHsD-HsS-S+S,should match link Master(CloudMaster)-hosts-Ingress created here,FALSE,FALSE
+package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,should match link Master(CloudMaster)-connectedTo-VXLAN(VirtualSubnet) created here,FALSE,FALSE
+package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,should match link Worker(CloudWorker)-connectedTo-VXLAN(VirtualSubnet) created here,FALSE,FALSE
+package#CloudManagement,domain#CP-DCVHC+p,domain#CP-HVH-a+a,should match link VirtualHost-provisionedBy-Cluster created here,FALSE,FALSE
+package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHDtS-AC+AC,should match link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created here,FALSE,FALSE
+package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHLnS-AC+AC,should match link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created here,FALSE,FALSE
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-Hc-pN-hP+AC,creates link Host-hosts-AuthClient that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,creates link Human-manages-VirtualHost(Host) that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,should match link Human(ProcessManager)-manages-Container created here,FALSE,FALSE
+package#CloudManagement,domain#CP-KIP-S+c,domain#CP-CS+u,creates link Process(Client)-uses-Process(Service) that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,creates link Host-connectedTo-WiFiLAN(LogicalSubnet) that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-RDuHP-iPL-RAS+DtS,creates link Host-hosts-DesktopService(Service) that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,should match link Ingress-usesForAuthZ-Process created here,FALSE,FALSE
+package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-ScDSPDADD-cz+c,should match link Process(Client)-usesForAuthZ-Ingress created here,FALSE,FALSE
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,creates link Host-connectedTo-WiFiLAN(LogicalSubnet) that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-ScDSPDADD-cz+c,should match link Ingress-usesForAuth-Process created here,FALSE,FALSE
+package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-ScDSPDADD-cz+c,should match link Process(Client)-usesForAuth-Ingress created here,FALSE,FALSE
+package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,creates link VirtualHost-connectedTo-VXLAN(VirtualSubnet) that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,should match link Pod-connectedTo-ClusterIP created here,FALSE,FALSE
+package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHDtS-AC+AC,creates link ConsoleHost-hosts-RemoteDesktop that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHLnS-AC+AC,creates link ConsoleHost-hosts-RemoteTerminal that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-PodCnP+c,domain#CP-VHHsD-HsS-S+S,creates link Host-hosts-DataService that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,creates link DataService-serves-Data that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,creates link Host-hosts-DataService that should not be matched here,FALSE,FALSE
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,should match link Container-stores-Data created here,FALSE,FALSE
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,should match link Pod-provisionedBy-Worker(CloudWorker) created here,FALSE,FALSE
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-HumHVH-Hu+m,should match link Worker(CloudWorker)-provisionedBy-Cluster created here,FALSE,FALSE
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-HuiHRAC+i,should match link Container-hosts-Process created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeOD+vD,should match link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD+aD,should match link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD-a+a,should match link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeOD+vD,should match link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD+aD,should match link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD-a+a,should match link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeOD+vD,should match link WebBrowser-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD+aD,should match link WebBrowser-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD-a+a,should match link WebBrowser-enablesUserOutput-SpamData(Data) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-CuSHS+SL,should match link Process-usesForAuth-Process(Vault) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-CuSHS+SL,should match link Process-usesForAuth-Process(Vault) created here,FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-CuSHS+SL,should match link Process-usesForAuth-Process(Vault) created here,FALSE,FALSE
+package#IoT,domain#CP-DcTh+s,domain#CP-HD+s,should match link Thing-stores-Data created here,FALSE,FALSE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeID+iD,should match link ControlProcess(Process)-enablesUserInput-Data created here,FALSE,FALSE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeID+iD,should match link Human-interactsWith-ControlProcess(Process) created here,FALSE,FALSE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeOD+vD,should match link Human-interactsWith-ControlProcess(Process) created here,FALSE,FALSE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD+aD,should match link ControlProcess(Process)-enablesUserInput-Data created here,FALSE,FALSE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD+aD,should match link Human-interactsWith-ControlProcess(Process) created here,FALSE,FALSE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD-a+a,should match link ControlProcess(Process)-enablesUserInput-Data created here,FALSE,FALSE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-HuirPeUD-a+a,should match link Human-interactsWith-ControlProcess(Process) created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWE+D,should match link Human-interactsWith-Process created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWSMS+D,should match link Human-interactsWith-Process created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuE+e,should match link Human-interactsWith-Process created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuirPeID+iD,should match link Human-interactsWith-Process created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuirPeID+iD,should match link Process-enablesUserUpdate-Data(Input) created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+D,should match link Human-interactsWith-Process created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+e,should match link Human-interactsWith-Process created here,FALSE,FALSE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-RDuHP-iPL-RAS+DtS,creates link Host-hosts-DesktopService(Service) that should not be matched here,FALSE,FALSE
+package#IoT,domain#CP-HumThP-m+m,domain#CP-RDuHP-iPL-RAS+DtS,creates link Host-hosts-DesktopService(Service) that should not be matched here,FALSE,FALSE
+package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-CS+u,should match link Process(Client)-uses-SensorProcess(SimpleProcess) created here,FALSE,FALSE
+package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-PD+h,should match link Process(Client)-receives-Data created here,FALSE,FALSE
+package#IoT,domain#CP-PrSe+Rel,domain#CP-CS+u,should match link SensorProcess(SimpleProcess)-uses-Process(Client) created here,FALSE,FALSE
+package#IoT,domain#CP-PrSe+Rel,domain#CP-PD+h,should match link Process(Client)-receives-Data created here,FALSE,FALSE
+package#IoT,domain#CP-PuSe+Rel,domain#CP-CS+u,should match link Process(Client)-uses-SensorProcess(SimpleProcess) created here,FALSE,FALSE
+package#IoT,domain#CP-PuSe+Rel,domain#CP-PD+h,should match link Process(Client)-reads-Data created here,FALSE,FALSE
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HuiPDaS-S+l,creates link PhysicalHost(Host)-locatedIn-Space that should not be matched here,FALSE,FALSE
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,creates link Human(ProcessManager)-manages-Host that should not be matched here,FALSE,FALSE
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,should match link Human-manages-Thing created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-L3c-rGc-rL3+OSg,should match link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FcLSS+aF,should match link BluetoothPair-isLocalSubnet-BluetoothPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FcLSS+aF,should match link BluetoothPair-providedBy-PhysicalHost(RemoteHost) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FcLSS+aF,should match link PhysicalHost(LocalHost)-connectedTo-BluetoothPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FpLSS+aF,should match link BluetoothPair-isLocalSubnet-BluetoothPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FpLSS+aF,should match link BluetoothPair-providedBy-PhysicalHost(RemoteHost) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-LS-iH+NPE,should match asset BluetoothPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-PS-iH+PPE,should match asset BluetoothPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FcLSS+aF,should match link PhysicalHost(LocalHost)-connectedTo-USBPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FcLSS+aF,should match link USBPair-isLocalSubnet-USBPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FcLSS+aF,should match link USBPair-providedBy-PhysicalHost(RemoteHost) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FpLSS+aF,should match link USBPair-isLocalSubnet-USBPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FpLSS+aF,should match link USBPair-providedBy-PhysicalHost(RemoteHost) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-LS-iH+NPE,should match asset USBPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-PS-iH+PPE,should match asset USBPair created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,creates link Human-manages-Host that should not be matched here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,should match link Human-manages-TrivialHost created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HumTHS+cA,domain#CP-HuaSaE+cA,should match link Human(HostManager)-canAccess-Space created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,creates link PhysicalHost(Host)-locatedIn-World that should not be matched here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,should match link TrivialHost-locatedIn-Space created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link TetheringSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,should match link TetheringSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-L3c-rGc-rL3+OSg,should match link ClosedSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,creates link Process(Client)-uses-Process(Service) that should not be matched here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,should match link Process-uses-Process(Service) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-L3c-rGc-rL3+OSg,should match link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-L3c-rGc-rL3+OSg,should match link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created here,FALSE,FALSE
+package#Network,domain#CP-HuiHS+cA,domain#CP-HuaSaE+cA,should match link Human-canAccess-Space created here,FALSE,FALSE
+package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HuiPDaS-S+l,creates link PhysicalHost(Host)-locatedIn-Space that should not be matched here,FALSE,FALSE
+package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,creates link Human-manages-Thing that should not be matched here,FALSE,FALSE
+package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,should match link Human-manages-Thing created here,FALSE,FALSE
+package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,creates link Stakeholder-operates-FixedHost(Host) that should not be matched here,FALSE,FALSE
+package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,should match link Stakeholder(Employer)-operates-Host created here,FALSE,FALSE
+package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuSHS+SL,should match link Process(Client)-usesForAuth-Process(Vault) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-DCDFcV+c,creates link Process(Vault)-controls-DataCache that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,should match link Process(Client)-usesForAuth-Process(Vault) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,should match link Process(Service)-usesForAuthZ-Process(Vault) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-DCDFcV+c,creates link Process(Vault)-controls-DataCache that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,should match link DataExchange-connectsData-Process(Client) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,should match link DataExchange-connectsData-Process(Service) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HuSP+SMS,creates asset SMSClient(Process) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,creates link DesktopService(Service)-uses-Process that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,creates link RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PDOScDD-DS+z,creates link Process-usesForAuth-Process(Vault) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDIcD+z,creates link Process-usesForAuth-Process(Vault) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDI-DD+z,creates link Process-usesForAuth-Process(Vault) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-HuWES+e,should match link Process(Client)-uses-Process(Service) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,should match link DataCache(DataCopy)-fulfils-DataFlow created here,FALSE,FALSE
+package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,should match link DataFlow-fulfils-DataCache(DataCopy) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,should match link DataCache(DataCopy)-fulfils-DataFlow created here,FALSE,FALSE
+package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,should match link DataFlow-fulfils-DataCache(DataCopy) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HHuWE+D,should match link Human-interactsRemotelyWith-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuE+e,should match link Human-interactsRemotelyWith-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuSP+SMS,creates link Smartphone-hosts-SMSClient(Process) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+D,should match link Human-interactsRemotelyWith-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+e,should match link Human-interactsRemotelyWith-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,should match link RemoteAccessClient-usesRemotely-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,should match link RemoteAccessClient-usesRemotely-RemoteAccessService created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,should match link RemoteAccessClient-usesRemotely-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,should match link RemoteAccessClient-usesRemotely-RemoteAccessService created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,creates link Host-hosts-LoginService(Service) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,creates link LoginService(Service)-isLnS-LoginService(Service) that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,creates link LoginService(Service)-uses-Process that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,should match link DesktopService(Service)-isLnS-DesktopService(Service) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,should match link DesktopService(Service)-uses-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,should match link Host-hosts-DesktopService(Service) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-InteractiveProcess(Process) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,should match link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,should match link RemoteTerminal(RemoteAccessClient)-usesRemotely-ConsoleProcess(Process) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,should match link RemoteTerminal(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,creates link RemoteAccessClient-usesRemotely-Process that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,creates link RemoteAccessClient-usesRemotely-RemoteAccessService that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,should match link Host-hosts-LoginService(Service) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,should match link LoginService(Service)-isLnS-LoginService(Service) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,should match link LoginService(Service)-uses-Process created here,FALSE,FALSE
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RAS+noDU,should match asset LoginService(Service) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuSHS+SL,should match link Process(Client)-usesForAuth-Process(Vault) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-DCDFcV+c,creates link Process(Vault)-controls-DataCache that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,should match link Process(Client)-usesForAuth-Process(Vault) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,should match link Process(Service)-usesForAuthZ-Process(Vault) created here,FALSE,FALSE
+package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-DCDFcV+c,creates link Process(Vault)-controls-DataCache that should not be matched here,FALSE,FALSE
+package#ProcessComms,domain#CP-SP+iP,domain#CP-RACuP-iP+uR,should match link ServiceProxy(Proxy)-isProxy-ServiceProxy(Proxy) created here,FALSE,FALSE
+package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#CP-DCpLS+RWS,should match link VXLAN(VirtualSubnet)-providedBy-DataCentre created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HL+iLS,domain#CP-FcLSS+aF,should match link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HL+iLS,domain#CP-FpLSS+aF,should match link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumHP-im+m,should match link Human-manages-VirtualHost(Host) created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumH-StSt+o,should match link Human-manages-VirtualHost(Host) created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,should match link HostLAN-providedBy-Host(SHost) created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,should match link VirtualHost(Host)-connectedTo-HostLAN created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HVHS+VS,domain#CP-LS-iH+NPE,should match asset HostLAN created here,FALSE,FALSE
+package#Virtualisation,domain#CP-HVHS+VS,domain#CP-PHH+hPH-1,creates link Host-hasPhysicalHost-PhysicalHost that should not be matched here,FALSE,FALSE
+package#Virtualisation,domain#CP-VH2H-a+a,domain#CP-HD-aHD-DS+DS,should match link VirtualHost-above-Host(SHost) created here,FALSE,FALSE
+package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#CP-HD+s,creates link Host-stores-Data that should not be matched here,FALSE,FALSE
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHRS-H+p,should match link VirtualHost-hasPhysicalHost-PhysicalHost created here,FALSE,FALSE
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHWS-H+p,should match link VirtualHost-hasPhysicalHost-PhysicalHost created here,FALSE,FALSE
+package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Hc-pN-hP+AC,creates link Host-hosts-AuthClient that should not be matched here,FALSE,FALSE
+package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-PD+h,creates link Process-handles-Data that should not be matched here,FALSE,FALSE
