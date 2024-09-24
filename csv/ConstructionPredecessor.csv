@@ -1,4 +1,4 @@
-package,URI,hasPredecessor,note,fake,asserted
+package,URI,hasPredecessor,notes,fake,asserted
 domain#000000,domain#000000,domain#CP-CNSBSRAN-p+p,creates link RAN-providedBy-Host(Gateway) that should match RAN-providedBy-Host,No,No
 package#5G,domain#CP-BSCNSRAN-p+p,domain#CP-CNSBSRAN-p+p,creates link RAN-providedBy-Host(Gateway) that should match RAN-providedBy-Host,FALSE,FALSE
 package#5G,domain#CP-BSCNSRAN-p+p,domain#CP-CNSBSRAN-p+p,uses link Host(Gateway)-connectedTo-L3Subnet(CoreNetwork) that should not match the created Host(Gateway)-connectedTo-L3Subnet(CoreNetwork),FALSE,FALSE

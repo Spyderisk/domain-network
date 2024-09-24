@@ -1,4 +1,4 @@
-package,URI,hasSuccessor,note,fake,asserted
+package,URI,hasSuccessor,notes,fake,asserted
 domain#000000,domain#000000,domain#CP-LSaS+a,should match link RAN-accessibleFrom-Space created here,No,No
 package#5G,domain#CP-CNRANBSS+aF,domain#CP-LSaS+a,should match link RAN-accessibleFrom-Space created here,FALSE,FALSE
 package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHH+hPH-2,creates link Host-hasPhysicalHost-PhysicalHost that should not be matched here,FALSE,FALSE
