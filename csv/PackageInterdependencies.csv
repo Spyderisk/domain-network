@@ -13,7 +13,6 @@ package#Legal,package#Privacy
 package#LocalDeviceConnectivity,package#NetworkConnectivity
 package#LocalDeviceConnectivity,package#ProcessComms
 package#Network,package#AccessContext
-package#Network,package#Core
 package#NetworkConnectivity,package#Network
 package#Physical,package#Users
 package#Privacy,package#DataStructure
@@ -21,6 +20,7 @@ package#Privacy,package#IoT
 package#ProcessComms,package#DataLifecycle
 package#ProcessComms,package#NetworkConnectivity
 package#Theft,package#ProcessComms
+package#Users,package#Core
 package#Virtualisation,package#NetworkConnectivity
 package#Virtualisation,package#ProcessComms
 package#VulnerabilityCVSS,package#LocalDeviceConnectivity

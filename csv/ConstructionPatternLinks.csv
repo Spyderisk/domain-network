@@ -642,6 +642,7 @@ package#Network,domain#CP-HCHLSS+NC,domain#Link-HostNetContext-accessVia-Logical
 package#Network,domain#CP-Hc-pN-hP+AC,domain#Link-AuthClient-usesForAuth-Process
 package#Network,domain#CP-Hc-pN-hP+AC,domain#Link-Host-hosts-AuthClient
 package#Network,domain#CP-HcWHS+c,domain#Link-Host-connectedTo-LogicalSubnet
+package#Network,domain#CP-HLS+cT,domain#Link-Host-connectedTo-LogicalSubnet
 package#Network,domain#CP-HmNCPAC+p,domain#Link-ProcAccess-propagatesTo-ProcNetContext
 package#Network,domain#CP-HprLS+c,domain#Link-Gateway-connectedTo-LogicalSubnet
 package#Network,domain#CP-HuE+e,domain#Link-Human-hasEmail-Human
