@@ -304,6 +304,7 @@ package#NetworkConnectivity,domain#I.Auth.HSRSoGS.3,domain#MS-NetworkSpoofing-In
 package#NetworkConnectivity,domain#I.Auth.HSWSoGS.3,domain#MS-NetworkSpoofing-Interface
 package#NetworkConnectivity,domain#I.Auth.HWSGSoS.3,domain#MS-NetworkSpoofing-Interface
 package#NetworkConnectivity,domain#I.DA.I.8,domain#MS-ConnectionsAllowed-Interface
+package#NetworkConnectivity,domain#I.DA.PACI.8.1,domain#MS-ConnectionsAllowed-Interface
 package#NetworkConnectivity,domain#I.IS.I.8,domain#MS-InService-Interface
 package#NetworkConnectivity,domain#I.IS.INC.1,domain#MS-InService-Interface
 package#NetworkConnectivity,domain#I.M.I.8,domain#MS-BandwidthUnmanaged-Interface
@@ -320,6 +321,7 @@ package#NetworkConnectivity,domain#Sg.A.L3SSg2.6.1,domain#MS-LossOfAvailability-
 package#NetworkConnectivity,domain#Sg.A.Sg.0,domain#MS-LossOfAvailability-LogicalSegment
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2AC-b.1,domain#MS-ConnectionsAllowed-FwdSegment
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2-b.8,domain#MS-ConnectionsAllowed-FwdSegment
+package#NetworkConnectivity,domain#Sg.DA.L3SSg2PAC.1,domain#MS-ConnectionsAllowed-FwdSegment
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#MS-InService-LogicalSegment
 package#Physical,domain#S.L.HuPSoSt.1,domain#MS-PhysicalIntrusion-Space
 package#Physical,domain#S.L.HuPSSt.1,domain#MS-PhysicalIntrusion-Space
@@ -674,6 +676,10 @@ package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#MS-LossOfExploitTW-ProcAcc
 package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#MS-LossOfExploitTW-Service
 package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#MS-LossOfExploitTW-ProcAccess
 package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#MS-LossOfExploitTW-Process
+package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#MS-LossOfExploitTW-ProcAccess
+package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#MS-LossOfExploitTW-Process
+package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#MS-LossOfExploitTW-ProcAccess
+package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#MS-LossOfExploitTW-Process
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#MS-LossOfExploitTW-ProcAccess
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#MS-LossOfExploitTW-Service
 package#VulnerabilityCVSS,domain#P.V.OSAPNaS.3,domain#MS-LossOfExploitTW-ProcAccess

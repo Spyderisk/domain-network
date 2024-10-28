@@ -481,7 +481,8 @@ package#NetworkConnectivity,domain#R-HWSGS,HWSGS,"Finds a client host connecting
 package#NetworkConnectivity,domain#R-I,I,Finds an Interface.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-ILSA,ILSA,Finds an Interface connecting to a Logical Subnet that implements an Abstract Subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-INC,INC,"Finds a solo Interface, plus the associated host, subnet, and a host network access context where the interface is connected.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-IoH,IoH,"Finds an open network path from the Internet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-IoH,IoH,"Finds an open network path from the Internet to a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-IoHIP,IoHIP,"Finds an open network path from the Internet to a Host interface with a controlling Process, and the associated subnet and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3cGcL3,L3cGcL3,"Finds a Host connected from an IP subnet to an IP subnet, both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3cGrL3,L3cGrL3,"Finds a Host connected from an IP subnet to an IP subnet that it provides, both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3rGcL3,L3rGcL3,"Finds a Host connected from an IP subnet to an IP subnet, the former being provided by the Host, and both in the same space.",FALSE,FALSE
@@ -489,10 +490,13 @@ package#NetworkConnectivity,domain#R-L3rGrL3,L3rGrL3,"Finds a Host providing two
 package#NetworkConnectivity,domain#R-L3SSg2,L3SSg2,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3SSg2+b,L3SSg2+b,"Finds a gateway from one IP subnet to a second IP subnet, along with the segment asset representing the route via the gateway, where this route is blocked by default.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3SSg2AC,L3SSg2AC,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2PAC,L3SSg2PAC,"Finds a gateway from one IP subnet to an IP subnet, along with the network path segment asset representing the route via the gateway, where the path segment has a controlling process, plus an associated process access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2PAC+b,L3SSg2PAC+b,"Finds a gateway from one IP subnet to an IP subnet, along with the network path segment asset representing the route via the gateway, where the path segment is blocked, and has a controlling process, plus an associated process access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LoH,LoH,"Detects a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,FALSE,FALSE
-package#NetworkConnectivity,domain#R-NoH,NoH,"Finds an open network path from a remote attacker subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-NoH,NoH,"Finds an open network path from a remote attacker subnet to a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-NoHIP,NoHIP,"Finds an open network path from a remote attacker subnet to a Host interface with a controlling Process, and the associated subnet and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP,NP,Finds a network path (which may or may not be physical).,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,FALSE,FALSE
@@ -502,6 +506,7 @@ package#NetworkConnectivity,domain#R-OPLS1,OPLS1,"Finds a zero-length Logical Pa
 package#NetworkConnectivity,domain#R-OPLS2,OPLS2,"Finds a Network Path and terminator to a Logical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
 package#NetworkConnectivity,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-PACI,PACI,"Finds an Interface controlled by a Process, plus an associated access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RIoH,RIoH,"Finds an open network path to the Internet from a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RNoH,RNoH,"Finds an open network path to a remote attacker subnet from a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RoH,RoH,"Finds an open network path from a remote attacker L3 subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE

@@ -670,6 +670,8 @@ package#VulnerabilityCVSS,domain#CSG-PatchingAtHost,domain#H.V.NoH.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost,domain#H.W.HIoH.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost,domain#H.W.HLoH.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost,domain#H.W.HRoH.3
+package#VulnerabilityCVSS,domain#CSG-PatchingAtHost,domain#P.V.IoHIP.3
+package#VulnerabilityCVSS,domain#CSG-PatchingAtHost,domain#P.V.NoHIP.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#H.V.CHS-iP.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#H.V.HAC.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#H.V.HL1HS.2
@@ -683,6 +685,8 @@ package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#H.V.No
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#H.W.HIoH.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#H.W.HLoH.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#H.W.HRoH.3
+package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#P.V.IoHIP.3
+package#VulnerabilityCVSS,domain#CSG-PatchingAtHost-Implementation,domain#P.V.NoHIP.3
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.V.HACPmAC.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.W.HPDFDI.2
 package#VulnerabilityCVSS,domain#CSG-PatchingAtProcess,domain#P.W.HPsACDSrDI.2

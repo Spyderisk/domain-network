@@ -177,6 +177,8 @@ package#NetworkConnectivity,domain#blockedPath,domain#LogicalPath
 package#NetworkConnectivity,domain#blockedSegment,domain#LogicalSegment
 package#NetworkConnectivity,domain#connectsFrom,domain#Host
 package#NetworkConnectivity,domain#connectsTo,domain#LogicalSubnet
+package#NetworkConnectivity,domain#controls,domain#Interface
+package#NetworkConnectivity,domain#controls,domain#LogicalSegment
 package#NetworkConnectivity,domain#end,domain#LogicalSubnet
 package#NetworkConnectivity,domain#extends,domain#LogicalPath
 package#NetworkConnectivity,domain#from,domain#Interface

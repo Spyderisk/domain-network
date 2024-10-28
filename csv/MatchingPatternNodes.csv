@@ -532,6 +532,8 @@ package#NetworkConnectivity,domain#MP-HWSGSoS,domain#Node-Process-Process,FALSE,
 package#NetworkConnectivity,domain#MP-I,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-IoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-IoHIP,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-IoHIP,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-L3c-rGc-rL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-L3c-rGrL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-L3rGc-rL3,domain#Node-RetSegment-LogicalSegment,FALSE,TRUE,FALSE
@@ -543,9 +545,13 @@ package#NetworkConnectivity,domain#MP-L3SSg2AC-b,domain#Node-HostManager-Human,F
 package#NetworkConnectivity,domain#MP-L3SSg2-b,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-LPLS2NSg2,domain#Node-Process-Process,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
+package#NetworkConnectivity,domain#MP-NoHIP,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-NoHIP,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
+package#NetworkConnectivity,domain#MP-NoHIP,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Node-LogicalSegment-LogicalSegment,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NPmLSmSg,domain#Node-LogicalSubnet-LogicalSubnet,TRUE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-OPLS2,domain#Node-Host-Host,TRUE,FALSE,FALSE

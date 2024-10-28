@@ -222,6 +222,8 @@ package#NetworkConnectivity,domain#I.Auth.HSRSoGS.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#I.Auth.HSWSoGS.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#I.Auth.HWSGSoS.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#I.DA.I.8,domain#TWAS-OutOfService-Interface
+package#NetworkConnectivity,domain#I.DA.PACI.8.1,domain#TWAS-OutOfService-LogicalSubnet
+package#NetworkConnectivity,domain#I.DA.PACI.8.1,domain#TWAS-UserTW-AccessContext
 package#NetworkConnectivity,domain#I.IS.I.8,domain#TWAS-OutOfService-Host
 package#NetworkConnectivity,domain#I.IS.I.8,domain#TWAS-OutOfService-LogicalSubnet
 package#NetworkConnectivity,domain#I.IS.INC.1,domain#TWAS-Control-HostAccess
@@ -253,6 +255,10 @@ package#NetworkConnectivity,domain#Sg.DA.L3SSg2AC-b.1,domain#TWAS-OutOfService-F
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2AC-b.1,domain#TWAS-OutOfService-Gateway
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2AC-b.1,domain#TWAS-OutOfService-ToSubnet
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2-b.8,domain#TWAS-OutOfService-FwdSegment
+package#NetworkConnectivity,domain#Sg.DA.L3SSg2PAC.1,domain#TWAS-OutOfService-FromSubnet
+package#NetworkConnectivity,domain#Sg.DA.L3SSg2PAC.1,domain#TWAS-OutOfService-Gateway
+package#NetworkConnectivity,domain#Sg.DA.L3SSg2PAC.1,domain#TWAS-OutOfService-ToSubnet
+package#NetworkConnectivity,domain#Sg.DA.L3SSg2PAC.1,domain#TWAS-UserTW-AccessContext
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-InboundIF
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-OutboundIF
 package#Physical,domain#S.L.HuPSoSt.1,domain#TWAS-Benevolence-Human
@@ -681,6 +687,14 @@ package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#TWAS-NetworkUserTW-Logical
 package#VulnerabilityCVSS,domain#P.V.CSAPNaS.3,domain#TWAS-OutOfService-AttackPath
 package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#TWAS-Extrinsic-VL-TW-Process
 package#VulnerabilityCVSS,domain#P.V.HACPmAC.2,domain#TWAS-UserTW-HostAccess
+package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-ConnectionsBlocked-NetworkPath
+package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-Extrinsic-AU-TW-Process
+package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-Extrinsic-VN-TW-Process
+package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-NetworkUserTW-AttackerSubnet
+package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-ConnectionsBlocked-NetworkPath
+package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-Extrinsic-AU-TW-Process
+package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-Extrinsic-VN-TW-Process
+package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-NetworkUserTW-AttackerSubnet
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#TWAS-Extrinsic-AU-TW-Service
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#TWAS-Extrinsic-VA-TW-Service
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#TWAS-NetworkUserTW-LogicalSubnet

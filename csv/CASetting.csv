@@ -1560,7 +1560,7 @@ package#NetworkConnectivity,domain#CAS-DisableServiceAccess-Interface,domain#Int
 package#NetworkConnectivity,domain#CAS-DisableServiceAccess-NATSegment,domain#NATSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DisableServiceAccess-OpenSegment,domain#OpenSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-ClosedSegment,domain#ClosedSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-Interface,domain#Interface,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-NATSegment,domain#NATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-OpenSegment,domain#OpenSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
