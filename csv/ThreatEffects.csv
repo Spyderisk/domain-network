@@ -153,6 +153,8 @@ package#DataLifecycle,domain#P.A.HPuDSDI.0,domain#MS-LossOfAvailability-Process
 package#DataLifecycle,domain#P.A.HPuDS-VDI.6,domain#MS-LossOfAvailability-Process
 package#DataLifecycle,domain#P.A.PcPuDS-V.6,domain#MS-LossOfAvailability-Client
 package#DataLifecycle,domain#P.A.PuDFDI.0,domain#MS-LossOfAvailability-Process
+package#DataLifecycle,domain#P.L.HPcDSDI.3,domain#MS-LocalLossOfUserTW-Process
+package#DataLifecycle,domain#P.L.PcDFDI.3,domain#MS-LocalLossOfUserTW-Process
 package#DataLifecycle,domain#P.O.DA-VPpDA.6,domain#MS-Overloaded-Process
 package#DataLifecycle,domain#P.O.PpDADA-V.6,domain#MS-Overloaded-Process
 package#DataLifecycle,domain#P.T.HP-iDSDI.0,domain#MS-LossOfTimeliness-Process
@@ -512,9 +514,9 @@ package#ProcessComms,domain#SC.C.LSmSC.3,domain#MS-CommsSnoopable-ServiceChannel
 package#ProcessComms,domain#SC.C.SgACmSC.3,domain#MS-CommsSnoopable-ServiceChannel
 package#ProcessComms,domain#SC.IS.SCmSg.8.1,domain#MS-InService-ServiceChannel
 package#ProcessComms,domain#SC.IS.SCpSg.8.1,domain#MS-InService-ServiceChannel
+package#ProcessComms,domain#Sg.TA.L3SSg2.8.1,domain#MS-ServiceChannelsAllowed-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2+b.8.2,domain#MS-ServiceChannelsAllowed-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#MS-ServiceChannelsAllowed-FwdSegment
-package#ProcessComms,domain#Sg.TA.L3SSg2-b.8.1,domain#MS-ServiceChannelsAllowed-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2-b.8.2,domain#MS-ServiceChannelsAllowed-FwdSegment
 package#Theft,domain#CC.AuC.CACHLSS.2,domain#MS-ClientImpersonation-ClientChannel
 package#Theft,domain#DF.Auth.AC-iDFVFC.2.6,domain#MS-LossOfAuthenticity-Data

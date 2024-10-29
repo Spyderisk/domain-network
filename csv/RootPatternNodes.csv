@@ -702,6 +702,11 @@ package#DataLifecycle,domain#R-HDSV,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HDSV,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HDSV,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#DataLifecycle,domain#R-HDSV,domain#Node-Vault-Process,TRUE
+package#DataLifecycle,domain#R-HPcDSDI,domain#Node-DataAccess-DataInput,TRUE
+package#DataLifecycle,domain#R-HPcDSDI,domain#Node-DataCopy-DataCopy,TRUE
+package#DataLifecycle,domain#R-HPcDSDI,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-HPcDSDI,domain#Node-Host-Host,TRUE
+package#DataLifecycle,domain#R-HPcDSDI,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-HPDAcDS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-HPDAcDS,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-HPDAcDS,domain#Node-Data-Data,TRUE
@@ -972,6 +977,12 @@ package#DataLifecycle,domain#R-PaDSH,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-PaDSH,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PaDSH,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-PaDSH,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-PcDFDI,domain#Node-DataAccess-DataInput,TRUE
+package#DataLifecycle,domain#R-PcDFDI,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-PcDFDI,domain#Node-DataFlow-DataFlow,TRUE
+package#DataLifecycle,domain#R-PcDFDI,domain#Node-FlowsFrom-Process,TRUE
+package#DataLifecycle,domain#R-PcDFDI,domain#Node-FlowsTo-Process,TRUE
+package#DataLifecycle,domain#R-PcDFDI,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PcDSH,domain#Node-DataCopy-DataCopy,FALSE
 package#DataLifecycle,domain#R-PcDSH,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PcDSH,domain#Node-Host-Host,TRUE

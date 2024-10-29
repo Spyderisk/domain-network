@@ -174,6 +174,7 @@ package#Application,domain#TWAADS-Timeliness-RemoteTerminal,domain#Timeliness,do
 package#Application,domain#TWAADS-Timeliness-SensitiveData,domain#Timeliness,domain#SensitiveData,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-SMSClient,domain#Timeliness,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-SpamData,domain#Timeliness,domain#SpamData,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#TWAADS-Timeliness-SystemProcess,domain#Timeliness,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-TextEditor,domain#Timeliness,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-WebApp,domain#Timeliness,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#TWAADS-Timeliness-WebBrowser,domain#Timeliness,domain#WebBrowser,domain#TrustworthinessLevelSafe,TRUE
@@ -432,6 +433,7 @@ package#Network,domain#TWAADS-Availability-Smartphone,domain#Availability,domain
 package#Network,domain#TWAADS-Availability-Smartwatch,domain#Availability,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-SMSClient,domain#Availability,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-SocketLAN,domain#Availability,domain#SocketLAN,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-Availability-SystemProcess,domain#Availability,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-Tablet,domain#Availability,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-WiFiLAN,domain#Availability,domain#WiFiLAN,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Availability-WiredLAN,domain#Availability,domain#WiredLAN,domain#TrustworthinessLevelSafe,TRUE
@@ -471,6 +473,7 @@ package#Network,domain#TWAADS-DefaultTW-Smartphone,domain#DefaultTW,domain#Smart
 package#Network,domain#TWAADS-DefaultTW-Smartwatch,domain#DefaultTW,domain#Smartwatch,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-SMSClient,domain#DefaultTW,domain#SMSClient,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-SocketLAN,domain#DefaultTW,domain#SocketLAN,domain#TrustworthinessLevelVeryLow,TRUE
+package#Network,domain#TWAADS-DefaultTW-SystemProcess,domain#DefaultTW,domain#SystemProcess,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-Tablet,domain#DefaultTW,domain#Tablet,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-WiFiLAN,domain#DefaultTW,domain#WiFiLAN,domain#TrustworthinessLevelVeryLow,TRUE
 package#Network,domain#TWAADS-DefaultTW-WiredLAN,domain#DefaultTW,domain#WiredLAN,domain#TrustworthinessLevelVeryLow,TRUE
@@ -495,6 +498,7 @@ package#Network,domain#TWAADS-ExploitTW-Server,domain#ExploitTW,domain#Server,do
 package#Network,domain#TWAADS-ExploitTW-Smartphone,domain#ExploitTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-Smartwatch,domain#ExploitTW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-SMSClient,domain#ExploitTW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-ExploitTW-SystemProcess,domain#ExploitTW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-Tablet,domain#ExploitTW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExploitTW-Workstation,domain#ExploitTW,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-AuthClient,domain#ExtrinsicTW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
@@ -513,6 +517,7 @@ package#Network,domain#TWAADS-ExtrinsicTW-Server,domain#ExtrinsicTW,domain#Serve
 package#Network,domain#TWAADS-ExtrinsicTW-Smartphone,domain#ExtrinsicTW,domain#Smartphone,domain#TrustworthinessLevelHigh,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-Smartwatch,domain#ExtrinsicTW,domain#Smartwatch,domain#TrustworthinessLevelHigh,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-SMSClient,domain#ExtrinsicTW,domain#SMSClient,domain#TrustworthinessLevelHigh,TRUE
+package#Network,domain#TWAADS-ExtrinsicTW-SystemProcess,domain#ExtrinsicTW,domain#SystemProcess,domain#TrustworthinessLevelHigh,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-Tablet,domain#ExtrinsicTW,domain#Tablet,domain#TrustworthinessLevelHigh,TRUE
 package#Network,domain#TWAADS-ExtrinsicTW-Workstation,domain#ExtrinsicTW,domain#Workstation,domain#TrustworthinessLevelMedium,TRUE
 package#Network,domain#TWAADS-Health-AuthClient,domain#Health,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
@@ -531,6 +536,7 @@ package#Network,domain#TWAADS-Health-Server,domain#Health,domain#Server,domain#T
 package#Network,domain#TWAADS-Health-Smartphone,domain#Health,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-Smartwatch,domain#Health,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-SMSClient,domain#Health,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-Health-SystemProcess,domain#Health,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-Tablet,domain#Health,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Health-Workstation,domain#Health,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-AuthClient,domain#IntrinsicTW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
@@ -549,6 +555,7 @@ package#Network,domain#TWAADS-IntrinsicTW-Server,domain#IntrinsicTW,domain#Serve
 package#Network,domain#TWAADS-IntrinsicTW-Smartphone,domain#IntrinsicTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Smartwatch,domain#IntrinsicTW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-SMSClient,domain#IntrinsicTW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-IntrinsicTW-SystemProcess,domain#IntrinsicTW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Tablet,domain#IntrinsicTW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Workstation,domain#IntrinsicTW,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-NetworkControl-CoreNetwork,domain#NetworkControl,domain#CoreNetwork,domain#TrustworthinessLevelSafe,TRUE
@@ -581,6 +588,7 @@ package#Network,domain#TWAADS-OutOfService-Smartphone,domain#OutOfService,domain
 package#Network,domain#TWAADS-OutOfService-Smartwatch,domain#OutOfService,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-SMSClient,domain#OutOfService,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-SocketLAN,domain#OutOfService,domain#SocketLAN,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-OutOfService-SystemProcess,domain#OutOfService,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-Tablet,domain#OutOfService,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-WiFiLAN,domain#OutOfService,domain#WiFiLAN,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-OutOfService-WiredLAN,domain#OutOfService,domain#WiredLAN,domain#TrustworthinessLevelSafe,TRUE
@@ -602,6 +610,7 @@ package#Network,domain#TWAADS-Reliability-Server,domain#Reliability,domain#Serve
 package#Network,domain#TWAADS-Reliability-Smartphone,domain#Reliability,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-Smartwatch,domain#Reliability,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-SMSClient,domain#Reliability,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-Reliability-SystemProcess,domain#Reliability,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-Tablet,domain#Reliability,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Reliability-Workstation,domain#Reliability,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-ResourceTW-Cluster,domain#ResourceTW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
@@ -632,6 +641,7 @@ package#Network,domain#TWAADS-TrojanTW-Server,domain#TrojanTW,domain#Server,doma
 package#Network,domain#TWAADS-TrojanTW-Smartphone,domain#TrojanTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-Smartwatch,domain#TrojanTW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-SMSClient,domain#TrojanTW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-TrojanTW-SystemProcess,domain#TrojanTW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-Tablet,domain#TrojanTW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-TrojanTW-Workstation,domain#TrojanTW,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-Underload-DataCentre,domain#Underload,domain#DataCentre,domain#TrustworthinessLevelSafe,TRUE
@@ -655,6 +665,7 @@ package#Network,domain#TWAADS-UserTW-Server,domain#UserTW,domain#Server,domain#T
 package#Network,domain#TWAADS-UserTW-Smartphone,domain#UserTW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-Smartwatch,domain#UserTW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-SMSClient,domain#UserTW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-UserTW-SystemProcess,domain#UserTW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-Tablet,domain#UserTW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-UserTW-Workstation,domain#UserTW,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#TWAADS-Availability-ClosedSegment,domain#Availability,domain#ClosedSegment,domain#TrustworthinessLevelSafe,TRUE
@@ -800,6 +811,7 @@ package#Theft,domain#TWAADS-OwnerControl-ServiceProxy,domain#OwnerControl,domain
 package#Theft,domain#TWAADS-OwnerControl-Smartphone,domain#OwnerControl,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-Smartwatch,domain#OwnerControl,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-SMSClient,domain#OwnerControl,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#Theft,domain#TWAADS-OwnerControl-SystemProcess,domain#OwnerControl,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-Tablet,domain#OwnerControl,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-TextEditor,domain#OwnerControl,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-VCluster,domain#OwnerControl,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -932,6 +944,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-ServiceProxy,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Smartphone,domain#Extrinsic-A-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Smartwatch,domain#Extrinsic-A-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-SMSClient,domain#Extrinsic-A-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-SystemProcess,domain#Extrinsic-A-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Tablet,domain#Extrinsic-A-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-TextEditor,domain#Extrinsic-A-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-VCluster,domain#Extrinsic-A-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -979,6 +992,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-ServiceProxy,domain#Extr
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Smartphone,domain#Extrinsic-AU-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Smartwatch,domain#Extrinsic-AU-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-SMSClient,domain#Extrinsic-AU-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-SystemProcess,domain#Extrinsic-AU-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Tablet,domain#Extrinsic-AU-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-TextEditor,domain#Extrinsic-AU-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-VCluster,domain#Extrinsic-AU-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1026,6 +1040,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-ServiceProxy,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Smartphone,domain#Extrinsic-C-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Smartwatch,domain#Extrinsic-C-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-SMSClient,domain#Extrinsic-C-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-SystemProcess,domain#Extrinsic-C-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Tablet,domain#Extrinsic-C-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-TextEditor,domain#Extrinsic-C-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-VCluster,domain#Extrinsic-C-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1073,6 +1088,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-ServiceProxy,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Smartphone,domain#Extrinsic-I-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Smartwatch,domain#Extrinsic-I-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-SMSClient,domain#Extrinsic-I-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-SystemProcess,domain#Extrinsic-I-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Tablet,domain#Extrinsic-I-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-TextEditor,domain#Extrinsic-I-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-VCluster,domain#Extrinsic-I-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1120,6 +1136,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-ServiceProxy,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Smartphone,domain#Extrinsic-M-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Smartwatch,domain#Extrinsic-M-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-SMSClient,domain#Extrinsic-M-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-SystemProcess,domain#Extrinsic-M-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Tablet,domain#Extrinsic-M-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-TextEditor,domain#Extrinsic-M-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-VCluster,domain#Extrinsic-M-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1151,6 +1168,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-RemoteTerminal,domain#Ex
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-SensorProcess,domain#Extrinsic-QI-TW,domain#SensorProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-ServiceProxy,domain#Extrinsic-QI-TW,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-SMSClient,domain#Extrinsic-QI-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-SystemProcess,domain#Extrinsic-QI-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-TextEditor,domain#Extrinsic-QI-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-WebApp,domain#Extrinsic-QI-TW,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-WebBrowser,domain#Extrinsic-QI-TW,domain#WebBrowser,domain#TrustworthinessLevelSafe,TRUE
@@ -1192,6 +1210,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-ServiceProxy,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Smartphone,domain#Extrinsic-U-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Smartwatch,domain#Extrinsic-U-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-SMSClient,domain#Extrinsic-U-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-SystemProcess,domain#Extrinsic-U-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Tablet,domain#Extrinsic-U-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-TextEditor,domain#Extrinsic-U-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-VCluster,domain#Extrinsic-U-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1239,6 +1258,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-ServiceProxy,domain#Extr
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Smartphone,domain#Extrinsic-VA-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Smartwatch,domain#Extrinsic-VA-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-SMSClient,domain#Extrinsic-VA-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-SystemProcess,domain#Extrinsic-VA-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Tablet,domain#Extrinsic-VA-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-TextEditor,domain#Extrinsic-VA-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-VCluster,domain#Extrinsic-VA-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1286,6 +1306,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-ServiceProxy,domain#Extr
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Smartphone,domain#Extrinsic-VL-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Smartwatch,domain#Extrinsic-VL-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-SMSClient,domain#Extrinsic-VL-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-SystemProcess,domain#Extrinsic-VL-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Tablet,domain#Extrinsic-VL-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-TextEditor,domain#Extrinsic-VL-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-VCluster,domain#Extrinsic-VL-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1333,6 +1354,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-ServiceProxy,domain#Extr
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Smartphone,domain#Extrinsic-VN-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Smartwatch,domain#Extrinsic-VN-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-SMSClient,domain#Extrinsic-VN-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-SystemProcess,domain#Extrinsic-VN-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Tablet,domain#Extrinsic-VN-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-TextEditor,domain#Extrinsic-VN-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-VCluster,domain#Extrinsic-VN-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1380,6 +1402,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-ServiceProxy,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Smartphone,domain#Extrinsic-W-TW,domain#Smartphone,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Smartwatch,domain#Extrinsic-W-TW,domain#Smartwatch,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-SMSClient,domain#Extrinsic-W-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-SystemProcess,domain#Extrinsic-W-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Tablet,domain#Extrinsic-W-TW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-TextEditor,domain#Extrinsic-W-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-VCluster,domain#Extrinsic-W-TW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
@@ -1411,6 +1434,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-RemoteTerminal,domain#Ex
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-SensorProcess,domain#Extrinsic-XS-TW,domain#SensorProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-ServiceProxy,domain#Extrinsic-XS-TW,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-SMSClient,domain#Extrinsic-XS-TW,domain#SMSClient,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-SystemProcess,domain#Extrinsic-XS-TW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-TextEditor,domain#Extrinsic-XS-TW,domain#TextEditor,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-WebApp,domain#Extrinsic-XS-TW,domain#WebApp,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-XS-TW-WebBrowser,domain#Extrinsic-XS-TW,domain#WebBrowser,domain#TrustworthinessLevelSafe,TRUE

@@ -85,6 +85,8 @@ package#DataLifecycle,domain#MP-HDSV,domain#Node-HostManager-Human,FALSE,FALSE,F
 package#DataLifecycle,domain#MP-HDS-V,domain#Node-DataField-DataField,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS-V,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#MP-HPcDSDI,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#DataLifecycle,domain#MP-HPcDSDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDAcDS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDAcDS,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDADF,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
@@ -237,6 +239,7 @@ package#DataLifecycle,domain#MP-PaDSH+S-Hu-DA,domain#Node-DataAccess-DataAccess,
 package#DataLifecycle,domain#MP-PaDSH-Hu-DP,domain#Node-DataPool-DataPool,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PaDSH-S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PaDSH-S-Hu-DA,domain#Node-Service-Process,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#MP-PcDFDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PcPr-uDS-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PcPuDS-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-Pc-rDH-DS-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE

@@ -8,6 +8,7 @@ package#Application,domain#appends,domain#Process
 package#Application,domain#assertedAmendsData,domain#Human
 package#Application,domain#assertedInputsData,domain#Human
 package#Application,domain#assertedViewsData,domain#Human
+package#Application,domain#configuredBy,domain#Process
 package#Application,domain#creates,domain#Process
 package#Application,domain#enablesUserAccess,domain#Process
 package#Application,domain#enablesUserInput,domain#Process

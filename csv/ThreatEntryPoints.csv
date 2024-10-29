@@ -76,6 +76,8 @@ package#DataLifecycle,domain#Hu.U.HuirPvDS.3,domain#TWAS-Astuteness-Human
 package#DataLifecycle,domain#Hu.U.HuirPvDS.3,domain#TWAS-Authenticity-DataCopy
 package#DataLifecycle,domain#Hu.U.HuirPv-iD.0,domain#TWAS-Competence-Human
 package#DataLifecycle,domain#P.A.PcPuDS-V.6,domain#TWAS-DefaultTW-Data
+package#DataLifecycle,domain#P.L.HPcDSDI.3,domain#TWAS-Authenticity-DataCopy
+package#DataLifecycle,domain#P.L.PcDFDI.3,domain#TWAS-Authenticity-DataFlow
 package#DataLifecycle,domain#P.O.DA-VPpDA.6,domain#TWAS-DefaultTW-Process
 package#DataLifecycle,domain#P.O.DA-VPpDA.6,domain#TWAS-OutOfService-Process
 package#DataLifecycle,domain#P.O.PpDADA-V.6,domain#TWAS-DefaultTW-Process
@@ -222,11 +224,13 @@ package#NetworkConnectivity,domain#I.Auth.HSRSoGS.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#I.Auth.HSWSoGS.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#I.Auth.HWSGSoS.3,domain#TWAS-OccupantTW-Space
 package#NetworkConnectivity,domain#I.DA.I.8,domain#TWAS-OutOfService-Interface
+package#NetworkConnectivity,domain#I.DA.PACI.8.1,domain#TWAS-OutOfService-Host
 package#NetworkConnectivity,domain#I.DA.PACI.8.1,domain#TWAS-OutOfService-LogicalSubnet
 package#NetworkConnectivity,domain#I.DA.PACI.8.1,domain#TWAS-UserTW-AccessContext
 package#NetworkConnectivity,domain#I.IS.I.8,domain#TWAS-OutOfService-Host
 package#NetworkConnectivity,domain#I.IS.I.8,domain#TWAS-OutOfService-LogicalSubnet
 package#NetworkConnectivity,domain#I.IS.INC.1,domain#TWAS-Control-HostAccess
+package#NetworkConnectivity,domain#I.IS.INC.1,domain#TWAS-OutOfService-Host
 package#NetworkConnectivity,domain#I.IS.INC.1,domain#TWAS-OutOfService-LogicalSubnet
 package#NetworkConnectivity,domain#I.M.I.8,domain#TWAS-OutOfService-Interface
 package#NetworkConnectivity,domain#I.O.DDoH.3,domain#TWAS-ConnectionsBlocked-NetworkPath
@@ -469,12 +473,12 @@ package#ProcessComms,domain#SC.IS.SCmSg.8.1,domain#TWAS-ServiceChannelsBlocked-I
 package#ProcessComms,domain#SC.IS.SCmSg.8.1,domain#TWAS-ServiceChannelsBlocked-LogicalSegment
 package#ProcessComms,domain#SC.IS.SCpSg.8.1,domain#TWAS-OutOfService-Service
 package#ProcessComms,domain#SC.IS.SCpSg.8.1,domain#TWAS-ServiceChannelsBlocked-Interface
+package#ProcessComms,domain#Sg.TA.L3SSg2.8.1,domain#TWAS-ConnectionsBlocked-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2+b.8.2,domain#TWAS-OutOfService-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-Control-HostAccess
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-OutOfService-FromSubnet
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-OutOfService-Gateway
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-OutOfService-ToSubnet
-package#ProcessComms,domain#Sg.TA.L3SSg2-b.8.1,domain#TWAS-ConnectionsBlocked-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2-b.8.2,domain#TWAS-OutOfService-FwdSegment
 package#Theft,domain#CC.AuC.CACHLSS.2,domain#TWAS-OutOfService-ClientAttackPath
 package#Theft,domain#CC.AuC.CACHLSS.2,domain#TWAS-OutOfService-ClientChannel

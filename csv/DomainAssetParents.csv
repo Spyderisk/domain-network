@@ -251,6 +251,8 @@ package#Network,domain#SMSClient,domain#SimpleProcess
 package#Network,domain#SMSClient,domain#TrivialProcess
 package#Network,domain#SocketLAN,domain#InternalSubnet
 package#Network,domain#SocketLAN,domain#L0Subnet
+package#Network,domain#SystemProcess,domain#ProcessPalette
+package#Network,domain#SystemProcess,domain#SimpleProcess
 package#Network,domain#Tablet,domain#HostPalette
 package#Network,domain#Tablet,domain#MobileClient
 package#Network,domain#Tablet,domain#PersonalHost

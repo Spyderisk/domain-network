@@ -234,6 +234,8 @@ package#DataLifecycle,domain#MP-HDSV,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HDS-V,domain#Link-DataCopy-includesField-DataField,FALSE
 package#DataLifecycle,domain#MP-HDS-V,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HDS-V,domain#Link-Vault-controls-DataCopy,FALSE
+package#DataLifecycle,domain#MP-HPcDSDI,domain#Link-HostManager-manages-Host,FALSE
+package#DataLifecycle,domain#MP-HPcDSDI,domain#Link-ProcessManager-manages-Process,FALSE
 package#DataLifecycle,domain#MP-HPDAcDS,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HPDAcDS,domain#Link-ProcessManager-manages-Process,FALSE
 package#DataLifecycle,domain#MP-HPDADF,domain#Link-HostManager-manages-Host,FALSE
@@ -464,6 +466,7 @@ package#DataLifecycle,domain#MP-PaDSH-S-Hu-DA,domain#Link-DataAccess-usedFor-Dat
 package#DataLifecycle,domain#MP-PaDSH-S-Hu-DA,domain#Link-Process-enablesUserInput-Data,TRUE
 package#DataLifecycle,domain#MP-PaDSH-S-Hu-DA,domain#Link-Process-uses-Service,FALSE
 package#DataLifecycle,domain#MP-PaDSH-S-Hu-DA,domain#Link-Service-serves-Data,FALSE
+package#DataLifecycle,domain#MP-PcDFDI,domain#Link-ProcessManager-manages-Process,FALSE
 package#DataLifecycle,domain#MP-PcPr-uDS-V,domain#Link-Client-reads-Data,TRUE
 package#DataLifecycle,domain#MP-PcPr-uDS-V,domain#Link-Vault-controls-DataAsset,FALSE
 package#DataLifecycle,domain#MP-PcPuDS-V,domain#Link-Vault-controls-DataAsset,FALSE

@@ -167,6 +167,7 @@ package#DataLifecycle,domain#R-HDS,HDS,"Finds a stored copy of Data on a Host, a
 package#DataLifecycle,domain#R-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDSPDIfDA,HDSPDIfDA,Finds a data input that is a destination for data from a source and used by a process whose host stores a copy of the data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDSV,HDSV,"Finds a copy of Data encrypted with a key from a vault, stored on a Host, and its Physical Host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HPcDSDI,HPcDSDI,"Finds a stored configuration data input to a process, plus the process and data host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDAcDS,HPDAcDS,Finds a Host running a Process that CRUD creates locally stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDAdDS,HPDAdDS,Finds a Host running a Process that CRUD deletes locally stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDADF,HPDADF,"Finds a Host running a Process that sends a Data Flow to a destination process, plus the associated Data and Data Access assets.",FALSE,FALSE
@@ -215,6 +216,7 @@ package#DataLifecycle,domain#R-HuWEDF,HuWEDF,"Finds a Human using a web browser 
 package#DataLifecycle,domain#R-HuWESDF,HuWESDF,"Finds a Human using a web browser to access email, including URLs contained in emails.",FALSE,FALSE
 package#DataLifecycle,domain#R-HuWSMSDF,HuWSMSDF,"Finds a Human using a web browser and an SMS client on the same host, accessing URLs from SMS messages via the browser.",FALSE,FALSE
 package#DataLifecycle,domain#R-PaDSH,PaDSH,Finds a Process that is amending data of which there is a copy stored on the same host.,FALSE,TRUE
+package#DataLifecycle,domain#R-PcDFDI,PcDFDI,"Finds a data flow to a process that uses the data as configuration data.  The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-PcDSH,PcDSH,Finds a Process that is creating data of which there is a copy stored on the same host.,FALSE,FALSE
 package#DataLifecycle,domain#R-PcPrDS,PcPrDS,"Finds two processes accessing the same stored copy of data, one of which receives the data (processes it as an input).",FALSE,FALSE
 package#DataLifecycle,domain#R-PcPuDS,PcPuDS,"Finds two processes accessing the same stored copy of data, one of which reads the data (processes it as a necessary input).",FALSE,FALSE
