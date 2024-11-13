@@ -1,5 +1,5 @@
 # This workflow will build a package using Gradle and then publish it to GitHub packages when a release is created 
-# or when the workflow is run maually.
+# or when the workflow is run manually.
 # If a release is made, then the version of the package (also embedded in the NQ file) is set to the release tag.
 # If the workflow is run manually then the version used is the branch name plus the ISO datetime string.
 
@@ -7,55 +7,65 @@ name: Gradle Package Domain Model
 
 on:
   release:
-    types: [created]
-  workflow_dispatch:
+    types: [created] # Trigger the workflow when a release is created
+  workflow_dispatch: # Allow the workflow to be manually triggered
   
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Use the latest Ubuntu environment for the job runner
     permissions:
-      contents: read
-      packages: write
+      contents: read # Read access to the repository contents
+      packages: write # Write access to GitHub packages
   
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v3 # Check out the repository code
+
+    # We need a JDK to run the Gradle command at the end to publish the artifact to GitHub packages (Maven)
     - name: Set up JDK 11
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v3 # Set up Java Development Kit (JDK) version 11
       with:
-        java-version: '11'
-        distribution: 'temurin'
+        java-version: '11' # Specify JDK version 11
+        distribution: 'temurin' # Use the Temurin distribution of the JDK
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
-        settings-path: ${{ github.workspace }} # location for the settings.xml file
+        settings-path: ${{ github.workspace }} # Location for the settings.xml file
 
+    # Check out the csv2nq repository main branch
     - name: Get csv2nq
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3 # Check out the csv2nq repository
       with:
-        repository: SPYDERISK/domain-csv2nq
-        ref: main
-        path: ./csv2nq
+        repository: SPYDERISK/domain-csv2nq # Specify the repository to check out
+        ref: main # Use the main branch of the repository
+        path: ./csv2nq # Check out the repository to the specified path
 
+    # Set the version to be used for the package.
+    # Either the release tag (without the initial "v") or the branch name plus the ISO datetime string.
+    # The version string is saved in GITHUB_ENV so it can be accessed by later steps.
     - name: Set version
       run: |
         if [ ${GITHUB_EVENT_NAME} = 'workflow_dispatch' ]; then
+          # If the workflow is manually triggered, set the version to the branch name plus the ISO datetime string
           echo "VERSION=${GITHUB_REF_NAME}-$(date +'%Y-%m-%dT%H:%M')" >> ${GITHUB_ENV}
         else
-          # remove "v" from the release tag
+          # If the workflow is triggered by a release, set the version to the release tag (remove "v" from the release tag)
           echo "VERSION=${GITHUB_REF_NAME}" | sed 's/v//' >> ${GITHUB_ENV}
         fi
         echo "Environment is:"
-        cat ${GITHUB_ENV}
+        cat ${GITHUB_ENV} # Output the environment variables to the console (for debugging)
   
+    # Run the csv2nq script to convert the CSV files to NQ format, copy in the icons and make the zip file
     - name: Run csv2nq
       run: |
-        cd ${GITHUB_WORKSPACE}
-        mkdir output
-        # the "domain.nq" filename is looked for when uploading a new domain model through the system-modeller web UI
+        cd ${GITHUB_WORKSPACE} # Change directory to the GitHub workspace
+        mkdir output # Create an output directory
+        # Run the csv2nq.py script to convert CSV to NQ format
+        # The "domain.nq" filename is looked for when uploading a new domain model through the system-modeller web UI
         python3 csv2nq/csv2nq.py -e -i csv -o output/domain.nq -m output/icon-mapping.json -v ${VERSION}
         cp -a icons output/icons
         cd output
         zip -qr domain-model.zip *
 
+    # Publish the domain model zip artifact to GitHub packages
     - name: Publish to GitHub Packages
       uses: gradle/gradle-build-action@v2.4.2
       with:
