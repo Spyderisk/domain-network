@@ -32,7 +32,6 @@ package#IoT,domain#SuspendUnreliableController,domain#Controller
 package#Legal,domain#LegalCompetenceCheck,domain#Human
 package#Legal,domain#LegalGuardianConsent,domain#Human
 package#LocalDeviceConnectivity,domain#DisableMeshRouting,domain#PhysicalHost
-package#LocalDeviceConnectivity,domain#DisableTethering,domain#ReverseTetheringSegment
 package#LocalDeviceConnectivity,domain#DisableTethering,domain#TetheringSegment
 package#LocalDeviceConnectivity,domain#SimpleSecurePairing,domain#PhysicalHost
 package#Network,domain#AAA,domain#AbstractSubnet
