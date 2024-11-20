@@ -24,8 +24,8 @@ package#GDPR,domain#GDPRComplianceTraining,domain#Adult
 package#GDPR,domain#GDPRGovernance,domain#DataFlow
 package#GDPR,domain#GDPRGovernance,domain#Process
 package#GDPR,domain#GDPRPrivacyShield,domain#Organisation
-package#GDPR,domain#SubjectToGDPR,domain#Human
 package#GDPR,domain#SubjectToGDPR,domain#Jurisdiction
+package#GDPR,domain#SubjectToGDPR,domain#Human
 package#IoT,domain#SafeControlMode,domain#Controller
 package#IoT,domain#SafeControlSetting,domain#Controller
 package#IoT,domain#SafeIoTController,domain#Thing
@@ -51,10 +51,10 @@ package#Network,domain#ContinuousAuthN,domain#Host
 package#Network,domain#ContinuousAuthNID,domain#Human
 package#Network,domain#ContinuousAuthVerifier,domain#Process
 package#Network,domain#DeviceCertification,domain#Host
-package#Network,domain#DisabledHost,domain#Host
-package#Network,domain#DisabledProcess,domain#Process
 package#Network,domain#DisableNetwork,domain#LogicalSubnet
 package#Network,domain#DisableNetworkProvision,domain#Host
+package#Network,domain#DisabledHost,domain#Host
+package#Network,domain#DisabledProcess,domain#Process
 package#Network,domain#EncryptedComms,domain#RadioSubnet
 package#Network,domain#FormalVerification,domain#Host
 package#Network,domain#FormalVerification,domain#Process

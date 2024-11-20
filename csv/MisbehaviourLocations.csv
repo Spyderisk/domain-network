@@ -1,12 +1,12 @@
 package,URI,metaLocatedAt
-domain#000000,domain#000000,domain#AccessContext
+domain#000000,domain#000000,domain#Data
+package#AIHarms,domain#LossOfAccuracy,domain#Data
+package#AIHarms,domain#LossOfFairProcessing,domain#MLModel
+package#AIHarms,domain#LossOfFairProcessing,domain#MLTrainingAlgorithm
+package#AIHarms,domain#LossOfFairness,domain#Data
 package#AccessContext,domain#LocalLossOfControl,domain#AccessContext
 package#AccessContext,domain#LocalLossOfUserTW,domain#AccessContext
 package#AccessContext,domain#LossOfExploitTW,domain#AccessContext
-package#AIHarms,domain#LossOfAccuracy,domain#Data
-package#AIHarms,domain#LossOfFairness,domain#Data
-package#AIHarms,domain#LossOfFairProcessing,domain#MLModel
-package#AIHarms,domain#LossOfFairProcessing,domain#MLTrainingAlgorithm
 package#Application,domain#LossOfAuthenticity,domain#Data
 package#Application,domain#LossOfAvailability,domain#Data
 package#Application,domain#LossOfConfidentiality,domain#Data

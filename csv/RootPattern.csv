@@ -1,18 +1,18 @@
 package,URI,label,comment,usesLoopback,usesParallel
-domain#000000,domain#000000,CcBrR,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,FALSE,FALSE
-package#5G,domain#R-CcBrR,CcBrR,"Finds a Base Station connected to a backhaul Core Network and providing a RAN, both of which are part of a Cellular Network.",FALSE,FALSE
+domain#000000,domain#000000,CN,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,FALSE,FALSE
 package#5G,domain#R-CN,CN,Finds a cellular network.,FALSE,FALSE
 package#5G,domain#R-CNCN,CNCN,Finds a Cellular Network implemented by a Core Network.,FALSE,FALSE
 package#5G,domain#R-CNHS,CNHS,Finds a core network implementing a cellular network accessible from a space in which there is a device connected to the cellular network.,FALSE,FALSE
 package#5G,domain#R-CNR,CNR,Finds a cellular network provided by a router.,FALSE,FALSE
-package#5G,domain#R-CrCcL3,CrCcL3,"Finds a core router providing a core network backhaul for a cellular network, connected to an IP subnet.",FALSE,FALSE
 package#5G,domain#R-CScGcCS,CScGcCS,"Finds a Physical Host connected between two Cellular networks, both in the same space.",FALSE,FALSE
+package#5G,domain#R-CcBrR,CcBrR,"Finds a Base Station connected to a backhaul Core Network and providing a RAN, both of which are part of a Cellular Network.",FALSE,FALSE
+package#5G,domain#R-CrCcL3,CrCcL3,"Finds a core router providing a core network backhaul for a cellular network, connected to an IP subnet.",FALSE,FALSE
 package#5G,domain#R-FCNS,FCNS,Finds a Cellular Network to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
 package#5G,domain#R-L3cCrC,L3cCrC,"Finds a core router providing a core network backhaul for a cellular network, connected to an IP subnet.",FALSE,FALSE
 package#5G,domain#R-MPCNS,MPCNS,Finds a Public Cellular Network to which is connected a Mobile Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
-package#5G,domain#R-PcCN,PcCN,Finds a process controlling a cellular network and an associated RAN.,FALSE,FALSE
 package#5G,domain#R-PCN,PCN,Finds a Public Cellular Network.,FALSE,FALSE
 package#5G,domain#R-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which should also be accessible from the World.",FALSE,FALSE
+package#5G,domain#R-PcCN,PcCN,Finds a process controlling a cellular network and an associated RAN.,FALSE,FALSE
 package#5G,domain#R-RrBcC,RrBcC,Finds a BaseStation providing a RAN and connected to a (backhaul) core network both of which are part of a cellular network.,FALSE,FALSE
 package#AIHarms,domain#R-DiPmlm,DiPmlm,Input data is the prediction inputs to ML Model.,FALSE,FALSE
 package#AIHarms,domain#R-DiuPmlmpDp,DiuPmlmpDp,"Input data is the prediction inputs to ML Model, which makes predictions using it.",FALSE,FALSE
@@ -28,13 +28,14 @@ package#Application,domain#R-HHuWSMS,HHuWSMS,Finds a Human using both an SMS cli
 package#Application,domain#R-HIP,HIP,Finds a solo interactive process and its host.,FALSE,FALSE
 package#Application,domain#R-HPrD,HPrD,Finds a Process relaying Data and the process host.,FALSE,FALSE
 package#Application,domain#R-HPsD,HPsD,Finds a Process serving Data and the process host.,FALSE,FALSE
+package#Application,domain#R-HuHWES,HuHWES,Finds a Human using a web browser running on a host to access email.,FALSE,FALSE
+package#Application,domain#R-HuWES,HuWES,Finds a Human using a web browser to access email.,FALSE,FALSE
 package#Application,domain#R-HuaD,HuaD,Finds a Human interactively amending Data.,FALSE,TRUE
 package#Application,domain#R-HuaDPH,HuaDPH,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
 package#Application,domain#R-HuaDRAC,HuaDRAC,Finds a Human interacting with Data remotely via a Remote Access Client.,FALSE,FALSE
 package#Application,domain#R-HuaID,HuaID,"Finds a Human interactively entering Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
 package#Application,domain#R-HuaUD,HuaUD,"Finds a Human interactively amending Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
 package#Application,domain#R-HuaVD,HuaVD,"Finds a Human interactively viewing Data, where this is expressed as a single relationship and labelled as having been asserted.",FALSE,TRUE
-package#Application,domain#R-HuHWES,HuHWES,Finds a Human using a web browser running on a host to access email.,FALSE,FALSE
 package#Application,domain#R-HuiCHDtS,HuiCHDtS,Finds a human interacting with a console host and a desktop service running on a possibly remote host.,FALSE,FALSE
 package#Application,domain#R-HuiD,HuiD,Finds a Human entering Data.,FALSE,FALSE
 package#Application,domain#R-HuiDPH,HuiDPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
@@ -53,7 +54,6 @@ package#Application,domain#R-HuirPrD,HuirPrD,Finds Human interacting (possibly r
 package#Application,domain#R-HuirPsD,HuirPsD,Finds Human interacting (possibly remotely) with a process that serves data. This conflicts with domain model assumptions.,FALSE,FALSE
 package#Application,domain#R-HuuD,HuuD,"Finds a Human interactively amending Data, where this is expressed as a single relationship.",FALSE,FALSE
 package#Application,domain#R-HuvD,HuvD,Finds a Human viewing Data.,FALSE,FALSE
-package#Application,domain#R-HuWES,HuWES,Finds a Human using a web browser to access email.,FALSE,FALSE
 package#Application,domain#R-PaD,PaD,"Finds a Process that is amending data, using separate creates and receives links in case they were added separately.",FALSE,TRUE
 package#Application,domain#R-PaDH,PaDH,Finds a Host running a Process that is amending data.,FALSE,TRUE
 package#Application,domain#R-PcDH,PcDH,Finds a Host running a Process that is creating data.,FALSE,FALSE
@@ -76,9 +76,9 @@ package#CloudManagement,domain#R-DCPHW,DCPHW,Finds a Cloud (K8s) Worker whose ph
 package#CloudManagement,domain#R-HCt,HCt,Finds a host provisioned by a container.,FALSE,FALSE
 package#CloudManagement,domain#R-HumPC,HumPC,Finds a Container running a Process managed by a Human.,FALSE,FALSE
 package#CloudManagement,domain#R-KIP,KIP,Finds an Ingress proxy mediating access to a service.,FALSE,FALSE
-package#CloudManagement,domain#R-KPxCaaSI,KPxCaaSI,"Finds a Client using for authentication a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
-package#CloudManagement,domain#R-KPxCazSI,KPxCazSI,"Finds a Client using for authorization a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
 package#CloudManagement,domain#R-KPxCLnSA,KPxCLnSA,"Finds a Client using a Remote Acces Service that runs in and controls a Container, whose Pod is connected via a Subnet to a K8S Master that runs a K8s API Server.",FALSE,TRUE
+package#CloudManagement,domain#R-KPxCazSI,KPxCazSI,"Finds a Client using for authorization a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
+package#CloudManagement,domain#R-KPxCaaSI,KPxCaaSI,"Finds a Client using for authentication a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
 package#CloudManagement,domain#R-KPxCuScP,KPxCuScP,"Finds a Pod managed by K8S or equivalent, hosting an unprivileged service in a Container, which controls another service accessed by a client. This means the client will need to access to Service in its Container for authentication purposes.",FALSE,FALSE
 package#CloudManagement,domain#R-KPxCuuSI,KPxCuuSI,"Finds a Client using a Service that runs in a Container, whose Pod is connected via a Subnet to a K8 Master that runs a K8s Ingress proxy.",FALSE,FALSE
 package#CloudManagement,domain#R-KPxMLnSA,KPxMLnSA,"Finds a Client using a Remote Access Service that runs on and controls a K8s Master node, connected to a Subnet and running a K8s API Server.",FALSE,TRUE
@@ -97,53 +97,89 @@ package#CloudManagement,domain#R-PodP,PodP,Finds a Pod containing a Process.,FAL
 package#DataLifecycle,domain#R-CSDFDA2,CSDFDA2,Finds two process participating in a data flow.,FALSE,FALSE
 package#DataLifecycle,domain#R-DADBsDA,DADBsDA,Finds a DB processing data queries using a data asset.,FALSE,FALSE
 package#DataLifecycle,domain#R-DADS,DADS,Finds a Data Access fulfilling a Data Copy.,FALSE,FALSE
+package#DataLifecycle,domain#R-DADSDCSDD,DADSDCSDD,"Finds an active data channel carrying a forward flow that ends at a data destination that is itself a data source, and the channel beyond that source to another destination on the same data path that can act as a data destination.",FALSE,FALSE
 package#DataLifecycle,domain#R-DADU,DADU,"Finds a service controlling access to a data access, which fulfils a data use.",FALSE,FALSE
+package#DataLifecycle,domain#R-DAODADInDF,DAODADInDF,Finds an output data asset fulfilling (via a data access) an input data asset that needs a field contained in the data.,FALSE,FALSE
+package#DataLifecycle,domain#R-DAOiDADInDF,DAOiDADInDF,Finds an output data asset that includes a field contained in the data fulfilling (via a data access) an input data asset that needs the field.,FALSE,FALSE
+package#DataLifecycle,domain#R-DAPDADF,DAPDADF,"Finds a Process receiving Data that contains a Data Field, via a Data Asset.",FALSE,FALSE
 package#DataLifecycle,domain#R-DAPpDA,DAPpDA,Finds a Process processing data using a data asset.,FALSE,FALSE
 package#DataLifecycle,domain#R-DAVPDA,DAVPDA,Finds a Process consuming a data asset controlled by a vault.,FALSE,FALSE
 package#DataLifecycle,domain#R-DBsDADA,DBsDADA,Finds a DB processing queries to create a data asset.,FALSE,FALSE
 package#DataLifecycle,domain#R-DBsDRDF,DBsDRDF,Finds a DB serving data that is stored on a separate Host and supplied to the DB in a data flow.,FALSE,FALSE
+package#DataLifecycle,domain#R-DC1,DC1,Finds a solo Data Channel.,FALSE,FALSE
+package#DataLifecycle,domain#R-DC2TDRfDP2,DC2TDRfDP2,Finds an active forward (output) data channel leading to a transparent data relay from which another active channel continues along the same data path.,FALSE,TRUE
+package#DataLifecycle,domain#R-DC2TDRrDP2,DC2TDRrDP2,Finds an active reverse (input) data channel leading to a transparent data relay from which another active channel continues along the same data path.,FALSE,TRUE
+package#DataLifecycle,domain#R-DC2xfDA2,DC2xfDA2,Finds a forward Data Channel from a Data Source that extends another Data Channel to a Data Destination.,FALSE,FALSE
+package#DataLifecycle,domain#R-DC2xrDA2,DC2xrDA2,Finds a reverse Data Channel from a Data Destination that extends another Data Channel to a Data Source.,FALSE,FALSE
+package#DataLifecycle,domain#R-DC3,DC3,Finds a data channel that extends a second channel that extends a third channel.,FALSE,FALSE
+package#DataLifecycle,domain#R-DC3xf,DC3xf,Finds an active forward data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
+package#DataLifecycle,domain#R-DC3xr,DC3xr,Finds an active reverse data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
+package#DataLifecycle,domain#R-DCDFDF,DCDFDF,Finds a Data Flow containing a Data Field for which there is a Data Cache.,FALSE,TRUE
 package#DataLifecycle,domain#R-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,FALSE,TRUE
+package#DataLifecycle,domain#R-DDDCDP2,DDDCDP2,"Finds a Data Destination for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
+package#DataLifecycle,domain#R-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",FALSE,TRUE
+package#DataLifecycle,domain#R-DDDCSDS,DDDCSDS,"Finds a data input client acting as a data destination, with a previously identifed potential data source that has an onward data channel to a service that can act as a data source. Should this be constrained to lie on the same data path?",FALSE,TRUE
+package#DataLifecycle,domain#R-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,FALSE,FALSE
+package#DataLifecycle,domain#R-DIDCSDS,DIDCSDS,"Finds a data input client acting as a data destination, and having a data channel to a service that may act as a data source.",FALSE,FALSE
+package#DataLifecycle,domain#R-DODCSDD,DODCSDD,"Finds a data output process that acts as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
+package#DataLifecycle,domain#R-DP1,DP1,Finds a solo Data Path.,FALSE,FALSE
+package#DataLifecycle,domain#R-DP3,DP3,Finds a data path which extends a second path which extends a third path.,FALSE,FALSE
 package#DataLifecycle,domain#R-DSDA,DSDA,Finds a Data Access fulfilled by a Data Copy.,FALSE,FALSE
+package#DataLifecycle,domain#R-DSDAfDD,DSDAfDD,"Finds a Data Destination with a possible data source that itself has a source, and a data channel to the possible data source from a data relay that is also a possible data source.",FALSE,TRUE
+package#DataLifecycle,domain#R-DSDCDD2P,DSDCDD2P,"Finds a Data Source fulfilling a Data Destination, with an active forward data channel to the source and a data channel from the destination, plus the associated processes and data paths.",FALSE,TRUE
+package#DataLifecycle,domain#R-DSDCDP2,DSDCDP2,"Finds a Data Source for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
+package#DataLifecycle,domain#R-DSDDF,DSDDF,Finds a Data Copy of a Data asset containing a Data Field.,FALSE,FALSE
+package#DataLifecycle,domain#R-DSDPS,DSDPS,"Finds a data path from a process to a service, where the process is a source of the data.",FALSE,FALSE
 package#DataLifecycle,domain#R-DSPDFDB,DSPDFDB,Finds a DB serving data obtained via a data flow from a remote data store.,FALSE,FALSE
 package#DataLifecycle,domain#R-DSPDFVDB,DSPDFVDB,"Finds a DB serving data obtained via a data flow from a remote data store, where the stored data is encrypted with keys from a vault.",FALSE,FALSE
 package#DataLifecycle,domain#R-DUDA,DUDA,"Finds a service controlling access to a data access, which is fulfilled by a data use.",FALSE,FALSE
+package#DataLifecycle,domain#R-FwdDFf2DP2P,FwdDFf2DP2P,"Finds an outbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
+package#DataLifecycle,domain#R-FwdDFfDP2P,FwdDFfDP2P,Finds an outbound (forward) data flow from a process on a data path leading to that process.,FALSE,FALSE
+package#DataLifecycle,domain#R-FwdDFtDP2P,FwdDFtDP2P,Finds an outbound (forward) data flow to a process on a data path leading to that process.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDBDRDF,HDBDRDF,Finds a Host running a DB process acting as a Data Relay for a Data Flow to a destination process.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDBDSDF,HDBDSDF,Finds a Host running a DB process acting as a Stored Data Pool for a Data Flow to a destination process.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDBsD,HDBsD,"Finds a Host running a Database process that serves a stored DataCopy, and the associated DataPool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDBsDV,HDBsDV,"Finds a Host running a Database process that serves a stored DataCopy encrypted with keys from a vault, and the associated DataPool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,FALSE,TRUE
 package#DataLifecycle,domain#R-HDS,HDS,"Finds a stored copy of Data on a Host, and its Physical Host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",FALSE,FALSE
+package#DataLifecycle,domain#R-HDSPDIfDA,HDSPDIfDA,Finds a data input that is a destination for data from a source and used by a process whose host stores a copy of the data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDSV,HDSV,"Finds a copy of Data encrypted with a key from a vault, stored on a Host, and its Physical Host.",FALSE,FALSE
-package#DataLifecycle,domain#R-HPDAcDS,HPDAcDS,Finds a Host running a Process that CRUD creates locally stored Data.,FALSE,FALSE
-package#DataLifecycle,domain#R-HPDAdDS,HPDAdDS,Finds a Host running a Process that CRUD deletes locally stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDADF,HPDADF,"Finds a Host running a Process that sends a Data Flow to a destination process, plus the associated Data and Data Access assets.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDADS,HPDADS,Finds a Host storing a Data Copy fulfilled by a local process.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDADS2DO,HPDADS2DO,"Finds a Host running a Process that writes to a local stored Data Copy, and sources data from two data producers.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDADSDU,HPDADSDU,Finds a Host storing a Data Copy fulfilled by a Data Access that sources data from a Data Update (from a process on any Host).,FALSE,FALSE
+package#DataLifecycle,domain#R-HPDAcDS,HPDAcDS,Finds a Host running a Process that CRUD creates locally stored Data.,FALSE,FALSE
+package#DataLifecycle,domain#R-HPDAdDS,HPDAdDS,Finds a Host running a Process that CRUD deletes locally stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDAuDS,HPDAuDS,Finds a Host running a Process that CRUD updates locally stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDDR,HPDDR,Finds a Host running a Process relaying Data.,FALSE,FALSE
-package#DataLifecycle,domain#R-HPdDS,HPdDS,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, plus the data access asset representing the data deserialization.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDFDADS,HPDFDADS,"Finds a Host running a Process that receives an incoming Data Flow and writes the data to local storage. The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDFDAuDS,HPDFDAuDS,Finds a Host running a Process that CRUD updates locally stored Data by saving an incoming Data Flow.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDFDI,HPDFDI,"Finds a Host running a Process that receives an incoming Data Flow and uses it as input. The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
-package#DataLifecycle,domain#R-HPDOcDS,HPDOcDS,Finds a Host running a Process that CRUD creates locally stored Data which it produces as output.,FALSE,FALSE
-package#DataLifecycle,domain#R-HPDOdDS,HPDOdDS,Finds a Host running a Process that CRUD deletes locally stored Data which it produces as output.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDODF,HPDODF,"Finds a Host running a Process that creates a Data Flow to a destination process, plus the associated Data and Data Output assets.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDODS,HPDODS,Finds a Host running a Process that creates locally stored Data which it produces as output.,FALSE,FALSE
+package#DataLifecycle,domain#R-HPDOcDS,HPDOcDS,Finds a Host running a Process that CRUD creates locally stored Data which it produces as output.,FALSE,FALSE
+package#DataLifecycle,domain#R-HPDOdDS,HPDOdDS,Finds a Host running a Process that CRUD deletes locally stored Data which it produces as output.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDOuDS,HPDOuDS,Finds a Host running a Process that CRUD updates locally stored Data which it produces as output.,FALSE,FALSE
-package#DataLifecycle,domain#R-HPdpDS,HPdpDS,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, which it also processes, plus the data access asset representing the data deserialization.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDS,HPDS,Finds a Host running a process that stores a local copy of some data.,FALSE,FALSE
+package#DataLifecycle,domain#R-HPDS-fDI,HPDS-fDI,"Finds a Host with a stored Data Copy, running a Process that has a Data Input asset for the same Data that may or may not be fulfilled by the stored Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDSDA,HPDSDA,Finds a Host storing a Data Copy that fulfils a Data Access for a Process on the same Host.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDSDADF,HPDSDADF,Finds a Host storing a Data Copy that is read and sent in a data flow by a Process on the same Host.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDSDI,HPDSDI,"Finds a stored data input to a process, plus the process and data host.",FALSE,FALSE
-package#DataLifecycle,domain#R-HPDS-fDI,HPDS-fDI,"Finds a Host with a stored Data Copy, running a Process that has a Data Input asset for the same Data that may or may not be fulfilled by the stored Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDSrDI,HPDSrDI,Finds a Host running a Process that CRUD reads a locally stored copy of Data it uses as input.,FALSE,FALSE
+package#DataLifecycle,domain#R-HPdDS,HPdDS,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, plus the data access asset representing the data deserialization.",FALSE,FALSE
+package#DataLifecycle,domain#R-HPdpDS,HPdpDS,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, which it also processes, plus the data access asset representing the data deserialization.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPeD,HPeD,Finds a Host for a Process that appends to locally stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPrDS,HPrDS,"Finds a host running a Process with read access (crudr) to a locally stored data copy, plus the data access asset representing the data deserialization.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPrpDS,HPrpDS,"Finds a host running a Process with read access (crudr) to a locally stored data copy, which it also processes, plus the data access asset representing the data deserialization.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPsDPDFDS,HPsDPDFDS,"Finds a Host that stores a copy of Data served by and sent to a Process on the same Host, plus the associated Data Flow and Data Pool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPsDPDSDF,HPsDPDSDF,"Finds a Host that stores a copy of Data served by and sent from a Process on the same Host, plus the associated Data Flow and Data Access.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPuDSDI,HPuDSDI,"Finds a stored data input needed by a process, plus the process and data host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HSDADPDXP,HSDADPDXP,"Finds a service with a data access at the end of a data path process that exchanges data with a second process, where both processes have the same Host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HSDADPPDXP,HSDADPPDXP,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, where all three processes have the same Host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HuWEDF,HuWEDF,"Finds a Human using a web browser and an email client on the same host, accessing URLs from emails via the browser.",FALSE,FALSE
+package#DataLifecycle,domain#R-HuWESDF,HuWESDF,"Finds a Human using a web browser to access email, including URLs contained in emails.",FALSE,FALSE
+package#DataLifecycle,domain#R-HuWSMSDF,HuWSMSDF,"Finds a Human using a web browser and an SMS client on the same host, accessing URLs from SMS messages via the browser.",FALSE,FALSE
 package#DataLifecycle,domain#R-HuaDSPH,HuaDSPH,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, of which there is a copy on the same Host.",FALSE,TRUE
 package#DataLifecycle,domain#R-HuiDSPH,HuiDSPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, of which there is a copy on the same Host.",FALSE,TRUE
 package#DataLifecycle,domain#R-HuiPvDCHS,HuiPvDCHS,Finds a user interacting directly with a process to view data using a console host located in a space.,FALSE,FALSE
@@ -156,13 +192,6 @@ package#DataLifecycle,domain#R-HuirPiDS,HuirPiDS,Finds a (possibly remote) user 
 package#DataLifecycle,domain#R-HuirPvD,HuirPvD,Finds a (possibly remote) user of an interactive process that views data created by the process.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuirPvDF,HuirPvDF,Finds a (possibly remote) user of an interactive process that views data received by the process in a data flow.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuirPvDS,HuirPvDS,Finds a (possibly remote) user of an interactive process that views data loaded by the process from a local data copy.,FALSE,FALSE
-package#DataLifecycle,domain#R-HuWEDF,HuWEDF,"Finds a Human using a web browser and an email client on the same host, accessing URLs from emails via the browser.",FALSE,FALSE
-package#DataLifecycle,domain#R-HuWESDF,HuWESDF,"Finds a Human using a web browser to access email, including URLs contained in emails.",FALSE,FALSE
-package#DataLifecycle,domain#R-HuWSMSDF,HuWSMSDF,"Finds a Human using a web browser and an SMS client on the same host, accessing URLs from SMS messages via the browser.",FALSE,FALSE
-package#DataLifecycle,domain#R-PaDSH,PaDSH,Finds a Process that is amending data of which there is a copy stored on the same host.,FALSE,TRUE
-package#DataLifecycle,domain#R-PcDSH,PcDSH,Finds a Process that is creating data of which there is a copy stored on the same host.,FALSE,FALSE
-package#DataLifecycle,domain#R-PcPrDS,PcPrDS,"Finds two processes accessing the same stored copy of data, one of which receives the data (processes it as an input).",FALSE,FALSE
-package#DataLifecycle,domain#R-PcPuDS,PcPuDS,"Finds two processes accessing the same stored copy of data, one of which reads the data (processes it as a necessary input).",FALSE,FALSE
 package#DataLifecycle,domain#R-PDADAV,PDADAV,Finds a Process creating a data asset controlled by a vault.,FALSE,FALSE
 package#DataLifecycle,domain#R-PDADFI,PDADFI,"Finds a Process that sends a Data Flow to a destination process in the direction of a data consumer, plus the associated Data and Data Access assets. The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDADFO,PDADFO,"Finds a Process that sends a Data Flow to a destination process in the direction of a data store or source, plus the associated Data and Data Access assets. The source of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
@@ -175,80 +204,51 @@ package#DataLifecycle,domain#R-PDFV,PDFV,"Change from: Finds a Data Flow protect
 package#DataLifecycle,domain#R-PDI,PDI,"Finds a Process that uses Data as input, or displays it to an interactive user.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDIDDF,PDIDDF,Finds a Process using Data as input that contains a Data Field.,FALSE,FALSE
 package#DataLifecycle,domain#R-PDO,PDO,"Finds a Process that creates Data as output, or gets it from an interactive user.",FALSE,FALSE
+package#DataLifecycle,domain#R-PDODAnDF,PDODAnDF,"Finds a process creating data, the data access asset (a data output), and fulfilled output data asset, where the output asset needs a field.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDOScDD,PDOScDD,Finds a Data Asset controlled by a vault which is output from a Process.,FALSE,FALSE
 package#DataLifecycle,domain#R-PDP,PDP,Finds a Process that implicitly or explicitly serves Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-PDR,PDR,Finds a Process acting as a Data Relay.,FALSE,FALSE
 package#DataLifecycle,domain#R-PHHDS,PHHDS,"Finds a Physical Host located in a Space, plus data stored on the host or on a virtual host running there.",FALSE,FALSE
 package#DataLifecycle,domain#R-PIP,PIP,Finds a Process that uses Data as input with no other source than a locally stored copy (so access to the data is represented by an Input Pool rather than a Data Input).,FALSE,FALSE
+package#DataLifecycle,domain#R-PSDP,PSDP,Finds a Process that serves stored Data.,FALSE,FALSE
+package#DataLifecycle,domain#R-PTDR,PTDR,Finds a temporary data relay asset and the associated process and data.,FALSE,FALSE
+package#DataLifecycle,domain#R-PaDSH,PaDSH,Finds a Process that is amending data of which there is a copy stored on the same host.,FALSE,TRUE
+package#DataLifecycle,domain#R-PcDSH,PcDSH,Finds a Process that is creating data of which there is a copy stored on the same host.,FALSE,FALSE
+package#DataLifecycle,domain#R-PcPrDS,PcPrDS,"Finds two processes accessing the same stored copy of data, one of which receives the data (processes it as an input).",FALSE,FALSE
+package#DataLifecycle,domain#R-PcPuDS,PcPuDS,"Finds two processes accessing the same stored copy of data, one of which reads the data (processes it as a necessary input).",FALSE,FALSE
 package#DataLifecycle,domain#R-PpDADA,PpDADA,Finds a Process processing data to create a data asset.,FALSE,FALSE
 package#DataLifecycle,domain#R-PrDSH,PrDSH,Finds a Process that is receiving data of which there is a copy stored on the same host.,FALSE,FALSE
-package#DataLifecycle,domain#R-PSDP,PSDP,Finds a Process that serves stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-PsDSH,PsDSH,Finds a Process serving Data of which there is a copy stored on the same host.,FALSE,FALSE
 package#DataLifecycle,domain#R-PuDFDI,PuDFDI,Finds a data flow to a process that needs the data as input.,FALSE,FALSE
+package#DataLifecycle,domain#R-RADCSDD,RADCSDD,"Finds a remote access client acting as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
+package#DataLifecycle,domain#R-RADCSDS,RADCSDS,"Finds a remote access client acting as a data destination, and having a data channel to a service that can act as a data source.",FALSE,FALSE
 package#DataLifecycle,domain#R-RUIDO,RUIDO,Finds a Process that enables remote user input.,FALSE,FALSE
 package#DataLifecycle,domain#R-RUODI,RUODI,Finds a Process that enables remote user output.,FALSE,FALSE
+package#DataLifecycle,domain#R-RevDFf2DP2P,RevDFf2DP2P,"Finds an inbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
+package#DataLifecycle,domain#R-RevDFfDP2P,RevDFfDP2P,Finds an inbound (reverse) data flow to a process on a data path leading to that process.,FALSE,FALSE
+package#DataLifecycle,domain#R-RevDFtDP2P,RevDFtDP2P,Finds an inbound (reverse) data flow from a process on a data path leading from that process.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPDXP,SDADPDXP,Finds a service with a data access at the end of a data path that exchanges data with a second process.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPDXPRAC,SDADPDXPRAC,"Finds a service at the end of a data path that exchanges data with a second process, and there is a remote access client using remotely both processes.",FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPDXRAC,SDADPDXRAC,Finds a service at the end of a data path that exchanges data with a remote access client.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPPDXP,SDADPPDXP,Finds a service with a data access to which there is a data path from a process that exchanges data with a third process.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPPDXPRAC,SDADPPDXPRAC,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, and there is a remote access client using remotely the second and third processes.",FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPPDXRAC,SDADPPDXRAC,Finds a service with a data access to which there is a data path from a process that exchanges data with a remote access client.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDUDADS,SDUDADS,"Finds a Service enabling access for a Data Use, where the Service writes to a local Data Copy.",FALSE,FALSE
+package#DataLifecycle,domain#R-SDUDSDA,SDUDSDA,"Finds a Service enabling access for a Data Use, where the Service reads from a local Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-ScDDPDADS,ScDDPDADS,Finds a Data Asset controlled by a vault which is outbound from a Process and fulfilled by another inbound Data Asset.,FALSE,FALSE
 package#DataLifecycle,domain#R-ScDSPDADD,ScDSPDADD,Finds a Data Asset controlled by a vault which is inbound to a Process and used to fulfil another outbound Data Asset.,FALSE,FALSE
 package#DataLifecycle,domain#R-ScDSPDI,ScDSPDI,Finds a Data Asset controlled by a vault which is input to a Process.,FALSE,FALSE
 package#DataLifecycle,domain#R-ScDSPDIcD,ScDSPDIcD,Finds a Data Asset controlled by a vault which is input to a Process that creates output.,FALSE,FALSE
-package#DataLifecycle,domain#R-SDUDADS,SDUDADS,"Finds a Service enabling access for a Data Use, where the Service writes to a local Data Copy.",FALSE,FALSE
-package#DataLifecycle,domain#R-SDUDSDA,SDUDSDA,"Finds a Service enabling access for a Data Use, where the Service reads from a local Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-StoPDA,StoPDA,Finds the Operator of a Process that accesses Data.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DADSDCSDD,DADSDCSDD,"Finds an active data channel carrying a forward flow that ends at a data destination that is itself a data source, and the channel beyond that source to another destination on the same data path that can act as a data destination.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DAODADInDF,DAODADInDF,Finds an output data asset fulfilling (via a data access) an input data asset that needs a field contained in the data.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DAOiDADInDF,DAOiDADInDF,Finds an output data asset that includes a field contained in the data fulfilling (via a data access) an input data asset that needs the field.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DAPDADF,DAPDADF,"Finds a Process receiving Data that contains a Data Field, via a Data Asset.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DC1,DC1,Finds a solo Data Channel.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DC2TDRfDP2,DC2TDRfDP2,Finds an active forward (output) data channel leading to a transparent data relay from which another active channel continues along the same data path.,FALSE,TRUE
-package#DataLifecycleInference,domain#R-DC2TDRrDP2,DC2TDRrDP2,Finds an active reverse (input) data channel leading to a transparent data relay from which another active channel continues along the same data path.,FALSE,TRUE
-package#DataLifecycleInference,domain#R-DC2xfDA2,DC2xfDA2,Finds a forward Data Channel from a Data Source that extends another Data Channel to a Data Destination.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DC2xrDA2,DC2xrDA2,Finds a reverse Data Channel from a Data Destination that extends another Data Channel to a Data Source.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DC3,DC3,Finds a data channel that extends a second channel that extends a third channel.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DC3xf,DC3xf,Finds an active forward data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DC3xr,DC3xr,Finds an active reverse data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DCDFDF,DCDFDF,Finds a Data Flow containing a Data Field for which there is a Data Cache.,FALSE,TRUE
-package#DataLifecycleInference,domain#R-DDDCDP2,DDDCDP2,"Finds a Data Destination for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",FALSE,TRUE
-package#DataLifecycleInference,domain#R-DDDCSDS,DDDCSDS,"Finds a data input client acting as a data destination, with a previously identifed potential data source that has an onward data channel to a service that can act as a data source. Should this be constrained to lie on the same data path?",FALSE,TRUE
-package#DataLifecycleInference,domain#R-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DIDCSDS,DIDCSDS,"Finds a data input client acting as a data destination, and having a data channel to a service that may act as a data source.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DODCSDD,DODCSDD,"Finds a data output process that acts as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DP1,DP1,Finds a solo Data Path.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DP3,DP3,Finds a data path which extends a second path which extends a third path.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DSDAfDD,DSDAfDD,"Finds a Data Destination with a possible data source that itself has a source, and a data channel to the possible data source from a data relay that is also a possible data source.",FALSE,TRUE
-package#DataLifecycleInference,domain#R-DSDCDD2P,DSDCDD2P,"Finds a Data Source fulfilling a Data Destination, with an active forward data channel to the source and a data channel from the destination, plus the associated processes and data paths.",FALSE,TRUE
-package#DataLifecycleInference,domain#R-DSDCDP2,DSDCDP2,"Finds a Data Source for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-DSDDF,DSDDF,Finds a Data Copy of a Data asset containing a Data Field.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-DSDPS,DSDPS,"Finds a data path from a process to a service, where the process is a source of the data.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-FwdDFf2DP2P,FwdDFf2DP2P,"Finds an outbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-FwdDFfDP2P,FwdDFfDP2P,Finds an outbound (forward) data flow from a process on a data path leading to that process.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-FwdDFtDP2P,FwdDFtDP2P,Finds an outbound (forward) data flow to a process on a data path leading to that process.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-HDSPDIfDA,HDSPDIfDA,Finds a data input that is a destination for data from a source and used by a process whose host stores a copy of the data.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-HSDADPDXP,HSDADPDXP,"Finds a service with a data access at the end of a data path process that exchanges data with a second process, where both processes have the same Host.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-HSDADPPDXP,HSDADPPDXP,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, where all three processes have the same Host.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-PDODAnDF,PDODAnDF,"Finds a process creating data, the data access asset (a data output), and fulfilled output data asset, where the output asset needs a field.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-PTDR,PTDR,Finds a temporary data relay asset and the associated process and data.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-RADCSDD,RADCSDD,"Finds a remote access client acting as a data source, and having a data channel to a service that can act as a data destination.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-RADCSDS,RADCSDS,"Finds a remote access client acting as a data destination, and having a data channel to a service that can act as a data source.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-RevDFf2DP2P,RevDFf2DP2P,"Finds an inbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-RevDFfDP2P,RevDFfDP2P,Finds an inbound (reverse) data flow to a process on a data path leading to that process.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-RevDFtDP2P,RevDFtDP2P,Finds an inbound (reverse) data flow from a process on a data path leading from that process.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-SDADPDXP,SDADPDXP,Finds a service with a data access at the end of a data path that exchanges data with a second process.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-SDADPDXPRAC,SDADPDXPRAC,"Finds a service at the end of a data path that exchanges data with a second process, and there is a remote access client using remotely both processes.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-SDADPDXRAC,SDADPDXRAC,Finds a service at the end of a data path that exchanges data with a remote access client.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-SDADPPDXP,SDADPPDXP,Finds a service with a data access to which there is a data path from a process that exchanges data with a third process.,FALSE,FALSE
-package#DataLifecycleInference,domain#R-SDADPPDXPRAC,SDADPPDXPRAC,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, and there is a remote access client using remotely the second and third processes.",FALSE,FALSE
-package#DataLifecycleInference,domain#R-SDADPPDXRAC,SDADPPDXRAC,Finds a service with a data access to which there is a data path from a process that exchanges data with a remote access client.,FALSE,FALSE
 package#DataStructure,domain#R-PpDDF,PpDDF,"Finds a Process, processing Data which contains a Data Field.",FALSE,FALSE
-package#GDPR,domain#R-HuSDPoS,HuSDPoS,"Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject, where the subject operates the Service providing (and controlling) access to the data.",FALSE,FALSE
 package#GDPR,domain#R-HuSDPS,HuSDPS,Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject.,FALSE,FALSE
+package#GDPR,domain#R-HuSDPoS,HuSDPoS,"Finds a Stakeholder operating a Process that is using Special Category Data relating to a Human data subject, where the subject operates the Service providing (and controlling) access to the data.",FALSE,FALSE
 package#GDPR,domain#R-NDFHu,NDFHu,Finds nationally regulated personal data being transferred across a border.,FALSE,FALSE
 package#IoT,domain#R-Co,Co,Finds a solo Controller.,FALSE,FALSE
 package#IoT,domain#R-CoPD,CoPD,Finds a Controller and its control input data.,FALSE,FALSE
 package#IoT,domain#R-CoPDS,CoPDS,Finds a Controller with its stored control input data.,FALSE,FALSE
-package#IoT,domain#R-DcTh,DcTh,Finds an IoT Thing and its control input Data.,FALSE,FALSE
 package#IoT,domain#R-DScSePD,DScSePD,"Finds a Sensor with its onboard process and output data, and its stored copy of control input data.",FALSE,FALSE
+package#IoT,domain#R-DcTh,DcTh,Finds an IoT Thing and its control input Data.,FALSE,FALSE
 package#IoT,domain#R-HuiCo,HuiCo,"Finds the control input for an IoT Controller, which is being used interactively by a Human.",FALSE,FALSE
 package#IoT,domain#R-HuiSe,HuiSe,"Finds the control input and sensed output for an IoT Sensor, which is being used interactively by a Human, plus the interactive process that creates the output.",FALSE,FALSE
 package#IoT,domain#R-HuiThaS,HuiThaS,Finds a Human that uses an IoT Thing and has access to a space.,FALSE,FALSE
@@ -260,67 +260,67 @@ package#IoT,domain#R-PpSe,PpSe,"Finds a client Process that polls an IoT Sensor,
 package#IoT,domain#R-PrSe,PrSe,"Finds a an IoT Sensor sending data to a Process, along with the onboard simple communication Process and Data.",FALSE,FALSE
 package#IoT,domain#R-PuCo,PuCo,"Finds a client Process that updates an IoT Controller, along with its control input Data and onboard  communication Process.",FALSE,FALSE
 package#IoT,domain#R-PuSe,PuSe,"Finds a client Process that reads data from an IoT Sensor, along with its onboard simple communication Process and Data.",FALSE,FALSE
+package#IoT,domain#R-SHuTh,SHuTh,Finds a Human managing a Space in which a Thing is located.,FALSE,FALSE
 package#IoT,domain#R-Se,Se,Finds a solo Sensor.,FALSE,FALSE
 package#IoT,domain#R-SePD,SePD,Finds a Sensor with its onboard process and data.,FALSE,FALSE
 package#IoT,domain#R-SesD,SesD,Finds a Sensor and its sensed Data.,FALSE,FALSE
-package#IoT,domain#R-SHuTh,SHuTh,Finds a Human managing a Space in which a Thing is located.,FALSE,FALSE
-package#Legal,domain#R-DFHu,DFHu,Finds the subject of personal data being transferred across a border.,FALSE,FALSE
-package#Legal,domain#R-DSHu,DSHu,Finds the subject personal data being communicated across a border.,FALSE,FALSE
 package#Legal,domain#R-JuHP,JuHP,Finds a host subject to a jurisdiction that is hosting a process.,FALSE,FALSE
 package#Legal,domain#R-JuPHS,JuPHS,Finds a host that runs on or is a physical host located in a space subject to a jurisdiction.,FALSE,FALSE
 package#Legal,domain#R-JuSS,JuSS,Finds a space subject to a jurisdiction which is the entrance to another space.,FALSE,FALSE
+package#Legal,domain#R-DFHu,DFHu,Finds the subject of personal data being transferred across a border.,FALSE,FALSE
+package#Legal,domain#R-DSHu,DSHu,Finds the subject personal data being communicated across a border.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-BPcGcBP,BPcGcBP,Finds a Bluetooth device paired with two other devices.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HBISG,HBISG,Finds a pair of hosts pairing via Bluetooth in a Space.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HBTTHS,HBTTHS,Finds a Host in a Space that accepts pairing via Bluetooth with a TrivialHost.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HL1H,HL1H,"Finds two hosts connected via a Bluetooth or USB pair, and the space in which this connection is established.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HL1HS,HL1HS,"Finds two hosts in a space connected via a Bluetooth or USB pair, and the associated location access contexts.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-HUISG,HUISG,"Finds a pair of hosts pairing via USB, and the space in which they are located.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-HUSBTHS,HUSBTHS,Finds a Host in a Space that accepts pairing via USB with a TrivialHost.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HpBRH,HpBRH,Finds two Physical Hosts that are paired over Bluetooth.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HpURH,HpURH,Finds two Physical Hosts that are paired over USB.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HuiHBTTH,HuiHBTTH,Finds a Human using a Host paired with a TrivialHost via Bluetooth.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HuiHUSBTH,HuiHUSBTH,Finds a Human using a Host paired with a TrivialHost via USB.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-HUISG,HUISG,"Finds a pair of hosts pairing via USB, and the space in which they are located.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumHBTTH,HumHBTTH,Finds a Human managing a Host paired with a TrivialHost via Bluetooth.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,HumHUSBTH,Finds a TrivialHost paired via Bluetooth with another host managed by a Human.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-HUSBTHS,HUSBTHS,Finds a Host in a Space that accepts pairing via USB with a TrivialHost.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host with a pairing connection that is also connected to an IP subnet, all in the same space.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-L1rGcL3,L1rGcL3,"Finds a Bluetooth or USB device connected from a host to an IP subnet, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,L1SSg2,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the segment asset representing the path via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host with a pairing connection that is also connected to an IP subnet, all in the same space.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-L1rGcL3,L1rGcL3,"Finds a Bluetooth or USB device connected from a host to an IP subnet, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGcL1,L3cGcL1,"Finds a Physical Host gateway on an IP subnet with a paring connection, all in the same space.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L3cGrL1,L3cGrL1,"Finds a USB/Bluetooth device connected from an IP subnet to a Host, all in the same space.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-LTethSg2,LTethSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-LTethSg2AC,LTethSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-LPLRTSg,LPLRTSg,Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-LTRevSg2,LTRevSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a reverse tethered gateway to an IP subnet, and the forward path segment via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-LTRevSg2AC,LTRevSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a reverse tethered gateway to an IP subnet, and the forward path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-LTethSg2,LTethSg2,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-LTethSg2AC,LTethSg2AC,"Finds a Host connected via a layer 1 subnet (i.e., Bluetooth or USB) connection and a tethered gateway to an IP subnet, plus the forward and reverse path segment via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-UHDSrP,UHDSrP,"Finds Data stored on a USB Device paired with a USB Host running a service for the Data, where the data is used by a Process running on some host.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDpP,UHDpP,Finds Data stored on a USB Device paired with a USB Host which is running a process that handles the data.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHDrP,UHDrP,"Finds Data stored on a USB Device paired with a USB Host, where the data is used by a Process running on some host.",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-UHDSrP,UHDSrP,"Finds Data stored on a USB Device paired with a USB Host running a service for the Data, where the data is used by a Process running on some host.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UHS,UHS,Finds a USB Host located in a Space.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UPcGrUP,UPcGrUP,Finds a possible USB hub between a USB device and a USB host (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-UPrGcUP,UPrGcUP,Finds a possible USB hub between a USB host and a USB device (it provides the USB Pair from the USB Host).,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-USBD,USBD,Finds Data stored on a USB device.,FALSE,FALSE
-package#LocalDeviceConnectivityInference,domain#R-LPLRTSg,LPLRTSg,Finds path traversing a route between subnets through a gateway which also has a tethering connection to the source subnet.,FALSE,FALSE
 package#Network,domain#R-AC,AC,Finds a solo AuthClient.,FALSE,FALSE
 package#Network,domain#R-AS,AS,Finds a solo authentication/authorisation service.,FALSE,FALSE
 package#Network,domain#R-C,C,Finds a Host that represents a virtual or physical cluster.,FALSE,FALSE
-package#Network,domain#R-CaS,CaS,Finds a client accessing a service.,FALSE,FALSE
-package#Network,domain#R-CcuS,CcuS,Finds a client accessing a service and controlling access to the same service (which should never happen).,FALSE,TRUE
 package#Network,domain#R-CH,CH,Finds a solo Console Host.,FALSE,FALSE
 package#Network,domain#R-CHS,CHS,Finds a Console Host located in a Space.,FALSE,FALSE
 package#Network,domain#R-CS,CS,Finds a client using a service.,FALSE,FALSE
 package#Network,domain#R-CScP,CScP,Finds a client directly or indirectly accessing a service which is controlled by another process.,FALSE,FALSE
+package#Network,domain#R-CaS,CaS,Finds a client accessing a service.,FALSE,FALSE
+package#Network,domain#R-CcuS,CcuS,Finds a client accessing a service and controlling access to the same service (which should never happen).,FALSE,TRUE
 package#Network,domain#R-CuP,CuP,Finds a client accessing a service but not to get authorization decisions about 3rd parties.,FALSE,FALSE
-package#Network,domain#R-CuScS,CuScS,Finds a client using a service for application or authentication and also controlled by the service.,FALSE,TRUE
 package#Network,domain#R-CuSHS,CuSHS,"Finds a Host running both a Client and a Service used by the Client, in a Space.",FALSE,FALSE
+package#Network,domain#R-CuScS,CuScS,Finds a client using a service for application or authentication and also controlled by the service.,FALSE,TRUE
 package#Network,domain#R-DC,DC,Finds a solo Data Centre.,FALSE,FALSE
 package#Network,domain#R-DCH,DCH,Finds a Host resourced by a DataCentre.,FALSE,FALSE
 package#Network,domain#R-DCLS,DCLS,Finds a DataCentre connected to an Abstract Subnet.,FALSE,FALSE
-package#Network,domain#R-DCpLS,DCpLS,"Finds a DataCentre providing a LogicalSubnet, and a router located in the data centre.",FALSE,FALSE
 package#Network,domain#R-DCPS,DCPS,Finds a Process hosted directly on a Data Centre.,FALSE,FALSE
 package#Network,domain#R-DCVHRS,DCVHRS,Finds a Host that is physically in a DataCentre and connected to a WiFi LAN.,FALSE,FALSE
 package#Network,domain#R-DCVHWS,DCVHWS,Finds a Host that is physically in a DataCentre and connected to a Wired LAN.,FALSE,FALSE
 package#Network,domain#R-DCWH,DCWH,"Finds a Data Centre with a router and wired network, in which is located another Fixed Host.",FALSE,FALSE
+package#Network,domain#R-DCpLS,DCpLS,"Finds a DataCentre providing a LogicalSubnet, and a router located in the data centre.",FALSE,FALSE
 package#Network,domain#R-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
 package#Network,domain#R-FpLSS,FpLSS,Finds a Logical Subnet which is provided by a Fixed Host (or a Virtual Host running on it) located in a Space.,FALSE,FALSE
 package#Network,domain#R-GH,GH,Finds a General Host.,FALSE,FALSE
@@ -328,27 +328,30 @@ package#Network,domain#R-H,H,Finds a solo Host.,FALSE,FALSE
 package#Network,domain#R-HAC,HAC,Finds a Host in a Space with the associated access context.,FALSE,FALSE
 package#Network,domain#R-HACP,HACP,Finds a process running on a host in a space and the host location access context.,FALSE,FALSE
 package#Network,domain#R-HCHLSS,HCHLSS,Finds a Host location access context and the related host and space and one related subnet.,FALSE,FALSE
-package#Network,domain#R-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",FALSE,FALSE
 package#Network,domain#R-HHu2,HHu2,Finds a Host with two interactive users.,FALSE,FALSE
 package#Network,domain#R-HIUS,HIUS,Finds a Host in a Space connected to the Internet.,FALSE,FALSE
 package#Network,domain#R-HL3S,HL3S,"Finds a host connected to an L3 subnet, and an associated network access context.",FALSE,FALSE
-package#Network,domain#R-HLnSP,HLnSP,Finds a Login Service and a Process used by it on the same Host.,FALSE,FALSE
 package#Network,domain#R-HLS,HLS,Finds a Host connected to a LogicalSubnet.,FALSE,FALSE
-package#Network,domain#R-Hm2Hu,Hm2Hu,Finds a host and two humans that manage the host.,FALSE,FALSE
+package#Network,domain#R-HLnSP,HLnSP,Finds a Login Service and a Process used by it on the same Host.,FALSE,FALSE
 package#Network,domain#R-HNP,HNP,Finds a Host connected to an Abstract Subnet controlled by a Process.,FALSE,FALSE
 package#Network,domain#R-HP,HP,Finds a Process and its Host.,FALSE,FALSE
 package#Network,domain#R-HPAC,HPAC,Finds a Process running on a Host in a Space and the associated process access context.,FALSE,FALSE
 package#Network,domain#R-HPHLS,HPHLS,Finds a logical subnet to which is connected a host that directly is or indirectly has a physical host.,FALSE,FALSE
+package#Network,domain#R-HRASuPCcS,HRASuPCcS,"Finds a host running a remote access service that launches a process which is used by a client where both it and the client are controlled by the same authenticator, implying the client forwards credentials obtained from the authenticator to the process.",FALSE,FALSE
+package#Network,domain#R-HRASuPScS,HRASuPScS,"Finds a host running a remote access service that launches a process which uses a service, where the service and the process are controlled by the same authenticator, implying that the process accesses the service using a token shared with it by a client.",FALSE,FALSE
+package#Network,domain#R-HRASuPcC,HRASuPcC,"Finds a host running a remote access service that launches a process which is used by a client that it also controls, implying the client forwards credentials to the process.",FALSE,TRUE
+package#Network,domain#R-HRASuPcS,HRASuPcS,"Finds a host running a remote access service that launches a process which uses a service by which it is also controlled, implying that the process uses forwarded credentials to access the service.",FALSE,TRUE
+package#Network,domain#R-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",FALSE,FALSE
+package#Network,domain#R-Hm2Hu,Hm2Hu,Finds a host and two humans that manage the host.,FALSE,FALSE
 package#Network,domain#R-HprL3SAC,HprL3SAC,"Finds a Layer 3 LogicalSubnet provided by a Host, along with an associated network access context.",FALSE,FALSE
 package#Network,domain#R-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,FALSE,FALSE
-package#Network,domain#R-HRASuPcC,HRASuPcC,"Finds a host running a remote access service that launches a process which is used by a client that it also controls, implying the client forwards credentials to the process.",FALSE,TRUE
-package#Network,domain#R-HRASuPCcS,HRASuPCcS,"Finds a host running a remote access service that launches a process which is used by a client where both it and the client are controlled by the same authenticator, implying the client forwards credentials obtained from the authenticator to the process.",FALSE,FALSE
-package#Network,domain#R-HRASuPcS,HRASuPcS,"Finds a host running a remote access service that launches a process which uses a service by which it is also controlled, implying that the process uses forwarded credentials to access the service.",FALSE,TRUE
-package#Network,domain#R-HRASuPScS,HRASuPScS,"Finds a host running a remote access service that launches a process which uses a service, where the service and the process are controlled by the same authenticator, implying that the process accesses the service using a token shared with it by a client.",FALSE,FALSE
 package#Network,domain#R-HuE,HuE,Finds a human interacting with an email client.,FALSE,FALSE
 package#Network,domain#R-HuHE,HuHE,Finds a human interacting with an email client running on a host.,FALSE,FALSE
 package#Network,domain#R-HuHE2AC,HuHE2AC,"Finds a human interacting directly with an email client running on a host in a space, plus the associated location access context.",FALSE,FALSE
+package#Network,domain#R-HuPCH,HuPCH,Finds a Human interacting with a Process running on an Interactive Host.,FALSE,FALSE
+package#Network,domain#R-HuRACP,HuRACP,Finds a human interacting with a remote access client on a local host that is remotely using a process.,FALSE,FALSE
+package#Network,domain#R-HuSP,HuSP,Finds a human user interacting with a smartphone.,FALSE,FALSE
 package#Network,domain#R-Hui2H,Hui2H,Finds a physical Host with two interactive users.,FALSE,FALSE
 package#Network,domain#R-HuiCH,HuiCH,Finds a Human interacting with a console host.,FALSE,FALSE
 package#Network,domain#R-HuiCHLnS,HuiCHLnS,Finds a human interacting with a console host and a login service running on a possibly remote host.,FALSE,FALSE
@@ -370,37 +373,29 @@ package#Network,domain#R-HuirRACP,HuirRACP,Finds a Human interacting remotely wi
 package#Network,domain#R-HumCH,HumCH,Finds a Human managing a Fixed Console Host.,FALSE,FALSE
 package#Network,domain#R-HumCHS,HumCHS,Finds a Human interactively managing a Host located in a space via its console.,FALSE,TRUE
 package#Network,domain#R-HumH,HumH,Finds a Human managing a Host.,FALSE,FALSE
-package#Network,domain#R-HumHcS,HumHcS,Finds a human managing a host that has a remote management service (which may be a Login service).,FALSE,FALSE
 package#Network,domain#R-HumHP,HumHP,Finds a Human managing a host running a process.,FALSE,FALSE
 package#Network,domain#R-HumHRAS,HumHRAS,Finds a human managing a host that has a root privileged remote access service.,FALSE,FALSE
 package#Network,domain#R-HumHSt,HumHSt,Finds a Human managing a Host and their employer.,FALSE,FALSE
+package#Network,domain#R-HumHcS,HumHcS,Finds a human managing a host that has a remote management service (which may be a Login service).,FALSE,FALSE
 package#Network,domain#R-HumP,HumP,Finds a Human managing a Process.,FALSE,FALSE
 package#Network,domain#R-HumPH,HumPH,Finds a Human managing a process running on a host.,FALSE,FALSE
 package#Network,domain#R-HumSH,HumSH,Finds a Human managing a Shell Host.,FALSE,FALSE
 package#Network,domain#R-HuoH,HuoH,Finds a Human operating a Host.,FALSE,FALSE
-package#Network,domain#R-HuPCH,HuPCH,Finds a Human interacting with a Process running on an Interactive Host.,FALSE,FALSE
-package#Network,domain#R-HuRACP,HuRACP,Finds a human interacting with a remote access client on a local host that is remotely using a process.,FALSE,FALSE
-package#Network,domain#R-HuSP,HuSP,Finds a human user interacting with a smartphone.,FALSE,FALSE
 package#Network,domain#R-HuwStmH,HuwStmH,Finds a Human managing a Host and working for an Employer.,FALSE,FALSE
 package#Network,domain#R-HuwStmP,HuwStmP,Finds a Human managing a Process and working for an Employer.,FALSE,FALSE
 package#Network,domain#R-IcP,IcP,Finds a Process controlling an Internet class subnet.,FALSE,FALSE
 package#Network,domain#R-Internet,Internet,Finds an Internet class network.,FALSE,FALSE
 package#Network,domain#R-IpH,IpH,Finds a Host providing an Internet class subnet.,FALSE,FALSE
-package#Network,domain#R-LnScP,LnScP,Finds a login service controlling access to a process.,FALSE,FALSE
-package#Network,domain#R-LnSucP,LnSucP,Finds a remote access service using a process to which it forwards credentials.,FALSE,TRUE
-package#Network,domain#R-LnSuP,LnSuP,Finds a login service using a process.,FALSE,FALSE
 package#Network,domain#R-LS,LS,Finds a solo Logical Subnet.,FALSE,FALSE
+package#Network,domain#R-LnScP,LnScP,Finds a login service controlling access to a process.,FALSE,FALSE
+package#Network,domain#R-LnSuP,LnSuP,Finds a login service using a process.,FALSE,FALSE
+package#Network,domain#R-LnSucP,LnSucP,Finds a remote access service using a process to which it forwards credentials.,FALSE,TRUE
 package#Network,domain#R-MHC,MHC,Finds a solo Mobile Console Host.,FALSE,FALSE
-package#Network,domain#R-MHcIS,MHcIS,Finds a Mobile Console Host in a Public Space connected to the Internet.,FALSE,FALSE
 package#Network,domain#R-MHHS,MHHS,Finds a Host whose physical host is a Mobile Client that may be in a Space.,FALSE,FALSE
+package#Network,domain#R-MHcIS,MHcIS,Finds a Mobile Console Host in a Public Space connected to the Internet.,FALSE,FALSE
 package#Network,domain#R-P,P,Finds a solo Process.,FALSE,FALSE
 package#Network,domain#R-PC,PC,Finds a physical cluster host.,FALSE,FALSE
-package#Network,domain#R-PccP,PccP,"Finds two processes, each of which controls the other.",FALSE,TRUE
-package#Network,domain#R-PcH,PcH,Finds a Process that controls a Host.,FALSE,FALSE
-package#Network,domain#R-PcLS,PcLS,Finds a Process that controls a network.,FALSE,FALSE
 package#Network,domain#R-PCPHLSS,PCPHLSS,"Finds a Process location access context and the related process, host and space and one subnet to which the host is connected. Note that the role names are not the ones usually used because this pattern feeds into a CP where the INS should follow the sequence Host-Process-Subnet.",FALSE,FALSE
-package#Network,domain#R-PcSHLnS,PcSHLnS,Finds a Process controlling a Shell Host that runs a Remote Access Service.,FALSE,FALSE
-package#Network,domain#R-PcWH,PcWH,"Finds a WiFiLAN and its local implementation, plus a controlling process.",FALSE,FALSE
 package#Network,domain#R-PH,PH,Finds a solo physical host.,FALSE,FALSE
 package#Network,domain#R-PH2,PH2,Finds a process with two hosts.,FALSE,FALSE
 package#Network,domain#R-PHH,PHH,Finds a host that directly is or indirectly has a physical host.,FALSE,FALSE
@@ -410,18 +405,23 @@ package#Network,domain#R-PHLSS,PHLSS,Finds a host that directly is or indirectly
 package#Network,domain#R-PHS,PHS,Finds a Physical Host located in a Space.,FALSE,FALSE
 package#Network,domain#R-PMHHS,PMHHS,"Finds a Process running on a host whose physical host is a Mobile Console Host, which may be located in a Space.",FALSE,FALSE
 package#Network,domain#R-PS,PS,Finds a solo Physical Subnet.,FALSE,FALSE
+package#Network,domain#R-PcH,PcH,Finds a Process that controls a Host.,FALSE,FALSE
+package#Network,domain#R-PcLS,PcLS,Finds a Process that controls a network.,FALSE,FALSE
+package#Network,domain#R-PcSHLnS,PcSHLnS,Finds a Process controlling a Shell Host that runs a Remote Access Service.,FALSE,FALSE
+package#Network,domain#R-PcWH,PcWH,"Finds a WiFiLAN and its local implementation, plus a controlling process.",FALSE,FALSE
+package#Network,domain#R-PccP,PccP,"Finds two processes, each of which controls the other.",FALSE,TRUE
 package#Network,domain#R-RAC,RAC,Finds a remote access client.,FALSE,FALSE
 package#Network,domain#R-RACuHRASP,RACuHRASP,"Finds a host running a process and a remote access service that uses the process, and is used by a remote access client.",FALSE,FALSE
 package#Network,domain#R-RACuP,RACuP,Finds a Remote Access Client using a Process.,FALSE,FALSE
 package#Network,domain#R-RACuRHRASP,RACuRHRASP,"Finds a host running a process and a remote access service that uses the process, where both are used remotely by a remote access client.",FALSE,FALSE
 package#Network,domain#R-RAS,RAS,Finds a remote access service.,FALSE,FALSE
-package#Network,domain#R-Rr,Rr,Finds a solo Router.,FALSE,FALSE
 package#Network,domain#R-RSS,RSS,"Finds a Radio Subnet accessible from a Space, and the (abstract) hotspot or cellular network it implements locally.",FALSE,FALSE
 package#Network,domain#R-RSSH,RSSH,"Finds a Radio Subnet accessible from a Space, provided by a gateway host, implementing an (abstract) hotspot or cellular network, plus a context in which the gateway provides the subnet.",FALSE,FALSE
 package#Network,domain#R-RTuHP,RTuHP,Finds a Host running a Process used remotely by a Remote Terminal client.,FALSE,FALSE
 package#Network,domain#R-RTuP,RTuP,Finds a remote terminal using a process plus the process host.,FALSE,FALSE
-package#Network,domain#R-RTurP,RTurP,Finds a remote terminal remotely using a process plus the process host.,FALSE,FALSE
 package#Network,domain#R-RTuRTuS,RTuRTuS,Finds a remote terminal using remotely another remote terminal which is using remotely a third process.,FALSE,FALSE
+package#Network,domain#R-RTurP,RTurP,Finds a remote terminal remotely using a process plus the process host.,FALSE,FALSE
+package#Network,domain#R-Rr,Rr,Finds a solo Router.,FALSE,FALSE
 package#Network,domain#R-SH,SH,Finds a Shell Host.,FALSE,FALSE
 package#Network,domain#R-SHAC,SHAC,Finds a Shell Host in a Space and an associated access context.,FALSE,FALSE
 package#Network,domain#R-SHACP,SHACP,Finds a Process running on a Shell Host in a Space and an associated Host access context.,FALSE,FALSE
@@ -441,20 +441,20 @@ package#Network,domain#R-TH,TH,Finds a solo trivial host.,FALSE,FALSE
 package#Network,domain#R-THGP,THGP,Finds a trivial host running a general process.,FALSE,FALSE
 package#Network,domain#R-TP,TP,Finds a solo trivial process.,FALSE,FALSE
 package#Network,domain#R-WH,WH,Finds a solo WiFiLAN which may be a hotspot.,FALSE,FALSE
-package#Network,domain#R-WiFiSS,WiFiSS,"Finds a WiFi network accessible from a Space, and the subnet it implements locally.",FALSE,FALSE
-package#Network,domain#R-WpHS,WpHS,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN.",FALSE,FALSE
-package#Network,domain#R-WpHSH,WpHSH,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN.",FALSE,FALSE
 package#Network,domain#R-WS,WS,Finds a solo WiFiLAN.,FALSE,FALSE
 package#Network,domain#R-WSS,WSS,Finds a Wired Subnet accessible from a Space.,FALSE,FALSE
 package#Network,domain#R-WSSH,WSSH,Finds a Wired Subnet provided by a gateway Host accessible from a Space.,FALSE,FALSE
+package#Network,domain#R-WiFiSS,WiFiSS,"Finds a WiFi network accessible from a Space, and the subnet it implements locally.",FALSE,FALSE
+package#Network,domain#R-WpHS,WpHS,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN.",FALSE,FALSE
+package#Network,domain#R-WpHSH,WpHSH,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-DDoH,DDoH,"Finds an open network path from the Internet to (but not via) a Host connected to a local subnet, and the associated gateway and target network interfaces.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-GHRS,GHRS,Finds a gateway providing a radio subnet to which a host is connected.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-GHRSi,GHRSi,"Finds a gateway providing a radio subnet to which a host is connected, where the radio subnet implements itself (i.e. it is not the local realisation of a hotspot or cellular network).",TRUE,FALSE
 package#NetworkConnectivity,domain#R-GHWS,GHWS,Finds a gateway providing a wired subnet to which a host is connected.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-HIoH,HIoH,"Finds a Host connected to the Internet, and the associated network Interface.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-HLoH,HLoH,"Finds a Host connected to a Layer 2 Logical Subnet, and the associated network Interface, and a second, remote host on the same subnet.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-HRoH,HRoH,"Finds a Host connected to a Layer 3 Logical Subnet, and the associated network Interface, and a second, remote host on the same subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-HRSGS,HRSGS,"Finds a host connecting to a radio subnet implementing an (abstract) hotspot or cellular network, and a gateway host located in a space that is providing the network.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-HRoH,HRoH,"Finds a Host connected to a Layer 3 Logical Subnet, and the associated network Interface, and a second, remote host on the same subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-HSRS,HSRS,Finds a host located in a space connecting to a radio subnet implementing an (abstract) hotspot or cellular network.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-HSWS,HSWS,Finds a host located in a space connecting to a wired subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-HWSGS,HWSGS,"Finds a client host connecting to a wired network, and a gateway host located in a space that is providing the network.",FALSE,FALSE
@@ -462,50 +462,50 @@ package#NetworkConnectivity,domain#R-I,I,Finds an Interface.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-ILSA,ILSA,Finds an Interface connecting to a Logical Subnet that implements an Abstract Subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-INC,INC,"Finds a solo Interface, plus the associated host, subnet, and a host network access context where the interface is connected.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-IoH,IoH,"Finds an open network path from the Internet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2,L3SSg2,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2+b,L3SSg2+b,"Finds a gateway from one IP subnet to a second IP subnet, along with the segment asset representing the route via the gateway, where this route is blocked by default.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-L3SSg2AC,L3SSg2AC,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3cGcL3,L3cGcL3,"Finds a Host connected from an IP subnet to an IP subnet, both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3cGrL3,L3cGrL3,"Finds a Host connected from an IP subnet to an IP subnet that it provides, both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3rGcL3,L3rGcL3,"Finds a Host connected from an IP subnet to an IP subnet, the former being provided by the Host, and both in the same space.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-L3rGrL3,L3rGrL3,"Finds a Host providing two IP subnets, both in the same space.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-L3SSg2,L3SSg2,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-L3SSg2+b,L3SSg2+b,"Finds a gateway from one IP subnet to a second IP subnet, along with the segment asset representing the route via the gateway, where this route is blocked by default.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-L3SSg2AC,L3SSg2AC,"Finds a gateway from one IP subnet to an IP subnet, along with the segment asset representing the route via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-LoH,LoH,"Detects a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,FALSE,FALSE
-package#NetworkConnectivity,domain#R-NoH,NoH,"Finds an open network path from a remote attacker subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-LoH,LoH,"Detects a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP,NP,Finds a network path (which may or may not be physical).,FALSE,FALSE
+package#NetworkConnectivity,domain#R-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,FALSE,FALSE
+package#NetworkConnectivity,domain#R-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,FALSE,FALSE
+package#NetworkConnectivity,domain#R-NP3,NP3,"Finds a Network Path with a subpath that extends a third path, which does not itself have a subpath relationship to the first.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NPLS,NPLS,Finds a network path that starts and ends on the same logical subnet.,FALSE,TRUE
+package#NetworkConnectivity,domain#R-NoH,NoH,"Finds an open network path from a remote attacker subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-OPLS1,OPLS1,"Finds a zero-length Logical Path and a Path Terminator (NPE) to a Logical Subnet, where there is a Logical Route via a Gateway Host to the Subnet from some other Logical Subnet.",FALSE,TRUE
+package#NetworkConnectivity,domain#R-OPLS2,OPLS2,"Finds a Network Path and terminator to a Logical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
+package#NetworkConnectivity,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RIoH,RIoH,"Finds an open network path to the Internet from a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RNoH,RNoH,"Finds an open network path to a remote attacker subnet from a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
-package#NetworkConnectivity,domain#R-RoH,RoH,"Finds an open network path from a remote attacker L3 subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-RScGcRS,RScGcRS,"Finds a Physical Host connected between two WiFi subnets, both in the same space.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-RoH,RoH,"Finds an open network path from a remote attacker L3 subnet to (but not via) a Host connected to a local subnet, and the associated network interface and access context.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-Sg,Sg,"Finds a logical segment between two subnets, plus the associated gateway host and its inbound and outbound interfaces.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-SgAC,SgAC,"Finds a logical segment between two subnets, plus the associated gateway host, and a host location context where the segment is active.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-SgHfILS,SgHfILS,"Finds a Logical Segment via a Host routing from a Logical Subnet, and the Interface between the Host and Logical Subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-SgHtILS,SgHtILS,"Finds a Logical Segment via a Host routing to a Logical Subnet, and the Interface between the Host and Logical Subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-WScMcWS,WScMcWS,"Finds a Mobile Host connected between two Wired LANs, both in the same space.",FALSE,FALSE
-package#NetworkConnectivityInference,domain#R-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,FALSE,FALSE
-package#NetworkConnectivityInference,domain#R-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,FALSE,FALSE
-package#NetworkConnectivityInference,domain#R-NP3,NP3,"Finds a Network Path with a subpath that extends a third path, which does not itself have a subpath relationship to the first.",FALSE,FALSE
-package#NetworkConnectivityInference,domain#R-OPLS1,OPLS1,"Finds a zero-length Logical Path and a Path Terminator (NPE) to a Logical Subnet, where there is a Logical Route via a Gateway Host to the Subnet from some other Logical Subnet.",FALSE,TRUE
-package#NetworkConnectivityInference,domain#R-OPLS2,OPLS2,"Finds a Network Path and terminator to a Logical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
-package#NetworkConnectivityInference,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
-package#NetworkConnectivityInference,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
-package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
 package#Physical,domain#R-HuPS,HuPS,Finds a Human with access to a Private Space.,FALSE,FALSE
 package#Physical,domain#R-HuPSSt,HuPSSt,"Finds a Human with access to a Private Space, and their employer.",FALSE,FALSE
+package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
 package#Physical,domain#R-PPS,PPS,Finds a Private Physical Space.,FALSE,FALSE
-package#Physical,domain#R-PScSt,PScSt,Finds a private space controlled by a stakeholder.,FALSE,FALSE
 package#Physical,domain#R-PSS,PSS,"Finds two spaces, one of which is accessible via the other.",FALSE,FALSE
+package#Physical,domain#R-PScSt,PScSt,Finds a private space controlled by a stakeholder.,FALSE,FALSE
 package#Physical,domain#R-W,W,Finds a solo World asset (i.e. the inferred global public space).,FALSE,FALSE
 package#Privacy,domain#R-DHuDC,DHuDC,Finds a data asset relating to a human along with a stored copy of the data.,FALSE,FALSE
 package#Privacy,domain#R-DHuDF,DHuDF,Finds a data asset relating to a human along with a flowing copy of the data.,FALSE,FALSE
 package#Privacy,domain#R-Hs,Hs,Finds a solo Health Sensor.,FALSE,FALSE
-package#Privacy,domain#R-HuDoPS,HuDoPS,"Finds a Process that serves data relating to a Human data subject, along with its host and operator.",FALSE,FALSE
 package#Privacy,domain#R-HuDP,HuDP,Finds a Process that is using Data relating to a Human data subject who is a citizen or resident in some jurisdiction.,FALSE,FALSE
-package#Privacy,domain#R-HuDPoS,HuDPoS,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject operates the Service.",FALSE,FALSE
 package#Privacy,domain#R-HuDPS,HuDPS,Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service.,FALSE,FALSE
+package#Privacy,domain#R-HuDPoS,HuDPoS,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject operates the Service.",FALSE,FALSE
 package#Privacy,domain#R-HuDSH,HuDSH,Finds a Host storing Data related to a Human subject.,FALSE,FALSE
+package#Privacy,domain#R-HuDoPS,HuDoPS,"Finds a Process that serves data relating to a Human data subject, along with its host and operator.",FALSE,FALSE
 package#Privacy,domain#R-HurH,HurH,Finds a Human with a related personal device.,FALSE,FALSE
 package#Privacy,domain#R-HurSesD,HurSesD,Finds Data produced as output by a Sensor related to a Human.,FALSE,FALSE
 package#Privacy,domain#R-HurTh,HurTh,"Finds a Thing relating to a Human, plus onboard data and processing.",FALSE,FALSE
@@ -521,20 +521,22 @@ package#ProcessComms,domain#R-ACDFVFC,ACDFVFC,"Finds a data flow encrypted with 
 package#ProcessComms,domain#R-ACDFVFS,ACDFVFS,"Finds a data flow encrypted with keys from a vault, flowing from a service to/via a client, and the associated channel, data and data access. Note that roles FlowsFrom and Service are matched by the same asset(s). Having two roles makes it possible to create links to control strategies using either role name.",FALSE,FALSE
 package#ProcessComms,domain#R-ACDFVTC,ACDFVTC,"Finds a data flow encrypted with keys from a vault, flowing to a client from a service, and the associated auth channel, data and data access. The destination of the flow is matched twice, so they can be referred to by either role name in control strategies.",FALSE,FALSE
 package#ProcessComms,domain#R-ACDFVTS,ACDFVTS,"Finds a data flow encrypted with keys from a vault, flowing to a service from/via a client, and the associated channel, data and data access. Note that roles FlowsTo and Service are matched by the same asset(s). Having two roles makes it possible to create links to control strategies using either role name.",FALSE,FALSE
-package#ProcessComms,domain#R-CACHcLSS,CACHcLSS,"Finds a service accessed by a client via a subnet the client is on, and an associated context for access to the client.",FALSE,FALSE
+package#ProcessComms,domain#R-APxSCtI,APxSCtI,"Finds an Attack Path starting from a subnet off a Service Channel, the path from which extends a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
+package#ProcessComms,domain#R-CzS,CzS,Finds a client providing authorization claims to a remote service.,FALSE,FALSE
+package#ProcessComms,domain#R-CzSzP,CzSzP,Finds a client sending an authorization token to a service which uses a separate OAuth-style process to validate and exchange the token.,FALSE,FALSE
 package#ProcessComms,domain#R-CACHLSS,CACHLSS,"Finds a service accessed by a client via a subnet the client need not normally be on, and an associated context for access to the client.",FALSE,FALSE
-package#ProcessComms,domain#R-CACPaACS,CACPaACS,"Finds a client providing authentication credentials to a process which uses a service to validate those credentials, along with the channels between each pair of processes.",FALSE,FALSE
+package#ProcessComms,domain#R-CACHcLSS,CACHcLSS,"Finds a service accessed by a client via a subnet the client is on, and an associated context for access to the client.",FALSE,FALSE
 package#ProcessComms,domain#R-CACPzACS,CACPzACS,"Finds a client providing indirect authorization credentials to a process which uses a service to validate those credentials, along with the channels between each pair of processes.",FALSE,FALSE
+package#ProcessComms,domain#R-CACPaACS,CACPaACS,"Finds a client providing authentication credentials to a process which uses a service to validate those credentials, along with the channels between each pair of processes.",FALSE,FALSE
 package#ProcessComms,domain#R-CACS,CACS,"Finds a Client and Service with an Auth Channel between them, plus their hosts.",FALSE,FALSE
-package#ProcessComms,domain#R-CACScACP,CACScACP,"Finds a client and process connected via a channel, where the client also uses another service that controls the process, along with the associated channels.",FALSE,FALSE
 package#ProcessComms,domain#R-CACSSaS,CACSSaS,"Finds a channel between a client and a service used to pass authorization tokens, and a second channel from the service to another service used to validate those tokens, along with the hosts of the client and the second service.",FALSE,FALSE
 package#ProcessComms,domain#R-CACSScS,CACSScS,"Finds a channel between a client and a service, where authentication on this channel is controlled by authentication on another channel from the same client to a second service, along with the hosts of the client and the second service.",FALSE,FALSE
-package#ProcessComms,domain#R-CAPlISAP,CAPlISAP,Finds a client attack path via a service attack path where the former has a last interface.,FALSE,FALSE
+package#ProcessComms,domain#R-CACScACP,CACScACP,"Finds a client and process connected via a channel, where the client also uses another service that controls the process, along with the associated channels.",FALSE,FALSE
 package#ProcessComms,domain#R-CAPNPSAP,CAPNPSAP,Finds a Client Attack Path via a Service Attack Path and a Network Path.,FALSE,FALSE
 package#ProcessComms,domain#R-CAPSAP,CAPSAP,Finds a Client Attack Path via a Service Attack Path.,FALSE,FALSE
+package#ProcessComms,domain#R-CAPlISAP,CAPlISAP,Finds a client attack path via a service attack path where the former has a last interface.,FALSE,FALSE
 package#ProcessComms,domain#R-CCAPNoS,CCAPNoS,Finds a service and its host accessed by a client via the associated client channel on a closed client attack path from a logical subnet where messages from the attacker come from the same address as those from the client.,FALSE,FALSE
 package#ProcessComms,domain#R-CCCCAP,CCCCAP,Finds a Client Channel via a proxy Client Channel that goes via an Attack Path.,FALSE,FALSE
-package#ProcessComms,domain#R-CCCfCCS+aFC,CCCfCCS+aFC,"Finds a Client accessing a Service via a Proxy, with the channel between the Client and Service, the channel to the first Proxy, and the client and service hosts, plus a client context in which the client can access the proxy channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCLnS,CCCLnS,"Finds a Client and Remote Access Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCPCCS,CCCPCCS,"Finds a client accessing a reverse proxy that uses a service, via the associated client channels.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCS,CCCS,"Finds a Client and Service with a Client Channel between them, plus their hosts.",FALSE,FALSE
@@ -547,6 +549,10 @@ package#ProcessComms,domain#R-CCCSPDFCCS,CCCSPDFCCS,"Finds a client accessing a 
 package#ProcessComms,domain#R-CCCSPSFCS,CCCSPSFCS,"Finds a client sending a flow of data to a service via a chain of intermediaries, over which the client communications authentication or authorization credentials.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCSPSFSC,CCCSPSFSC,"Finds a client receiving a flow of data from a service via a chain of intermediaries, over which the client communications authentication or authorization credentials.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCSvLS,CCCSvLS,"Finds a Client with a Client Channel to a Service via an adjacent L2 subnet, plus their hosts.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCfCCS+aFC,CCCfCCS+aFC,"Finds a Client accessing a Service via a Proxy, with the channel between the Client and Service, the channel to the first Proxy, and the client and service hosts, plus a client context in which the client can access the proxy channel.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCfS,CCCfS,"Finds a client-service channel, the client and service, and an access context at the client.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCfS+aFC,CCCfS+aFC,"Finds a client-service channel, the client and service, and an access context at the client in which the client can access the channel.",FALSE,FALSE
+package#ProcessComms,domain#R-CCCftS+aFC,CCCftS+aFC,"Finds a client-service channel, the client and service, and an access context on each side, where the channel can be accessed from the client.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCtCCS+aTS,CCCtCCS+aTS,"Finds a Client accessing a Service via a Proxy, with the channel between the Client and Service, the channel from the last Proxy, and a service context in which the service can be accessed via the proxy channel.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCvCCS,CCCvCCS,"Finds a Client accessing a Service via a Proxy, with the Client Channel between the Client and Service, the channel to the Proxy, plus the client and service hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-CCCvCCvLS,CCCvCCvLS,Finds a Client Channel from a Client process that goes via a Logical Subnet and also via another Client Channel (i.e. the client and service communicate via a credential sharing/forwarding chain).,FALSE,FALSE
@@ -560,7 +566,6 @@ package#ProcessComms,domain#R-CCDFSTC,CCDFSTC,"Finds a data flow to a client fro
 package#ProcessComms,domain#R-CCDFSTS,CCDFSTS,"Finds a data flow from/via a client to a service, and the associated client channel, data and the last data step.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDS2FC,CCDS2FC,"Finds a data flowing from/via a client via a service, plus the associated client channel and the data steps from the client and from the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CCDS2TC,CCDS2TC,"Finds a data flowing to/via a client via a service, plus the associated client channel and the data steps to the client and to the service.",FALSE,FALSE
-package#ProcessComms,domain#R-CCfI,CCfI,Finds a Client Channel from an Interface at the Client host.,FALSE,FALSE
 package#ProcessComms,domain#R-CCS,CCS,Finds a client and service connected by a client channel.,FALSE,FALSE
 package#ProcessComms,domain#R-CCSC,CCSC,Finds a client and service connected by a client channel and a service channel.,FALSE,FALSE
 package#ProcessComms,domain#R-CCSCAP,CCSCAP,Finds a Client Channel via a Service Channel that goes via an Attack Path.,FALSE,FALSE
@@ -570,6 +575,7 @@ package#ProcessComms,domain#R-CCSCtI,CCSCtI,Finds a Client Channel via a Service
 package#ProcessComms,domain#R-CCSCtSg,CCSCtSg,Finds a Client Channel via a Service Channel that goes via a Logical Segment.,FALSE,FALSE
 package#ProcessComms,domain#R-CCSCvI,CCSCvI,Finds a Client Channel via a Service Channel that goes via an Interface.,FALSE,FALSE
 package#ProcessComms,domain#R-CCSCvLS,CCSCvLS,Finds a Client Channel via a Service Channel that visits a Logical Subnet.,FALSE,FALSE
+package#ProcessComms,domain#R-CCfI,CCfI,Finds a Client Channel from an Interface at the Client host.,FALSE,FALSE
 package#ProcessComms,domain#R-CCtI,CCtI,Finds a Client Channel to an Interface at the Service host.,FALSE,FALSE
 package#ProcessComms,domain#R-CDBSC,CDBSC,Finds a process acting as a client to a DB in a context where the connection between them is open.,FALSE,FALSE
 package#ProcessComms,domain#R-CDBSCDADS,CDBSCDADS,"Finds a process using a DB service to update data, where the data in this case may or may not normally be accessed via the process.",FALSE,FALSE
@@ -580,12 +586,15 @@ package#ProcessComms,domain#R-CRoSG,CRoSG,"Finds a Service and its Host, a Clien
 package#ProcessComms,domain#R-CRoSI,CRoSI,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface.",FALSE,FALSE
 package#ProcessComms,domain#R-CSAPNaS,CSAPNaS,Finds a host running a service and a closed service attack path to the service from a logical subnet.,FALSE,FALSE
 package#ProcessComms,domain#R-CSCC,CSCC,"Finds a Client and Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
+package#ProcessComms,domain#R-CSCCAPNP4,CSCCAPNP4,"Finds a service channel from a client to a service with a network path from an attacker subnet into the channel via a closed subnet, where the network path is consistent with an extension of the on-channel subpath.",FALSE,FALSE
 package#ProcessComms,domain#R-CSCCHu,CSCCHu,Finds a Human manager of a Service and a Client Channel to the Service from a Client.,FALSE,FALSE
 package#ProcessComms,domain#R-CSCCHuSt,CSCCHuSt,"Finds a Human manager of a Service and their employer, and a Client Channel to the Service from a Client.",FALSE,FALSE
 package#ProcessComms,domain#R-CSCCSC,CSCCSC,Finds a Client and Service with a Client Channel between them and a single associated Service Channel.,FALSE,FALSE
 package#ProcessComms,domain#R-CSCLS,CSCLS,"Finds a client and its host and a service channel to the service via a logical subnet to which the host is connected, plus the associated process access contexts.",FALSE,FALSE
 package#ProcessComms,domain#R-CSCLS+ii,CSCLS+ii,"Finds a client and its host (and physical host) and a service channel to the service via the Internet to which the host need not be connected, accessible from the World in which the host need not be located.",FALSE,FALSE
 package#ProcessComms,domain#R-CSCLS-ii,CSCLS-ii,"Finds a client and its host (and physical host) and a service channel to the service via an L3 subnet to which the host need not be connected, accessible from a space in which the host need not be located.",FALSE,FALSE
+package#ProcessComms,domain#R-CSCscLS,CSCscLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses are obscured by NAT.",FALSE,FALSE
+package#ProcessComms,domain#R-CSCsdLS,CSCsdLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses remain unaltered by NAT.",FALSE,FALSE
 package#ProcessComms,domain#R-CSCvLS,CSCvLS,"Finds a Service Channel from a client process to a service, and a logical subnet visited by it, plus the interface from which the channel enters that subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-CSDS,CSDS,Finds a client and service plus the associated client channel where there is a data step from the client to the service.,FALSE,FALSE
 package#ProcessComms,domain#R-CSHSAC,CSHSAC,Finds a service accessed by a client and an associated context for access to the service.,FALSE,FALSE
@@ -594,58 +603,75 @@ package#ProcessComms,domain#R-CSL1H2,CSL1H2,"Finds a client and service whose ho
 package#ProcessComms,domain#R-CSL3H,CSL3H,"Finds a client channel whose client and service are collocated on a cluster host that is accessible in a space, and an L3 Subnet connecting to the cluster.",FALSE,TRUE
 package#ProcessComms,domain#R-CSLS2H2,CSLS2H2,"Finds a client and service running on different hosts connected to different logical subnets that are not hotspots, and a network path between the two subnets.",FALSE,FALSE
 package#ProcessComms,domain#R-CSLSH2,CSLSH2,Finds a client and service whose hosts are connected to the same logical subnet.,FALSE,TRUE
-package#ProcessComms,domain#R-CucSaP,CucSaP,"Finds a Client using a Service with forwarded or shared credentials, and also using a third Process for authentication which controls the Service.",FALSE,TRUE
 package#ProcessComms,domain#R-CuPiS,CuPiS,Finds a client process using a service indirectly using another service.,FALSE,FALSE
 package#ProcessComms,domain#R-CuPnS,CuPnS,"Finds a client accessing a process that directly or indirectly uses a service, where the process shares or forwards client credentials and sends them to the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CuPuS,CuPuS,Finds a client process using a service using another service.,FALSE,FALSE
 package#ProcessComms,domain#R-CuPuSCC,CuPuSCC,"Finds a client accessing a service indirectly, via one intermediary, plus the auth channels between client and service and between each and the intermediary process.",FALSE,FALSE
-package#ProcessComms,domain#R-CuPvnS,CuPvnS,"Finds a client accessing a process that is in a credential forwarding chain with a service used indirectly by the client (i.e., the service is at the end of the chain).",FALSE,TRUE
 package#ProcessComms,domain#R-CuPvSCC,CuPvSCC,"Finds a client accessing a service indirectly, where there is more than one intermediary, plus the first intermediary adjacent to the client, and channels between client and service and between the client and this intermediary process.",FALSE,FALSE
+package#ProcessComms,domain#R-CuPvnS,CuPvnS,"Finds a client accessing a process that is in a credential forwarding chain with a service used indirectly by the client (i.e., the service is at the end of the chain).",FALSE,TRUE
+package#ProcessComms,domain#R-CuSPvS,CuSPvS,Finds a client using a reverse proxy that uses a service.,FALSE,FALSE
+package#ProcessComms,domain#R-CucSaP,CucSaP,"Finds a Client using a Service with forwarded or shared credentials, and also using a third Process for authentication which controls the Service.",FALSE,TRUE
 package#ProcessComms,domain#R-CuvS,CuvS,Finds a client indirectly accessing a process via a credential sharing/forwarding chain.,FALSE,TRUE
 package#ProcessComms,domain#R-CvPuSCC,CvPuSCC,"Finds a client accessing a service via more than one intermediary, plus the last intermediary adjacent to the service, and channels between client and service and between this intermediary process and the service.",FALSE,FALSE
 package#ProcessComms,domain#R-CvPvSCC,CvPvSCC,"Finds a client accessing a service via at least two intermediaries, and two intermediaries that are adjacent, and the channels between client and service and between these two intermediary processes. Note that the link from the client is to the intermediary proxy that is closer to the service, and vice versa. This guarantees that these two links will be usesIndirectly (indirect) and not accessesService (direct) in the matching system assets.",FALSE,FALSE
-package#ProcessComms,domain#R-CzS,CzS,Finds a client providing authorization claims to a remote service.,FALSE,FALSE
-package#ProcessComms,domain#R-CzSzP,CzSzP,Finds a client sending an authorization token to a service which uses a separate OAuth-style process to validate and exchange the token.,FALSE,FALSE
 package#ProcessComms,domain#R-DDoS,DDoS,"Finds a service and client, where the communication path crosses the Internet.",FALSE,FALSE
 package#ProcessComms,domain#R-DFDSCS,DFDSCS,Finds a DataFlow via a DataStep that flows via a ClientChannel in the direction client to service.,FALSE,FALSE
 package#ProcessComms,domain#R-DFDSSC,DFDSSC,Finds a DataFlow via a DataStep that flows via a ClientChannel in the direction service to client.,FALSE,FALSE
+package#ProcessComms,domain#R-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,FALSE,FALSE
+package#ProcessComms,domain#R-DFfCCCfS,DFfCCCfS,"Finds a client-service channel, the client and service, and an access context at the client where it can access the channel, plus a data flow over the channel from client to service.",FALSE,FALSE
+package#ProcessComms,domain#R-DFfCCCtS,DFfCCCtS,"Finds a client-service channel, the client and service, and an access context at the service where it can be accessed via the channel, plus a data flow over the channel from client to service.",FALSE,FALSE
 package#ProcessComms,domain#R-DFrXSS,DFrXSS,"Finds human using a web browser that uses a service with a host, where the browser receives data from another process, plus the client channel between the browser and the service.",FALSE,FALSE
 package#ProcessComms,domain#R-DFsXSS,DFsXSS,Finds a human using a web browser that accesses a service running on a Host and using inflowing data. The data flow destination is matched twice so it can be referred to in CSGs using different role names.,FALSE,FALSE
-package#ProcessComms,domain#R-DoS,DoS,"Finds a service with its host, and a service attack path to the service from a (possibly remote) subnet.",FALSE,FALSE
+package#ProcessComms,domain#R-DFtCCCfS,DFtCCCfS,"Finds a client-service channel, the client and service, and an access context at the client where it can access the channel, plus a data flow over the channel from service to client.",FALSE,FALSE
+package#ProcessComms,domain#R-DFtCCCtS,DFtCCCtS,"Finds a client-service channel, the client and service, and an access context at the service where it can be accessed via the channel, plus a data flow over the channel from service to client.",FALSE,FALSE
+package#ProcessComms,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
+package#ProcessComms,domain#R-DFuCuS,DFuCuS,"Finds a data flow via two processes, one of which is indirectly a client of the other via a chain of credential sharing/forwarding intermediaries.",FALSE,FALSE
 package#ProcessComms,domain#R-DSrXSS,DSrXSS,"Finds human using a web browser that uses a service with a host, where the browser also uses locally stored data.",FALSE,FALSE
 package#ProcessComms,domain#R-DSsXSS,DSsXSS,Finds a human using a web browser that accesses a service running on a host and using stored input data.,FALSE,FALSE
+package#ProcessComms,domain#R-DoS,DoS,"Finds a service with its host, and a service attack path to the service from a (possibly remote) subnet.",FALSE,FALSE
+package#ProcessComms,domain#R-HDFCFS,HDFCFS,"Finds a Process that receives a data flow from a service over one channel, and sends the same data in a data flow to a service over a second channel.",FALSE,FALSE
+package#ProcessComms,domain#R-HDFSACaiFS,HDFSACaiFS,"Finds a Process that receives a data flow from a client over one channel, and sends the same data in a data flow to a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",FALSE,FALSE
+package#ProcessComms,domain#R-HDFSFC,HDFSFC,"Finds a process that receives data over a channel from a client, and sends the data over a channel from a client, plus the process host.",FALSE,FALSE
+package#ProcessComms,domain#R-HDFcCaiAC,HDFcCaiAC,"Finds a Process that creates data and sends it to a service over one channel, and has a location access context in which it can connect to the service by access may be interrupted.",FALSE,TRUE
+package#ProcessComms,domain#R-HDFcCrAC,HDFcCrAC,"Finds a Process that creates data in a context, and sends it to a service over a channel.",FALSE,TRUE
+package#ProcessComms,domain#R-HDFrSACDFiaS,HDFrSACDFiaS,"Finds a Process that receives a data flow from a client over one channel, and reads data in a data flow from a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",FALSE,FALSE
+package#ProcessComms,domain#R-HDFuCuDFS,HDFuCuDFS,"Finds a Process that reads (needs) a data flow from a service over one channel, and reads (needs) a data flow from a service over a second channel, plus the process host.",FALSE,FALSE
+package#ProcessComms,domain#R-HDFuSC,HDFuSC,"Finds a process that reads (needs) data sent over a channel from a client, and a second channel to the process that may or may not be from a distinct client, plus the process host.",FALSE,FALSE
 package#ProcessComms,domain#R-HLSISC,HLSISC,Finds a host connecting to a logical subnet by authenticating to a controlling service.,FALSE,FALSE
 package#ProcessComms,domain#R-HPdDSCCV,HPdDSCCV,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, plus the data access asset representing the data deserialization, and a channel to a key vault that controls the stored data.",FALSE,FALSE
 package#ProcessComms,domain#R-HPrDSCCV,HPrDSCCV,"Finds a host running a Process with read access (crudr) to a locally stored data copy, plus the data access asset representing the data deserialization, and a channel to a key vault that controls the stored data.",FALSE,FALSE
 package#ProcessComms,domain#R-HuCAP,HuCAP,"Finds a client attack path from a subnet, plus the associated client, service process and service host, and the service and service host managers.",FALSE,FALSE
 package#ProcessComms,domain#R-HuCCCS,HuCCCS,"Finds a User of an interactive Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
+package#ProcessComms,domain#R-HuDFTCS,HuDFTCS,"Finds a Human using a Web Browser that accesses a Service, where the browser consumes a data flow that is viewed by the user, plus the client channel associated with the commnication and data flow.",FALSE,FALSE
 package#ProcessComms,domain#R-HuDFrXSS,HuDFrXSS,"Finds human using a web browser that uses a service with a host and host manager, where the browser also uses inflowing data.",FALSE,FALSE
 package#ProcessComms,domain#R-HuDFsXSS,HuDFsXSS,"Finds a human using a web browser that accesses a service which is using inflowing data and whose host has a manager. The destination of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
-package#ProcessComms,domain#R-HuDFTCS,HuDFTCS,"Finds a Human using a Web Browser that accesses a Service, where the browser consumes a data flow that is viewed by the user, plus the client channel associated with the commnication and data flow.",FALSE,FALSE
+package#ProcessComms,domain#R-HuDSTCS,HuDSTCS,"Finds a Human using a Web Browser that accesses a Service, where the browser consumes a locally stored data input viewed by the user, plus the client channel associated with the data use and client-service commnication.",FALSE,FALSE
 package#ProcessComms,domain#R-HuDSrXSS,HuDSrXSS,"Finds human using a web browser that uses a service with a host and host manager, where the browser also uses locally stored data.",FALSE,FALSE
 package#ProcessComms,domain#R-HuDSsXSS,HuDSsXSS,Finds a human using a web browser that accesses a service which is using stored input data and whose host has a manager.,FALSE,FALSE
-package#ProcessComms,domain#R-HuDSTCS,HuDSTCS,"Finds a Human using a Web Browser that accesses a Service, where the browser consumes a locally stored data input viewed by the user, plus the client channel associated with the data use and client-service commnication.",FALSE,FALSE
 package#ProcessComms,domain#R-HuHW2ACE,HuHW2ACE,"Finds a Human using a web browser running on a host to access email, when the host is located in a space, plus the associated host location access context.",FALSE,FALSE
-package#ProcessComms,domain#R-HuiHCCCS,HuiHCCCS,Finds a Human using a Host to run a Process that is a Client of a Service.,FALSE,FALSE
-package#ProcessComms,domain#R-HuiHrCCCS,HuiHrCCCS,Finds a Human using a Host running a Remote Access Client used to access a Process that is a Client of a Service.,FALSE,FALSE
-package#ProcessComms,domain#R-HuirRACSPH,HuirRACSPH,"Finds a Human interacting remotely with a Process via a Remote Access Clent, plus the Process Host, collocated Remote Access Service, and the Client Channel between the Remote Access Client and the Remote Access Service.",FALSE,FALSE
-package#ProcessComms,domain#R-HuiSP,HuiSP,Finds a Human interactively using a reverse proxy (which is not normally permitted).,FALSE,FALSE
-package#ProcessComms,domain#R-HumCCCS,HumCCCS,"Finds a User managing a Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessComms,domain#R-HuSAP,HuSAP,"Finds a service attack path from a subnet, plus the associated service process and service host, and the service and service host managers.",FALSE,FALSE
 package#ProcessComms,domain#R-HuSC,HuSC,"Finds a service channel representing a privileged communication path to a service, plus the associated service process and service host, and the service and service host managers.",FALSE,FALSE
 package#ProcessComms,domain#R-HuStCCCS,HuStCCCS,"Finds the Employer of a User of an interactive Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
+package#ProcessComms,domain#R-HuiHCCCS,HuiHCCCS,Finds a Human using a Host to run a Process that is a Client of a Service.,FALSE,FALSE
+package#ProcessComms,domain#R-HuiHrCCCS,HuiHrCCCS,Finds a Human using a Host running a Remote Access Client used to access a Process that is a Client of a Service.,FALSE,FALSE
+package#ProcessComms,domain#R-HuiSP,HuiSP,Finds a Human interactively using a reverse proxy (which is not normally permitted).,FALSE,FALSE
+package#ProcessComms,domain#R-HuirRACSPH,HuirRACSPH,"Finds a Human interacting remotely with a Process via a Remote Access Clent, plus the Process Host, collocated Remote Access Service, and the Client Channel between the Remote Access Client and the Remote Access Service.",FALSE,FALSE
+package#ProcessComms,domain#R-HumCCCS,HumCCCS,"Finds a User managing a Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
+package#ProcessComms,domain#R-IDFfCCCftS,IDFfCCCftS,"Finds a client-service channel to a service, and a location context at the service where it can be accessed via the channel, plus a data flow over the channel from client to service which flows to the service in that context and is used as input by the service.",FALSE,FALSE
+package#ProcessComms,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service channel via a closed subnet (before a subsequent NAT gateway) and a network path into the channel via this subnet traversing a single logical segment.,FALSE,FALSE
+package#ProcessComms,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
 package#ProcessComms,domain#R-NPSCCAP,NPSCCAP,Finds an off-channel Client Attack Path via Network Path from an attacker Subnet into a Service Channel.,FALSE,FALSE
 package#ProcessComms,domain#R-OCAPNoS,OCAPNoS,Finds a service and its host accessed by a client via the associated client channel on an open client attack path from a logical subnet where messages from the attacker can be distinguished from those from the client.,FALSE,FALSE
 package#ProcessComms,domain#R-OSAPLaS,OSAPLaS,"Finds a host connected to an L2 subnet running a service, and an open service attack path from the subnet to the service.",FALSE,FALSE
 package#ProcessComms,domain#R-OSAPNaS,OSAPNaS,Finds a host running a service and an open service attack path to the service from a logical subnet.,FALSE,FALSE
+package#ProcessComms,domain#R-PCCPCCS,PCCPCCS,"Finds a reverse proxy accessing another reverse proxy that accesses a service, via the associated client channels.",FALSE,FALSE
 package#ProcessComms,domain#R-PCaFCSCCC,PCaFCSCCC,Finds a client channel via a service channel which is accessible to a client in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCaTSSCAP,PCaTSSCAP,Finds an attack path path via a service channel on which a service is accessible in a process context.,FALSE,FALSE
 package#ProcessComms,domain#R-PCaTSSCCC,PCaTSSCCC,Finds a client channel via a service channel which gives access to a service in a process context.,FALSE,FALSE
-package#ProcessComms,domain#R-PcC,PcC,Finds a client that is controlled by another process.,FALSE,FALSE
-package#ProcessComms,domain#R-PccCuS,PccCuS,"Finds a client using a service for application or authentication, where both client and service are controlled by the same process.",FALSE,FALSE
-package#ProcessComms,domain#R-PCCPCCS,PCCPCCS,"Finds a reverse proxy accessing another reverse proxy that accesses a service, via the associated client channels.",FALSE,FALSE
-package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy controlling another Process.,FALSE,FALSE
 package#ProcessComms,domain#R-PILS,PILS,Finds a Process running on a Host connected via an Interface to a Logical Subnet.,FALSE,FALSE
+package#ProcessComms,domain#R-PcC,PcC,Finds a client that is controlled by another process.,FALSE,FALSE
+package#ProcessComms,domain#R-PcP,PcP,Finds a Process in the role of Proxy controlling another Process.,FALSE,FALSE
+package#ProcessComms,domain#R-PccCuS,PccCuS,"Finds a client using a service for application or authentication, where both client and service are controlled by the same process.",FALSE,FALSE
 package#ProcessComms,domain#R-PnPnS,PnPnS,"Finds a client using a service with shared or forwarded credentials, where the service uses another service in the same way.",FALSE,FALSE
 package#ProcessComms,domain#R-RACvSPHRASP,RACvSPHRASP,"Finds a host running a process and a remote access service that uses the process, and is used by a remote access client  via a reverse proxy chain.",FALSE,FALSE
 package#ProcessComms,domain#R-RDvSPDtS,RDvSPDtS,Finds a remote desktop client using a reverse proxy chain that provides access to a remote desktop service.,FALSE,FALSE
@@ -658,54 +684,28 @@ package#ProcessComms,domain#R-SC,SC,"Finds a client and service connected by a s
 package#ProcessComms,domain#R-SCAPvLS,SCAPvLS,Finds a Host running a Service connected via an Interface to a Subnet visited by a Service Channel via an Attack Path to the Service Process.,FALSE,FALSE
 package#ProcessComms,domain#R-SCCAP,SCCAP,Finds a service channel linked with a closed client attack path from a logical subnet to the service process.,FALSE,FALSE
 package#ProcessComms,domain#R-SCCHNPLS,SCCHNPLS,"Finds a Service Channel via a Logical Path from a Client, the Client Host, Subnet and Interface.",FALSE,FALSE
-package#ProcessComms,domain#R-ScDACDACCDF,ScDACDACCDF,"Finds a data flow to a service from an indirect client, where the client creates the data flow from an inbound data asset controlled by a vault.",FALSE,FALSE
-package#ProcessComms,domain#R-ScDASDACCDF,ScDASDACCDF,"Finds a data flow from a service requested by an indirect client, where the service creates the data flow by decrypting an inbound data asset controlled by a vault.",FALSE,FALSE
 package#ProcessComms,domain#R-SCDS,SCDS,Finds a client and service plus the associated client channel where there is a data step from the service to the client.,FALSE,FALSE
 package#ProcessComms,domain#R-SCLPLSg,SCLPLSg,Finds a service channel via a logical path that traverses a logical segment.,FALSE,FALSE
 package#ProcessComms,domain#R-SCLPvLS,SCLPvLS,Finds a service channel via a logical path that visits a subnet.,FALSE,FALSE
-package#ProcessComms,domain#R-SCLSg,SCLSg,"Finds a service channel that traverses a logical segment, along with the inbound and outbound interfaces to the segment host.",FALSE,FALSE
 package#ProcessComms,domain#R-SCLSI,SCLSI,Finds a Service Channel via a Logical Subnet connected to the service host.,FALSE,FALSE
+package#ProcessComms,domain#R-SCLSg,SCLSg,"Finds a service channel that traverses a logical segment, along with the inbound and outbound interfaces to the segment host.",FALSE,FALSE
+package#ProcessComms,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE
+package#ProcessComms,domain#R-SCLSgvTS,SCLSgvTS,"Finds a Logical Path traversing a logical segment, and the subnets on either side, where source addresses in the subnet after the segment are not meaningfully comparable to client addresses.",FALSE,FALSE
+package#ProcessComms,domain#R-SCNP2CPtI,SCNP2CPtI,Finds a service channel via a client path from a subnet in the channel to an interface on a subnet at or after the start of the attack path.,FALSE,FALSE
 package#ProcessComms,domain#R-SCNSg,SCNSg,"Finds a Service Channel traversing a NAT segment, and the subnets on either side.",FALSE,FALSE
 package#ProcessComms,domain#R-SCsAPtI,SCsAPtI,"Finds an Attack Path from a subnet at the start of a Service Channel, the path from which is a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
 package#ProcessComms,domain#R-SCvLS,SCvLS,"Finds a Service Channel that visits a Logical Subnet, plus the Service and the Interface into the subnet.",FALSE,FALSE
+package#ProcessComms,domain#R-SCxAPtI,SCxAPtI,"Finds an Attack Path starting from a subnet in a Service Channel, the path from which is a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
 package#ProcessComms,domain#R-SOCAP,SOCAP,Finds a service channel linked with an open client attack path from a logical subnet to the service process.,FALSE,FALSE
 package#ProcessComms,domain#R-SP,SP,Finds a reverse proxy process.,FALSE,FALSE
 package#ProcessComms,domain#R-SPNaLnS,SPNaLnS,"Finds a host running a remote access service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-SPNaS,SPNaS,"Finds a host running a service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessComms,domain#R-SPuS,SPuS,Finds a reverse proxy directly using a service.,FALSE,FALSE
-package#ProcessComms,domain#R-SSClIAP,SSClIAP,Finds a service channel from a last interface to a service process via an attack path.,FALSE,FALSE
+package#ProcessComms,domain#R-SPvSPvS,SPvSPvS,"Finds a reverse proxy using a second reverse proxy that uses a service, with mutual authentication at each step.",FALSE,FALSE
 package#ProcessComms,domain#R-SSCLS,SSCLS,"Finds a service and its host and a service channel from a client via a logical subnet to which the host is connected, plus the associated process access contexts.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-APxSCtI,APxSCtI,"Finds an Attack Path starting from a subnet off a Service Channel, the path from which extends a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CCCfS,CCCfS,"Finds a client-service channel, the client and service, and an access context at the client.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CCCfS+aFC,CCCfS+aFC,"Finds a client-service channel, the client and service, and an access context at the client in which the client can access the channel.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CCCftS+aFC,CCCftS+aFC,"Finds a client-service channel, the client and service, and an access context on each side, where the channel can be accessed from the client.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CSCCAPNP4,CSCCAPNP4,"Finds a service channel from a client to a service with a network path from an attacker subnet into the channel via a closed subnet, where the network path is consistent with an extension of the on-channel subpath.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CSCscLS,CSCscLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses are obscured by NAT.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CSCsdLS,CSCsdLS,"Finds a Service Channel from a client process to a service, and a logical subnet from which source addresses remain unaltered by NAT.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-CuSPvS,CuSPvS,Finds a client using a reverse proxy that uses a service.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFfCCCfS,DFfCCCfS,"Finds a client-service channel, the client and service, and an access context at the client where it can access the channel, plus a data flow over the channel from client to service.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFfCCCtS,DFfCCCtS,"Finds a client-service channel, the client and service, and an access context at the service where it can be accessed via the channel, plus a data flow over the channel from client to service.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFtCCCfS,DFtCCCfS,"Finds a client-service channel, the client and service, and an access context at the client where it can access the channel, plus a data flow over the channel from service to client.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFtCCCtS,DFtCCCtS,"Finds a client-service channel, the client and service, and an access context at the service where it can be accessed via the channel, plus a data flow over the channel from service to client.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-DFuCuS,DFuCuS,"Finds a data flow via two processes, one of which is indirectly a client of the other via a chain of credential sharing/forwarding intermediaries.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-HDFcCaiAC,HDFcCaiAC,"Finds a Process that creates data and sends it to a service over one channel, and has a location access context in which it can connect to the service by access may be interrupted.",FALSE,TRUE
-package#ProcessCommsInference,domain#R-HDFcCrAC,HDFcCrAC,"Finds a Process that creates data in a context, and sends it to a service over a channel.",FALSE,TRUE
-package#ProcessCommsInference,domain#R-HDFCFS,HDFCFS,"Finds a Process that receives a data flow from a service over one channel, and sends the same data in a data flow to a service over a second channel.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-HDFrSACDFiaS,HDFrSACDFiaS,"Finds a Process that receives a data flow from a client over one channel, and reads data in a data flow from a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-HDFSACaiFS,HDFSACaiFS,"Finds a Process that receives a data flow from a client over one channel, and sends the same data in a data flow to a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-HDFSFC,HDFSFC,"Finds a process that receives data over a channel from a client, and sends the data over a channel from a client, plus the process host.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-HDFuCuDFS,HDFuCuDFS,"Finds a Process that reads (needs) a data flow from a service over one channel, and reads (needs) a data flow from a service over a second channel, plus the process host.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-HDFuSC,HDFuSC,"Finds a process that reads (needs) data sent over a channel from a client, and a second channel to the process that may or may not be from a distinct client, plus the process host.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-IDFfCCCftS,IDFfCCCftS,"Finds a client-service channel to a service, and a location context at the service where it can be accessed via the channel, plus a data flow over the channel from client to service which flows to the service in that context and is used as input by the service.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-NP1CCAPSC,NP1CCAPSC,Finds a service channel via a closed subnet (before a subsequent NAT gateway) and a network path into the channel via this subnet traversing a single logical segment.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-NP2CCAPSC,NP2CCAPSC,"Finds a service channel via a closed subnet (before a subsequent NAT gateway) with a nework path to the channel via this subnet, and an extension via a logical segment from an attacker subnet.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-SCLSgfTS,SCLSgfTS,Finds a Service Channel traversing a NAT segment (with its interfaces) after which source addresses can be distinguished from a client.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-SCLSgvTS,SCLSgvTS,"Finds a Logical Path traversing a logical segment, and the subnets on either side, where source addresses in the subnet after the segment are not meaningfully comparable to client addresses.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-SCNP2CPtI,SCNP2CPtI,Finds a service channel via a client path from a subnet in the channel to an interface on a subnet at or after the start of the attack path.,FALSE,FALSE
-package#ProcessCommsInference,domain#R-SCxAPtI,SCxAPtI,"Finds an Attack Path starting from a subnet in a Service Channel, the path from which is a subpath of the Service Channel path, a gateway segment visited along that path, and the subnet and interface on the attacker side of that gateway.",FALSE,FALSE
-package#ProcessCommsInference,domain#R-SPvSPvS,SPvSPvS,"Finds a reverse proxy using a second reverse proxy that uses a service, with mutual authentication at each step.",FALSE,FALSE
+package#ProcessComms,domain#R-SSClIAP,SSClIAP,Finds a service channel from a last interface to a service process via an attack path.,FALSE,FALSE
+package#ProcessComms,domain#R-ScDACDACCDF,ScDACDACCDF,"Finds a data flow to a service from an indirect client, where the client creates the data flow from an inbound data asset controlled by a vault.",FALSE,FALSE
+package#ProcessComms,domain#R-ScDASDACCDF,ScDASDACCDF,"Finds a data flow from a service requested by an indirect client, where the service creates the data flow by decrypting an inbound data asset controlled by a vault.",FALSE,FALSE
 package#Users,domain#R-A,A,Finds a solo Adult.,FALSE,FALSE
 package#Users,domain#R-Hu,Hu,Finds a solo Human.,FALSE,FALSE
 package#Virtualisation,domain#R-CCSCHC,CCSCHC,Finds a Client Channel via a Service Channel that depends on connectivity represented by a Host Channel.,FALSE,FALSE
@@ -719,13 +719,15 @@ package#Virtualisation,domain#R-EH,EH,Finds a solo elastically scalable host.,FA
 package#Virtualisation,domain#R-GHVS,GHVS,Finds a gateway providing a virtual subnet to which a host is connected.,FALSE,FALSE
 package#Virtualisation,domain#R-H2dPH2,H2dPH2,Finds two hosts on a virtual subnet and their physical hosts.,FALSE,FALSE
 package#Virtualisation,domain#R-HACVH,HACVH,"Finds a virtual host provisioned by a host in a space, and a location access context for the second host.",FALSE,FALSE
+package#Virtualisation,domain#R-HCLPLSg,HCLPLSg,Finds a host channel via a logical path that traverses a logical segment.,FALSE,FALSE
+package#Virtualisation,domain#R-HCLPvLS,HCLPvLS,Finds a host channel via a logical path that visits a subnet.,FALSE,FALSE
 package#Virtualisation,domain#R-HCLSg,HCLSg,"Finds a host channel that traverses a logical segment, along with the inbound and outbound interfaces to the segment host.",FALSE,FALSE
 package#Virtualisation,domain#R-HL,HL,Finds a solo HostLAN,FALSE,FALSE
-package#Virtualisation,domain#R-HuiVH,HuiVH,Finds a Human interacting with a Virtual Host.,FALSE,FALSE
-package#Virtualisation,domain#R-HumHVH,HumHVH,Finds a VirtualHost provisioned at a Host managed by a Human.,FALSE,FALSE
 package#Virtualisation,domain#R-HVH,HVH,Finds a VirtualHost provisioned at a Host.,FALSE,FALSE
 package#Virtualisation,domain#R-HVHS,HVHS,Finds a VirtualHost provisioned at a Host which is physically located in a Space.,FALSE,FALSE
 package#Virtualisation,domain#R-HVSICSG,HVSICSG,"Finds a host connecting to a virtual subnet, plus the controlling service and connection to it from the authentication client on the host.",FALSE,FALSE
+package#Virtualisation,domain#R-HuiVH,HuiVH,Finds a Human interacting with a Virtual Host.,FALSE,FALSE
+package#Virtualisation,domain#R-HumHVH,HumHVH,Finds a VirtualHost provisioned at a Host managed by a Human.,FALSE,FALSE
 package#Virtualisation,domain#R-LSo,LSo,Finds a solo overlay Logical Subnet.,FALSE,FALSE
 package#Virtualisation,domain#R-LSoLS,LSoLS,Finds a Logical Subnet that is an overlay on another Subnet.,FALSE,FALSE
 package#Virtualisation,domain#R-SC4HVSHC,SC4HVSHC,"Finds a Service Channel crossing a Virtual Subnet between two Hosts, and the Host Channel representing a physical network path supporting this communication.",FALSE,FALSE
@@ -748,5 +750,3 @@ package#Virtualisation,domain#R-VSPSH,VSPSH,Finds a Virtual Subnet provided by a
 package#Virtualisation,domain#R-VSVC4H,VSVC4H,Finds a virtual subnet and two connected hosts with distinct physical hosts between which virtual subnet messages should flow.,FALSE,FALSE
 package#Virtualisation,domain#R-VSVCHC,VSVCHC,Finds a Virtual Subnet via a Virtual Channel via a Host Channel.,FALSE,FALSE
 package#Virtualisation,domain#R-VSVCHCLS,VSVCHCLS,Finds a virtual subnet that uses a physical subnet.,FALSE,FALSE
-package#VirtualisationInference,domain#R-HCLPLSg,HCLPLSg,Finds a host channel via a logical path that traverses a logical segment.,FALSE,FALSE
-package#VirtualisationInference,domain#R-HCLPvLS,HCLPvLS,Finds a host channel via a logical path that visits a subnet.,FALSE,FALSE
