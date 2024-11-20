@@ -1,29 +1,23 @@
 URI,Label,Description,Rank,PresentedAs
 domain#000000,5G,Model of cellular networks (5G and similar).,0,5G
-package#5G,5G,Model of cellular networks (5G and similar).,60,5G
-package#AccessContext,AccessRights,"Model of access rights, restricted to specific contexts.",30,AccessContext
-package#Application,Application,Model of application data and processes,50,Application
+package#5G,5G,Model of cellular networks (5G and similar).,70,5G
+package#AccessContext,AccessRights,"Model of access rights, restricted to specific contexts.",40,AccessContext
+package#Application,Application,Model of application data and processes,60,Application
 package#CloudManagement,CloudManagement,Model of cloud hosting and automated management.,110,CloudManagement
 package#Core,Core,Generic base asset classes,1,Core
-package#DataLifecycle,DataLifecycle,"Model of data processing, movement and persistence.",70,DataLifecycle
-package#DataLifecycleInference,DataLifecycleInference,"Data processing, movement and persistence inference rules and state.",80,DataLifecycleInference
-package#DataStructure,DataStructure,Model of elements (fields) within a Data asset,60,DataStructure
-package#GDPR,GDPR,Model of GDPR compliance requirements.,110,GDPR
-package#IoT,InternetOfThings,Model of network accessible physical sensing and control devices.,80,IoT
-package#Legal,Legal,"Model of legally significant assets, relationships and controls.",100,Legal
+package#DataLifecycle,DataLifecycle,"Model of data processing, movement and persistence.",80,DataLifecycle
+package#DataStructure,DataStructure,Model of elements (fields) within a Data asset,70,DataStructure
+package#GDPR,GDPR,Model of GDPR compliance requirements.,120,GDPR
+package#IoT,InternetOfThings,Model of network accessible physical sensing and control devices.,90,IoT
+package#Legal,Legal,"Model of legally significant assets, relationships and controls.",110,Legal
 package#LocalDeviceConnectivity,LocalDeviceConnectivity,Model of local device connectivity (USB and Bluetooth).,100,LocalDeviceConnectivity
-package#LocalDeviceConnectivityInference,LocalDeviceConnectivityInference,Local device connectivity inference rules and state.,110,LocalDeviceConnectivityInference
-package#Network,Network,"Model of hosts connected to networks, plus control processes.",40,Network
-package#NetworkConnectivity,NetworkConnectivity,Model of network routing and network paths.,50,NetworkConnectivity
-package#NetworkConnectivityInference,NetworkConnectivityInference,Network routes and routing inference rules and state.,60,NetworkConnectivityInference
-package#NetworkInference,NetworkInference,"Host, network and control inference rules and state.",50,NetworkInference
-package#PatientHarms,PatientHarms,Model of patient harms.,100,PatientHarms
-package#Physical,Physical,Physical spaces and physical accessibility.,20,Physical
-package#Privacy,Privacy,Model of personal data including specific types of personal data.,90,Privacy
+package#Network,Network,"Model of hosts connected to networks, plus control processes.",50,Network
+package#NetworkConnectivity,NetworkConnectivity,Model of network routing and network paths.,60,NetworkConnectivity
+package#PatientHarms,PatientHarms,Model of patient harms.,110,PatientHarms
+package#Physical,Physical,Physical spaces and physical accessibility.,30,Physical
+package#Privacy,Privacy,Model of personal data including specific types of personal data.,100,Privacy
 package#ProcessComms,ProcessComms,Model of process-process communications.,90,ProcessComms
-package#ProcessCommsInference,ProcessCommsInference,Process-process communication inference rules and state.,100,ProcessCommsInference
 package#Theft,Theft,Model of device theft and reconnection of stolen devices.,100,Theft
-package#Users,Users,Model of system stakeholders and users.,10,Users
+package#Users,Users,Model of system stakeholders and users.,20,Users
 package#Virtualisation,Virtualisation,Model of device and network virtualisation.,100,Virtualisation
-package#VirtualisationInference,VirtualisationInference,Virtualised host and network dependency inference rules and state.,110,VirtualisationInference
 package#VulnerabilityCVSS,VulnerabilityCVSS,Model of software vulnerabilities based on CVSS v2 metrics.,110,VulnerabilityCVSS
