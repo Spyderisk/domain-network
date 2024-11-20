@@ -115,11 +115,11 @@ package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Server
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#USBHost
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Workstation
 package#Network,domain#above,domain#Host
-package#Network,domain#accessesService,domain#Process
-package#Network,domain#accessibleFrom,domain#Space
 package#Network,domain#accessTo,domain#Host
 package#Network,domain#accessTo,domain#Process
 package#Network,domain#accessVia,domain#LogicalSubnet
+package#Network,domain#accessesService,domain#Process
+package#Network,domain#accessibleFrom,domain#Space
 package#Network,domain#connectedTo,domain#AbstractSubnet
 package#Network,domain#controls,domain#AbstractSubnet
 package#Network,domain#controls,domain#DataCentre
@@ -211,10 +211,10 @@ package#ProcessComms,domain#channelTo,domain#Process
 package#ProcessComms,domain#channelVia,domain#ConnectionAsset
 package#ProcessComms,domain#channelVia,domain#LogicalPath
 package#ProcessComms,domain#controlsChannel,domain#AuthChannel
-package#ProcessComms,domain#flowsViaChannel,domain#AuthChannel
-package#ProcessComms,domain#flowsViaChannel,domain#ClientChannel
 package#ProcessComms,domain#flowsViaCS,domain#AuthChannel
 package#ProcessComms,domain#flowsViaCS,domain#ClientChannel
+package#ProcessComms,domain#flowsViaChannel,domain#AuthChannel
+package#ProcessComms,domain#flowsViaChannel,domain#ClientChannel
 package#ProcessComms,domain#flowsViaSC,domain#AuthChannel
 package#ProcessComms,domain#flowsViaSC,domain#ClientChannel
 package#ProcessComms,domain#fromInterface,domain#Interface
