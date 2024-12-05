@@ -1,5 +1,6 @@
 package,dependsOn
-domain#000000,package#Virtualisation
+domain#000000,package#CloudManagement
+package#5G,package#CloudManagement
 package#5G,package#Virtualisation
 package#AccessContext,package#Physical
 package#Application,package#Network

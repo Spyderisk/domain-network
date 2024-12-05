@@ -24,6 +24,8 @@ package#5G,domain#DNG-PRrBc-rL3-0,domain#Node-FromSubnet-RAN
 package#5G,domain#DNG-PRrBc-rL3-0,domain#Node-ToSubnet-L23Subnet
 package#5G,domain#DNG-PRrBrPR-0,domain#Node-FromSubnet-RAN
 package#5G,domain#DNG-PRrBrPR-0,domain#Node-ToSubnet-RAN
+package#5G,domain#DNG-RANaf2dS-0,domain#Node-OtherSpace-Space
+package#5G,domain#DNG-RANaf2dS-0,domain#Node-Space-Space
 package#5G,domain#DNG-Rc-rGcL3-0,domain#Node-FromSubnet-RAN
 package#5G,domain#DNG-Rc-rGcL3-0,domain#Node-ToSubnet-L23Subnet
 package#5G,domain#DNG-RrBc-rC-0,domain#Node-FromSubnet-RAN

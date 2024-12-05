@@ -17,6 +17,16 @@ package#5G,domain#MADS-LossOfControl-BaseStation,domain#BaseStation,domain#LossO
 package#5G,domain#MADS-LossOfDefaultTW-BaseStation,domain#BaseStation,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-LossOfDefaultTW-RAN,domain#RAN,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-LossOfExploitTW-BaseStation,domain#BaseStation,domain#LossOfExploitTW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-A-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-AU-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-C-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-I-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-M-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-U-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-VA-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-VL-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-VN-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
+package#5G,domain#MADS-LossOfExtrinsic-W-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-LossOfExtrinsicTW-BaseStation,domain#BaseStation,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-LossOfIntrinsicTW-BaseStation,domain#BaseStation,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-LossOfNetworkControl-PrivateCellularNetwork,domain#PrivateCellularNetwork,domain#LossOfNetworkControl,domain#ImpactLevelNegligible
@@ -1096,7 +1106,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-APIServer,domain#APIS
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Container,domain#Container,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
@@ -1144,7 +1153,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-APIServer,domain#API
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Container,domain#Container,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
@@ -1192,7 +1200,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-APIServer,domain#APIS
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Container,domain#Container,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
@@ -1240,7 +1247,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-APIServer,domain#APIS
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Container,domain#Container,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
@@ -1288,7 +1294,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-APIServer,domain#APIS
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Container,domain#Container,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
@@ -1362,7 +1367,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-APIServer,domain#APIS
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Container,domain#Container,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
@@ -1410,7 +1414,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-APIServer,domain#API
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Container,domain#Container,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
@@ -1458,7 +1461,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-APIServer,domain#API
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Container,domain#Container,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
@@ -1506,7 +1508,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-APIServer,domain#API
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Container,domain#Container,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
@@ -1554,7 +1555,6 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-APIServer,domain#APIS
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-ApplicationProcess,domain#ApplicationProcess,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-AuthClient,domain#AuthClient,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-AuthService,domain#AuthService,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
-package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-BaseStation,domain#BaseStation,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Cluster,domain#Cluster,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-CmdLineProcess,domain#CmdLineProcess,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Container,domain#Container,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible

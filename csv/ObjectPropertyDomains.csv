@@ -1,6 +1,7 @@
 package,URI,domain
 domain#000000,domain#000000,domain#PhysicalSubnet
 package#5G,domain#implementsCN,domain#PhysicalSubnet
+package#5G,domain#multiSpace,domain#RAN
 package#AccessContext,domain#accessFrom,domain#AccessContext
 package#Application,domain#amends,domain#Process
 package#Application,domain#amendsData,domain#Human

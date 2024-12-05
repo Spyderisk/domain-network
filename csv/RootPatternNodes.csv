@@ -138,6 +138,9 @@ package#5G,domain#R-PcCNLS,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-PcCNLS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#5G,domain#R-PcCNLS,domain#Node-Process-Process,TRUE
 package#5G,domain#R-RAN,domain#Node-LogicalSubnet-RAN,TRUE
+package#5G,domain#R-RANaf2S,domain#Node-OtherSpace-Space,TRUE
+package#5G,domain#R-RANaf2S,domain#Node-RAN-RAN,TRUE
+package#5G,domain#R-RANaf2S,domain#Node-Space-Space,TRUE
 package#5G,domain#R-RcGcL3,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-RcGcL3,domain#Node-FromSubnet-RAN,TRUE
 package#5G,domain#R-RcGcL3,domain#Node-Gateway-Host,TRUE
@@ -151,6 +154,10 @@ package#5G,domain#R-RrBrL3,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-RrBrL3,domain#Node-FromSubnet-RAN,TRUE
 package#5G,domain#R-RrBrL3,domain#Node-Gateway-Host,TRUE
 package#5G,domain#R-RrBrL3,domain#Node-ToSubnet-L23Subnet,TRUE
+package#5G,domain#R-SRANBS,domain#Node-Gateway-Host,TRUE
+package#5G,domain#R-SRANBS,domain#Node-PhysicalHost-BaseStation,TRUE
+package#5G,domain#R-SRANBS,domain#Node-RAN-RAN,TRUE
+package#5G,domain#R-SRANBS,domain#Node-Space-Space,TRUE
 package#5G,domain#R-UCNSRAN,domain#Node-CellularNetwork-PublicCellularNetwork,TRUE
 package#5G,domain#R-UCNSRAN,domain#Node-CoreNetwork-L3Subnet,TRUE
 package#5G,domain#R-UCNSRAN,domain#Node-RAN-RAN,TRUE
@@ -1630,7 +1637,7 @@ package#Network,domain#R-HuiHPSP,domain#Node-Space-PrivateSpace,TRUE
 package#Network,domain#R-HuiHRAC,domain#Node-Host-Host,TRUE
 package#Network,domain#R-HuiHRAC,domain#Node-Human-Human,TRUE
 package#Network,domain#R-HuiHRAC,domain#Node-RemoteAccessClient-RemoteAccessClient,TRUE
-package#Network,domain#R-HuiHS,domain#Node-Host-PhysicalHost,TRUE
+package#Network,domain#R-HuiHS,domain#Node-Host-InteractiveHost,TRUE
 package#Network,domain#R-HuiHS,domain#Node-Human-Human,TRUE
 package#Network,domain#R-HuiHS,domain#Node-Space-Space,TRUE
 package#Network,domain#R-HuiHSt,domain#Node-Employer-Stakeholder,TRUE
@@ -1643,7 +1650,7 @@ package#Network,domain#R-HuiPCHS,domain#Node-HostAccess-HostContext,TRUE
 package#Network,domain#R-HuiPCHS,domain#Node-Human-Human,TRUE
 package#Network,domain#R-HuiPCHS,domain#Node-Process-Process,TRUE
 package#Network,domain#R-HuiPCHS,domain#Node-Space-Space,TRUE
-package#Network,domain#R-HuiPDaS,domain#Node-Host-PhysicalHost,TRUE
+package#Network,domain#R-HuiPDaS,domain#Node-Host-PersonalHost,TRUE
 package#Network,domain#R-HuiPDaS,domain#Node-Human-Human,TRUE
 package#Network,domain#R-HuiPDaS,domain#Node-Space-Space,TRUE
 package#Network,domain#R-HuiPH,domain#Node-Host-PersonalHost,TRUE

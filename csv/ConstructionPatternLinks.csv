@@ -59,6 +59,7 @@ package#5G,domain#CP-PRrBrPR+OSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-PRrBrPR+OSg,domain#Link-LogicalSegment-via-Gateway
 package#5G,domain#CP-PcCNLS-S+c,domain#Link-Process-controls-LogicalSubnet
 package#5G,domain#CP-RAN+iLS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
+package#5G,domain#CP-RANaf2dS+mS,domain#Link-RAN-multiSpace-RAN
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-via-Gateway
@@ -68,6 +69,7 @@ package#5G,domain#CP-RrBc-rC+NSg,domain#Link-LogicalSegment-via-Gateway
 package#5G,domain#CP-RrBrL3+NSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-RrBrL3+NSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-RrBrL3+NSg,domain#Link-LogicalSegment-via-Gateway
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#Link-PhysicalHost-locatedIn-Space
 package#5G,domain#CP-UCNSRAN-p+BS,domain#Link-BaseStation-connectedTo-CoreNetwork
 package#5G,domain#CP-UCNSRAN-p+BS,domain#Link-BaseStation-hasPhysicalHost-BaseStation
 package#5G,domain#CP-UCNSRAN-p+BS,domain#Link-RAN-providedBy-BaseStation
@@ -617,11 +619,9 @@ package#Network,domain#CP-CS+u,domain#Link-Client-uses-Service
 package#Network,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-accessibleFrom-Space
 package#Network,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
 package#Network,domain#CP-CuSHS+SL,domain#Link-LogicalSubnet-providedBy-Host
-package#Network,domain#CP-DC-C+C,domain#Link-Cluster-hasPhysicalHost-Cluster
 package#Network,domain#CP-DC-C+C,domain#Link-Cluster-isCluster-Cluster
 package#Network,domain#CP-DC-C+C,domain#Link-Cluster-locatedIn-DataCentre
 package#Network,domain#CP-DC-C+C,domain#Link-Cluster-resourcedBy-DataCentre
-package#Network,domain#CP-DC-R+RW,domain#Link-Router-hasPhysicalHost-Router
 package#Network,domain#CP-DC-R+RW,domain#Link-Router-isRouter-Router
 package#Network,domain#CP-DC-R+RW,domain#Link-Router-locatedIn-DataCentre
 package#Network,domain#CP-DC-R+RW,domain#Link-Router-resourcedBy-DataCentre

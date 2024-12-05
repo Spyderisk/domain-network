@@ -9,6 +9,7 @@ package#5G,domain#MP-CNSBSRAN-p,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-PCN-R,domain#Node-Gateway-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-PCNSRAN-p,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#5G,domain#MP-PcCNLS-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
+package#5G,domain#MP-SRAN-mSBS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#5G,domain#MP-UCNSRAN-p,domain#Node-Host-Host,FALSE,TRUE,FALSE
 package#Application,domain#MP-HIP-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#Application,domain#MP-HuiCHDtS-AC,domain#Node-Process-RemoteDesktop,FALSE,TRUE,FALSE

@@ -47,6 +47,8 @@ package#5G,domain#MP-RrBc-rC,domain#Link-ToSubnet-isAbstractSubnet-ToSubnet,TRUE
 package#5G,domain#MP-RrBc-rC,domain#Link-ToSubnet-providedBy-Gateway,TRUE
 package#5G,domain#MP-RrBrL3,domain#Link-ToSubnet-implementsCN-CellularNetwork,TRUE
 package#5G,domain#MP-RrBrL3,domain#Link-ToSubnet-isAbstractSubnet-ToSubnet,TRUE
+package#5G,domain#MP-SRAN-mSBS-S,domain#Link-PhysicalHost-locatedIn-OtherSpace,FALSE
+package#5G,domain#MP-SRAN-mSBS-S,domain#Link-RAN-multiSpace-RAN,TRUE
 package#5G,domain#MP-UCNSRAN-p,domain#Link-RAN-providedBy-Host,FALSE
 package#5G,domain#MP-UCc-rBrUR,domain#Link-FromSubnet-isAbstractSubnet-FromSubnet,TRUE
 package#5G,domain#MP-UCc-rBrUR,domain#Link-FromSubnet-providedBy-Gateway,TRUE

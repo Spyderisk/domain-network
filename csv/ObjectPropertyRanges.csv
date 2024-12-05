@@ -1,6 +1,7 @@
 package,URI,range
 domain#000000,domain#000000,domain#CellularNetwork
 package#5G,domain#implementsCN,domain#CellularNetwork
+package#5G,domain#multiSpace,domain#RAN
 package#AccessContext,domain#accessFrom,domain#Space
 package#Application,domain#amends,domain#Data
 package#Application,domain#amendsData,domain#Data

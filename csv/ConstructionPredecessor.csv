@@ -16,7 +16,6 @@ package#5G,domain#CP-CNRANS+aF,domain#CP-DCpLS+RWS,"link LogicalSubnet-accessibl
 package#5G,domain#CP-CNRS+aF,domain#CP-CNR-CN+CN,"link CoreNetwork-implementsCN-CellularNetwork created, then matched as L3Subnet(LogicalSubnet)-implementsCN-CellularNetwork",FALSE,FALSE
 package#5G,domain#CP-CNRS+aF,domain#CP-CNR-CN+CN,"link CoreNetwork-providedBy-Host(Gateway) created, then matched as L3Subnet(LogicalSubnet)-providedBy-Host(Gateway)",FALSE,FALSE
 package#5G,domain#CP-CNRS+aF,domain#CP-PCNRWI+ct,link Internet-accessibleFrom-World misses L3Subnet(LogicalSubnet)-accessibleFrom-Space created afterwards,FALSE,FALSE
-package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-DCH+l,"link PhysicalHost(Host)-locatedIn-DataCentre created, then matched as BaseStation(PhysicalHost)-locatedIn-Space(OtherSpace)",FALSE,FALSE
 package#5G,domain#CP-CNS-RAN+RAN,domain#CP-CNR-CN+CN,"link CoreNetwork-implementsCN-CellularNetwork created, then matched as L3Subnet(CoreNetwork)-implementsCN-CellularNetwork",FALSE,FALSE
 package#5G,domain#CP-CNS-RAN+RAN,domain#CP-CNRANS+aF,"link CellularNetwork-accessibleFrom-Space created, then matched as CellularNetwork-accessibleFrom-Space",FALSE,FALSE
 package#5G,domain#CP-CNS-RAN+RAN,domain#CP-CNRANS+aF,link RAN(LogicalSubnet)-accessibleFrom-Space misses RAN-accessibleFrom-Space created afterwards,FALSE,FALSE
@@ -40,7 +39,6 @@ package#5G,domain#CP-L3rBrPR+DSg,domain#CP-PCNSRAN-p+BS,"link RAN-providedBy-Bas
 package#5G,domain#CP-L3rBrUR+CSg,domain#CP-PCNSRAN-p+BS,"link RAN-providedBy-BaseStation created, then matched as L23Subnet(FromSubnet)-providedBy-Host(Gateway)",FALSE,FALSE
 package#5G,domain#CP-L3rBrUR+CSg,domain#CP-PCNSRAN-p+BS,"link RAN-providedBy-BaseStation created, then matched as RAN(ToSubnet)-providedBy-Host(Gateway)",FALSE,FALSE
 package#5G,domain#CP-MPCNS+aF,domain#CP-PHH+hPH-1,"link Host-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
-package#5G,domain#CP-PCN+W,domain#CP-CNS+RAN+BS-S+l,link CellularNetwork-accessibleFrom-Space misses PublicCellularNetwork-accessibleFrom-World created afterwards,FALSE,FALSE
 package#5G,domain#CP-PCN-R+R,domain#CP-CuSHS+SL,link Host-hasPhysicalHost-PhysicalHost misses CoreRouter(Router)-hasPhysicalHost-CoreRouter(Router) created afterwards,FALSE,FALSE
 package#5G,domain#CP-PCN-R+R,domain#CP-FCNS+aF,link Host-hasPhysicalHost-PhysicalHost misses CoreRouter(Router)-hasPhysicalHost-CoreRouter(Router) created afterwards,FALSE,FALSE
 package#5G,domain#CP-PCN-R+R,domain#CP-MPCNS+aF,link Host-hasPhysicalHost-PhysicalHost misses CoreRouter(Router)-hasPhysicalHost-CoreRouter(Router) created afterwards,FALSE,FALSE
@@ -71,6 +69,11 @@ package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-LSaS+a,"link LogicalSubnet-accessibl
 package#5G,domain#CP-RrBc-rC+NSg,domain#CP-HLS+cT,"link Host-connectedTo-LogicalSubnet created, then matched as Host(Gateway)-connectedTo-L23Subnet(ToSubnet)",FALSE,FALSE
 package#5G,domain#CP-RrBrL3+NSg,domain#CP-PCNSRAN-p+BS,"link RAN-providedBy-BaseStation created, then matched as L23Subnet(ToSubnet)-providedBy-Host(Gateway)",FALSE,FALSE
 package#5G,domain#CP-RrBrL3+NSg,domain#CP-PCNSRAN-p+BS,"link RAN-providedBy-BaseStation created, then matched as RAN(FromSubnet)-providedBy-Host(Gateway)",FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-DCH+l,"link PhysicalHost(Host)-locatedIn-DataCentre created, then matched here as BaseStation(PhysicalHost)-locatedIn-Space(OtherSpace)",FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-PH+hPH,"link PhysicalHost-hasPhysicalHost-PhysicalHost created, then matched here as link Host(Gateway)-hasPhysicalHost-BaseStation(PhysicalHost)",FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-RANaf2dS+mS,link RAN-multiSpace-RAN created in RANaf2dS+mS should match prohibited RAN-multiSpace-RAN in RANaF2dS.,FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-SHuPH-Hu+m,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should not match FixedHost(Host)-locatedIn-Space in SHuPH-Hu+m,FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-VHPH+hPH,"link VirtualHost-hasPhysicalHost-PhysicalHost created, then matched here as link Host(Gateway)-hasPhysicalHost-BaseStation(PhysicalHost)",FALSE,FALSE
 package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-BSCNSRAN-p+p,link Host(Gateway)-hasPhysicalHost-BaseStation misses BaseStation-hasPhysicalHost-BaseStation created afterwards,FALSE,FALSE
 package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-BSCNSRAN-p+p,link RAN-providedBy-Host misses RAN-providedBy-BaseStation created afterwards,FALSE,FALSE
 package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-BSCNSRAN-p+p,"link RAN-providedBy-Host(Gateway) created, then matched as RAN-providedBy-Host",FALSE,FALSE
@@ -135,8 +138,8 @@ package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link Rem
 package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
 package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteTerminal",FALSE,FALSE
+package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
 package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteDesktop misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
 package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop-usesRemotely-Process misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
@@ -775,10 +778,6 @@ package#Network,domain#CP-CuSHS+SL,domain#CP-HuSP+SMS,"link Smartphone-hosts-SMS
 package#Network,domain#CP-CuSHS+SL,domain#CP-HuSP+SMS,"link Smartphone-hosts-SMSClient(Process) created, then matched as Host-hosts-Process(Service)",FALSE,FALSE
 package#Network,domain#CP-CuSHS+SL,domain#CP-PHH+hPH-1,"link Host-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
 package#Network,domain#CP-DC-C+C,domain#CP-C+iC,asset ClusterHost(Cluster) misses Cluster created afterwards,FALSE,FALSE
-package#Network,domain#CP-DC-C+C,domain#CP-PH-S+W,asset PhysicalHost(Host) misses Cluster created afterwards,FALSE,FALSE
-package#Network,domain#CP-DC-C+C,domain#CP-PH-S+W,link PhysicalHost(Host)-locatedIn-Space misses Cluster-locatedIn-DataCentre created afterwards,FALSE,FALSE
-package#Network,domain#CP-DC-R+RW,domain#CP-PH-S+W,asset PhysicalHost(Host) misses Router created afterwards,FALSE,FALSE
-package#Network,domain#CP-DC-R+RW,domain#CP-PH-S+W,link PhysicalHost(Host)-locatedIn-Space misses Router-locatedIn-DataCentre created afterwards,FALSE,FALSE
 package#Network,domain#CP-DCLS+RWS,domain#CP-DCWH-LS+c,link FixedHost(Host)-connectedTo-LogicalSubnet misses Router-connectedTo-AbstractSubnet(LogicalSubnet) created afterwards,FALSE,FALSE
 package#Network,domain#CP-DCVHRS-H+p,domain#CP-DCLS+RWS,"link Router-connectedTo-AbstractSubnet(LogicalSubnet) created, then matched as Host-connectedTo-WiFiLAN(LogicalSubnet)",FALSE,FALSE
 package#Network,domain#CP-DCVHRS-H+p,domain#CP-PH+hPH,"link PhysicalHost(Host)-hasPhysicalHost-PhysicalHost(Host) created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
@@ -830,7 +829,6 @@ package#Network,domain#CP-HuiHS+cA,domain#CP-DCH+l,"link PhysicalHost(Host)-loca
 package#Network,domain#CP-HuiHS+cA,domain#CP-HuPCH+i,"link Human-interactsWith-InteractiveHost(Host) created, then matched as Human-interactsWith-PhysicalHost(Host)",FALSE,FALSE
 package#Network,domain#CP-HuiPDaS-S+l,domain#CP-HuaSaE+cA,"link Human-canAccess-PublicSpace(Entrance) created, then matched as Human-canAccess-Space",FALSE,FALSE
 package#Network,domain#CP-HuiPDaS-S+l,domain#CP-HuiPH-iD+iP,"link PersonalHost(Host)-isPersonalDevice-PersonalHost(Host) created, then matched as PhysicalHost(Host)-isPersonalDevice-PhysicalHost(Host)",FALSE,FALSE
-package#Network,domain#CP-HuiPDaS-S+l,domain#CP-SHuPH-Hu+m,link FixedHost(Host)-locatedIn-Space misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
 package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HuPCH+i,"link Human-interactsWith-InteractiveHost(Host) created, then matched as Human-interactsWith-PersonalHost(Host)",FALSE,FALSE
 package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HuoH-m+m,link Human(HostManager)-manages-Host misses Human-manages-PersonalHost(Host) created afterwards,FALSE,FALSE
 package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HuoH-m+m,"link Human-manages-Host created, then matched as Human(HostManager)-manages-PersonalHost(Host)",FALSE,FALSE
@@ -859,7 +857,8 @@ package#Network,domain#CP-PCPHLSS+NC,domain#CP-LSaS+a,"link LogicalSubnet-access
 package#Network,domain#CP-PCPHLSS+NC,domain#CP-PHHPS+AC,"link ProcessContext(ProcAccess)-accessFrom-Space created, then matched as ProcessContext(ProcAccess)-accessFrom-Space",FALSE,FALSE
 package#Network,domain#CP-PCPHLSS+NC,domain#CP-PHHPS+AC,"link ProcessContext(ProcAccess)-accessTo-Host created, then matched as ProcessContext(ProcAccess)-accessTo-Host",FALSE,FALSE
 package#Network,domain#CP-PCPHLSS+NC,domain#CP-PHHPS+AC,"link ProcessContext(ProcAccess)-accessTo-Process created, then matched as ProcessContext(ProcAccess)-accessTo-Process",FALSE,FALSE
-package#Network,domain#CP-PH+hPH,domain#CP-SHuPH-Hu+m-Replay1,"link Human-manages-FixedHost(Host) created, then matched as Human(HostManager)-manages-PhysicalHost(Host)",FALSE,FALSE
+package#Network,domain#CP-PH+hPH,domain#CP-DC-C+C,asset Cluster created which should then match node PhysicalHost here.,FALSE,FALSE
+package#Network,domain#CP-PH+hPH,domain#CP-DC-R+RW,asset Router created which should then match node PhysicalHost here.,FALSE,FALSE
 package#Network,domain#CP-PH-S+W,domain#CP-HuiPDaS-S+l,"link PhysicalHost(Host)-locatedIn-Space created, then matched as PhysicalHost(Host)-locatedIn-Space",FALSE,FALSE
 package#Network,domain#CP-PH-S+W,domain#CP-HuiPDaS-S+l,link PhysicalHost(Host)-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-World created afterwards,FALSE,FALSE
 package#Network,domain#CP-PH2dS+iM,domain#CP-DC-C+C,"link Cluster-locatedIn-DataCentre created, then matched as PhysicalHost-locatedIn-Space",FALSE,FALSE
@@ -1039,8 +1038,8 @@ package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel
 package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
 package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
 package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
 package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
 package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
 package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
 package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE

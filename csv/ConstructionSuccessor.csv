@@ -2,8 +2,6 @@ package,URI,hasSuccessor,notes,fake,asserted
 domain#000000,domain#000000,domain#CP-PHH+hPH-2,link Host(Gateway)-hasPhysicalHost-BaseStation misses Host-hasPhysicalHost-PhysicalHost created afterwards,No,No
 package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHH+hPH-2,link Host(Gateway)-hasPhysicalHost-BaseStation misses Host-hasPhysicalHost-PhysicalHost created afterwards,FALSE,FALSE
 package#5G,domain#CP-CNRS+aF,domain#CP-LSaS+a,"link L3Subnet(LogicalSubnet)-accessibleFrom-Space created, then matched as LogicalSubnet-accessibleFrom-Space",FALSE,FALSE
-package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-HuiPDaS-S+l,link BaseStation(PhysicalHost)-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
-package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-VHPH+hPH,link Host(Gateway)-hasPhysicalHost-BaseStation(PhysicalHost) misses VirtualHost-hasPhysicalHost-PhysicalHost created afterwards,FALSE,FALSE
 package#5G,domain#CP-CNS-RAN+RAN,domain#CP-LS-iH+NPE,"asset RAN created, then matched as LogicalSubnet",FALSE,FALSE
 package#5G,domain#CP-CNS-RAN+RAN,domain#CP-PS-iH+PPE,"asset RAN created, then matched as PhysicalSubnet",FALSE,FALSE
 package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
@@ -39,6 +37,12 @@ package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(Logi
 package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
 package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
 package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-DCPHM+p,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match PhysicalHost-locatedIn-DataCentre in DCPHM+p,FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-DCPHW+p,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match PhysicalHost-locatedIn-DataCentre in DCPHW+p,FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-DCWH-LS+c,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match Host-locatedIn-DataCentre in DCWH-LS+c,FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-PH-S+W,link BaseStation(PhysicalHost)-locatedIn-Space created here should match there as PhysicalHost(Host)-locatedIn-Space,FALSE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-PH2dS+iM,PH2dS+iM doesn't really need to follow SRAN-mSBS-S+l,TRUE,FALSE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-SHuPH-Hu+m-Replay1,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match FixedHost(Host)-locatedIn-Space in SHuPH-Hu+m-Replay1,FALSE,FALSE
 package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
 package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
 package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
@@ -150,6 +154,7 @@ package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,link Process-u
 package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,"link Process-uses-Process(Service) created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-L3c-rGc-rL3+OSg,"link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-L3c-rGc-rL3+OSg,"link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
+package#Network,domain#CP-DC-C+C,domain#CP-SHuPH-Hu+m,,TRUE,FALSE
 package#Network,domain#CP-HuiHS+cA,domain#CP-HuaSaE+cA,"link Human-canAccess-Space created, then matched as Human-canAccess-Space",FALSE,FALSE
 package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-HLS+cT,link Host-connectedTo-LogicalSubnet misses Host-connectedTo-LogicalSubnet created afterwards,FALSE,FALSE
 package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HuiPDaS-S+l,link Thing-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
@@ -192,8 +197,8 @@ package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link 
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link DesktopService(Service)-isLnS-DesktopService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link DesktopService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
@@ -224,7 +229,6 @@ package#Virtualisation,domain#CP-HL+iLS,domain#CP-FpLSS+aF,"link HostLAN(Logical
 package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,"link HostLAN-providedBy-Host(SHost) created, then matched as AbstractSubnet(LogicalSubnet)-providedBy-Host",FALSE,FALSE
 package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,"link VirtualHost(Host)-connectedTo-HostLAN created, then matched as Host-connectedTo-AbstractSubnet(LogicalSubnet)",FALSE,FALSE
 package#Virtualisation,domain#CP-HVHS+VS,domain#CP-PHH+hPH-1,link Host(SHost)-hasPhysicalHost-PhysicalHost misses Host-hasPhysicalHost-PhysicalHost created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HprLS+c,"link Human-manages-VirtualHost(Host) created, then matched as Human(HostManager)-manages-Host(Gateway)",FALSE,FALSE
 package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumH-StSt+o,"link Human-manages-VirtualHost(Host) created, then matched as Human(HostManager)-manages-Host",FALSE,FALSE
 package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumHP-im+m,"link Human-manages-VirtualHost(Host) created, then matched as Human(HostManager)-manages-Host",FALSE,FALSE
 package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#CP-HD+s,link Host(SHost)-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE

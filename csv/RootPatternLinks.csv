@@ -123,6 +123,8 @@ package#5G,domain#R-PRrBrPR,domain#Link-ToSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-PRrBrPR,domain#Link-ToSubnet-providedBy-Gateway
 package#5G,domain#R-PcCNLS,domain#Link-LogicalSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-PcCNLS,domain#Link-Process-controls-CellularNetwork
+package#5G,domain#R-RANaf2S,domain#Link-RAN-accessibleFrom-OtherSpace
+package#5G,domain#R-RANaf2S,domain#Link-RAN-accessibleFrom-Space
 package#5G,domain#R-RcGcL3,domain#Link-FromSubnet-accessibleFrom-Space
 package#5G,domain#R-RcGcL3,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-RcGcL3,domain#Link-Gateway-connectedTo-FromSubnet
@@ -135,6 +137,9 @@ package#5G,domain#R-RrBcC,domain#Link-ToSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-RrBrL3,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-RrBrL3,domain#Link-FromSubnet-providedBy-Gateway
 package#5G,domain#R-RrBrL3,domain#Link-ToSubnet-providedBy-Gateway
+package#5G,domain#R-SRANBS,domain#Link-Gateway-hasPhysicalHost-PhysicalHost
+package#5G,domain#R-SRANBS,domain#Link-RAN-accessibleFrom-Space
+package#5G,domain#R-SRANBS,domain#Link-RAN-providedBy-Gateway
 package#5G,domain#R-UCNSRAN,domain#Link-CellularNetwork-accessibleFrom-Space
 package#5G,domain#R-UCNSRAN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
 package#5G,domain#R-UCNSRAN,domain#Link-RAN-accessibleFrom-Space

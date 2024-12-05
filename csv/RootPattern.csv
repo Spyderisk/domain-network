@@ -34,9 +34,11 @@ package#5G,domain#R-PRrBcL3,PRrBcL3,"Finds a host acting as a base station provi
 package#5G,domain#R-PRrBrPR,PRrBrPR,"Finds a host acting as a base station providing two RANs, both of which are part of the same private cellular network.",FALSE,FALSE
 package#5G,domain#R-PcCNLS,PcCNLS,"Finds a process controlling a cellular network, and a logical subnet that implements part of the cellular network.",FALSE,FALSE
 package#5G,domain#R-RAN,RAN,Finds a solo cellular Radio Access Network.,FALSE,FALSE
+package#5G,domain#R-RANaf2S,RANaf2S,Finds a cellular Radio Access Network accessible from two Spaces.,FALSE,FALSE
 package#5G,domain#R-RcGcL3,RcGcL3,"Finds a host connected to a RAN in a cellular network, and an L2 or L3 Subnet accessible in the same Space as the RAN.",FALSE,FALSE
 package#5G,domain#R-RrBcC,RrBcC,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a cellular network.",FALSE,FALSE
 package#5G,domain#R-RrBrL3,RrBrL3,"Finds a host acting as a base station providing a RAN in a cellular network, and also providing an L2 or L3 Subnet.",FALSE,FALSE
+package#5G,domain#R-SRANBS,SRANBS,Finds a RAN accessibleFrom a Space and providedBy a Gateway that runs on (or is) a Base Station.,FALSE,FALSE
 package#5G,domain#R-UCNSRAN,UCNSRAN,Finds a backbone network implementing a public cellular network accessible from a space in which it has a radio access network.,FALSE,FALSE
 package#5G,domain#R-UCcBrUR,UCcBrUR,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a public cellular network.",FALSE,FALSE
 package#5G,domain#R-URrBcL3,URrBcL3,"Finds a host acting as a base station providing a RAN in a public cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
