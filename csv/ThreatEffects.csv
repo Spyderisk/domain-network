@@ -8,8 +8,8 @@ package#AIHarms,domain#D.Ml-F.DiuPmlmpDp.0,domain#MS-LossOfFairness-Output
 package#AIHarms,domain#D.Ml-F.PmlmpDp.0,domain#MS-LossOfFairness-Data
 package#AIHarms,domain#D.Ml-F.PtatPmlmpaDmp.0,domain#MS-LossOfFairness-ModelParameters
 package#AIHarms,domain#D.Ml-I.PtatPmlmpaDmp.0,domain#MS-LossOfIntegrity-ModelParameters
-package#AIHarms,domain#P.Ml-F.PmlmpaDmp.0.0,domain#MS-LossOfFairProcessing-MLModel
-package#AIHarms,domain#P.Ml-F.PmlmpaDmp.0.1,domain#MS-LossOfFairProcessing-MLModel
+package#AIHarms,domain#P.Ml-F.PmlmpDmp.0.0,domain#MS-LossOfFairProcessing-MLModel
+package#AIHarms,domain#P.Ml-F.PmlmpDmp.0.1,domain#MS-LossOfFairProcessing-MLModel
 package#AIHarms,domain#P.Ml-F.PtautDt.0.0,domain#MS-LossOfFairProcessing-MLTrainingAlgorithm
 package#AIHarms,domain#P.Ml-F.PtautDt.0.1,domain#MS-LossOfFairProcessing-MLTrainingAlgorithm
 package#AIHarms,domain#P.Ml-R.PmlmpDmp.0.0,domain#MS-LossOfReliability-MLModel
