@@ -546,6 +546,10 @@ package#NetworkConnectivity,domain#MP-RoH,domain#Node-Internet-Internet,FALSE,TR
 package#NetworkConnectivity,domain#MP-Sg,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivityInference,domain#MP-OPLS2,domain#Node-Host-Host,TRUE,FALSE,FALSE
 package#NetworkConnectivityInference,domain#MP-OPPS2,domain#Node-Host-Host,TRUE,FALSE,FALSE
+package#PatientHarms,domain#MP-Hupd-Dh,domain#Node-DiagnosisData-HealthData,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,domain#Node-Clinician-Adult,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,domain#Node-Controller-Controller,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-Hupdt-Dh,domain#Node-TreatmentData-HealthData,FALSE,TRUE,FALSE
 package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,domain#Node-Clinician-Adult,FALSE,TRUE,FALSE
 package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,domain#Node-Controller-Controller,FALSE,TRUE,FALSE
 package#Physical,domain#MP-HuPSoSt,domain#Node-Employer-Stakeholder,FALSE,FALSE,FALSE

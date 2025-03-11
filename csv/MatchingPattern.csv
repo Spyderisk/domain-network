@@ -592,7 +592,10 @@ package#PatientHarms,domain#MP-HuctHupatDt,HuctHupatDt,"Human (Clinician) is tre
 package#PatientHarms,domain#MP-HuctHupiDt,HuctHupiDt,A Clinician treating a Patient interacts with the patient treatment plan that is Data to take the instructed actions to treat patient.,domain#R-HuctHupiDt,FALSE,FALSE
 package#PatientHarms,domain#MP-Hup,Hup,Finds a solo Human (Patient).,domain#R-Hup,FALSE,FALSE
 package#PatientHarms,domain#MP-HupatDt,HupatDt,"A Patient administering their treatment, as defined by their Data treatment plan, via self-care.",domain#R-HupatDt,FALSE,FALSE
-package#PatientHarms,domain#MP-Hupdt-Dh,Hupdt-Dh,A Human (Patient) that has a definesTreatmentFor relationship leading to them which does not come from a Health Data asset.,domain#R-Hup,FALSE,FALSE
+package#PatientHarms,domain#MP-Hupd-Dh,Hupd-Dh,A Human (Patient) that has a diagnosisFor relationship leading to them which does not come from a Health Data asset.,domain#R-Hupd,FALSE,FALSE
+package#PatientHarms,domain#MP-HupDdtat,HupDdtat,Finds a solo Human (Patient) with Data defining their treatment and the Patient administering the treatment via self-care.,domain#R-HupDdtat,FALSE,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,HupDdt-at-Hucat-Ctat,Finds a solo Human (Patient) with Data defining their treatment but without the Patient administering the treatment via self-care or a Clinician or Actuator administering the treatment.,domain#R-HupDdt,FALSE,TRUE
+package#PatientHarms,domain#MP-Hupdt-Dh,Hupdt-Dh,A Human (Patient) that has a definesTreatmentFor relationship leading to them which does not come from a Health Data asset.,domain#R-Hupdt,FALSE,FALSE
 package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,HupvdDdt-Hucat-Ctat,"A patient viewing Data that defines their treatment, without a Clinician or Controller (Actuator) being present to administer the treatment.",domain#R-HupvdDdt,FALSE,FALSE
 package#Physical,domain#MP-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,domain#R-HuaSaE,FALSE,FALSE
 package#Physical,domain#MP-HuPSoSt,HuPSoSt,"Finds a Human with access to a Private Space, and an optional employer of the Human.",domain#R-HuPS,FALSE,FALSE

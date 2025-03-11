@@ -1006,6 +1006,11 @@ package#NetworkConnectivityInference,domain#MP-OPPS2,domain#Link-PPE-pVia-FromSu
 package#PatientHarms,domain#MP-CttHupDct-at,domain#Link-Controller-administersTreatment-Data,TRUE
 package#PatientHarms,domain#MP-CttHupDct-dt,domain#Link-Data-definesTreatmentFor-Patient,TRUE
 package#PatientHarms,domain#MP-CttHup-rel,domain#Link-Controller-relatesTo-Patient,TRUE
+package#PatientHarms,domain#MP-Hupd-Dh,domain#Link-DiagnosisData-diagnosisFor-Patient,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,domain#Link-Clinician-administersTreatment-Data,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,domain#Link-Controller-administersTreatment-Data,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,domain#Link-Patient-administersTreatment-Data,TRUE
+package#PatientHarms,domain#MP-Hupdt-Dh,domain#Link-TreatmentData-definesTreatmentFor-Patient,FALSE
 package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,domain#Link-Clinician-administersTreatment-Data,FALSE
 package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,domain#Link-Controller-administersTreatment-Data,FALSE
 package#Physical,domain#MP-HuPSoSt,domain#Link-Human-worksFor-Employer,FALSE

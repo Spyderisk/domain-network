@@ -1900,6 +1900,11 @@ package#PatientHarms,domain#R-HuctHupiDt,domain#Link-Clinician-treats-Patient
 package#PatientHarms,domain#R-HuctHupiDt,domain#Link-Data-definesTreatmentFor-Patient
 package#PatientHarms,domain#R-HupatDt,domain#Link-Data-definesTreatmentFor-Patient
 package#PatientHarms,domain#R-HupatDt,domain#Link-Patient-administersTreatment-Data
+package#PatientHarms,domain#R-Hupd,domain#Link-Data-diagnosisFor-Patient
+package#PatientHarms,domain#R-HupDdt,domain#Link-Data-definesTreatmentFor-Patient
+package#PatientHarms,domain#R-HupDdtat,domain#Link-Data-definesTreatmentFor-Patient
+package#PatientHarms,domain#R-HupDdtat,domain#Link-Patient-administersTreatment-Data
+package#PatientHarms,domain#R-Hupdt,domain#Link-Data-definesTreatmentFor-Patient
 package#PatientHarms,domain#R-HupvdDdt,domain#Link-Data-definesTreatmentFor-Patient
 package#PatientHarms,domain#R-HupvdDdt,domain#Link-Patient-viewsData-Data
 package#Physical,domain#R-HuaSaE,domain#Link-Human-canAccess-Space

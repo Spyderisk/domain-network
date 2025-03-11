@@ -431,6 +431,7 @@ package#PatientHarms,domain#CSG-RealTimeDataUnneeded,domain#Dh.Ph-I.CttHupatDdt.
 package#PatientHarms,domain#CSG-RealTimeDataUnneeded,domain#Dh.Ph-I.HucdHupcdDd.0
 package#PatientHarms,domain#CSG-RealTimeDataUnneeded,domain#Dh.Ph-I.HuctHupatDt.0
 package#PatientHarms,domain#CSG-RealTimeDataUnneeded,domain#Dh.Ph-I.HupatDt.0
+package#PatientHarms,domain#CSG-SelfCareTreatment,domain#Hu.E.HupDdtat.9
 package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Dh.Ph-I.CttHupatDdt.0
 package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Dh.Ph-I.HucdHupcdDd.0
 package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Dh.Ph-I.HuctHupatDt.0

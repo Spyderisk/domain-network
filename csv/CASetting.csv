@@ -1575,6 +1575,9 @@ package#PatientHarms,domain#CAS-RealTimeDataUnneeded-HealthData,domain#HealthDat
 package#PatientHarms,domain#CAS-RealTimeDataUnneeded-SensedData,domain#SensedData,domain#RealTimeDataUnneeded,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#PatientHarms,domain#CAS-RealTimeDataUnneeded-SensitiveData,domain#SensitiveData,domain#RealTimeDataUnneeded,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#PatientHarms,domain#CAS-RealTimeDataUnneeded-SpamData,domain#SpamData,domain#RealTimeDataUnneeded,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#PatientHarms,domain#CAS-SelfCareTreatment-Adult,domain#Adult,domain#SelfCareTreatment,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#PatientHarms,domain#CAS-SelfCareTreatment-Child,domain#Child,domain#SelfCareTreatment,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#PatientHarms,domain#CAS-SelfCareTreatment-Human,domain#Human,domain#SelfCareTreatment,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#PatientHarms,domain#CAS-WaitForUptoDateData-BiometricData,domain#BiometricData,domain#WaitForUptoDateData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#PatientHarms,domain#CAS-WaitForUptoDateData-ControlData,domain#ControlData,domain#WaitForUptoDateData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#PatientHarms,domain#CAS-WaitForUptoDateData-Data,domain#Data,domain#WaitForUptoDateData,TRUE,domain#TrustworthinessLevelSafe,TRUE

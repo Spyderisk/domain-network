@@ -494,6 +494,10 @@ package#PatientHarms,domain#R-HuctHupatDt,HuctHupatDt,"Human (Clinician) is trea
 package#PatientHarms,domain#R-HuctHupiDt,HuctHupiDt,A Clinician treating a Patient interacts with the patient treatment plan that is Data to take the instructed actions to treat patient.,FALSE,FALSE
 package#PatientHarms,domain#R-Hup,Hup,Finds a solo Human (Patient).,FALSE,FALSE
 package#PatientHarms,domain#R-HupatDt,HupatDt,"A Patient administering their treatment, as defined by their Data treatment plan, via self-care.",FALSE,TRUE
+package#PatientHarms,domain#R-Hupd,Hupd,Finds a solo Human (Patient) that has a diagnosisFor relationship leading to them from a data asset.,FALSE,FALSE
+package#PatientHarms,domain#R-HupDdt,HupDdt,Finds a solo Human (Patient) with Data defining their treatment.,FALSE,FALSE
+package#PatientHarms,domain#R-HupDdtat,HupDdtat,Finds a solo Human (Patient) with Data defining their treatment and them administering that treatment via self-care practices.,FALSE,TRUE
+package#PatientHarms,domain#R-Hupdt,Hupdt,Finds a solo Human (Patient) that has a definesTreatmentFor relationship leading to them from a data asset.,FALSE,FALSE
 package#PatientHarms,domain#R-HupvdDdt,HupvdDdt,A patient viewing Data that defines their treatment.,FALSE,TRUE
 package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
 package#Physical,domain#R-HuPS,HuPS,Finds a Human with access to a Private Space.,FALSE,FALSE
