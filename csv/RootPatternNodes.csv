@@ -1946,6 +1946,9 @@ package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-LogicalSubnet-Lo
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-OldPath-PhysicalPath,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-PPE-PPE,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,domain#Node-ToSubnet-LogicalSubnet,TRUE
+package#PatientHarms,domain#R-CtHupDctdt,domain#Node-Controller-Controller,TRUE
+package#PatientHarms,domain#R-CtHupDctdt,domain#Node-Data-Data,TRUE
+package#PatientHarms,domain#R-CtHupDctdt,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-CttHup,domain#Node-Controller-Controller,TRUE
 package#PatientHarms,domain#R-CttHup,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-CttHupatDdt,domain#Node-Controller-Controller,TRUE
@@ -1954,9 +1957,14 @@ package#PatientHarms,domain#R-CttHupatDdt,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-CttHupDct,domain#Node-Controller-Controller,TRUE
 package#PatientHarms,domain#R-CttHupDct,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-CttHupDct,domain#Node-Patient-Human,TRUE
+package#PatientHarms,domain#R-HucdHup,domain#Node-Clinician-Adult,TRUE
+package#PatientHarms,domain#R-HucdHup,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HucdHupcdDd,domain#Node-Clinician-Adult,TRUE
 package#PatientHarms,domain#R-HucdHupcdDd,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-HucdHupcdDd,domain#Node-Patient-Human,TRUE
+package#PatientHarms,domain#R-HucdHupDd,domain#Node-Clinician-Adult,TRUE
+package#PatientHarms,domain#R-HucdHupDd,domain#Node-Data-Data,TRUE
+package#PatientHarms,domain#R-HucdHupDd,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HucdHupiDd,domain#Node-Clinician-Adult,TRUE
 package#PatientHarms,domain#R-HucdHupiDd,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-HucdHupiDd,domain#Node-Patient-Human,TRUE
@@ -1980,6 +1988,8 @@ package#PatientHarms,domain#R-HupDdt,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-HupDdt,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HupDdtat,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-HupDdtat,domain#Node-Patient-Human,TRUE
+package#PatientHarms,domain#R-HupDhd,domain#Node-Data-Data,TRUE
+package#PatientHarms,domain#R-HupDhd,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-Hupdt,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-Hupdt,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HupvdDdt,domain#Node-Data-Data,TRUE

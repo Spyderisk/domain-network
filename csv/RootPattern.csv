@@ -485,10 +485,13 @@ package#NetworkConnectivityInference,domain#R-OPLS1,OPLS1,"Finds a zero-length L
 package#NetworkConnectivityInference,domain#R-OPLS2,OPLS2,"Finds a Network Path and terminator to a Logical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
 package#NetworkConnectivityInference,domain#R-OPPS1,OPPS1,"Finds a zero-length Physical Path and a Path Terminator (PPE) to a Physical Subnet, where there is a Logical Route via a Physical Gateway Host to the Subnet from some other Physical Subnet.",FALSE,TRUE
 package#NetworkConnectivityInference,domain#R-OPPS2,OPPS2,"Finds a Physical Path and terminator to a Physical Subnet, where there is a Logical Route to the (possibly different) Subnet at the start of the Path.",FALSE,FALSE
+package#PatientHarms,domain#R-CtHupDctdt,CtHupDctdt,"A Controller (Actuator) treating a patient being controlled by thing Data that also definesTreatment for a Human (Patient), but where there is no link to the Controller treating the Patient.",FALSE,FALSE
 package#PatientHarms,domain#R-CttHup,CttHup,A Controller (Actuator) treating a patient.,FALSE,FALSE
 package#PatientHarms,domain#R-CttHupatDdt,CttHupatDdt,Controller (Actuator) treating a Patient directly by applying the Data treatment plan that controls it and that defines the treatment for the Patient.,FALSE,FALSE
 package#PatientHarms,domain#R-CttHupDct,CttHupDct,A Controller (Actuator) being controlled by thing Data and treating a Human (Patient).,FALSE,FALSE
+package#PatientHarms,domain#R-HucdHup,HucdHup,"Clinician diagnosing patient, but without a link where they interact with some monitoring Data to confirm the diagnosis.",FALSE,FALSE
 package#PatientHarms,domain#R-HucdHupcdDd,HucdHupcdDd,Clinician diagnosing patient interacts with monitoring Data to confirm the diagnosis.,FALSE,FALSE
+package#PatientHarms,domain#R-HucdHupDd,HucdHupDd,"Clinician diagnosing patient and monitoring Data that confirms the diagnosis, but no link to assert that the Clinician confirms the diagnosis of the Data.",FALSE,FALSE
 package#PatientHarms,domain#R-HucdHupiDd,HucdHupiDd,A Clinician diagnosing a Patient interacts with the patient monitoring data that is Data to confirm the diagnosis.,FALSE,FALSE
 package#PatientHarms,domain#R-HuctHup,HuctHup,Human (Clinician) is treating a Human (Patient).,FALSE,FALSE
 package#PatientHarms,domain#R-HuctHupatDt,HuctHupatDt,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Data, which defines the treatemnt for the Human (Patient).",FALSE,FALSE
@@ -499,6 +502,7 @@ package#PatientHarms,domain#R-HupatDt,HupatDt,"A Patient administering their tre
 package#PatientHarms,domain#R-Hupd,Hupd,Finds a solo Human (Patient) that has a diagnosisFor relationship leading to them from a data asset.,FALSE,FALSE
 package#PatientHarms,domain#R-HupDdt,HupDdt,Finds a solo Human (Patient) with Data defining their treatment.,FALSE,FALSE
 package#PatientHarms,domain#R-HupDdtat,HupDdtat,Finds a solo Human (Patient) with Data defining their treatment and them administering that treatment via self-care practices.,FALSE,TRUE
+package#PatientHarms,domain#R-HupDhd,HupDhd,"Finds data that is a diagnosisFor a Human (Patient), where a Clinician is not present to preform the diagnosis.",FALSE,FALSE
 package#PatientHarms,domain#R-Hupdt,Hupdt,Finds a solo Human (Patient) that has a definesTreatmentFor relationship leading to them from a data asset.,FALSE,FALSE
 package#PatientHarms,domain#R-HupvdDdt,HupvdDdt,A patient viewing Data that defines their treatment.,FALSE,TRUE
 package#Physical,domain#R-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,FALSE,FALSE
