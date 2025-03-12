@@ -1960,9 +1960,14 @@ package#PatientHarms,domain#R-HucdHupcdDd,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HucdHupiDd,domain#Node-Clinician-Adult,TRUE
 package#PatientHarms,domain#R-HucdHupiDd,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-HucdHupiDd,domain#Node-Patient-Human,TRUE
+package#PatientHarms,domain#R-HuctHup,domain#Node-Clinician-Adult,TRUE
+package#PatientHarms,domain#R-HuctHup,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HuctHupatDt,domain#Node-Clinician-Adult,TRUE
 package#PatientHarms,domain#R-HuctHupatDt,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-HuctHupatDt,domain#Node-Patient-Human,TRUE
+package#PatientHarms,domain#R-HuctHupDdt,domain#Node-Clinician-Adult,TRUE
+package#PatientHarms,domain#R-HuctHupDdt,domain#Node-Data-Data,TRUE
+package#PatientHarms,domain#R-HuctHupDdt,domain#Node-Patient-Human,TRUE
 package#PatientHarms,domain#R-HuctHupiDt,domain#Node-Clinician-Adult,TRUE
 package#PatientHarms,domain#R-HuctHupiDt,domain#Node-Data-Data,TRUE
 package#PatientHarms,domain#R-HuctHupiDt,domain#Node-Patient-Human,TRUE

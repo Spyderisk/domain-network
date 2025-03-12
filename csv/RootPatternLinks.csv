@@ -1892,9 +1892,12 @@ package#PatientHarms,domain#R-HucdHupcdDd,domain#Link-Data-diagnosisFor-Patient
 package#PatientHarms,domain#R-HucdHupiDd,domain#Link-Clinician-diagnoses-Patient
 package#PatientHarms,domain#R-HucdHupiDd,domain#Link-Clinician-interactsWithData-Data
 package#PatientHarms,domain#R-HucdHupiDd,domain#Link-Data-diagnosisFor-Patient
+package#PatientHarms,domain#R-HuctHup,domain#Link-Clinician-treats-Patient
 package#PatientHarms,domain#R-HuctHupatDt,domain#Link-Clinician-administersTreatment-Data
 package#PatientHarms,domain#R-HuctHupatDt,domain#Link-Clinician-treats-Patient
 package#PatientHarms,domain#R-HuctHupatDt,domain#Link-Data-definesTreatmentFor-Patient
+package#PatientHarms,domain#R-HuctHupDdt,domain#Link-Clinician-treats-Patient
+package#PatientHarms,domain#R-HuctHupDdt,domain#Link-Data-definesTreatmentFor-Patient
 package#PatientHarms,domain#R-HuctHupiDt,domain#Link-Clinician-interactsWithData-Data
 package#PatientHarms,domain#R-HuctHupiDt,domain#Link-Clinician-treats-Patient
 package#PatientHarms,domain#R-HuctHupiDt,domain#Link-Data-definesTreatmentFor-Patient

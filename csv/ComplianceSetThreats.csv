@@ -73,6 +73,8 @@ package#Network,domain#Anomalies,domain#P.E.THGP.9
 package#Network,domain#Anomalies,domain#W.E.WmPH.9
 package#NetworkConnectivity,domain#Anomalies,domain#H.E.RScGcRS.9
 package#NetworkConnectivity,domain#Anomalies,domain#H.E.WScMcWS.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HuctHup-Ddt.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HuctHupDdt-at.9
 package#PatientHarms,domain#Anomalies,domain#Hu.E.Hupd-Dh.9
 package#PatientHarms,domain#Anomalies,domain#Hu.E.HupDdtat.9
 package#PatientHarms,domain#Anomalies,domain#Hu.E.HupDdt-at-Hucat-Ctat.9

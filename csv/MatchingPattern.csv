@@ -589,6 +589,8 @@ package#PatientHarms,domain#MP-CttHup-rel,CttHup-rel,A Controller (Actuator) tre
 package#PatientHarms,domain#MP-HucdHupcdDd,HucdHupcdDd,Clinician diagnosing patient interacts with monitoring Data to confirm the diagnosis.,domain#R-HucdHupcdDd,FALSE,FALSE
 package#PatientHarms,domain#MP-HucdHupiDd,HucdHupiDd,A Clinician diagnosing a Patient interacts with the patient monitoring data that is Data to confirm the diagnosis.,domain#R-HucdHupiDd,FALSE,FALSE
 package#PatientHarms,domain#MP-HuctHupatDt,HuctHupatDt,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Data, which defines the treatemnt for the Human (Patient).",domain#R-HuctHupatDt,FALSE,FALSE
+package#PatientHarms,domain#MP-HuctHup-Ddt,HuctHup-Ddt,Human (Clinician) is treating a Human (Patient) but there is no data that defines the treatment for the Human (Patient).,domain#R-HuctHup,FALSE,FALSE
+package#PatientHarms,domain#MP-HuctHupDdt-at,HuctHupDdt-at,"Human (Clinician) is treating a Human (Patient), with Data present that defines the treatment for the Patient but not with the assertion that the Clinician administers this treatment.",domain#R-HuctHupDdt,FALSE,FALSE
 package#PatientHarms,domain#MP-HuctHupiDt,HuctHupiDt,A Clinician treating a Patient interacts with the patient treatment plan that is Data to take the instructed actions to treat patient.,domain#R-HuctHupiDt,FALSE,FALSE
 package#PatientHarms,domain#MP-Hup,Hup,Finds a solo Human (Patient).,domain#R-Hup,FALSE,FALSE
 package#PatientHarms,domain#MP-HupatDt,HupatDt,"A Patient administering their treatment, as defined by their Data treatment plan, via self-care.",domain#R-HupatDt,FALSE,FALSE
