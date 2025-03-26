@@ -1,242 +1,152 @@
 package,URI,hasSuccessor,notes,fake,asserted
-domain#000000,domain#000000,domain#CP-PHH+hPH-2,link Host(Gateway)-hasPhysicalHost-BaseStation misses Host-hasPhysicalHost-PhysicalHost created afterwards,No,No
-package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHH+hPH-2,link Host(Gateway)-hasPhysicalHost-BaseStation misses Host-hasPhysicalHost-PhysicalHost created afterwards,FALSE,FALSE
-package#5G,domain#CP-CNRS+aF,domain#CP-LSaS+a,"link L3Subnet(LogicalSubnet)-accessibleFrom-Space created, then matched as LogicalSubnet-accessibleFrom-Space",FALSE,FALSE
-package#5G,domain#CP-CNS-RAN+RAN,domain#CP-LS-iH+NPE,"asset RAN created, then matched as LogicalSubnet",FALSE,FALSE
-package#5G,domain#CP-CNS-RAN+RAN,domain#CP-PS-iH+PPE,"asset RAN created, then matched as PhysicalSubnet",FALSE,FALSE
-package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-CrCcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3cCrPC+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-from-L3Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3cCrUC+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-L3rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-HprLS+c,"link RAN-providedBy-BaseStation created, then matched as LogicalSubnet-providedBy-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-PRrBrPR+OSg,domain#CP-L3c-rGc-rL3+OSg,"link OpenSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-RAN+iLS,domain#CP-FcLSS+aF,"link RAN(LogicalSubnet)-isLocalSubnet-RAN(LogicalSubnet) created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE
-package#5G,domain#CP-RAN+iLS,domain#CP-FpLSS+aF,"link RAN(LogicalSubnet)-isLocalSubnet-RAN(LogicalSubnet) created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE
-package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-L3c-rGc-rL3+OSg,"link DeNATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-RrBc-rC+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-RrBrL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link NATSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-DCPHM+p,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match PhysicalHost-locatedIn-DataCentre in DCPHM+p,FALSE,FALSE
-package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-DCPHW+p,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match PhysicalHost-locatedIn-DataCentre in DCPHW+p,FALSE,FALSE
-package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-DCWH-LS+c,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match Host-locatedIn-DataCentre in DCWH-LS+c,FALSE,FALSE
-package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-PH-S+W,link BaseStation(PhysicalHost)-locatedIn-Space created here should match there as PhysicalHost(Host)-locatedIn-Space,FALSE,FALSE
-package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-PH2dS+iM,PH2dS+iM doesn't really need to follow SRAN-mSBS-S+l,TRUE,FALSE
-package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-SHuPH-Hu+m-Replay1,link BaseStation(PhysicalHost)-locatedIn-Space created by SRAN-mSBS-S+l should match FixedHost(Host)-locatedIn-Space in SHuPH-Hu+m-Replay1,FALSE,FALSE
-package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#5G,domain#CP-URrBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,link RemoteDesktop(Process)-uses-DesktopService misses Process(Client)-uses-Process(Service) created afterwards,FALSE,FALSE
-package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,"link RemoteDesktop-uses-DesktopService created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-isLnS-LoginService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link RemoteTerminal(RemoteAccessClient)-uses-LoginService(Service) created, then matched as RemoteAccessClient-uses-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteAccessService misses RemoteAccessClient-usesRemotely-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteAccessService misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,"link Container-above-Host created, then matched as Host-above-Host(SHost)",FALSE,FALSE
-package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,"link Container-above-Host created, then matched as VirtualHost-above-Host",FALSE,FALSE
-package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHRS-H+p,"link Container-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
-package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHVS-H+p,"link Container-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
-package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHWS-H+p,"link Container-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
-package#CloudManagement,domain#CP-DCCM-A+A,domain#CP-VHHsD-HsS-S+S,"link Master(CloudMaster)-hosts-APIServer created, then matched as Host-hosts-Process(DB)",FALSE,FALSE
-package#CloudManagement,domain#CP-DCCM-P+P,domain#CP-VHHsD-HsS-S+S,"link Master(CloudMaster)-hosts-Ingress created, then matched as Host-hosts-Process(DB)",FALSE,FALSE
-package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,"link Master(CloudMaster)-connectedTo-VXLAN(VirtualSubnet) created, then matched as Host-connectedTo-VirtualSubnet(LogicalSubnet)",FALSE,FALSE
-package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,"link Worker(CloudWorker)-connectedTo-VXLAN(VirtualSubnet) created, then matched as Host-connectedTo-VirtualSubnet(LogicalSubnet)",FALSE,FALSE
-package#CloudManagement,domain#CP-DCVHC+p,domain#CP-HVH-a+a,"link VirtualHost-provisionedBy-Cluster created, then matched as VirtualHost(Host)-provisionedBy-Host(SHost)",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHDtS-AC+AC,"link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created, then matched as Human-interactsRemotelyWith-DesktopService",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHLnS-AC+AC,"link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created, then matched as Human-interactsRemotelyWith-LoginService",FALSE,FALSE
-package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-Hc-pN-hP+AC,link Container-hosts-Process misses Host-hosts-AuthClient created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,link Human(HostManager)-manages-Container misses Human-manages-VirtualHost(Host) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,"link Human(ProcessManager)-manages-Container created, then matched as Human(HostManager)-manages-VirtualHost(Host)",FALSE,FALSE
-package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,"link Human(ProcessManager)-manages-Container created, then matched as Human-manages-Host(SHost)",FALSE,FALSE
-package#CloudManagement,domain#CP-KIP-S+c,domain#CP-CS+u,link Ingress-accessesService-Process misses Process(Client)-uses-Process(Service) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,link Host(CHost)-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,link Host-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,link Master(CloudMaster)-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCazSI+az,domain#CP-HcWHS+c,link Worker(CloudWorker)-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,link Host(CHost)-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,link Host-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,link Master(CloudMaster)-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,link Worker(CloudWorker)-connectedTo-LogicalSubnet misses Host-connectedTo-WiFiLAN(LogicalSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,link Master(CloudMaster)-connectedTo-LogicalSubnet misses VirtualHost-connectedTo-VXLAN(VirtualSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,"link Pod-connectedTo-ClusterIP created, then matched as VirtualHost-connectedTo-LogicalSubnet",FALSE,FALSE
-package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,link Worker(CloudWorker)-connectedTo-LogicalSubnet misses VirtualHost-connectedTo-VXLAN(VirtualSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHDtS-AC+AC,link ShellHost(Host)-hosts-Process misses ConsoleHost-hosts-RemoteDesktop created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHLnS-AC+AC,link ShellHost(Host)-hosts-Process misses ConsoleHost-hosts-RemoteTerminal created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-PodCnP+c,domain#CP-VHHsD-HsS-S+S,link Container-hosts-Process misses Host-hosts-DataService created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,link Container-hosts-Process misses Host-hosts-DataService created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,"link Container-stores-Data created, then matched as Host(SHost)-stores-Data",FALSE,FALSE
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,"link Container-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,"link Container-stores-Data created, then matched as VirtualHost-stores-Data",FALSE,FALSE
-package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,link Process-handles-Data misses DataService-serves-Data created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-HuiHRAC+i,"link Container-hosts-Process created, then matched as Host-hosts-RemoteAccessClient",FALSE,FALSE
-package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeOD+vD,"link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD+aD,"link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD-a+a,"link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeOD+vD,"link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD+aD,"link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-HuirPeUD-a+a,"link SMSClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeOD+vD,"link WebBrowser-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD+aD,"link WebBrowser-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD-a+a,"link WebBrowser-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-CuSHS+SL,"link Process-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-CuSHS+SL,"link Process-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-CuSHS+SL,"link Process-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#IoT,domain#CP-DcTh+s,domain#CP-HD+s,"link Thing-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWE+D,"link Human-interactsWith-Process created, then matched as Human-interactsRemotelyWith-EmailClient(MUA)",FALSE,FALSE
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HHuWE+D,"link Human-interactsWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuE+e,"link Human-interactsWith-Process created, then matched as Human-interactsRemotelyWith-EmailClient(MUA)",FALSE,FALSE
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+D,"link Human-interactsWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+e,"link Human-interactsWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
-package#IoT,domain#CP-HuiSe+Rel,domain#CP-RDuHP-iPL-RAS+DtS,link Sensor-hosts-Process misses Host-hosts-DesktopService(Service) created afterwards,FALSE,FALSE
-package#IoT,domain#CP-HumThP-m+m,domain#CP-RDuHP-iPL-RAS+DtS,link Thing-hosts-Process misses Host-hosts-DesktopService(Service) created afterwards,FALSE,FALSE
-package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-CS+u,"link Process(Client)-uses-SensorProcess(SimpleProcess) created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
-package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-PD+h,"link Process(Client)-receives-Data created, then matched as Process-handles-Data",FALSE,FALSE
-package#IoT,domain#CP-PrSe+Rel,domain#CP-CS+u,"link SensorProcess(SimpleProcess)-uses-Process(Client) created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
-package#IoT,domain#CP-PrSe+Rel,domain#CP-PD+h,"link Process(Client)-receives-Data created, then matched as Process-handles-Data",FALSE,FALSE
-package#IoT,domain#CP-PuSe+Rel,domain#CP-CS+u,"link Process(Client)-uses-SensorProcess(SimpleProcess) created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
-package#IoT,domain#CP-PuSe+Rel,domain#CP-PD+h,"link Process(Client)-reads-Data created, then matched as Process-handles-Data",FALSE,FALSE
-package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HuiPDaS-S+l,link Thing-locatedIn-Space misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
-package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,link Human(HostManager)-manages-Thing misses Human(ProcessManager)-manages-Host created afterwards,FALSE,FALSE
-package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HumPH-m+m,"link Human-manages-Thing created, then matched as Human(HostManager)-manages-Host",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-L3c-rGc-rL3+OSg,"link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,link Host-locatedIn-Space misses PhysicalHost(Host)-locatedIn-World created afterwards,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,"link TrivialHost-locatedIn-Space created, then matched as PhysicalHost(Host)-locatedIn-Space",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-PH-S+W,link TrivialHost-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-World created afterwards,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FpLSS+aF,"link BluetoothPair-isLocalSubnet-BluetoothPair created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-FpLSS+aF,"link BluetoothPair-providedBy-PhysicalHost(RemoteHost) created, then matched as LogicalSubnet-providedBy-Host",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-HprLS+c,"link BluetoothPair-providedBy-PhysicalHost(RemoteHost) created, then matched as LogicalSubnet-providedBy-Host(Gateway)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-LS-iH+NPE,"asset BluetoothPair created, then matched as LogicalSubnet",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-PS-iH+PPE,"asset BluetoothPair created, then matched as PhysicalSubnet",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FpLSS+aF,"link USBPair-isLocalSubnet-USBPair created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-FpLSS+aF,"link USBPair-providedBy-PhysicalHost(RemoteHost) created, then matched as LogicalSubnet-providedBy-Host",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-HprLS+c,"link USBPair-providedBy-PhysicalHost(RemoteHost) created, then matched as LogicalSubnet-providedBy-Host(Gateway)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-LS-iH+NPE,"asset USBPair created, then matched as LogicalSubnet",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-PS-iH+PPE,"asset USBPair created, then matched as PhysicalSubnet",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,link Human(HostManager)-manages-TrivialHost misses Human-manages-Host created afterwards,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,link Human-manages-Host misses Human-manages-Host created afterwards,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiH-Hu+m,"link Human-manages-TrivialHost created, then matched as Human(HostManager)-manages-Host",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-HumTHS+cA,domain#CP-HuaSaE+cA,"link Human(HostManager)-canAccess-Space created, then matched as Human-canAccess-Space",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link TetheringSegment(LogicalSegment)-to-L23Subnet(ToSubnet) created, then matched as LogicalSegment(RetSegment)-to-L3Subnet(ToSubnet)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-L3c-rGc-rL3+OSg,"link TetheringSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-from-L23Subnet(FromSubnet) created, then matched as LogicalSegment(RetSegment)-from-L3Subnet(FromSubnet)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,link Process(Service)-uses-Process(DB) misses Process(Client)-uses-Process(Service) created afterwards,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,link Process-uses-Process(Client) misses Process(Client)-uses-Process(Service) created afterwards,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,"link Process-uses-Process(Service) created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-L3c-rGc-rL3+OSg,"link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-L3c-rGc-rL3+OSg,"link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
-package#Network,domain#CP-DC-C+C,domain#CP-SHuPH-Hu+m,,TRUE,FALSE
-package#Network,domain#CP-HuiHS+cA,domain#CP-HuaSaE+cA,"link Human-canAccess-Space created, then matched as Human-canAccess-Space",FALSE,FALSE
-package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-HLS+cT,link Host-connectedTo-LogicalSubnet misses Host-connectedTo-LogicalSubnet created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HuiPDaS-S+l,link Thing-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,link Human(HostManager)-manages-Thing misses Human-manages-Thing created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,"link Human-manages-Thing created, then matched as Human(HostManager)-manages-Thing",FALSE,FALSE
-package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,"link Stakeholder(Employer)-operates-Host created, then matched as Stakeholder(Operator)-operates-FixedHost(Host)",FALSE,FALSE
-package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,link Stakeholder(Operator)-operates-Host misses Stakeholder-operates-FixedHost(Host) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,"link Process(Service)-usesForAuthZ-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Client) created, then matched as DataExchange-connectsData-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Client) created, then matched as DataExchange-connectsData-Process(DB)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Service) created, then matched as DataExchange-connectsData-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Service) created, then matched as DataExchange-connectsData-Process(DB)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Proxy) misses DesktopService(Service)-uses-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Proxy) misses RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Service) misses DesktopService(Service)-uses-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Service) misses RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PDOScDD-DS+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDI-DD+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDIcD+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HuSP+SMS,asset Process(Proxy) misses SMSClient(Process) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-HuWES+e,"link Process(Client)-uses-Process(Service) created, then matched as WebBrowser-uses-EmailService(MUA)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,"link DataCache(DataCopy)-fulfils-DataFlow created, then matched as DataCache-fulfils-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,"link DataFlow-fulfils-DataCache(DataCopy) created, then matched as DataFlow-fulfils-DataCache",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,"link DataCache(DataCopy)-fulfils-DataFlow created, then matched as DataCache-fulfils-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,"link DataFlow-fulfils-DataCache(DataCopy) created, then matched as DataFlow-fulfils-DataCache",FALSE,FALSE
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HHuWE+D,"link Human-interactsRemotelyWith-Process created, then matched as Human-interactsRemotelyWith-EmailClient(MUA)",FALSE,FALSE
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HHuWE+D,"link Human-interactsRemotelyWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuE+e,"link Human-interactsRemotelyWith-Process created, then matched as Human-interactsRemotelyWith-EmailClient(MUA)",FALSE,FALSE
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuSP+SMS,link Host(SHost)-hosts-Process misses Smartphone-hosts-SMSClient(Process) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuWES+D,"link Human-interactsRemotelyWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteDesktop",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteTerminal",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteAccessService",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link DesktopService(Service)-isLnS-DesktopService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link DesktopService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link Host-hosts-DesktopService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link Host-hosts-DesktopService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,link Host-hosts-Process misses Host-hosts-LoginService(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,link Host-hosts-RemoteAccessService misses Host-hosts-LoginService(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,link Process-isLnS-Process misses LoginService(Service)-isLnS-LoginService(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,link RemoteAccessService-uses-Process misses LoginService(Service)-uses-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-InteractiveProcess(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,"link RemoteTerminal(RemoteAccessClient)-usesRemotely-ConsoleProcess(Process) created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,"link RemoteTerminal(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-isLnS-LoginService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RAS+noDU,"asset LoginService(Service) created, then matched as RemoteAccessService",FALSE,FALSE
-package#ProcessComms,domain#CP-SP+iP,domain#CP-RACuP-iP+uR,"link ServiceProxy(Proxy)-isProxy-ServiceProxy(Proxy) created, then matched as Process-isProxy-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,"link Process(Service)-usesForAuthZ-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#CP-DCpLS+RWS,"link VXLAN(VirtualSubnet)-providedBy-DataCentre created, then matched as LogicalSubnet-providedBy-DataCentre",FALSE,FALSE
-package#Virtualisation,domain#CP-HL+iLS,domain#CP-FcLSS+aF,"link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE
-package#Virtualisation,domain#CP-HL+iLS,domain#CP-FpLSS+aF,"link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE
-package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,"link HostLAN-providedBy-Host(SHost) created, then matched as AbstractSubnet(LogicalSubnet)-providedBy-Host",FALSE,FALSE
-package#Virtualisation,domain#CP-HVHS+VS,domain#CP-Hc-pN-hP+AC,"link VirtualHost(Host)-connectedTo-HostLAN created, then matched as Host-connectedTo-AbstractSubnet(LogicalSubnet)",FALSE,FALSE
-package#Virtualisation,domain#CP-HVHS+VS,domain#CP-PHH+hPH-1,link Host(SHost)-hasPhysicalHost-PhysicalHost misses Host-hasPhysicalHost-PhysicalHost created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumH-StSt+o,"link Human-manages-VirtualHost(Host) created, then matched as Human(HostManager)-manages-Host",FALSE,FALSE
-package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-HumHP-im+m,"link Human-manages-VirtualHost(Host) created, then matched as Human(HostManager)-manages-Host",FALSE,FALSE
-package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#CP-HD+s,link Host(SHost)-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#CP-HD+s,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#CP-HD+s,link VirtualHost-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHRS-H+p,"link VirtualHost-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
-package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-DCVHWS-H+p,"link VirtualHost-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
-package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Hc-pN-hP+AC,link Host(SHost)-hosts-Process(DB) misses Host-hosts-AuthClient created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Hc-pN-hP+AC,link Host-hosts-Process(Service) misses Host-hosts-AuthClient created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Hc-pN-hP+AC,link VirtualHost-hosts-Process misses Host-hosts-AuthClient created afterwards,FALSE,FALSE
-package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-PD+h,link Process-handles-Data misses Process-handles-Data created afterwards,FALSE,FALSE
+domain#000000,domain#000000,domain#CP-Marker+ProcessClassification-1,CP+hCLI is at the end of the process classification sequence,No,Yes
+package#Application,domain#CP-CP+hCLI,domain#CP-Marker+ProcessClassification-1,CP+hCLI is at the end of the process classification sequence,FALSE,TRUE
+package#Application,domain#CP-HuE+e,domain#CP-Marker+HumanStatus-1,HuE+e is at the end of the human status inference sequence,FALSE,TRUE
+package#Application,domain#CP-HuSP+SMS,domain#CP-Marker+ClientService-1,HuSP+SMS is at the end of the inferred application process creation sequence,FALSE,TRUE
+package#Application,domain#CP-HuWES+e,domain#CP-Marker+HumanStatus-1,HuWES+e is at the end of the user status inference sequence,FALSE,TRUE
+package#Application,domain#CP-Hui-uD+aID,domain#CP-Marker+UserDataDeprecated-1,Hui-uD+aID is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-Marker+RemoteLogin-1,HuiCHDtS-AC+AC is at the end of the remote login client creation sequence,FALSE,TRUE
+package#Application,domain#CP-HuirPaD+eUI-O+vD,domain#CP-Marker+UserDataInteraction-1,HuirPaD+eUI-O+vD is at the start of the user-data interactivity inference sequence,FALSE,TRUE
+package#Application,domain#CP-HuuD+aUD,domain#CP-Marker+UserDataDeprecated-1,HuuD+aUD is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-Huv-uD+aVD,domain#CP-Marker+UserDataDeprecated-1,Huv-uD+aVD is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-Marker+UserDataDeprecated-1,domain#CP-Marker+DataHandling-0,Data handling inference should follow deprecated interactive data relationship tagging,FALSE,TRUE
+package#Application,domain#CP-Marker+UserDataInteraction-1,domain#CP-Marker+DataHandling-2,Inferring user access to data is a subsequence of data handling relationship inference,FALSE,TRUE
+package#Application,domain#CP-RAC+noDU,domain#CP-Marker+ProcessClassification-1,RAC+noDU is at the end of the process classification sequence,FALSE,TRUE
+package#Application,domain#CP-RAS+noDU,domain#CP-Marker+ProcessClassification-1,RAS+noDU is at the end of the process classification sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-AC+noDX,domain#CP-Marker+ProcessClassification-1,AC+noDX is at the end of the process classification sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-AS+noDX,domain#CP-Marker+ProcessClassification-1,AS+noDX is at the end of the process classification sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-Marker+DataKeys-1,CCDFCDAScDA-c+a is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-Marker+DataKeys-1,CCDFSDAScDA-c+z is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DADS+W,domain#CP-Marker+DataCopy-3,DADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DADS+ds,domain#CP-Marker+DataChannel-1,DADS+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,domain#CP-PDO+fS,PDO+fS creates a link that in DADSDCSDD-f+ch should miss DataSource-fromSource-DataAccess,FALSE,TRUE
+package#DataLifecycle,domain#CP-DC2xfDA2+f,domain#CP-Marker+DataChannel-4,DC2xfDA2+f is at the end of the data channel activation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DC2xrDA2+f,domain#CP-Marker+DataChannel-4,DC2xrDA2+f is at the end of the data channel activation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DC3-x+x,domain#CP-Marker+DataChannel-2,DC3-x+x is at the end of the data channel creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-FwdDFf2DP2P+DS,"DDDCDS2P+DF creates links that in FwdDFf2DP2P+DS should be missed, but they will because the created DataFlow flowsIn",TRUE,TRUE
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-FwdDFfDP2P+DS,"DDDCDS2P+DF creates links that in FwdDFfDP2P+DS should be missed, but they will because the created DataFlow flowsIn",TRUE,TRUE
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-FwdDFtDP2P+DS,"DDDCDS2P+DF creates links that in FwdDFtDP2P+DS should be missed, but they will because the created DataFlow flowsIn",TRUE,TRUE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-Marker+DataFlow-1,DFDSfP+fVP is at the end of the data flow creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DFtP+fVP,domain#CP-Marker+DataFlow-1,DFtP+fVP is at the end of the data flow creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DP3-x+x,domain#CP-Marker+DataPath-3,DP3-x+x is at the end of the sequence for filling in data path extension relationships,FALSE,TRUE
+package#DataLifecycle,domain#CP-DSDA+R,domain#CP-Marker+DataCopy-3,DSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HD-iS-DS+DS,domain#CP-Marker+DataCopy-1,HD-iS-DS+DS is at the end of the persistent stored data copy creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PIP-S+fS,PIP-S+fS creates a link that in HDS2DPfDA+fS should not match DataAccess-fromSource-DataSource,FALSE,TRUE
+package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PSDP-S+fS,PSDP-S+fS creates a link that in HDS2DPfDA+fS should not match DataAccess-fromSource-DataSource,FALSE,TRUE
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-Marker+Phishing-1,HHuWE+D is at the end of the phishing inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-Marker+Phishing-1,HHuWSMS+D is at the end of the phishing inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HPDADS-crudu+crudc,domain#CP-Marker+DataCopy-3,HPDADS-crudu+crudc is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HPDSDA-crudr+crudr,domain#CP-Marker+DataCopy-3,HPDSDA-crudr+crudr is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-Marker+Phishing-1,HuWES+D is at the end of the phishing inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-Marker+DataAccess-1,HuaDRAC-DA+RUA is at the end of the deserialized data access inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataChannel-2,domain#CP-Marker+DataPath-2,Data channel creation should precede filling in data path extension relationships,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataCopy-3,domain#CP-Marker+ClientService-2,System client-service relationship inference should follow data flow and persistent data access inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataKeys-1,domain#CP-Marker+ClientService-3,Data key management inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDI+d,domain#CP-Marker+DataChannel-1,PDI+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDI-Hu+d,domain#CP-Marker+DataChannel-1,PDI-Hu+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDO+s,domain#CP-Marker+DataChannel-1,PDO+s is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-Marker+DataKeys-1,PDOScDD-DS+z is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDP+ds,domain#CP-Marker+DataChannel-1,PDP+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDR+ds,domain#CP-Marker+DataChannel-1,PDR+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PSDP+ds,domain#CP-Marker+DataChannel-1,PSDP+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PTDR+ds,domain#CP-Marker+DataChannel-1,PTDR+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-RUIDO+ds,domain#CP-Marker+DataChannel-1,RUIDO+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-RUODI+ds,domain#CP-Marker+DataChannel-1,RUODI+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-Marker+DataPath-1,SDADPPDXRAC-DP+DP is at the end of the data path creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-Marker+DataCopy-3,SDUDADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-Marker+DataCopy-3,SDUDSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-Marker+DataKeys-1,ScDACDACCDF-c+a is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-Marker+DataKeys-1,ScDASDACCDF-c+z is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-Marker+DataCopy-3,ScDDPDADS-cz+c is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-Marker+DataKeys-1,ScDSPDI-DD+z is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-1,ScDSPDIcD+z is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-Marker+DataFields-1,DAOiDADInDF-i+i-Replay is at the end of the data field inference sequence,FALSE,TRUE
+package#DataStructure,domain#CP-DCDFDF+i,domain#CP-Marker+DataFields-1,DCDFDF+I is at the end of the data field inference sequence,FALSE,TRUE
+package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-1,PpD-iDF+a is at the end of the data field inference sequence,FALSE,TRUE
+package#Network,domain#CP-C+iC,domain#CP-Marker+HostClassification-1,C+iC is at the end of the asserted host classification sequence,FALSE,TRUE
+package#Network,domain#CP-DCH+l,domain#CP-Marker+FixedHostCreation-1,DCH+l is at the end of the inferred fixed host creation sequence,FALSE,TRUE
+package#Network,domain#CP-DCWH-LS+c,domain#CP-Marker+FixedNetworkConnections-1,DCWH-LS+c is at the end of the fixed host network connection inference sequence,FALSE,TRUE
+package#Network,domain#CP-DCpLS+RWS,domain#CP-Marker+FixedNetworkCreation-1,DCpLS+RWS is at the end of the inferred fixed network creation sequence,FALSE,TRUE
+package#Network,domain#CP-FcLSS+aF,domain#CP-Marker+NetworkAccessibility-1,FcLSS+aF is at the end of the network accessibility inference sequence,FALSE,TRUE
+package#Network,domain#CP-HACPmNC+p,domain#CP-Marker+ProcessContext-1,HACPmNC+p is at the end of the process context inference sequence,FALSE,TRUE
+package#Network,domain#CP-HCHLSS+NC,domain#CP-Marker+HostContext-1,HCHLSS+NC is a the end of the host context inference sequence,FALSE,TRUE
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-Marker+NetworkLogin-1,Hc-pN-hP+AC is at the end of the network login client creation sequence,FALSE,TRUE
+package#Network,domain#CP-HcWHS+c,domain#CP-Marker+WiFiHotspotCreation-1,HcWHS+c is at the end of the WiFi hotspot creation sequence,FALSE,TRUE
+package#Network,domain#CP-HmNCPAC+p,domain#CP-Marker+ProcessContext-1,HmNCPAC+p is at the end of the process context inference sequence,FALSE,TRUE
+package#Network,domain#CP-HprLS+c,domain#CP-Marker+NetworkConnections-3,HprLS+c is at the end of the non-fixed etwork connection inference sequence,FALSE,TRUE
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-Marker+RemoteLogin-1,HuiCHLnS-AC+AC is at the end of the remote login client creation sequence,FALSE,TRUE
+package#Network,domain#CP-HuiHS+cA,domain#CP-Marker+UserMobilityRequirements-1,HuiHS+cA is at the end of the user mobility requirements inference sequence,FALSE,TRUE
+package#Network,domain#CP-HuiPH-iD+iP,domain#CP-Marker+UserHostInteraction-1,HuiPH-iD+iP is at the end of the user-host interaction inference sequence,FALSE,TRUE
+package#Network,domain#CP-Hum-iHRAS+i,domain#CP-Marker+RootLogin-1,Hum-iHRAS+i is at the end of the inferred root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-HumHP-im+m,domain#CP-Marker+ProcessManagement-1,HumHP-im+m is at the end of the process management inference sequence,FALSE,TRUE
+package#Network,domain#CP-HumPH-m+m,domain#CP-Marker+HostManagement-1,HumPH-m+m is at the end of the host management inference sequence,FALSE,TRUE
+package#Network,domain#CP-InternetMP+W,domain#CP-Marker+NetworkAccessibility-1,InternetMP+W is at the end of the network accessibility inference sequence,FALSE,TRUE
+package#Network,domain#CP-InternetMP+ii,domain#CP-Marker+FixedNetworkCreation-1,InternetMP+ii is at the end of the inferred fixed network creation sequence,FALSE,TRUE
+package#Network,domain#CP-MHC+iMHC,domain#CP-Marker+HostClassification-1,MHC+iMHC is at the end of the asserted host classification sequence,FALSE,TRUE
+package#Network,domain#CP-MHcIS+aF,domain#CP-Marker+NetworkAccessibility-1,MHcIS+aF is at the end of the network accessibility inference sequence,FALSE,TRUE
+package#Network,domain#CP-Marker+ClientCreation-1,domain#CP-Marker+SystemProcess-1,System client creation is a subsequence of system process creation,FALSE,TRUE
+package#Network,domain#CP-Marker+HostLocation-1,domain#CP-Marker+SpaceCreation-2,Host location inference may create a global public space,FALSE,TRUE
+package#Network,domain#CP-Marker+NetworkAccessibility-1,domain#CP-Marker+SpaceCreation-2,Network accessibility inference may create a global public space,FALSE,TRUE
+package#Network,domain#CP-Marker+NetworkLogin-1,domain#CP-Marker+ClientCreation-1,Network login client creation is a subsequence of system client creation,FALSE,TRUE
+package#Network,domain#CP-Marker+PhysicalHostInference-5,domain#CP-Marker+LocalNetworkCreation-2,Physical host determination for additional hosts is a subsequence of localised network creation,FALSE,TRUE
+package#Network,domain#CP-Marker+RemoteLogin-1,domain#CP-Marker+ClientCreation-1,Remote login client creation is a subsequence of system client creation,FALSE,TRUE
+package#Network,domain#CP-Marker+RootLogin-1,domain#CP-Marker+ServiceCreation-1,Root login service creation is a subsequence of system service creation,FALSE,TRUE
+package#Network,domain#CP-Marker+ServiceCreation-1,domain#CP-Marker+SystemProcess-1,System service creation is a subsequence of system process creation,FALSE,TRUE
+package#Network,domain#CP-Marker+SocketNetworkCreation-1,domain#CP-Marker+LocalNetworkCreation-2,Socket communication inference is part of localised network creation,FALSE,TRUE
+package#Network,domain#CP-Marker+UserHostInteraction-1,domain#CP-Marker+UserMobilityRequirements-0,User-host interaction inference should precede user mobility requirements inference,FALSE,TRUE
+package#Network,domain#CP-Marker+UserProcessInteraction-1,domain#CP-Marker+HumanStatus-0,Human status classification should follow user-process interactivity inference,FALSE,TRUE
+package#Network,domain#CP-Marker+WiFiHotspotCreation-1,domain#CP-Marker+LocalNetworkCreation-1,WiFi hotspot creation is a subsequence of inferred local network creation,FALSE,TRUE
+package#Network,domain#CP-PH+hPH,domain#CP-Marker+PhysicalHostInference-1,PH+hPH is at the end of the sequence for physical host inference for physical hosts,FALSE,TRUE
+package#Network,domain#CP-PH2dS+iM,domain#CP-Marker+HostLocation-1,PH2dS+iM is at the end of the mobile host location inference sequence,FALSE,TRUE
+package#Network,domain#CP-PHHS-iC+SL,domain#CP-Marker+SocketNetworkCreation-1,PHHS-iC+SL is at the end of internal network creation,FALSE,TRUE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Marker+RootLogin-1,Pc-hSHLnS+c is at the end of the inferred root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-PcWH+c,domain#CP-Marker+WiFiHotspotCreation-1,PcWH+c is at the end of the WiFi hotspot creation sequence,FALSE,TRUE
+package#Network,domain#CP-RAS+iL,domain#CP-Marker+SystemProcess-1,RAS+iL is at the end of the inferred system process creation sequence,FALSE,TRUE
+package#Network,domain#CP-Rr+iR,domain#CP-Marker+HostClassification-1,Rr+iR is at the end of the asserted host classification sequence,FALSE,TRUE
+package#Network,domain#CP-StHP+o,domain#CP-Marker+ProcessOperation-1,StHP+o is at the end of the process operation inference sequence,FALSE,TRUE
+package#Network,domain#CP-StSPH-St+o,domain#CP-Marker+HostOperation-1,StSPH-St+o is at the end of the host operation inference sequence,FALSE,TRUE
+package#Network,domain#CP-TP+iT,domain#CP-Marker+SystemProcess-1,TP+iT is at the end of the inferred system process creation sequence,FALSE,TRUE
+package#Network,domain#CP-WS-H+I,domain#CP-WpHSH-aF+WH,WpHSH-aF+WH creates an asset that in WS-H+I should not match LogicalSubnet,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-Marker+NetworkInterfaces-1,HLS+I is at the end of the network interface creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-LPLS2NSg2+b,domain#CP-Marker+NetworkBlocks-1,LPLS2NSg2+b is at the end of the network blocking inference sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-LPsLS+v,domain#CP-Marker+NetworkPaths-1,LPsLS+v is at the end of the network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-NP2LS+v,domain#CP-Marker+NetworkPaths-1,NP2LS+v is at the end of the network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-NP2LSg+t,domain#CP-Marker+NetworkPaths-1,NP2LSg+t is at the end of the network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-1,SgHfILS+f is at the end of the network path segment creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-1,SgHtILS+t is at the end of the network path segment creation sequence,FALSE,TRUE
+package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-1,PPS-E+W is at the end of the physical entrance creation sequence,FALSE,TRUE
+package#Physical,domain#CP-W+iW,domain#CP-Marker+WorldTagging-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-Marker+AttackPath-2,APxSCtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-Marker+AttackPath-2,CAPNPSAP+pV is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CAPlISAP+lI,domain#CP-Marker+AttackPath-2,CAPlISAP+lI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CSCLS+aFC,domain#CP-Marker+ServiceChannel-2,CSCLS+aFC is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CaS-SP+uD,domain#CP-Marker+ServiceChannel-1,CaS-SP+uD is at the end of the client-service direct access tagging sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-Marker+ServiceDelegation-2,CuPiS-i+i is at the end of the access by delegate inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-Marker+ServiceDelegation-1,CuSPvS-U+U is at the end of the access by reverse proxy inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-HRASuPScS+c,domain#CP-Marker+RemoteAccess-1,HRASuPScS+c is at the end of the remote process inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-Marker+RemoteAccess-1,HuRACP+i is at the end of the remote process execution inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+ClientService-2,System client-service relationship inference should follow remote process execution inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+DataHandling-0,Data handling relationship inference should follow remote process execution inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+HumanStatus-0,Human status classification should follow remote process execution inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ReverseProxy-1,domain#CP-Marker+ProcessManagement-0,Inferred reverse proxy creation should precede process management inference,FALSE,TRUE
+package#ProcessComms,domain#CP-PCaTSSCAP+aTS,domain#CP-Marker+AttackPath-2,PCaTSSCAP+aTS is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-Marker+RemoteAccess-1,RACuRHRASP-iPL+uRAS is at the end of the remote process execution inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-RTvSPRAS+uR,domain#CP-RDvSPHP-iPL-RAS+DtS,RDvSPHP-iPL-RAS+DtS creates a link that in RTvSPRAS+uR should not match Proxy-usesAsProxy-Process,FALSE,TRUE
+package#ProcessComms,domain#CP-SCAPvLS+v,domain#CP-Marker+AttackPath-2,SCAPvLS+v is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCCHNPLS-lI+lI,domain#CP-Marker+ServiceChannel-3,SCCHNPLS-lI+lI is at the end of the service channel NAT inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCLSg+vf,domain#CP-Marker+ServiceChannel-2,SCLSg+vf is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCLSg+vt,domain#CP-Marker+ServiceChannel-2,SCLSg+vt is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCNP2CPtI+vt,domain#CP-Marker+ClientPath-1,SCNP2CPtI+vt is at the end of the client-service access path creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCsAPtI+tI,domain#CP-Marker+AttackPath-2,SCsAPtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCxAPtI+tI,domain#CP-Marker+AttackPath-2,SCxAPtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SP+iP,domain#CP-Marker+ServiceDelegation-1,SP+iP is at the end of the access by reverse proxy inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-Marker+ServiceChannel-2,SSCLS+aTS is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-Marker+AttackPath-1,SSClIAP+ch is at the end of the client-service attack path creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+ProcessTrust-5,domain#CP-Marker+DataCache-0,Data cache inference currently depends on client-service trust relationships,FALSE,TRUE
+package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-1,A+iA is at the end of the user status classification sequence,FALSE,TRUE
+package#Users,domain#CP-Hu+W,domain#CP-Marker+UserMobilityRequirements-1,Hu+W is at the end of the human mobility requirements inference sequence,FALSE,TRUE
+package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-1,HuaSaE+cA is at the end of the human mobility inference sequence,FALSE,TRUE
+package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+SpaceCreation-2,User mobility requirements inference may create an inferred space,FALSE,TRUE
+package#Users,domain#CP-StS-St+c,domain#CP-Marker+SpaceOperation-1,StS-St+c is at the end of the space operation inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostCreation-1,domain#CP-Marker+PhysicalHostInference-2,Inferred virtual host creation precedes physical host determination,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualNetworkCreation-0,domain#CP-Marker+FixedNetworkCreation-0,Fixed network creation should follow inferred virtual network creation,FALSE,TRUE

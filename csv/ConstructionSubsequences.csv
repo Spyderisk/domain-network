@@ -1,0 +1,60 @@
+package,ID,subsequence
+domain#000000,11,Data processing and handling inference
+package#Application,11,Data processing and handling inference
+package#Application,38,User-data interactivity inference
+package#Application,39,Data processing and handling error detection
+package#Application,4,Data storage inference
+package#DataLifecycle,26,Persistent serialized data creation
+package#DataLifecycle,40,Volatile data asset creation
+package#DataLifecycle,41,Data path creation
+package#DataLifecycle,42,Data channel creation
+package#DataLifecycle,43,Data flow creation
+package#DataLifecycle,44,Persistent serialized data access inference
+package#DataLifecycle,50,Data flow caching inference
+package#DataLifecycle,51,Unsolicited data flow creation
+package#DataLifecycle,58,Data key management inference
+package#DataStructure,52,Data field inference
+package#Network,10,Inferred fixed network creation
+package#Network,12,User-host interactivity inference
+package#Network,14,Fixed host network connection inference
+package#Network,17,Mobile host location inference
+package#Network,18,Inferred localized network creation
+package#Network,19,Host management inference
+package#Network,2,Inferred physical host creation
+package#Network,20,Host operation inference
+package#Network,21,Network connection inference
+package#Network,22,Inferred system process creation
+package#Network,24,Network accessibility inference
+package#Network,29,Host context creation
+package#Network,30,Process context creation
+package#Network,34,Process management inference
+package#Network,35,Process operation inference
+package#Network,45,System client-service relationship inference
+package#Network,5,Inferred application process creation
+package#Network,53,WiFi hotspot implementation inference
+package#Network,54,Internal host communication inference
+package#Network,55,Remote host management services
+package#Network,56,Remote login client creation
+package#Network,57,Network login client creation
+package#Network,6,Host classification
+package#Network,7,Process classification
+package#Network,8,User-process interactivity inference
+package#NetworkConnectivity,23,Network interface creation
+package#NetworkConnectivity,28,Network path segment creation
+package#NetworkConnectivity,32,Network path creation
+package#NetworkConnectivity,37,Network path status classification
+package#Physical,1,Inferred physical space creation
+package#Physical,25,Physical space classification
+package#ProcessComms,27,Inferred reverse proxy creation
+package#ProcessComms,33,Indirect client-service relationship inference
+package#ProcessComms,36,Remote process execution inference
+package#ProcessComms,46,Client-service communication inference
+package#ProcessComms,47,Client-service access path creation
+package#ProcessComms,48,Client-service attack path creation
+package#ProcessTrust,49,Client-service trust inference
+package#Users,13,Human status classification
+package#Users,15,Human mobility requirements inference
+package#Users,16,Human mobility inference
+package#Users,31,Physical space operation inference
+package#Virtualisation,3,Inferred virtual host creation
+package#Virtualisation,9,Inferred virtual network creation

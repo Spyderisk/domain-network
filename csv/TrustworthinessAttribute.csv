@@ -1,23 +1,23 @@
 package,URI,label,comment,isVisible
-domain#000000,domain#000000,Control,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,TRUE
-package#AccessContext,domain#Control,Control,Trustworthiness of the actor or process managing a host (including control over access to the host) while it is connected to the system and fulfilling its system role (i.e. in some context).,TRUE
+domain#000000,domain#000000,ExploitTW,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,TRUE
 package#AccessContext,domain#ExploitTW,ExploitTW,Free of software vulnerabilities that are accessible to attackers.,FALSE
 package#AccessContext,domain#UserTW,User TW,Trustworthiness of users with access to the shell or having the rights of a process on a host while the host is connected to the system and fulfilling its system role (i.e. in some context).,TRUE
 package#Application,domain#Authenticity,Authenticity,"The data (which may be embedded in an IoT device) is what it claims to be, i.e. it is neither forged nor altered in a way designed to induce false behaviour in other assets consuming the data.",TRUE
 package#Application,domain#Confidentiality,Confidentiality,Signifies that data (which may be embedded in an IoT device) is only accessible to authorised users.,TRUE
+package#Application,domain#Health,Health,Free of self-propagating malware.,TRUE
 package#Application,domain#Integrity,Integrity,The data (which may be embedded in an IoT device) is correct and fit for purpose.,TRUE
 package#Application,domain#Timeliness,Timeliness,"Represents a state in which a data asset is up to date, or a process or human has up to date inputs.",TRUE
 package#DataLifecycle,domain#Decrypted,Decrypted,"An attribute of stored or flowing copies of data, signifying that the data is accessible in unencrypted form. Considered a trustworthiness attribute as it precludes loss of availability where a process lacks a suitable decryption key, and used to model side effects of encryption controls.",FALSE
 package#DataLifecycle,domain#Encrypted,Encrypted,"An attribute of stored or flowing copies of data, signifying that the data is accessible in encrypted form. Considered a trustworthiness attribute as it prevents loss of confidentiality unless the key is compromised, and used to model side effects of encryption controls.",TRUE
 package#Network,domain#Capacity,Capacity,"Represents the total capacity at a Data Centre, or more accurately, the level of trust that it will be able to handle any demand placed on it by automatically provisioned for hosts and processes.",TRUE
+package#Network,domain#Control,Control,Trustworthiness of the actor or process managing a host (including control over access to the host) while it is connected to the system and fulfilling its system role (i.e. in some context).,TRUE
 package#Network,domain#DefaultTW,DefaultTW,"Modelling artefact: an attribute that is always set to the lowest trustworthiness level, and used as a cause for threats that are triggered entirely by the use of security controls.",FALSE
 package#Network,domain#ExtrinsicTW,ExtrinsicTW,Free of software vulnerabilities in processes and devices that are likely to be discovered by potential attackers.,TRUE
-package#Network,domain#Health,Health,Free of self-propagating malware.,TRUE
 package#Network,domain#IntrinsicTW,IntrinsicTW,Free of functional software bugs that cause errors or crashes without external provocation.,TRUE
 package#Network,domain#NetworkControl,NetworkControl,Control over routing within an abstract or logical subnet.,TRUE
 package#Network,domain#NetworkUserTW,NetworkUserTW,Trustworthiness of users with access to an abstract or logical network subnet.,TRUE
 package#Network,domain#OutOfService,OutOfService,"The asset is not currently engaged or being used within the system, and hence cannot be exploited by attackers.",FALSE
-package#Network,domain#ResourceTW,ResourceTW,Provisining is controlled by a trustworthy process or administrator.,TRUE
+package#Network,domain#ResourceTW,ResourceTW,Provisioning of a host or hosts in a data centre is controlled by a trustworthy process or administrator.,TRUE
 package#Network,domain#TrojanTW,BackdoorTW,"The host has no back doors inserted into its operating system or other software running on the host. If back doors are present, this also makes processes running on the host vulnerable.",TRUE
 package#Network,domain#Underload,Underload,Represents the spare capacity at a Data Centre.,FALSE
 package#NetworkConnectivity,domain#BandwidthManaged,BandwidthManaged,Signifies that bandwidth used by message flows through an interface can be restricted based on their source and/or destination addresses.,FALSE
@@ -26,14 +26,14 @@ package#NetworkConnectivity,domain#ConnectionsBlocked,ConnectionsBlocked,"Applie
 package#NetworkConnectivity,domain#NetworkAuthenticity,NetworkAuthenticity,The connection from a supplicant device is not an imposter subnet.,TRUE
 package#Physical,domain#OccupantTW,OccupantTW,Trustworthiness of users with physical access to a space.,TRUE
 package#Physical,domain#PhysicalControl,PhysicalControl,Control over the means of access to a space.,TRUE
-package#ProcessComms,domain#AnonUserTW,AnonUserTW,"Only trustworthy users can send messages to a service from the direction of a specific client. This relates to any message so it includes messages sent anonymously, prior to authentication. It is not related to which users can access the service. Consequently, the calculated level will often be low, and this is not necessarily a cause for concern.",FALSE
-package#ProcessComms,domain#ClientAuthenticity,ClientAuthenticity,"The client accessing the related service has a reliable means of authentication which can be verified by the service. This is not related to the trustworthiness of those able to access the service, only the trustworthiness of those in possession of client credentials.",FALSE
-package#ProcessComms,domain#ClientTW,ClientTW,"The client accessing the related service is not controlled by an untrustworthy actor. This pertains to the trustworthiness of those able to access the service as the client (i.e., after authentication).",FALSE
-package#ProcessComms,domain#DeputyUserTW,DeputyUserTW,The client is clear on what requests it should send to the service on behalf of its own clients.,FALSE
-package#ProcessComms,domain#ProxyUserTW,ProxyUserTW,Only trustworthy clients can send requests via the client (which is a reverse proxy) to the related service.,FALSE
-package#ProcessComms,domain#ServiceAuthenticity,ServiceAuthenticity,The service accessed by a client is not an imposter.,FALSE
 package#ProcessComms,domain#ServiceChannelsBlocked,ServiceChannelsBlocked,"Applies to a communication route, i.e. the Interface between a Host and a Subnet, or a Logical Segment representing a route between two Subnets. Signifies that no exceptions were created to allow client-service connections and messages to tunnel through a default deny routing policy.",FALSE
-package#ProcessComms,domain#ServiceTW,ServiceTW,The service accessed by a client is not controlled by a malicious actor.,FALSE
+package#ProcessTrust,domain#AnonUserTW,AnonUserTW,"Only trustworthy users can send messages to a service from the direction of a specific client. This relates to any message so it includes messages sent anonymously, prior to authentication. It is not related to which users can access the service. Consequently, the calculated level will often be low, and this is not necessarily a cause for concern.",FALSE
+package#ProcessTrust,domain#ClientAuthenticity,ClientAuthenticity,"The client accessing the related service has a reliable means of authentication which can be verified by the service. This is not related to the trustworthiness of those able to access the service, only the trustworthiness of those in possession of client credentials.",FALSE
+package#ProcessTrust,domain#ClientTW,ClientTW,"The client accessing the related service is not controlled by an untrustworthy actor. This pertains to the trustworthiness of those able to access the service as the client (i.e., after authentication).",FALSE
+package#ProcessTrust,domain#DeputyUserTW,DeputyUserTW,The client is clear on what requests it should send to the service on behalf of its own clients.,FALSE
+package#ProcessTrust,domain#ProxyUserTW,ProxyUserTW,Only trustworthy clients can send requests via the client (which is a reverse proxy) to the related service.,FALSE
+package#ProcessTrust,domain#ServiceAuthenticity,ServiceAuthenticity,The service accessed by a client is not an imposter.,FALSE
+package#ProcessTrust,domain#ServiceTW,ServiceTW,The service accessed by a client is not controlled by a malicious actor.,FALSE
 package#Theft,domain#OwnerControl,OwnerControl,A device or a process running on the device is still controlled by a trustworthy actor or process in some context after the device has been stolen by an attacker.,TRUE
 package#Theft,domain#Possession,Possession,Attribute signifying that a (mobile) device is in the hands of the right user.,TRUE
 package#Users,domain#Astuteness,Astuteness,The ability to detect attempts by other agents to induce inappropriate action through deception.,TRUE
