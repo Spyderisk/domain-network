@@ -1,7 +1,9 @@
 package,URI,SubsequenceID
 domain#000000,domain#000000,0
 package#Application,domain#CP-CP+hCLI,7
+package#Application,domain#CP-HuE+e,13
 package#Application,domain#CP-HuSP+SMS,5
+package#Application,domain#CP-HuWES+e,13
 package#Application,domain#CP-Hui-uD+aID,39
 package#Application,domain#CP-HuiCHDtS-AC+AC,56
 package#Application,domain#CP-HuirEc-rD+iD,38
@@ -29,6 +31,7 @@ package#Application,domain#CP-Marker+DataStorage-1,4
 package#Application,domain#CP-Marker+UserDataDeprecated-0,39
 package#Application,domain#CP-Marker+UserDataDeprecated-1,39
 package#Application,domain#CP-Marker+UserDataInteraction-0,38
+package#Application,domain#CP-Marker+UserDataInteraction-1,38
 package#Application,domain#CP-RAC+noDU,7
 package#Application,domain#CP-RAS+noDU,7
 package#DataLifecycle,domain#CP-AC+noDX,7
@@ -255,6 +258,8 @@ package#Network,domain#CP-Marker+NetworkLogin-0,57
 package#Network,domain#CP-Marker+NetworkLogin-1,57
 package#Network,domain#CP-Marker+PhysicalHostInference-0,2
 package#Network,domain#CP-Marker+PhysicalHostInference-1,2
+package#Network,domain#CP-Marker+PhysicalHostInference-2,3
+package#Network,domain#CP-Marker+PhysicalHostInference-3,3
 package#Network,domain#CP-Marker+PhysicalHostInference-4,18
 package#Network,domain#CP-Marker+PhysicalHostInference-5,18
 package#Network,domain#CP-Marker+ProcessClassification-0,7
@@ -292,14 +297,14 @@ package#Network,domain#CP-PHHS-iC+SL,54
 package#Network,domain#CP-PHLSS+aV,29
 package#Network,domain#CP-Pc-hSHLnS+c,55
 package#Network,domain#CP-PcWH+c,53
-package#Network,domain#CP-RAS+iL,22
+package#Network,domain#CP-RAS+iL,7
 package#Network,domain#CP-Rr+iR,6
 package#Network,domain#CP-Rr-LnS+LnS,55
 package#Network,domain#CP-SHuPH-Hu+m,19
 package#Network,domain#CP-StHP+o,35
 package#Network,domain#CP-StSPH-St+o,20
 package#Network,domain#CP-Sv-LnS+LnS,55
-package#Network,domain#CP-TP+iT,22
+package#Network,domain#CP-TP+iT,7
 package#Network,domain#CP-WS-H+I,53
 package#Network,domain#CP-WpHS-aF+iH,53
 package#Network,domain#CP-WpHSH-aF+WH,53
@@ -373,6 +378,7 @@ package#ProcessComms,domain#CP-Marker+ServiceChannel-3,46
 package#ProcessComms,domain#CP-Marker+ServiceDelegation-0,33
 package#ProcessComms,domain#CP-Marker+ServiceDelegation-1,33
 package#ProcessComms,domain#CP-Marker+ServiceDelegation-2,33
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,33
 package#ProcessComms,domain#CP-NP1CCAPSC+pT,48
 package#ProcessComms,domain#CP-NP2CCAPSC+pT,48
 package#ProcessComms,domain#CP-PCaTSSCAP+aTS,48

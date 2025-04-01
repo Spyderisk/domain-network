@@ -209,7 +209,7 @@ package#DataStructure,domain#CP-DAPDADF-g+n,domain#CP-DAOiDADInDF-i+i,DAOiDADInD
 package#DataStructure,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,DAOiDADInDF-i+i-Replay creates a link that in DCDFDF+I matches DataFlow-includesField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-DSD-iDF+n,domain#CP-DSDDF-Hu-P+i,DSD-iDF+n creates a link that in DSDDF-Hu-P+I matches DataCopy-includesField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-DSDDF-Hu-P+i,domain#CP-Marker+DataFields-0,DSDDF-Hu-P+I is at the start of the data field inference sequence,FALSE,TRUE
-package#DataStructure,domain#CP-Marker+DataFields-0,domain#CP-Marker+DataCache-1,,FALSE,TRUE
+package#DataStructure,domain#CP-Marker+DataFields-0,domain#CP-Marker+DataCache-1,Data cache inference should precede data field inference,FALSE,TRUE
 package#DataStructure,domain#CP-Marker+DataFields-1,domain#CP-Marker+DataFields-0,Start precedes end of sequence,FALSE,TRUE
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,DAO-iDADInDF-n+n creates a link that in PDO-gDAnDF-i+i matches DataAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,DAO-iDADInDF-n+n-Replay creates a link that in PDO-gDAnDF-i+i-Replay matches DataAsset-needsField-DataField,FALSE,TRUE
@@ -257,7 +257,6 @@ package#Network,domain#CP-InternetMP+W,domain#CP-Marker+NetworkAccessibility-0,I
 package#Network,domain#CP-InternetMP+ii,domain#CP-Marker+FixedNetworkCreation-0,InternetMP+ii is at the start of the inferred fixed network creation sequence,FALSE,TRUE
 package#Network,domain#CP-MHC+iMHC,domain#CP-Marker+HostClassification-0,MHC+iMHC is at the start of the asserted host classification sequence,FALSE,TRUE
 package#Network,domain#CP-MHcIS+aF,domain#CP-Marker+NetworkAccessibility-0,MHcIS+aF is at the start of the network accessibility inference sequence,FALSE,TRUE
-package#Network,domain#CP-Marker+Application-1,domain#CP-Marker+Application-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientCreation-0,domain#CP-Marker+ServiceCreation-1,Inferred system service creation should precede inferred system client creation,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientCreation-0,domain#CP-Marker+SystemProcess-0,System client creation is a subsequence of system process creation,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientCreation-1,domain#CP-Marker+ClientCreation-0,Start precedes end of sequence,FALSE,TRUE
@@ -269,6 +268,7 @@ package#Network,domain#CP-Marker+FixedHostCreation-1,domain#CP-Marker+FixedHostC
 package#Network,domain#CP-Marker+FixedNetworkConnections-0,domain#CP-Marker+FixedNetworkCreation-1,Inferred fixed network creation should precede fixed host network connection inference,FALSE,TRUE
 package#Network,domain#CP-Marker+FixedNetworkConnections-1,domain#CP-Marker+FixedNetworkConnections-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+FixedNetworkCreation-0,domain#CP-Marker+HostClassification-1,Host classification should precede inferred fixed network creation,FALSE,TRUE
+package#Network,domain#CP-Marker+FixedNetworkCreation-0,domain#CP-Marker+HostLocation-1,Host location inference should precede inferred fixed network creation,FALSE,TRUE
 package#Network,domain#CP-Marker+FixedNetworkCreation-1,domain#CP-Marker+FixedNetworkCreation-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+HostClassification-0,domain#CP-Marker+PhysicalHostInference-3,Inferred host creation should precede host classification,FALSE,TRUE
 package#Network,domain#CP-Marker+HostClassification-1,domain#CP-Marker+HostClassification-0,Start precedes end of sequence,FALSE,TRUE
@@ -303,6 +303,7 @@ package#Network,domain#CP-Marker+PhysicalHostInference-4,domain#CP-Marker+LocalN
 package#Network,domain#CP-Marker+PhysicalHostInference-4,domain#CP-Marker+PhysicalHostInference-3,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+PhysicalHostInference-5,domain#CP-Marker+PhysicalHostInference-4,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+ProcessClassification-0,domain#CP-Marker+ClientService-1,Inferred application process creation should precede process classification,FALSE,TRUE
+package#Network,domain#CP-Marker+ProcessClassification-0,domain#CP-Marker+SystemProcess-1,Inferred system process creation should precede process classification,FALSE,TRUE
 package#Network,domain#CP-Marker+ProcessClassification-1,domain#CP-Marker+ProcessClassification-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+ProcessContext-0,domain#CP-Marker+HostContext-1,Host context inference should precede process context creation,FALSE,TRUE
 package#Network,domain#CP-Marker+ProcessContext-0,domain#CP-Marker+SystemProcess-1,Inferred system process creation should precede process context creation,FALSE,TRUE
@@ -313,7 +314,6 @@ package#Network,domain#CP-Marker+ProcessManagement-1,domain#CP-Marker+ProcessMan
 package#Network,domain#CP-Marker+ProcessOperation-0,domain#CP-Marker+HostOperation-1,Host operation inference should precede process operation inference,FALSE,TRUE
 package#Network,domain#CP-Marker+ProcessOperation-0,domain#CP-Marker+ProcessManagement-1,Process management inference should precede process operation inference,FALSE,TRUE
 package#Network,domain#CP-Marker+ProcessOperation-1,domain#CP-Marker+ProcessOperation-0,Start precedes end of sequence,FALSE,TRUE
-package#Network,domain#CP-Marker+ProcessTrust-0,domain#CP-Marker+ClientService-3,Client-service authN or authZ relationships inference should precede trust relationship inference,FALSE,TRUE
 package#Network,domain#CP-Marker+RemoteLogin-0,domain#CP-Marker+ClientCreation-0,Remote login client creation is a subsequence of system client creation,FALSE,TRUE
 package#Network,domain#CP-Marker+RemoteLogin-1,domain#CP-Marker+RemoteLogin-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+RootLogin-0,domain#CP-Marker+HostManagement-1,Host management inference should precede inferred root login service creation,FALSE,TRUE
@@ -345,14 +345,14 @@ package#Network,domain#CP-PHHS-iC+SL,domain#CP-Marker+SocketNetworkCreation-0,PH
 package#Network,domain#CP-PHLSS+aV,domain#CP-PHHS+AC,PHHS+AC creates a link that in PHLSS+aV matches HostAccess-accessFrom-Space,FALSE,TRUE
 package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Hum-iSH-LnS+LnS,Hum-iSH-LnS+LnS creates link that in Pc-hSHLnS+c should match Host-hosts-RemoteAccessService,FALSE,TRUE
 package#Network,domain#CP-PcWH+c,domain#CP-WpHSH-aF+WH,WpHSH-aF+WH creates a link matched as LogicalSubnet-implementsHS-Hotspot in PcWH+c,FALSE,TRUE
-package#Network,domain#CP-RAS+iL,domain#CP-Marker+ServiceCreation-1,RAS+iL should follow the inferred system service creation sequence,FALSE,TRUE
+package#Network,domain#CP-RAS+iL,domain#CP-Marker+ProcessClassification-0,RAS+iL is at the start of the process classification sequence,FALSE,TRUE
 package#Network,domain#CP-Rr+iR,domain#CP-Marker+HostClassification-0,Rr+iR is at the start of the asserted host classification sequence,FALSE,TRUE
 package#Network,domain#CP-Rr-LnS+LnS,domain#CP-Marker+RootLogin-0,Rr-LnS+LnS is at the start of the inferred root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-SHuPH-Hu+m,domain#CP-HuiPH-Hu+m,HuiPH-Hu+m creates link matched in SHuPH-Hu+m as HostManager-manages-Host,FALSE,TRUE
 package#Network,domain#CP-StHP+o,domain#CP-HumP-StSt+o,HumP-StSt+o creates a link that in StHP+o matches Operator-operates-Process,FALSE,TRUE
 package#Network,domain#CP-StSPH-St+o,domain#CP-HumH-StSt+o,HumH-StSt+o creates a link matched in StSPH-St+o as Operator-operates-Host,FALSE,TRUE
 package#Network,domain#CP-Sv-LnS+LnS,domain#CP-Marker+RootLogin-0,Sv-LnS+LnS is at the start of the inferred root login service creation sequence,FALSE,TRUE
-package#Network,domain#CP-TP+iT,domain#CP-Marker+ClientCreation-1,TP+iT follows system client creation,FALSE,TRUE
+package#Network,domain#CP-TP+iT,domain#CP-Marker+ProcessClassification-0,TP+iT is at the start of the process classification sequence,FALSE,TRUE
 package#Network,domain#CP-WS-H+I,domain#CP-WpHS-aF+iH,WpHS-aF+iH creates a link matched as LogicalSubnet-isHotspot-LogicalSubnet in WS-H+I,FALSE,TRUE
 package#Network,domain#CP-WpHS-aF+iH,domain#CP-Marker+WiFiHotspotCreation-0,WpHS-aF+iH is at the start of the WiFi hotspot creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-Marker+NetworkInterfaces-0,HLS+I is at the start of the network interface creation sequence,FALSE,TRUE
@@ -407,7 +407,7 @@ package#ProcessComms,domain#CP-CSLS2H2-SC+SC,domain#CP-CSLSH2-SC+SC,CSLSH2-SC+SC
 package#ProcessComms,domain#CP-CSLSH2-SC+SC,domain#CP-CSL1H2+SC,CSL1H2+SC creates a link that in CSLSH2-SC+SC matches prohibited link ServiceChannel-channelFrom-Client,FALSE,TRUE
 package#ProcessComms,domain#CP-CaS-SP+uD,domain#CP-Marker+ServiceChannel-0,CaS-SP+uD is at the start of the service channel creation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-CuPuS-i+i,CuPuS-i+i creates a link that in CuPiS-i+I matches Client-usesIndirectly-Proxy,FALSE,TRUE
-package#ProcessComms,domain#CP-CuPuS-i+i,domain#CP-Marker+ServiceDelegation-1,CuPuS-i+i is at the start of the access by delegate inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CuPuS-i+i,domain#CP-Marker+ServiceDelegation-2,CuPuS-i+i is at the start of the access by delegate inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-SPvSPvS-U+U,SPvSPvS-U creates a link that in CuSPvS-U+U matches Client-usesViaProxy-Proxy,FALSE,TRUE
 package#ProcessComms,domain#CP-HRASuPCcS+c,domain#CP-HRASuPcC+c,HRASuPcC+c creates links from a RAS that in HRASuPCcS+c cannot match AuthService,TRUE,TRUE
 package#ProcessComms,domain#CP-HRASuPCcS+c,domain#CP-RTuHP-iPL-RAS+LnS,RTuHP-iPL-RAS+LnS creates a link that in HRASuPCcS+c matches RemoteAccessService-uses-Process,FALSE,TRUE
@@ -426,7 +426,7 @@ package#ProcessComms,domain#CP-Marker+AttackPath-1,domain#CP-Marker+AttackPath-0
 package#ProcessComms,domain#CP-Marker+AttackPath-2,domain#CP-Marker+AttackPath-1,Start precedes end of sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ClientPath-0,domain#CP-Marker+ServiceChannel-3,Client-service comms channel creation should precede client-service access path creation,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ClientPath-1,domain#CP-Marker+ClientPath-0,Start precedes end of sequence,FALSE,TRUE
-package#ProcessComms,domain#CP-Marker+RemoteAccess-0,domain#CP-Marker+ServiceDelegation-1,Indirect client-service access inference should precede remote process execution inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+RemoteAccess-0,domain#CP-Marker+ServiceDelegation-1,Remote process execution inference is a subsequence of indirect client-service access inference,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+RemoteAccess-0,Start precedes end of sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ReverseProxy-0,domain#CP-Marker+ClientService-1,Inferred application client-service creation should precede inferred reverse proxy creation,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ReverseProxy-0,domain#CP-Marker+SystemProcess-1,System process creation should precede inferred reverse proxy creation,FALSE,TRUE
@@ -441,6 +441,7 @@ package#ProcessComms,domain#CP-Marker+ServiceDelegation-0,domain#CP-Marker+Proce
 package#ProcessComms,domain#CP-Marker+ServiceDelegation-0,domain#CP-Marker+ReverseProxy-1,Inferred reverse proxy creation should precede indirect service access inference,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ServiceDelegation-1,domain#CP-Marker+ServiceDelegation-0,Start precedes end of sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ServiceDelegation-2,domain#CP-Marker+ServiceDelegation-1,Start precedes end of sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+ServiceDelegation-2,Start precedes end of sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-NP1CCAPSC+pT,domain#CP-Marker+AttackPath-0,NP1CCAPSC+pT is at the start of the client-service attack path creation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-NP2CCAPSC+pT,domain#CP-NP1CCAPSC+pT,NP1CCAPSC+pT creates a link that in NP2CCAPSC+pT matches OldPath-pathTo-ServiceChannel,FALSE,TRUE
 package#ProcessComms,domain#CP-PCaTSSCAP+aTS,domain#CP-SCCAP+CSAP,SCCAP+CSAP creates a link that in PCaTSSCAP+aTS matches ServiceChannel-channelVia-AttackPath,FALSE,TRUE
@@ -505,6 +506,7 @@ package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-SCLPvLS+v,SCLPvLS+v creates a
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCCAPNP4+CCAP,CSCCAPNP4+CCAP creates a link that in SSClIAP+ch matches ServiceChannel-channelVia-AttackPath,FALSE,TRUE
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCscLS+CCAP,CSCscLS+CCAP creates a link that in SSClIAP+ch matches ServiceChannel-channelVia-AttackPath,FALSE,TRUE
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCsdLS+OCAP,CSCsdLS+OCAP creates a link that in SSClIAP+ch matches ServiceChannel-channelVia-AttackPath,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+ProcessTrust-0,domain#CP-Marker+ClientService-3,Client-service authN or authZ relationships inference should precede trust relationship inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+ProcessTrust-1,domain#CP-Marker+ProcessTrust-0,Start precedes end of sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+ProcessTrust-1,domain#CP-Marker+ServiceChannel-3,Client-service comms channel creation should precede client-service trust relationship inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+ProcessTrust-2,domain#CP-Marker+ProcessTrust-1,Start precedes end of sequence,FALSE,TRUE
@@ -521,6 +523,7 @@ package#Users,domain#CP-Marker+HumanMobility-1,domain#CP-Marker+HumanMobility-0,
 package#Users,domain#CP-Marker+HumanStatus-1,domain#CP-Marker+HumanStatus-0,Start precedes and of sequence,FALSE,TRUE
 package#Users,domain#CP-Marker+SpaceOperation-0,domain#CP-Marker+WorldTagging-1,Inferred space creation and tagging should precede space operational inference,FALSE,TRUE
 package#Users,domain#CP-Marker+SpaceOperation-1,domain#CP-Marker+SpaceOperation-0,Start precedes end of sequence,FALSE,TRUE
+package#Users,domain#CP-Marker+UserMobilityRequirements-0,domain#CP-Marker+SpaceCreation-1,Physical space creation should precede user mobility requirements inference,FALSE,TRUE
 package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+UserMobilityRequirements-0,Start precedes end of sequence,FALSE,TRUE
 package#Users,domain#CP-StS-St+c,domain#CP-Marker+SpaceOperation-0,StS-St+c is at the start of the space operation inference sequence,FALSE,TRUE
 package#Virtualisation,domain#CP-Marker+VirtualHostCreation-1,domain#CP-Marker+VirtualHostCreation-0,Start precedes end of sequence,FALSE,TRUE

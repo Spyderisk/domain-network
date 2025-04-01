@@ -62,6 +62,7 @@ package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-Marker+DataKeys-1,ScDSPDI
 package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-1,ScDSPDIcD+z is at the end of the non-application client-service interaction inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-Marker+DataFields-1,DAOiDADInDF-i+i-Replay is at the end of the data field inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-DCDFDF+i,domain#CP-Marker+DataFields-1,DCDFDF+I is at the end of the data field inference sequence,FALSE,TRUE
+package#DataStructure,domain#CP-Marker+DataFields-1,domain#CP-Marker+Phishing-0,Unsolicited data flow creation should follow data field inference,FALSE,TRUE
 package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-1,PpD-iDF+a is at the end of the data field inference sequence,FALSE,TRUE
 package#Network,domain#CP-C+iC,domain#CP-Marker+HostClassification-1,C+iC is at the end of the asserted host classification sequence,FALSE,TRUE
 package#Network,domain#CP-DCH+l,domain#CP-Marker+FixedHostCreation-1,DCH+l is at the end of the inferred fixed host creation sequence,FALSE,TRUE
@@ -101,11 +102,11 @@ package#Network,domain#CP-PH2dS+iM,domain#CP-Marker+HostLocation-1,PH2dS+iM is a
 package#Network,domain#CP-PHHS-iC+SL,domain#CP-Marker+SocketNetworkCreation-1,PHHS-iC+SL is at the end of internal network creation,FALSE,TRUE
 package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Marker+RootLogin-1,Pc-hSHLnS+c is at the end of the inferred root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-PcWH+c,domain#CP-Marker+WiFiHotspotCreation-1,PcWH+c is at the end of the WiFi hotspot creation sequence,FALSE,TRUE
-package#Network,domain#CP-RAS+iL,domain#CP-Marker+SystemProcess-1,RAS+iL is at the end of the inferred system process creation sequence,FALSE,TRUE
+package#Network,domain#CP-RAS+iL,domain#CP-Marker+ProcessClassification-1,RAS+iL is at the end of the process classification sequence,FALSE,TRUE
 package#Network,domain#CP-Rr+iR,domain#CP-Marker+HostClassification-1,Rr+iR is at the end of the asserted host classification sequence,FALSE,TRUE
 package#Network,domain#CP-StHP+o,domain#CP-Marker+ProcessOperation-1,StHP+o is at the end of the process operation inference sequence,FALSE,TRUE
 package#Network,domain#CP-StSPH-St+o,domain#CP-Marker+HostOperation-1,StSPH-St+o is at the end of the host operation inference sequence,FALSE,TRUE
-package#Network,domain#CP-TP+iT,domain#CP-Marker+SystemProcess-1,TP+iT is at the end of the inferred system process creation sequence,FALSE,TRUE
+package#Network,domain#CP-TP+iT,domain#CP-Marker+ProcessClassification-1,TP+iT is at the end of the process classification sequence,FALSE,TRUE
 package#Network,domain#CP-WS-H+I,domain#CP-WpHSH-aF+WH,WpHSH-aF+WH creates an asset that in WS-H+I should not match LogicalSubnet,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-Marker+NetworkInterfaces-1,HLS+I is at the end of the network interface creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-LPLS2NSg2+b,domain#CP-Marker+NetworkBlocks-1,LPLS2NSg2+b is at the end of the network blocking inference sequence,FALSE,TRUE
@@ -121,14 +122,17 @@ package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-Marker+AttackPath-2,CAPNPSA
 package#ProcessComms,domain#CP-CAPlISAP+lI,domain#CP-Marker+AttackPath-2,CAPlISAP+lI is at the end of the attack path aggregation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CSCLS+aFC,domain#CP-Marker+ServiceChannel-2,CSCLS+aFC is at the end of the service channel creation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CaS-SP+uD,domain#CP-Marker+ServiceChannel-1,CaS-SP+uD is at the end of the client-service direct access tagging sequence,FALSE,TRUE
-package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-Marker+ServiceDelegation-2,CuPiS-i+i is at the end of the access by delegate inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-Marker+ServiceDelegation-3,CuPiS-i+i is at the end of the access by delegate inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-Marker+ServiceDelegation-1,CuSPvS-U+U is at the end of the access by reverse proxy inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-HRASuPScS+c,domain#CP-Marker+RemoteAccess-1,HRASuPScS+c is at the end of the remote process inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-Marker+RemoteAccess-1,HuRACP+i is at the end of the remote process execution inference sequence,FALSE,TRUE
-package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+ClientService-2,System client-service relationship inference should follow remote process execution inference,FALSE,TRUE
-package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+DataHandling-0,Data handling relationship inference should follow remote process execution inference,FALSE,TRUE
-package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+HumanStatus-0,Human status classification should follow remote process execution inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+ServiceDelegation-2,Remote process execution inference is a subsequence of indirect client-service access inference,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ReverseProxy-1,domain#CP-Marker+ProcessManagement-0,Inferred reverse proxy creation should precede process management inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+ClientService-2,System client-service relationship inference should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+DataHandling-0,Data handling relationship inference should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+HumanStatus-0,Human status classification should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+ProcessContext-0,Process context creation should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+ProcessManagement-0,process management inference should follow indirect client-service access,FALSE,TRUE
 package#ProcessComms,domain#CP-PCaTSSCAP+aTS,domain#CP-Marker+AttackPath-2,PCaTSSCAP+aTS is at the end of the attack path aggregation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-Marker+RemoteAccess-1,RACuRHRASP-iPL+uRAS is at the end of the remote process execution inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-RTvSPRAS+uR,domain#CP-RDvSPHP-iPL-RAS+DtS,RDvSPHP-iPL-RAS+DtS creates a link that in RTvSPRAS+uR should not match Proxy-usesAsProxy-Process,FALSE,TRUE

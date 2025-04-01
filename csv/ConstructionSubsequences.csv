@@ -26,6 +26,7 @@ package#Network,21,Network connection inference
 package#Network,22,Inferred system process creation
 package#Network,24,Network accessibility inference
 package#Network,29,Host context creation
+package#Network,3,Inferred non-physical host creation
 package#Network,30,Process context creation
 package#Network,34,Process management inference
 package#Network,35,Process operation inference
@@ -56,5 +57,4 @@ package#Users,13,Human status classification
 package#Users,15,Human mobility requirements inference
 package#Users,16,Human mobility inference
 package#Users,31,Physical space operation inference
-package#Virtualisation,3,Inferred virtual host creation
 package#Virtualisation,9,Inferred virtual network creation
