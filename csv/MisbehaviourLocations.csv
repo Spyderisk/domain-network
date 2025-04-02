@@ -63,6 +63,7 @@ package#Network,domain#LossOfUserTW,domain#Host
 package#Network,domain#LossOfUserTW,domain#Process
 package#Network,domain#MalwareInfection,domain#Host
 package#Network,domain#MalwareInfection,domain#Process
+package#Network,domain#NetworkAccess,domain#LogicalSubnet
 package#Network,domain#Overloaded,domain#Host
 package#Network,domain#Overloaded,domain#LogicalSubnet
 package#Network,domain#Overloaded,domain#Process

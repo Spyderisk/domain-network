@@ -29,6 +29,7 @@ package#5G,domain#MADS-LossOfReliability-BaseStation,domain#BaseStation,domain#L
 package#5G,domain#MADS-LossOfResourceTW-BaseStation,domain#BaseStation,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-LossOfUserTW-BaseStation,domain#BaseStation,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-MalwareInfection-BaseStation,domain#BaseStation,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#5G,domain#MADS-NetworkAccess-RAN,domain#RAN,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#5G,domain#MADS-Overloaded-BaseStation,domain#BaseStation,domain#Overloaded,domain#ImpactLevelNegligible
 package#5G,domain#MADS-Overloaded-RAN,domain#RAN,domain#Overloaded,domain#ImpactLevelNegligible
 package#5G,domain#MADS-Theft-BaseStation,domain#BaseStation,domain#Theft,domain#ImpactLevelNegligible
@@ -329,6 +330,7 @@ package#CloudManagement,domain#MADS-MalwareInfection-Ingress,domain#Ingress,doma
 package#CloudManagement,domain#MADS-MalwareInfection-Master,domain#Master,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-MalwareInfection-Pod,domain#Pod,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-MalwareInfection-Worker,domain#Worker,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#CloudManagement,domain#MADS-NetworkAccess-ClusterIP,domain#ClusterIP,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-Overloaded-APIServer,domain#APIServer,domain#Overloaded,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-Overloaded-ClusterIP,domain#ClusterIP,domain#Overloaded,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-Overloaded-Container,domain#Container,domain#Overloaded,domain#ImpactLevelNegligible
@@ -494,6 +496,8 @@ package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkControl-BluetoothPair,d
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkControl-USBPair,domain#USBPair,domain#LossOfNetworkControl,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkUserTW-BluetoothPair,domain#BluetoothPair,domain#LossOfNetworkUserTW,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkUserTW-USBPair,domain#USBPair,domain#LossOfNetworkUserTW,domain#ImpactLevelNegligible
+package#LocalDeviceConnectivity,domain#MADS-NetworkAccess-BluetoothPair,domain#BluetoothPair,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#LocalDeviceConnectivity,domain#MADS-NetworkAccess-USBPair,domain#USBPair,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-Overloaded-BluetoothPair,domain#BluetoothPair,domain#Overloaded,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-Overloaded-USBPair,domain#USBPair,domain#Overloaded,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-ServiceChannelsAllowed-MeshRoutingSegment,domain#MeshRoutingSegment,domain#ServiceChannelsAllowed,domain#ImpactLevelNegligible
@@ -761,6 +765,11 @@ package#Network,domain#MADS-MalwareInfection-Smartwatch,domain#Smartwatch,domain
 package#Network,domain#MADS-MalwareInfection-SystemProcess,domain#SystemProcess,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Network,domain#MADS-MalwareInfection-Tablet,domain#Tablet,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Network,domain#MADS-MalwareInfection-Workstation,domain#Workstation,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-CoreNetwork,domain#CoreNetwork,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-Internet,domain#Internet,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-SocketLAN,domain#SocketLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-WiFiLAN,domain#WiFiLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-WiredLAN,domain#WiredLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-AuthClient,domain#AuthClient,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-AuthService,domain#AuthService,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Cluster,domain#Cluster,domain#Overloaded,domain#ImpactLevelNegligible
@@ -1081,6 +1090,8 @@ package#Virtualisation,domain#MADS-LossOfUserTW-VRouter,domain#VRouter,domain#Lo
 package#Virtualisation,domain#MADS-MalwareInfection-VCluster,domain#VCluster,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-MalwareInfection-VM,domain#VM,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-MalwareInfection-VRouter,domain#VRouter,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#Virtualisation,domain#MADS-NetworkAccess-HostLAN,domain#HostLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Virtualisation,domain#MADS-NetworkAccess-VXLAN,domain#VXLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-Overloaded-HostLAN,domain#HostLAN,domain#Overloaded,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-Overloaded-VCluster,domain#VCluster,domain#Overloaded,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-Overloaded-VM,domain#VM,domain#Overloaded,domain#ImpactLevelNegligible

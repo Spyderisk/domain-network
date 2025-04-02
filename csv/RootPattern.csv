@@ -363,7 +363,9 @@ package#Network,domain#R-HRASuPcC,HRASuPcC,"Finds a host running a remote access
 package#Network,domain#R-HRASuPcS,HRASuPcS,"Finds a host running a remote access service that launches a process which uses a service by which it is also controlled, implying that the process uses forwarded credentials to access the service.",FALSE,TRUE
 package#Network,domain#R-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",FALSE,FALSE
 package#Network,domain#R-Hm2Hu,Hm2Hu,Finds a host and two humans that manage the host.,FALSE,FALSE
+package#Network,domain#R-HprL23S,HprL23S,Finds a Layer 2 or 3 LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprL23SAC,HprL23SAC,"Finds a Layer 2 or 3 LogicalSubnet provided by a Host, along with an associated network access context.",FALSE,FALSE
+package#Network,domain#R-HprL23SAS,HprL23SAS,Finds a Layer 2 or 3 LogicalSubnet provided by a Host and implementing an abstract subnet,FALSE,FALSE
 package#Network,domain#R-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,FALSE,FALSE
 package#Network,domain#R-HuE,HuE,Finds a human interacting with an email client.,FALSE,FALSE
@@ -406,6 +408,8 @@ package#Network,domain#R-HuwStmP,HuwStmP,Finds a Human managing a Process and wo
 package#Network,domain#R-IcP,IcP,Finds a Process controlling an Internet class subnet.,FALSE,FALSE
 package#Network,domain#R-Internet,Internet,Finds an Internet class network.,FALSE,FALSE
 package#Network,domain#R-IpH,IpH,Finds a Host providing an Internet class subnet.,FALSE,FALSE
+package#Network,domain#R-L23S,L23S,Finds a solo L2 or L3 Subnet.,FALSE,FALSE
+package#Network,domain#R-L23SAS,L23SAS,Finds an L2 or L3 Subnet that implements an abstract subnet.,FALSE,FALSE
 package#Network,domain#R-LS,LS,Finds a solo Logical Subnet.,FALSE,FALSE
 package#Network,domain#R-LSaS,LSaS,Finds a logical subnet accessible from a space.,FALSE,FALSE
 package#Network,domain#R-LnScP,LnScP,Finds a login service controlling access to a process.,FALSE,FALSE
@@ -461,6 +465,7 @@ package#Network,domain#R-StSPH,StSPH,Finds a Private Space operated by a Stakeho
 package#Network,domain#R-Sv,Sv,Finds a solo Server.,FALSE,FALSE
 package#Network,domain#R-TH,TH,Finds a solo trivial host.,FALSE,FALSE
 package#Network,domain#R-THGP,THGP,Finds a trivial host running a general process.,FALSE,FALSE
+package#Network,domain#R-THL23S,THL23S,"Finds a trivial host connected to an L2 or L3 subnet, and an associated network access context.",FALSE,FALSE
 package#Network,domain#R-TP,TP,Finds a solo trivial process.,FALSE,FALSE
 package#Network,domain#R-WH,WH,Finds a solo WiFiLAN which may be a hotspot.,FALSE,FALSE
 package#Network,domain#R-WS,WS,Finds a solo WiFiLAN.,FALSE,FALSE
@@ -497,6 +502,9 @@ package#NetworkConnectivity,domain#R-L3rGrL3,L3rGrL3,"Finds a Host providing two
 package#NetworkConnectivity,domain#R-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-LoH,LoH,"Detects a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-LoHIP,LoHIP,"Finds a Host with an interface to a subnet, where the interface is controlled by a process.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-LoHSP,LoHSP,Finds a Host with an interface to a subnet controlled by a process.,FALSE,FALSE
+package#NetworkConnectivity,domain#R-LoHSPAC,LoHSPAC,"Finds a Host with an interface to a subnet controlled by a process, and the access context relating to this process, host and subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP,NP,Finds a network path (which may or may not be physical).,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,FALSE,FALSE

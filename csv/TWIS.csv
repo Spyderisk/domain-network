@@ -14,6 +14,7 @@ package#Network,domain#TWIS-DefaultTW-LossOfDefaultTW,domain#LossOfDefaultTW,dom
 package#Network,domain#TWIS-ExtrinsicTW-LossOfExtrinsicTW,domain#LossOfExtrinsicTW,domain#ExtrinsicTW
 package#Network,domain#TWIS-Health-MalwareInfection,domain#MalwareInfection,domain#Health
 package#Network,domain#TWIS-IntrinsicTW-LossOfIntrinsicTW,domain#LossOfIntrinsicTW,domain#IntrinsicTW
+package#Network,domain#TWIS-NetworkAccessibility-NetworkAccess,domain#NetworkAccess,domain#NetworkAccessibility
 package#Network,domain#TWIS-NetworkControl-LossOfNetworkControl,domain#LossOfNetworkControl,domain#NetworkControl
 package#Network,domain#TWIS-NetworkUserTW-LossOfNetworkUserTW,domain#LossOfNetworkUserTW,domain#NetworkUserTW
 package#Network,domain#TWIS-OutOfService-InService,domain#InService,domain#OutOfService

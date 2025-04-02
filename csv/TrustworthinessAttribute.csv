@@ -14,6 +14,7 @@ package#Network,domain#DefaultTW,DefaultTW,"Modelling artefact: an attribute tha
 package#Network,domain#ExtrinsicTW,ExtrinsicTW,Free of software vulnerabilities in processes and devices that are likely to be discovered by potential attackers.,TRUE
 package#Network,domain#Health,Health,Free of self-propagating malware.,TRUE
 package#Network,domain#IntrinsicTW,IntrinsicTW,Free of functional software bugs that cause errors or crashes without external provocation.,TRUE
+package#Network,domain#NetworkAccessibility,NetworkAccessibility,"Trustworthiness of those able to request a connection to the logical subnet, i.e., those physically able to send messages (to the controlling router or process) but not yet having an address on the subnet (so not able to exchange messages with other connected hosts).",TRUE
 package#Network,domain#NetworkControl,NetworkControl,Control over routing within an abstract or logical subnet.,TRUE
 package#Network,domain#NetworkUserTW,NetworkUserTW,Trustworthiness of users with access to an abstract or logical network subnet.,TRUE
 package#Network,domain#OutOfService,OutOfService,"The asset is not currently engaged or being used within the system, and hence cannot be exploited by attackers.",FALSE

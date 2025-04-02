@@ -47,6 +47,7 @@ package#Network,domain#Health,domain#Host
 package#Network,domain#Health,domain#Process
 package#Network,domain#IntrinsicTW,domain#Host
 package#Network,domain#IntrinsicTW,domain#Process
+package#Network,domain#NetworkAccessibility,domain#LogicalSubnet
 package#Network,domain#NetworkControl,domain#AbstractSubnet
 package#Network,domain#NetworkUserTW,domain#AbstractSubnet
 package#Network,domain#OutOfService,domain#Host

@@ -449,7 +449,9 @@ package#Network,domain#MP-Hm2dHu,Hm2dHu,Finds a host and two distinct humans tha
 package#Network,domain#MP-HmAC,HmAC,"Finds a solo Host plus all location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-HmACPAC,HmACPAC,"Finds a process running on a host in a space and an associated process location access context, plus related host access contexts and optionally the host manager and process user.",domain#R-HPAC,FALSE,FALSE
 package#Network,domain#MP-HmNCPAC,HmNCPAC,"Finds a process running on a host in a space and an associated process location access context, plus related process network access contexts.",domain#R-HPAC,FALSE,FALSE
+package#Network,domain#MP-HprL23S-AP,HprL23S-AP,"Finds a gateway host providing an L2 or L3 Subnet that does not implement an abstract subnet, and is not controlled by a process.",domain#R-HprL23S,FALSE,FALSE
 package#Network,domain#MP-HprL23SAC,HprL23SAC,"Finds a Layer 2 or 3 LogicalSubnet provided by a Host, along with an associated network access context.",domain#R-HprL23SAC,FALSE,FALSE
+package#Network,domain#MP-HprL23SAS-P,HprL23SAS-P,Finds a gateway host providing an L2 or L3 Subnet that implements an abstract subnet and is not controlled by any process.,domain#R-HprL23SAS,FALSE,FALSE
 package#Network,domain#MP-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,domain#R-HprLS,FALSE,FALSE
 package#Network,domain#MP-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,domain#R-HprLSAC,FALSE,FALSE
 package#Network,domain#MP-HsAC,HsAC,"Finds a solo Host plus any of its location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
@@ -499,10 +501,12 @@ package#Network,domain#MP-HuwStmP-St,HuwStmP-St,"Finds a Human working for an Em
 package#Network,domain#MP-IcP,IcP,Finds a Process controlling an Internet class subnet.,domain#R-IcP,FALSE,FALSE
 package#Network,domain#MP-InternetMP,InternetMP,Finds an Internet class network.,domain#R-Internet,FALSE,FALSE
 package#Network,domain#MP-IpH,IpH,Finds a Host providing an Internet class subnet.,domain#R-IpH,FALSE,FALSE
+package#Network,domain#MP-L23S-AHP,L23S-AHP,"Finds an L2 or L3 Subnet that does not implement an abstract subnet, and is neither provided by a gateway host, not controlled by a process.",domain#R-L23S,FALSE,FALSE
+package#Network,domain#MP-L23SAS-HP,L23SAS-HP,"Finds an L2 or L3 Subnet that implements an abstract subnet, but is neither provided by a gateway host, not controlled by a process.",domain#R-L23SAS,FALSE,FALSE
 package#Network,domain#MP-LS,LS,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LS-S,LS-S,"Finds a Logical Subnet that is not abstract, but is accessible from no physical space.",domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LS-iH,LS-iH,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
-package#Network,domain#MP-LS-prH,LS-prH,Finds a Logical Subnet not provided by any host.,domain#R-LS,FALSE,FALSE
+package#Network,domain#MP-LS-prH,LS-prH,Finds a Logical Subnet that is not provided by any host.,domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LSaS,LSaS,Finds a logical subnet accessible from a space.,domain#R-LSaS,FALSE,FALSE
 package#Network,domain#MP-LnSuP-H,LnSuP-H,Finds a login service using a process where the two do not have the same Host.,domain#R-LnSuP,FALSE,FALSE
 package#Network,domain#MP-MHC,MHC,Finds a solo Mobile Console Host.,domain#R-MHC,FALSE,FALSE
@@ -560,6 +564,7 @@ package#Network,domain#MP-StSPH-St,StSPH-St,Finds a Private Space operated by a 
 package#Network,domain#MP-Sv-LnS,Sv-LnS,Finds a Server that is not controlled by any process.,domain#R-Sv,FALSE,TRUE
 package#Network,domain#MP-TH,TH,"Finds a solo trivial host, and optionally the host manager, an interactive user, and any related access contexts.",domain#R-TH,FALSE,FALSE
 package#Network,domain#MP-THGP,THGP,Finds a trivial host running a general process.,domain#R-THGP,FALSE,FALSE
+package#Network,domain#MP-THL23S,THL23S,"Finds a trivial host connected to an L2 or L3 subnet, and an associated network access context, plus optionally the host manager.",domain#R-THL23S,FALSE,FALSE
 package#Network,domain#MP-TP,TP,Finds a solo trivial process.,domain#R-TP,FALSE,FALSE
 package#Network,domain#MP-WHmWS,WHmWS,Finds a WiFi hotspot with at least one local implementation.,domain#R-WH,FALSE,FALSE
 package#Network,domain#MP-WS-H,WS-H,Finds a solo WiFiLAN that is not an abstract hotspot.,domain#R-WS,FALSE,FALSE
@@ -600,6 +605,9 @@ package#NetworkConnectivity,domain#MP-L3rGrL3,L3rGrL3,"Finds a Host providing tw
 package#NetworkConnectivity,domain#MP-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",domain#R-LPLS2NSg2,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,domain#R-LPsLS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LoH,LoH,"Finds a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface, plus all contexts where it is connected to the same subnet (there may be others), and optionally the host manager.",domain#R-LoH,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-LoHIP,LoHIP,"Finds a Host with an interface to a subnet, where the interface is controlled by a process, plus the associated network access contexts.",domain#R-LoHIP,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-LoHSP,LoHSP,"Finds a Host with an interface to a subnet controlled by a process, plus the associated network access contexts.",domain#R-LoHSP,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-LoHSPAC,LoHSPAC,"Finds a Host with an interface to a subnet controlled by a process, and the access context relating to this process, host and subnet.",domain#R-LoHSPAC,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,domain#R-NP2LS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,domain#R-NP2LSg,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NP3,NP3,"Finds a Network Path with a subpath that extends a third path, which does not itself have a subpath relationship to the first.",domain#R-NP3,FALSE,FALSE
@@ -915,6 +923,7 @@ package#Virtualisation,domain#MP-VHHsD-HsS-S,VHHsD-HsS-S,"Finds a Virtual Host a
 package#Virtualisation,domain#MP-VHPH,VHPH,Finds a virtual host provisioned by a physical host.,domain#R-VHPH,FALSE,FALSE
 package#Virtualisation,domain#MP-VHPhDHS-HsS-S,VHPhDHS-HsS-S,"Finds a Virtual Host running a Process that handles Data but does not access it via a service, where its host is in a virtualisation stack above a second Host running a service for the Data, and there is no host between the two in the virtualisation stack running a Process that Serves the Data.",domain#R-VHPhDHS,FALSE,FALSE
 package#Virtualisation,domain#MP-VSHCmSC,VSHCmSC,"Finds a host channel supporting a virtual subnet, and the associated hosts, along with all service channels that use the host channel.",domain#R-VSHC,FALSE,FALSE
+package#Virtualisation,domain#MP-VSPS,VSPS,Finds a Virtual Subnet using a Physical Subnet to route at least one host-host connection.,domain#R-VSPS,FALSE,FALSE
 package#Virtualisation,domain#MP-VSPS-HP,VSPS-HP,"Finds a Virtual Subnet using a Physical Subnet to route at least one host-host connection, where there is no gateway specified as the subnet provider, and no controlling Process.",domain#R-VSPS,FALSE,FALSE
 package#Virtualisation,domain#MP-VSPSH,VSPSH,"Finds a Virtual Subnet provided by a gateway host using a Physical Subnet to route at least one host-host connection, and optionally the process controlling the virtual subnet, and the manager of the gateway.",domain#R-VSPSH,FALSE,FALSE
 package#Virtualisation,domain#MP-VSPSH-P,VSPSH-P,"Finds a Virtual Subnet with no controlling Process, provided by a gateway host using a Physical Subnet to route at least one host-host connection, and optionally the manager of the Gateway.",domain#R-VSPSH,FALSE,FALSE

@@ -1,5 +1,5 @@
 package,URI,hasSuccessor,notes,fake,asserted
-domain#000000,domain#000000,domain#CP-PHH+hPH-2,link Host(Gateway)-hasPhysicalHost-BaseStation misses Host-hasPhysicalHost-PhysicalHost created afterwards,No,No
+domain#000000,domain#000000,domain#CP-PHH+hPH-2,link Host(Gateway)-hasPhysicalHost-BaseStation misses Host-hasPhysicalHost-PhysicalHost created afterwards,No,Yes
 package#5G,domain#CP-CNRANBSS+aF,domain#CP-PHH+hPH-2,link Host(Gateway)-hasPhysicalHost-BaseStation misses Host-hasPhysicalHost-PhysicalHost created afterwards,FALSE,FALSE
 package#5G,domain#CP-CNRS+aF,domain#CP-LSaS+a,"link L3Subnet(LogicalSubnet)-accessibleFrom-Space created, then matched as LogicalSubnet-accessibleFrom-Space",FALSE,FALSE
 package#5G,domain#CP-CNS+RAN+BS-S+l,domain#CP-HuiPDaS-S+l,link BaseStation(PhysicalHost)-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
@@ -192,8 +192,8 @@ package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link 
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link DesktopService(Service)-isLnS-DesktopService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,"link DesktopService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
