@@ -1,6 +1,5 @@
 package,URI,metaLocatedAt
 domain#000000,domain#000000,domain#AccessContext
-package#AccessContext,domain#Control,domain#AccessContext
 package#AccessContext,domain#ExploitTW,domain#AccessContext
 package#AccessContext,domain#UserTW,domain#AccessContext
 package#Application,domain#Authenticity,domain#Data
@@ -8,6 +7,8 @@ package#Application,domain#Availability,domain#Data
 package#Application,domain#Confidentiality,domain#Data
 package#Application,domain#DefaultTW,domain#Data
 package#Application,domain#Health,domain#Data
+package#Application,domain#Health,domain#Host
+package#Application,domain#Health,domain#Process
 package#Application,domain#Integrity,domain#Data
 package#Application,domain#Timeliness,domain#Data
 package#Application,domain#Timeliness,domain#Human
@@ -35,6 +36,7 @@ package#Network,domain#Availability,domain#Host
 package#Network,domain#Availability,domain#NetworkAsset
 package#Network,domain#Availability,domain#Process
 package#Network,domain#Capacity,domain#DataCentre
+package#Network,domain#Control,domain#AccessContext
 package#Network,domain#Control,domain#Host
 package#Network,domain#DefaultTW,domain#Host
 package#Network,domain#DefaultTW,domain#LogicalSubnet
@@ -43,8 +45,6 @@ package#Network,domain#ExploitTW,domain#Host
 package#Network,domain#ExploitTW,domain#Process
 package#Network,domain#ExtrinsicTW,domain#Host
 package#Network,domain#ExtrinsicTW,domain#Process
-package#Network,domain#Health,domain#Host
-package#Network,domain#Health,domain#Process
 package#Network,domain#IntrinsicTW,domain#Host
 package#Network,domain#IntrinsicTW,domain#Process
 package#Network,domain#NetworkAccessibility,domain#LogicalSubnet
@@ -70,17 +70,17 @@ package#NetworkConnectivity,domain#ConnectionsBlocked,domain#LogicalSegment
 package#NetworkConnectivity,domain#NetworkAuthenticity,domain#Interface
 package#Physical,domain#OccupantTW,domain#Space
 package#Physical,domain#PhysicalControl,domain#PrivateSpace
-package#ProcessComms,domain#AnonUserTW,domain#ClientChannel
 package#ProcessComms,domain#ChannelConfidentiality,domain#ConnectionChannel
-package#ProcessComms,domain#ClientAuthenticity,domain#AuthChannel
-package#ProcessComms,domain#ClientTW,domain#AuthChannel
-package#ProcessComms,domain#DeputyUserTW,domain#ClientChannel
 package#ProcessComms,domain#OutOfService,domain#ConnectionAsset
-package#ProcessComms,domain#ProxyUserTW,domain#ClientChannel
-package#ProcessComms,domain#ServiceAuthenticity,domain#AuthChannel
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#Interface
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#LogicalSegment
-package#ProcessComms,domain#ServiceTW,domain#AuthChannel
+package#ProcessTrust,domain#AnonUserTW,domain#ClientChannel
+package#ProcessTrust,domain#ClientAuthenticity,domain#AuthChannel
+package#ProcessTrust,domain#ClientTW,domain#AuthChannel
+package#ProcessTrust,domain#DeputyUserTW,domain#ClientChannel
+package#ProcessTrust,domain#ProxyUserTW,domain#ClientChannel
+package#ProcessTrust,domain#ServiceAuthenticity,domain#AuthChannel
+package#ProcessTrust,domain#ServiceTW,domain#AuthChannel
 package#Theft,domain#OwnerControl,domain#AccessContext
 package#Theft,domain#OwnerControl,domain#Host
 package#Theft,domain#OwnerControl,domain#Process

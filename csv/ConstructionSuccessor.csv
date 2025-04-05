@@ -46,17 +46,6 @@ package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment
 package#5G,domain#CP-URrBrUR+CSg,domain#CP-L3c-rGc-rL3+OSg,"link ClosedSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,link RemoteDesktop(Process)-uses-DesktopService misses Process(Client)-uses-Process(Service) created afterwards,FALSE,FALSE
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-CS+u,"link RemoteDesktop-uses-DesktopService created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-isLnS-LoginService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link RemoteTerminal(RemoteAccessClient)-uses-LoginService(Service) created, then matched as RemoteAccessClient-uses-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteAccessService misses RemoteAccessClient-usesRemotely-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteAccessService misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,"link Container-above-Host created, then matched as Host-above-Host(SHost)",FALSE,FALSE
 package#CloudManagement,domain#CP-CtHaH+a,domain#CP-VHHsD-HsS-S+S,"link Container-above-Host created, then matched as VirtualHost-above-Host",FALSE,FALSE
 package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-DCVHRS-H+p,"link Container-hasPhysicalHost-PhysicalHost created, then matched as Host-hasPhysicalHost-PhysicalHost",FALSE,FALSE
@@ -67,8 +56,6 @@ package#CloudManagement,domain#CP-DCCM-P+P,domain#CP-VHHsD-HsS-S+S,"link Master(
 package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,"link Master(CloudMaster)-connectedTo-VXLAN(VirtualSubnet) created, then matched as Host-connectedTo-VirtualSubnet(LogicalSubnet)",FALSE,FALSE
 package#CloudManagement,domain#CP-DCMW-LS+VX,domain#CP-DCVHVS-H+p,"link Worker(CloudWorker)-connectedTo-VXLAN(VirtualSubnet) created, then matched as Host-connectedTo-VirtualSubnet(LogicalSubnet)",FALSE,FALSE
 package#CloudManagement,domain#CP-DCVHC+p,domain#CP-HVH-a+a,"link VirtualHost-provisionedBy-Cluster created, then matched as VirtualHost(Host)-provisionedBy-Host(SHost)",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHDtS-AC+AC,"link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created, then matched as Human-interactsRemotelyWith-DesktopService",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHLnS-AC+AC,"link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created, then matched as Human-interactsRemotelyWith-LoginService",FALSE,FALSE
 package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-Hc-pN-hP+AC,link Container-hosts-Process misses Host-hosts-AuthClient created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,link Human(HostManager)-manages-Container misses Human-manages-VirtualHost(Host) created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HumHVH-Hu+m,"link Human(ProcessManager)-manages-Container created, then matched as Human(HostManager)-manages-VirtualHost(Host)",FALSE,FALSE
@@ -85,8 +72,6 @@ package#CloudManagement,domain#CP-KPxCuScP+aa,domain#CP-HcWHS+c,link Worker(Clou
 package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,link Master(CloudMaster)-connectedTo-LogicalSubnet misses VirtualHost-connectedTo-VXLAN(VirtualSubnet) created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,"link Pod-connectedTo-ClusterIP created, then matched as VirtualHost-connectedTo-LogicalSubnet",FALSE,FALSE
 package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-DCCVH-LS+LS,link Worker(CloudWorker)-connectedTo-LogicalSubnet misses VirtualHost-connectedTo-VXLAN(VirtualSubnet) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHDtS-AC+AC,link ShellHost(Host)-hosts-Process misses ConsoleHost-hosts-RemoteDesktop created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHLnS-AC+AC,link ShellHost(Host)-hosts-Process misses ConsoleHost-hosts-RemoteTerminal created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-PodCnP+c,domain#CP-VHHsD-HsS-S+S,link Container-hosts-Process misses Host-hosts-DataService created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,link Container-hosts-Process misses Host-hosts-DataService created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,"link Container-stores-Data created, then matched as Host(SHost)-stores-Data",FALSE,FALSE
@@ -94,6 +79,13 @@ package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,"link Contai
 package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,"link Container-stores-Data created, then matched as VirtualHost-stores-Data",FALSE,FALSE
 package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-VHHsD-HsS-S+S,link Process-handles-Data misses DataService-serves-Data created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-HuiHRAC+i,"link Container-hosts-Process created, then matched as Host-hosts-RemoteAccessClient",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,"link Process(Service)-usesForAuthZ-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Client) created, then matched as DataExchange-connectsData-Process",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Client) created, then matched as DataExchange-connectsData-Process(DB)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Service) created, then matched as DataExchange-connectsData-Process",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Service) created, then matched as DataExchange-connectsData-Process(DB)",FALSE,FALSE
 package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeOD+vD,"link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD+aD,"link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-HuirPeUD-a+a,"link EmailClient(MUA)-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
@@ -104,6 +96,9 @@ package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeOD+vD,"link WebBrowser-e
 package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD+aD,"link WebBrowser-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-HuWES+D,domain#CP-HuirPeUD-a+a,"link WebBrowser-enablesUserOutput-SpamData(Data) created, then matched as Process-enablesUserOutput-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-CuSHS+SL,"link Process-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,"link Process(Service)-usesForAuthZ-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
 package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-CuSHS+SL,"link Process-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
 package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-CuSHS+SL,"link Process-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
 package#IoT,domain#CP-DcTh+s,domain#CP-HD+s,"link Thing-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
@@ -113,7 +108,10 @@ package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuE+e,"link Human-interactsWith-Proces
 package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+D,"link Human-interactsWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
 package#IoT,domain#CP-HuiSe+Rel,domain#CP-HuWES+e,"link Human-interactsWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
 package#IoT,domain#CP-HuiSe+Rel,domain#CP-RDuHP-iPL-RAS+DtS,link Sensor-hosts-Process misses Host-hosts-DesktopService(Service) created afterwards,FALSE,FALSE
+package#IoT,domain#CP-HuiThaS-S+r,domain#CP-HuiPDaS-S+l,link Thing-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
 package#IoT,domain#CP-HumThP-m+m,domain#CP-RDuHP-iPL-RAS+DtS,link Thing-hosts-Process misses Host-hosts-DesktopService(Service) created afterwards,FALSE,FALSE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,link Human(HostManager)-manages-Thing misses Human-manages-Thing created afterwards,FALSE,FALSE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,"link Human-manages-Thing created, then matched as Human(HostManager)-manages-Thing",FALSE,FALSE
 package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-CS+u,"link Process(Client)-uses-SensorProcess(SimpleProcess) created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
 package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-PD+h,"link Process(Client)-receives-Data created, then matched as Process-handles-Data",FALSE,FALSE
 package#IoT,domain#CP-PrSe+Rel,domain#CP-CS+u,"link SensorProcess(SimpleProcess)-uses-Process(Client) created, then matched as Process(Client)-uses-Process(Service)",FALSE,FALSE
@@ -151,32 +149,17 @@ package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-CS+u,"link Process-
 package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-L3c-rGc-rL3+OSg,"link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-L3c-rGc-rL3+OSg,"link MeshRoutingSegment(LogicalSegment)-via-PhysicalHost(Gateway) created, then matched as LogicalSegment(RetSegment)-via-Host(Gateway)",FALSE,FALSE
 package#Network,domain#CP-HuiHS+cA,domain#CP-HuaSaE+cA,"link Human-canAccess-Space created, then matched as Human-canAccess-Space",FALSE,FALSE
+package#Network,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHDtS-AC+AC,"link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created, then matched as Human-interactsRemotelyWith-DesktopService",FALSE,FALSE
+package#Network,domain#CP-Hum-iHRAS+i,domain#CP-HuiCHLnS-AC+AC,"link Human(HostManager)-interactsRemotelyWith-RemoteAccessService created, then matched as Human-interactsRemotelyWith-LoginService",FALSE,FALSE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHDtS-AC+AC,link ShellHost(Host)-hosts-Process misses ConsoleHost-hosts-RemoteDesktop created afterwards,FALSE,FALSE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-HuiCHLnS-AC+AC,link ShellHost(Host)-hosts-Process misses ConsoleHost-hosts-RemoteTerminal created afterwards,FALSE,FALSE
 package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-HLS+cT,link Host-connectedTo-LogicalSubnet misses Host-connectedTo-LogicalSubnet created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HuiPDaS-S+l,link Thing-locatedIn-Space(OtherSpace) misses PhysicalHost(Host)-locatedIn-Space created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,link Human(HostManager)-manages-Thing misses Human-manages-Thing created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,"link Human-manages-Thing created, then matched as Human(HostManager)-manages-Thing",FALSE,FALSE
 package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,"link Stakeholder(Employer)-operates-Host created, then matched as Stakeholder(Operator)-operates-FixedHost(Host)",FALSE,FALSE
 package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-StSPH-St+o,link Stakeholder(Operator)-operates-Host misses Stakeholder-operates-FixedHost(Host) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuSHS+SL,"link Process(Service)-usesForAuthZ-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Client) created, then matched as DataExchange-connectsData-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Client) created, then matched as DataExchange-connectsData-Process(DB)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Service) created, then matched as DataExchange-connectsData-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-HSDADPDXP-Hu-DP+DP,"link DataExchange-connectsData-Process(Service) created, then matched as DataExchange-connectsData-Process(DB)",FALSE,FALSE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Proxy) misses DesktopService(Service)-uses-Process created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Proxy) misses RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Service) misses DesktopService(Service)-uses-Process created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-RDuHP-iPL-RAS+DtS,link Process(Client)-uses-Process(Service) misses RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PDOScDD-DS+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDI-DD+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-ScDSPDIcD+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HuSP+SMS,asset Process(Proxy) misses SMSClient(Process) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-HuWES+e,"link Process(Client)-uses-Process(Service) created, then matched as WebBrowser-uses-EmailService(MUA)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,"link DataCache(DataCopy)-fulfils-DataFlow created, then matched as DataCache-fulfils-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,"link DataFlow-fulfils-DataCache(DataCopy) created, then matched as DataFlow-fulfils-DataCache",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,"link DataCache(DataCopy)-fulfils-DataFlow created, then matched as DataCache-fulfils-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,"link DataFlow-fulfils-DataCache(DataCopy) created, then matched as DataFlow-fulfils-DataCache",FALSE,FALSE
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HHuWE+D,"link Human-interactsRemotelyWith-Process created, then matched as Human-interactsRemotelyWith-EmailClient(MUA)",FALSE,FALSE
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HHuWE+D,"link Human-interactsRemotelyWith-Process created, then matched as Human-interactsRemotelyWith-WebBrowser",FALSE,FALSE
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-HuE+e,"link Human-interactsRemotelyWith-Process created, then matched as Human-interactsRemotelyWith-EmailClient(MUA)",FALSE,FALSE
@@ -192,6 +175,8 @@ package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link 
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteAccessService",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-DesktopService(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
@@ -205,6 +190,15 @@ package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,l
 package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTuHP-iPL-RAS+LnS,link RemoteAccessService-uses-Process misses LoginService(Service)-uses-Process created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-InteractiveProcess(Process) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-RDuHP-iPL-RAS+DtS,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-isLnS-LoginService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link LoginService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link RemoteTerminal(RemoteAccessClient)-uses-LoginService(Service) created, then matched as RemoteAccessClient-uses-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-Process created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteAccessService misses RemoteAccessClient-usesRemotely-Process created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteAccessService misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,"link RemoteTerminal(RemoteAccessClient)-usesRemotely-ConsoleProcess(Process) created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-RTuHP-iPL-RAS+LnS,"link RemoteTerminal(RemoteAccessClient)-usesRemotely-ServiceProxy(Proxy) created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
@@ -215,9 +209,15 @@ package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,li
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuHRASP-iPL+uR,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RAS+noDU,"asset LoginService(Service) created, then matched as RemoteAccessService",FALSE,FALSE
 package#ProcessComms,domain#CP-SP+iP,domain#CP-RACuP-iP+uR,"link ServiceProxy(Proxy)-isProxy-ServiceProxy(Proxy) created, then matched as Process-isProxy-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,"link Process(Client)-usesForAuth-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuSHS+SL,"link Process(Service)-usesForAuthZ-Process(Vault) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-PDOScDD-DS+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-ScDSPDI-DD+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-ScDSPDIcD+z,link Process(Client)-accessesService-Process(Proxy) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-HuSP+SMS,asset Process(Proxy) misses SMSClient(Process) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-DFuCuS-C-P+u,domain#CP-HuWES+e,"link Process(Client)-uses-Process(Service) created, then matched as WebBrowser-uses-EmailService(MUA)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,"link DataCache(DataCopy)-fulfils-DataFlow created, then matched as DataCache-fulfils-DataFlow",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFDF+i,"link DataFlow-fulfils-DataCache(DataCopy) created, then matched as DataFlow-fulfils-DataCache",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,"link DataCache(DataCopy)-fulfils-DataFlow created, then matched as DataCache-fulfils-DataFlow",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCr-aAC+DS,domain#CP-DCDFcV+c,"link DataFlow-fulfils-DataCache(DataCopy) created, then matched as DataFlow-fulfils-DataCache",FALSE,FALSE
 package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#CP-DCpLS+RWS,"link VXLAN(VirtualSubnet)-providedBy-DataCentre created, then matched as LogicalSubnet-providedBy-DataCentre",FALSE,FALSE
 package#Virtualisation,domain#CP-HL+iLS,domain#CP-FcLSS+aF,"link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE
 package#Virtualisation,domain#CP-HL+iLS,domain#CP-FpLSS+aF,"link HostLAN(LogicalSubnet)-isLocalSubnet-HostLAN(LogicalSubnet) created, then matched as LogicalSubnet-isLocalSubnet-LogicalSubnet",FALSE,FALSE

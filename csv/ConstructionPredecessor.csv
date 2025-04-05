@@ -80,6 +80,7 @@ package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-LSaS+a,"link LogicalSubnet-accessib
 package#5G,domain#CP-URrBrUR+CSg,domain#CP-HLS+cT,"link Host-connectedTo-LogicalSubnet created, then matched as Host(Gateway)-connectedTo-RAN(FromSubnet)",FALSE,FALSE
 package#Application,domain#CP-CP+hCLI,domain#CP-HuiCHDtS-AC+AC,"asset RemoteTerminal created, then matched as ConsoleProcess(Process)",FALSE,FALSE
 package#Application,domain#CP-CP+hCLI,domain#CP-HuiCHLnS-AC+AC,"asset RemoteTerminal created, then matched as ConsoleProcess(Process)",FALSE,FALSE
+package#Application,domain#CP-HuSP+SMS,domain#CP-RACuRHRASP-iPL+uRAS,link Host-hosts-Process misses Smartphone-hosts-SMSClient(Process) created afterwards,FALSE,FALSE
 package#Application,domain#CP-HuWES+e,domain#CP-CS+u,"link Process(Client)-uses-Process(Service) created, then matched as WebBrowser-uses-EmailService(MUA)",FALSE,FALSE
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-Hc-pN-hP+AC,link Host-hosts-Process misses ConsoleHost-hosts-RemoteDesktop created afterwards,FALSE,FALSE
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-HuiHRAC+i,link Host-hosts-RemoteAccessClient misses ConsoleHost-hosts-RemoteDesktop created afterwards,FALSE,FALSE
@@ -127,33 +128,6 @@ package#Application,domain#CP-RAC+noDU,domain#CP-HuiCHDtS-AC+AC,"asset RemoteDes
 package#Application,domain#CP-RAC+noDU,domain#CP-HuiCHDtS-AC+AC,"asset RemoteTerminal created, then matched as RemoteAccessClient",FALSE,FALSE
 package#Application,domain#CP-RAC+noDU,domain#CP-HuiCHLnS-AC+AC,"asset RemoteTerminal created, then matched as RemoteAccessClient",FALSE,FALSE
 package#Application,domain#CP-RAS+noDU,domain#CP-RTuHP-iPL-RAS+LnS,"asset LoginService(Service) created, then matched as RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RACuP-iP+uR,link RemoteAccessClient-uses-Process misses RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) created afterwards,FALSE,FALSE
-package#Application,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteDesktop",FALSE,FALSE
-package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteTerminal",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteDesktop misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop-usesRemotely-Process misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RDuRTuS-uR+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link DesktopService(Service)-isLnS-DesktopService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link DesktopService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link Host-hosts-DesktopService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link Host-hosts-DesktopService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link Host-hosts-Process misses Host-hosts-LoginService(Service) created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link Host-hosts-RemoteAccessService misses Host-hosts-LoginService(Service) created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link Process-isLnS-Process misses LoginService(Service)-isLnS-LoginService(Service) created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link RemoteAccessService-uses-Process misses LoginService(Service)-uses-Process created afterwards,FALSE,FALSE
-package#Application,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteTerminal",FALSE,FALSE
-package#Application,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
-package#Application,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
 package#CloudManagement,domain#CP-CtHaH+a,domain#CP-PodHaH+a,link Host(SHost)-above-Host misses Container-above-Host created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-CtHaH+a,domain#CP-PodHaH+a,"link Pod-above-Host created, then matched as Host(SHost)-above-Host",FALSE,FALSE
 package#CloudManagement,domain#CP-CtHhPH+hPH,domain#CP-PodHhPH+hPH,link Host-hasPhysicalHost-PhysicalHost misses Container-hasPhysicalHost-PhysicalHost created afterwards,FALSE,FALSE
@@ -184,24 +158,6 @@ package#CloudManagement,domain#CP-DCPS-Pod+Pod,domain#CP-EH+iS,asset ScalableHos
 package#CloudManagement,domain#CP-DCVHC+p,domain#CP-Ct+iC,"link Container-isContainer-Container created, then matched as VirtualHost-isContainer-VirtualHost",FALSE,FALSE
 package#CloudManagement,domain#CP-DCVHC+p,domain#CP-DC-C+C,"link Cluster-resourcedBy-DataCentre created, then matched as Cluster-resourcedBy-DataCentre",FALSE,FALSE
 package#CloudManagement,domain#CP-DCVHC+p,domain#CP-PodMP+iP,"link Pod-isPod-Pod created, then matched as VirtualHost-isPod-VirtualHost",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iHRAS+i,domain#CP-Hum-iSH-LnS+LnS,"link LoginService-controls-ShellHost(Host) created, then matched as RemoteAccessService-controls-Host",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-HumHVH-Hu+m,"link Human-manages-VirtualHost(Host) created, then matched as Human(HostManager)-manages-ShellHost(Host)",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,"link Cluster-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,link Cluster-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,"link LoginService-controls-Cluster created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,link Process-controls-Cluster misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,"link LoginService-controls-Router created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,link Process-controls-Router misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,"link Router-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,link Router-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,"link LoginService-controls-Server created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,link Process-controls-Server misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,"link Server-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,link Server-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,"link LoginService-controls-VirtualHost created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,link Process-controls-VirtualHost misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,"link VirtualHost-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
-package#CloudManagement,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,link VirtualHost-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HuiH-Hu+m,link Human(HostManager)-manages-Host misses Human(ProcessManager)-manages-Container created afterwards,FALSE,FALSE
 package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-HuiH-Hu+m,"link Human-manages-Host created, then matched as Human(HostManager)-manages-Container",FALSE,FALSE
 package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-VHHsD-HsS-S+S,"link Host-hosts-DataService created, then matched as Container-hosts-Process",FALSE,FALSE
@@ -237,9 +193,6 @@ package#CloudManagement,domain#CP-MWHLS+CIP,domain#CP-DCMW-LS+VX,"link Worker(Cl
 package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-MWHLS+CIP,"link ClusterIP-overlays-LogicalSubnet created, then matched as ClusterIP-overlays-LogicalSubnet",FALSE,FALSE
 package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-MWHLS+CIP,"link Master(CloudMaster)-connectedTo-ClusterIP created, then matched as Master(CloudMaster)-connectedTo-ClusterIP",FALSE,FALSE
 package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-MWHLS+CIP,"link Master(CloudMaster)-connectedTo-ClusterIP created, then matched as Master(CloudMaster)-connectedTo-LogicalSubnet",FALSE,FALSE
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-Hum-iSH-LnS+LnS,"link LoginService-controls-ShellHost(Host) created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-Hum-iSH-LnS+LnS,"link ShellHost(Host)-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
-package#CloudManagement,domain#CP-Pc-hSHLnS+c,domain#CP-Hum-iSH-LnS+LnS,"link ShellHost(Host)-hosts-LoginService created, then matched as ShellHost(Host)-hosts-RemoteAccessService",FALSE,FALSE
 package#CloudManagement,domain#CP-PodCnD+s,domain#CP-PodP-Cn+Cn,"link Container-provisionedBy-Pod created, then matched as Container-provisionedBy-Pod",FALSE,FALSE
 package#CloudManagement,domain#CP-PodCnP+c,domain#CP-PodP-Cn+Cn,"link Container-hosts-Process created, then matched as Container-hosts-Process",FALSE,FALSE
 package#CloudManagement,domain#CP-PodCnP+c,domain#CP-PodP-Cn+Cn,"link Container-provisionedBy-Pod created, then matched as Container-provisionedBy-Pod",FALSE,FALSE
@@ -266,6 +219,22 @@ package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-HumPH-m+m,link Host-hosts
 package#CloudManagement,domain#CP-VH-LnS+LnS,domain#CP-Hc-pN-hP+AC,"link Host-hosts-AuthClient created, then matched as VirtualHost-hosts-Process",FALSE,FALSE
 package#CloudManagement,domain#CP-VH-LnS+LnS,domain#CP-Hc-pN-hP+AC,link Host-hosts-Process misses VirtualHost-hosts-LoginService created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-AC+noDX,domain#CP-Hc-pN-hP+AC,"asset AuthClient created, then matched as AuthClient",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuPnS-U+U,"link Process(Client)-viaSharedCredentials-Process(Service) created, then matched as Process(Client)-usesIndirectly-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuthZ-Process(Vault) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-AC+noDX,"link AuthClient-noDX-AuthClient created, then matched as Process(Client)-noDX-Process(Client)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-AC+noDX,"link AuthClient-noDX-AuthClient created, then matched as Process(Service)-noDX-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-AS+noDX,"link AuthService-noDX-AuthService created, then matched as Process(Client)-noDX-Process(Client)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-AS+noDX,"link AuthService-noDX-AuthService created, then matched as Process(Service)-noDX-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteAccessClient-usesViaRAS-Process created, then matched as Process(Client)-usesViaRAS-Process(Service)",FALSE,FALSE
 package#DataLifecycle,domain#CP-DADS+W,domain#CP-HPDO-fDS-DA+f,"link DataOutput(DataAccess)-fulfils-DataCopy created, then matched as DataAccess-fulfils-DataCopy",FALSE,FALSE
 package#DataLifecycle,domain#CP-DADS+ds,domain#CP-HuaDRAC-DA+RUA,"link RemoteUserAccess-usedFor-Data created, then matched as DataAccess-usedFor-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,domain#CP-DO-fDCSDD+ch,"link DataAccess(DataDestination)-fromSource-DataOutput created, then matched as DataAccess(DataDestination)-fromSource-DataAccess(AccessFrom)",FALSE,FALSE
@@ -282,20 +251,6 @@ package#DataLifecycle,domain#CP-DADU-eS+eA,domain#CP-DUDA-eS+eA,link Process(Ser
 package#DataLifecycle,domain#CP-DADU-eS+eA,domain#CP-DUDA-eS+eA,"link Process(Service)-enablesAccess-DataUse created, then matched as Process(Service)-enablesAccess-DataAccess",FALSE,FALSE
 package#DataLifecycle,domain#CP-DADU-eS+eA,domain#CP-DUDA-eS+eA,"link Process(Service)-enablesAccess-DataUse created, then matched as Process-enablesAccess-DataUse",FALSE,FALSE
 package#DataLifecycle,domain#CP-DADU-eS+eA,domain#CP-DUDA-eS+eA,link Process-enablesAccess-DataUse misses Process(Service)-enablesAccess-DataUse created afterwards,FALSE,FALSE
-package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n,domain#CP-DSD-iDF+n,"link DataCopy-needsField-DataField created, then matched as DataAsset(InputAsset)-needsField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n,domain#CP-DSD-iDF+n,"link DataCopy-needsField-DataField created, then matched as DataAsset(OutputAsset)-needsField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n,domain#CP-HPDO-fDS-DA+f,"link DataOutput(DataAccess)-fulfils-DataCopy created, then matched as DataAccess-fulfils-DataAsset(InputAsset)",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n,domain#CP-HPDS-fDI-DO-DFI+f,"link DataCopy-fulfils-DataInput(DataAccess) created, then matched as DataAsset(OutputAsset)-fulfils-DataAccess",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n-Replay,domain#CP-DAPDADF-g+n,"link DataAsset-needsField-DataField created, then matched as DataAsset(InputAsset)-needsField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAO-iDADInDF-n+n-Replay,domain#CP-DAPDADF-g+n,"link DataAsset-needsField-DataField created, then matched as DataAsset(OutputAsset)-needsField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAOiDADInDF-i+i,domain#CP-PDO-gDAnDF-i+i,"link DataAsset-includesField-DataField created, then matched as DataAsset(InputAsset)-includesField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAOiDADInDF-i+i,domain#CP-PDO-gDAnDF-i+i,"link DataAsset-includesField-DataField created, then matched as DataAsset(OutputAsset)-includesField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAOiDADInDF-i+i,domain#CP-PDO-gDAnDF-i+i,link DataAsset-includesField-DataField misses DataAsset(InputAsset)-includesField-DataField created afterwards,FALSE,FALSE
-package#DataLifecycle,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,"link DataAsset-includesField-DataField created, then matched as DataAsset(InputAsset)-includesField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,"link DataAsset-includesField-DataField created, then matched as DataAsset(OutputAsset)-includesField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,link DataAsset-includesField-DataField misses DataAsset(InputAsset)-includesField-DataField created afterwards,FALSE,FALSE
-package#DataLifecycle,domain#CP-DAPDADF-g+n,domain#CP-DAOiDADInDF-i+i,"link DataAsset(InputAsset)-includesField-DataField created, then matched as DataAsset-includesField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DAPDADF-g+n,domain#CP-DAOiDADInDF-i+i,link DataAsset(InputAsset)-needsField-DataField misses DataAsset-needsField-DataField created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DC1+x,domain#CP-DC3-x+x,link DataChannel(NewDataChannel)-extendsDC-DataChannel misses DataChannel-extendsDC-DataChannel created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DC1+x,domain#CP-DC3-x+x,link DataChannel(NewDataChannel)-extendsDC-DataChannel(OldDataChannel) misses DataChannel-extendsDC-DataChannel created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DC1+x,domain#CP-DC3-x+x,link DataChannel-extendsDC-DataChannel(OldDataChannel) misses DataChannel-extendsDC-DataChannel created afterwards,FALSE,FALSE
@@ -313,9 +268,6 @@ package#DataLifecycle,domain#CP-DC3xf-xf+xf,domain#CP-DC2TDRfDP2+xf,"link DataCh
 package#DataLifecycle,domain#CP-DC3xr-xr+xr,domain#CP-DC2TDRrDP2+xr,"link DataChannel(OldDataChannel)-extendsRevFlow-DataChannel(NewDataChannel) created, then matched as DataChannel(OldDataChannel)-extendsRevFlow-DataChannel",FALSE,FALSE
 package#DataLifecycle,domain#CP-DC3xr-xr+xr,domain#CP-DC2TDRrDP2+xr,"link DataChannel(OldDataChannel)-extendsRevFlow-DataChannel(NewDataChannel) created, then matched as DataChannel(OldDataChannel)-extendsRevFlow-DataChannel(NewDataChannel)",FALSE,FALSE
 package#DataLifecycle,domain#CP-DC3xr-xr+xr,domain#CP-DC2TDRrDP2+xr,"link DataChannel(OldDataChannel)-extendsRevFlow-DataChannel(NewDataChannel) created, then matched as DataChannel-extendsRevFlow-DataChannel(NewDataChannel)",FALSE,FALSE
-package#DataLifecycle,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,"link DataAsset(InputAsset)-includesField-DataField created, then matched as DataFlow-includesField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,link DataAsset(InputAsset)-includesField-DataField misses DataCache-includesField-DataField created afterwards,FALSE,FALSE
-package#DataLifecycle,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,link DataAsset(OutputAsset)-includesField-DataField misses DataCache-includesField-DataField created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DCDFcV+c,domain#CP-PDOScDD-DS+z,link Process(Vault)-controls-DataAsset(OutputAsset) misses Process(Vault)-controls-DataCache created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DCDFcV+c,domain#CP-ScDSPDI-DD+z,link Process(Vault)-controls-DataAsset(InputAsset) misses Process(Vault)-controls-DataCache created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DCDFcV+c,domain#CP-ScDSPDIcD+z,link Process(Vault)-controls-DataAsset(InputAsset) misses Process(Vault)-controls-DataCache created afterwards,FALSE,FALSE
@@ -344,6 +296,13 @@ package#DataLifecycle,domain#CP-DDDPS+DC,domain#CP-DSDCDP2oDD+DC,link DataChanne
 package#DataLifecycle,domain#CP-DDDPS+DC,domain#CP-DSDCDP2oDD+DC,link DataChannel(OldDataChannel)-toProc-Process misses DataChannel-toProc-Process(Service) created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DDDPS+DC,domain#CP-DSDCDP2oDD+DC,link DataChannel(OldDataChannel)-usesDataPath-DataPath(OldDataPath) misses DataChannel-usesDataPath-DataPath created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DDDPS+DC,domain#CP-DSDCDP2oDD+DC,link Process(FlowsFrom)-relaysAccess-DataAccess misses Process(Service)-relaysAccess-DataAccess created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-RevDFf2DP2P+DS,"link DataFlow-flowsVia-DataStep created, then matched as DataFlow-flowsVia-DataStep",FALSE,FALSE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-RevDFf2DP2P+DS,"link DataStep-flowsFrom-Process(FlowsFrom) created, then matched as DataStep-flowsFrom-Process",FALSE,FALSE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-RevDFfDP2P+DS,"link DataFlow-flowsVia-DataStep created, then matched as DataFlow-flowsVia-DataStep",FALSE,FALSE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-RevDFfDP2P+DS,"link DataStep-flowsFrom-Process(FlowsFrom) created, then matched as DataStep-flowsFrom-Process",FALSE,FALSE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-RevDFtDP2P+DS,"link DataFlow-flowsVia-DataStep created, then matched as DataFlow-flowsVia-DataStep",FALSE,FALSE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-RevDFtDP2P+DS,"link DataStep-flowsFrom-Process(FlowsFrom) created, then matched as DataStep-flowsFrom-Process",FALSE,FALSE
+package#DataLifecycle,domain#CP-DFtP+fVP,domain#CP-DDDCDS2P+DF,"link DataFlow-flowsTo-Process(FlowsTo) created, then matched as DataFlow-flowsTo-Process",FALSE,FALSE
 package#DataLifecycle,domain#CP-DI-fDCSDS+ch,domain#CP-DADS+ds,"link DataAccess-isPool-Data created, then matched as DataInput-isPool-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-DI-fDCSDS+ch,domain#CP-DDDCDP2oDS+DC,"link DataChannel(NewDataChannel)-dataChannelFor-DataAccess created, then matched as DataChannel-dataChannelFor-DataInput",FALSE,FALSE
 package#DataLifecycle,domain#CP-DI-fDCSDS+ch,domain#CP-DDDCDP2oDS+DC,"link DataChannel(NewDataChannel)-toProc-Process(Service) created, then matched as DataChannel-toProc-Process(Service)",FALSE,FALSE
@@ -354,7 +313,6 @@ package#DataLifecycle,domain#CP-DP1+x,domain#CP-DP3-x+x,link DataPath(NewDataPat
 package#DataLifecycle,domain#CP-DP1+x,domain#CP-DP3-x+x,link DataPath(NewDataPath)-extendsDP-DataPath(OldDataPath) misses DataPath-extendsDP-DataPath created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DP1+x,domain#CP-DP3-x+x,link DataPath-extendsDP-DataPath(OldDataPath) misses DataPath-extendsDP-DataPath created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-DP3-x+x,domain#CP-DDDCDP2oDS+DC,link DataPath(OldDataPath)-extendsDP-DataPath(NewDataPath) misses DataPath(NewDataPath)-extendsDP-DataPath(OldDataPath) created afterwards,FALSE,FALSE
-package#DataLifecycle,domain#CP-DSD-iDF+n,domain#CP-DSDDF-Hu-P+i,"link DataCopy-includesField-DataField created, then matched as DataCopy-includesField-DataField",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDA+R,domain#CP-HPDS-fDI-DO-DFI+f,"link DataCopy-fulfils-DataInput(DataAccess) created, then matched as DataCopy-fulfils-DataAccess",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDAfDD-fS+fS,domain#CP-DD-fDCSDS+ch,"link DataAccess(DataRelay)-possRevPath-DataChannel created, then matched as DataAccess(DataRelay)-possRevPath-DataChannel",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDAfDD-fS+fS,domain#CP-DD-fDCSDS+ch,"link DataAccess(DataSource)-possDataDest-DataAccess(DataDestination) created, then matched as DataAccess(DataRelay)-possDataDest-DataAccess(DataDestination)",FALSE,FALSE
@@ -371,8 +329,6 @@ package#DataLifecycle,domain#CP-DSDCDP2oDD+DC,domain#CP-DSDPS+DC,"link DataChann
 package#DataLifecycle,domain#CP-DSDCDP2oDD+DC,domain#CP-DSDPS+DC,"link DataChannel-usesDataPath-DataPath created, then matched as DataChannel(OldDataChannel)-usesDataPath-DataPath(OldDataPath)",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDCDP2oDD+DC,domain#CP-DSDPS+DC,"link Process(Service)-relaysAccess-DataAccess created, then matched as Process(FlowsFrom)-relaysAccess-DataAccess",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDCDP2oDD+DC,domain#CP-PDI+d,"link DataInput-isDest-Data created, then matched as DataAccess(DataSource)-isDest-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-DSDDF-Hu-P+i,domain#CP-HD-aHD-DS+DS,"link DataCopy-copyOf-Data created, then matched as DataCopy-copyOf-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-DSDDF-Hu-P+i,domain#CP-HuirPr-vD-cC-iHu-DS+iD,"link Human-inputsData-Data created, then matched as Human-inputsData-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDPS+DC,domain#CP-PDI-Hu+d,"link DataInput-isSource-Data created, then matched as DataAccess-isSource-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDPS+DC,domain#CP-PDO+s,"link DataOutput-isSource-Data created, then matched as DataAccess-isSource-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-DSDPS+DC,domain#CP-PDR+ds,"link DataRelay-isSource-Data created, then matched as DataAccess-isSource-Data",FALSE,FALSE
@@ -497,10 +453,6 @@ package#DataLifecycle,domain#CP-PDO+s,domain#CP-Hui-vDPH-DS-DA+DO,"link DataOutp
 package#DataLifecycle,domain#CP-PDO+s,domain#CP-Hui-vDPH-DS-DA+DO,"link DataOutput-usedFor-Data created, then matched as DataOutput-usedFor-Data",FALSE,FALSE
 package#DataLifecycle,domain#CP-PDO-DI+DP,domain#CP-Pr-cDH-DS-Hu-DA+DI,"link DataInput-usedBy-Process created, then matched as DataInput-usedBy-Process",FALSE,FALSE
 package#DataLifecycle,domain#CP-PDO-DI+DP,domain#CP-Pr-cDH-DS-Hu-DA+DI,"link DataInput-usedFor-Data created, then matched as DataInput-usedFor-Data",FALSE,FALSE
-package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,link DataAsset(OutputAsset)-includesField-DataField misses DataAsset-includesField-DataField created afterwards,FALSE,FALSE
-package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,"link DataAsset(OutputAsset)-needsField-DataField created, then matched as DataAsset-needsField-DataField",FALSE,FALSE
-package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,link DataAsset(OutputAsset)-includesField-DataField misses DataAsset-includesField-DataField created afterwards,FALSE,FALSE
-package#DataLifecycle,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,"link DataAsset(OutputAsset)-needsField-DataField created, then matched as DataAsset-needsField-DataField",FALSE,FALSE
 package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset(OutputAsset)",FALSE,FALSE
 package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-PDP+DP,domain#CP-Hui-vDSPH-S-DA+DO,"link OutputPool(DataOutput)-usedBy-Process created, then matched as DataPool-usedBy-Process",FALSE,FALSE
@@ -595,8 +547,8 @@ package#DataLifecycle,domain#CP-SDADPDXP-Hu-DP+DP,domain#CP-HSDADPPDXP-Hu-DP+DP,
 package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathTo-DataAccess created, then matched as DataPath(OldDataPath)-dataPathTo-DataAccess",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process created, then matched as DataPath(OldDataPath)-dataPathVisits-Process",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process created, then matched as DataPath(OldDataPath)-dataPathVisits-Process(FlowsFrom)",FALSE,FALSE
-package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process(FlowsFrom) created, then matched as DataPath(OldDataPath)-dataPathVisits-Process",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process(FlowsFrom) created, then matched as DataPath(OldDataPath)-dataPathVisits-Process(FlowsFrom)",FALSE,FALSE
+package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process(FlowsFrom) created, then matched as DataPath(OldDataPath)-dataPathVisits-Process",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-fromProc-Process created, then matched as DataPath(OldDataPath)-fromProc-Process(DB)",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,link DataPath(OldDataPath)-dataPathTo-DataAccess misses DataPath(NewDataPath)-dataPathTo-DataAccess created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,link DataPath(OldDataPath)-dataPathVisits-Process misses DataPath(NewDataPath)-dataPathVisits-Process created afterwards,FALSE,FALSE
@@ -619,8 +571,8 @@ package#DataLifecycle,domain#CP-SDADPDXRAC-DP+DP,domain#CP-SDADPPDXPRAC-DP+DP,li
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathTo-DataAccess created, then matched as DataPath(OldDataPath)-dataPathTo-DataAccess",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process created, then matched as DataPath(OldDataPath)-dataPathVisits-Process",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process created, then matched as DataPath(OldDataPath)-dataPathVisits-Process(FlowsFrom)",FALSE,FALSE
-package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process(FlowsFrom) created, then matched as DataPath(OldDataPath)-dataPathVisits-Process(FlowsFrom)",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process(FlowsFrom) created, then matched as DataPath(OldDataPath)-dataPathVisits-Process",FALSE,FALSE
+package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-dataPathVisits-Process(FlowsFrom) created, then matched as DataPath(OldDataPath)-dataPathVisits-Process(FlowsFrom)",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,"link DataPath(NewDataPath)-fromProc-Process created, then matched as DataPath(OldDataPath)-fromProc-Process(DB)",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,link DataPath(OldDataPath)-dataPathTo-DataAccess misses DataPath(NewDataPath)-dataPathTo-DataAccess created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,link DataPath(OldDataPath)-dataPathVisits-Process misses DataPath(NewDataPath)-dataPathVisits-Process created afterwards,FALSE,FALSE
@@ -655,6 +607,17 @@ package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-SDADPDXRAC-DP+DP,lin
 package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-DADU-eS+eA,"link Process(Service)-enablesAccess-DataUse created, then matched as Process(Service)-enablesAccess-DataUse",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-DADU-eS+eA,"link Process(Service)-enablesAccess-DataUse created, then matched as Process(Service)-enablesAccess-DataUse",FALSE,FALSE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-HPDS-fDI-DO-DFI+f,"link DataCopy-fulfils-DataInput(DataAccess) created, then matched as DataCopy-fulfils-DataAccess",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-CuPnS-U+U,"link Process(Client)-viaSharedCredentials-Process(Service) created, then matched as Process(Client)-usesIndirectly-Process(Service)",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuthZ-Process(Vault) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDADD-cz+c,link Process(Vault)-controls-DataAsset(InputAsset) misses Process(Vault)-controls-DataAsset(InputAsset) created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDADD-cz+c,"link Process(Vault)-controls-DataAsset(OutputAsset) created, then matched as Process(Vault)-controls-DataAsset(InputAsset)",FALSE,FALSE
 package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDADD-cz+c,"link Process(Vault)-controls-DataAsset(OutputAsset) created, then matched as Process(Vault)-controls-DataAsset(OutputAsset)",FALSE,FALSE
@@ -665,6 +628,30 @@ package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-ScDDPDADS-cz+c,"link Proc
 package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
 package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset(InputAsset)",FALSE,FALSE
 package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n,domain#CP-DSD-iDF+n,"link DataCopy-needsField-DataField created, then matched as DataAsset(InputAsset)-needsField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n,domain#CP-DSD-iDF+n,"link DataCopy-needsField-DataField created, then matched as DataAsset(OutputAsset)-needsField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n,domain#CP-HPDO-fDS-DA+f,"link DataOutput(DataAccess)-fulfils-DataCopy created, then matched as DataAccess-fulfils-DataAsset(InputAsset)",FALSE,FALSE
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n,domain#CP-HPDS-fDI-DO-DFI+f,"link DataCopy-fulfils-DataInput(DataAccess) created, then matched as DataAsset(OutputAsset)-fulfils-DataAccess",FALSE,FALSE
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n-Replay,domain#CP-DAPDADF-g+n,"link DataAsset-needsField-DataField created, then matched as DataAsset(InputAsset)-needsField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAO-iDADInDF-n+n-Replay,domain#CP-DAPDADF-g+n,"link DataAsset-needsField-DataField created, then matched as DataAsset(OutputAsset)-needsField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i,domain#CP-PDO-gDAnDF-i+i,"link DataAsset-includesField-DataField created, then matched as DataAsset(InputAsset)-includesField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i,domain#CP-PDO-gDAnDF-i+i,"link DataAsset-includesField-DataField created, then matched as DataAsset(OutputAsset)-includesField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i,domain#CP-PDO-gDAnDF-i+i,link DataAsset-includesField-DataField misses DataAsset(InputAsset)-includesField-DataField created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,"link DataAsset-includesField-DataField created, then matched as DataAsset(InputAsset)-includesField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,"link DataAsset-includesField-DataField created, then matched as DataAsset(OutputAsset)-includesField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-PDO-gDAnDF-i+i-Replay,link DataAsset-includesField-DataField misses DataAsset(InputAsset)-includesField-DataField created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-DAPDADF-g+n,domain#CP-DAOiDADInDF-i+i,"link DataAsset(InputAsset)-includesField-DataField created, then matched as DataAsset-includesField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DAPDADF-g+n,domain#CP-DAOiDADInDF-i+i,link DataAsset(InputAsset)-needsField-DataField misses DataAsset-needsField-DataField created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,"link DataAsset(InputAsset)-includesField-DataField created, then matched as DataFlow-includesField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,link DataAsset(InputAsset)-includesField-DataField misses DataCache-includesField-DataField created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,link DataAsset(OutputAsset)-includesField-DataField misses DataCache-includesField-DataField created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-DSD-iDF+n,domain#CP-DSDDF-Hu-P+i,"link DataCopy-includesField-DataField created, then matched as DataCopy-includesField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-DSDDF-Hu-P+i,domain#CP-HD-aHD-DS+DS,"link DataCopy-copyOf-Data created, then matched as DataCopy-copyOf-Data",FALSE,FALSE
+package#DataStructure,domain#CP-DSDDF-Hu-P+i,domain#CP-HuirPr-vD-cC-iHu-DS+iD,"link Human-inputsData-Data created, then matched as Human-inputsData-Data",FALSE,FALSE
+package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,link DataAsset(OutputAsset)-includesField-DataField misses DataAsset-includesField-DataField created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,"link DataAsset(OutputAsset)-needsField-DataField created, then matched as DataAsset-needsField-DataField",FALSE,FALSE
+package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,link DataAsset(OutputAsset)-includesField-DataField misses DataAsset-includesField-DataField created afterwards,FALSE,FALSE
+package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,"link DataAsset(OutputAsset)-needsField-DataField created, then matched as DataAsset-needsField-DataField",FALSE,FALSE
 package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-HuirPeO-ID-p+r,"link Process-receives-Data created, then matched as Process-processes-Data",FALSE,FALSE
 package#IoT,domain#CP-DcTh+DS,domain#CP-Hc-pN-hP+AC,link Host-hosts-Process misses Thing-hosts-DataService(SimpleProcess) created afterwards,FALSE,FALSE
 package#IoT,domain#CP-DcTh+DS,domain#CP-IoT-cD+cD,"link ControlData(Data)-controlsThing-Thing created, then matched as Data-controlsThing-Thing",FALSE,FALSE
@@ -676,8 +663,18 @@ package#IoT,domain#CP-HuiSe+Rel,domain#CP-PcSe+Rel,"link Process(Client)-amends-
 package#IoT,domain#CP-HuiSe+Rel,domain#CP-PuCo+Rel,"link Process(Client)-updates-Data created, then matched as Process-creates-Data(Output)",FALSE,FALSE
 package#IoT,domain#CP-HuiSe+Rel,domain#CP-SesD+SP,"link Sensor-hosts-SensorProcess(SimpleProcess) created, then matched as Sensor-hosts-Process",FALSE,FALSE
 package#IoT,domain#CP-HuiSe+Rel,domain#CP-SesD+SP,"link SensorProcess(SimpleProcess)-creates-Data created, then matched as Process-creates-Data(Output)",FALSE,FALSE
+package#IoT,domain#CP-HuiThaS-S+r,domain#CP-HuaSaE+cA,"link Human-canAccess-PublicSpace(Entrance) created, then matched as Human-canAccess-Space",FALSE,FALSE
+package#IoT,domain#CP-HuiThaS-S+r,domain#CP-HurTh-S-m+m,link Thing-relatesTo-Human misses Thing-relatesTo-Human created afterwards,FALSE,FALSE
 package#IoT,domain#CP-HumThP-m+m,domain#CP-HuiCo+UI,"link Controller-hosts-ControlProcess(Process) created, then matched as Thing-hosts-Process",FALSE,FALSE
 package#IoT,domain#CP-HumThP-m+m,domain#CP-SesD+SP,"link Sensor-hosts-SensorProcess(SimpleProcess) created, then matched as Thing-hosts-Process",FALSE,FALSE
+package#IoT,domain#CP-HurSesD-Rel+Rel,domain#CP-HuiThaS-S+r,"link Thing-relatesTo-Human created, then matched as Sensor-relatesTo-Human",FALSE,FALSE
+package#IoT,domain#CP-HurSesD-Rel+Rel,domain#CP-Se-sD+sD,"link Sensor-senses-SensedData(Data) created, then matched as Sensor-senses-Data",FALSE,FALSE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-DCH+l,"link PhysicalHost(Host)-locatedIn-DataCentre created, then matched as Thing-locatedIn-Space",FALSE,FALSE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-HuiPH-Hu+m,link Human(HostManager)-manages-PersonalHost(Host) misses Human-manages-Thing created afterwards,FALSE,FALSE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-HuiPH-Hu+m,"link Human-manages-PersonalHost(Host) created, then matched as Human(HostManager)-manages-Thing",FALSE,FALSE
+package#IoT,domain#CP-HurThcD-Rel+Rel,domain#CP-HurSesD-Rel+Rel,"link Data-relatesTo-Human created, then matched as Data-relatesTo-Human",FALSE,FALSE
+package#IoT,domain#CP-HurThcD-Rel+Rel,domain#CP-HurSesD-Rel+Rel,link Data-relatesTo-Human misses Data-relatesTo-Human created afterwards,FALSE,FALSE
+package#IoT,domain#CP-HurThcD-Rel+Rel,domain#CP-IoT-cD+cD,"link ControlData(Data)-controlsThing-Thing created, then matched as Data-controlsThing-Thing",FALSE,FALSE
 package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-DcTh+DS,"link DataService(SimpleProcess)-serves-Data created, then matched as Process-serves-Data",FALSE,FALSE
 package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-DcTh+DS,"link Thing-hosts-DataService(SimpleProcess) created, then matched as Controller-hosts-Process",FALSE,FALSE
 package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-HuiCHDtS-AC+AC,link RemoteDesktop(Process)-uses-DesktopService misses Process(Client)-uses-Process created afterwards,FALSE,FALSE
@@ -812,7 +809,6 @@ package#Network,domain#CP-HprLS+c,domain#CP-CuSHS+SL,"link SocketLAN(LogicalSubn
 package#Network,domain#CP-HprLS+c,domain#CP-HcWHS+c,link Host-connectedTo-WiFiLAN(Hotspot) misses Host(Gateway)-connectedTo-LogicalSubnet created afterwards,FALSE,FALSE
 package#Network,domain#CP-HprLS+c,domain#CP-MHcIS+aF,link MobileClient(Host)-connectedTo-Internet misses Host(Gateway)-connectedTo-LogicalSubnet created afterwards,FALSE,FALSE
 package#Network,domain#CP-HuPCH+i,domain#CP-RAS+iL,"link RemoteAccessService-isLnS-RemoteAccessService created, then matched as Process-isLnS-Process",FALSE,FALSE
-package#Network,domain#CP-HuSP+SMS,domain#CP-RACuRHRASP-iPL+uRAS,link Host-hosts-Process misses Smartphone-hosts-SMSClient(Process) created afterwards,FALSE,FALSE
 package#Network,domain#CP-Hui2H+iD,domain#CP-HuPCH+i,"link Human-interactsWith-InteractiveHost(Host) created, then matched as Human(Human1)-interactsWith-PhysicalHost(Host)",FALSE,FALSE
 package#Network,domain#CP-Hui2H+iD,domain#CP-HuPCH+i,"link Human-interactsWith-InteractiveHost(Host) created, then matched as Human(Human2)-interactsWith-PhysicalHost(Host)",FALSE,FALSE
 package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-HuiHRAC+i,link Host-hosts-RemoteAccessClient misses ConsoleHost-hosts-RemoteTerminal created afterwards,FALSE,FALSE
@@ -835,6 +831,24 @@ package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HuPCH+i,"link Human-interactsWith
 package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HuoH-m+m,link Human(HostManager)-manages-Host misses Human-manages-PersonalHost(Host) created afterwards,FALSE,FALSE
 package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HuoH-m+m,"link Human-manages-Host created, then matched as Human(HostManager)-manages-PersonalHost(Host)",FALSE,FALSE
 package#Network,domain#CP-HuiPH-iD+iP,domain#CP-Hui2H+iD,"link PhysicalHost(Host)-impersonalDevice-PhysicalHost(Host) created, then matched as PersonalHost(Host)-impersonalDevice-PersonalHost(Host)",FALSE,FALSE
+package#Network,domain#CP-Hum-iHRAS+i,domain#CP-Hum-iSH-LnS+LnS,"link LoginService-controls-ShellHost(Host) created, then matched as RemoteAccessService-controls-Host",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-HumHVH-Hu+m,"link Human-manages-VirtualHost(Host) created, then matched as Human(HostManager)-manages-ShellHost(Host)",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,"link Cluster-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,link Cluster-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,"link LoginService-controls-Cluster created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-PC-LnS+LnS,link Process-controls-Cluster misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,"link LoginService-controls-Router created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,link Process-controls-Router misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,"link Router-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Rr-LnS+LnS,link Router-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,"link LoginService-controls-Server created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,link Process-controls-Server misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,"link Server-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-Sv-LnS+LnS,link Server-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,"link LoginService-controls-VirtualHost created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,link Process-controls-VirtualHost misses LoginService-controls-ShellHost(Host) created afterwards,FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,"link VirtualHost-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
+package#Network,domain#CP-Hum-iSH-LnS+LnS,domain#CP-VH-LnS+LnS,link VirtualHost-hosts-Process misses ShellHost(Host)-hosts-LoginService created afterwards,FALSE,FALSE
 package#Network,domain#CP-HumH-StSt+o,domain#CP-SHuPH-Hu+m-Replay1,"link Human-manages-FixedHost(Host) created, then matched as Human(HostManager)-manages-Host",FALSE,FALSE
 package#Network,domain#CP-HumHP-im+m,domain#CP-HuSP+SMS,"link Human-interactsWith-SMSClient(Process) created, then matched as Human(Human1)-interactsWith-Process",FALSE,FALSE
 package#Network,domain#CP-HumHP-im+m,domain#CP-HuSP+SMS,"link Smartphone-hosts-SMSClient(Process) created, then matched as Host-hosts-Process",FALSE,FALSE
@@ -876,16 +890,10 @@ package#Network,domain#CP-PHHS+AC,domain#CP-PHH+hPH-2,"link Host-hasPhysicalHost
 package#Network,domain#CP-PHLSS+aV,domain#CP-LSaS+a,"link LogicalSubnet-accessibleFrom-Space created, then matched as LogicalSubnet-accessibleFrom-Space",FALSE,FALSE
 package#Network,domain#CP-PHLSS+aV,domain#CP-PHHS+AC,"link HostContext(HostAccess)-accessFrom-Space created, then matched as HostContext(HostAccess)-accessFrom-Space",FALSE,FALSE
 package#Network,domain#CP-PHLSS+aV,domain#CP-PHHS+AC,"link HostContext(HostAccess)-accessTo-Host created, then matched as HostContext(HostAccess)-accessTo-Host",FALSE,FALSE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Hum-iSH-LnS+LnS,"link LoginService-controls-ShellHost(Host) created, then matched as Process-controls-ShellHost(Host)",FALSE,FALSE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Hum-iSH-LnS+LnS,"link ShellHost(Host)-hosts-LoginService created, then matched as ShellHost(Host)-hosts-Process",FALSE,FALSE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Hum-iSH-LnS+LnS,"link ShellHost(Host)-hosts-LoginService created, then matched as ShellHost(Host)-hosts-RemoteAccessService",FALSE,FALSE
 package#Network,domain#CP-PcWH+c,domain#CP-WpHSH-aF+WH,"link WiFiLAN(LogicalSubnet)-implementsHS-WiFiLAN(Hotspot) created, then matched as WiFiLAN(LogicalSubnet)-implementsHS-WiFiLAN(Hotspot)",FALSE,FALSE
-package#Network,domain#CP-RACuHRASP-iPL+uR,domain#CP-CS+u,"link Process(Client)-uses-Process(Service) created, then matched as RemoteAccessClient-uses-RemoteAccessService",FALSE,FALSE
-package#Network,domain#CP-RACuHRASP-iPL+uR,domain#CP-CS+u,"link Process(Client)-uses-Process(Service) created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
-package#Network,domain#CP-RACuP-iP+uR,domain#CP-CS+u,"link Process(Client)-uses-Process(Service) created, then matched as RemoteAccessClient-uses-Process",FALSE,FALSE
-package#Network,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
-package#Network,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
-package#Network,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
-package#Network,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
-package#Network,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
-package#Network,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
 package#Network,domain#CP-Rr+iR,domain#CP-DC-R+RW,"asset Router created, then matched as Router",FALSE,FALSE
 package#Network,domain#CP-Rr-LnS+LnS,domain#CP-Hc-pN-hP+AC,"link Host-hosts-AuthClient created, then matched as Router-hosts-Process",FALSE,FALSE
 package#Network,domain#CP-Rr-LnS+LnS,domain#CP-Hc-pN-hP+AC,link Host-hosts-Process misses Router-hosts-LoginService created afterwards,FALSE,FALSE
@@ -979,135 +987,18 @@ package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-L3rGrL3+OSg,"link Open
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-ILSA+c,"link Interface-connectsTo-AbstractSubnet created, then matched as Interface-connectsTo-LogicalSubnet",FALSE,FALSE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-L3rGrL3+OSg,"link OpenSegment(LogicalSegment)-to-L3Subnet(ToSubnet) created, then matched as LogicalSegment-to-LogicalSubnet",FALSE,FALSE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-L3rGrL3+OSg,"link OpenSegment(LogicalSegment)-via-Host(Gateway) created, then matched as LogicalSegment-via-Host",FALSE,FALSE
-package#Physical,domain#CP-HuaSaE+cA,domain#CP-PPS-E+W,"link PrivateSpace(Space)-accessibleVia-World created, then matched as Space-accessibleVia-PublicSpace(Entrance)",FALSE,FALSE
 package#Privacy,domain#CP-DHuDC+r,domain#CP-HD-aHD-DS+DS,"link DataCopy-copyOf-Data created, then matched as DataCopy-copyOf-Data",FALSE,FALSE
 package#Privacy,domain#CP-DHuDC+r,domain#CP-HurThcD-Rel+Rel,"link Data-relatesTo-Human created, then matched as Data-relatesTo-Human",FALSE,FALSE
 package#Privacy,domain#CP-DHuDF+r,domain#CP-DDDCDS2P+DF,"link DataFlow-flowsIn-Data created, then matched as DataFlow-flows-Data",FALSE,FALSE
 package#Privacy,domain#CP-DHuDF+r,domain#CP-HurThcD-Rel+Rel,"link Data-relatesTo-Human created, then matched as Data-relatesTo-Human",FALSE,FALSE
-package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HuaSaE+cA,"link Human-canAccess-PublicSpace(Entrance) created, then matched as Human-canAccess-Space",FALSE,FALSE
-package#Privacy,domain#CP-HuiThaS-S+r,domain#CP-HurTh-S-m+m,link Thing-relatesTo-Human misses Thing-relatesTo-Human created afterwards,FALSE,FALSE
 package#Privacy,domain#CP-HurH-StSt+o,domain#CP-HuwStmH-St+o,"link Stakeholder(Employer)-operates-Host created, then matched as Stakeholder(Operator)-operates-Host",FALSE,FALSE
 package#Privacy,domain#CP-HurH-StSt+o,domain#CP-HuwStmH-St+o,link Stakeholder(Operator)-operates-Host misses Human-operates-Host created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HurSesD-Rel+Rel,domain#CP-HuiThaS-S+r,"link Thing-relatesTo-Human created, then matched as Sensor-relatesTo-Human",FALSE,FALSE
-package#Privacy,domain#CP-HurSesD-Rel+Rel,domain#CP-Se-sD+sD,"link Sensor-senses-SensedData(Data) created, then matched as Sensor-senses-Data",FALSE,FALSE
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-DCH+l,"link PhysicalHost(Host)-locatedIn-DataCentre created, then matched as Thing-locatedIn-Space",FALSE,FALSE
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-HuiPH-Hu+m,link Human(HostManager)-manages-PersonalHost(Host) misses Human-manages-Thing created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HurTh-S-m+m,domain#CP-HuiPH-Hu+m,"link Human-manages-PersonalHost(Host) created, then matched as Human(HostManager)-manages-Thing",FALSE,FALSE
-package#Privacy,domain#CP-HurThcD-Rel+Rel,domain#CP-HurSesD-Rel+Rel,"link Data-relatesTo-Human created, then matched as Data-relatesTo-Human",FALSE,FALSE
-package#Privacy,domain#CP-HurThcD-Rel+Rel,domain#CP-HurSesD-Rel+Rel,link Data-relatesTo-Human misses Data-relatesTo-Human created afterwards,FALSE,FALSE
-package#Privacy,domain#CP-HurThcD-Rel+Rel,domain#CP-IoT-cD+cD,"link ControlData(Data)-controlsThing-Thing created, then matched as Data-controlsThing-Thing",FALSE,FALSE
 package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-HurH-StSt+o,"link Human-operates-Host created, then matched as Stakeholder(Operator)-operates-Host",FALSE,FALSE
 package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-HurH-StSt+o,link Stakeholder(Operator)-operates-Host misses Stakeholder(Employer)-operates-Host created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-SOCAP+OSAP,"link OpenServiceAttackPath-fromSubnet-LogicalSubnet(AttackerSubnet) created, then matched as ServiceAttackPath-fromSubnet-LogicalSubnet(AttackerSubnet)",FALSE,FALSE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-SOCAP+OSAP,"link ServiceChannel-channelVia-OpenServiceAttackPath created, then matched as ServiceChannel-channelVia-ServiceAttackPath",FALSE,FALSE
-package#ProcessComms,domain#CP-CzSzP+AA,domain#CP-CuSHS+SL,link Process(Client)-accessesService-Process(Service) misses Process(Client)-usesForAuth-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CuvS+CC,"link ClientChannel-channelFrom-Process(Client) created, then matched as ClientChannel-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CzS-CC+AC,domain#CP-CuvS+CC,"link ClientChannel-channelTo-Process created, then matched as ClientChannel-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(AuthZChannel)-channelFrom-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(AuthZChannel)-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(AuthZChannel)-channelFrom-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(AuthZChannel)-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel-channelTo-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-SOCAP+OSAP,"link OpenClientAttackPath-attackPathVia-OpenServiceAttackPath created, then matched as ClientAttackPath-attackPathVia-ServiceAttackPath",FALSE,FALSE
 package#ProcessComms,domain#CP-CAPlISAP+lI,domain#CP-SOCAP+OSAP,"link OpenClientAttackPath-attackPathVia-OpenServiceAttackPath created, then matched as ClientAttackPath-attackPathVia-ServiceAttackPath",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCCAP+ch,domain#CP-CCSCAP+ch,"link ClientChannel-channelVia-ClientAttackPath(AttackPath) created, then matched as ClientChannel(ProxyChannel)-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCCAP+ch,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCCAP+ch,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCCAP+ch,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCCAP+ch,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCCAP+ch,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-DFDSCS+f,"link DataFlow-flowsViaCS-ClientChannel created, then matched as DataFlow-flowsViaCS-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFCS+f,domain#CP-DFDSCS+f,"link DataFlow-flowsViaCS-ClientChannel created, then matched as DataFlow-flowsViaCS-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-DFDSSC+f,"link DataFlow-flowsViaSC-ClientChannel created, then matched as DataFlow-flowsViaSC-ClientChannel(FirstChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCSPSFSC+f,domain#CP-DFDSSC+f,"link DataFlow-flowsViaSC-ClientChannel created, then matched as DataFlow-flowsViaSC-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC,domain#CP-PCaFCSCCC+aFC,"link PContext(ProcAccess)-accessFromClient-ClientChannel created, then matched as PContext(ProcAccess)-accessFromClient-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-CSCLS+ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-CSCLS-ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-H-sDFcCr-aAC+DS,link ProcessContext(ProcAccess)-accessFromClient-AuthChannel misses PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCfS-aFC+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCftS+aFC-aTS+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCfS-aFC+aI,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCtCCS+aTS+aTS,"link PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel) created, then matched as ProcessContext(ToContext)-accessToService-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCtCCS+aTS+aTS,domain#CP-PCaTSSCCC+aTS,"link PContext(ProcAccess)-accessToService-ClientChannel created, then matched as PContext(ProcAccess)-accessToService-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCvCCvLS+vLS,domain#CP-CCSCvLS+vLS,"link ClientChannel-viaSubnet-LogicalSubnet created, then matched as ClientChannel(ProxyChannel)-viaSubnet-LogicalSubnet",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCvCCvLS+vLS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCvCCvLS+vLS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCvCCvLS+vLS,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCvCCvLS+vLS,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCCvCCvLS+vLS,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFCDAScDA-c+a,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-CuPnS-U+U,"link Process(Client)-viaSharedCredentials-Process(Service) created, then matched as Process(Client)-usesIndirectly-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuthZ-Process(Vault) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCDFSDAScDA-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CSLS2H2-SC+SC,"link ServiceChannel-channelFrom-Process(Client) created, then matched as ServiceChannel-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSC+ch,domain#CP-CSLS2H2-SC+SC,"link ServiceChannel-channelTo-Process(DService) created, then matched as ServiceChannel-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCAP+ch,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCAP+ch,domain#CP-CSCCAPNP4+CCAP,"link ServiceChannel-channelVia-ClosedClientAttackPath created, then matched as ServiceChannel-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCAP+ch,domain#CP-CSCscLS+CCAP,"link ServiceChannel-channelVia-ClosedClientAttackPath created, then matched as ServiceChannel-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCAP+ch,domain#CP-CSCsdLS+OCAP,"link ServiceChannel-channelVia-OpenClientAttackPath created, then matched as ServiceChannel-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCCP+ch,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCCP+ch,domain#CP-CSCvLS+CP,"link ServiceChannel-channelVia-ClientPath created, then matched as ServiceChannel-channelVia-ClientPath",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCfI+fI,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCfI+fI,domain#CP-SCLSg+vf,"link ServiceChannel-fromInterface-Interface(OutboundIF) created, then matched as ServiceChannel-fromInterface-Interface",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCtI+tI,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCtI+tI,domain#CP-SCLSg+vt,"link ServiceChannel-toInterface-Interface(InboundIF) created, then matched as ServiceChannel-toInterface-Interface",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCtSg+tSg,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCtSg+tSg,domain#CP-SCLPLSg+t,"link ServiceChannel-usesLogicalRoute-LogicalSegment created, then matched as ServiceChannel-usesLogicalRoute-LogicalSegment",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCvI+vI,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCvI+vI,domain#CP-SCLSg+vf,"link ServiceChannel-viaInterface-Interface(OutboundIF) created, then matched as ServiceChannel-viaInterface-Interface",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCvI+vI,domain#CP-SCLSg+vt,"link ServiceChannel-viaInterface-Interface(InboundIF) created, then matched as ServiceChannel-viaInterface-Interface",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCvLS+vLS,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-CCSCvLS+vLS,domain#CP-SCLPvLS+v,"link ServiceChannel-viaSubnet-LogicalSubnet created, then matched as ServiceChannel-viaSubnet-LogicalSubnet",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-AC+noDX,"link AuthClient-noDX-AuthClient created, then matched as Process(Client)-noDX-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-AC+noDX,"link AuthClient-noDX-AuthClient created, then matched as Process(Service)-noDX-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-AS+noDX,"link AuthService-noDX-AuthService created, then matched as Process(Client)-noDX-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-AS+noDX,"link AuthService-noDX-AuthService created, then matched as Process(Service)-noDX-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CS-SP+DX,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteAccessClient-usesViaRAS-Process created, then matched as Process(Client)-usesViaRAS-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CSCCAPNP4+CCAP,domain#CP-NP2CCAPSC+pT,"link NetworkPath-pathTo-ServiceChannel created, then matched as NetworkPath-pathTo-ServiceChannel",FALSE,FALSE
 package#ProcessComms,domain#CP-CSCLS+aFC,domain#CP-PCPHLSS+NC,"link ProcNetContext-accessFrom-Space created, then matched as PContext(ProcAccess)-accessFrom-Space",FALSE,FALSE
 package#ProcessComms,domain#CP-CSCLS+aFC,domain#CP-PCPHLSS+NC,"link ProcNetContext-accessTo-Host created, then matched as PContext(ProcAccess)-accessTo-Host(CHost)",FALSE,FALSE
@@ -1140,8 +1031,6 @@ package#ProcessComms,domain#CP-CSCscLS+CCAP,domain#CP-SCLSgvTS-vS+vS,"link Servi
 package#ProcessComms,domain#CP-CSCsdLS+OCAP,domain#CP-SCvLS-vS+fS,"link ServiceChannel-sourceDirect-LogicalSubnet created, then matched as ServiceChannel-sourceDirect-LogicalSubnet",FALSE,FALSE
 package#ProcessComms,domain#CP-CSCvLS+CP,domain#CP-SCLPvLS+v,"link ServiceChannel-viaSubnet-LogicalSubnet created, then matched as ServiceChannel-viaSubnet-LogicalSubnet",FALSE,FALSE
 package#ProcessComms,domain#CP-CSCvLS+CP,domain#CP-SCLSg+vf,"link ServiceChannel-fromInterface-Interface(OutboundIF) created, then matched as ServiceChannel-fromInterface-Interface",FALSE,FALSE
-package#ProcessComms,domain#CP-CSDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelFrom-Process(Client) created, then matched as ClientChannel-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CSDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelTo-Process created, then matched as ClientChannel-channelTo-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CSL0H+SC,domain#CP-CaS-SP+CC,"link ClientChannel-channelFrom-Process(Client) created, then matched as ClientChannel-channelFrom-Process(Client)",FALSE,FALSE
 package#ProcessComms,domain#CP-CSL0H+SC,domain#CP-CaS-SP+CC,"link ClientChannel-channelTo-Process(Service) created, then matched as ClientChannel-channelTo-Process(DService)",FALSE,FALSE
 package#ProcessComms,domain#CP-CSL0H+SC,domain#CP-ILSA+c,"link Interface-connectsTo-AbstractSubnet created, then matched as Interface-connectsTo-SocketLAN(LogicalSubnet)",FALSE,FALSE
@@ -1176,99 +1065,15 @@ package#ProcessComms,domain#CP-CSLSH2-SC+SC,domain#CP-CSL1H2+SC,"link ServiceCha
 package#ProcessComms,domain#CP-CSLSH2-SC+SC,domain#CP-CSL1H2+SC,"link ServiceChannel-channelTo-Process(DService) created, then matched as ServiceChannel(LastChannel)-channelTo-Process(DService)",FALSE,FALSE
 package#ProcessComms,domain#CP-CSLSH2-SC+SC,domain#CP-CSL1H2+SC,"link ServiceChannel-fromSpace-Space(LocalSpace) created, then matched as ServiceChannel(LastChannel)-fromSpace-Space(LocalSpace)",FALSE,FALSE
 package#ProcessComms,domain#CP-CSLSH2-SC+SC,domain#CP-CSL1H2+SC,"link ServiceChannel-toSpace-Space(RemoteSpace) created, then matched as ServiceChannel(LastChannel)-toSpace-Space(RemoteSpace)",FALSE,FALSE
-package#ProcessComms,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,link Process(Client)-accessesService-Process(Service) misses Process(Client)-usesForAuth-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,"link Process(Client)-proxyAuthN-Process(Proxy) created, then matched as Process(Client)-sharesCredentials-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,"link Process(Client)-proxyAuthN-Process(Proxy) created, then matched as Process(Service)-proxyAuthN-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-CaS-SP+CC,domain#CP-CScP-v+AA,"link Process(Client)-usesForAuth-Process created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-CuPuS-i+i,"link Process(Client)-usesIndirectly-Process(Service) created, then matched as Process(Client)-usesIndirectly-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-CuPuS-i+i,"link Process(Client)-usesIndirectly-Process(Service) created, then matched as Process(Proxy)-usesIndirectly-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-CuPuS-i+i,link Process(Client)-usesIndirectly-Process(Service) misses Process(Client)-usesIndirectly-Process(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,link Process(Client)-sharesCredentials-Process(Proxy) misses Process(Client)-sharesCredentials-Process(Proxy) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,"link Process(Client)-sharesCredentials-Process(Service) created, then matched as Process(Proxy)-sharesCredentials-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,"link Process(Client)-viaSharedCredentials-Process(Service) created, then matched as Process(Client)-viaSharedCredentials-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,link Process(Client)-viaSharedCredentials-Process(Service) misses Process(Client)-viaSharedCredentials-Process(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,link Process(Proxy)-sharesCredentials-Process(Service) misses Process(Client)-sharesCredentials-Process(Proxy) created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-CuPuS-i+i,domain#CP-CuSPvS-U+U,"link Process(Client)-usesViaProxy-Process(Service) created, then matched as Process(Client)-usesIndirectly-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPvnS+n,domain#CP-CzSzP+AA,"link Process(Client)-usesForAuth-Process created, then matched as Process(Client)-accessesService-Process(Proxy)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPvnS+n,domain#CP-CzSzP+AA,"link Process(Client)-usesForAuth-Process created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPvnS+n,domain#CP-DFuCuS-C-P+u,"link Process(Client)-uses-Process(Service) created, then matched as Process(Client)-accessesService-Process(Proxy)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPvnS+n,domain#CP-DFuCuS-C-P+u,"link Process(Client)-uses-Process(Service) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuPvnS+n,domain#CP-DFuCuS-C-P+u,link Process(Service)-sharesCredentials-Process misses Process(Client)-proxyAuthN-Process(Proxy) created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-SPvSPvS-U+U,"link ServiceProxy(Client)-usesAsProxy-Process(Service) created, then matched as ServiceProxy(Proxy)-usesAsProxy-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-SPvSPvS-U+U,link ServiceProxy(Client)-usesAsProxy-ServiceProxy(Proxy) misses Process(Client)-usesAsProxy-ServiceProxy(Proxy) created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-SPvSPvS-U+U,"link ServiceProxy(Client)-usesViaProxy-Process(Service) created, then matched as Process(Client)-usesViaProxy-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-SPvSPvS-U+U,link ServiceProxy(Client)-usesViaProxy-Process(Service) misses Process(Client)-usesViaProxy-Process(Service) created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-SPvSPvS-U+U,link ServiceProxy(Proxy)-usesAsProxy-Process(Service) misses Process(Client)-usesAsProxy-ServiceProxy(Proxy) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuScS+N,domain#CP-CucSaP+c,"link Process-controls-Process(Client) created, then matched as Process(Service)-controls-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,link Process(AuthService)-controls-Process misses Process-controls-Process(Client) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,link Process(AuthService)-controls-Process(Service) misses Process-controls-Process(Client) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,"link Process-controls-RemoteAccessService created, then matched as Process(Service)-controls-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,"link Process-controls-RemoteAccessService created, then matched as Process-controls-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CucSaP+c,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteAccessClient-usesViaRAS-Process created, then matched as Process(Client)-usesViaRAS-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CuvS+CC,domain#CP-CCSC+ch,link ClientChannel-channelFrom-Process(Client) misses ClientChannel-channelFrom-Process(Client) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CuvS+CC,domain#CP-CCSC+ch,link ClientChannel-channelTo-Process(Service) misses ClientChannel-channelTo-Process created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CvPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-CvPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSCS+f,domain#CP-CSDS+fV,"link DataStep-flowsViaCS-ClientChannel created, then matched as DataStep-flowsViaCS-ClientChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSSC+f,domain#CP-SCDS+fV,"link DataStep-flowsViaSC-ClientChannel created, then matched as DataStep-flowsViaSC-ClientChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSfP+fVP,domain#CP-RevDFf2DP2P+DS,"link DataFlow-flowsVia-DataStep created, then matched as DataFlow-flowsVia-DataStep",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSfP+fVP,domain#CP-RevDFf2DP2P+DS,"link DataStep-flowsFrom-Process(FlowsFrom) created, then matched as DataStep-flowsFrom-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSfP+fVP,domain#CP-RevDFfDP2P+DS,"link DataFlow-flowsVia-DataStep created, then matched as DataFlow-flowsVia-DataStep",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSfP+fVP,domain#CP-RevDFfDP2P+DS,"link DataStep-flowsFrom-Process(FlowsFrom) created, then matched as DataStep-flowsFrom-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSfP+fVP,domain#CP-RevDFtDP2P+DS,"link DataFlow-flowsVia-DataStep created, then matched as DataFlow-flowsVia-DataStep",FALSE,FALSE
-package#ProcessComms,domain#CP-DFDSfP+fVP,domain#CP-RevDFtDP2P+DS,"link DataStep-flowsFrom-Process(FlowsFrom) created, then matched as DataStep-flowsFrom-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCfS+ff,domain#CP-CCCSPSFCS+f,"link DataFlow-flowsViaCS-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaCS-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCfS+ff,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCfS+ff-Replay,domain#CP-CCCfCCS+aFC+aFC-Replay,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCtS+ft,domain#CP-CCCSPSFCS+f,"link DataFlow-flowsViaCS-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaCS-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCtS+ft,domain#CP-CCCtCCS+aTS+aTS,"link PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCtS+ft-Replay,domain#CP-CSCLS+ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCtS+ft-Replay,domain#CP-CSCLS-ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFfCCCtS+ft-Replay,domain#CP-IDFfCCCftS-s+rI,link DataFlow-flowsToIn-ProcessContext(ProcAccess) misses DataFlow-flowsToIn-PContext(ProcAccess) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-DFtCCCfS+ft,domain#CP-CCCSPSFSC+f,"link DataFlow-flowsViaSC-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaSC-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFtCCCfS+ft,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFtCCCfS+ft-Replay,domain#CP-CCCfCCS+aFC+aFC-Replay,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFtCCCtS+ff,domain#CP-CCCSPSFSC+f,"link DataFlow-flowsViaSC-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaSC-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFtCCCtS+ff,domain#CP-CCCtCCS+aTS+aTS,"link PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFtCCCtS+ff-Replay,domain#CP-CSCLS+ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFtCCCtS+ff-Replay,domain#CP-CSCLS-ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFtP+fVP,domain#CP-DDDCDS2P+DF,"link DataFlow-flowsTo-Process(FlowsTo) created, then matched as DataFlow-flowsTo-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-CuSHS+SL,link Process(Client)-accessesService-Process(Service) misses Process(Client)-uses-Process(Service) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-DFDSfP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-DFDSfP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-DFtP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-DFuCuS-C-P+u,domain#CP-DFtP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-CCCfS+aFC-aI+aU,"link ProcessContext(ProcAccess)-accessUninterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessUninterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFSACaiFS+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFSACaiFS+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFSACaiFS+DS,domain#CP-CCCfS-aFC+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFSACaiFS+DS,domain#CP-CCCftS+aFC-aTS+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFSFdC+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFSFdC+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFSFdC+DS,domain#CP-CCCSPSFCS+f,"link DataFlow-flowsViaCS-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaCS-AuthChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFSFdC+DS,domain#CP-CCCSPSFSC+f,"link DataFlow-flowsViaSC-AuthChannel(ClientChannel) created, then matched as DataFlow(OutFlow)-flowsViaSC-AuthChannel(ClientChannel)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFSFdC+DS,domain#CP-DAOiDADInDF-i+i-Replay,link DataAsset(InputAsset)-copyOf-Data misses DataCache(DataCopy)-copyOf-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,link Host-stores-Data(Input) misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-IDFfCCCftS-s+rI,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFcCr-aAC+DS,domain#CP-IDFfCCCftS-s+rI,"link Process(Service)-runsIn-ProcessContext(ProcAccess) created, then matched as Process-runsIn-ProcessContext(ProcAccess)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,"link Host-stores-Data created, then matched as Host-stores-Data(Input)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,"link Host-stores-Data created, then matched as Host-stores-Data(Input)",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,link Host-stores-Data(Input) misses Host-stores-Data created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFCFdS-ACau+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
-package#ProcessComms,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFCFdS-ACau+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-HRASuPCcS+c,domain#CP-HRASuPcS+c,link Process(Service)-controls-Process misses RemoteAccessService-controls-Process(Client) created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-HRASuPCcS+c,domain#CP-HRASuPcS+c,"link Process-controls-RemoteAccessService created, then matched as Process(AuthService)-controls-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-HRASuPCcS+c,domain#CP-HRASuPcS+c,"link Process-controls-RemoteAccessService created, then matched as Process(AuthService)-controls-Process(Client)",FALSE,FALSE
@@ -1286,26 +1091,22 @@ package#ProcessComms,domain#CP-HRASuPcC+c,domain#CP-RTvSPHP-iPL-RAS+LnS,"link Se
 package#ProcessComms,domain#CP-HRASuPcS+c,domain#CP-HRASuPcC+c,link Process-controls-Process(Client) misses Process-controls-RemoteAccessService created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-HRASuPcS+c,domain#CP-HRASuPcC+c,"link RemoteAccessService-controls-Process(Client) created, then matched as Process(Service)-controls-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-HuRACP+i,domain#CP-RDuRTuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
-package#ProcessComms,domain#CP-IDFfCCCftS-s+rI,domain#CP-DFfCCCtS+ft,"link DataFlow-flowsToIn-PContext(ProcAccess) created, then matched as DataFlow-flowsToIn-ProcessContext(ProcAccess)",FALSE,FALSE
-package#ProcessComms,domain#CP-IDFfCCCftS-s+rI,domain#CP-DFtCCCfS+ft,"link DataFlow-flowsToIn-PContext(ProcAccess) created, then matched as DataFlow-flowsToIn-ProcessContext(ProcAccess)",FALSE,FALSE
-package#ProcessComms,domain#CP-IDFfCCCftS-s+rI,domain#CP-H-sDFcCaiAC+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
 package#ProcessComms,domain#CP-NP1CCAPSC+pT,domain#CP-LPLS2NSg2+b,"link LogicalRoute(FwdSegment)-blockedSegment-LogicalRoute(FwdSegment) created, then matched as LogicalSegment-blockedSegment-LogicalSegment",FALSE,FALSE
 package#ProcessComms,domain#CP-NP1CCAPSC+pT,domain#CP-SCLPvLS+v,"link ServiceChannel-viaSubnet-LogicalSubnet created, then matched as ServiceChannel(LastChannel)-viaSubnet-LogicalSubnet(AttackerSubnet)",FALSE,FALSE
 package#ProcessComms,domain#CP-NP1CCAPSC+pT,domain#CP-SCLSgvTS-vS+vS,"link ServiceChannel-sourceViaNAT-LogicalSubnet(FromSubnet) created, then matched as ServiceChannel-sourceViaNAT-LogicalSubnet(EntrySubnet)",FALSE,FALSE
 package#ProcessComms,domain#CP-NP2CCAPSC+pT,domain#CP-NP1CCAPSC+pT,"link NetworkPath-pathTo-ServiceChannel created, then matched as NetworkPath(OldPath)-pathTo-ServiceChannel",FALSE,FALSE
 package#ProcessComms,domain#CP-NP2CCAPSC+pT,domain#CP-NP1CCAPSC+pT,"link NetworkPath-pathTo-ServiceChannel created, then matched as NetworkPath-pathTo-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-PCaFCSCCC+aFC,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-PCaFCSCCC+aFC,domain#CP-CSCLS+aFC,"link PContext(ProcAccess)-accessFromClient-ServiceChannel created, then matched as PContext(ProcAccess)-accessFromClient-ServiceChannel",FALSE,FALSE
 package#ProcessComms,domain#CP-PCaTSSCAP+aTS,domain#CP-SOCAP+OSAP,"link ServiceChannel-channelVia-OpenServiceAttackPath created, then matched as ServiceChannel-channelVia-AttackPath",FALSE,FALSE
 package#ProcessComms,domain#CP-PCaTSSCAP+aTS,domain#CP-SSCLS+aTS,"link PContext(ProcAccess)-accessToService-ServiceChannel created, then matched as PContext(ProcAccess)-accessToService-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-PCaTSSCCC+aTS,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-PCaTSSCCC+aTS,domain#CP-SSCLS+aTS,"link PContext(ProcAccess)-accessToService-ServiceChannel created, then matched as PContext(ProcAccess)-accessToService-ServiceChannel",FALSE,FALSE
-package#ProcessComms,domain#CP-PccCuS+N,domain#CP-CucSaP+c,"link Process-controls-Process(Client) created, then matched as Process-controls-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-PccCuS+N,domain#CP-CucSaP+c,"link Process-controls-Process(Client) created, then matched as Process-controls-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-CuScS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Client)-sharesCredentials-Process(Proxy)",FALSE,FALSE
-package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-CuScS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Proxy)-sharesCredentials-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Client)-sharesCredentials-Process(Proxy)",FALSE,FALSE
-package#ProcessComms,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Proxy)-sharesCredentials-Process(Service)",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuHRASP-iPL+uR,domain#CP-CS+u,"link Process(Client)-uses-Process(Service) created, then matched as RemoteAccessClient-uses-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuHRASP-iPL+uR,domain#CP-CS+u,"link Process(Client)-uses-Process(Service) created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuP-iP+uR,domain#CP-CS+u,"link Process(Client)-uses-Process(Service) created, then matched as RemoteAccessClient-uses-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteAccessClient-usesRemotely-RemoteAccessService",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTvSPHP-iPL-RAS+LnS,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTvSPHP-iPL-RAS+LnS,"link Host-hosts-LoginService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTvSPHP-iPL-RAS+LnS,"link LoginService(Service)-isLnS-LoginService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
@@ -1314,6 +1115,20 @@ package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTvSPHP-iPL-RAS+LnS,
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTvSPHP-iPL-RAS+LnS,link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process misses RemoteAccessClient-usesRemotely-RemoteAccessService created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTvSPHP-iPL-RAS+LnS,"link RemoteTerminal(RemoteAccessClient)-usesViaProxy-LoginService(Service) created, then matched as RemoteAccessClient-usesViaProxy-RemoteAccessService",FALSE,FALSE
 package#ProcessComms,domain#CP-RACvSPHRASP-iPL+uR,domain#CP-RTvSPHP-iPL-RAS+LnS,"link ServiceProxy(Proxy)-uses-LoginService(Service) created, then matched as ServiceProxy(Proxy)-uses-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RACuP-iP+uR,link RemoteAccessClient-uses-Process misses RemoteDesktop(RemoteAccessClient)-uses-DesktopService(Service) created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuHP-iPL-RAS+DtS,domain#CP-RACuP-iP+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteDesktop",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRDuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteDesktop-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,"link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteTerminal",FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop(RemoteAccessClient)-usesRemotely-Process misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop(RemoteAccessClient)-usesRemotely-RemoteDesktop misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,link RemoteDesktop-usesRemotely-Process misses RemoteDesktop(RemoteAccessClient)-usesRemotely-Process created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RTuRTuS-uR+uR,"link RemoteTerminal(RemoteAccessClient)-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesAsProxy-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-viaProxy-ServiceProxy(Proxy)",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesViaProxy-Process(Service) created, then matched as RemoteDesktop(RemoteAccessClient)-usesViaProxy-DesktopService(Process)",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesViaProxy-Process(Service) created, then matched as RemoteDesktop(RemoteAccessClient)-viaProxy-ServiceProxy(Proxy)",FALSE,FALSE
@@ -1330,6 +1145,19 @@ package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTvSPRAS+uR,link Se
 package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesAsProxy-ServiceProxy(Proxy) created, then matched as RemoteDesktop(RemoteAccessClient)-viaProxy-ServiceProxy(Proxy)",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesViaProxy-Process(Service) created, then matched as RemoteDesktop(RemoteAccessClient)-usesViaProxy-InteractiveProcess(Process)",FALSE,FALSE
 package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesViaProxy-Process(Service) created, then matched as RemoteDesktop(RemoteAccessClient)-viaProxy-ServiceProxy(Proxy)",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link DesktopService(Service)-isLnS-DesktopService(Service) created, then matched as Process-isLnS-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link DesktopService(Service)-uses-Process created, then matched as RemoteAccessService-uses-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link Host-hosts-DesktopService(Service) created, then matched as Host-hosts-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,"link Host-hosts-DesktopService(Service) created, then matched as Host-hosts-RemoteAccessService",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link Host-hosts-Process misses Host-hosts-LoginService(Service) created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link Host-hosts-RemoteAccessService misses Host-hosts-LoginService(Service) created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link Process-isLnS-Process misses LoginService(Service)-isLnS-LoginService(Service) created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,link RemoteAccessService-uses-Process misses LoginService(Service)-uses-Process created afterwards,FALSE,FALSE
+package#ProcessComms,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-RemoteTerminal",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-Process created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal(RemoteAccessClient)-usesRemotely-Process",FALSE,FALSE
+package#ProcessComms,domain#CP-RTuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,"link RemoteAccessClient-usesRemotely-RemoteAccessService created, then matched as RemoteTerminal-usesRemotely-Process",FALSE,FALSE
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesAsProxy-ServiceProxy(Proxy) created, then matched as RemoteTerminal(RemoteAccessClient)-viaProxy-ServiceProxy(Proxy)",FALSE,FALSE
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesViaProxy-Process(Service) created, then matched as RemoteTerminal(RemoteAccessClient)-usesViaProxy-ConsoleProcess(Process)",FALSE,FALSE
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-CuSPvS-U+U,"link Process(Client)-usesViaProxy-Process(Service) created, then matched as RemoteTerminal(RemoteAccessClient)-viaProxy-ServiceProxy(Proxy)",FALSE,FALSE
@@ -1348,8 +1176,6 @@ package#ProcessComms,domain#CP-RTvSPRAS+uR,domain#CP-CuSPvS-U+U,"link Process(Cl
 package#ProcessComms,domain#CP-SCAPvLS+v,domain#CP-SOCAP+OSAP,"link ServiceChannel-channelVia-OpenServiceAttackPath created, then matched as ServiceChannel-channelVia-ServiceAttackPath",FALSE,FALSE
 package#ProcessComms,domain#CP-SCCAP+CSAP,domain#CP-SSClIAP+ch,link ServiceChannel-channelVia-AttackPath misses ServiceChannel-channelVia-ClosedServiceAttackPath created afterwards,FALSE,FALSE
 package#ProcessComms,domain#CP-SCCHNPLS-lI+lI,domain#CP-SCLSgfTS+lI,"link ServiceChannel-lastInterface-Interface(OutboundIF) created, then matched as ServiceChannel-lastInterface-Interface",FALSE,FALSE
-package#ProcessComms,domain#CP-SCDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelFrom-Process(Client) created, then matched as ClientChannel-channelFrom-Process(Client)",FALSE,FALSE
-package#ProcessComms,domain#CP-SCDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelTo-Process created, then matched as ClientChannel-channelTo-Process(Service)",FALSE,FALSE
 package#ProcessComms,domain#CP-SCLPLSg+t,domain#CP-CSLS2H2-SC+SC,"link ServiceChannel-channelVia-NetworkPath created, then matched as ServiceChannel-channelVia-LogicalPath(NetworkPath)",FALSE,FALSE
 package#ProcessComms,domain#CP-SCLPLSg+t,domain#CP-NP2LSg+t,"link LogicalPath(NewPath)-traverses-LogicalSegment created, then matched as LogicalPath(NetworkPath)-traverses-LogicalSegment",FALSE,FALSE
 package#ProcessComms,domain#CP-SCLPvLS+v,domain#CP-CSLS2H2-SC+SC,"link ServiceChannel-channelVia-NetworkPath created, then matched as ServiceChannel-channelVia-LogicalPath(NetworkPath)",FALSE,FALSE
@@ -1390,17 +1216,191 @@ package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCCAPNP4+CCAP,"link Service
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCscLS+CCAP,"link ServiceChannel-channelVia-ClosedClientAttackPath created, then matched as ServiceChannel-channelVia-AttackPath",FALSE,FALSE
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCsdLS+OCAP,"link ServiceChannel-channelVia-OpenClientAttackPath created, then matched as ServiceChannel-channelVia-AttackPath",FALSE,FALSE
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-SCCHNPLS-lI+lI,"link ServiceChannel-lastInterface-Interface(OutboundIF) created, then matched as ServiceChannel-lastInterface-Interface",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDACDACCDF-c+a,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuPnS-U+U,link Process(Client)-accessesService-Process(Proxy) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-CuPnS-U+U,"link Process(Client)-viaSharedCredentials-Process(Service) created, then matched as Process(Client)-usesIndirectly-Process(Service)",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataAsset",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,"link Process(Vault)-controls-DataAsset(InputAsset) created, then matched as Process(Vault)-controls-DataFlow",FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuthZ-Process(Vault) misses Process(Service)-usesForAuthZ-Process(Vault) created afterwards,FALSE,FALSE
-package#ProcessComms,domain#CP-ScDASDACCDF-c+z,domain#CP-ScDDPDADS-cz+c,link Process-usesForAuth-Process(Vault) misses Process(Client)-usesForAuth-Process(Vault) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CzSzP+AA,domain#CP-CuSHS+SL,link Process(Client)-accessesService-Process(Service) misses Process(Client)-usesForAuth-Process created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CzS-CC+AC,domain#CP-CuvS+CC,"link ClientChannel-channelFrom-Process(Client) created, then matched as ClientChannel-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CzS-CC+AC,domain#CP-CuvS+CC,"link ClientChannel-channelTo-Process created, then matched as ClientChannel-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(AuthZChannel)-channelFrom-Process",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(AuthZChannel)-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(AuthZChannel)-channelFrom-Process",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(AuthZChannel)-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process",FALSE,FALSE
+package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CCSCAP+ch,"link ClientChannel-channelVia-ClientAttackPath(AttackPath) created, then matched as ClientChannel(ProxyChannel)-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as ClientChannel-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-DFDSCS+f,"link DataFlow-flowsViaCS-ClientChannel created, then matched as DataFlow-flowsViaCS-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-DFDSCS+f,"link DataFlow-flowsViaCS-ClientChannel created, then matched as DataFlow-flowsViaCS-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-DFDSSC+f,"link DataFlow-flowsViaSC-ClientChannel created, then matched as DataFlow-flowsViaSC-ClientChannel(FirstChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-DFDSSC+f,"link DataFlow-flowsViaSC-ClientChannel created, then matched as DataFlow-flowsViaSC-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-PCaFCSCCC+aFC,"link PContext(ProcAccess)-accessFromClient-ClientChannel created, then matched as PContext(ProcAccess)-accessFromClient-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-CSCLS+ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-CSCLS-ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC-Replay,domain#CP-H-sDFcCr-aAC+DS,link ProcessContext(ProcAccess)-accessFromClient-AuthChannel misses PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCfS-aFC+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCftS+aFC-aTS+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCfS-aFC+aI,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCtCCS+aTS+aTS,"link PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel) created, then matched as ProcessContext(ToContext)-accessToService-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-PCaTSSCCC+aTS,"link PContext(ProcAccess)-accessToService-ClientChannel created, then matched as PContext(ProcAccess)-accessToService-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CCSCvLS+vLS,"link ClientChannel-viaSubnet-LogicalSubnet created, then matched as ClientChannel(ProxyChannel)-viaSubnet-LogicalSubnet",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CuPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CuPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(FirstChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CvPuSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CvPvSCC+c,"link AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel) created, then matched as AuthChannel(ClientChannel)-channelVia-ClientChannel(ProxyChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSC+ch,domain#CP-CSLS2H2-SC+SC,"link ServiceChannel-channelFrom-Process(Client) created, then matched as ServiceChannel-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSC+ch,domain#CP-CSLS2H2-SC+SC,"link ServiceChannel-channelTo-Process(DService) created, then matched as ServiceChannel-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCAP+ch,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCAP+ch,domain#CP-CSCCAPNP4+CCAP,"link ServiceChannel-channelVia-ClosedClientAttackPath created, then matched as ServiceChannel-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCAP+ch,domain#CP-CSCscLS+CCAP,"link ServiceChannel-channelVia-ClosedClientAttackPath created, then matched as ServiceChannel-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCAP+ch,domain#CP-CSCsdLS+OCAP,"link ServiceChannel-channelVia-OpenClientAttackPath created, then matched as ServiceChannel-channelVia-ClientAttackPath(AttackPath)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCCP+ch,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCCP+ch,domain#CP-CSCvLS+CP,"link ServiceChannel-channelVia-ClientPath created, then matched as ServiceChannel-channelVia-ClientPath",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCfI+fI,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCfI+fI,domain#CP-SCLSg+vf,"link ServiceChannel-fromInterface-Interface(OutboundIF) created, then matched as ServiceChannel-fromInterface-Interface",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCtI+tI,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCtI+tI,domain#CP-SCLSg+vt,"link ServiceChannel-toInterface-Interface(InboundIF) created, then matched as ServiceChannel-toInterface-Interface",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#CP-SCLPLSg+t,"link ServiceChannel-usesLogicalRoute-LogicalSegment created, then matched as ServiceChannel-usesLogicalRoute-LogicalSegment",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-SCLSg+vf,"link ServiceChannel-viaInterface-Interface(OutboundIF) created, then matched as ServiceChannel-viaInterface-Interface",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-SCLSg+vt,"link ServiceChannel-viaInterface-Interface(InboundIF) created, then matched as ServiceChannel-viaInterface-Interface",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCvLS+vLS,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-CCSCvLS+vLS,domain#CP-SCLPvLS+v,"link ServiceChannel-viaSubnet-LogicalSubnet created, then matched as ServiceChannel-viaSubnet-LogicalSubnet",FALSE,FALSE
+package#ProcessTrust,domain#CP-CSDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelFrom-Process(Client) created, then matched as ClientChannel-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CSDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelTo-Process created, then matched as ClientChannel-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,link Process(Client)-accessesService-Process(Proxy) misses Process(Client)-usesForAuth-Process created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,link Process(Client)-accessesService-Process(Service) misses Process(Client)-usesForAuth-Process created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,"link Process(Client)-proxyAuthN-Process(Proxy) created, then matched as Process(Client)-sharesCredentials-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,"link Process(Client)-proxyAuthN-Process(Proxy) created, then matched as Process(Service)-proxyAuthN-Process",FALSE,FALSE
+package#ProcessTrust,domain#CP-CaS-SP+CC,domain#CP-CScP-v+AA,"link Process(Client)-usesForAuth-Process created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,link Process(Client)-sharesCredentials-Process(Proxy) misses Process(Client)-sharesCredentials-Process(Proxy) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,"link Process(Client)-sharesCredentials-Process(Service) created, then matched as Process(Proxy)-sharesCredentials-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,"link Process(Client)-viaSharedCredentials-Process(Service) created, then matched as Process(Client)-viaSharedCredentials-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,link Process(Client)-viaSharedCredentials-Process(Service) misses Process(Client)-viaSharedCredentials-Process(Service) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,link Process(Proxy)-sharesCredentials-Process(Service) misses Process(Client)-sharesCredentials-Process(Proxy) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPvnS+n,domain#CP-CzSzP+AA,"link Process(Client)-usesForAuth-Process created, then matched as Process(Client)-accessesService-Process(Proxy)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPvnS+n,domain#CP-CzSzP+AA,"link Process(Client)-usesForAuth-Process created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPvnS+n,domain#CP-DFuCuS-C-P+u,"link Process(Client)-uses-Process(Service) created, then matched as Process(Client)-accessesService-Process(Proxy)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPvnS+n,domain#CP-DFuCuS-C-P+u,"link Process(Client)-uses-Process(Service) created, then matched as Process(Client)-accessesService-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuPvnS+n,domain#CP-DFuCuS-C-P+u,link Process(Service)-sharesCredentials-Process misses Process(Client)-proxyAuthN-Process(Proxy) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CuScS+N,domain#CP-CucSaP+c,"link Process-controls-Process(Client) created, then matched as Process(Service)-controls-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,link Process(AuthService)-controls-Process misses Process-controls-Process(Client) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,link Process(AuthService)-controls-Process(Service) misses Process-controls-Process(Client) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,"link Process-controls-RemoteAccessService created, then matched as Process(Service)-controls-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-HRASuPScS+c,"link Process-controls-RemoteAccessService created, then matched as Process-controls-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-RACuRHRASP-iPL+uRAS,"link RemoteAccessClient-usesViaRAS-Process created, then matched as Process(Client)-usesViaRAS-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CuvS+CC,domain#CP-CCSC+ch,link ClientChannel-channelFrom-Process(Client) misses ClientChannel-channelFrom-Process(Client) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CuvS+CC,domain#CP-CCSC+ch,link ClientChannel-channelTo-Process(Service) misses ClientChannel-channelTo-Process created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-CvPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CvPuSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CvPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelFrom-Process(Client) created, then matched as AuthChannel(ClientChannel)-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-CvPvSCC+c,domain#CP-CzS-CC+AC,"link AuthChannel-channelTo-Process(Service) created, then matched as AuthChannel(ClientChannel)-channelTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFDSCS+f,domain#CP-CSDS+fV,"link DataStep-flowsViaCS-ClientChannel created, then matched as DataStep-flowsViaCS-ClientChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFDSSC+f,domain#CP-SCDS+fV,"link DataStep-flowsViaSC-ClientChannel created, then matched as DataStep-flowsViaSC-ClientChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#CP-CCCSPSFCS+f,"link DataFlow-flowsViaCS-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaCS-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCfS+ff-Replay,domain#CP-CCCfCCS+aFC+aFC-Replay,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCtS+ft,domain#CP-CCCSPSFCS+f,"link DataFlow-flowsViaCS-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaCS-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCtS+ft,domain#CP-CCCtCCS+aTS+aTS,"link PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCtS+ft-Replay,domain#CP-CSCLS+ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCtS+ft-Replay,domain#CP-CSCLS-ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFfCCCtS+ft-Replay,domain#CP-IDFfCCCftS-s+rI,link DataFlow-flowsToIn-ProcessContext(ProcAccess) misses DataFlow-flowsToIn-PContext(ProcAccess) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-DFtCCCfS+ft,domain#CP-CCCSPSFSC+f,"link DataFlow-flowsViaSC-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaSC-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFtCCCfS+ft,domain#CP-CCCfCCS+aFC+aFC,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFtCCCfS+ft-Replay,domain#CP-CCCfCCS+aFC+aFC-Replay,"link PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessFromClient-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFtCCCtS+ff,domain#CP-CCCSPSFSC+f,"link DataFlow-flowsViaSC-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaSC-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFtCCCtS+ff,domain#CP-CCCtCCS+aTS+aTS,"link PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel) created, then matched as PContext(ProcAccess)-accessToService-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFtCCCtS+ff-Replay,domain#CP-CSCLS+ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFtCCCtS+ff-Replay,domain#CP-CSCLS-ii+PNC,"link ProcNetContext(ProcAccess)-accessTo-Process(Client) created, then matched as PContext(ProcAccess)-accessTo-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFuCuS-C-P+u,domain#CP-CuSHS+SL,link Process(Client)-accessesService-Process(Service) misses Process(Client)-uses-Process(Service) created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-DFuCuS-C-P+u,domain#CP-DFDSfP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFuCuS-C-P+u,domain#CP-DFDSfP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFuCuS-C-P+u,domain#CP-DFtP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-DFuCuS-C-P+u,domain#CP-DFtP+fVP,"link DataFlow-flowsViaProcess-Process created, then matched as DataFlow-flowsViaProcess-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-CCCfS+aFC-aI+aU,"link ProcessContext(ProcAccess)-accessUninterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessUninterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFSACaiFS+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFSACaiFS+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFSACaiFS+DS,domain#CP-CCCfS-aFC+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFSACaiFS+DS,domain#CP-CCCftS+aFC-aTS+aI,"link ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel) created, then matched as ProcessContext(ProcAccess)-accessInterrupted-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFSFdC+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFSFdC+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFSFdC+DS,domain#CP-CCCSPSFCS+f,"link DataFlow-flowsViaCS-AuthChannel(ClientChannel) created, then matched as DataFlow-flowsViaCS-AuthChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFSFdC+DS,domain#CP-CCCSPSFSC+f,"link DataFlow-flowsViaSC-AuthChannel(ClientChannel) created, then matched as DataFlow(OutFlow)-flowsViaSC-AuthChannel(ClientChannel)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFSFdC+DS,domain#CP-DAOiDADInDF-i+i-Replay,link DataAsset(InputAsset)-copyOf-Data misses DataCache(DataCopy)-copyOf-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,link Host-stores-Data(Input) misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCr-aAC+DS,domain#CP-IDFfCCCftS-s+rI,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFcCr-aAC+DS,domain#CP-IDFfCCCftS-s+rI,"link Process(Service)-runsIn-ProcessContext(ProcAccess) created, then matched as Process-runsIn-ProcessContext(ProcAccess)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,"link Host-stores-Data created, then matched as Host-stores-Data(Input)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,"link Host-stores-Data created, then matched as Host-stores-Data(Input)",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,link Host-stores-Data(Input) misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFCFdS-ACau+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
+package#ProcessTrust,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFCFdS-ACau+DS,link Host-stores-Data misses Host-stores-Data created afterwards,FALSE,FALSE
+package#ProcessTrust,domain#CP-IDFfCCCftS-s+rI,domain#CP-DFfCCCtS+ft,"link DataFlow-flowsToIn-PContext(ProcAccess) created, then matched as DataFlow-flowsToIn-ProcessContext(ProcAccess)",FALSE,FALSE
+package#ProcessTrust,domain#CP-IDFfCCCftS-s+rI,domain#CP-DFtCCCfS+ft,"link DataFlow-flowsToIn-PContext(ProcAccess) created, then matched as DataFlow-flowsToIn-ProcessContext(ProcAccess)",FALSE,FALSE
+package#ProcessTrust,domain#CP-IDFfCCCftS-s+rI,domain#CP-H-sDFcCaiAC+DS,"link Host-stores-Data created, then matched as Host-stores-Data",FALSE,FALSE
+package#ProcessTrust,domain#CP-PCaFCSCCC+aFC,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-PCaFCSCCC+aFC,domain#CP-CSCLS+aFC,"link PContext(ProcAccess)-accessFromClient-ServiceChannel created, then matched as PContext(ProcAccess)-accessFromClient-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-PCaTSSCCC+aTS,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-PCaTSSCCC+aTS,domain#CP-SSCLS+aTS,"link PContext(ProcAccess)-accessToService-ServiceChannel created, then matched as PContext(ProcAccess)-accessToService-ServiceChannel",FALSE,FALSE
+package#ProcessTrust,domain#CP-PccCuS+N,domain#CP-CucSaP+c,"link Process-controls-Process(Client) created, then matched as Process-controls-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-PccCuS+N,domain#CP-CucSaP+c,"link Process-controls-Process(Client) created, then matched as Process-controls-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-CuScS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Client)-sharesCredentials-Process(Proxy)",FALSE,FALSE
+package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-CuScS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Proxy)-sharesCredentials-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Client)-sharesCredentials-Process(Proxy)",FALSE,FALSE
+package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,"link Process(Client)-proxyAuthN-Process(Service) created, then matched as Process(Proxy)-sharesCredentials-Process(Service)",FALSE,FALSE
+package#ProcessTrust,domain#CP-SCDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelFrom-Process(Client) created, then matched as ClientChannel-channelFrom-Process(Client)",FALSE,FALSE
+package#ProcessTrust,domain#CP-SCDS+fV,domain#CP-CuvS+CC,"link ClientChannel-channelTo-Process created, then matched as ClientChannel-channelTo-Process(Service)",FALSE,FALSE
+package#Users,domain#CP-HuaSaE+cA,domain#CP-PPS-E+W,"link PrivateSpace(Space)-accessibleVia-World created, then matched as Space-accessibleVia-PublicSpace(Entrance)",FALSE,FALSE
 package#Virtualisation,domain#CP-CCSCHC+ch,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE
 package#Virtualisation,domain#CP-CCSCHC+ch,domain#CP-SC4HVSHC+vHC,"link ServiceChannel-viaHostChannel-HostChannel created, then matched as ServiceChannel-viaHostChannel-HostChannel",FALSE,FALSE
 package#Virtualisation,domain#CP-CCSCVC+ch,domain#CP-CCSC+ch,"link ClientChannel-channelVia-ServiceChannel created, then matched as ClientChannel-channelVia-ServiceChannel",FALSE,FALSE

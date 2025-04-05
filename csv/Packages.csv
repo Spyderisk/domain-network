@@ -1,22 +1,23 @@
 URI,Label,Enabled,Description,Rank,PresentedAs
 domain#000000,5G,Yes,Model of cellular networks (5G and similar).,0,5G
 package#5G,5G,TRUE,Model of cellular networks (5G and similar).,110,5G
-package#AccessContext,AccessRights,TRUE,"Model of access rights, restricted to specific contexts.",40,AccessContext
-package#Application,Application,TRUE,Model of application data and processes,60,Application
+package#AccessContext,AccessRights,TRUE,"Model of access rights, restricted to specific contexts.",30,AccessContext
+package#Application,Application,TRUE,Model of application data and processes,50,Application
 package#CloudManagement,CloudManagement,TRUE,Model of cloud hosting and automated management.,110,CloudManagement
 package#Core,Core,TRUE,Generic base asset classes,1,Core
-package#DataLifecycle,DataLifecycle,TRUE,"Model of data processing, movement and persistence.",80,DataLifecycle
-package#DataStructure,DataStructure,TRUE,Model of elements (fields) within a Data asset,70,DataStructure
-package#GDPR,GDPR,TRUE,Model of GDPR compliance requirements.,120,GDPR
-package#IoT,InternetOfThings,TRUE,Model of network accessible physical sensing and control devices.,90,IoT
-package#Legal,Legal,TRUE,"Model of legally significant assets, relationships and controls.",110,Legal
-package#LocalDeviceConnectivity,LocalDeviceConnectivity,TRUE,Model of local device connectivity (USB and Bluetooth).,100,LocalDeviceConnectivity
-package#Network,Network,TRUE,"Model of hosts connected to networks, plus control processes.",50,Network
-package#NetworkConnectivity,NetworkConnectivity,TRUE,Model of network routing and network paths.,60,NetworkConnectivity
-package#Physical,Physical,TRUE,Physical spaces and physical accessibility.,30,Physical
-package#Privacy,Privacy,TRUE,Model of personal data including specific types of personal data.,100,Privacy
-package#ProcessComms,ProcessComms,TRUE,Model of process-process communications.,90,ProcessComms
+package#DataLifecycle,DataLifecycle,TRUE,"Model of data processing, movement and persistence.",70,DataLifecycle
+package#DataStructure,DataStructure,TRUE,Model of elements (fields) within a Data asset,80,DataStructure
+package#GDPR,GDPR,TRUE,Model of GDPR compliance requirements.,110,GDPR
+package#IoT,InternetOfThings,TRUE,Model of network accessible physical sensing and control devices.,100,IoT
+package#Legal,Legal,TRUE,"Model of legally significant assets, relationships and controls.",100,Legal
+package#LocalDeviceConnectivity,LocalDeviceConnectivity,TRUE,Model of local device connectivity (USB and Bluetooth).,70,LocalDeviceConnectivity
+package#Network,Network,TRUE,"Model of hosts connected to networks, plus control processes.",40,Network
+package#NetworkConnectivity,NetworkConnectivity,TRUE,"Model of network connections, paths and routing.",50,NetworkConnectivity
+package#Physical,Physical,TRUE,Physical spaces and physical accessibility.,10,Physical
+package#Privacy,Privacy,TRUE,Model of personal data including specific types of personal data.,90,Privacy
+package#ProcessComms,ProcessComms,TRUE,Model of process-process communications.,60,ProcessComms
+package#ProcessTrust,ProcessTrust,TRUE,Model of client-service trust relationships.,90,
 package#Theft,Theft,TRUE,Model of device theft and reconnection of stolen devices.,100,Theft
 package#Users,Users,TRUE,Model of system stakeholders and users.,20,Users
 package#Virtualisation,Virtualisation,TRUE,Model of device and network virtualisation.,100,Virtualisation
-package#VulnerabilityCVSS,VulnerabilityCVSS,TRUE,Model of software vulnerabilities based on CVSS v2 metrics.,110,VulnerabilityCVSS
+package#VulnerabilityCVSS,VulnerabilityCVSS,TRUE,Model of software vulnerabilities based on CVSS v2 metrics.,100,VulnerabilityCVSS
