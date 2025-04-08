@@ -32,14 +32,30 @@ package#Application,domain#CP-Marker+DataHandling-2,domain#CP-Marker+DataHandlin
 package#Application,domain#CP-Marker+DataStorage-0,domain#CP-Marker+HostClassification-1,Host classification should precede data storage relationship inference,FALSE,TRUE
 package#Application,domain#CP-Marker+DataStorage-1,domain#CP-Marker+DataStorage-0,Start precedes end of sequence,FALSE,TRUE
 package#Application,domain#CP-Marker+UserDataDeprecated-1,domain#CP-Marker+UserDataDeprecated-0,Start precedes end of sequence,FALSE,TRUE
-package#Application,domain#CP-Marker+UserDataInteraction-0,domain#CP-Marker+DataHandling-1,Inferring user access to data is a subsequence of data handling relationship inference,FALSE,TRUE
+package#Application,domain#CP-Marker+UserDataInteraction-0,domain#CP-Marker+DataHandling-1,User-data interactivity inference is a subsequence of data handling relationship inference,FALSE,TRUE
+package#Application,domain#CP-Marker+UserDataInteraction-0,domain#CP-Marker+HumanStatus-1,Human status inference should precede user-data interactivity inference,FALSE,TRUE
 package#Application,domain#CP-Marker+UserDataInteraction-1,domain#CP-Marker+UserDataInteraction-0,Start precedes end of sequence,FALSE,TRUE
 package#Application,domain#CP-RAC+noDU,domain#CP-Marker+ProcessClassification-0,RAC+noDU is at the start of the process classification sequence,FALSE,TRUE
 package#Application,domain#CP-RAS+noDU,domain#CP-Marker+ProcessClassification-0,RAS+noDU is at the start of the process classification sequence,FALSE,TRUE
+package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-1,DCDFcV+c is at the start of the data cache security relationship inference sequence,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFSACaiFS+DS,H-sDFSACaiFS+DS creates a link that in H-sDFCFdS-ACau+DS matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFSFdC+DS,H-sDFSFdC+DS creates a link that in H-sDFSACaiFS+DS matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFSFdC+DS,domain#CP-Marker+DataCache-0,H-sDFSFdC+DS is at the start of the temporary cache creation sequence,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,H-sDFuCudDFdS-ACau+DS creates a link that in H-sDFcCaiAC+DS matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFcCr-aAC+DS,domain#CP-IDFfCCCftS-s+rI,IDFfCCCftS-s+rI creates a link that in H-sDFcCr-aAC+DS matches Process-runsIn-ProcAccess,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,H-sDFuSdC+DS creates a link that in H-sDFrSACdDFiaS+DS matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,H-sDFrSACdDFiaS+DS creates a link that in H-sDFuCudDFdS-ACau+DS matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFCFdS-ACau+DS,H-sDFCFdS-ACau+DS creates a link that in H-sDFuSdC+DS matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-IDFfCCCftS-s+rI,domain#CP-H-sDFcCaiAC+DS,H-sDFcCaiAC+DS creates a link that in IDFfCCCftS-s+rI matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+DataCopy-3,Persistent stored data inference should precede temporary cache creation,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+ProcessTrust-3,Process trust inference should precede temporary cache creation,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+ServiceChannel-3,Process communication inference should precede temporary cache creation,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-1,domain#CP-Marker+DataCache-0,Start precedes end of sequence,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-2,domain#CP-Marker+DataCache-1,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-AC+noDX,domain#CP-Marker+ProcessClassification-0,AC+noDX is at the start of the process classification sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-AS+noDX,domain#CP-Marker+ProcessClassification-0,AS+noDX is at the start of the process classification sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-DCDFcV+c,DCDFcV creates a link that in CCDFCDAScDA-c+a matches Vault-controls-DataAsset,FALSE,TRUE
-package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-DCDFcV+c,DCDFcV creates a link that in CCDFSDAScDA-c+z matches Vault-controls-DataAsset,FALSE,TRUE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-Marker+DataKeys-0,CCDFCDAScDA-c+a is at the start of the data key management interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-Marker+DataKeys-0,CCDFSDAScDA-c+z is at the start of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#CP-Marker+DataPath-0,CS-SP-noDX+DX is at the start of the data path creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADS+W,domain#CP-HPDO-fDS-DA+f,HPDO-fDS-DA+f creates a link that in DADS+W matches DataAccess-fulfils-DataCopy,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADS+ds,domain#CP-Marker+DataChannel-0,DADS+ds is at the start of the data source and destination tagging sequence,FALSE,TRUE
@@ -53,7 +69,6 @@ package#DataLifecycle,domain#CP-DC2xrDA2+f,domain#CP-DC3xr-xr+xr,DC3xr-xr+xr cre
 package#DataLifecycle,domain#CP-DC3-x+x,domain#CP-DC1+x,DC1+x creates a link that in DC3-x+x matches DataChannel-extendsDC-OldDataChannel,FALSE,TRUE
 package#DataLifecycle,domain#CP-DC3xf-xf+xf,domain#CP-DC2TDRfDP2+xf,DC2TDRfDP2+xf creates a link that in DC3xf-xf+xf matches OldDataChannel-extendsFwdFlow-DataChannel,FALSE,TRUE
 package#DataLifecycle,domain#CP-DC3xr-xr+xr,domain#CP-DC2TDRrDP2+xr,DC2TDRrDP2+xr creates a link that in DC3xr-xr+xr matches OldDataChannel-extendsRevFlow-DataChannel,FALSE,TRUE
-package#DataLifecycle,domain#CP-DCDFcV+c,domain#CP-Marker+DataKeys-0,DCDFcV+c is at the start of the non-application client-service interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DD-fDCSDS+ch,domain#CP-DI-fDCSDS+ch,DI-fDCSDS+ch creates a link that in DD-fDCSDS+ch matches DataAccess-possRevPath-OldDataChannel,FALSE,TRUE
 package#DataLifecycle,domain#CP-DD-fDCSDS+ch,domain#CP-RA-fDCSDS+ch,RA-fDCSDS+ch creates a link that in DD-fDCSDS+ch matches DataAccess-possRevPath-OldDataChannel,FALSE,TRUE
 package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#CP-DDDPS+DC,DDDPS+DC creates a link that in DDDCDP2oDS+DC matches FlowsFrom-relaysAccess-DataAccess,FALSE,TRUE
@@ -123,9 +138,6 @@ package#DataLifecycle,domain#CP-Hui-vDSPH-S-DA+DO,domain#CP-Pc-rDSH-S-Hu-DA+DO,P
 package#DataLifecycle,domain#CP-Marker+DataAccess-0,domain#CP-Marker+DataCopy-1,Persistent stored data copy creation should precede deserialized data access inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataAccess-0,domain#CP-Marker+DataHandling-2,Data handling relationship inference should precede deserialized data access inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataAccess-1,domain#CP-Marker+DataAccess-0,Start precedes end of sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-Marker+DataCache-0,domain#CP-Marker+DataCopy-3,Persistent stored data inference should precede temporary cache creation,FALSE,TRUE
-package#DataLifecycle,domain#CP-Marker+DataCache-0,domain#CP-Marker+ServiceChannel-3,Process communication inference should precede temporary cache creation,FALSE,TRUE
-package#DataLifecycle,domain#CP-Marker+DataCache-1,domain#CP-Marker+DataCache-0,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataChannel-0,domain#CP-Marker+DataPath-1,Data path creation should precede data channel creation,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataChannel-1,domain#CP-Marker+DataChannel-0,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataChannel-2,domain#CP-Marker+DataChannel-1,Start precedes end of sequence,FALSE,TRUE
@@ -145,14 +157,15 @@ package#DataLifecycle,domain#CP-Marker+DataPath-0,domain#CP-Marker+DataAccess-1,
 package#DataLifecycle,domain#CP-Marker+DataPath-1,domain#CP-Marker+DataPath-0,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataPath-2,domain#CP-Marker+DataPath-1,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataPath-3,domain#CP-Marker+DataPath-2,Start precedes end of sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-Marker+Phishing-0,domain#CP-Marker+DataCache-1,Data flow caching inference should precede phishing data flow creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+Phishing-0,domain#CP-Marker+DataFlow-1,Data flow creation should precede phishing inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+Phishing-0,domain#CP-Marker+DataKeys-1,Data access creation should precede phishing inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+Phishing-1,domain#CP-Marker+Phishing-0,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDI+d,domain#CP-Marker+DataChannel-0,PDI+d is at the start of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDI-Hu+d,domain#CP-Marker+DataChannel-0,PDI-Hu+d is at the start of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDO+fS,domain#CP-Marker+DataChannel-3,PDO+fS is at the start of the data channel activation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDO+s,domain#CP-Marker+DataChannel-0,PDO+s is at the start of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDO-DI+DP,domain#CP-Marker+DataPath-0,PDO-DI+DP is at the start of the data path creation sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-DCDFcV+c,DCDFcV creates a link that in PDOScDD-DS+z matches Vault-controls-OutputAsset,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-Marker+DataKeys-0,PDOScDD-DS+z is at the start of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDP+DP,domain#CP-Marker+DataPath-0,PDP+DP is at the start of the data path creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDP+ds,domain#CP-Marker+DataChannel-0,PDP+ds is at the start of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDR+ds,domain#CP-Marker+DataChannel-0,PDR+ds is at the start of the data source and destination tagging sequence,FALSE,TRUE
@@ -194,13 +207,13 @@ package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-SDADPDXRAC-DP+DP,SDA
 package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-DADU-eS+eA,DADU-eS+eA creates a link that in SDUDADS+W matches Service-enablesAccess-DataUse,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-DADU-eS+eA,DADU-eS+eA creates a link that in SDUDADS+W matches Service-enablesAccess-DataUse,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-HPDS-fDI-DO-DFI+f,HPDS-fDI-DO-DFI+f creates a link that in SDUDSDA+R matches DataCopy-fulfils-DataAccess,FALSE,TRUE
-package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-DCDFcV+c,DCDFcV creates a link that in CCDFCDAScDA-c+a matches Vault-controls-DataAsset,FALSE,TRUE
-package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-DCDFcV+c,DCDFcV creates a link that in ScDASDACCDF-c+z matches Vault-controls-DataAsset,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-Marker+DataKeys-0,ScDACDACCDF-c+a is at the start of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-Marker+DataKeys-0,ScDASDACCDF-c+z is at the start of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-ScDSPDADD-cz+c,ScDSPDADD-cz+c creates a link that in ScDDPDADS-cz+c is prohibited as Vault-controls-InputAsset,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDSPDADD-cz+c,domain#CP-HPDO-fDS-DA+f,HPDO-fDS-DA+f creates a link that in ScDSPDADD-cz+c matches DataAccess-fulfils-OutputAsset,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDSPDADD-cz+c,domain#CP-HPDS-fDI-DO-DFI+f,HPDS-fDI-DO-DFI+f creates a link that in ScDSPDADD-cz+c matches InputAsset-fulfils-DataAccess,FALSE,TRUE
-package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-DCDFcV+c,DCDFcV creates a link that in ScDSPDI-DD+z matches Vault-controls-InputAsset,FALSE,TRUE
-package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-DCDFcV+c,DCDFcV creates a link that in ScDSPDIcD+z matches Vault-controls-InputAsset,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-Marker+DataKeys-0,ScDSPDI-DD+z is at the start of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-0,ScDSPDIcD+z is at the start of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-DAO-iDADInDF-n+n,domain#CP-DSD-iDF+n,DAO-iDADInDF-n+n creates a link that in DSD-iDF+n matches InputAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-DAO-iDADInDF-n+n-Replay,domain#CP-DAPDADF-g+n,DAPDADF-g+n creates a link that in DAO-iDADInDF-n+n-Replay matches InputAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-DAOiDADInDF-i+i,domain#CP-PDO-gDAnDF-i+i,PDO-gDAnDF-i+i creates a link that in DAOiDADInDF-i+i matches OutputAsset-includesField-DataField,FALSE,TRUE
@@ -209,7 +222,8 @@ package#DataStructure,domain#CP-DAPDADF-g+n,domain#CP-DAOiDADInDF-i+i,DAOiDADInD
 package#DataStructure,domain#CP-DCDFDF+i,domain#CP-DAOiDADInDF-i+i-Replay,DAOiDADInDF-i+i-Replay creates a link that in DCDFDF+I matches DataFlow-includesField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-DSD-iDF+n,domain#CP-DSDDF-Hu-P+i,DSD-iDF+n creates a link that in DSDDF-Hu-P+I matches DataCopy-includesField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-DSDDF-Hu-P+i,domain#CP-Marker+DataFields-0,DSDDF-Hu-P+I is at the start of the data field inference sequence,FALSE,TRUE
-package#DataStructure,domain#CP-Marker+DataFields-0,domain#CP-Marker+DataCache-1,Data cache inference should precede data field inference,FALSE,TRUE
+package#DataStructure,domain#CP-Marker+DataFields-0,domain#CP-Marker+DataCache-2,Data cache inference should precede data field inference,FALSE,TRUE
+package#DataStructure,domain#CP-Marker+DataFields-0,domain#CP-Marker+Phishing-1,Unsolicited data flow inference should precede data field inference,FALSE,TRUE
 package#DataStructure,domain#CP-Marker+DataFields-1,domain#CP-Marker+DataFields-0,Start precedes end of sequence,FALSE,TRUE
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,DAO-iDADInDF-n+n creates a link that in PDO-gDAnDF-i+i matches DataAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,DAO-iDADInDF-n+n-Replay creates a link that in PDO-gDAnDF-i+i-Replay matches DataAsset-needsField-DataField,FALSE,TRUE
@@ -506,15 +520,77 @@ package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-SCLPvLS+v,SCLPvLS+v creates a
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCCAPNP4+CCAP,CSCCAPNP4+CCAP creates a link that in SSClIAP+ch matches ServiceChannel-channelVia-AttackPath,FALSE,TRUE
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCscLS+CCAP,CSCscLS+CCAP creates a link that in SSClIAP+ch matches ServiceChannel-channelVia-AttackPath,FALSE,TRUE
 package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-CSCsdLS+OCAP,CSCsdLS+OCAP creates a link that in SSClIAP+ch matches ServiceChannel-channelVia-AttackPath,FALSE,TRUE
+package#ProcessTrust,domain#CP-CzSzP+AA,domain#CP-Marker+CredentialSharing-0,CzSzP+AA is at the start of the credential sharing inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CzS-CC+AC,domain#CP-CaS-SP+CC,CaS-SP+CC creates a link that in CzS-CC+AC matches ClientChannel-channelTo-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-CzS-CC+AC,domain#CP-CuvS+CC,CuvS+CC creates a link that in CzS-CC+AC matches ClientChannel-channelTo-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-Marker+OAuth-0,CAC-pPzAC-pS+cvc is at the start of the OAuth trust dependency inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-Marker+OAuth-0,CAC-pPaAC-pS+cvc is at the start of the OAuth trust dependency inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-Marker+OAuth-0,CAC-pScAC-pP+cc is at the start of the OAuth trust dependency inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CCSCAP+ch,CCSCAP+ch creates a link that in CCCCAP+ch matches ProxyChannel-channelVia-ClientAttackPath,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-DFDSCS+f,DFDSCS+f creates a link that in CCCSPSFCS+f matches DataFlow-flowsViaCS-FirstChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-DFDSSC+f,DFDSSC+f creates a link that in CCCSPSFSC+f matches DataFlow-flowsViaSC-FirstChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-PCaFCSCCC+aFC,PCaFCSCCC+aFC creates a link that in PCaFCSCCC+aFC matches ProcAccess-accessFromClient-ProxyChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCfS-aFC+aI,CCCfS-aFC+aI creates a link that in CCCfS+aFC-aI+aU matches ProcAccess-accessInterrupted-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCftS+aFC-aTS+aI,CCCftS+aFC-aTS+aI creates a link that in CCCfS+aFC-aI+aU matches ProcAccess-accessInterrupted-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCfS-aFC+aI,domain#CP-CCCfCCS+aFC+aFC,CCCfCCS+aFC+aFC creates a link that in CCCfS-aFC+aI matches ProcAccess-accessFromClient-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCfCCS+aFC+aFC,CCCfCCS+aFC+aFC creates a link that in CCCftS+aFC-aTS+aI matches ProcAccess-accessFromClient-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCtCCS+aTS+aTS,CCCtCCS+aTS+aTS creates a link that in CCCftS+aFC-aTS+aI matches ToContext-accessToService-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-PCaTSSCCC+aTS,PCaTSSCCC+aTS creates a link that in CCCtCCS+aTS+aTS matches ProcAccess-accessToService-ProxyChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CCSCvLS+vLS,CCSCvLS+vLS creates a link that in CCCvCCvLS+vLS matches ProxyChannel-viaSubnet-LogicalSubnet,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSC+ch,domain#CP-Marker+TrustedComms-0,CCSC+ch is at the start of the trusted comms inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCAP+ch,domain#CP-CCSC+ch,CCSCAP+ch creates a link that in CCSCvLS+vLS matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCCP+ch,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCCP+ch matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCfI+fI,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCfI+fI matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCtI+tI,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCtI+tI matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCtSg+tSg matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCvI+vI matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCvLS+vLS,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCvLS+vLS matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CSDS+fV,domain#CP-Marker+TrustInDataFlows-0,CSDS+fV is at the start of the trust in data flow inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,CuPvnS+n creates a link that in CScP-v+AA matches Service-proxyAuthN-Process,FALSE,TRUE
+package#ProcessTrust,domain#CP-CaS-SP+CC,domain#CP-Marker+TrustRelationship-0,CaS-SP+CC is at the start of the trust relationship creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CuPnS-U+U,domain#CP-PnPnS-U+U,PnPnS-U+U creates a link that in CuPnS-U+U matches Client-viaSharedCredentials-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-CuPuSCC+c,domain#CP-CzS-CC+AC,CzS-CC+AC creates a link that in CuPuSCC+c matches AuthChannel-channelTo-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-CuPvSCC+c,domain#CP-CzS-CC+AC,CzS-CC+AC creates a link that in CuPvSCC+c matches AuthChannel-channelTo-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-CuPvnS+n,domain#CP-DFuCuS-C-P+u,"DFuCuS-C-P+u creates a link that in CuPvnS+n matches Client-accessesService-Service
+DFuCuS-C-P+u creates a link that in CuPvnS+n matches Client-accessesService-Service",FALSE,TRUE
+package#ProcessTrust,domain#CP-CuScS+N,domain#CP-CucSaP+c,CucSaP+c creates a link that in CuScS+N matches Service-controls-Client,FALSE,TRUE
+package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-CzSzP+AA,"CzSzP+AA creates a link that in CucSaP+c matches Client-usesForAuth-Process
+DFuCuS-C-P+u creates a link that in CuPvnS+n matches Client-accessesService-Service",FALSE,TRUE
+package#ProcessTrust,domain#CP-CuvS+CC,domain#CP-Marker+TrustRelationship-0,CuvS+CC is at the start of the trust relationship creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CvPuSCC+c,domain#CP-CzS-CC+AC,CzS-CC+AC creates a link that in CvPuSCC+c matches AuthChannel-channelTo-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-CvPvSCC+c,domain#CP-CzS-CC+AC,CzS-CC+AC creates a link that in CvPvSCC+c matches AuthChannel-channelTo-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFDSCS+f,domain#CP-CSDS+fV,CSDS+fV creates a link that in DFDSCS+f matches DataStep-flowsViaCS-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFDSSC+f,domain#CP-SCDS+fV,SCDS+fV creates a link  that in DFDSSC+f matches DataStep-flowsViaSC-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#CP-CCCSPSFCS+f,CCCSPSFCS+f creates a link that in DFfCCCfS+ff matches DataFlow-flowsViaCS-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFfCCCtS+ft,domain#CP-CCCSPSFCS+f,CCCSPSFCS+f creates a link that in DFfCCCtS+ft matches DataFlow-flowsViaCS-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFtCCCfS+ft,domain#CP-CCCSPSFSC+f,CCCSPSFSC+f creates a link that in DFtCCCfS+ft matches DataFlow-flowsViaSC-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFtCCCtS+ff,domain#CP-CCCSPSFSC+f,CCCSPSFSC+f creates a link that in DFtCCCtS+ff matches DataFlow-flowsViaSC-ClientChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFuCuS-C-P+u,domain#CP-CuPnS-U+U,CuPnS-U+U creates a link that in DFuCuS-C-P+u matches Client-viaSharedCredentials-Service,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+CredentialSharing-0,domain#CP-Marker+ProcessTrust-0,Credential sharing inference is a subsequence of process trust inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+CredentialSharing-1,domain#CP-Marker+CredentialSharing-0,Start precedes end of sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+OAuth-0,domain#CP-Marker+ProcessTrust-1,OAuth dependency inference is a subsequence of process trust inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+OAuth-1,domain#CP-Marker+OAuth-0,Start precedes end of sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+ProcessTrust-0,domain#CP-Marker+AttackPath-2,Client-service attack path creation should precede client-service trust relationship inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+ProcessTrust-0,domain#CP-Marker+ClientPath-1,Client-service access path creation should precede client-service trust relationship inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+ProcessTrust-0,domain#CP-Marker+ClientService-3,Client-service authN or authZ relationships inference should precede trust relationship inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+ProcessTrust-0,domain#CP-Marker+ServiceChannel-3,Client-service comms channel creation should precede client-service trust relationship inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+ProcessTrust-1,domain#CP-Marker+ProcessTrust-0,Start precedes end of sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-Marker+ProcessTrust-1,domain#CP-Marker+ServiceChannel-3,Client-service comms channel creation should precede client-service trust relationship inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+ProcessTrust-2,domain#CP-Marker+ProcessTrust-1,Start precedes end of sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+ProcessTrust-3,domain#CP-Marker+ProcessTrust-2,Start precedes end of sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-Marker+ProcessTrust-4,domain#CP-Marker+AttackPath-1,Client-service attack path inference should precede process trust relationship inference,FALSE,TRUE
-package#ProcessTrust,domain#CP-Marker+ProcessTrust-4,domain#CP-Marker+ClientPath-0,Client-service access path inference should precede process trust relationship inference,FALSE,TRUE
-package#ProcessTrust,domain#CP-Marker+ProcessTrust-4,domain#CP-Marker+ProcessTrust-3,Start precedes end of sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-Marker+ProcessTrust-5,domain#CP-Marker+ProcessTrust-4,Start precedes end of sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustContext-0,domain#CP-Marker+ProcessTrust-2,Trust contextualisation is a subsequence of process trust inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustContext-1,domain#CP-Marker+TrustContext-0,Start precedes end of sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustInDataFlows-0,domain#CP-Marker+TrustContext-1,Trust contextualisation inference should precede trust in data flow inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustInDataFlows-1,domain#CP-Marker+TrustInDataFlows-0,Start precedes end of sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustRelationship-0,domain#CP-Marker+CredentialSharing-1,Credential sharing inference should precede trust relationship creation,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustRelationship-1,domain#CP-Marker+TrustRelationship-0,Start precedes end of sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustedComms-0,domain#CP-Marker+ProcessTrust-1,Trusted communication path inference is a subsequence of process trust inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustedComms-1,domain#CP-Marker+TrustedComms-0,Start precedes end of sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-PCaFCSCCC+aFC,domain#CP-Marker+TrustContext-0,PCaFCSCCC+aFC is at the start of the trust contextualization inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-PCaTSSCCC+aTS,domain#CP-Marker+TrustContext-0,PCaTSSCCC+aTS is at the start of the trust contextualization inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-PccCuS+N,domain#CP-CucSaP+c,CucSaP+c creates a link that in PccCuS+N matches Service-controls-Client,FALSE,TRUE
+package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-CuScS+N,CuScS+N creates a link that in PnPnS-U+U matches Client-sharesCredentials-Proxy,FALSE,TRUE
+package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,PccCuS+N creates a link that in PnPnS-U+U matches Client-sharesCredentials-Proxy,FALSE,TRUE
+package#ProcessTrust,domain#CP-SCDS+fV,domain#CP-Marker+TrustInDataFlows-0,SCDS+fV is at the start of the trust in data flow inference sequence,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-0,A+iA is at the start of the user status classification sequence,FALSE,TRUE
 package#Users,domain#CP-Hu+W,domain#CP-Marker+UserMobilityRequirements-0,Hu+W is at the start of the human mobility requirements inference sequence,FALSE,TRUE
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-0,HuaSaE+cA is at the start of the human mobility inference sequence,FALSE,TRUE

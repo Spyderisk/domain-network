@@ -128,6 +128,8 @@ package#CloudManagement,domain#MP-PodP-Cn,PodP-Cn,Finds a Pod containing a Proce
 package#CloudManagement,domain#MP-SHVH,SHVH,Finds a Virtual Host provisioned on a Simple Host that is not a Pod.,domain#R-SHVH,FALSE,FALSE
 package#CloudManagement,domain#MP-VH-LnS,VH-LnS,Finds a Virtual Host that is not controlled by any process.,domain#R-VH,FALSE,TRUE
 package#Core,domain#MP-Marker,Marker,Finds a solo DebugMarker asset.,domain#R-Marker,FALSE,FALSE
+package#DataCaching,domain#MP-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,domain#R-DCDFcV,FALSE,FALSE
+package#DataCaching,domain#MP-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,domain#R-HDCDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-CCDFCDAScDA-c,CCDFCDAScDA-c,"Finds a data flow from a service to an indirect client, where the client encrypts the data flow to create an outbound data asset controlled by a vault, which does not control the inbound data flow.",domain#R-CCDFCDAScDA,FALSE,FALSE
 package#DataLifecycle,domain#MP-CCDFSDAScDA-c,CCDFSDAScDA-c,"Finds a data flow to a service from an indirect client, where the service encrypts the data flow to create an outbound data asset controlled by a vault, which does not control the inbound data flow.",domain#R-CCDFSDAScDA,FALSE,FALSE
 package#DataLifecycle,domain#MP-CS-SP-noDX,CS-SP-noDX,"Finds a client using a service directly, where the client and service are both able to exchange data.",domain#R-CS,FALSE,TRUE
@@ -151,11 +153,12 @@ package#DataLifecycle,domain#MP-DC2xrDA2,DC2xrDA2,Finds a reverse Data Channel f
 package#DataLifecycle,domain#MP-DC3-x,DC3-x,"Finds a data channel which extends a second channel which extends a third channel, but the first channel does not yet extend the third.",domain#R-DC3,FALSE,FALSE
 package#DataLifecycle,domain#MP-DC3xf-xf,DC3xf-xf,"Finds an active forward data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels), but the first channel does not yet extend the third.",domain#R-DC3xf,FALSE,FALSE
 package#DataLifecycle,domain#MP-DC3xr-xr,DC3xr-xr,"Finds an active reverse data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels), but the first channel does not yet extend the third.",domain#R-DC3xr,FALSE,FALSE
-package#DataLifecycle,domain#MP-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,domain#R-DCDFcV,FALSE,FALSE
 package#DataLifecycle,domain#MP-DD-fDCSDS,DD-fDCSDS,"Finds a data destination, a data access from which that is a possible destination, that has a data channel to a relay process from which there is another channel back along the same data path to a source that does not yet have the same possible data destionation.",domain#R-DDDCSDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-DDDCDP2oDS,DDDCDP2oDS,"Finds a Data Desination for which there is an untried Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process, and where no previously found process is a data source.",domain#R-DDDCDP2,FALSE,FALSE
 package#DataLifecycle,domain#MP-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, where neither is a reverse relay, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",domain#R-DDDCDS2P,FALSE,FALSE
 package#DataLifecycle,domain#MP-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,domain#R-DDDPS,FALSE,FALSE
+package#DataLifecycle,domain#MP-DFDSDXCS,DFDSDXCS,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data sender (i.e., the flow is client-to-service).",domain#R-DFDSDXCS,FALSE,FALSE
+package#DataLifecycle,domain#MP-DFDSDXSC,DFDSDXSC,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data recipient (i.e., the flow is service-to-client).",domain#R-DFDSDXSC,FALSE,FALSE
 package#DataLifecycle,domain#MP-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,domain#R-DFDSfP,FALSE,FALSE
 package#DataLifecycle,domain#MP-DFtP,DFtP,Finds a DataFlow to a Process.,domain#R-DFtP,FALSE,FALSE
 package#DataLifecycle,domain#MP-DI-fDCSDS,DI-fDCSDS,"Finds a data input client acting as a data destination, that is not acting as a data pool, with an end-to-end data channel to a service that may act as a possible data source.",domain#R-DIDCSDS,FALSE,TRUE
@@ -178,7 +181,6 @@ package#DataLifecycle,domain#MP-HDBDRDF,HDBDRDF,"Finds a Host running a DB proce
 package#DataLifecycle,domain#MP-HDBDSDF,HDBDSDF,"Finds a Host running a DB process acting as a Stored Data Pool for a Data Flow to a destination process, and optionally the DB Process and Host managers.",domain#R-HDBDSDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDBsD-V,HDBsD-V,Finds a Host of a Database that is serving locally stored Data that is not encrypted with keys from a vault.,domain#R-HDBsD,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDBsDV,HDBsDV,"Finds a Host running a Database process that serves a stored DataCopy encrypted with keys from a vault, and the associated DataPool.",domain#R-HDBsDV,FALSE,FALSE
-package#DataLifecycle,domain#MP-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,domain#R-HDCDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS,HDS,"Finds a stored copy of Data on a Host, and its Physical Host.",domain#R-HDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS-V,HDS-V,"Finds a copy of Data not encrypted with a key from a vault, stored on a Host, and the Physical Host where this is deployed.",domain#R-HDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",domain#R-HDS2DPfDA,FALSE,FALSE

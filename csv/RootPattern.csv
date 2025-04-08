@@ -123,6 +123,8 @@ package#CloudManagement,domain#R-PodHaH,PodHaH,Finds a Pod provisioned by a Host
 package#CloudManagement,domain#R-PodHhPH,PodHhPH,Finds a Pod provisioned by a Host that has a PhysicalHost.,FALSE,FALSE
 package#CloudManagement,domain#R-PodP,PodP,Finds a Pod containing a Process.,FALSE,FALSE
 package#Core,domain#R-Marker,Marker,Finds a solo DebugMarker asset.,FALSE,FALSE
+package#DataCaching,domain#R-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,FALSE,FALSE
+package#DataCaching,domain#R-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,FALSE,FALSE
 package#DataLifecycle,domain#R-CCDFCDAScDA,CCDFCDAScDA,"Finds a data flow from a service to an indirect client, where the client encrypts the data flow to create an outbound data asset controlled by a vault.",FALSE,FALSE
 package#DataLifecycle,domain#R-CCDFSDAScDA,CCDFSDAScDA,"Finds a data flow to a service from an indirect client, where the service encrypts the data flow to create an outbound data asset controlled by a vault.",FALSE,FALSE
 package#DataLifecycle,domain#R-CSDFDA2,CSDFDA2,Finds two process participating in a data flow.,FALSE,FALSE
@@ -142,11 +144,12 @@ package#DataLifecycle,domain#R-DC2xrDA2,DC2xrDA2,Finds a reverse Data Channel fr
 package#DataLifecycle,domain#R-DC3,DC3,Finds a data channel that extends a second channel that extends a third channel.,FALSE,FALSE
 package#DataLifecycle,domain#R-DC3xf,DC3xf,Finds an active forward data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
 package#DataLifecycle,domain#R-DC3xr,DC3xr,Finds an active reverse data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
-package#DataLifecycle,domain#R-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,FALSE,TRUE
 package#DataLifecycle,domain#R-DDDCDP2,DDDCDP2,"Finds a Data Destination for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
 package#DataLifecycle,domain#R-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",FALSE,TRUE
 package#DataLifecycle,domain#R-DDDCSDS,DDDCSDS,"Finds a data input client acting as a data destination, with a previously identifed potential data source that has an onward data channel to a service that can act as a data source. Should this be constrained to lie on the same data path?",FALSE,TRUE
 package#DataLifecycle,domain#R-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,FALSE,FALSE
+package#DataLifecycle,domain#R-DFDSDXCS,DFDSDXCS,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data sender (i.e., the flow is client-to-service).",FALSE,FALSE
+package#DataLifecycle,domain#R-DFDSDXSC,DFDSDXSC,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data recipient (i.e., the flow is service-to-client).",FALSE,FALSE
 package#DataLifecycle,domain#R-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,FALSE,FALSE
 package#DataLifecycle,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
 package#DataLifecycle,domain#R-DIDCSDS,DIDCSDS,"Finds a data input client acting as a data destination, and having a data channel to a service that may act as a data source.",FALSE,FALSE
@@ -168,7 +171,6 @@ package#DataLifecycle,domain#R-HDBDRDF,HDBDRDF,Finds a Host running a DB process
 package#DataLifecycle,domain#R-HDBDSDF,HDBDSDF,Finds a Host running a DB process acting as a Stored Data Pool for a Data Flow to a destination process.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDBsD,HDBsD,"Finds a Host running a Database process that serves a stored DataCopy, and the associated DataPool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDBsDV,HDBsDV,"Finds a Host running a Database process that serves a stored DataCopy encrypted with keys from a vault, and the associated DataPool.",FALSE,FALSE
-package#DataLifecycle,domain#R-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,FALSE,TRUE
 package#DataLifecycle,domain#R-HDS,HDS,"Finds a stored copy of Data on a Host, and its Physical Host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDSPDIfDA,HDSPDIfDA,Finds a data input that is a destination for data from a source and used by a process whose host stores a copy of the data.,FALSE,FALSE
@@ -273,7 +275,7 @@ package#DataLifecycle,domain#R-StoPDA,StoPDA,Finds the Operator of a Process tha
 package#DataStructure,domain#R-DAODADInDF,DAODADInDF,Finds an output data asset fulfilling (via a data access) an input data asset that needs a field contained in the data.,FALSE,FALSE
 package#DataStructure,domain#R-DAOiDADInDF,DAOiDADInDF,Finds an output data asset that includes a field contained in the data fulfilling (via a data access) an input data asset that needs the field.,FALSE,FALSE
 package#DataStructure,domain#R-DAPDADF,DAPDADF,"Finds a Process receiving Data that contains a Data Field, via a Data Asset.",FALSE,FALSE
-package#DataStructure,domain#R-DCDFDF,DCDFDF,Finds a Data Flow containing a Data Field for which there is a Data Cache.,FALSE,TRUE
+package#DataStructure,domain#R-DCDFDF,DCDFDF,Finds a Data Flow containing a Data Field for which there is a Data Cache.,FALSE,FALSE
 package#DataStructure,domain#R-DFF,DFF,"Finds data in a data flow, the source and destination processes, and a data field included in the data flow.",FALSE,FALSE
 package#DataStructure,domain#R-DFfFV,DFfFV,"Finds data in a data flow controlled by a key from a key vault, the source and destination processes, and a data field included in the data flow that is accessed by the source process.",FALSE,FALSE
 package#DataStructure,domain#R-DFtFV,DFtFV,"Finds data in a data flow controlled by a key from a key vault, the source and destination processes, and a data field included in the data flow that is accessed by the destination process.",FALSE,FALSE

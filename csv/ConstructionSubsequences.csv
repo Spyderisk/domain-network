@@ -53,6 +53,12 @@ package#ProcessComms,46,Client-service communication inference
 package#ProcessComms,47,Client-service access path creation
 package#ProcessComms,48,Client-service attack path creation
 package#ProcessTrust,49,Client-service trust inference
+package#ProcessTrust,59,Client-service credential sharing inference
+package#ProcessTrust,60,Trusted communication channels
+package#ProcessTrust,61,Client-service OAuth dependency inference
+package#ProcessTrust,62,Client-service trust in data flow inference
+package#ProcessTrust,63,Client-service trust contextualisation
+package#ProcessTrust,64,Client-service trust asset creation
 package#Users,13,Human status classification
 package#Users,15,Human mobility requirements inference
 package#Users,16,Human mobility inference

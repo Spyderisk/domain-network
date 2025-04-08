@@ -39,6 +39,8 @@ package#DataLifecycle,domain#Role_DataCache,domain#DataCache
 package#DataLifecycle,domain#Role_DataChannel,domain#DataChannel
 package#DataLifecycle,domain#Role_DataCopy,domain#DataCache
 package#DataLifecycle,domain#Role_DataDestination,domain#DataAccess
+package#DataLifecycle,domain#Role_DataExchIn,domain#DataExchange
+package#DataLifecycle,domain#Role_DataExchOut,domain#DataExchange
 package#DataLifecycle,domain#Role_DataExchange,domain#DataExchange
 package#DataLifecycle,domain#Role_DataFlow,domain#DataFlow
 package#DataLifecycle,domain#Role_DataInput,domain#DataInput

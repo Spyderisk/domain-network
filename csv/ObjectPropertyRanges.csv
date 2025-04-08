@@ -40,6 +40,7 @@ package#Application,domain#viewsData,domain#Data
 package#CloudManagement,domain#contains,domain#Process
 package#CloudManagement,domain#isContainer,domain#Host
 package#CloudManagement,domain#isPod,domain#Host
+package#DataCaching,domain#caches,domain#DataFlow
 package#DataLifecycle,domain#atHost,domain#Host
 package#DataLifecycle,domain#canGetKeys,domain#DataAsset
 package#DataLifecycle,domain#canGetKeys,domain#DataTransferAsset
@@ -62,6 +63,8 @@ package#DataLifecycle,domain#dataPathFor,domain#Data
 package#DataLifecycle,domain#dataPathTo,domain#DataAccess
 package#DataLifecycle,domain#dataPathVisits,domain#Process
 package#DataLifecycle,domain#enablesAccess,domain#DataAccess
+package#DataLifecycle,domain#exchangeCS,domain#DataExchange
+package#DataLifecycle,domain#exchangeSC,domain#DataExchange
 package#DataLifecycle,domain#extendsDC,domain#DataChannel
 package#DataLifecycle,domain#extendsDP,domain#DataPath
 package#DataLifecycle,domain#extendsFwdFlow,domain#DataChannel
@@ -79,7 +82,6 @@ package#DataLifecycle,domain#fromProc,domain#Process
 package#DataLifecycle,domain#fromSource,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
-package#DataLifecycle,domain#fulfils,domain#DataTransferAsset
 package#DataLifecycle,domain#fwdPath,domain#DataChannel
 package#DataLifecycle,domain#fwdRelay,domain#DataAccess
 package#DataLifecycle,domain#indirectAuthZ,domain#Process

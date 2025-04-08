@@ -2,6 +2,12 @@ package,URI,hasSecondaryEffectCondition
 domain#000000,domain#000000,domain#MS-Overloaded-Host
 package#CloudManagement,domain#H.A.CVHHDC.0,domain#MS-Overloaded-Host
 package#CloudManagement,domain#H.O.CVHHHoDC.0,domain#MS-Overloaded-Host
+package#DataCaching,domain#DF.Auth.HDCDF.0,domain#MS-InService-DataFlow
+package#DataCaching,domain#DF.Auth.HDCDF.0,domain#MS-LossOfAuthenticity-DataCache
+package#DataCaching,domain#DF.I.HDCDF.0,domain#MS-InService-DataFlow
+package#DataCaching,domain#DF.I.HDCDF.0,domain#MS-LossOfIntegrity-DataCache
+package#DataCaching,domain#DF.W.HDCDF.0,domain#MS-InService-DataFlow
+package#DataCaching,domain#DF.W.HDCDF.0,domain#MS-MalwareInfection-DataCache
 package#DataLifecycle,domain#D.A.DallDS.0,domain#MS-LossOfAvailability-DataCopy
 package#DataLifecycle,domain#DB.A.DBsDRDF-V.6,domain#MS-NotDecrypted-DataFlow
 package#DataLifecycle,domain#DB.A.HDBsD-V.6,domain#MS-NotDecrypted-DataCopy
@@ -23,8 +29,6 @@ package#DataLifecycle,domain#DF.A.PmDFIDADFI.0,domain#MS-LossOfAvailability-InFl
 package#DataLifecycle,domain#DF.A.PmDFO-kDADFO.6,domain#MS-NotDecrypted-InFlow
 package#DataLifecycle,domain#DF.A.PmDFODADFO-k.6,domain#MS-NotEncrypted-InFlow
 package#DataLifecycle,domain#DF.A.PmDFODADFO.0,domain#MS-LossOfAvailability-InFlow
-package#DataLifecycle,domain#DF.Auth.HDCDF.0,domain#MS-InService-DataFlow
-package#DataLifecycle,domain#DF.Auth.HDCDF.0,domain#MS-LossOfAuthenticity-DataCache
 package#DataLifecycle,domain#DF.Auth.HPDSDADF.0,domain#MS-InService-Process
 package#DataLifecycle,domain#DF.Auth.HPDSDADF.0,domain#MS-LossOfAuthenticity-DataCopy
 package#DataLifecycle,domain#DF.Auth.PDFIDADFI.0,domain#MS-InService-DataFlow
@@ -37,8 +41,6 @@ package#DataLifecycle,domain#DF.I.HDBDRDF.0,domain#MS-InService-DB
 package#DataLifecycle,domain#DF.I.HDBDRDF.0,domain#MS-LossOfReliability-DB
 package#DataLifecycle,domain#DF.I.HDBDSDF.0,domain#MS-InService-DB
 package#DataLifecycle,domain#DF.I.HDBDSDF.0,domain#MS-LossOfReliability-DB
-package#DataLifecycle,domain#DF.I.HDCDF.0,domain#MS-InService-DataFlow
-package#DataLifecycle,domain#DF.I.HDCDF.0,domain#MS-LossOfIntegrity-DataCache
 package#DataLifecycle,domain#DF.I.HP-iDODF.0,domain#MS-InService-Process
 package#DataLifecycle,domain#DF.I.HP-iDODF.0,domain#MS-LossOfReliability-Process
 package#DataLifecycle,domain#DF.I.HPDSDADF.0,domain#MS-InService-Process
@@ -55,8 +57,6 @@ package#DataLifecycle,domain#DF.T.HPDSDADF.0,domain#MS-LossOfTimeliness-DataCopy
 package#DataLifecycle,domain#DF.T.HuirPiDF.0,domain#MS-LossOfTimeliness-Human
 package#DataLifecycle,domain#DF.T.PDFIDADFI.0,domain#MS-LossOfTimeliness-DataFlow
 package#DataLifecycle,domain#DF.T.PDFODADFO.0,domain#MS-LossOfTimeliness-DataFlow
-package#DataLifecycle,domain#DF.W.HDCDF.0,domain#MS-InService-DataFlow
-package#DataLifecycle,domain#DF.W.HDCDF.0,domain#MS-MalwareInfection-DataCache
 package#DataLifecycle,domain#DF.W.HPDSDADF.0,domain#MS-InService-Process
 package#DataLifecycle,domain#DF.W.HPDSDADF.0,domain#MS-MalwareInfection-DataCopy
 package#DataLifecycle,domain#DF.W.PDFIDADFI.0,domain#MS-InService-DataFlow

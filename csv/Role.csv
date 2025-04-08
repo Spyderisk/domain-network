@@ -36,6 +36,8 @@ package#DataLifecycle,domain#Role_DataCache,DataCache,A stored data copy created
 package#DataLifecycle,domain#Role_DataChannel,DataChannel,A data channel used in construction patterns.
 package#DataLifecycle,domain#Role_DataCopy,DataCopy,A data copy role.
 package#DataLifecycle,domain#Role_DataDestination,DataDestination,A data access asset associated with a destination process.
+package#DataLifecycle,domain#Role_DataExchIn,DataExchIn,A DataExchange role in which data flows towards a process.
+package#DataLifecycle,domain#Role_DataExchOut,DataExchOut,A DataExchange role in which data flows away from a process.
 package#DataLifecycle,domain#Role_DataExchange,DataExchange,A connection between processes indicating they can exchange data.
 package#DataLifecycle,domain#Role_DataFlow,DataFlow,A flow of data between processes.
 package#DataLifecycle,domain#Role_DataInput,DataInput,A data access role associated with data consumed by a process.

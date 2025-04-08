@@ -4,8 +4,9 @@ package#5G,package#Virtualisation
 package#AccessContext,package#Users
 package#Application,package#Network
 package#CloudManagement,package#Virtualisation
+package#DataCaching,package#ProcessTrust
 package#DataLifecycle,package#ProcessComms
-package#DataStructure,package#ProcessTrust
+package#DataStructure,package#DataCaching
 package#GDPR,package#Legal
 package#IoT,package#Privacy
 package#Legal,package#Privacy

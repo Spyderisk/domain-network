@@ -39,6 +39,7 @@ package#Application,domain#viewsData,domain#Human
 package#CloudManagement,domain#contains,domain#Pod
 package#CloudManagement,domain#isContainer,domain#Host
 package#CloudManagement,domain#isPod,domain#Host
+package#DataCaching,domain#caches,domain#DataCache
 package#DataLifecycle,domain#atHost,domain#DataPool
 package#DataLifecycle,domain#canGetKeys,domain#DataAccess
 package#DataLifecycle,domain#canRead,domain#DataUse
@@ -60,6 +61,8 @@ package#DataLifecycle,domain#dataPathFor,domain#DataPath
 package#DataLifecycle,domain#dataPathTo,domain#DataPath
 package#DataLifecycle,domain#dataPathVisits,domain#DataPath
 package#DataLifecycle,domain#enablesAccess,domain#Process
+package#DataLifecycle,domain#exchangeCS,domain#DataFlow
+package#DataLifecycle,domain#exchangeSC,domain#DataFlow
 package#DataLifecycle,domain#extendsDC,domain#DataChannel
 package#DataLifecycle,domain#extendsDP,domain#DataPath
 package#DataLifecycle,domain#extendsFwdFlow,domain#DataChannel
@@ -78,8 +81,6 @@ package#DataLifecycle,domain#fromProc,domain#DataPath
 package#DataLifecycle,domain#fromSource,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
-package#DataLifecycle,domain#fulfils,domain#DataTransferAsset
-package#DataLifecycle,domain#fulfils,domain#Process
 package#DataLifecycle,domain#fwdPath,domain#DataAccess
 package#DataLifecycle,domain#fwdRelay,domain#DataAccess
 package#DataLifecycle,domain#indirectAuthZ,domain#Process

@@ -39,6 +39,7 @@ package#Application,domain#viewsData,views,Relationship between an interactive p
 package#CloudManagement,domain#contains,contains,Relationship between a Pod and a Process running (inside a Container) within that Pod.,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
 package#CloudManagement,domain#isContainer,isContainer,"Self-referential relationship used to designate hosts in the Container class, so they can be included or excluded in matching patterns on base classes as appropriate.",TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
 package#CloudManagement,domain#isPod,isPod,"Self-referential relationship used to designate hosts in the Pod class, so they can be included or excluded in matching patterns on base classes as appropriate.",TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+package#DataCaching,domain#caches,caches,The DataCache is a cached copy of the DataFlow.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#atHost,atHost,"Link from a DataPool representing data loaded by a data source or service, and the process host.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#canGetKeys,canGetKeys,"An inferred relationship from a Data Access asset to a Data Asset, indicating that the Data Asset is encrypted using keys from a vault, but the Data Access (i.e., the associated Process) can get the keys.",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#canRead,canRead,Links a Data Use to a Data Copy that can be read (remotely) by the Data Use.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
@@ -59,6 +60,8 @@ package#DataLifecycle,domain#dataPathFor,dataPathFor,The DataPath represents a c
 package#DataLifecycle,domain#dataPathTo,dataPathTo,The DataPath represents a chain of process-process communications enabling the use of data represented by the Data Access asset.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#dataPathVisits,dataPathVisits,"Link from a DataPath to each Process visited by the path, including the two processes at the end of the path.",TRUE,FALSE,TRUE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#enablesAccess,enablesAccess,Relationship to a Data Access (inferred asset) from the Process that makes the Data accessible to Processes.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#exchangeCS,exchangeCS,Links a data flow that goes from a client to a service to the associated DataExchange between the client and service.,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+package#DataLifecycle,domain#exchangeSC,exchangeSC,Links a data flow that goes from a service to a client to the associated DataExchange between the client and service.,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 package#DataLifecycle,domain#extendsDC,extendsDC,The first Data Channel is an extension of the second.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#extendsDP,extendsDP,The first DataPath is an extension of the second.,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataLifecycle,domain#extendsFwdFlow,extendsFwdFlow,"The first DataChannel carries a data flow back along a DataPath to a transparent data relay, and the second carries it further on the same data path.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
