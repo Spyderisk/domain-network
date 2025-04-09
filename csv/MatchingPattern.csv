@@ -545,9 +545,6 @@ package#Network,domain#MP-PccP,PccP,"Finds two processes, each of which controls
 package#Network,domain#MP-PnH,PnH,Finds a Process with no Host.,domain#R-P,FALSE,FALSE
 package#Network,domain#MP-RAC,RAC,Finds a remote access client.,domain#R-RAC,FALSE,FALSE
 package#Network,domain#MP-RAS,RAS,Finds a remote access service.,domain#R-RAS,FALSE,FALSE
-package#Network,domain#MP-RSS-HP,RSS-HP,"Finds a Radio Subnet accessible from a Space, and the subnet it implements locally, where there is no gateway specified as the subnet provider and no controlling Process.",domain#R-RSS,FALSE,FALSE
-package#Network,domain#MP-RSSH,RSSH,"Finds a Radio Subnet provided by a Gateway Host accessible from a Space, and optionally the service controlling access to it and the gateway manager.",domain#R-RSSH,FALSE,FALSE
-package#Network,domain#MP-RSSH-P,RSSH-P,"Finds a Radio Subnet with no controlling process, provided by a Gateway host and accessible from a Space, plus optionally the manager of the Gateway.",domain#R-RSSH,FALSE,FALSE
 package#Network,domain#MP-RTuRTuS-uR,RTuRTuS-uR,Finds a remote terminal using remotely another remote terminal which is using remotely a third process that is not yet remotely used by the first.,domain#R-RTuRTuS,FALSE,FALSE
 package#Network,domain#MP-Rr,Rr,Finds a solo Router.,domain#R-Rr,FALSE,FALSE
 package#Network,domain#MP-Rr-LnS,Rr-LnS,Finds a Router that is not controlled by any process.,domain#R-Rr,FALSE,TRUE
@@ -573,9 +570,6 @@ package#Network,domain#MP-THL23S,THL23S,"Finds a trivial host connected to an L2
 package#Network,domain#MP-TP,TP,Finds a solo trivial process.,domain#R-TP,FALSE,FALSE
 package#Network,domain#MP-WHmWS,WHmWS,Finds a WiFi hotspot with at least one local implementation.,domain#R-WH,FALSE,FALSE
 package#Network,domain#MP-WS-H,WS-H,Finds a solo WiFiLAN that is not an abstract hotspot.,domain#R-WS,FALSE,FALSE
-package#Network,domain#MP-WSS-HP,WSS-HP,"Finds a Wired Subnet accessible from a Space, where there is no gateway specified as the subnet provider, and no controlling Process.",domain#R-WSS,FALSE,FALSE
-package#Network,domain#MP-WSSH,WSSH,"Finds a Wired Subnet provided by a Gateway host accessible from a Space, and optionally the process controlling access and the manager of the gateway.",domain#R-WSSH,FALSE,FALSE
-package#Network,domain#MP-WSSH-P,WSSH-P,"Finds a Wired Subnet with no controlling process, provided by a Gateway host accessible from a Space, and optionally the manager of the Gateway.",domain#R-WSSH,FALSE,FALSE
 package#Network,domain#MP-WiFiSSoH,WiFiSSoH,"Finds a WiFi subnet accessible from a Space, the network it implements, and optionally the host providing the subnet and service controlling access to it.",domain#R-WiFiSS,FALSE,FALSE
 package#Network,domain#MP-WmPH,WmPH,"Finds a solo World asset (i.e. the inferred global public space), in which at least one Host is assumed to be (due to having no other defined location).",domain#R-W,FALSE,FALSE
 package#Network,domain#MP-WpHS-aF,WpHS-aF,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN which is not accessible from any space, and providing no other WiFiLAN accessible in its space.",domain#R-WpHS,FALSE,FALSE
@@ -924,9 +918,6 @@ package#Virtualisation,domain#MP-VHPH,VHPH,Finds a virtual host provisioned by a
 package#Virtualisation,domain#MP-VHPhDHS-HsS-S,VHPhDHS-HsS-S,"Finds a Virtual Host running a Process that handles Data but does not access it via a service, where its host is in a virtualisation stack above a second Host running a service for the Data, and there is no host between the two in the virtualisation stack running a Process that Serves the Data.",domain#R-VHPhDHS,FALSE,FALSE
 package#Virtualisation,domain#MP-VSHCmSC,VSHCmSC,"Finds a host channel supporting a virtual subnet, and the associated hosts, along with all service channels that use the host channel.",domain#R-VSHC,FALSE,FALSE
 package#Virtualisation,domain#MP-VSPS,VSPS,Finds a Virtual Subnet using a Physical Subnet to route at least one host-host connection.,domain#R-VSPS,FALSE,FALSE
-package#Virtualisation,domain#MP-VSPS-HP,VSPS-HP,"Finds a Virtual Subnet using a Physical Subnet to route at least one host-host connection, where there is no gateway specified as the subnet provider, and no controlling Process.",domain#R-VSPS,FALSE,FALSE
-package#Virtualisation,domain#MP-VSPSH,VSPSH,"Finds a Virtual Subnet provided by a gateway host using a Physical Subnet to route at least one host-host connection, and optionally the process controlling the virtual subnet, and the manager of the gateway.",domain#R-VSPSH,FALSE,FALSE
-package#Virtualisation,domain#MP-VSPSH-P,VSPSH-P,"Finds a Virtual Subnet with no controlling Process, provided by a gateway host using a Physical Subnet to route at least one host-host connection, and optionally the manager of the Gateway.",domain#R-VSPSH,FALSE,FALSE
 package#Virtualisation,domain#MP-VSVC4H-PP,VSVC4H-PP,"Finds a virtual subnet and two connected hosts with distinct physical hosts between which virtual subnet messages should flow, and yet there is no host channel, indicating no physical path between the physical hosts was found.",domain#R-VSVC4H,FALSE,FALSE
 package#Virtualisation,domain#MP-VSVCHC,VSVCHC,Finds a Virtual Subnet via a Virtual Channel via a Host Channel.,domain#R-VSVCHC,FALSE,FALSE
 package#Virtualisation,domain#MP-VSVCHCLS,VSVCHCLS,Finds a virtual subnet that uses a physical subnet.,domain#R-VSVCHCLS,FALSE,FALSE
