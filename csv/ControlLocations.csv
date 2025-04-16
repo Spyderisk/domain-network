@@ -11,9 +11,6 @@ package#Application,domain#SuspendInfectedHost,domain#Host
 package#Application,domain#SuspendInfectedProcess,domain#Process
 package#Application,domain#UsesNoEmail,domain#Human
 package#CloudManagement,domain#AutoDataGovernance,domain#Process
-package#CloudManagement,domain#AutoProvisioning,domain#ScalableHost
-package#CloudManagement,domain#SLA,domain#ScalableHost
-package#CloudManagement,domain#SLAEnforcement,domain#DataCentre
 package#DataLifecycle,domain#AccessKey,domain#DataAccess
 package#DataLifecycle,domain#DisabledDataFlow,domain#DataFlow
 package#DataLifecycle,domain#EncryptedProcessing,domain#DataAccess
@@ -164,4 +161,7 @@ package#Users,domain#Screened,domain#Human
 package#Users,domain#Screening,domain#Stakeholder
 package#Users,domain#TeamLeadership,domain#Organisation
 package#Users,domain#TeamRole,domain#Human
+package#Virtualisation,domain#AutoProvisioning,domain#ScalableHost
 package#Virtualisation,domain#EncryptedComms,domain#VirtualSubnet
+package#Virtualisation,domain#SLA,domain#ScalableHost
+package#Virtualisation,domain#SLAEnforcement,domain#DataCentre

@@ -42,6 +42,7 @@ package#Network,domain#DefaultTW,domain#Accessible
 package#Network,domain#DefaultTW,domain#LogicalSubnet
 package#Network,domain#ExtrinsicTW,domain#Accessible
 package#Network,domain#IntrinsicTW,domain#Accessible
+package#Network,domain#NetworkAccessibility,domain#LogicalSubnet
 package#Network,domain#NetworkControl,domain#AbstractSubnet
 package#Network,domain#NetworkUserTW,domain#AbstractSubnet
 package#Network,domain#OutOfService,domain#NetworkAsset

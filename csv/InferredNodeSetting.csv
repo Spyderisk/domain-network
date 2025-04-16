@@ -28,13 +28,11 @@ package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Node-RemoteDesktop-RemoteDes
 package#CloudManagement,domain#CP-DCCM-A+A,domain#Node-APIServer-APIServer,domain#INS-DCCM-A+A-APIServer,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-DCCM-P+P,domain#Node-Ingress-Ingress,domain#INS-DCCM-P+P-Ingress,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-DCCt-Pod+Pod,domain#Node-Pod-Pod,domain#INS-DCCt-Pod+Pod-Pod,TRUE,FALSE,domain#Node-Container-Container
-package#CloudManagement,domain#CP-DCMW-LS+VX,domain#Node-VirtualSubnet-VXLAN,domain#INS-DCMW-LS+VX-VirtualSubnet,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-DCPS-Pod+Pod,domain#Node-Pod-Pod,domain#INS-DCPS-Pod+Pod-Pod,TRUE,FALSE,domain#Node-Process-Process
 package#CloudManagement,domain#CP-MWHLS+CIP,domain#Node-ClusterIP-ClusterIP,domain#INS-MWHLS+CIP-ClusterIP,TRUE,FALSE,domain#Node-LogicalSubnet-LogicalSubnet
 package#CloudManagement,domain#CP-PodDCC-M+M,domain#Node-CloudMaster-Master,domain#INS-PodDCC-M+M-CloudMaster,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#Node-CloudWorker-Worker,domain#INS-PodDCMC-W-H+W-CloudWorker,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#Node-Container-Container,domain#INS-PodP-Cn+Cn-Container,TRUE,FALSE,domain#Node-Process-Process
-package#CloudManagement,domain#CP-VH-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-VH-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-VirtualHost-VirtualHost
 package#DataCaching,domain#CP-H-sDFCFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#DataCaching,domain#CP-H-sDFSACaiFS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSACaiFS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#DataCaching,domain#CP-H-sDFSFdC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSFdC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
@@ -171,4 +169,5 @@ package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#Node-VirtualSubnet-VXLAN,dom
 package#Virtualisation,domain#CP-H2dPH2+VC,domain#Node-VirtualChannel-VirtualChannel,domain#INS-H2dPH2+VC-VirtualChannel,TRUE,FALSE,domain#Node-VirtualSubnet-VirtualSubnet
 package#Virtualisation,domain#CP-HVHS+VS,domain#Node-HostLAN-HostLAN,domain#INS-HVHS+VS-HostLAN,TRUE,FALSE,domain#Node-SHost-Host
 package#Virtualisation,domain#CP-VCH2LS2PP+HC,domain#Node-HostChannel-HostChannel,domain#INS-VCH2LS2PP+HC-HostChannel,TRUE,FALSE,domain#Node-VirtualChannel-VirtualChannel
+package#Virtualisation,domain#CP-VH-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-VH-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-VirtualHost-VirtualHost
 package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#Node-DataService-DataService,domain#INS-VHHsD-HsS-S+S-DataService,TRUE,FALSE,domain#Node-Host-Host

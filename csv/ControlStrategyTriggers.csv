@@ -2,7 +2,6 @@ package,URI,triggers
 domain#000000,domain#000000,domain#H.A.HumH.6.4
 package#Application,domain#CSG-SuspendInfectedHost-Trigger,domain#H.A.HumH.6.4
 package#Application,domain#CSG-SuspendInfectedProcess-Trigger,domain#P.A.HumHP-iT.6.4
-package#CloudManagement,domain#CSG-AutoProvisioningProcessError,domain#P.E.HuiHP.9
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#DF.A.PDF.6.2
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#DF.A.PDF.6.3
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#DF.A.PDF.6.4
@@ -17,8 +16,6 @@ package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess,domain#CC.
 package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.AX.CCCS.6.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AX.CCCS.6.3
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AX.CCCS.6.1
-package#CloudManagement,domain#CSG-ElasticHosting,domain#H.O.CVHHHoDC.0
-package#CloudManagement,domain#CSG-SLAEnforcement-Trigger,domain#H.A.CVHHDC.0
 package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.Auth.HPsACd-pDS-V.1.6
 package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPsACr-pDS-V.1.6
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.A.PmDFIDADFI-k.6
@@ -148,9 +145,12 @@ package#Theft,domain#CSG-DisableNetworkConnection,domain#I.IS.INC.2
 package#Theft,domain#CSG-DisableProcess-Trigger,domain#P.IS.HP.2
 package#Theft,domain#CSG-UserPasswordAccessToHost,domain#H.M.HumCH.2.2
 package#Theft,domain#CSG-UserPasswordAccessToHost,domain#P.L.HuiPCH.2.2
+package#Virtualisation,domain#CSG-AutoProvisioningProcessError,domain#P.E.HuiHP.9
+package#Virtualisation,domain#CSG-ElasticHosting,domain#H.O.CVHHHoDC.0
 package#Virtualisation,domain#CSG-NetworkEAP-AAA,domain#I.A.GdHVS.6
 package#Virtualisation,domain#CSG-NetworkEAP-PSK,domain#I.A.GdHVS.6
 package#Virtualisation,domain#CSG-NetworkEAP-TLS,domain#I.A.GdHVS.6
+package#Virtualisation,domain#CSG-SLAEnforcement-Trigger,domain#H.A.CVHHDC.0
 package#VulnerabilityCVSS,domain#CSG-SuspendServiceVulnerableToXSS-Trigger,domain#P.A.HuDFrXSS.6
 package#VulnerabilityCVSS,domain#CSG-SuspendServiceVulnerableToXSS-Trigger,domain#P.A.HuDFsXSS.6
 package#VulnerabilityCVSS,domain#CSG-SuspendServiceVulnerableToXSS-Trigger,domain#P.A.HuDSrXSS.6

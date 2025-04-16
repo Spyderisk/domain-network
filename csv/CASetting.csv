@@ -617,8 +617,6 @@ package#CloudManagement,domain#CAS-AutoDataGovernance-WebBrowser,domain#WebBrows
 package#CloudManagement,domain#CAS-AutoDataGovernance-WebClient,domain#WebClient,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoProvisioning-Container,domain#Container,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoProvisioning-Pod,domain#Pod,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-AutoProvisioning-VCluster,domain#VCluster,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-AutoProvisioning-VRouter,domain#VRouter,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoProvisioning-Worker,domain#Worker,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-ClearDeputy-APIServer,domain#APIServer,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#CloudManagement,domain#CAS-ClearDeputy-Ingress,domain#Ingress,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
@@ -696,10 +694,7 @@ package#CloudManagement,domain#CAS-ProcessMonitoring-APIServer,domain#APIServer,
 package#CloudManagement,domain#CAS-ProcessMonitoring-Ingress,domain#Ingress,domain#ProcessMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-SLA-Container,domain#Container,domain#SLA,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-SLA-Pod,domain#Pod,domain#SLA,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-SLA-VCluster,domain#VCluster,domain#SLA,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-SLA-VRouter,domain#VRouter,domain#SLA,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-SLA-Worker,domain#Worker,domain#SLA,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-SLAEnforcement-DataCentre,domain#DataCentre,domain#SLAEnforcement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-SecureConfig-Container,domain#Container,domain#SecureConfig,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-SecureConfig-Master,domain#Master,domain#SecureConfig,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-SecureConfig-Pod,domain#Pod,domain#SecureConfig,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1822,6 +1817,8 @@ package#Virtualisation,domain#CAS-AccessControl-VRouter,domain#VRouter,domain#Ac
 package#Virtualisation,domain#CAS-AntiMalware-VCluster,domain#VCluster,domain#AntiMalware,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-AntiMalware-VM,domain#VM,domain#AntiMalware,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-AntiMalware-VRouter,domain#VRouter,domain#AntiMalware,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Virtualisation,domain#CAS-AutoProvisioning-VCluster,domain#VCluster,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Virtualisation,domain#CAS-AutoProvisioning-VRouter,domain#VRouter,domain#AutoProvisioning,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-Clustering-VCluster,domain#VCluster,domain#Clustering,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-ContinuousAuthN-VCluster,domain#VCluster,domain#ContinuousAuthN,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-ContinuousAuthN-VM,domain#VM,domain#ContinuousAuthN,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1854,6 +1851,9 @@ package#Virtualisation,domain#CAS-LoadMonitoring-VRouter,domain#VRouter,domain#L
 package#Virtualisation,domain#CAS-PenetrationTesting-VCluster,domain#VCluster,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-PenetrationTesting-VM,domain#VM,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-PenetrationTesting-VRouter,domain#VRouter,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Virtualisation,domain#CAS-SLA-VCluster,domain#VCluster,domain#SLA,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Virtualisation,domain#CAS-SLA-VRouter,domain#VRouter,domain#SLA,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Virtualisation,domain#CAS-SLAEnforcement-DataCentre,domain#DataCentre,domain#SLAEnforcement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-SecureConfig-VCluster,domain#VCluster,domain#SecureConfig,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-SecureConfig-VM,domain#VM,domain#SecureConfig,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#CAS-SecureConfig-VRouter,domain#VRouter,domain#SecureConfig,TRUE,domain#TrustworthinessLevelSafe,TRUE

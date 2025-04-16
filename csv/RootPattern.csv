@@ -89,16 +89,12 @@ package#Application,domain#R-PrDH,PrDH,Finds a Host running a Process that is re
 package#Application,domain#R-RDuHP,RDuHP,Finds a Host running a Process used remotely by a Remote Desktop client.,FALSE,FALSE
 package#Application,domain#R-RDuRDuS,RDuRDuS,Finds a remote desktop using remotely another remote desktop which is using remotely a third process.,FALSE,FALSE
 package#Application,domain#R-RDuRTuS,RDuRTuS,Finds a remote desktop using remotely a remote terminal which is using remotely a third process.,FALSE,FALSE
-package#CloudManagement,domain#R-CW,CW,Finds a solo cloud Worker.,FALSE,FALSE
 package#CloudManagement,domain#R-Ct,Ct,Finds a solo Container.,FALSE,FALSE
 package#CloudManagement,domain#R-CtDS,CtDS,Finds a Container that stores a copy of Data (which is actually not allowed).,FALSE,FALSE
 package#CloudManagement,domain#R-CtH,CtH,Finds a container provisioned by a Host.,FALSE,FALSE
-package#CloudManagement,domain#R-CtHaH,CtHaH,Finds a Container provisioned by a Host that is above another Host.,FALSE,FALSE
-package#CloudManagement,domain#R-CtHhPH,CtHhPH,Finds a Container provisioned by a Host that has a PhysicalHost.,FALSE,FALSE
 package#CloudManagement,domain#R-DCCM,DCCM,Finds a Data Centre with a Cluster on which is provisioned a Pod management Master node.,FALSE,FALSE
 package#CloudManagement,domain#R-DCCMCAP,DCCMCAP,Finds a process controlling a data centre hosting a K8s master node running a K8s API server and Ingress proxy.,FALSE,FALSE
 package#CloudManagement,domain#R-DCCt,DCCt,Finds a Container managed directly by a Data Centre.,FALSE,FALSE
-package#CloudManagement,domain#R-DCMW,DCMW,Finds a K8s Master and Worker on the same (cluster) Host in a Data Centre.,FALSE,FALSE
 package#CloudManagement,domain#R-DCPHM,DCPHM,Finds a Cloud (e.g. K8s) Master node whose physical host is in a Data Centre.,FALSE,FALSE
 package#CloudManagement,domain#R-DCPHW,DCPHW,Finds a Cloud (K8s) Worker whose physical host is in a Data Centre.,FALSE,FALSE
 package#CloudManagement,domain#R-HCt,HCt,Finds a host provisioned by a container.,FALSE,FALSE
@@ -119,8 +115,6 @@ package#CloudManagement,domain#R-PodCnP,PodCnP,Finds a Process hosted by a Conta
 package#CloudManagement,domain#R-PodCnPD,PodCnPD,Finds a Container running a Process that handles Data stored on the associated Pod.,FALSE,FALSE
 package#CloudManagement,domain#R-PodDCC,PodDCC,Finds a Pod managed by a Data Centre that has a Cluster.,FALSE,FALSE
 package#CloudManagement,domain#R-PodDCMC,PodDCMC,Finds a K8s Pod managed by a Data Centre that has a Cluster with a K8s Master.,FALSE,FALSE
-package#CloudManagement,domain#R-PodHaH,PodHaH,Finds a Pod provisioned by a Host that is above another Host.,FALSE,FALSE
-package#CloudManagement,domain#R-PodHhPH,PodHhPH,Finds a Pod provisioned by a Host that has a PhysicalHost.,FALSE,FALSE
 package#CloudManagement,domain#R-PodP,PodP,Finds a Pod containing a Process.,FALSE,FALSE
 package#Core,domain#R-Marker,Marker,Finds a solo DebugMarker asset.,FALSE,FALSE
 package#DataCaching,domain#R-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,FALSE,FALSE
@@ -148,8 +142,6 @@ package#DataLifecycle,domain#R-DDDCDP2,DDDCDP2,"Finds a Data Destination for whi
 package#DataLifecycle,domain#R-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",FALSE,TRUE
 package#DataLifecycle,domain#R-DDDCSDS,DDDCSDS,"Finds a data input client acting as a data destination, with a previously identifed potential data source that has an onward data channel to a service that can act as a data source. Should this be constrained to lie on the same data path?",FALSE,TRUE
 package#DataLifecycle,domain#R-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,FALSE,FALSE
-package#DataLifecycle,domain#R-DFDSDXCS,DFDSDXCS,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data sender (i.e., the flow is client-to-service).",FALSE,FALSE
-package#DataLifecycle,domain#R-DFDSDXSC,DFDSDXSC,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data recipient (i.e., the flow is service-to-client).",FALSE,FALSE
 package#DataLifecycle,domain#R-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,FALSE,FALSE
 package#DataLifecycle,domain#R-DFtP,DFtP,Finds a DataFlow to a Process.,FALSE,FALSE
 package#DataLifecycle,domain#R-DIDCSDS,DIDCSDS,"Finds a data input client acting as a data destination, and having a data channel to a service that may act as a data source.",FALSE,FALSE
@@ -388,7 +380,9 @@ package#Network,domain#R-HRASuPcC,HRASuPcC,"Finds a host running a remote access
 package#Network,domain#R-HRASuPcS,HRASuPcS,"Finds a host running a remote access service that launches a process which uses a service by which it is also controlled, implying that the process uses forwarded credentials to access the service.",FALSE,TRUE
 package#Network,domain#R-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",FALSE,FALSE
 package#Network,domain#R-Hm2Hu,Hm2Hu,Finds a host and two humans that manage the host.,FALSE,FALSE
+package#Network,domain#R-HprL23S,HprL23S,Finds a Layer 2 or 3 LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprL23SAC,HprL23SAC,"Finds a Layer 2 or 3 LogicalSubnet provided by a Host, along with an associated network access context.",FALSE,FALSE
+package#Network,domain#R-HprL23SAS,HprL23SAS,Finds a Layer 2 or 3 LogicalSubnet provided by a Host and implementing an abstract subnet.,FALSE,FALSE
 package#Network,domain#R-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,FALSE,FALSE
 package#Network,domain#R-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,FALSE,FALSE
 package#Network,domain#R-HuPCH,HuPCH,Finds a Human interacting with a Process running on an Interactive Host.,FALSE,FALSE
@@ -425,7 +419,10 @@ package#Network,domain#R-HuwStmP,HuwStmP,Finds a Human managing a Process and wo
 package#Network,domain#R-IcP,IcP,Finds a Process controlling an Internet class subnet.,FALSE,FALSE
 package#Network,domain#R-Internet,Internet,Finds an Internet class network.,FALSE,FALSE
 package#Network,domain#R-IpH,IpH,Finds a Host providing an Internet class subnet.,FALSE,FALSE
+package#Network,domain#R-L23S,L23S,Finds a solo L2 or L3 Subnet.,FALSE,FALSE
+package#Network,domain#R-L23SAS,L23SAS,Finds an L2 or L3 Subnet that implements an abstract subnet.,FALSE,FALSE
 package#Network,domain#R-LS,LS,Finds a solo Logical Subnet.,FALSE,FALSE
+package#Network,domain#R-LSaS,LSaS,Finds a logical subnet accessible from a space.,FALSE,FALSE
 package#Network,domain#R-LnScP,LnScP,Finds a login service controlling access to a process.,FALSE,FALSE
 package#Network,domain#R-LnSuLnS,LnSuLnS,Finds a login service using another login service.,FALSE,FALSE
 package#Network,domain#R-LnSuP,LnSuP,Finds a login service using a process.,FALSE,FALSE
@@ -456,8 +453,6 @@ package#Network,domain#R-RACuHRASP,RACuHRASP,"Finds a host running a process and
 package#Network,domain#R-RACuP,RACuP,Finds a Remote Access Client using a Process.,FALSE,FALSE
 package#Network,domain#R-RACuRHRASP,RACuRHRASP,"Finds a host running a process and a remote access service that uses the process, where both are used remotely by a remote access client.",FALSE,FALSE
 package#Network,domain#R-RAS,RAS,Finds a solo remote access service.,FALSE,FALSE
-package#Network,domain#R-RSS,RSS,"Finds a Radio Subnet accessible from a Space, and the (abstract) hotspot or cellular network it implements locally.",FALSE,FALSE
-package#Network,domain#R-RSSH,RSSH,"Finds a Radio Subnet accessible from a Space, provided by a gateway host, implementing an (abstract) hotspot or cellular network, plus a context in which the gateway provides the subnet.",FALSE,FALSE
 package#Network,domain#R-RTuHP,RTuHP,Finds a Host running a Process used remotely by a Remote Terminal client.,FALSE,FALSE
 package#Network,domain#R-RTuP,RTuP,Finds a remote terminal using a process plus the process host.,FALSE,FALSE
 package#Network,domain#R-RTuRTuS,RTuRTuS,Finds a remote terminal using remotely another remote terminal which is using remotely a third process.,FALSE,FALSE
@@ -479,11 +474,10 @@ package#Network,domain#R-StSPH,StSPH,Finds a Private Space operated by a Stakeho
 package#Network,domain#R-Sv,Sv,Finds a physical Server.,FALSE,FALSE
 package#Network,domain#R-TH,TH,Finds a solo trivial host.,FALSE,FALSE
 package#Network,domain#R-THGP,THGP,Finds a trivial host running a general process.,FALSE,FALSE
+package#Network,domain#R-THL23S,THL23S,"Finds a trivial host connected to an L2 or L3 subnet, and an associated network access context.",FALSE,FALSE
 package#Network,domain#R-TP,TP,Finds a solo trivial process.,FALSE,FALSE
 package#Network,domain#R-WH,WH,Finds a solo WiFiLAN which may be a hotspot.,FALSE,FALSE
 package#Network,domain#R-WS,WS,Finds a solo WiFiLAN.,FALSE,FALSE
-package#Network,domain#R-WSS,WSS,Finds a Wired Subnet accessible from a Space.,FALSE,FALSE
-package#Network,domain#R-WSSH,WSSH,Finds a Wired Subnet provided by a gateway Host accessible from a Space.,FALSE,FALSE
 package#Network,domain#R-WiFiSS,WiFiSS,"Finds a WiFi network accessible from a Space, and the subnet it implements locally.",FALSE,FALSE
 package#Network,domain#R-WpHS,WpHS,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN.",FALSE,FALSE
 package#Network,domain#R-WpHSH,WpHSH,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN.",FALSE,FALSE
@@ -513,6 +507,9 @@ package#NetworkConnectivity,domain#R-L3rGrL3,L3rGrL3,"Finds a Host providing two
 package#NetworkConnectivity,domain#R-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-LoH,LoH,"Detects a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-LoHIP,LoHIP,"Finds a Host with an interface to a subnet, where the interface is controlled by a process.",FALSE,FALSE
+package#NetworkConnectivity,domain#R-LoHSP,LoHSP,Finds a Host with an interface to a subnet controlled by a process.,FALSE,FALSE
+package#NetworkConnectivity,domain#R-LoHSPAC,LoHSPAC,"Finds a Host with an interface to a subnet controlled by a process, and the access context relating to this process, host and subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP,NP,Finds a network path (which may or may not be physical).,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,FALSE,FALSE
 package#NetworkConnectivity,domain#R-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,FALSE,FALSE
@@ -767,6 +764,7 @@ package#Virtualisation,domain#R-LSoLS,LSoLS,Finds a Logical Subnet that is an ov
 package#Virtualisation,domain#R-SC4HVSHC,SC4HVSHC,"Finds a Service Channel crossing a Virtual Subnet between two Hosts, and the Host Channel representing a physical network path supporting this communication.",FALSE,FALSE
 package#Virtualisation,domain#R-SC4HVSVC,SC4HVSVC,"Finds a Service Channel crossing a Virtual Subnet between two Hosts, and the Virtual Channel representing the physical connectivity requirement to support this communication.",FALSE,FALSE
 package#Virtualisation,domain#R-SHVH,SHVH,Finds a Virtual Host provisioned on a Simple Host.,FALSE,FALSE
+package#Virtualisation,domain#R-StoHVH,StoHVH,Finds a Stakeholder operating a Host on which is provisioned a Virtual Host.,FALSE,FALSE
 package#Virtualisation,domain#R-THVH,THVH,Finds a Virtual Host provisioned on a Trivial Host.,FALSE,FALSE
 package#Virtualisation,domain#R-VC2H,VC2H,Finds a virtual channel between two physical hosts.,FALSE,FALSE
 package#Virtualisation,domain#R-VCH2LS2PP,VCH2LS2PP,"Finds a virtual subnet communication path between physical hosts, including the virtual channel, path generator and the start and end subnets.",FALSE,FALSE
@@ -780,7 +778,6 @@ package#Virtualisation,domain#R-VHPH,VHPH,Finds a virtual host provisioned by a 
 package#Virtualisation,domain#R-VHPhDHS,VHPhDHS,"Finds a Virtual Host running a Process that handles Data, which is in a virtualisation stack above a second Host running a Process that Serves the Data, and where there is a Process serving the Data which may or may not be the same as either of the previous two.",FALSE,FALSE
 package#Virtualisation,domain#R-VSHC,VSHC,"Finds a host channel supporting a virtual subnet, and the associated hosts.",FALSE,FALSE
 package#Virtualisation,domain#R-VSPS,VSPS,Finds a Virtual Subnet using a Physical Subnet to route at least one host-host connection.,FALSE,FALSE
-package#Virtualisation,domain#R-VSPSH,VSPSH,Finds a Virtual Subnet provided by a Gateway Host using a Physical Subnet to route at least one host-host connection.,FALSE,FALSE
 package#Virtualisation,domain#R-VSVC4H,VSVC4H,Finds a virtual subnet and two connected hosts with distinct physical hosts between which virtual subnet messages should flow.,FALSE,FALSE
 package#Virtualisation,domain#R-VSVCHC,VSVCHC,Finds a Virtual Subnet via a Virtual Channel via a Host Channel.,FALSE,FALSE
 package#Virtualisation,domain#R-VSVCHCLS,VSVCHCLS,Finds a virtual subnet that uses a physical subnet.,FALSE,FALSE

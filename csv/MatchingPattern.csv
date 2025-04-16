@@ -88,21 +88,16 @@ package#Application,domain#MP-Huv-uD,Huv-uD,"Finds a Human viewing Data, but not
 package#Application,domain#MP-PpD+noDU,PpD+noDU,"Finds a Process that is processing Data, where the Process has a self-referential noDU link indicating it should not be processing data.",domain#R-PpD+noDU,FALSE,FALSE
 package#Application,domain#MP-RDuRDuS-uR,RDuRDuS-uR,Finds a remote desktop using remotely another remote desktop which is using remotely a third process that is not yet remotely used by the first.,domain#R-RDuRDuS,FALSE,FALSE
 package#Application,domain#MP-RDuRTuS-uR,RDuRTuS-uR,Finds a remote desktop using remotely a remote terminal which is using remotely a third process that is not yet remotely used by the first.,domain#R-RDuRTuS,FALSE,FALSE
-package#CloudManagement,domain#MP-CW,CW,Finds a solo cloud Worker.,domain#R-CW,FALSE,FALSE
 package#CloudManagement,domain#MP-Ct,Ct,Finds a solo Container.,domain#R-Ct,FALSE,FALSE
 package#CloudManagement,domain#MP-CtDS,CtDS,Finds a Container that stores a copy of Data (which is actually not allowed).,domain#R-CtDS,FALSE,FALSE
 package#CloudManagement,domain#MP-CtH-iP,CtH-iP,Finds a container provisioned by a Host that is not a Pod.,domain#R-CtH,FALSE,FALSE
-package#CloudManagement,domain#MP-CtHaH,CtHaH,Finds a Container provisioned by a Host that is above another Host.,domain#R-CtHaH,FALSE,FALSE
-package#CloudManagement,domain#MP-CtHhPH,CtHhPH,Finds a Container provisioned by a Host that has a PhysicalHost.,domain#R-CtHhPH,FALSE,FALSE
 package#CloudManagement,domain#MP-DCCM-A,DCCM-A,Finds a Data Centre with a Cluster on which is provisioned a Pod management Master node that does not yet host an API Server.,domain#R-DCCM,FALSE,FALSE
 package#CloudManagement,domain#MP-DCCM-P,DCCM-P,Finds a Data Centre with a Cluster on which is provisioned a Pod management Master node that does not yet host an Ingress reverse proxy.,domain#R-DCCM,FALSE,FALSE
 package#CloudManagement,domain#MP-DCCMCAP,DCCMCAP,Finds a process controlling a data centre hosting a K8s master node running a K8s API server and Ingress proxy.,domain#R-DCCMCAP,FALSE,FALSE
 package#CloudManagement,domain#MP-DCCt-Pod,DCCt-Pod,Finds a Container managed directly by a Data Centre and not via a Pod.,domain#R-DCCt,FALSE,FALSE
-package#CloudManagement,domain#MP-DCMW-LS,DCMW-LS,"Finds a K8s Master and Worker on the same (cluster) Host in a Data Centre, where the Master and Worker are not on any common subnet.",domain#R-DCMW,FALSE,FALSE
 package#CloudManagement,domain#MP-DCPHM,DCPHM,Finds a K8s Master whose physical host is in a Data Centre.,domain#R-DCPHM,FALSE,FALSE
 package#CloudManagement,domain#MP-DCPHW,DCPHW,Finds a K8s Worker whose physical host is in a Data Centre.,domain#R-DCPHW,FALSE,FALSE
 package#CloudManagement,domain#MP-DCPS-Pod,DCPS-Pod,"Finds a Process hosted directly on a Data Centre, but not contained by a Pod managed by the Data Centre.",domain#R-DCPS,FALSE,FALSE
-package#CloudManagement,domain#MP-DCVHC,DCVHC,"Finds a DataCentre containing a Cluster, and a Virtual Host.managed by the Data Centre rather than being provisioned on a Host.",domain#R-DCVHC,FALSE,FALSE
 package#CloudManagement,domain#MP-HCt,HCt,Finds a host provisioned by a container.,domain#R-HCt,FALSE,FALSE
 package#CloudManagement,domain#MP-Hum-iH-AC,Hum-iH-AC,Finds a human remotely managing a host but lacking a suitable connection to its management service.,domain#R-HumHcS,FALSE,TRUE
 package#CloudManagement,domain#MP-HumPC-Hu,HumPC-Hu,Finds an unmanaged Container of a Process managed by a Human.,domain#R-HumPC,FALSE,FALSE
@@ -121,12 +116,8 @@ package#CloudManagement,domain#MP-PodCnP,PodCnP,Finds a Process hosted by a Cont
 package#CloudManagement,domain#MP-PodCnPD,PodCnPD,Finds a Container running a Process that handles Data stored on the associated Pod.,domain#R-PodCnPD,FALSE,FALSE
 package#CloudManagement,domain#MP-PodDCC-M,PodDCC-M,"Finds a Pod managed by a Data Centre that has a Cluster, but there is no Master node provisioned on the Cluster.",domain#R-PodDCC,FALSE,FALSE
 package#CloudManagement,domain#MP-PodDCMC-W-H,PodDCMC-W-H,"Finds a K8s Pod with no Host managed by a Data Centre that has a Cluster with a K8s Master, where the Data Centre does not yet have a K8s Worker cluster.",domain#R-PodDCMC,FALSE,FALSE
-package#CloudManagement,domain#MP-PodHaH,PodHaH,Finds a Pod provisioned by a Host that is above another Host.,domain#R-PodHaH,FALSE,FALSE
-package#CloudManagement,domain#MP-PodHhPH,PodHhPH,Finds a Pod provisioned by a Host that has a PhysicalHost.,domain#R-PodHhPH,FALSE,FALSE
 package#CloudManagement,domain#MP-PodMP,PodMP,Finds a solo Pod.,domain#R-Pod,FALSE,FALSE
 package#CloudManagement,domain#MP-PodP-Cn,PodP-Cn,Finds a Pod containing a Process but with no intervening Container.,domain#R-PodP,FALSE,FALSE
-package#CloudManagement,domain#MP-SHVH,SHVH,Finds a Virtual Host provisioned on a Simple Host that is not a Pod.,domain#R-SHVH,FALSE,FALSE
-package#CloudManagement,domain#MP-VH-LnS,VH-LnS,Finds a Virtual Host that is not controlled by any process.,domain#R-VH,FALSE,TRUE
 package#Core,domain#MP-Marker,Marker,Finds a solo DebugMarker asset.,domain#R-Marker,FALSE,FALSE
 package#DataCaching,domain#MP-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,domain#R-DCDFcV,FALSE,FALSE
 package#DataCaching,domain#MP-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,domain#R-HDCDF,FALSE,FALSE
@@ -157,8 +148,6 @@ package#DataLifecycle,domain#MP-DD-fDCSDS,DD-fDCSDS,"Finds a data destination, a
 package#DataLifecycle,domain#MP-DDDCDP2oDS,DDDCDP2oDS,"Finds a Data Desination for which there is an untried Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process, and where no previously found process is a data source.",domain#R-DDDCDP2,FALSE,FALSE
 package#DataLifecycle,domain#MP-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, where neither is a reverse relay, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",domain#R-DDDCDS2P,FALSE,FALSE
 package#DataLifecycle,domain#MP-DDDPS,DDDPS,Finds a Data Path from a Process that is a Data Destination to a Service.,domain#R-DDDPS,FALSE,FALSE
-package#DataLifecycle,domain#MP-DFDSDXCS,DFDSDXCS,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data sender (i.e., the flow is client-to-service).",domain#R-DFDSDXCS,FALSE,FALSE
-package#DataLifecycle,domain#MP-DFDSDXSC,DFDSDXSC,"Finds a DataFlow via a DataStep where the DataExchange is initiated by the data recipient (i.e., the flow is service-to-client).",domain#R-DFDSDXSC,FALSE,FALSE
 package#DataLifecycle,domain#MP-DFDSfP,DFDSfP,Finds a DataFlow via a DataStep from a Process.,domain#R-DFDSfP,FALSE,FALSE
 package#DataLifecycle,domain#MP-DFtP,DFtP,Finds a DataFlow to a Process.,domain#R-DFtP,FALSE,FALSE
 package#DataLifecycle,domain#MP-DI-fDCSDS,DI-fDCSDS,"Finds a data input client acting as a data destination, that is not acting as a data pool, with an end-to-end data channel to a service that may act as a possible data source.",domain#R-DIDCSDS,FALSE,TRUE
@@ -456,7 +445,7 @@ package#Network,domain#MP-HACPmAC,HACPmAC,"Finds a process running on a host in 
 package#Network,domain#MP-HACPmNC,HACPmNC,"Finds a process running on a host in a space and the host location access context, with all related process network access contexts.",domain#R-HACP,FALSE,FALSE
 package#Network,domain#MP-HCHLSS,HCHLSS,Finds a Host location access context and the related host and space and one related subnet.,domain#R-HCHLSS,FALSE,FALSE
 package#Network,domain#MP-HHu2d,HHu2d,Finds a host with two distinct interactive users.,domain#R-HHu2,FALSE,FALSE
-package#Network,domain#MP-HL23S,HL23S,"Finds a host connected to an L2 or L3 subnet, and an associated network access context, plus optionally the host manager.",domain#R-HL23S,FALSE,FALSE
+package#Network,domain#MP-HL23S,HL23S,"Finds a host connected to an L2 or L3 subnet (but not the Internet), and an associated network access context, plus optionally the host manager.",domain#R-HL23S,FALSE,FALSE
 package#Network,domain#MP-HLS,HLS,Finds a Host connected to a non-abstract LogicalSubnet.,domain#R-HLS,FALSE,FALSE
 package#Network,domain#MP-HP,HP,"Finds a Process and its Host, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
 package#Network,domain#MP-HP-iT,HP-iT,"Finds a non-trivial Process and its Host, and optionally the host manager and the interactive user of the process.",domain#R-HP,FALSE,FALSE
@@ -474,7 +463,9 @@ package#Network,domain#MP-Hm2dHu,Hm2dHu,Finds a host and two distinct humans tha
 package#Network,domain#MP-HmAC,HmAC,"Finds a solo Host plus all location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-HmACPAC,HmACPAC,"Finds a process running on a host in a space and an associated process location access context, plus related host access contexts and optionally the host manager and process user.",domain#R-HPAC,FALSE,FALSE
 package#Network,domain#MP-HmNCPAC,HmNCPAC,"Finds a process running on a host in a space and an associated process location access context, plus related process network access contexts.",domain#R-HPAC,FALSE,FALSE
+package#Network,domain#MP-HprL23S-AP,HprL23S-AP,"Finds a gateway host providing an L2 or L3 Subnet that does not implement an abstract subnet, and is not controlled by a process, plus optionally the host manager.",domain#R-HprL23S,FALSE,FALSE
 package#Network,domain#MP-HprL23SAC,HprL23SAC,"Finds a Layer 2 or 3 LogicalSubnet provided by a Host, along with an associated network access context.",domain#R-HprL23SAC,FALSE,FALSE
+package#Network,domain#MP-HprL23SAS-P,HprL23SAS-P,Finds a gateway host providing an L2 or L3 Subnet that implements an abstract subnet and is not controlled by any process.,domain#R-HprL23SAS,FALSE,FALSE
 package#Network,domain#MP-HprLS,HprLS,Finds a LogicalSubnet provided by a Host.,domain#R-HprLS,FALSE,FALSE
 package#Network,domain#MP-HprLSAC,HprLSAC,Finds a LogicalSubnet provided by a Host and an associated network access context.,domain#R-HprLSAC,FALSE,FALSE
 package#Network,domain#MP-HsAC,HsAC,"Finds a solo Host plus any of its location access contexts, and optionally the host manager and interactive user.",domain#R-H,FALSE,FALSE
@@ -518,10 +509,13 @@ package#Network,domain#MP-HuwStmP-St,HuwStmP-St,"Finds a Human working for an Em
 package#Network,domain#MP-IcP,IcP,Finds a Process controlling an Internet class subnet.,domain#R-IcP,FALSE,FALSE
 package#Network,domain#MP-InternetMP,InternetMP,Finds an Internet class network.,domain#R-Internet,FALSE,FALSE
 package#Network,domain#MP-IpH,IpH,Finds a Host providing an Internet class subnet.,domain#R-IpH,FALSE,FALSE
+package#Network,domain#MP-L23S-AHP,L23S-AHP,"Finds an L2 or L3 Subnet that does not implement an abstract subnet, and is neither provided by a gateway host, not controlled by a process.",domain#R-L23S,FALSE,FALSE
+package#Network,domain#MP-L23SAS-HP,L23SAS-HP,"Finds an L2 or L3 Subnet that implements an abstract subnet, but is neither provided by a gateway host, not controlled by a process.",domain#R-L23SAS,FALSE,FALSE
 package#Network,domain#MP-LS,LS,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LS-S,LS-S,"Finds a Logical Subnet that is not abstract, but is accessible from no physical space.",domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LS-iH,LS-iH,Finds a solo Logical Subnet.,domain#R-LS,FALSE,FALSE
 package#Network,domain#MP-LS-prH,LS-prH,Finds a Logical Subnet not provided by any host.,domain#R-LS,FALSE,FALSE
+package#Network,domain#MP-LSaS,LSaS,Finds a logical subnet accessible from a space.,domain#R-LSaS,FALSE,FALSE
 package#Network,domain#MP-LnSuLnS,LnSuLnS,Finds a login service using another login service.,domain#R-LnSuLnS,FALSE,FALSE
 package#Network,domain#MP-LnSuP-H,LnSuP-H,Finds a login service using a process where the two do not have the same Host.,domain#R-LnSuP,FALSE,FALSE
 package#Network,domain#MP-MHC,MHC,Finds a solo Mobile Console Host.,domain#R-MHC,FALSE,FALSE
@@ -549,9 +543,6 @@ package#Network,domain#MP-PccP,PccP,"Finds two processes, each of which controls
 package#Network,domain#MP-PnH,PnH,Finds a Process with no Host.,domain#R-P,FALSE,FALSE
 package#Network,domain#MP-RAC,RAC,Finds a remote access client.,domain#R-RAC,FALSE,FALSE
 package#Network,domain#MP-RAS,RAS,Finds a remote access service.,domain#R-RAS,FALSE,FALSE
-package#Network,domain#MP-RSS-HP,RSS-HP,"Finds a Radio Subnet accessible from a Space, and the subnet it implements locally, where there is no gateway specified as the subnet provider and no controlling Process.",domain#R-RSS,FALSE,FALSE
-package#Network,domain#MP-RSSH,RSSH,"Finds a Radio Subnet provided by a Gateway Host accessible from a Space, and optionally the service controlling access to it and the gateway manager.",domain#R-RSSH,FALSE,FALSE
-package#Network,domain#MP-RSSH-P,RSSH-P,"Finds a Radio Subnet with no controlling process, provided by a Gateway host and accessible from a Space, plus optionally the manager of the Gateway.",domain#R-RSSH,FALSE,FALSE
 package#Network,domain#MP-RTuRTuS-uR,RTuRTuS-uR,Finds a remote terminal using remotely another remote terminal which is using remotely a third process that is not yet remotely used by the first.,domain#R-RTuRTuS,FALSE,FALSE
 package#Network,domain#MP-Rr,Rr,Finds a solo Router.,domain#R-Rr,FALSE,FALSE
 package#Network,domain#MP-Rr-LnS,Rr-LnS,Finds a physical Router that is not controlled by any process.,domain#R-Rr,FALSE,TRUE
@@ -573,12 +564,10 @@ package#Network,domain#MP-StSPH-St,StSPH-St,Finds a Private Space operated by a 
 package#Network,domain#MP-Sv-LnS,Sv-LnS,Finds a physical Server that is not controlled by any process.,domain#R-Sv,FALSE,TRUE
 package#Network,domain#MP-TH,TH,"Finds a solo trivial host, and optionally the host manager, an interactive user, and any related access contexts.",domain#R-TH,FALSE,FALSE
 package#Network,domain#MP-THGP,THGP,Finds a trivial host running a general process.,domain#R-THGP,FALSE,FALSE
+package#Network,domain#MP-THL23S,THL23S,"Finds a trivial host connected to an L2 or L3 subnet (but not the Internet), and an associated network access context, plus optionally the host manager.",domain#R-THL23S,FALSE,FALSE
 package#Network,domain#MP-TP,TP,Finds a solo trivial process.,domain#R-TP,FALSE,FALSE
 package#Network,domain#MP-WHmWS,WHmWS,Finds a WiFi hotspot with at least one local implementation.,domain#R-WH,FALSE,FALSE
 package#Network,domain#MP-WS-H,WS-H,Finds a solo WiFiLAN that is not an abstract hotspot.,domain#R-WS,FALSE,FALSE
-package#Network,domain#MP-WSS-HP,WSS-HP,"Finds a Wired Subnet accessible from a Space, where there is no gateway specified as the subnet provider, and no controlling Process.",domain#R-WSS,FALSE,FALSE
-package#Network,domain#MP-WSSH,WSSH,"Finds a Wired Subnet provided by a Gateway host accessible from a Space, and optionally the process controlling access and the manager of the gateway.",domain#R-WSSH,FALSE,FALSE
-package#Network,domain#MP-WSSH-P,WSSH-P,"Finds a Wired Subnet with no controlling process, provided by a Gateway host accessible from a Space, and optionally the manager of the Gateway.",domain#R-WSSH,FALSE,FALSE
 package#Network,domain#MP-WiFiSSoH,WiFiSSoH,"Finds a WiFi subnet accessible from a Space, the network it implements, and optionally the host providing the subnet and service controlling access to it.",domain#R-WiFiSS,FALSE,FALSE
 package#Network,domain#MP-WmPH,WmPH,"Finds a solo World asset (i.e. the inferred global public space), in which at least one Host is assumed to be (due to having no other defined location).",domain#R-W,FALSE,FALSE
 package#Network,domain#MP-WpHS-aF,WpHS-aF,"Finds a mobile host or virtual host running on it, in a space, providing a WiFi LAN which is not accessible from any space, and providing no other WiFiLAN accessible in its space.",domain#R-WpHS,FALSE,FALSE
@@ -611,6 +600,9 @@ package#NetworkConnectivity,domain#MP-L3rGrL3,L3rGrL3,"Finds a Host providing tw
 package#NetworkConnectivity,domain#MP-LPLS2NSg2,LPLS2NSg2,"Finds a route between subnets through a gateway where NAT is used on the return path, and a logical path traversing the forward segment.",domain#R-LPLS2NSg2,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LPsLS,LPsLS,Finds a Logical Subnet at the start of a Logical Path.,domain#R-LPsLS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-LoH,LoH,"Finds a Host in a context where it is connected to a Layer 2 Logical Subnet, and the associated network interface, plus all contexts where it is connected to the same subnet (there may be others), and optionally the host manager.",domain#R-LoH,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-LoHIP,LoHIP,"Finds a Host with an interface to a subnet, where the interface is controlled by a process, plus the associated network access contexts.",domain#R-LoHIP,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-LoHSP,LoHSP,"Finds a Host with an interface to a subnet controlled by a process, plus the associated network access contexts.",domain#R-LoHSP,FALSE,FALSE
+package#NetworkConnectivity,domain#MP-LoHSPAC,LoHSPAC,"Finds a Host with an interface to a subnet controlled by a process, and the access context relating to this process, host and subnet.",domain#R-LoHSPAC,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NP2LS,NP2LS,Finds a network path with a subpath that visits a subnet.,domain#R-NP2LS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NP2LSg,NP2LSg,Finds a network path with a subpath that traverses a logical segment.,domain#R-NP2LSg,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-NP3,NP3,"Finds a Network Path with a subpath that extends a third path, which does not itself have a subpath relationship to the first.",domain#R-NP3,FALSE,FALSE
@@ -885,6 +877,7 @@ package#Virtualisation,domain#MP-CCSCVC,CCSCVC,Finds a Client Channel via a Serv
 package#Virtualisation,domain#MP-CVHHDC,CVHHDC,Finds a clusterable virtual Host provisioned on a physical host at a DataCentre.,domain#R-CVHHDC,FALSE,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,CVHHHoDC,"Finds a cluster Virtual Host (role Host) provisioned at a Host (SHost), where the Virtual Host may optionally be managed by a Data Centre.",domain#R-CVHHH,FALSE,FALSE
 package#Virtualisation,domain#MP-DCCVH-LS,DCCVH-LS,Finds a Data Centre with a Cluster on which is provisioned a Virtual Host that is not connected to any logical subnet.,domain#R-DCCVH,FALSE,FALSE
+package#Virtualisation,domain#MP-DCVHC,DCVHC,"Finds a DataCentre containing a Cluster, and a Virtual Host.managed by the Data Centre rather than being provisioned on a Host.",domain#R-DCVHC,FALSE,FALSE
 package#Virtualisation,domain#MP-DCVHVS-H,DCVHVS-H,Finds a Host that is physically in a DataCentre and connected to a virtual subnet that is not provided by any host.,domain#R-DCVHVS,FALSE,FALSE
 package#Virtualisation,domain#MP-EH,EH,Finds a solo elastically scalable host.,domain#R-EH,FALSE,FALSE
 package#Virtualisation,domain#MP-GdHVS,GdHVS,"Finds a gateway providing a virtual subnet to which a distinct host is connected, and optionally a process controlling access to the subnet.",domain#R-GHVS,FALSE,FALSE
@@ -908,12 +901,16 @@ package#Virtualisation,domain#MP-LSmHC,LSmHC,Finds a Logical Subnet and all virt
 package#Virtualisation,domain#MP-LSoLS,LSoLS,Finds a Logical Subnet that is an overlay on another Subnet.,domain#R-LSoLS,FALSE,FALSE
 package#Virtualisation,domain#MP-SC4HVSHC,SC4HVSHC,"Finds a Service Channel crossing a Virtual Subnet between two Hosts, and the Host Channel representing a physical network path supporting this communication.",domain#R-SC4HVSHC,FALSE,FALSE
 package#Virtualisation,domain#MP-SC4HVSVC,SC4HVSVC,"Finds a Service Channel crossing a Virtual Subnet between two Hosts, and the Virtual Channel representing the physical connectivity requirement to support this communication.",domain#R-SC4HVSVC,FALSE,FALSE
+package#Virtualisation,domain#MP-SHVH,SHVH,Finds a Virtual Host provisioned on a Simple Host that is not a Pod.,domain#R-SHVH,FALSE,FALSE
 package#Virtualisation,domain#MP-SgACmHC,SgACmHC,"Finds a logical segment between two subnets, plus the associated gateway host and its inbound and outbound interfaces, an access context in which the segment is active, and all assocated host channels.",domain#R-SgAC,FALSE,FALSE
 package#Virtualisation,domain#MP-SgmHC,SgmHC,"Finds a logical segment between two subnets, plus the associated gateway host and its inbound and outbound interfaces, and all assocated host channels.",domain#R-Sg,FALSE,FALSE
+package#Virtualisation,domain#MP-StoHVH-St,StoHVH-St,Finds a Stakeholder operating a Host on which is provisioned a Virtual Host that has no operator.,domain#R-StoHVH,FALSE,FALSE
 package#Virtualisation,domain#MP-THVH,THVH,Finds a Virtual Host provisioned on a Trivial Host.,domain#R-THVH,FALSE,FALSE
 package#Virtualisation,domain#MP-VC2HmHC,VC2HmHC,"Finds a virtual channel between two physical hosts, plus all the host channels associated with physical network paths between the hosts.",domain#R-VC2H,FALSE,FALSE
 package#Virtualisation,domain#MP-VC2HmSC,VC2HmSC,"Finds a virtual channel between two physical hosts, plus all the service channels associated with physical network paths between the hosts.",domain#R-VC2H,FALSE,FALSE
 package#Virtualisation,domain#MP-VCH2LS2PP,VCH2LS2PP,"Finds a virtual subnet communication path between physical hosts, including the virtual channel, path generator and the start and end subnets.",domain#R-VCH2LS2PP,FALSE,FALSE
+package#Virtualisation,domain#MP-VH-H,VH-H,Finds a Virtual Host that is not provisioned by any other host.,domain#R-VH,FALSE,FALSE
+package#Virtualisation,domain#MP-VH-LnS,VH-LnS,Finds a Virtual Host that is not controlled by any process.,domain#R-VH,FALSE,TRUE
 package#Virtualisation,domain#MP-VH2H-a,VH2H-a,Finds three virtual hosts in a chain but lacking the above relationship indicating which of the first and last links is higher.,domain#R-VH2H,FALSE,FALSE
 package#Virtualisation,domain#MP-VHH2,VHH2,Finds a VirtualHost provisioned at a Host for which it is also on the path to a physical host.,domain#R-VHH2,FALSE,FALSE
 package#Virtualisation,domain#MP-VHH3,VHH3,Finds a virtual host provisioned by two distinct hosts.,domain#R-VHH3,FALSE,FALSE
@@ -922,9 +919,7 @@ package#Virtualisation,domain#MP-VHHsD-HsS-S,VHHsD-HsS-S,"Finds a Virtual Host a
 package#Virtualisation,domain#MP-VHPH,VHPH,Finds a virtual host provisioned by a physical host.,domain#R-VHPH,FALSE,FALSE
 package#Virtualisation,domain#MP-VHPhDHS-HsS-S,VHPhDHS-HsS-S,"Finds a Virtual Host running a Process that handles Data but does not access it via a service, where its host is in a virtualisation stack above a second Host running a service for the Data, and there is no host between the two in the virtualisation stack running a Process that Serves the Data.",domain#R-VHPhDHS,FALSE,FALSE
 package#Virtualisation,domain#MP-VSHCmSC,VSHCmSC,"Finds a host channel supporting a virtual subnet, and the associated hosts, along with all service channels that use the host channel.",domain#R-VSHC,FALSE,FALSE
-package#Virtualisation,domain#MP-VSPS-HP,VSPS-HP,"Finds a Virtual Subnet using a Physical Subnet to route at least one host-host connection, where there is no gateway specified as the subnet provider, and no controlling Process.",domain#R-VSPS,FALSE,FALSE
-package#Virtualisation,domain#MP-VSPSH,VSPSH,"Finds a Virtual Subnet provided by a gateway host using a Physical Subnet to route at least one host-host connection, and optionally the process controlling the virtual subnet, and the manager of the gateway.",domain#R-VSPSH,FALSE,FALSE
-package#Virtualisation,domain#MP-VSPSH-P,VSPSH-P,"Finds a Virtual Subnet with no controlling Process, provided by a gateway host using a Physical Subnet to route at least one host-host connection, and optionally the manager of the Gateway.",domain#R-VSPSH,FALSE,FALSE
+package#Virtualisation,domain#MP-VSPS,VSPS,Finds a Virtual Subnet using a Physical Subnet to route at least one host-host connection.,domain#R-VSPS,FALSE,FALSE
 package#Virtualisation,domain#MP-VSVC4H-PP,VSVC4H-PP,"Finds a virtual subnet and two connected hosts with distinct physical hosts between which virtual subnet messages should flow, and yet there is no host channel, indicating no physical path between the physical hosts was found.",domain#R-VSVC4H,FALSE,FALSE
 package#Virtualisation,domain#MP-VSVCHC,VSVCHC,Finds a Virtual Subnet via a Virtual Channel via a Host Channel.,domain#R-VSVCHC,FALSE,FALSE
 package#Virtualisation,domain#MP-VSVCHCLS,VSVCHCLS,Finds a virtual subnet that uses a physical subnet.,domain#R-VSVCHCLS,FALSE,FALSE

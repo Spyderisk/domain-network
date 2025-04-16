@@ -21,6 +21,7 @@ package#Network,domain#LossOfNetworkControl,LossOfNetworkControl,"Untrusted, pot
 package#Network,domain#LossOfNetworkUserTW,LossOfNetworkUserTW,"Untrusted, potentially malicious agents have access to the abstract or logical network subnet, i.e. they can access a connected host that may or may not be part of the modelled system.",TRUE,L
 package#Network,domain#LossOfResourceTW,LossOfResourceTW,"Untrusted, potentially malicious agents can control the provisining of or allocation of resources to the asset.",FALSE,RTW
 package#Network,domain#LossOfUserTW,Loss Of User TW,"Untrusted, potentially malicious agents gained user rights in some system context.",TRUE,L
+package#Network,domain#NetworkAccess,NetworkAccess,"A malicious agent is able to request a connection to the logical subnet, i.e., they can send messages to the controlling router or process but they do not have an address on the subnet (so they cannot yet exchange messages with other connected hosts).",TRUE,
 package#Network,domain#Overloaded,Overloaded,The asset is being used or requested more than allowed or expected.,TRUE,O
 package#Network,domain#TotalLoad,TotalLoad,The total load on a Data Centre.,TRUE,O
 package#Network,domain#TrojanInsertion,BackdoorInsertion,Insertion of a back door into a host operating system or other software stored and running on a host.,FALSE,J

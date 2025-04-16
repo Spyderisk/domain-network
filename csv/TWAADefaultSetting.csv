@@ -24,6 +24,7 @@ package#5G,domain#TWAADS-Extrinsic-W-TW-BaseStation,domain#Extrinsic-W-TW,domain
 package#5G,domain#TWAADS-ExtrinsicTW-BaseStation,domain#ExtrinsicTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-Health-BaseStation,domain#Health,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-IntrinsicTW-BaseStation,domain#IntrinsicTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
+package#5G,domain#TWAADS-NetworkAccessibility-RAN,domain#NetworkAccessibility,domain#RAN,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-NetworkControl-PrivateCellularNetwork,domain#NetworkControl,domain#PrivateCellularNetwork,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-NetworkControl-PublicCellularNetwork,domain#NetworkControl,domain#PublicCellularNetwork,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-NetworkControl-RAN,domain#NetworkControl,domain#RAN,domain#TrustworthinessLevelSafe,TRUE
@@ -368,6 +369,7 @@ package#CloudManagement,domain#TWAADS-IntrinsicTW-Ingress,domain#IntrinsicTW,dom
 package#CloudManagement,domain#TWAADS-IntrinsicTW-Master,domain#IntrinsicTW,domain#Master,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#TWAADS-IntrinsicTW-Pod,domain#IntrinsicTW,domain#Pod,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#TWAADS-IntrinsicTW-Worker,domain#IntrinsicTW,domain#Worker,domain#TrustworthinessLevelSafe,TRUE
+package#CloudManagement,domain#TWAADS-NetworkAccessibility-ClusterIP,domain#NetworkAccessibility,domain#ClusterIP,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#TWAADS-NetworkControl-ClusterIP,domain#NetworkControl,domain#ClusterIP,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#TWAADS-NetworkUserTW-ClusterIP,domain#NetworkUserTW,domain#ClusterIP,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#TWAADS-OutOfService-APIServer,domain#OutOfService,domain#APIServer,domain#TrustworthinessLevelSafe,TRUE
@@ -539,6 +541,8 @@ package#LocalDeviceConnectivity,domain#TWAADS-ConnectionsBlocked-MeshRoutingSegm
 package#LocalDeviceConnectivity,domain#TWAADS-ConnectionsBlocked-TetheringSegment,domain#ConnectionsBlocked,domain#TetheringSegment,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-DefaultTW-BluetoothPair,domain#DefaultTW,domain#BluetoothPair,domain#TrustworthinessLevelVeryLow,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-DefaultTW-USBPair,domain#DefaultTW,domain#USBPair,domain#TrustworthinessLevelVeryLow,TRUE
+package#LocalDeviceConnectivity,domain#TWAADS-NetworkAccessibility-BluetoothPair,domain#NetworkAccessibility,domain#BluetoothPair,domain#TrustworthinessLevelSafe,TRUE
+package#LocalDeviceConnectivity,domain#TWAADS-NetworkAccessibility-USBPair,domain#NetworkAccessibility,domain#USBPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-NetworkControl-BluetoothPair,domain#NetworkControl,domain#BluetoothPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-NetworkControl-USBPair,domain#NetworkControl,domain#USBPair,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#TWAADS-NetworkUserTW-BluetoothPair,domain#NetworkUserTW,domain#BluetoothPair,domain#TrustworthinessLevelSafe,TRUE
@@ -660,6 +664,11 @@ package#Network,domain#TWAADS-IntrinsicTW-Smartwatch,domain#IntrinsicTW,domain#S
 package#Network,domain#TWAADS-IntrinsicTW-SystemProcess,domain#IntrinsicTW,domain#SystemProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Tablet,domain#IntrinsicTW,domain#Tablet,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-IntrinsicTW-Workstation,domain#IntrinsicTW,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-NetworkAccessibility-CoreNetwork,domain#NetworkAccessibility,domain#CoreNetwork,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-NetworkAccessibility-Internet,domain#NetworkAccessibility,domain#Internet,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-NetworkAccessibility-SocketLAN,domain#NetworkAccessibility,domain#SocketLAN,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-NetworkAccessibility-WiFiLAN,domain#NetworkAccessibility,domain#WiFiLAN,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#TWAADS-NetworkAccessibility-WiredLAN,domain#NetworkAccessibility,domain#WiredLAN,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-NetworkControl-CoreNetwork,domain#NetworkControl,domain#CoreNetwork,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#TWAADS-NetworkControl-Internet,domain#NetworkControl,domain#Internet,domain#TrustworthinessLevelHigh,TRUE
 package#Network,domain#TWAADS-NetworkControl-SocketLAN,domain#NetworkControl,domain#SocketLAN,domain#TrustworthinessLevelSafe,TRUE
@@ -958,6 +967,8 @@ package#Virtualisation,domain#TWAADS-Health-VRouter,domain#Health,domain#VRouter
 package#Virtualisation,domain#TWAADS-IntrinsicTW-VCluster,domain#IntrinsicTW,domain#VCluster,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#TWAADS-IntrinsicTW-VM,domain#IntrinsicTW,domain#VM,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#TWAADS-IntrinsicTW-VRouter,domain#IntrinsicTW,domain#VRouter,domain#TrustworthinessLevelSafe,TRUE
+package#Virtualisation,domain#TWAADS-NetworkAccessibility-HostLAN,domain#NetworkAccessibility,domain#HostLAN,domain#TrustworthinessLevelSafe,TRUE
+package#Virtualisation,domain#TWAADS-NetworkAccessibility-VXLAN,domain#NetworkAccessibility,domain#VXLAN,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#TWAADS-NetworkControl-HostLAN,domain#NetworkControl,domain#HostLAN,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#TWAADS-NetworkControl-VXLAN,domain#NetworkControl,domain#VXLAN,domain#TrustworthinessLevelSafe,TRUE
 package#Virtualisation,domain#TWAADS-NetworkUserTW-HostLAN,domain#NetworkUserTW,domain#HostLAN,domain#TrustworthinessLevelSafe,TRUE

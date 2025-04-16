@@ -13,6 +13,26 @@ package#Application,domain#CP-Marker+UserDataDeprecated-1,domain#CP-Marker+DataH
 package#Application,domain#CP-Marker+UserDataInteraction-1,domain#CP-Marker+DataHandling-2,Inferring user access to data is a subsequence of data handling relationship inference,FALSE,TRUE
 package#Application,domain#CP-RAC+noDU,domain#CP-Marker+ProcessClassification-1,RAC+noDU is at the end of the process classification sequence,FALSE,TRUE
 package#Application,domain#CP-RAS+noDU,domain#CP-Marker+ProcessClassification-1,RAS+noDU is at the end of the process classification sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-Ct+iC,domain#CP-Marker+HostClassification-1,Ct+iC is at the end of the host classification sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-Marker+CloudManagement-1,HumPC-Hu+m is at the end of the cloud host management inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KIP-S+c,domain#CP-Marker+CloudAuth-1,KIP-S+c is at the end of the cloud access control inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxCLnSA+uu,domain#CP-Marker+CloudServices-1,KPxCLnSA+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxCuuSI+uu,domain#CP-Marker+CloudServices-1,KPxCuuSI+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxMLnSA+uu,domain#CP-Marker+CloudServices-1,KPxMLnSA+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxWLnSA+uu,domain#CP-Marker+CloudServices-1,KPxWLnSA+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-Marker+CloudNetworking-1,MWPodLS2+c is at the end of the cloud networking inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudAuth-1,domain#CP-Marker+CredentialSharing-0,Cloud access control inference should precede credential sharing inference,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudHostCreation-1,domain#CP-Marker+PhysicalHostInference-2,Inferred cloud framework host creation is a subsequence of inferred virtual host creation,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudManagement-1,domain#CP-Marker+HostManagement-1,Cloud host management inference is a subsequence of host management inference,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudManagement-1,domain#CP-Marker+PhysicalHostManagement-0,Cloud host management inference should precede virtual host management,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudNetworking-1,domain#CP-Marker+FixedNetworkCreation-0,Fixed network creation should follow cloud networking inference,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudNetworking-1,domain#CP-Marker+NetworkCreation-1,Cloud network inference is a subsequence of inferred network creation,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudServices-1,domain#CP-Marker+ReverseProxy-1,Inferred cloud service creation is a subsequence of inferred reverse proxy creation,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudStorage-1,domain#CP-Marker+DataStorage-1,Cloud data storage relationship inference is a subsequence of data storage relationship inference,FALSE,TRUE
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-Marker+CloudStorage-1,PodCnPD+s is at the end of the cloud data storage relationship inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-Marker+CloudHostCreation-1,PodDCMC-W-H+W is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-1,PodMP+iP is at the end of the host classification sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-Marker+CloudHostCreation-1,PodP-Cn+Cn is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
 package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-2,DCDFcV+c is at the end of the data cache security relationship inference sequence,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFcCr-aAC+DS,domain#CP-Marker+DataCache-1,H-sDFcCr-aAC+DS is at the end of the temporary data cache creation sequence,FALSE,TRUE
 package#DataCaching,domain#CP-Marker+DataCache-2,domain#CP-Marker+Phishing-0,Data flow caching inference should precede phishing inference,FALSE,TRUE
@@ -43,6 +63,7 @@ package#DataLifecycle,domain#CP-HPDSDA-crudr+crudr,domain#CP-Marker+DataCopy-3,H
 package#DataLifecycle,domain#CP-HuWES+D,domain#CP-Marker+Phishing-1,HuWES+D is at the end of the phishing inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-Marker+DataAccess-1,HuaDRAC-DA+RUA is at the end of the deserialized data access inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataChannel-2,domain#CP-Marker+DataPath-2,Data channel creation should precede filling in data path extension relationships,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataCopy-1,domain#CP-Marker+SystemProcess-0,,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataCopy-3,domain#CP-Marker+ClientService-2,System client-service relationship inference should follow data flow and persistent data access inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataKeys-1,domain#CP-Marker+ClientService-3,Data key management inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDI+d,domain#CP-Marker+DataChannel-1,PDI+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
@@ -66,8 +87,8 @@ package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-1,ScDSPDIc
 package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-Marker+DataFields-1,DAOiDADInDF-i+i-Replay is at the end of the data field inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-DCDFDF+i,domain#CP-Marker+DataFields-1,DCDFDF+I is at the end of the data field inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-1,PpD-iDF+a is at the end of the data field inference sequence,FALSE,TRUE
-package#Network,domain#CP-C+iC,domain#CP-Marker+HostClassification-1,C+iC is at the end of the asserted host classification sequence,FALSE,TRUE
-package#Network,domain#CP-DCH+l,domain#CP-Marker+FixedHostCreation-1,DCH+l is at the end of the inferred fixed host creation sequence,FALSE,TRUE
+package#Network,domain#CP-C+iC,domain#CP-Marker+HostClassification-1,C+iC is at the end of the host classification sequence,FALSE,TRUE
+package#Network,domain#CP-DCH+l,domain#CP-Marker+PhysicalHostInference-0,DCH+l is at the end of the inferred fixed host creation sequence,FALSE,TRUE
 package#Network,domain#CP-DCWH-LS+c,domain#CP-Marker+FixedNetworkConnections-1,DCWH-LS+c is at the end of the fixed host network connection inference sequence,FALSE,TRUE
 package#Network,domain#CP-DCpLS+RWS,domain#CP-Marker+FixedNetworkCreation-1,DCpLS+RWS is at the end of the inferred fixed network creation sequence,FALSE,TRUE
 package#Network,domain#CP-FcLSS+aF,domain#CP-Marker+NetworkAccessibility-1,FcLSS+aF is at the end of the network accessibility inference sequence,FALSE,TRUE
@@ -80,34 +101,42 @@ package#Network,domain#CP-HprLS+c,domain#CP-Marker+NetworkConnections-3,HprLS+c 
 package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-Marker+RemoteLogin-1,HuiCHLnS-AC+AC is at the end of the remote login client creation sequence,FALSE,TRUE
 package#Network,domain#CP-HuiHS+cA,domain#CP-Marker+UserMobilityRequirements-1,HuiHS+cA is at the end of the user mobility requirements inference sequence,FALSE,TRUE
 package#Network,domain#CP-HuiPH-iD+iP,domain#CP-Marker+UserHostInteraction-1,HuiPH-iD+iP is at the end of the user-host interaction inference sequence,FALSE,TRUE
-package#Network,domain#CP-Hum-iHRAS+i,domain#CP-Marker+RootLogin-1,Hum-iHRAS+i is at the end of the inferred root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-Hum-iHRAS+i,domain#CP-Marker+RootLogin-2,Hum-iHRAS+i is at the end of the inferred root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-HumHP-im+m,domain#CP-Marker+ProcessManagement-1,HumHP-im+m is at the end of the process management inference sequence,FALSE,TRUE
-package#Network,domain#CP-HumPH-m+m,domain#CP-Marker+HostManagement-1,HumPH-m+m is at the end of the host management inference sequence,FALSE,TRUE
+package#Network,domain#CP-HumPH-m+m,domain#CP-Marker+PhysicalHostManagement-1,HumPH-m+m is at the end of the physical host management inference sequence,FALSE,TRUE
 package#Network,domain#CP-InternetMP+W,domain#CP-Marker+NetworkAccessibility-1,InternetMP+W is at the end of the network accessibility inference sequence,FALSE,TRUE
 package#Network,domain#CP-InternetMP+ii,domain#CP-Marker+FixedNetworkCreation-1,InternetMP+ii is at the end of the inferred fixed network creation sequence,FALSE,TRUE
-package#Network,domain#CP-MHC+iMHC,domain#CP-Marker+HostClassification-1,MHC+iMHC is at the end of the asserted host classification sequence,FALSE,TRUE
+package#Network,domain#CP-MHC+iMHC,domain#CP-Marker+HostClassification-1,MHC+iMHC is at the end of the host classification sequence,FALSE,TRUE
 package#Network,domain#CP-MHcIS+aF,domain#CP-Marker+NetworkAccessibility-1,MHcIS+aF is at the end of the network accessibility inference sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientCreation-1,domain#CP-Marker+SystemProcess-1,System client creation is a subsequence of system process creation,FALSE,TRUE
+package#Network,domain#CP-Marker+FixedHostCreation-1,domain#CP-Marker+HostCreation-1,Inferred physical host creation is a subsequence of inferred host creation,FALSE,TRUE
+package#Network,domain#CP-Marker+FixedNetworkCreation-1,domain#CP-Marker+NetworkCreation-1,Inferred physical network creation is a subsequence of inferred network creation,FALSE,TRUE
 package#Network,domain#CP-Marker+HostLocation-1,domain#CP-Marker+SpaceCreation-2,Host location inference may create a global public space,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkAccessibility-1,domain#CP-Marker+SpaceCreation-2,Network accessibility inference may create a global public space,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkLogin-1,domain#CP-Marker+ClientCreation-1,Network login client creation is a subsequence of system client creation,FALSE,TRUE
+package#Network,domain#CP-Marker+PhysicalHostInference-1,domain#CP-Marker+FixedHostCreation-1,Physical host inference for physical hosts is a subsequence of inferred physical host creation,FALSE,TRUE
 package#Network,domain#CP-Marker+PhysicalHostInference-5,domain#CP-Marker+LocalNetworkCreation-2,Physical host determination for additional hosts is a subsequence of localised network creation,FALSE,TRUE
+package#Network,domain#CP-Marker+PhysicalHostManagement-1,domain#CP-Marker+HostManagement-1,Physical host management inference is a subsequence of host management inference,FALSE,TRUE
+package#Network,domain#CP-Marker+PhysicalHostOperation-1,domain#CP-Marker+HostOperation-1,Physical host operation inference is a subsequence of host operation inference,FALSE,TRUE
 package#Network,domain#CP-Marker+RemoteLogin-1,domain#CP-Marker+ClientCreation-1,Remote login client creation is a subsequence of system client creation,FALSE,TRUE
-package#Network,domain#CP-Marker+RootLogin-1,domain#CP-Marker+ServiceCreation-1,Root login service creation is a subsequence of system service creation,FALSE,TRUE
+package#Network,domain#CP-Marker+RootLogin-2,domain#CP-Marker+ServiceCreation-1,Root login service creation is a subsequence of system service creation,FALSE,TRUE
 package#Network,domain#CP-Marker+ServiceCreation-1,domain#CP-Marker+SystemProcess-1,System service creation is a subsequence of system process creation,FALSE,TRUE
 package#Network,domain#CP-Marker+SocketNetworkCreation-1,domain#CP-Marker+LocalNetworkCreation-2,Socket communication inference is part of localised network creation,FALSE,TRUE
 package#Network,domain#CP-Marker+UserHostInteraction-1,domain#CP-Marker+UserMobilityRequirements-0,User-host interaction inference should precede user mobility requirements inference,FALSE,TRUE
 package#Network,domain#CP-Marker+UserProcessInteraction-1,domain#CP-Marker+HumanStatus-0,Human status classification should follow user-process interactivity inference,FALSE,TRUE
 package#Network,domain#CP-Marker+WiFiHotspotCreation-1,domain#CP-Marker+LocalNetworkCreation-1,WiFi hotspot creation is a subsequence of inferred local network creation,FALSE,TRUE
+package#Network,domain#CP-PC-LnS+LnS,domain#CP-Marker+RootLogin-1,PC-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-PH+hPH,domain#CP-Marker+PhysicalHostInference-1,PH+hPH is at the end of the sequence for physical host inference for physical hosts,FALSE,TRUE
 package#Network,domain#CP-PH2dS+iM,domain#CP-Marker+HostLocation-1,PH2dS+iM is at the end of the mobile host location inference sequence,FALSE,TRUE
 package#Network,domain#CP-PHHS-iC+SL,domain#CP-Marker+SocketNetworkCreation-1,PHHS-iC+SL is at the end of internal network creation,FALSE,TRUE
-package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Marker+RootLogin-1,Pc-hSHLnS+c is at the end of the inferred root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Marker+RootLogin-2,Pc-hSHLnS+c is at the end of the inferred root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-PcWH+c,domain#CP-Marker+WiFiHotspotCreation-1,PcWH+c is at the end of the WiFi hotspot creation sequence,FALSE,TRUE
 package#Network,domain#CP-RAS+iL,domain#CP-Marker+ProcessClassification-1,RAS+iL is at the end of the process classification sequence,FALSE,TRUE
-package#Network,domain#CP-Rr+iR,domain#CP-Marker+HostClassification-1,Rr+iR is at the end of the asserted host classification sequence,FALSE,TRUE
+package#Network,domain#CP-Rr+iR,domain#CP-Marker+HostClassification-1,Rr+iR is at the end of the host classification sequence,FALSE,TRUE
+package#Network,domain#CP-Rr-LnS+LnS,domain#CP-Marker+RootLogin-1,Rr-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-StHP+o,domain#CP-Marker+ProcessOperation-1,StHP+o is at the end of the process operation inference sequence,FALSE,TRUE
-package#Network,domain#CP-StSPH-St+o,domain#CP-Marker+HostOperation-1,StSPH-St+o is at the end of the host operation inference sequence,FALSE,TRUE
+package#Network,domain#CP-StSPH-St+o,domain#CP-Marker+PhysicalHostOperation-1,StSPH-St+o is at the end of the physical host operation inference sequence,FALSE,TRUE
+package#Network,domain#CP-Sv-LnS+LnS,domain#CP-Marker+RootLogin-1,Sv-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-TP+iT,domain#CP-Marker+ProcessClassification-1,TP+iT is at the end of the process classification sequence,FALSE,TRUE
 package#Network,domain#CP-WS-H+I,domain#CP-WpHSH-aF+WH,WpHSH-aF+WH creates an asset that in WS-H+I should not match LogicalSubnet,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-Marker+NetworkInterfaces-1,HLS+I is at the end of the network interface creation sequence,FALSE,TRUE
@@ -178,5 +207,25 @@ package#Users,domain#CP-Hu+W,domain#CP-Marker+UserMobilityRequirements-1,Hu+W is
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-1,HuaSaE+cA is at the end of the human mobility inference sequence,FALSE,TRUE
 package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+SpaceCreation-2,User mobility requirements inference may create an inferred space,FALSE,TRUE
 package#Users,domain#CP-StS-St+c,domain#CP-Marker+SpaceOperation-1,StS-St+c is at the end of the space operation inference sequence,FALSE,TRUE
-package#Virtualisation,domain#CP-Marker+VirtualHostCreation-1,domain#CP-Marker+PhysicalHostInference-2,Inferred virtual host creation precedes physical host determination,FALSE,TRUE
-package#Virtualisation,domain#CP-Marker+VirtualNetworkCreation-0,domain#CP-Marker+FixedNetworkCreation-0,Fixed network creation should follow inferred virtual network creation,FALSE,TRUE
+package#Virtualisation,domain#CP-CCSCHC+ch,domain#CP-Marker+VirtualNetworkSupport-1,CCSCHC+ch is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-CCSCVC+ch,domain#CP-Marker+VirtualNetworkSupport-1,CCSCVC+ch is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#CP-HVHS+VS,HVHS+VS creates a link that should not match VirtualHost-connectedTo-LogicalSubnet,FALSE,TRUE
+package#Virtualisation,domain#CP-DCVHVS-H+p,domain#CP-HVHS+VS,HVHS+VS creates a link that should not match LogicalSubnet-providedBy-Gateway,FALSE,TRUE
+package#Virtualisation,domain#CP-EH+iS,domain#CP-Marker+HostClassification-1,EH+iS is at the end of the host classification sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HCLSg+vf,domain#CP-Marker+VirtualNetworkSupport-1,HCLSg+vf is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HCLSg+vt,domain#CP-Marker+VirtualNetworkSupport-1,HCLSg+vt is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HL+iLS,domain#CP-Marker+VirtualNetworkCreation-1,HL+iLS is at the end of the inferred virtual network creation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-Marker+VirtualHostManagement-1,HumHVH-Hu+m is at the end of the virtual host management inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+PhysicalHostInference-3,domain#CP-Marker+VirtualHostCreation-1,Physical host inference for virtual hosts is a subsequence of inferred virtual host creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostCreation-1,domain#CP-Marker+HostClassification-0,Inferred virtual host creation should precede host classification,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostCreation-1,domain#CP-Marker+HostCreation-1,Inferred virtual host creation is a subsequence of inferred host creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostManagement-1,domain#CP-Marker+HostManagement-1,Virtual host management inference is a subsequence of host management inference,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostOperation-1,domain#CP-Marker+HostOperation-1,Virtual host operation inference is a subsequence of host operation inference,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualNetworkCreation-1,domain#CP-Marker+FixedNetworkCreation-0,Fixed network creation should follow inferred virtual network creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualNetworkCreation-1,domain#CP-Marker+NetworkCreation-1,Inferred virtual network creation is a subsequence of inferred network creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualStorageServices-1,domain#CP-Marker+ServiceCreation-1,Virtual volume service creation is a subsequence of system service creation,FALSE,TRUE
+package#Virtualisation,domain#CP-StoHVH-St+m,domain#CP-Marker+VirtualHostOperation-1,StoHVH-St+m is at the end of the virtual host operation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-VH-LnS+LnS,domain#CP-Marker+RootLogin-1,VH-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-Marker+PhysicalHostInference-3,VHPH+hPH is at the end of the sequence for inferring physical hosts of virtual hosts,FALSE,TRUE
+package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Marker+VirtualStorageServices-1,VHPhDHS-HsS-S+u is at the end of the virtual storage volume service creation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-VSVCHCLS+uPS,domain#CP-Marker+VirtualNetworkSupport-1,VSVCHCLS+uPS is at the end of the virtual network dependency inference sequence,FALSE,TRUE

@@ -51,6 +51,7 @@ package#Network,domain#LossOfNetworkUserTW,domain#AbstractSubnet
 package#Network,domain#LossOfResourceTW,domain#DataCentre
 package#Network,domain#LossOfResourceTW,domain#Host
 package#Network,domain#LossOfUserTW,domain#Accessible
+package#Network,domain#NetworkAccess,domain#LogicalSubnet
 package#Network,domain#Overloaded,domain#Accessible
 package#Network,domain#Overloaded,domain#LogicalSubnet
 package#Network,domain#TotalLoad,domain#DataCentre

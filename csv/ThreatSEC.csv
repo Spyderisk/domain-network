@@ -1,7 +1,5 @@
 package,URI,hasSecondaryEffectCondition
-domain#000000,domain#000000,domain#MS-Overloaded-Host
-package#CloudManagement,domain#H.A.CVHHDC.0,domain#MS-Overloaded-Host
-package#CloudManagement,domain#H.O.CVHHHoDC.0,domain#MS-Overloaded-Host
+domain#000000,domain#000000,domain#MS-InService-DataFlow
 package#DataCaching,domain#DF.Auth.HDCDF.0,domain#MS-InService-DataFlow
 package#DataCaching,domain#DF.Auth.HDCDF.0,domain#MS-LossOfAuthenticity-DataCache
 package#DataCaching,domain#DF.I.HDCDF.0,domain#MS-InService-DataFlow
@@ -174,12 +172,15 @@ package#ProcessTrust,domain#P.O.CCDFSFS.0,domain#MS-Overloaded-DataStep
 package#ProcessTrust,domain#P.O.CCDFSTS.0,domain#MS-InService-ClientChannel
 package#ProcessTrust,domain#P.O.CCDFSTS.0,domain#MS-Overloaded-DataStep
 package#ProcessTrust,domain#SC.A.CCCmSCS.0,domain#MS-LossOfAvailability-Service
+package#Virtualisation,domain#H.A.CVHHDC.0,domain#MS-Overloaded-Host
 package#Virtualisation,domain#H.A.HVH.0,domain#MS-LossOfAvailability-SHost
+package#Virtualisation,domain#H.O.CVHHHoDC.0,domain#MS-Overloaded-Host
 package#Virtualisation,domain#HC.A.ImHCf.0,domain#MS-LossOfAvailability-Interface
 package#Virtualisation,domain#HC.A.ImHCt.0,domain#MS-LossOfAvailability-Interface
 package#Virtualisation,domain#HC.A.LSmHC.0,domain#MS-LossOfAvailability-LogicalSubnet
 package#Virtualisation,domain#HC.A.SgmHC.0,domain#MS-LossOfAvailability-LogicalSegment
 package#Virtualisation,domain#LS.A.LSoLS.0,domain#MS-LossOfAvailability-LogicalSubnet
+package#Virtualisation,domain#LS.O.LSoLS.0,domain#MS-Overloaded-OverlaySubnet
 package#Virtualisation,domain#SC.A.VC2HmSC.0,domain#MS-LossOfAvailability-VirtualChannel
 package#Virtualisation,domain#VC.A.VC2HmHC.0,domain#MS-LossOfAvailability-HostChannel
 package#VulnerabilityCVSS,domain#H.E-A.TH.8,domain#MS-VulnerabilityDiscovered-Host

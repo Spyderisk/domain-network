@@ -66,13 +66,11 @@ package#CloudManagement,domain#INS-DCCM-A+A-APIServer,domain#Node-Cluster-Cluste
 package#CloudManagement,domain#INS-DCCM-P+P-Ingress,domain#Node-Cluster-Cluster
 package#CloudManagement,domain#INS-DCCt-Pod+Pod-Pod,domain#Node-Container-Container
 package#CloudManagement,domain#INS-DCCt-Pod+Pod-Pod,domain#Node-DataCentre-DataCentre
-package#CloudManagement,domain#INS-DCMW-LS+VX-VirtualSubnet,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#INS-DCPS-Pod+Pod-Pod,domain#Node-Process-Process
 package#CloudManagement,domain#INS-MWHLS+CIP-ClusterIP,domain#Node-Host-Host
 package#CloudManagement,domain#INS-PodDCC-M+M-CloudMaster,domain#Node-Cluster-Cluster
 package#CloudManagement,domain#INS-PodDCMC-W-H+W-CloudWorker,domain#Node-Cluster-Cluster
 package#CloudManagement,domain#INS-PodP-Cn+Cn-Container,domain#Node-Process-Process
-package#CloudManagement,domain#INS-VH-LnS+LnS-LoginService,domain#Node-VirtualHost-VirtualHost
 package#DataCaching,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,domain#Node-Data-Data
 package#DataCaching,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,domain#Node-Host-Host
 package#DataCaching,domain#INS-H-sDFSACaiFS+DS-DataCopy,domain#Node-Data-Data
@@ -357,4 +355,5 @@ package#Virtualisation,domain#INS-HVHS+VS-HostLAN,domain#Node-Space-Space
 package#Virtualisation,domain#INS-VCH2LS2PP+HC-HostChannel,domain#Node-FromHost-Host
 package#Virtualisation,domain#INS-VCH2LS2PP+HC-HostChannel,domain#Node-Host-Host
 package#Virtualisation,domain#INS-VCH2LS2PP+HC-HostChannel,domain#Node-PhysicalPath-PhysicalPath
+package#Virtualisation,domain#INS-VH-LnS+LnS-LoginService,domain#Node-VirtualHost-VirtualHost
 package#Virtualisation,domain#INS-VHHsD-HsS-S+S-DataService,domain#Node-Host-Host

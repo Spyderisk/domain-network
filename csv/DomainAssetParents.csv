@@ -339,7 +339,7 @@ package#Virtualisation,domain#ScalableHost,domain#TypeOverlayHost
 package#Virtualisation,domain#VCluster,domain#ClusterHost
 package#Virtualisation,domain#VCluster,domain#HostPalette
 package#Virtualisation,domain#VCluster,domain#ScalableHost
-package#Virtualisation,domain#VCluster,domain#VM
+package#Virtualisation,domain#VCluster,domain#VirtualHost
 package#Virtualisation,domain#VM,domain#DumbHost
 package#Virtualisation,domain#VM,domain#GeneralHost
 package#Virtualisation,domain#VM,domain#HostPalette
