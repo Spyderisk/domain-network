@@ -9,7 +9,6 @@ package#5G,domain#MP-CNCNBSS,CNCNBSS,Finds a cellular network with a backbone ne
 package#5G,domain#MP-CNHS+RAN,CNHS+RAN,Finds a backbone network implementing a cellular network accessible from a space in which there is a RAN and a device connected to the cellular network that does not provide any of the networks.,domain#R-CNHS+RAN,FALSE,TRUE
 package#5G,domain#MP-CNR-CN,CNR-CN,Finds a cellular network provided by a router that has no backbone IP network.,domain#R-CNR,FALSE,FALSE
 package#5G,domain#MP-CNRAN2dS,CNRAN2dS,"Finds a radio access network implementing part of a cellular network, provided by a host serving as the base station and having (at least) two distinct locations.",domain#R-CNRAN2S,FALSE,FALSE
-package#5G,domain#MP-CNRANBSS,CNRANBSS,Finds a cellular network implemented by a radio access network provided by a base station (or virtual host running on the base station) which is located in a space.,domain#R-CNRANBSS,FALSE,FALSE
 package#5G,domain#MP-CNRANS,CNRANS,"Finds a radio access network accessible in a space, and the cellular network it belongs to.",domain#R-CNRANS,FALSE,FALSE
 package#5G,domain#MP-CNRLS,CNRLS,Finds a Cellular Network provided by a Host that also provides an IP subnet.,domain#R-CNRLS,FALSE,FALSE
 package#5G,domain#MP-CNS-RAN,CNS-RAN,"Finds a cellular network accessible from a space, but lacking a radio access network in that space.",domain#R-CNS,FALSE,FALSE
@@ -28,7 +27,6 @@ package#5G,domain#MP-L3rBrUR,L3rBrUR,"Finds a host acting as a base station prov
 package#5G,domain#MP-MPCNS,MPCNS,Finds a Public Cellular Network to which is connected a Mobile Host (or a Virtual Host running on it) located in a Space.,domain#R-MPCNS,FALSE,FALSE
 package#5G,domain#MP-PCN,PCN,Finds a Public Cellular Network.,domain#R-PCN,FALSE,FALSE
 package#5G,domain#MP-PCN-R,PCN-R,Finds a public cellular network that is not provided by any host.,domain#R-PCN,FALSE,FALSE
-package#5G,domain#MP-PCNRSI,PCNRSI,Finds a Public Cellular Network provided by a Gateway Host which is physically located in a Space and also connected to the Internet.,domain#R-PCNRSI,FALSE,FALSE
 package#5G,domain#MP-PCNRWI,PCNRWI,"Finds router providing a Public Cellular Network accessible from the World, along with the Internet which should also be accessible from the World.",domain#R-PCNRWI,FALSE,FALSE
 package#5G,domain#MP-PCNSRAN-p,PCNSRAN-p,Finds a backbone network implementing a private cellular network accessible from a space in which it has a radio access network not provided by any host.,domain#R-PCNSRAN,FALSE,FALSE
 package#5G,domain#MP-PCc-rBrPR,PCc-rBrPR,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a private cellular network.",domain#R-PCcBrPR,FALSE,TRUE
@@ -36,6 +34,7 @@ package#5G,domain#MP-PRrBc-rL3,PRrBc-rL3,"Finds a host acting as a base station 
 package#5G,domain#MP-PRrBrPR,PRrBrPR,"Finds a host acting as a base station providing two RANs, both of which are part of the same private cellular network.",domain#R-PRrBrPR,FALSE,FALSE
 package#5G,domain#MP-PcCNLS-S,PcCNLS-S,"Finds a process controlling a cellular network, and a logical subnet that implements part of the cellular network, where this logical subnet has no controlling service.",domain#R-PcCNLS,FALSE,FALSE
 package#5G,domain#MP-RAN,RAN,Finds a solo cellular Radio Access Network.,domain#R-RAN,FALSE,FALSE
+package#5G,domain#MP-RANBSS,RANBSS,Finds a radio access network provided by a base station (or virtual host running on the base station) which is located in a space.,domain#R-RANBSS,FALSE,FALSE
 package#5G,domain#MP-RANaf2dS,RANaf2dS,Finds a cellular Radio Access Network accessible from two distinct Spaces.,domain#R-RANaf2S,FALSE,FALSE
 package#5G,domain#MP-Rc-rGcL3,Rc-rGcL3,"Finds a host connected to but not providing a RAN in a cellular network, and connected to an L2 or L3 Subnet accessible in the same Space that is not part of the cellular network.",domain#R-RcGcL3,FALSE,TRUE
 package#5G,domain#MP-RrBc-rC,RrBc-rC,"Finds a host acting as a base station providing a RAN and connected to an backbone network, both of which are part of a cellular network.",domain#R-RrBcC,FALSE,TRUE
@@ -403,7 +402,6 @@ package#LocalDeviceConnectivity,domain#MP-HuiHBTTH-Hu,HuiHBTTH-Hu,"Finds a Trivi
 package#LocalDeviceConnectivity,domain#MP-HuiHUSBTH-Hu,HuiHUSBTH-Hu,"Finds a TrivialHost with no manager, paired via USB with another host used by a Human.",domain#R-HuiHUSBTH,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HumHBTTH-Hu,HumHBTTH-Hu,"Finds a TrivialHost with no manager, paired via Bluetooth with another host managed by a Human.",domain#R-HumHBTTH,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HumHUSBTH-Hu,HumHUSBTH-Hu,"Finds a TrivialHost with no manager, paired via USB with another host managed by a Human.",domain#R-HumHUSBTH,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#MP-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,domain#R-HumTHS,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2,L1SSg2,"Finds a gateway between two distinct layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",domain#R-L1SSg2,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2AC,L1SSg2AC,"Finds a gateway between two distinct layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway, and a context in which the gateway is connected to both subnets.",domain#R-L1SSg2AC,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1cGcL3,L1cGcL3,"Finds a physical host connected to an L2/L3 subnet with a pairing connection from a distinct host, all in the same space.",domain#R-L1cGcL3,FALSE,FALSE
@@ -503,6 +501,7 @@ package#Network,domain#MP-HumHSt,HumHSt,Finds a Human managing a Host and their 
 package#Network,domain#MP-HumHoSt,HumHoSt,"Finds a Human managing a Host, and an optional employer of the Human.",domain#R-HumH,FALSE,FALSE
 package#Network,domain#MP-HumP-StSt,HumP-StSt,"Finds a Human managing a Process, where the Human is not an employee, and the Process has no operator.",domain#R-HumP,FALSE,FALSE
 package#Network,domain#MP-HumPH-m,HumPH-m,Finds an unmanaged host running a process that has a manager.,domain#R-HumPH,FALSE,FALSE
+package#Network,domain#MP-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,domain#R-HumTHS,FALSE,FALSE
 package#Network,domain#MP-HuoH-m,HuoH-m,Finds a Human operating an unmanaged Host.,domain#R-HuoH,FALSE,FALSE
 package#Network,domain#MP-HuwStmH-St,HuwStmH-St,"Finds a Human working for an Employer, who manages a Host that has no other operator.",domain#R-HuwStmH,FALSE,FALSE
 package#Network,domain#MP-HuwStmP-St,HuwStmP-St,"Finds a Human working for an Employer, and managing a Process that has no  operator.",domain#R-HuwStmP,FALSE,FALSE

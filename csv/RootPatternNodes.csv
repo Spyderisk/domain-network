@@ -34,11 +34,6 @@ package#5G,domain#R-CNRAN2S,domain#Node-OtherSpace-Space,TRUE
 package#5G,domain#R-CNRAN2S,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#5G,domain#R-CNRAN2S,domain#Node-RAN-RAN,TRUE
 package#5G,domain#R-CNRAN2S,domain#Node-Space-Space,TRUE
-package#5G,domain#R-CNRANBSS,domain#Node-BaseStation-BaseStation,TRUE
-package#5G,domain#R-CNRANBSS,domain#Node-CellularNetwork-CellularNetwork,TRUE
-package#5G,domain#R-CNRANBSS,domain#Node-Gateway-Host,TRUE
-package#5G,domain#R-CNRANBSS,domain#Node-RAN-RAN,TRUE
-package#5G,domain#R-CNRANBSS,domain#Node-Space-Space,TRUE
 package#5G,domain#R-CNRANS,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-CNRANS,domain#Node-LogicalSubnet-RAN,TRUE
 package#5G,domain#R-CNRANS,domain#Node-Space-Space,TRUE
@@ -106,11 +101,6 @@ package#5G,domain#R-MPCNS,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#5G,domain#R-MPCNS,domain#Node-PublicCellularNetwork-PublicCellularNetwork,TRUE
 package#5G,domain#R-MPCNS,domain#Node-Space-Space,TRUE
 package#5G,domain#R-PCN,domain#Node-PublicCellularNetwork-PublicCellularNetwork,TRUE
-package#5G,domain#R-PCNRSI,domain#Node-Gateway-Host,TRUE
-package#5G,domain#R-PCNRSI,domain#Node-Internet-Internet,TRUE
-package#5G,domain#R-PCNRSI,domain#Node-PhysicalHost-PhysicalHost,TRUE
-package#5G,domain#R-PCNRSI,domain#Node-PublicCellularNetwork-PublicCellularNetwork,TRUE
-package#5G,domain#R-PCNRSI,domain#Node-Space-Space,TRUE
 package#5G,domain#R-PCNRWI,domain#Node-Gateway-Host,TRUE
 package#5G,domain#R-PCNRWI,domain#Node-Internet-Internet,TRUE
 package#5G,domain#R-PCNRWI,domain#Node-PublicCellularNetwork-PublicCellularNetwork,TRUE
@@ -136,6 +126,10 @@ package#5G,domain#R-PcCNLS,domain#Node-CellularNetwork-CellularNetwork,TRUE
 package#5G,domain#R-PcCNLS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
 package#5G,domain#R-PcCNLS,domain#Node-Process-Process,TRUE
 package#5G,domain#R-RAN,domain#Node-LogicalSubnet-RAN,TRUE
+package#5G,domain#R-RANBSS,domain#Node-BaseStation-BaseStation,TRUE
+package#5G,domain#R-RANBSS,domain#Node-Gateway-Host,TRUE
+package#5G,domain#R-RANBSS,domain#Node-RAN-RAN,TRUE
+package#5G,domain#R-RANBSS,domain#Node-Space-Space,TRUE
 package#5G,domain#R-RANaf2S,domain#Node-OtherSpace-Space,TRUE
 package#5G,domain#R-RANaf2S,domain#Node-RAN-RAN,TRUE
 package#5G,domain#R-RANaf2S,domain#Node-Space-Space,TRUE
@@ -1462,9 +1456,6 @@ package#LocalDeviceConnectivity,domain#R-HumHBTTH,domain#Node-TrivialHost-Trivia
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Node-Host-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Node-Human-Human,TRUE
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Node-TrivialHost-TrivialHost,TRUE
-package#LocalDeviceConnectivity,domain#R-HumTHS,domain#Node-Host-TrivialHost,TRUE
-package#LocalDeviceConnectivity,domain#R-HumTHS,domain#Node-HostManager-Human,TRUE
-package#LocalDeviceConnectivity,domain#R-HumTHS,domain#Node-Space-Space,TRUE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Node-FromHost-Host,TRUE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Node-FromSubnet-L1Subnet,TRUE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Node-FwdSegment-LogicalRoute,TRUE
@@ -1745,6 +1736,9 @@ package#Network,domain#R-HumPH,domain#Node-Process-Process,TRUE
 package#Network,domain#R-HumPH,domain#Node-ProcessManager-Human,TRUE
 package#Network,domain#R-HumSH,domain#Node-Host-ShellHost,TRUE
 package#Network,domain#R-HumSH,domain#Node-HostManager-Human,TRUE
+package#Network,domain#R-HumTHS,domain#Node-Host-TrivialHost,TRUE
+package#Network,domain#R-HumTHS,domain#Node-HostManager-Human,TRUE
+package#Network,domain#R-HumTHS,domain#Node-Space-Space,TRUE
 package#Network,domain#R-HuoH,domain#Node-Host-Host,TRUE
 package#Network,domain#R-HuoH,domain#Node-Human-Human,TRUE
 package#Network,domain#R-HuwStmH,domain#Node-Employer-Stakeholder,TRUE

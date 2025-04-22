@@ -1,5 +1,62 @@
 package,URI,hasPredecessor,notes,fake,asserted
-domain#000000,domain#000000,domain#CP-Marker+ProcessClassification-0,CP+hCLI is at the start of the process classification sequence,No,Yes
+domain#000000,domain#000000,domain#CP-CNR-CN+CN,CNR-CN+CN creates a link that in BCNH-i-H+p matches LogicalSubnet-providedBy-Gateway,No,Yes
+package#5G,domain#CP-BCNH-i-H+p,domain#CP-CNR-CN+CN,CNR-CN+CN creates a link that in BCNH-i-H+p matches LogicalSubnet-providedBy-Gateway,FALSE,TRUE
+package#5G,domain#CP-BCNH-i-H+p,domain#CP-CNRLS+i,CNRLS+I creates a link that in BCNH-i-H+p matches LogicalSubnet-implementsCN-CellularNetwork,FALSE,TRUE
+package#5G,domain#CP-BSCNSRAN-p+p,domain#CP-CNS-RAN+RAN,CNS-RAN+RAN creates a link that in BSCNSRAN-p+p matches RAN-accessibleFrom-Space,FALSE,TRUE
+package#5G,domain#CP-BSCNSRAN-p+p,domain#CP-CNSBSRAN-p+p,CNSBSRAN-p+p creates a link that in BSCNSRAN-p+p matches RAN-providedBy-Host,FALSE,TRUE
+package#5G,domain#CP-CNBH+p,domain#CP-BCNH-i-H+p,BCNH-i-H+p creates a link that in CNBH+p matches LogicalSubnet-providedBy-Gateway,FALSE,TRUE
+package#5G,domain#CP-CNBH+p,domain#CP-CNRLS+i,CNRLS+i creates a link that in CNBH+p matches LogicalSubnet-implementsCN-CellularNetwork,FALSE,TRUE
+package#5G,domain#CP-CNCNBSS+aF,domain#CP-Marker+5GAccess-0,CNCNBSS+aF is at the start of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-CNHS+RAN+cT,domain#CP-PCNSRAN-p+BS,PCNSRAN-p+BS creates a link that in CNHS+RAN+cT matches RAN-providedBy-Host,FALSE,TRUE
+package#5G,domain#CP-CNHS+RAN+cT,domain#CP-UCNSRAN-p+BS,UCNSRAN-p+BS creates a link that in CNHS+RAN+cT matches RAN-providedBy-Host,FALSE,TRUE
+package#5G,domain#CP-CNR-CN+CN,domain#CP-PCN-R+R,PCN-R+R creates a link that in CNR-CN+CN matches CellularNetwork-providedBy-Gateway,FALSE,TRUE
+package#5G,domain#CP-CNRANS+aF,domain#CP-Marker+5GAccess-0,CNRANS+aF is at the start of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-CNRLS+i,domain#CP-CNR-CN+CN,CNR-CN+CN creates a link that in CNRLS+I matches LogicalSubnet-providedBy-Gateway,FALSE,TRUE
+package#5G,domain#CP-CNRLS+i,domain#CP-PCN-R+R,PCN-R+R creates a link that in CNRLS+I matches CellularNetwork-providedBy-Gateway,FALSE,TRUE
+package#5G,domain#CP-CNS-RAN+RAN,domain#CP-RANBSS+aF,RANBSS+aF creates a link that in CNS-RAN+RAN matches LogicalSubnet-accessibleFrom-Space,FALSE,TRUE
+package#5G,domain#CP-CNSBSRAN-p+p,domain#CP-CNS-RAN+RAN,CNS-RAN+RAN creates a link that in CNSBSRAN-p+p matches RAN-accessibleFrom-Space,FALSE,TRUE
+package#5G,domain#CP-CNSBSRAN-p+p,domain#CP-SRAN-mSBS-S+l,SRAN-mSBS-S+l creates a link that in CNSBSRAN-p+p matches BaseStation-locatedIn-Space,FALSE,TRUE
+package#5G,domain#CP-CrCcL3+NSg,domain#CP-Marker+5GConnectivity-0,CrCcL3+NSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-FCNS+aF,domain#CP-Marker+5GAccess-0,FCNS+aF is at the start of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-Marker+5GConnectivity-0,L3c-rBrPR+DSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-Marker+5GConnectivity-0,L3c-rBrUR+CSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cCrPC+DSg,domain#CP-Marker+5GConnectivity-0,L3cCrPC+DSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cCrUC+CSg,domain#CP-Marker+5GConnectivity-0,L3cCrUC+CSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-Marker+5GConnectivity-0,L3cGc-rR+NSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3rBrPR+DSg,domain#CP-Marker+5GConnectivity-0,L3rBrPR+DSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3rBrUR+CSg,domain#CP-Marker+5GConnectivity-0,L3rBrUR+CSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-MPCNS+aF,domain#CP-Marker+5GAccess-0,MPCNS+aF is at the start of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-Marker+5GAccess-0,domain#CP-Marker+LocalNetworkCreation-0,Cellular access network creation is a subsequence of inferred localised network creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GAccess-1,domain#CP-Marker+5GAccess-0,Start precedes end of sequence,FALSE,TRUE
+package#5G,domain#CP-Marker+5GAccess-2,domain#CP-Marker+5GAccess-1,Cellular network accessibility inference precedes cellular access network creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GAccess-3,domain#CP-Marker+5GAccess-2,Start precedes end of sequence,FALSE,TRUE
+package#5G,domain#CP-Marker+5GBackbone-0,domain#CP-Marker+FixedNetworkCreation-1,Cellular network backbone inference should follow inferred physical network creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GBackbone-1,domain#CP-Marker+5GBackbone-0,Start precedes end of sequence,FALSE,TRUE
+package#5G,domain#CP-Marker+5GConnectivity-0,domain#CP-Marker+NetworkSegments-0,Cellular network path segment creation is a subsequence of network path segment creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GConnectivity-1,domain#CP-Marker+5GConnectivity-0,Start precedes end of sequence,FALSE,TRUE
+package#5G,domain#CP-PCN+W,domain#CP-Marker+5GBackbone-0,PCN+W is at the start of the cellular network backbone inference sequence,FALSE,TRUE
+package#5G,domain#CP-PCN-R+R,domain#CP-Marker+5GBackbone-0,PCN-R+R is at the start of the cellular network backbone creation sequence,FALSE,TRUE
+package#5G,domain#CP-PCNRWI+ct,domain#CP-CNBH+p,CNBH+p creates a link that in PCNRWI+ct matches PublicCellularNetwork-providedBy-Gateway,FALSE,TRUE
+package#5G,domain#CP-PCNRWI+ct,domain#CP-PCN+W,PCN+W creates a link that in PCNRWI+ct matches PublicCellularNetwork-accessibleFrom-World,FALSE,TRUE
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-BSCNSRAN-p+p,BSCNSRAN-p+p creates a link that in PCNSRAN-p+BS matches RAN-providedBy-Host,FALSE,TRUE
+package#5G,domain#CP-PCNSRAN-p+BS,domain#CP-CNSBSRAN-p+p,CNSBSRAN-p+p creates a link that in PCNSRAN-p+BS matches RAN-providedBy-Host,FALSE,TRUE
+package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-Marker+5GConnectivity-0,PCc-rBrPR+DSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-Marker+5GConnectivity-0,PRrBc-rL3+NSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PRrBrPR+OSg,domain#CP-Marker+5GConnectivity-0,PRrBrPR+OSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PcCNLS-S+c,domain#CP-CNS-RAN+RAN,CNS-RAN+RAN creates a link that in PcCNLS-S+c matches LogicalSubnet-implementsCN-CellularNetwork,FALSE,TRUE
+package#5G,domain#CP-RAN+iLS,domain#CP-CNS-RAN+RAN,CNS-RAN+RAN creates an asset that in RAN+iLS matches RAN,FALSE,TRUE
+package#5G,domain#CP-RANBSS+aF,domain#CP-Marker+5GAccess-2,RANBSS+aF is at the start of the cellular access network inference sequence,FALSE,TRUE
+package#5G,domain#CP-RANaf2dS+mS,domain#CP-RANBSS+aF,RANBSS+aF creates a link that in RANaf2dS+mS matches RAN-accessibleFrom-Space,FALSE,TRUE
+package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-Marker+5GConnectivity-0,Rc-rGcL3+DSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-RrBc-rC+NSg,domain#CP-Marker+5GConnectivity-0,RrBc-rC+NSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-RrBrL3+NSg,domain#CP-Marker+5GConnectivity-0,RrBrL3+NSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-RANaf2dS+mS,creates a link that in SRAN-mSBS-S+l matches RAN-multiSpace-RAN,FALSE,TRUE
+package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-BSCNSRAN-p+p,BSCNSRAN-p+p creates a link that in UCNSRAN-p+BS matches RAN-providedBy-Host,FALSE,TRUE
+package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-CNSBSRAN-p+p,CNSBSRAN-p+p creates a link that in UCNSRAN-p+BS matches RAN-providedBy-Host,FALSE,TRUE
+package#5G,domain#CP-UCNSRAN-p+BS,domain#CP-PCNSRAN-p+BS,PCNSRAN-p+BS creates a link that in UCNSRAN-p+BS cannot match RAN-providedBy-Host because the RAN-implementsCN a private CN,TRUE,TRUE
+package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-Marker+5GConnectivity-0,UCc-rBrUR+CSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-Marker+5GConnectivity-0,URrBc-rL3+CSg is at the start of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-URrBrUR+CSg,domain#CP-Marker+5GConnectivity-0,URrBrUR+CSg is at the start of the 5G segment creation sequence,FALSE,TRUE
 package#Application,domain#CP-CP+hCLI,domain#CP-Marker+ProcessClassification-0,CP+hCLI is at the start of the process classification sequence,FALSE,TRUE
 package#Application,domain#CP-HuE+e,domain#CP-Marker+HumanStatus-0,HuE+e is at the start of the human status inference sequence,FALSE,TRUE
 package#Application,domain#CP-HuSP+SMS,domain#CP-Marker+ClientService-0,HuSP+SMS is at the start of the inferred application process creation sequence,FALSE,TRUE
@@ -280,6 +337,33 @@ package#DataStructure,domain#CP-Marker+DataFields-1,domain#CP-Marker+DataFields-
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,DAO-iDADInDF-n+n creates a link that in PDO-gDAnDF-i+i matches DataAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,DAO-iDADInDF-n+n-Replay creates a link that in PDO-gDAnDF-i+i-Replay matches DataAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-0,PpD-iDF+a is at the start of the data field inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-Marker+PairedDeviceConnectivity-0,BPcGcBP+OSg is at the start of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#CP-HUSBTHS-S+l,HUSBTHS-S+l creates a link that in HBTTHS-S+l matches TrivialHost-locatedIn-OtherSpace,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-Marker+PairedDeviceLocation-0,HUSBTHS-S+l is at the start of the paired device location inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-Marker+PairingConnections-0,HpBRH+B is at the start of the pairing connection inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-Marker+PairingConnections-0,HpURH+U is at the start of the pairing connection inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HuiHBTTH-Hu+m,domain#CP-HuiHUSBTH-Hu+m,HuiHUSBTH-Hu+m creates a link that in HuiHBTTH-Hu+m matches HostManager-manages-TrivialHost,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HuiHUSBTH-Hu+m,domain#CP-Marker+PairedDeviceManagement-0,HuiHUSBTH-Hu+m is at the start of the paired device management inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HumHBTTH-Hu+m,domain#CP-HumHUSBTH-Hu+m,HumHUSBTH-Hu+m creates a link that in HumHBTTH-Hu+m matches HostManager-manages-TrivialHost,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#CP-HuiHBTTH-Hu+m,HuiHBTTH-Hu+m creates a link that in HumHUSBTH-Hu+m matches HostManager-manages-TrivialHost,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-Marker+PairedDeviceConnectivity-0,L1cGcL3+NSg is at the start of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-Marker+PairedDeviceConnectivity-0,L3cGcL1+CSg is at the start of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceConnectivity-0,domain#CP-Marker+NetworkSegments-0,Paired device connectivity inference is a subsequence of network path segment creation,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceConnectivity-1,domain#CP-Marker+PairedDeviceConnectivity-0,Start precedes end of sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceLocation-0,domain#CP-Marker+HostLocation-0,Paired device location inference is a subsequence of host location inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceLocation-1,domain#CP-Marker+PairedDeviceLocation-0,Start precedes end of sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceManagement-0,domain#CP-Marker+HostManagement-0,Paired device management inference is a subsequence of host management inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceManagement-1,domain#CP-Marker+PairedDeviceManagement-0,Start precedes end of sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedStorageServices-0,domain#CP-Marker+ServiceCreation-0,Paired storage service creation is a subsequence of system service creation,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedStorageServices-1,domain#CP-Marker+PairedStorageServices-0,Start precedes end of sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairingConnections-0,domain#CP-Marker+LocalNetworkCreation-0,Pairing connection inference is a subsequence of inferred localised network creation,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairingConnections-1,domain#CP-Marker+PairingConnections-0,Start precedes end of sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-UHDrP-S+S,UHDrP-S+S creates a link that in UHDSrP+u matches Service-serves-Data,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UHDpP-S+S,domain#CP-USBD-S+S,USBD-S+S creates a link that in UHDpP-S+S matches DB-serves-Data,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UHDrP-S+S,domain#CP-UHDpP-S+S,UHDpP-S+S creates a link that in UHDrP-S+S matches Service-uses-DB,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-Marker+PairedDeviceConnectivity-0,UPc-rGrUP+OSg is at the start of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-Marker+PairedDeviceConnectivity-0,UPrGc-rUP+OSg is at the start of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#CP-Marker+PairedStorageServices-0,USBD-S+S is at the start of the paired device storage service inference sequence,FALSE,TRUE
 package#Network,domain#CP-C+iC,domain#CP-Marker+HostClassification-0,C+iC is at the start of the host classification sequence,FALSE,TRUE
 package#Network,domain#CP-DC-C+C,domain#CP-Marker+FixedHostCreation-0,DC-C+C is at the start of the inferred fixed host creation sequence,FALSE,TRUE
 package#Network,domain#CP-DC-R+RW,domain#CP-Marker+FixedHostCreation-0,DC-R+RW is at the start of the inferred fixed host creation sequence,FALSE,TRUE
@@ -305,7 +389,7 @@ package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-Marker+RemoteLogin-0,HuiCHLnS
 package#Network,domain#CP-HuiH-Hu+m,domain#CP-SHuPH-Hu+m,SHuPH-Hu+m creates link matched in HuiH-Hu+m as HostManager-manages-Host,FALSE,TRUE
 package#Network,domain#CP-HuiHP-m+m,domain#CP-Marker+ProcessManagement-0,HuiHP-m+m is at the start of the process management inference sequence,FALSE,TRUE
 package#Network,domain#CP-HuiHS+cA,domain#CP-Marker+UserMobilityRequirements-0,HuiHS+cA is at the start of the user mobility requirements inference sequence,FALSE,TRUE
-package#Network,domain#CP-HuiPDaS-S+l,domain#CP-Marker+HostLocation-0,HuiPDaS-S+l is at the start of the mobile host location inference sequence,FALSE,TRUE
+package#Network,domain#CP-HuiPDaS-S+l,domain#CP-Marker+MobileHostLocation-0,HuiPDaS-S+l is at the start of the mobile host location inference sequence,FALSE,TRUE
 package#Network,domain#CP-HuiPH-Hu+m,domain#CP-HuoH-m+m,HuoH-m+m creates link that in HuiPH-Hu+m should match HostManager-manages-Host,FALSE,TRUE
 package#Network,domain#CP-HuiPH-iD+iP,domain#CP-Hui2H+iD,Hui2H+iD creates a link that is prohibited as Host-impersonalDevice-Host in HuiPH-iD+iP,FALSE,TRUE
 package#Network,domain#CP-Hum-iHRAS+i,domain#CP-Hum-iSH-LnS+LnS,Hum-iSH-LnS+LnS creates link that in Hum-iHRAS+i should match RemoteAccessService-controls-Host,FALSE,TRUE
@@ -314,6 +398,7 @@ package#Network,domain#CP-HumH-StSt+o,domain#CP-HuwStmH-St+o,HuwStmH-St+o create
 package#Network,domain#CP-HumHP-im+m,domain#CP-HuiHP-m+m,HuiHP-m+m creates a link but in HumHP-im+m it should not match Human2-manages-Process because the Process cannot be interactive,FALSE,TRUE
 package#Network,domain#CP-HumP-StSt+o,domain#CP-HuwStmP-St+o,HuwStmP-St+o creates a link that in HumP-StSt+o matches Operator-operates-Process,FALSE,TRUE
 package#Network,domain#CP-HumPH-m+m,domain#CP-HuiH-Hu+m,HuiH-Hu+m creates link matched in HumPH-m+m as HostManager-manages-Host,FALSE,TRUE
+package#Network,domain#CP-HumTHS+cA,domain#CP-Marker+UserMobilityRequirements-0,HumTHS+cA is at the start of the user mobility requirements inference sequence,FALSE,TRUE
 package#Network,domain#CP-HuoH-m+m,domain#CP-Marker+PhysicalHostManagement-0,HuoH-m+m is at the start of the physical host management inference sequence,FALSE,TRUE
 package#Network,domain#CP-HuwStmH-St+o,domain#CP-Marker+PhysicalHostOperation-0,HuwStmH-St+o is at the start of the physical host operation inference sequence,FALSE,TRUE
 package#Network,domain#CP-HuwStmP-St+o,domain#CP-Marker+ProcessOperation-0,HuwStmP-St+o is at the start of the process operation inference sequence,FALSE,TRUE
@@ -353,6 +438,8 @@ package#Network,domain#CP-Marker+LocalNetworkCreation-0,domain#CP-Marker+FixedNe
 package#Network,domain#CP-Marker+LocalNetworkCreation-0,domain#CP-Marker+HostLocation-1,Mobile host location inference should precede inferred local network creation,FALSE,TRUE
 package#Network,domain#CP-Marker+LocalNetworkCreation-1,domain#CP-Marker+LocalNetworkCreation-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+LocalNetworkCreation-2,domain#CP-Marker+LocalNetworkCreation-1,Start precedes end of sequence,FALSE,TRUE
+package#Network,domain#CP-Marker+MobileHostLocation-0,domain#CP-Marker+HostLocation-0,Mobile host location inference is a subsequence of host location inference,FALSE,TRUE
+package#Network,domain#CP-Marker+MobileHostLocation-1,domain#CP-Marker+MobileHostLocation-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkAccessibility-0,domain#CP-Marker+NetworkConnections-3,Network connection inference should precede network accessibility inference,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkAccessibility-1,domain#CP-Marker+NetworkAccessibility-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkConnections-2,domain#CP-Marker+LocalNetworkCreation-2,Local network creation should precede non-fixed network connection inference,FALSE,TRUE
@@ -384,7 +471,6 @@ package#Network,domain#CP-Marker+ProcessOperation-1,domain#CP-Marker+ProcessOper
 package#Network,domain#CP-Marker+RemoteLogin-0,domain#CP-Marker+ClientCreation-0,Remote login client creation is a subsequence of system client creation,FALSE,TRUE
 package#Network,domain#CP-Marker+RemoteLogin-1,domain#CP-Marker+RemoteLogin-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+RootLogin-0,domain#CP-Marker+ServiceCreation-0,Root login service creation is a subsequence of system service creation,FALSE,TRUE
-package#Network,domain#CP-Marker+RootLogin-0,domain#CP-Marker+UserHostInteraction-1,User-host interaction inference should precede remote root login service creation,FALSE,TRUE
 package#Network,domain#CP-Marker+RootLogin-1,domain#CP-Marker+RootLogin-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+RootLogin-2,domain#CP-Marker+RootLogin-1,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+ServiceCreation-0,domain#CP-Marker+SystemProcess-0,System service creation is a subsequence of system process creation,FALSE,TRUE
@@ -394,6 +480,7 @@ package#Network,domain#CP-Marker+SocketNetworkCreation-0,domain#CP-Marker+Physic
 package#Network,domain#CP-Marker+SocketNetworkCreation-1,domain#CP-Marker+SocketNetworkCreation-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+SystemProcess-0,domain#CP-Marker+HostManagement-1,Host management inference should precede inferred system process creation,FALSE,TRUE
 package#Network,domain#CP-Marker+SystemProcess-0,domain#CP-Marker+NetworkConnections-3,Network connection inference should precede inferred system process creation,FALSE,TRUE
+package#Network,domain#CP-Marker+SystemProcess-0,domain#CP-Marker+UserHostInteraction-1,User-host interaction inference should precede inferred system process creation,FALSE,TRUE
 package#Network,domain#CP-Marker+SystemProcess-1,domain#CP-Marker+SystemProcess-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+UserHostInteraction-0,domain#CP-Marker+UserProcessInteraction-1,User-process interactivity inference should precede user-host interactivity inference,FALSE,TRUE
 package#Network,domain#CP-Marker+UserHostInteraction-1,domain#CP-Marker+UserHostInteraction-0,Start precedes end of sequence,FALSE,TRUE
@@ -423,7 +510,7 @@ package#Network,domain#CP-TP+iT,domain#CP-Marker+ProcessClassification-0,TP+iT i
 package#Network,domain#CP-WS-H+I,domain#CP-WpHS-aF+iH,WpHS-aF+iH creates a link matched as LogicalSubnet-isHotspot-LogicalSubnet in WS-H+I,FALSE,TRUE
 package#Network,domain#CP-WpHS-aF+iH,domain#CP-Marker+WiFiHotspotCreation-0,WpHS-aF+iH is at the start of the WiFi hotspot creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-Marker+NetworkInterfaces-0,HLS+I is at the start of the network interface creation sequence,FALSE,TRUE
-package#NetworkConnectivity,domain#CP-L3c-rGc-rL3+OSg,domain#CP-Marker+NetworkSegments-0,L3c-rGc-rL3+OSg is at the start of the network path segment creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-L3c-rGc-rL3+OSg,domain#CP-Marker+IPSegments-0,L3c-rGc-rL3+OSg is at the start of the IP network path segment creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-L3c-rGrL3+DSg,domain#CP-L3c-rGc-rL3+OSg,L3c-rGc-rL3+OSg creates a link that in L3c-rGrL3+DSg should match RetSegment-via-Gateway,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-L3rGc-rL3+NSg,domain#CP-L3c-rGrL3+DSg,L3c-rGrL3+DSg creates a link that in L3rGc-rL3+NSg should match RetSegment-via-Gateway,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-L3rGrL3+OSg,domain#CP-L3rGc-rL3+NSg,L3rGc-rL3+NSg creates a link that in L3rGrL3+OSg should match RetSegment-via-Gateway,FALSE,TRUE
@@ -431,15 +518,18 @@ package#NetworkConnectivity,domain#CP-LPLS2NSg2+b,domain#CP-Marker+NetworkBlocks
 package#NetworkConnectivity,domain#CP-LPsLS+v,domain#CP-OPLS2+NP,OPLS2+NP creates a link that in LPsLS+v should match LogicalPath-start-LogicalSubnet,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-LPsLS+v,domain#CP-OPPS2+PP,OPPS2+PP creates a link that in LPsLS+v should match LogicalPath-start-LogicalSubnet,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-LS-iH+NPE,domain#CP-Marker+NetworkPaths-0,LS-iH+NPE is at the start of the logical network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-Marker+IPSegments-0,domain#CP-Marker+NetworkSegments-0,IP network path segment creation is a subsqeuence of network path segment creation,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-Marker+IPSegments-1,domain#CP-Marker+IPSegments-0,Start precedes end of sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkBlocks-0,domain#CP-Marker+NetworkPaths-1,Network path creation should precede network blocked status inference,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkBlocks-1,domain#CP-Marker+NetworkBlocks-0,Start precedes end of sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkInterfaces-0,domain#CP-Marker+NetworkConnections-3,Network connection inference should precede network interface creation,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkInterfaces-1,domain#CP-Marker+NetworkInterfaces-0,Start precedes end of sequence,FALSE,TRUE
-package#NetworkConnectivity,domain#CP-Marker+NetworkPaths-0,domain#CP-Marker+NetworkSegments-1,Network path segment creation should precede network path creation,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-Marker+NetworkPaths-0,domain#CP-Marker+NetworkSegments-2,Network path segment creation should precede network path creation,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkPaths-1,domain#CP-Marker+NetworkPaths-0,Start precedes end of sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkSegments-0,domain#CP-Marker+NetworkAccessibility-1,Network accessibility inference should precede network path segment creation,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkSegments-0,domain#CP-Marker+NetworkInterfaces-1,Network interface creation should precede network path segment creation,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-Marker+NetworkSegments-1,domain#CP-Marker+NetworkSegments-0,Start precedes end of sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-Marker+NetworkSegments-2,domain#CP-Marker+NetworkSegments-1,Start precedes end of sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-NP2LS+v,domain#CP-NP3+x,NP3+x creates a link that in NP2LS+v should match NewPath-extends-OldPath,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-NP2LSg+t,domain#CP-NP3+x,NP3+x creates a link that in NP2LSg+t should match NewPath-extends-OldPath,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-NP3+x,domain#CP-OPLS2+NP,OPLS2+NP creates a link that in NP3+x should match NewPath-extends-NetworkPath,FALSE,TRUE
@@ -450,7 +540,9 @@ package#NetworkConnectivity,domain#CP-OPPS1+PP,domain#CP-PS-iH+PPE,PS-iH+PPE cre
 package#NetworkConnectivity,domain#CP-OPPS2+PP,domain#CP-OPPS1+PP,OPPS1+PP creates a link that in OPPS2+PP matches OldPath-start-LogicalSubnet,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-PS-iH+PPE,domain#CP-Marker+NetworkPaths-0,PS-iH+PPE is at the start of the logical network path creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-L3rGrL3+OSg,L3rGrL3+OSg creates link that in SgHfILS+f should match LogicalSegment-via-Host,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-1,SgHfILS+f is at the start of the network path segment relationship inference sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-L3rGrL3+OSg,L3rGrL3+OSg creates link that in SgHfILS+f should match LogicalSegment-via-Host,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-1,SgHtILS+t is at the start of the network path segment relationship inference sequence,FALSE,TRUE
 package#Physical,domain#CP-Marker+SpaceCreation-1,domain#CP-Marker+SpaceCreation-0,Start precedes end of sequence,FALSE,TRUE
 package#Physical,domain#CP-Marker+SpaceCreation-2,domain#CP-Marker+SpaceCreation-1,Start precedes end of sequence,FALSE,TRUE
 package#Physical,domain#CP-Marker+WorldTagging-1,domain#CP-Marker+SpaceCreation-2,Start precedes end of sequence,FALSE,TRUE

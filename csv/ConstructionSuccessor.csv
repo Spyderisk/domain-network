@@ -1,5 +1,34 @@
 package,URI,hasSuccessor,notes,fake,asserted
-domain#000000,domain#000000,domain#CP-Marker+ProcessClassification-1,CP+hCLI is at the end of the process classification sequence,No,Yes
+domain#000000,domain#000000,domain#CP-Marker+5GAccess-1,CNCNBSS+aF is at the end of the cellular network accessibility inference sequence,No,Yes
+package#5G,domain#CP-CNCNBSS+aF,domain#CP-Marker+5GAccess-1,CNCNBSS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-CNHS+RAN+cT,domain#CP-Marker+5GAccess-3,CNHS+RAN+cT is at the end of the cellular access network inference sequence,FALSE,TRUE
+package#5G,domain#CP-CNRANS+aF,domain#CP-Marker+5GAccess-1,CNRANS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-CrCcL3+NSg,domain#CP-Marker+5GConnectivity-1,CrCcL3+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-FCNS+aF,domain#CP-Marker+5GAccess-1,FCNS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-Marker+5GConnectivity-1,L3c-rBrPR+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-Marker+5GConnectivity-1,L3c-rBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cCrPC+DSg,domain#CP-Marker+5GConnectivity-1,L3cCrPC+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cCrUC+CSg,domain#CP-Marker+5GConnectivity-1,L3cCrUC+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-Marker+5GConnectivity-1,L3cGc-rR+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3rBrPR+DSg,domain#CP-Marker+5GConnectivity-1,L3rBrPR+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3rBrUR+CSg,domain#CP-Marker+5GConnectivity-1,L3rBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-MPCNS+aF,domain#CP-Marker+5GAccess-1,MPCNS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-Marker+5GAccess-3,domain#CP-Marker+WiFiHotspotCreation-0,Cellular access network creation should precede WiFi hotspot creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GBackbone-1,domain#CP-Marker+NetworkCreation-1,Cellular network backbone inference is a subsequence of inferred non-localised network creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GConnectivity-1,domain#CP-Marker+IPSegments-0,Cellular network path segment creation should precede other IP segment creation,FALSE,TRUE
+package#5G,domain#CP-PCNRWI+ct,domain#CP-Marker+5GBackbone-1,PCNRWI+ct is at the end of the cellular network backbone inference sequence,FALSE,TRUE
+package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-Marker+5GConnectivity-1,PCc-rBrPR+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-Marker+5GConnectivity-1,PRrBc-rL3+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PRrBrPR+OSg,domain#CP-Marker+5GConnectivity-1,PRrBrPR+OSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PcCNLS-S+c,domain#CP-Marker+5GAccess-3,CNHS+RAN+cT is at the end of the cellular access network inference sequence,FALSE,TRUE
+package#5G,domain#CP-RAN+iLS,domain#CP-Marker+5GAccess-3,RAN+iLS is at the end of the cellular access network creation sequence,FALSE,TRUE
+package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-Marker+5GConnectivity-1,Rc-rGcL3+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-RrBc-rC+NSg,domain#CP-Marker+5GConnectivity-1,RrBc-rC+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-RrBrL3+NSg,domain#CP-Marker+5GConnectivity-1,RrBrL3+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-CNS-RAN+RAN,CNS-RAN+RAN creates a link that in SRAN-mSBS-S+l should not match RAN-accessibleFrom-Space,FALSE,TRUE
+package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-Marker+5GConnectivity-1,UCc-rBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-Marker+5GConnectivity-1,URrBc-rL3+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-URrBrUR+CSg,domain#CP-Marker+5GConnectivity-1,URrBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
 package#Application,domain#CP-CP+hCLI,domain#CP-Marker+ProcessClassification-1,CP+hCLI is at the end of the process classification sequence,FALSE,TRUE
 package#Application,domain#CP-HuE+e,domain#CP-Marker+HumanStatus-1,HuE+e is at the end of the human status inference sequence,FALSE,TRUE
 package#Application,domain#CP-HuSP+SMS,domain#CP-Marker+ClientService-1,HuSP+SMS is at the end of the inferred application process creation sequence,FALSE,TRUE
@@ -87,6 +116,21 @@ package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-1,ScDSPDIc
 package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-Marker+DataFields-1,DAOiDADInDF-i+i-Replay is at the end of the data field inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-DCDFDF+i,domain#CP-Marker+DataFields-1,DCDFDF+I is at the end of the data field inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-1,PpD-iDF+a is at the end of the data field inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-Marker+PairedDeviceConnectivity-1,BPcGcBP+OSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#CP-Marker+PairedDeviceLocation-1,HBTTHS-S+l is at the end of the paired device location inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-Marker+PairingConnections-1,HpBRH+B is at the end of the pairing connection inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-Marker+PairingConnections-1,HpURH+U is at the end of the pairing connection inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HumHBTTH-Hu+m,domain#CP-Marker+PairedDeviceManagement-1,HumHBTTH-Hu+m is at the end of the paired device management inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-Marker+PairedDeviceConnectivity-1,L1cGcL3+NSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-Marker+PairedDeviceConnectivity-1,L3cGcL1+CSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceConnectivity-1,domain#CP-Marker+IPSegments-0,Paired device routing inference should precede IP routing inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceLocation-1,domain#CP-Marker+MobileHostLocation-0,Paired device location inference should precede other mobile host location inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceManagement-1,domain#CP-Marker+PhysicalHostManagement-0,Host management inference for other physical hosts should follow paired device management inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedStorageServices-1,domain#CP-Marker+RootLogin-0,Paired storage service inference should precede root login service creation,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairingConnections-1,domain#CP-Marker+LocalNetworkCreation-1,Pairing connection inference is a subsequence of inferred localised network creation,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-Marker+PairedStorageServices-1,UHDSrP+u is at the end of the paired device storage service inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-Marker+PairedDeviceConnectivity-1,UPc-rGrUP+OSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-Marker+PairedDeviceConnectivity-1,UPrGc-rUP+OSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
 package#Network,domain#CP-C+iC,domain#CP-Marker+HostClassification-1,C+iC is at the end of the host classification sequence,FALSE,TRUE
 package#Network,domain#CP-DCH+l,domain#CP-Marker+PhysicalHostInference-0,DCH+l is at the end of the inferred fixed host creation sequence,FALSE,TRUE
 package#Network,domain#CP-DCWH-LS+c,domain#CP-Marker+FixedNetworkConnections-1,DCWH-LS+c is at the end of the fixed host network connection inference sequence,FALSE,TRUE
@@ -104,6 +148,7 @@ package#Network,domain#CP-HuiPH-iD+iP,domain#CP-Marker+UserHostInteraction-1,Hui
 package#Network,domain#CP-Hum-iHRAS+i,domain#CP-Marker+RootLogin-2,Hum-iHRAS+i is at the end of the inferred root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-HumHP-im+m,domain#CP-Marker+ProcessManagement-1,HumHP-im+m is at the end of the process management inference sequence,FALSE,TRUE
 package#Network,domain#CP-HumPH-m+m,domain#CP-Marker+PhysicalHostManagement-1,HumPH-m+m is at the end of the physical host management inference sequence,FALSE,TRUE
+package#Network,domain#CP-HumTHS+cA,domain#CP-Marker+UserMobilityRequirements-1,HumTHS+cA is at the end of the user mobility requirements inference sequence,FALSE,TRUE
 package#Network,domain#CP-InternetMP+W,domain#CP-Marker+NetworkAccessibility-1,InternetMP+W is at the end of the network accessibility inference sequence,FALSE,TRUE
 package#Network,domain#CP-InternetMP+ii,domain#CP-Marker+FixedNetworkCreation-1,InternetMP+ii is at the end of the inferred fixed network creation sequence,FALSE,TRUE
 package#Network,domain#CP-MHC+iMHC,domain#CP-Marker+HostClassification-1,MHC+iMHC is at the end of the host classification sequence,FALSE,TRUE
@@ -112,6 +157,7 @@ package#Network,domain#CP-Marker+ClientCreation-1,domain#CP-Marker+SystemProcess
 package#Network,domain#CP-Marker+FixedHostCreation-1,domain#CP-Marker+HostCreation-1,Inferred physical host creation is a subsequence of inferred host creation,FALSE,TRUE
 package#Network,domain#CP-Marker+FixedNetworkCreation-1,domain#CP-Marker+NetworkCreation-1,Inferred physical network creation is a subsequence of inferred network creation,FALSE,TRUE
 package#Network,domain#CP-Marker+HostLocation-1,domain#CP-Marker+SpaceCreation-2,Host location inference may create a global public space,FALSE,TRUE
+package#Network,domain#CP-Marker+MobileHostLocation-1,domain#CP-Marker+HostLocation-1,Mobile host location inference is a subsequence of host location inference,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkAccessibility-1,domain#CP-Marker+SpaceCreation-2,Network accessibility inference may create a global public space,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkLogin-1,domain#CP-Marker+ClientCreation-1,Network login client creation is a subsequence of system client creation,FALSE,TRUE
 package#Network,domain#CP-Marker+PhysicalHostInference-1,domain#CP-Marker+FixedHostCreation-1,Physical host inference for physical hosts is a subsequence of inferred physical host creation,FALSE,TRUE
@@ -127,7 +173,7 @@ package#Network,domain#CP-Marker+UserProcessInteraction-1,domain#CP-Marker+Human
 package#Network,domain#CP-Marker+WiFiHotspotCreation-1,domain#CP-Marker+LocalNetworkCreation-1,WiFi hotspot creation is a subsequence of inferred local network creation,FALSE,TRUE
 package#Network,domain#CP-PC-LnS+LnS,domain#CP-Marker+RootLogin-1,PC-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-PH+hPH,domain#CP-Marker+PhysicalHostInference-1,PH+hPH is at the end of the sequence for physical host inference for physical hosts,FALSE,TRUE
-package#Network,domain#CP-PH2dS+iM,domain#CP-Marker+HostLocation-1,PH2dS+iM is at the end of the mobile host location inference sequence,FALSE,TRUE
+package#Network,domain#CP-PH2dS+iM,domain#CP-Marker+MobileHostLocation-1,PH2dS+iM is at the end of the mobile host location inference sequence,FALSE,TRUE
 package#Network,domain#CP-PHHS-iC+SL,domain#CP-Marker+SocketNetworkCreation-1,PHHS-iC+SL is at the end of internal network creation,FALSE,TRUE
 package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Marker+RootLogin-2,Pc-hSHLnS+c is at the end of the inferred root login service creation sequence,FALSE,TRUE
 package#Network,domain#CP-PcWH+c,domain#CP-Marker+WiFiHotspotCreation-1,PcWH+c is at the end of the WiFi hotspot creation sequence,FALSE,TRUE
@@ -140,12 +186,14 @@ package#Network,domain#CP-Sv-LnS+LnS,domain#CP-Marker+RootLogin-1,Sv-LnS+LnS is 
 package#Network,domain#CP-TP+iT,domain#CP-Marker+ProcessClassification-1,TP+iT is at the end of the process classification sequence,FALSE,TRUE
 package#Network,domain#CP-WS-H+I,domain#CP-WpHSH-aF+WH,WpHSH-aF+WH creates an asset that in WS-H+I should not match LogicalSubnet,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-Marker+NetworkInterfaces-1,HLS+I is at the end of the network interface creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-L3rGrL3+OSg,domain#CP-Marker+IPSegments-1,L3rGrL3+OSg is at the end of the IP network path segment creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-LPLS2NSg2+b,domain#CP-Marker+NetworkBlocks-1,LPLS2NSg2+b is at the end of the network blocking inference sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-LPsLS+v,domain#CP-Marker+NetworkPaths-1,LPsLS+v is at the end of the network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-Marker+IPSegments-1,domain#CP-Marker+NetworkSegments-1,IP network path segment creation is a subsqeuence of network path segment creation,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-NP2LS+v,domain#CP-Marker+NetworkPaths-1,NP2LS+v is at the end of the network path creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-NP2LSg+t,domain#CP-Marker+NetworkPaths-1,NP2LSg+t is at the end of the network path creation sequence,FALSE,TRUE
-package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-1,SgHfILS+f is at the end of the network path segment creation sequence,FALSE,TRUE
-package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-1,SgHtILS+t is at the end of the network path segment creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-2,SgHfILS+f is at the end of the network path segment relationship inference sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-2,SgHtILS+t is at the end of the network path segment relationship inference sequence,FALSE,TRUE
 package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-1,PPS-E+W is at the end of the physical entrance creation sequence,FALSE,TRUE
 package#Physical,domain#CP-W+iW,domain#CP-Marker+WorldTagging-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-Marker+AttackPath-2,APxSCtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE

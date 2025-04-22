@@ -9,7 +9,6 @@ package#5G,domain#CP-CNHS+RAN+cT,domain#Link-PhysicalHost-connectedTo-RAN
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-implementsCN-CellularNetwork
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-isNowhere-CoreNetwork
 package#5G,domain#CP-CNR-CN+CN,domain#Link-CoreNetwork-providedBy-Gateway
-package#5G,domain#CP-CNRANBSS+aF,domain#Link-RAN-accessibleFrom-Space
 package#5G,domain#CP-CNRANS+aF,domain#Link-CellularNetwork-accessibleFrom-Space
 package#5G,domain#CP-CNRLS+i,domain#Link-LogicalSubnet-implementsCN-CellularNetwork
 package#5G,domain#CP-CNS-RAN+RAN,domain#Link-RAN-accessibleFrom-Space
@@ -46,7 +45,6 @@ package#5G,domain#CP-PCN+W,domain#Link-World-isWorld-World
 package#5G,domain#CP-PCN-R+R,domain#Link-PublicCellularNetwork-providedBy-Router
 package#5G,domain#CP-PCN-R+R,domain#Link-Router-hasPhysicalHost-Router
 package#5G,domain#CP-PCN-R+R,domain#Link-Router-isRouter-Router
-package#5G,domain#CP-PCNRSI+aF,domain#Link-Internet-accessibleFrom-Space
 package#5G,domain#CP-PCNRWI+ct,domain#Link-Gateway-connectedTo-Internet
 package#5G,domain#CP-PCNSRAN-p+BS,domain#Link-BaseStation-connectedTo-CoreNetwork
 package#5G,domain#CP-PCNSRAN-p+BS,domain#Link-BaseStation-hasPhysicalHost-BaseStation
@@ -62,6 +60,7 @@ package#5G,domain#CP-PRrBrPR+OSg,domain#Link-LogicalSegment-to-ToSubnet
 package#5G,domain#CP-PRrBrPR+OSg,domain#Link-LogicalSegment-via-Gateway
 package#5G,domain#CP-PcCNLS-S+c,domain#Link-Process-controls-LogicalSubnet
 package#5G,domain#CP-RAN+iLS,domain#Link-LogicalSubnet-isLocalSubnet-LogicalSubnet
+package#5G,domain#CP-RANBSS+aF,domain#Link-RAN-accessibleFrom-Space
 package#5G,domain#CP-RANaf2dS+mS,domain#Link-RAN-multiSpace-RAN
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-from-FromSubnet
 package#5G,domain#CP-Rc-rGcL3+DSg,domain#Link-LogicalSegment-to-ToSubnet
@@ -621,7 +620,6 @@ package#LocalDeviceConnectivity,domain#CP-HuiHBTTH-Hu+m,domain#Link-Human-manage
 package#LocalDeviceConnectivity,domain#CP-HuiHUSBTH-Hu+m,domain#Link-Human-manages-TrivialHost
 package#LocalDeviceConnectivity,domain#CP-HumHBTTH-Hu+m,domain#Link-Human-manages-TrivialHost
 package#LocalDeviceConnectivity,domain#CP-HumHUSBTH-Hu+m,domain#Link-Human-manages-TrivialHost
-package#LocalDeviceConnectivity,domain#CP-HumTHS+cA,domain#Link-HostManager-canAccess-Space
 package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#Link-LogicalSegment-from-FromSubnet
 package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#Link-LogicalSegment-to-ToSubnet
 package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#Link-LogicalSegment-via-Gateway
@@ -681,6 +679,7 @@ package#Network,domain#CP-HumH-StSt+o,domain#Link-HostManager-operates-Host
 package#Network,domain#CP-HumHP-im+m,domain#Link-HostManager-manages-Process
 package#Network,domain#CP-HumP-StSt+o,domain#Link-ProcessManager-operates-Process
 package#Network,domain#CP-HumPH-m+m,domain#Link-ProcessManager-manages-Host
+package#Network,domain#CP-HumTHS+cA,domain#Link-HostManager-canAccess-Space
 package#Network,domain#CP-HuoH-m+m,domain#Link-Human-manages-Host
 package#Network,domain#CP-HuwStmH-St+o,domain#Link-Employer-operates-Host
 package#Network,domain#CP-HuwStmP-St+o,domain#Link-Employer-operates-Process
