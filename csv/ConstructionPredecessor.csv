@@ -548,6 +548,8 @@ package#Physical,domain#CP-Marker+SpaceCreation-2,domain#CP-Marker+SpaceCreation
 package#Physical,domain#CP-Marker+WorldTagging-1,domain#CP-Marker+SpaceCreation-2,Start precedes end of sequence,FALSE,TRUE
 package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-0,PPS-E+W is at the start of the physical entrance creation sequence,FALSE,TRUE
 package#Physical,domain#CP-W+iW,domain#CP-Marker+SpaceCreation-2,W+iW is at the start of the inferred space creation sequence,FALSE,TRUE
+package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-2,DHuDC+r is at the start of the stored data access relationship inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-DHuDF+r,domain#CP-Marker+DataCopy-2,DHuDF+r is at the start of the stored data access relationship inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-SCCAP+CSAP,SCCAP+CSAP creates a link that in APxSCtI+tI matches ServiceAttackPath-fromSubnet-AttackerSubnet,FALSE,TRUE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-SOCAP+OSAP,SOCAP+OSAP creates a link that in APxSCtI+tI matches ServiceAttackPath-fromSubnet-AttackerSubnet,FALSE,TRUE
 package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-SCCAP+CSAP,SCCAP+CSAP creates a link that in CAPNPSAP+pV matches ClientAttackPath-attackPathVia-ServiceAttackPath,FALSE,TRUE
@@ -736,6 +738,10 @@ package#ProcessTrust,domain#CP-PccCuS+N,domain#CP-CucSaP+c,CucSaP+c creates a li
 package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-CuScS+N,CuScS+N creates a link that in PnPnS-U+U matches Client-sharesCredentials-Proxy,FALSE,TRUE
 package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,PccCuS+N creates a link that in PnPnS-U+U matches Client-sharesCredentials-Proxy,FALSE,TRUE
 package#ProcessTrust,domain#CP-SCDS+fV,domain#CP-Marker+TrustInDataFlows-0,SCDS+fV is at the start of the trust in data flow inference sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCLS+ii+PNC,domain#CP-Marker+Reconnection-0,CSCLS+ii+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-0,CSCLS-ii+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-Marker+Reconnection-0,domain#CP-Marker+ProcessTrust-2,Trusted communication inference should precede reconnection context creation.,FALSE,TRUE
+package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+Reconnection-0,Start precedes end of sequence,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-0,A+iA is at the start of the user status classification sequence,FALSE,TRUE
 package#Users,domain#CP-Hu+W,domain#CP-Marker+UserMobilityRequirements-0,Hu+W is at the start of the human mobility requirements inference sequence,FALSE,TRUE
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-0,HuaSaE+cA is at the start of the human mobility inference sequence,FALSE,TRUE

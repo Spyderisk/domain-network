@@ -196,6 +196,8 @@ package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-2,SgHtILS+t is at the end of the network path segment relationship inference sequence,FALSE,TRUE
 package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-1,PPS-E+W is at the end of the physical entrance creation sequence,FALSE,TRUE
 package#Physical,domain#CP-W+iW,domain#CP-Marker+WorldTagging-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
+package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-3,DHuDC+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-DHuDF+r,domain#CP-Marker+DataCopy-3,DHuDF+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-Marker+AttackPath-2,APxSCtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-Marker+AttackPath-2,CAPNPSAP+pV is at the end of the attack path aggregation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CAPlISAP+lI,domain#CP-Marker+AttackPath-2,CAPlISAP+lI is at the end of the attack path aggregation sequence,FALSE,TRUE
@@ -250,6 +252,9 @@ package#ProcessTrust,domain#CP-Marker+ProcessTrust-3,domain#CP-Marker+Phishing-0
 package#ProcessTrust,domain#CP-Marker+TrustInDataFlows-1,domain#CP-Marker+ProcessTrust-3,Trust in data flow inference is a subsequence of process trust inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+TrustRelationship-1,domain#CP-Marker+ProcessTrust-1,Trust relationship creation is a subsequence of process trust inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+TrustedComms-1,domain#CP-Marker+ProcessTrust-2,Trusted comms channel inference is a subsequence of process trust inference,FALSE,TRUE
+package#Theft,domain#CP-CSCLS+ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS+ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS-ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+TrustContext-0,Trust contextualisation inference should follow reconnection context creation.,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-1,A+iA is at the end of the user status classification sequence,FALSE,TRUE
 package#Users,domain#CP-Hu+W,domain#CP-Marker+UserMobilityRequirements-1,Hu+W is at the end of the human mobility requirements inference sequence,FALSE,TRUE
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-1,HuaSaE+cA is at the end of the human mobility inference sequence,FALSE,TRUE

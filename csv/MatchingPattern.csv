@@ -437,6 +437,7 @@ package#Network,domain#MP-FHprLS,FHprLS,Finds a LogicalSubnet provided by a Fixe
 package#Network,domain#MP-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FcLSS,FALSE,TRUE
 package#Network,domain#MP-GH,GH,Finds a General Host (i.e. a host that can run arbitrary processes).,domain#R-GH,FALSE,FALSE
 package#Network,domain#MP-H,H,"Finds a solo Host, with optionally its manager(s) and interactive user(s).",domain#R-H,FALSE,FALSE
+package#Network,domain#MP-H-Hu,H-Hu,"Finds a Host that has no interactive user, no manager, and does not relate to any user.",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-H-iR-iMCHIUS,H-iR-iMCHIUS,Finds a Host that is not a Router or a Mobile Console Host in a Public Space connected to the Internet.,domain#R-HIUS,FALSE,FALSE
 package#Network,domain#MP-HAC,HAC,"Finds a Host in a Space with the associated access context, with optionally its manager, and all related access contexts.",domain#R-HAC,FALSE,FALSE
 package#Network,domain#MP-HACPmAC,HACPmAC,"Finds a process running on a host in a space and the host location access context, with all related process location and network access contexts.",domain#R-HACP,FALSE,FALSE
@@ -628,7 +629,6 @@ package#Physical,domain#MP-PSS,PSS,"Finds two spaces, one of which is private an
 package#Physical,domain#MP-W,W,Finds a solo World asset (i.e. the inferred global public space).,domain#R-W,FALSE,FALSE
 package#Privacy,domain#MP-DHuDC,DHuDC,Finds a data asset relating to a human along with a stored copy of the data.,domain#R-DHuDC,FALSE,FALSE
 package#Privacy,domain#MP-DHuDF,DHuDF,Finds a data asset relating to a human along with a flowing copy of the data.,domain#R-DHuDF,FALSE,FALSE
-package#Privacy,domain#MP-H-Hu,H-Hu,"Finds a Host that has no interactive user, no manager, and does not relate to any user.",domain#R-H,FALSE,FALSE
 package#Privacy,domain#MP-Hu-aDPS-io,Hu-aDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject who may be a child via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE
 package#Privacy,domain#MP-Hu-aDPoS-i,Hu-aDPoS-i,"Finds Stakeholder operating a Process that is using Data relating to a Human data subject who may be a child via a controlling Service, where the subject operates the Service but not the Process.",domain#R-HuDPoS,FALSE,FALSE
 package#Privacy,domain#MP-HuDPS-io,HuDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE

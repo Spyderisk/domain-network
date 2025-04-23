@@ -5,7 +5,6 @@ package#Application,domain#S-DataHandlingErrors,Data processing and handling err
 package#Application,domain#S-DataInteractivity,User-data interactivity inference
 package#Application,domain#S-StorageInference,Data storage inference
 package#CloudManagement,domain#S-CloudAccessControl,Cloud access control inference
-package#CloudManagement,domain#S-VirtualNetworkDependency,Virtual network dependency inference
 package#Core,domain#S-000,Not in any construction subsequence
 package#DataLifecycle,domain#S-DataChannels,Data channel creation
 package#DataLifecycle,domain#S-DataFlowCaching,Data flow caching inference
@@ -56,7 +55,9 @@ package#ProcessTrust,domain#S-TrustAsset,Client-service trust asset creation
 package#ProcessTrust,domain#S-TrustContextualisation,Client-service trust contextualisation
 package#ProcessTrust,domain#S-TrustedCommsChannels,Trusted communication channels
 package#ProcessTrust,domain#S-TrustedCommsDataFlows,Client-service trust in data flow inference
+package#Theft,domain#S-ReconnectionContexts,Reconnection of stolen devices
 package#Users,domain#S-HumanMobility,Human mobility inference
 package#Users,domain#S-HumanMobilityReq,Human mobility requirements inference
 package#Users,domain#S-HumanStatus,Human status classification
 package#Users,domain#S-SpaceOperation,Physical space operation inference
+package#Virtualisation,domain#S-VirtualNetworkDependency,Virtual network dependency inference

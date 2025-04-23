@@ -81,6 +81,7 @@ package#Network,domain#CSG-DisableSubnet,domain#LS.A.HprLS.6.1
 package#Network,domain#CSG-DisableSubnet,domain#LS.IS.HprLSAC.1
 package#Network,domain#CSG-InconsistentPhysicalControlsAtWorld,domain#W.E.WmPH.9
 package#Network,domain#CSG-PasswordChecksAtHost,domain#P.A.HuiHP.6
+package#Network,domain#CSG-PersonalDeviceProtection,domain#H.E.H-Hu.9
 package#Network,domain#CSG-PersonalDeviceProtection,domain#H.E.HHu2d.9
 package#Network,domain#CSG-PhysicalIDChecksAtSpace,domain#P.A.HuiHPSP.6
 package#Network,domain#CSG-PhysicalLocksAtSpace,domain#P.A.HuiHPSP.6
@@ -100,7 +101,6 @@ package#NetworkConnectivity,domain#CSG-NetworkEAP-PSK,domain#I.A.GdHWS.6
 package#NetworkConnectivity,domain#CSG-NetworkEAP-TLS,domain#I.A.GdHRS.6
 package#NetworkConnectivity,domain#CSG-NetworkEAP-TLS,domain#I.A.GdHRSi.6
 package#NetworkConnectivity,domain#CSG-NetworkEAP-TLS,domain#I.A.GdHWS.6
-package#Privacy,domain#CSG-PersonalDeviceProtection,domain#H.E.H-Hu.9
 package#ProcessComms,domain#CSG-BlockGatewayRoute,domain#Sg.TA.L3SSg2-b.8.2
 package#ProcessComms,domain#CSG-BlockInterface,domain#I.TA.I.8.2
 package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.L3SSg2AC.1

@@ -179,7 +179,6 @@ package#NetworkConnectivity,domain#visitsGateway,domain#LogicalPath
 package#Physical,domain#accessibleVia,domain#Space
 package#Physical,domain#isWorld,domain#World
 package#Privacy,domain#relatesTo,domain#Data
-package#Privacy,domain#relatesTo,domain#DataAccess
 package#Privacy,domain#relatesTo,domain#DataAsset
 package#ProcessComms,domain#accessFromClient,domain#PContext
 package#ProcessComms,domain#accessToService,domain#PContext

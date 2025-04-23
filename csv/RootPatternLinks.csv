@@ -2562,7 +2562,6 @@ package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientAttackPath-fromSubnet-Lo
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientChannel-channelTo-Service
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientChannel-channelVia-ClientAttackPath
-package#ProcessTrust,domain#R-CACHLSS,domain#Link-ProcNetContext-accessTo-CHost
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ProcNetContext-accessTo-Client
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ProcNetContext-accessVia-LogicalSubnet
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-SHost-hosts-Service

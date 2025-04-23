@@ -471,6 +471,8 @@ package#Physical,domain#CP-Marker+SpaceCreation-2,25,domain#S-SpaceClassificatio
 package#Physical,domain#CP-Marker+WorldTagging-1,25,domain#S-SpaceClassification,FALSE
 package#Physical,domain#CP-PPS-E+W,1,domain#S-SpaceCreation,FALSE
 package#Physical,domain#CP-W+iW,25,domain#S-SpaceClassification,FALSE
+package#Privacy,domain#CP-DHuDC+r,0,domain#S-PersistentDataAccess,FALSE
+package#Privacy,domain#CP-DHuDF+r,0,domain#S-PersistentDataAccess,FALSE
 package#ProcessComms,domain#CP-APxSCtI+tI,48,domain#S-ClientServiceAttacks,FALSE
 package#ProcessComms,domain#CP-CAPNPSAP+pV,48,domain#S-ClientServiceAttacks,FALSE
 package#ProcessComms,domain#CP-CAPlISAP+lI,48,domain#S-ClientServiceAttacks,FALSE
@@ -610,6 +612,10 @@ package#ProcessTrust,domain#CP-PCaTSSCCC+aTS,63,domain#S-TrustContextualisation,
 package#ProcessTrust,domain#CP-PccCuS+N,59,domain#S-SingleSignOn,FALSE
 package#ProcessTrust,domain#CP-PnPnS-U+U,59,domain#S-SingleSignOn,FALSE
 package#ProcessTrust,domain#CP-SCDS+fV,62,domain#S-TrustedCommsDataFlows,FALSE
+package#Theft,domain#CP-CSCLS+ii+PNC,0,domain#S-ReconnectionContexts,FALSE
+package#Theft,domain#CP-CSCLS-ii+PNC,0,domain#S-ReconnectionContexts,FALSE
+package#Theft,domain#CP-Marker+Reconnection-0,0,domain#S-ReconnectionContexts,FALSE
+package#Theft,domain#CP-Marker+Reconnection-1,0,domain#S-ReconnectionContexts,FALSE
 package#Users,domain#CP-A+iA,13,domain#S-HumanStatus,FALSE
 package#Users,domain#CP-Hu+W,15,domain#S-HumanMobilityReq,FALSE
 package#Users,domain#CP-HuaSaE+cA,16,domain#S-HumanMobility,FALSE

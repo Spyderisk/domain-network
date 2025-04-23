@@ -749,6 +749,8 @@ package#Network,domain#MP-FcLSS,domain#Link-PhysicalHost-isMobile-PhysicalHost,T
 package#Network,domain#MP-GH,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-H,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-H,domain#Link-Human-interactsWith-Host,FALSE
+package#Network,domain#MP-H-Hu,domain#Link-HostManager-manages-Host,FALSE
+package#Network,domain#MP-H-Hu,domain#Link-Human1-interactsWith-Host,FALSE
 package#Network,domain#MP-H-iR-iMCHIUS,domain#Link-Host-isMHC-Host,TRUE
 package#Network,domain#MP-H-iR-iMCHIUS,domain#Link-Host-isRouter-Host,TRUE
 package#Network,domain#MP-H-iR-iMCHIUS,domain#Link-Space-isWorld-Space,TRUE
@@ -1081,8 +1083,6 @@ package#NetworkConnectivity,domain#MP-RoH,domain#Link-NetworkPath-visitsGateway-
 package#NetworkConnectivity,domain#MP-Sg,domain#Link-HostManager-manages-Gateway,FALSE
 package#Physical,domain#MP-PPS-E,domain#Link-Space-accessibleVia-Entrance,FALSE
 package#Privacy,domain#MP-H-Hu,domain#Link-Host-relatesTo-Human2,FALSE
-package#Privacy,domain#MP-H-Hu,domain#Link-HostManager-manages-Host,FALSE
-package#Privacy,domain#MP-H-Hu,domain#Link-Human1-interactsWith-Host,FALSE
 package#Privacy,domain#MP-Hu-aDPS-io,domain#Link-DataSubject-isAdult-DataSubject,TRUE
 package#Privacy,domain#MP-Hu-aDPS-io,domain#Link-DataSubject-operates-Process,TRUE
 package#Privacy,domain#MP-Hu-aDPS-io,domain#Link-DataSubject-operates-Service,TRUE
