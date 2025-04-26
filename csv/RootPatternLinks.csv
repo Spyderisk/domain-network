@@ -1344,10 +1344,7 @@ package#IoT,domain#R-HuiSe,domain#Link-Input-controlsThing-Sensor
 package#IoT,domain#R-HuiSe,domain#Link-Process-creates-Output
 package#IoT,domain#R-HuiSe,domain#Link-Sensor-hosts-Process
 package#IoT,domain#R-HuiSe,domain#Link-Sensor-senses-Output
-package#IoT,domain#R-HuiThaS,domain#Link-Human-canAccess-Space
-package#IoT,domain#R-HuiThaS,domain#Link-Human-interactsWith-Thing
-package#IoT,domain#R-HumThP,domain#Link-Human-manages-Thing
-package#IoT,domain#R-HumThP,domain#Link-Thing-hosts-Process
+package#IoT,domain#R-HuiTh,domain#Link-Human-interactsWith-Thing
 package#IoT,domain#R-HurSesD,domain#Link-Sensor-relatesTo-Human
 package#IoT,domain#R-HurSesD,domain#Link-Sensor-senses-Data
 package#IoT,domain#R-HurTh,domain#Link-Process-processes-Data

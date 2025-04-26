@@ -83,6 +83,8 @@ package#Application,domain#CP-HuirPr-iD-cD+vD,domain#CP-HuirPc-iD-rC-vHu-DS+vD,H
 package#Application,domain#CP-HuirPr-vD-cC-iHu-DS+iD,domain#CP-HuirEr-vD-cC-iHu-DS+iD,HuirEr-vD-cC-iHu-DS+iD creates a link that in HuirPr-vD-cC-iHu-DS+iD matches Human2-inputsData-Data,FALSE,TRUE
 package#Application,domain#CP-HuuD+aUD,domain#CP-Marker+UserDataDeprecated-0,HuuD+aUD is at the start of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
 package#Application,domain#CP-Huv-uD+aVD,domain#CP-Marker+UserDataDeprecated-0,Huv-uD+aVD is at the start of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-Marker+ClientService-0,domain#CP-Marker+AppProcess-0,Inferred client and service creation is a subsequence of application process creation,FALSE,TRUE
+package#Application,domain#CP-Marker+ClientService-1,domain#CP-Marker+ClientService-0,Start precedes end of sequence,FALSE,TRUE
 package#Application,domain#CP-Marker+DataHandling-0,domain#CP-Marker+ProcessClassification-1,Process classification should precede data handling inference,FALSE,TRUE
 package#Application,domain#CP-Marker+DataHandling-1,domain#CP-Marker+DataHandling-0,Start precedes end of sequence,FALSE,TRUE
 package#Application,domain#CP-Marker+DataHandling-2,domain#CP-Marker+DataHandling-1,Start precedes end of sequence,FALSE,TRUE
@@ -337,6 +339,42 @@ package#DataStructure,domain#CP-Marker+DataFields-1,domain#CP-Marker+DataFields-
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i,domain#CP-DAO-iDADInDF-n+n,DAO-iDADInDF-n+n creates a link that in PDO-gDAnDF-i+i matches DataAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-PDO-gDAnDF-i+i-Replay,domain#CP-DAO-iDADInDF-n+n-Replay,DAO-iDADInDF-n+n-Replay creates a link that in PDO-gDAnDF-i+i-Replay matches DataAsset-needsField-DataField,FALSE,TRUE
 package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-0,PpD-iDF+a is at the start of the data field inference sequence,FALSE,TRUE
+package#IoT,domain#CP-DcTh+DS,domain#CP-Marker+ThingProcess-0,DcTh+DS is at the start of the onboard IoT process creation sequence,FALSE,TRUE
+package#IoT,domain#CP-DcTh+s,domain#CP-IoT-cD+cD,IoT-cD+cD creates a link that in DcTh+s matches Data-controlsThing-Thing,FALSE,TRUE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-Marker+ThingProcess-0,HuiCo+UI is at the start of the onboard IoT process creation sequence,FALSE,TRUE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-Marker+ThingFunction-2,HuiSe+Rel is at the start of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HuiTh-S+r,domain#CP-Marker+ThingManagement-0,HuiTh-S+r is at the start of the IoT management inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HuiTh-S+r,domain#CP-Marker+ThingPrivacy-0,HuiTh-S+r is at the start of the IoT privacy inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HurSesD-Rel+Rel,domain#CP-HuiTh-S+r,HuiTh-S+r creates a link that in HurSesD-Rel+Rel matches Sensor-relatesTo-Human,FALSE,TRUE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-HuiTh-S+r,HuiTh-S+r creates a link that in HurTh-S-m+m matches Thing-relatesTo-Human,FALSE,TRUE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-SHuTh-Hu+m,SHuTh-Hu+m creates a link that in HurTh-S-m+m matches HostManager-manages-Thing,FALSE,TRUE
+package#IoT,domain#CP-HurThcD-Rel+Rel,domain#CP-HurSesD-Rel+Rel,HurSesD-Rel+Rel creates a link that in HurThcD-Rel+Rel matches Data-relatesTo-Human,FALSE,TRUE
+package#IoT,domain#CP-IoT-cD+cD,domain#CP-Marker+ThingData-0,IoT-cD+cD is at the start of the onboard IoT data creation sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingData-0,domain#CP-Marker+DataStorage-0,Onboard IoT data creation is a subsequence of data storage relationship inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingData-1,domain#CP-Marker+ThingData-0,Start precedes end of sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingFunction-0,domain#CP-Marker+AppProcess-0,IoT functional relationship inference is a subsequence of application process creation,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingFunction-0,domain#CP-Marker+ThingProcess-1,Onboard IoT process creation should precede IoT functional relationship inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingFunction-1,domain#CP-Marker+ThingFunction-0,Start precedes end of sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingFunction-2,domain#CP-Marker+ThingFunction-1,Start precedes end of sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingFunction-3,domain#CP-Marker+ThingFunction-2,Start precedes end of sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingManagement-0,domain#CP-Marker+HostManagement-0,IoT management inference is a subsequence of host management inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingManagement-1,domain#CP-Marker+ThingManagement-0,Start precedes end of sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingPrivacy-0,domain#CP-Marker+ThingData-1,Onboard IoT data creation should precede IoT privacy inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingPrivacy-0,domain#CP-Marker+UserHostInteraction-1,Host interactivity inference should precede IoT privacy inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingPrivacy-1,domain#CP-Marker+ThingPrivacy-0,Start precedes end of sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingProcess-0,domain#CP-Marker+AppProcess-0,Onboard IoT process creation is a subsequence of application process creation,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingProcess-0,domain#CP-Marker+ThingData-1,Onboard IoT data creation should precede onboard IoT process creation,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingProcess-1,domain#CP-Marker+ThingProcess-0,Start precedes end of sequence,FALSE,TRUE
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-Marker+ThingFunction-0,Pa-uCo+Rel is at the start of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PcSe+Rel,domain#CP-Marker+ThingFunction-0,PcSe+Rel is at the start of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-Marker+ThingFunction-2,Pp-uSe+Rel is at the start of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PrSe+Rel,domain#CP-Marker+ThingFunction-2,PrSe+Rel is at the start of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PuCo+Rel,domain#CP-Marker+ThingFunction-0,PuCo+Rel is at the start of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PuSe+Rel,domain#CP-Marker+ThingFunction-2,PuSe+Rel is at the start of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-HuiTh-S+r,"HuiTh-S+r creates a link that would match HostManager-manages-Thing, but for a Thing with no location",TRUE,TRUE
+package#IoT,domain#CP-SHuTh-Hu+m,domain#CP-Marker+ThingManagement-0,SHuTh-Hu+m is at the start of the IoT management inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Se-sD+sD,domain#CP-Marker+ThingData-0,Se-sD+sD is at the start of the onboard IoT data creation sequence,FALSE,TRUE
+package#IoT,domain#CP-SesD+SP,domain#CP-Marker+ThingProcess-0,SesD+SP is at the start of the onboard IoT process creation sequence,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-Marker+PairedDeviceConnectivity-0,BPcGcBP+OSg is at the start of the paired device connectivity inference sequence,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#CP-HUSBTHS-S+l,HUSBTHS-S+l creates a link that in HBTTHS-S+l matches TrivialHost-locatedIn-OtherSpace,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#CP-HUSBTHS-S+l,domain#CP-Marker+PairedDeviceLocation-0,HUSBTHS-S+l is at the start of the paired device location inference sequence,FALSE,TRUE
@@ -406,11 +444,11 @@ package#Network,domain#CP-InternetMP+W,domain#CP-Marker+NetworkAccessibility-0,I
 package#Network,domain#CP-InternetMP+ii,domain#CP-Marker+FixedNetworkCreation-0,InternetMP+ii is at the start of the inferred fixed network creation sequence,FALSE,TRUE
 package#Network,domain#CP-MHC+iMHC,domain#CP-Marker+HostClassification-0,MHC+iMHC is at the start of the host classification sequence,FALSE,TRUE
 package#Network,domain#CP-MHcIS+aF,domain#CP-Marker+NetworkAccessibility-0,MHcIS+aF is at the start of the network accessibility inference sequence,FALSE,TRUE
+package#Network,domain#CP-Marker+AppProcess-0,domain#CP-Marker+HostClassification-1,Host classification should precede inferred application process and client-service relationship creation,FALSE,TRUE
+package#Network,domain#CP-Marker+AppProcess-1,domain#CP-Marker+AppProcess-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientCreation-0,domain#CP-Marker+ServiceCreation-1,Inferred system service creation should precede inferred system client creation,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientCreation-0,domain#CP-Marker+SystemProcess-0,System client creation is a subsequence of system process creation,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientCreation-1,domain#CP-Marker+ClientCreation-0,Start precedes end of sequence,FALSE,TRUE
-package#Network,domain#CP-Marker+ClientService-0,domain#CP-Marker+HostClassification-1,Host classification should precede inferred application process and client-service relationship creation,FALSE,TRUE
-package#Network,domain#CP-Marker+ClientService-1,domain#CP-Marker+ClientService-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientService-2,domain#CP-Marker+SystemProcess-1,Inferred system process creation precedes system client-service interaction inference,FALSE,TRUE
 package#Network,domain#CP-Marker+ClientService-3,domain#CP-Marker+ClientService-2,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+FixedHostCreation-0,domain#CP-Marker+HostCreation-0,Inferred physical host creation is a subsequence of inferred host creation,FALSE,TRUE
@@ -426,11 +464,11 @@ package#Network,domain#CP-Marker+HostContext-0,domain#CP-Marker+NetworkConnectio
 package#Network,domain#CP-Marker+HostContext-1,domain#CP-Marker+HostContext-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+HostCreation-1,domain#CP-Marker+HostCreation-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+HostLocation-0,domain#CP-Marker+HumanMobility-1,User mobility inference should precede personal host location inference,FALSE,TRUE
-package#Network,domain#CP-Marker+HostLocation-0,domain#CP-Marker+UserHostInteraction-1,User-host interaction inference should precede personal host location inference,FALSE,TRUE
+package#Network,domain#CP-Marker+HostLocation-0,domain#CP-Marker+UserHostInteraction-1,Host interactivity inference should precede personal host location inference,FALSE,TRUE
 package#Network,domain#CP-Marker+HostLocation-1,domain#CP-Marker+HostLocation-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+HostManagement-0,domain#CP-Marker+HostLocation-1,Host location inference should precede host management inference,FALSE,TRUE
 package#Network,domain#CP-Marker+HostManagement-0,domain#CP-Marker+LocalNetworkCreation-2,Local network creation should precede host management inference,FALSE,TRUE
-package#Network,domain#CP-Marker+HostManagement-0,domain#CP-Marker+UserHostInteraction-1,User-host interaction inference should precede host management inference,FALSE,TRUE
+package#Network,domain#CP-Marker+HostManagement-0,domain#CP-Marker+UserHostInteraction-1,Host interactivity inference should precede host management inference,FALSE,TRUE
 package#Network,domain#CP-Marker+HostManagement-1,domain#CP-Marker+HostManagement-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+HostOperation-0,domain#CP-Marker+HostManagement-1,Host management inference should precede host operation inference,FALSE,TRUE
 package#Network,domain#CP-Marker+HostOperation-1,domain#CP-Marker+HostOperation-0,Start precedes end of sequence,FALSE,TRUE
@@ -480,11 +518,11 @@ package#Network,domain#CP-Marker+SocketNetworkCreation-0,domain#CP-Marker+Physic
 package#Network,domain#CP-Marker+SocketNetworkCreation-1,domain#CP-Marker+SocketNetworkCreation-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+SystemProcess-0,domain#CP-Marker+HostManagement-1,Host management inference should precede inferred system process creation,FALSE,TRUE
 package#Network,domain#CP-Marker+SystemProcess-0,domain#CP-Marker+NetworkConnections-3,Network connection inference should precede inferred system process creation,FALSE,TRUE
-package#Network,domain#CP-Marker+SystemProcess-0,domain#CP-Marker+UserHostInteraction-1,User-host interaction inference should precede inferred system process creation,FALSE,TRUE
+package#Network,domain#CP-Marker+SystemProcess-0,domain#CP-Marker+UserHostInteraction-1,Host interactivity inference should precede inferred system process creation,FALSE,TRUE
 package#Network,domain#CP-Marker+SystemProcess-1,domain#CP-Marker+SystemProcess-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+UserHostInteraction-0,domain#CP-Marker+UserProcessInteraction-1,User-process interactivity inference should precede user-host interactivity inference,FALSE,TRUE
 package#Network,domain#CP-Marker+UserHostInteraction-1,domain#CP-Marker+UserHostInteraction-0,Start precedes end of sequence,FALSE,TRUE
-package#Network,domain#CP-Marker+UserProcessInteraction-0,domain#CP-Marker+ClientService-1,Inferred application client-service creation should precede application process interactivity inference,FALSE,TRUE
+package#Network,domain#CP-Marker+UserProcessInteraction-0,domain#CP-Marker+AppProcess-1,Inferred application process creation should precede application process interactivity inference,FALSE,TRUE
 package#Network,domain#CP-Marker+UserProcessInteraction-1,domain#CP-Marker+UserProcessInteraction-0,Start precedes end of sequence,FALSE,TRUE
 package#Network,domain#CP-Marker+WiFiHotspotCreation-0,domain#CP-Marker+LocalNetworkCreation-0,WiFi hotspot creation is a subsequence of inferred local network creation,FALSE,TRUE
 package#Network,domain#CP-Marker+WiFiHotspotCreation-1,domain#CP-Marker+WiFiHotspotCreation-0,Start precedes end of sequence,FALSE,TRUE
@@ -550,6 +588,11 @@ package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-0,PPS-E+W is a
 package#Physical,domain#CP-W+iW,domain#CP-Marker+SpaceCreation-2,W+iW is at the start of the inferred space creation sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-2,DHuDC+r is at the start of the stored data access relationship inference sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDF+r,domain#CP-Marker+DataCopy-2,DHuDF+r is at the start of the stored data access relationship inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-HurH-StSt+o,domain#CP-Marker+PersonalOperation-0,HurH-StSt+o is at the start of the personal device operation inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-HurH-StSt+o,HurH-StSt+o creates a link that in HuwStrH-St+o matches Operator-operates-Host,FALSE,TRUE
+package#Privacy,domain#CP-Marker+PersonalOperation-0,domain#CP-Marker+HostOperation-0,Personal device operation inference is a subsequence of host operation inference,FALSE,TRUE
+package#Privacy,domain#CP-Marker+PersonalOperation-0,domain#CP-Marker+PhysicalHostOperation-1,Other physical host operation inference should precede personal device operation inference,FALSE,TRUE
+package#Privacy,domain#CP-Marker+PersonalOperation-1,domain#CP-Marker+PersonalOperation-0,Start precedes end of sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-SCCAP+CSAP,SCCAP+CSAP creates a link that in APxSCtI+tI matches ServiceAttackPath-fromSubnet-AttackerSubnet,FALSE,TRUE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-SOCAP+OSAP,SOCAP+OSAP creates a link that in APxSCtI+tI matches ServiceAttackPath-fromSubnet-AttackerSubnet,FALSE,TRUE
 package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-SCCAP+CSAP,SCCAP+CSAP creates a link that in CAPNPSAP+pV matches ClientAttackPath-attackPathVia-ServiceAttackPath,FALSE,TRUE
@@ -589,7 +632,7 @@ package#ProcessComms,domain#CP-Marker+ClientPath-0,domain#CP-Marker+ServiceChann
 package#ProcessComms,domain#CP-Marker+ClientPath-1,domain#CP-Marker+ClientPath-0,Start precedes end of sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+RemoteAccess-0,domain#CP-Marker+ServiceDelegation-1,Remote process execution inference is a subsequence of indirect client-service access inference,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+RemoteAccess-0,Start precedes end of sequence,FALSE,TRUE
-package#ProcessComms,domain#CP-Marker+ReverseProxy-0,domain#CP-Marker+ClientService-1,Inferred application client-service creation should precede inferred reverse proxy creation,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ReverseProxy-0,domain#CP-Marker+AppProcess-1,Inferred application process creation should precede inferred reverse proxy creation,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ReverseProxy-0,domain#CP-Marker+SystemProcess-1,System process creation should precede inferred reverse proxy creation,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ReverseProxy-1,domain#CP-Marker+ReverseProxy-0,Start precedes end of sequences,FALSE,TRUE
 package#ProcessComms,domain#CP-Marker+ServiceChannel-0,domain#CP-Marker+ClientService-3,Client-service interaction inference should precede client-service communication channel creation,FALSE,TRUE

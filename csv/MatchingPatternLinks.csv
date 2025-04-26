@@ -641,8 +641,7 @@ package#IoT,domain#MP-D-Hu-Th,domain#Link-SimpleProcess-creates-Data,FALSE
 package#IoT,domain#MP-D-Hu-Th,domain#Link-Thing-stores-Data,FALSE
 package#IoT,domain#MP-DScSePDmFF,domain#Link-DataFlow-flows-Data,FALSE
 package#IoT,domain#MP-DScSePDmFF,domain#Link-DataFlow-flowsFrom-Process,FALSE
-package#IoT,domain#MP-HuiThaS-S,domain#Link-Thing-locatedIn-OtherSpace,FALSE
-package#IoT,domain#MP-HumThP-m,domain#Link-ProcessManager-manages-Process,FALSE
+package#IoT,domain#MP-HuiTh-S,domain#Link-Thing-locatedIn-OtherSpace,FALSE
 package#IoT,domain#MP-HurSesD-Rel,domain#Link-Data-relatesTo-Human,TRUE
 package#IoT,domain#MP-HurTh-S-m,domain#Link-HostManager-manages-Thing,FALSE
 package#IoT,domain#MP-HurTh-S-m,domain#Link-Thing-locatedIn-Space,FALSE

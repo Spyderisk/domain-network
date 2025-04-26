@@ -42,6 +42,7 @@ package#NetworkConnectivity,domain#S-NetworkPaths,Network path creation
 package#NetworkConnectivity,domain#S-NetworkSegments,Network path segment creation
 package#Physical,domain#S-SpaceClassification,Physical space classification
 package#Physical,domain#S-SpaceCreation,Inferred physical space creation
+package#Privacy,domain#S-PrivacyInference,Privacy relationship inference
 package#ProcessComms,domain#S-ClientServiceAccess,Client-service access path creation
 package#ProcessComms,domain#S-ClientServiceAttacks,Client-service attack path creation
 package#ProcessComms,domain#S-ClientServiceComms,Client-service communication inference

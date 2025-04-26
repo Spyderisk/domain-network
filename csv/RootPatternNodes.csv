@@ -1330,12 +1330,8 @@ package#IoT,domain#R-HuiSe,domain#Node-Input-Data,TRUE
 package#IoT,domain#R-HuiSe,domain#Node-Output-Data,TRUE
 package#IoT,domain#R-HuiSe,domain#Node-Process-Process,TRUE
 package#IoT,domain#R-HuiSe,domain#Node-Sensor-Sensor,TRUE
-package#IoT,domain#R-HuiThaS,domain#Node-Human-Human,TRUE
-package#IoT,domain#R-HuiThaS,domain#Node-Space-Space,TRUE
-package#IoT,domain#R-HuiThaS,domain#Node-Thing-Thing,TRUE
-package#IoT,domain#R-HumThP,domain#Node-Human-Human,TRUE
-package#IoT,domain#R-HumThP,domain#Node-Process-Process,TRUE
-package#IoT,domain#R-HumThP,domain#Node-Thing-Thing,TRUE
+package#IoT,domain#R-HuiTh,domain#Node-Human-Human,TRUE
+package#IoT,domain#R-HuiTh,domain#Node-Thing-Thing,TRUE
 package#IoT,domain#R-HurSesD,domain#Node-Data-Data,TRUE
 package#IoT,domain#R-HurSesD,domain#Node-Human-Human,TRUE
 package#IoT,domain#R-HurSesD,domain#Node-Sensor-Sensor,TRUE

@@ -526,7 +526,6 @@ package#Network,domain#MP-HumHVH-Hu,domain#Node-HostManager-Human,FALSE,TRUE,FAL
 package#Network,domain#MP-HumHoSt,domain#Node-HostAccess-HContext,TRUE,FALSE,FALSE
 package#Network,domain#MP-HumPC-Hu,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
 package#Network,domain#MP-HumPH-m,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
-package#Network,domain#MP-HumThP-m,domain#Node-ProcessManager-Human,FALSE,TRUE,FALSE
 package#Network,domain#MP-HummH-e,domain#Node-ConsoleHost-ConsoleHost,FALSE,TRUE,FALSE
 package#Network,domain#MP-HummH-e,domain#Node-Host-ShellHost,TRUE,FALSE,FALSE
 package#Network,domain#MP-HuoH-m,domain#Node-HostManager-Human,FALSE,TRUE,FALSE
@@ -715,7 +714,7 @@ package#Physical,domain#MP-HPHLS-S,domain#Node-OtherSpace-Space,TRUE,FALSE,FALSE
 package#Physical,domain#MP-HPHLS-S,domain#Node-Space-Space,TRUE,FALSE,FALSE
 package#Physical,domain#MP-HUSBTHS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#Physical,domain#MP-HuiPDaS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
-package#Physical,domain#MP-HuiThaS-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
+package#Physical,domain#MP-HuiTh-S,domain#Node-OtherSpace-Space,FALSE,TRUE,FALSE
 package#Physical,domain#MP-HurTh-S-m,domain#Node-Space-Space,FALSE,TRUE,FALSE
 package#Physical,domain#MP-LS-S,domain#Node-Space-Space,FALSE,TRUE,FALSE
 package#Physical,domain#MP-PH-S,domain#Node-Space-Space,FALSE,TRUE,FALSE

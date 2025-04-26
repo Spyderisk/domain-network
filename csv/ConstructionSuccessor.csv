@@ -38,6 +38,8 @@ package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-Marker+RemoteLogin-1,HuiC
 package#Application,domain#CP-HuirPaD+eUI-O+vD,domain#CP-Marker+UserDataInteraction-1,HuirPaD+eUI-O+vD is at the start of the user-data interactivity inference sequence,FALSE,TRUE
 package#Application,domain#CP-HuuD+aUD,domain#CP-Marker+UserDataDeprecated-1,HuuD+aUD is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
 package#Application,domain#CP-Huv-uD+aVD,domain#CP-Marker+UserDataDeprecated-1,Huv-uD+aVD is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-Marker+ClientService-1,domain#CP-Marker+AppProcess-1,Inferred client and service creation is a subsequence of application process creation,FALSE,TRUE
+package#Application,domain#CP-Marker+DataStorage-1,domain#CP-Marker+AppProcess-0,Application process creation shoiuld follow data storage relationship inference,FALSE,TRUE
 package#Application,domain#CP-Marker+UserDataDeprecated-1,domain#CP-Marker+DataHandling-0,Data handling inference should follow deprecated interactive data relationship tagging,FALSE,TRUE
 package#Application,domain#CP-Marker+UserDataInteraction-1,domain#CP-Marker+DataHandling-2,Inferring user access to data is a subsequence of data handling relationship inference,FALSE,TRUE
 package#Application,domain#CP-RAC+noDU,domain#CP-Marker+ProcessClassification-1,RAC+noDU is at the end of the process classification sequence,FALSE,TRUE
@@ -116,6 +118,26 @@ package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-1,ScDSPDIc
 package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-Marker+DataFields-1,DAOiDADInDF-i+i-Replay is at the end of the data field inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-DCDFDF+i,domain#CP-Marker+DataFields-1,DCDFDF+I is at the end of the data field inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-1,PpD-iDF+a is at the end of the data field inference sequence,FALSE,TRUE
+package#IoT,domain#CP-DcTh+DS,domain#CP-Marker+ThingProcess-1,DcTh+DS is at the end of the onboard IoT process creation sequence,FALSE,TRUE
+package#IoT,domain#CP-DcTh+s,domain#CP-Marker+ThingData-1,DcTh+s is at the end of the onboard IoT data creation sequence,FALSE,TRUE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-Marker+ThingProcess-1,HuiCo+UI is at the end of the onboard IoT process creation sequence,FALSE,TRUE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-Marker+ThingFunction-3,HuiSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HurSesD-Rel+Rel,domain#CP-Marker+ThingPrivacy-1,HurSesD-Rel+Rel is at the end of the IoT privacy inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-Marker+ThingManagement-1,HurTh-S-m+m is at the end of the IoT management inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HurThcD-Rel+Rel,domain#CP-Marker+ThingPrivacy-1,HurThcD-Rel+Rel is at the end of the IoT privacy inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingData-1,domain#CP-Marker+DataStorage-1,Onboard IoT data creation is a subsequence of data storage relationship inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingFunction-3,domain#CP-Marker+AppProcess-1,IoT functional relationship inference is a subsequence of application process creation,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingManagement-1,domain#CP-Marker+PairedDeviceManagement-0,IoT management inference should precede paired device management inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingPrivacy-1,domain#CP-Marker+HumanStatus-0,Human status classification should follow IoT privacy inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingProcess-1,domain#CP-Marker+AppProcess-1,Onboard IoT process creation is a subsequence of application process creation,FALSE,TRUE
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-Marker+ThingFunction-1,Pa-uCo+Rel is at the end of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PcSe+Rel,domain#CP-Marker+ThingFunction-1,PcSe+Rel is at the end of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-Marker+ThingFunction-3,Pp-uSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PrSe+Rel,domain#CP-Marker+ThingFunction-3,PrSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PuCo+Rel,domain#CP-Marker+ThingFunction-1,PuCo+Rel is at the end of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PuSe+Rel,domain#CP-Marker+ThingFunction-3,PuSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Se-sD+sD,domain#CP-Marker+ThingData-1,Se-sD+sD is at the end of the onboard IoT data creation sequence,FALSE,TRUE
+package#IoT,domain#CP-SesD+SP,domain#CP-Marker+ThingProcess-1,SesD+SP is at the end of the onboard IoT process creation sequence,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-Marker+PairedDeviceConnectivity-1,BPcGcBP+OSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#CP-Marker+PairedDeviceLocation-1,HBTTHS-S+l is at the end of the paired device location inference sequence,FALSE,TRUE
 package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-Marker+PairingConnections-1,HpBRH+B is at the end of the pairing connection inference sequence,FALSE,TRUE
@@ -198,6 +220,8 @@ package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-1,PPS-E+W is a
 package#Physical,domain#CP-W+iW,domain#CP-Marker+WorldTagging-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-3,DHuDC+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDF+r,domain#CP-Marker+DataCopy-3,DHuDF+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-Marker+PersonalOperation-1,HuwStrH-St+o is at the end of the personal device operation inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-Marker+PersonalOperation-1,domain#CP-Marker+HostOperation-1,Personal device operation inference is a subsequence of host operation inference,FALSE,TRUE
 package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-Marker+AttackPath-2,APxSCtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-Marker+AttackPath-2,CAPNPSAP+pV is at the end of the attack path aggregation sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-CAPlISAP+lI,domain#CP-Marker+AttackPath-2,CAPlISAP+lI is at the end of the attack path aggregation sequence,FALSE,TRUE

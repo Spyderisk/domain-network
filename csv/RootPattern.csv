@@ -288,8 +288,7 @@ package#IoT,domain#R-DcTh,DcTh,Finds an IoT Thing and its control input Data.,FA
 package#IoT,domain#R-Hs,Hs,Finds a solo Health Sensor.,FALSE,FALSE
 package#IoT,domain#R-HuiCo,HuiCo,"Finds the control input for an IoT Controller, which is being used interactively by a Human.",FALSE,FALSE
 package#IoT,domain#R-HuiSe,HuiSe,"Finds the control input and sensed output for an IoT Sensor, which is being used interactively by a Human, plus the interactive process that creates the output.",FALSE,FALSE
-package#IoT,domain#R-HuiThaS,HuiThaS,Finds a Human that uses an IoT Thing and has access to a space.,FALSE,FALSE
-package#IoT,domain#R-HumThP,HumThP,Finds a Human managing a Thing with an onboard process.,FALSE,FALSE
+package#IoT,domain#R-HuiTh,HuiTh,Finds a Human that uses an IoT Thing.,FALSE,FALSE
 package#IoT,domain#R-HurSesD,HurSesD,Finds Data produced as output by a Sensor related to a Human.,FALSE,FALSE
 package#IoT,domain#R-HurTh,HurTh,"Finds a Thing relating to a Human, plus onboard data and processing.",FALSE,FALSE
 package#IoT,domain#R-HurThcD,HurThcD,Finds control input to an IoT Thing related to a Human.,FALSE,FALSE
