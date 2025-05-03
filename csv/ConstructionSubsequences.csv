@@ -1,21 +1,19 @@
 package,URI,subsequence
 domain#000000,domain#000000,Data processing and handling inference
 package#Application,domain#S-DataHandling,Data processing and handling inference
-package#Application,domain#S-DataHandlingErrors,Data processing and handling error detection
-package#Application,domain#S-DataInteractivity,User-data interactivity inference
 package#Application,domain#S-StorageInference,Data storage inference
 package#CloudManagement,domain#S-CloudAccessControl,Cloud access control inference
 package#Core,domain#S-000,Not in any construction subsequence
 package#DataLifecycle,domain#S-DataChannels,Data channel creation
 package#DataLifecycle,domain#S-DataFlowCaching,Data flow caching inference
 package#DataLifecycle,domain#S-DataFlows,Data flow creation
-package#DataLifecycle,domain#S-DataKeyManagement,Data key management inference
 package#DataLifecycle,domain#S-DataPaths,Data path creation
 package#DataLifecycle,domain#S-PersistentData,Persistent serialized data creation
 package#DataLifecycle,domain#S-PersistentDataAccess,Persistent serialized data access inference
 package#DataLifecycle,domain#S-Phishing,Unsolicited data flow creation
 package#DataLifecycle,domain#S-VolatileData,Volatile data asset creation
 package#DataStructure,domain#S-DataFields,Data field inference
+package#Legal,domain#S-Jurisdictions,Applicable jurisdiction inference
 package#Network,domain#S-FixedHostConnections,Fixed host network connection inference
 package#Network,domain#S-HostClassification,Host classification
 package#Network,domain#S-HostContext,Host context creation
@@ -31,7 +29,6 @@ package#Network,domain#S-NonLocalNetworks,Inferred non-local network creation
 package#Network,domain#S-ProcessClassification,Process classification
 package#Network,domain#S-ProcessContext,Process context creation
 package#Network,domain#S-ProcessCreation,Inferred application process creation
-package#Network,domain#S-ProcessInteractivity,User-process interactivity inference
 package#Network,domain#S-ProcessManagement,Process management inference
 package#Network,domain#S-ProcessOperation,Process operation inference
 package#Network,domain#S-SystemClientService,System client-service relationship inference
@@ -50,12 +47,6 @@ package#ProcessComms,domain#S-IndirectClientService,Indirect client-service rela
 package#ProcessComms,domain#S-RemoteExecution,Remote process execution inference
 package#ProcessComms,domain#S-ReverseProxies,Inferred reverse proxy creation
 package#ProcessTrust,domain#S-ClientServiceTrust,Client-service trust inference
-package#ProcessTrust,domain#S-OAuthDependency,Client-service OAuth dependency inference
-package#ProcessTrust,domain#S-SingleSignOn,Client-service credential sharing and single-sign-on inference
-package#ProcessTrust,domain#S-TrustAsset,Client-service trust asset creation
-package#ProcessTrust,domain#S-TrustContextualisation,Client-service trust contextualisation
-package#ProcessTrust,domain#S-TrustedCommsChannels,Trusted communication channels
-package#ProcessTrust,domain#S-TrustedCommsDataFlows,Client-service trust in data flow inference
 package#Theft,domain#S-ReconnectionContexts,Reconnection of stolen devices
 package#Users,domain#S-HumanMobility,Human mobility inference
 package#Users,domain#S-HumanMobilityReq,Human mobility requirements inference
