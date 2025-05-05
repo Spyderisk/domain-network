@@ -676,23 +676,13 @@ package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RACuHRASP-iPL+uR,RACuHRAS
 package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RACvSPHRASP-iPL+uR,RACvSPHRASP-iPL+uR creates a link that in RDuRTuS-uR+uR matches RemoteAccessClient-usesRemotely-RemoteTerminal,FALSE,TRUE
 package#ProcessComms,domain#CP-RDuRTuS-uR+uR,domain#CP-RTuRTuS-uR+uR,RTuRTuS-uR+uR creates a link that in RDuRTuS-uR+uR is prohibited as RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
 package#ProcessComms,domain#CP-RDvSPDtS+uR,domain#CP-Marker+RemoteAccess-0,RDvSPDtS+uR is at the start of the remote process execution inference sequence,FALSE,TRUE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RACuP-iP+uR,RACuP-iP+uR creates a link that in RDvSPHP-iPL-RAS+DtS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RDuHP-iPL-RAS+DtS,RDuHP-iPL-RAS+DtS creates a RemoteAccessService but one not used by Proxy,TRUE,TRUE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RDvSPDtS+uR,RDvSPDtS+uR creates a link that in RDvSPHP-iPL-RAS+DtS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RDvSPIP+uR,RDvSPIP+uR creates a link that in RDvSPHP-iPL-RAS+DtS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
-package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RTvSPRAS+uR,RTvSPRAS+uR creates a link that in RDvSPHP-iPL-RAS+DtS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
+package#ProcessComms,domain#CP-RDvSPHP-iPL-RAS+DtS,domain#CP-RDuHP-iPL-RAS+DtS,RDuHP-iPL-RAS+DtS creates a link that in RDvSPHP-iPL-RAS+DtS matches Process-isLnS-Process,FALSE,TRUE
 package#ProcessComms,domain#CP-RDvSPIP+uR,domain#CP-Marker+RemoteAccess-0,RDvSPIP+uR is at the start of the remote process execution inference sequence,FALSE,TRUE
-package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RACuP-iP+uR,RACuP-iP+uR creates a link that in RDuHP-iPL-RAS+DtS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
-package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,RDuHP-iPL-RAS+DtS creates a link that in RDuHP-iPL-RAS+DtS matches Host-hosts-RemoteAccessService,FALSE,TRUE
-package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDvSPHP-iPL-RAS+DtS,RDvSPHP-iPL-RAS+DtS creates a RemoteAccessService but one not used by RemoteAccessClient,TRUE,TRUE
-package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RTvSPCP+uR,RTvSPCP+uR creates a link that in RDuHP-iPL-RAS+DtS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
-package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RTvSPRAS+uR,RTvSPRAS+uR creates a link that in RDuHP-iPL-RAS+DtS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
+package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#CP-RDvSPHP-iPL-RAS+DtS,RDvSPHP-iPL-RAS+DtS creates a link that in RTuHP-iPL-RAS+LnS matches Process-isLnS-Process,FALSE,TRUE
 package#ProcessComms,domain#CP-RTuRTuS-uR+uR,domain#CP-RDuRDuS-uR+uR,RDuRDuS-uR+uR creates a link that in RDuRDuS-uR+uR is prohibited as RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
 package#ProcessComms,domain#CP-RTvSPCP+uR,domain#CP-Marker+RemoteAccess-0,RTvSPCP+uR is at the start of the remote process execution inference sequence,FALSE,TRUE
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RACuP-iP+uR,RACuP-iP+uR creates a link that in RTvSPHP-iPL-RAS+LnS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RDuHP-iPL-RAS+DtS,RDuHP-iPL-RAS+DtS creates a RemoteAccessService but one not used by Proxy,TRUE,TRUE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RDvSPHP-iPL-RAS+DtS,RDvSPHP-iPL-RAS+DtS creates a link that in RTvSPHP-iPL-RAS+LnS matches Host-hosts-RemoteAccessService,FALSE,TRUE
-package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RTuHP-iPL-RAS+LnS,RTuHP-iPL-RAS+LnS creates a RemoteAccessService but one not used by Proxy,TRUE,TRUE
+package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RTuHP-iPL-RAS+LnS,RTuHP-iPL-RAS+LnS creates a linik that in RTvSPHP-iPL-RAS+LnS matches Pocess-isLnS-Process,FALSE,TRUE
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RTvSPCP+uR,RTvSPCP+uR creates a link that in RTvSPHP-iPL-RAS+LnS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#CP-RTvSPRAS+uR,RTvSPRAS+uR creates a link that in RTvSPHP-iPL-RAS+LnS matches RemoteAccessClient-usesRemotely-Process,FALSE,TRUE
 package#ProcessComms,domain#CP-RTvSPRAS+uR,domain#CP-Marker+RemoteAccess-0,RTvSPRAS+uR is at the start of the remote process execution inference sequence,FALSE,TRUE

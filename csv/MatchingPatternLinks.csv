@@ -1178,15 +1178,18 @@ package#ProcessComms,domain#MP-RACuRHRASP-iPL,domain#Link-Process-isProxy-Proces
 package#ProcessComms,domain#MP-RACvSPHRASP-iPL,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RACvSPHRASP-iPL,domain#Link-Process-isProxy-Process,TRUE
 package#ProcessComms,domain#MP-RDuHP-iPL-RAS,domain#Link-Host-hosts-RemoteAccessService,FALSE
+package#ProcessComms,domain#MP-RDuHP-iPL-RAS,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RDuHP-iPL-RAS,domain#Link-Process-isProxy-Process,TRUE
 package#ProcessComms,domain#MP-RDuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesRemotely-RemoteAccessService,FALSE
 package#ProcessComms,domain#MP-RDuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesViaProxy-Process,TRUE
 package#ProcessComms,domain#MP-RDuHP-iPL-RAS,domain#Link-RemoteAccessService-uses-Process,FALSE
 package#ProcessComms,domain#MP-RDvSPHP-iPL-RAS,domain#Link-Host-hosts-RemoteAccessService,FALSE
+package#ProcessComms,domain#MP-RDvSPHP-iPL-RAS,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RDvSPHP-iPL-RAS,domain#Link-Process-isProxy-Process,TRUE
 package#ProcessComms,domain#MP-RDvSPHP-iPL-RAS,domain#Link-Proxy-uses-RemoteAccessService,FALSE
 package#ProcessComms,domain#MP-RDvSPHP-iPL-RAS,domain#Link-RemoteAccessService-uses-Process,FALSE
 package#ProcessComms,domain#MP-RTuHP-iPL-RAS,domain#Link-Host-hosts-RemoteAccessService,FALSE
+package#ProcessComms,domain#MP-RTuHP-iPL-RAS,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RTuHP-iPL-RAS,domain#Link-Process-isProxy-Process,TRUE
 package#ProcessComms,domain#MP-RTuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesRemotely-RemoteAccessService,FALSE
 package#ProcessComms,domain#MP-RTuHP-iPL-RAS,domain#Link-RemoteAccessClient-usesViaProxy-Process,TRUE
@@ -1199,6 +1202,7 @@ package#ProcessComms,domain#MP-RTurP-hCLI,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RTurP-hCLI,domain#Link-Process-isProxy-Process,TRUE
 package#ProcessComms,domain#MP-RTurP-hCLI,domain#Link-RemoteTerminal-uses-Process,TRUE
 package#ProcessComms,domain#MP-RTvSPHP-iPL-RAS,domain#Link-Host-hosts-RemoteAccessService,FALSE
+package#ProcessComms,domain#MP-RTvSPHP-iPL-RAS,domain#Link-Process-isLnS-Process,TRUE
 package#ProcessComms,domain#MP-RTvSPHP-iPL-RAS,domain#Link-Process-isProxy-Process,TRUE
 package#ProcessComms,domain#MP-RTvSPHP-iPL-RAS,domain#Link-Proxy-uses-RemoteAccessService,FALSE
 package#ProcessComms,domain#MP-RTvSPHP-iPL-RAS,domain#Link-RemoteAccessService-uses-Process,FALSE
