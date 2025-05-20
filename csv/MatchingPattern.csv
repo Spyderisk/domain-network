@@ -66,10 +66,10 @@ package#Application,domain#MP-HuimH-e,HuimH-e,Finds a human without access to em
 package#Application,domain#MP-HuirEc-rD,HuirEc-rD,Finds a Human interacting (possibly remotely) with an Editor that creates but does not receive Data.,domain#R-HuirEcD,FALSE,TRUE
 package#Application,domain#MP-HuirEr-vD-cC-iHu-DS,HuirEr-vD-cC-iHu-DS,"Finds Human interacting remotely with an Editor that receives Data that is not viewed by the Human, and which is not created by any process, stored on any Host, nor input by any Human.",domain#R-HuirErD,FALSE,FALSE
 package#Application,domain#MP-HuirIPaD,HuirIPaD,Finds Human interacting remotely with an Interactive Process that amends data.,domain#R-HuirIPaD,FALSE,FALSE
-package#Application,domain#MP-HuirIPp-iD,HuirIPp-iD,"Finds Human interacting (possibly remotely) with an Interactive Process that processes Data, where the Human does not enter the Data.",domain#R-HuirIPpD,FALSE,TRUE
+package#Application,domain#MP-HuirIPp-iD,HuirIPp-iD,"Finds Human interacting (possibly remotely) with an Interactive Process that processes Data, where the process does not allow the Human user to enter the Data.",domain#R-HuirIPpD,FALSE,TRUE
 package#Application,domain#MP-HuirIPp-xD,HuirIPp-xD,"Finds Human interacting (possibly remotely) with an Interactive Process that processes Data, where the Human does not interact with the Data.",domain#R-HuirIPpD,FALSE,FALSE
 package#Application,domain#MP-HuirPaD+eUI-O,HuirPaD+eUI-O,"Finds Human interacting (possibly remotely) with a process that amends (creates and receives) data, and enables user input but not output of the data.",domain#R-HuirPaD+eUI,FALSE,TRUE
-package#Application,domain#MP-HuirPc-iD-rC-vHu-DS,HuirPc-iD-rC-vHu-DS,"Finds a Human interacting (possibly remotely) with a process that creates data, where the data is not stored on any host, used by any process nor viewed by any user, and the Human does not enter the Data.",domain#R-HuirPcD,FALSE,TRUE
+package#Application,domain#MP-HuirPc-iD-rC-DS,HuirPc-iD-rC-DS,"Finds a Human interacting (possibly remotely) with a process that creates data, where the data is not stored on any host nor used by any process, and the process does not enable the Human user to enter the Data.",domain#R-HuirPcD,FALSE,TRUE
 package#Application,domain#MP-HuirPeI-OD-p,HuirPeI-OD-p,"Finds a human interacting (possibly remotely) with a process that enables user entry of some Data, but does not process the data.",domain#R-HuirPeID,FALSE,TRUE
 package#Application,domain#MP-HuirPeI-OD-p-cC-iHu-DS,HuirPeI-OD-p-cC-iHu-DS,"Finds a human interacting (possibly remotely) with a process that enables user access to some Data, but does not process the data, and where the Data is not an input from any user, an output of any process, and is not stored, i.e., the data has no source.",domain#R-HuirPeOD,FALSE,TRUE
 package#Application,domain#MP-HuirPeID,HuirPeID,Finds a human interacting (possibly remotely) with a process that enables user entry of some Data.,domain#R-HuirPeID,FALSE,FALSE
@@ -417,6 +417,7 @@ package#LocalDeviceConnectivity,domain#MP-USBD-S,USBD-S,Finds Data stored on a U
 package#Network,domain#MP-AC,AC,Finds a solo AuthClient.,domain#R-AC,FALSE,FALSE
 package#Network,domain#MP-AS,AS,Finds a solo authentication/authorisation service.,domain#R-AS,FALSE,FALSE
 package#Network,domain#MP-C,C,Finds a Host that represents a virtual or physical cluster.,domain#R-C,FALSE,FALSE
+package#Network,domain#MP-C-iLnSuSH-iCS,C-iLnSuSH-iCS,"Finds a client that is not a login service interacting with a service where both are on the same Host which is not a cluster, plus their physical host location.",domain#R-CuSHS,FALSE,FALSE
 package#Network,domain#MP-CH,CH,Finds a solo Fixed Console Host.,domain#R-CH,FALSE,FALSE
 package#Network,domain#MP-CHS,CHS,"Finds a Console Host located in a Space, with associated access contexts and optionally an interactive user and system manager.",domain#R-CHS,FALSE,FALSE
 package#Network,domain#MP-CHS-iP,CHS-iP,"Finds a Console Host located in a Space, with associated access contexts and optionally an interactive user and system manager, where the device is not a personal device.",domain#R-CHS,FALSE,FALSE
@@ -433,7 +434,7 @@ package#Network,domain#MP-DCWH-LS,DCWH-LS,"Finds a FixedHost not connected to an
 package#Network,domain#MP-DCpLS,DCpLS,"Finds a DataCentre providing a LogicalSubnet, and a router located in and resourced by the data centre.",domain#R-DCpLS,FALSE,FALSE
 package#Network,domain#MP-FHmS,FHmS,"Finds a fixed physical host that has mutiple locations, along with those locations.",domain#R-FH+iM,FALSE,FALSE
 package#Network,domain#MP-FHprLS,FHprLS,Finds a LogicalSubnet provided by a FixedHost.,domain#R-FHprLS,FALSE,FALSE
-package#Network,domain#MP-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FcLSS,FALSE,TRUE
+package#Network,domain#MP-FcLSS,FcLSS,Finds a Logical Subnet to which is connected a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FcLSS,FALSE,FALSE
 package#Network,domain#MP-GH,GH,Finds a General Host (i.e. a host that can run arbitrary processes).,domain#R-GH,FALSE,FALSE
 package#Network,domain#MP-H,H,"Finds a solo Host, with optionally its manager(s) and interactive user(s).",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-H-Hu,H-Hu,"Finds a Host that has no interactive user, no manager, and does not relate to any user.",domain#R-H,FALSE,FALSE
@@ -455,6 +456,7 @@ package#Network,domain#MP-HRASuPCcS,HRASuPCcS,"Finds a host running a remote acc
 package#Network,domain#MP-HRASuPScS,HRASuPScS,"Finds a host running a remote access service that launches a process which uses a service, where the service and the process are controlled by the same authenticator, implying that the process accesses the service using a token shared with it by a client.",domain#R-HRASuPScS,FALSE,FALSE
 package#Network,domain#MP-HRASuPcC,HRASuPcC,"Finds a host running a remote access service that launches a process which is used by a client that it also controls, implying the client forwards credentials to the process.",domain#R-HRASuPcC,FALSE,FALSE
 package#Network,domain#MP-HRASuPcS,HRASuPcS,"Finds a host running a remote access service that launches a process which uses a service by which it is also controlled, implying that the process uses forwarded credentials to access the service.",domain#R-HRASuPcS,FALSE,FALSE
+package#Network,domain#MP-HSL,HSL,Finds a Host connected to a SocketLAN.,domain#R-HSL,FALSE,FALSE
 package#Network,domain#MP-Hc-pN-hP,Hc-pN-hP,"Finds a Host connected to but not providing an Abstract Subnet, which controlled by a Process not running on the Host.",domain#R-HNP,FALSE,TRUE
 package#Network,domain#MP-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",domain#R-HcWHS,FALSE,TRUE
 package#Network,domain#MP-Hm2dHu,Hm2dHu,Finds a host and two distinct humans that manage the host.,domain#R-Hm2Hu,FALSE,FALSE
@@ -528,7 +530,6 @@ package#Network,domain#MP-PH2,PH2,Finds a process with two distinct hosts.,domai
 package#Network,domain#MP-PH2dS,PH2dS,Finds a physical host located in two different spaces.,domain#R-PH2S,FALSE,FALSE
 package#Network,domain#MP-PHHPS,PHHPS,Finds a process running on a host that can be accessed from a space.,domain#R-PHHPS,FALSE,FALSE
 package#Network,domain#MP-PHHS,PHHS,"Finds a host that directly is or indirectly has a physical host in a space, and all connected logical subnets accessible from that space.",domain#R-PHHS,FALSE,FALSE
-package#Network,domain#MP-PHHS-iC,PHHS-iC,"Finds a host that is not a cluster and directly is or indirectly has a physical host in a space, and all connected logical subnets accessible from that space.",domain#R-PHHS,FALSE,FALSE
 package#Network,domain#MP-PHLSS,PHLSS,Finds a host that has or directly is a physical host in a space and is connected to a logical subnet accessible from that space (other than an abstract hotspot).,domain#R-PHLSS,FALSE,FALSE
 package#Network,domain#MP-PHS,PHS,"Finds a Physical Host located in a Space, and optionally the host manager and interactive user.",domain#R-PHS,FALSE,FALSE
 package#Network,domain#MP-PHS-iC,PHS-iC,"Finds a Physical Host that is not a Cluster located in a Space, and optionally the host manager and interactive user.",domain#R-PHS,FALSE,FALSE
@@ -864,7 +865,6 @@ package#ProcessTrust,domain#MP-SCDS,SCDS,Finds a client and service plus the ass
 package#ProcessTrust,domain#MP-SPNaLnS,SPNaLnS,"Finds a host running a remote access service accessed by a reverse proxy, plus the associated client channel, the location and network contexts in which this can happen, and optionally the managers of the client proxy, service and service host.",domain#R-SPNaLnS,FALSE,FALSE
 package#ProcessTrust,domain#MP-SPNaS,SPNaS,"Finds a host running a service accessed via a reverse proxy, plus the associated client channel, contexts in which the service can be accessed, and optionally the managers of the client proxy, service and service host.",domain#R-SPNaS,FALSE,FALSE
 package#Users,domain#MP-A,A,Finds a solo Adult.,domain#R-A,FALSE,FALSE
-package#Users,domain#MP-Hu,Hu,Finds a solo Human.,domain#R-Hu,FALSE,FALSE
 package#Users,domain#MP-HuPSSt,HuPSSt,"Finds a Human with access to a Private Space, and their employer.",domain#R-HuPSSt,FALSE,FALSE
 package#Users,domain#MP-HuPSoSt,HuPSoSt,"Finds a Human with access to a Private Space, and an optional employer of the Human.",domain#R-HuPS,FALSE,FALSE
 package#Users,domain#MP-HuaSaE,HuaSaE,Finds a human with access to a space that is accessible from a public entrance space.,domain#R-HuaSaE,FALSE,FALSE

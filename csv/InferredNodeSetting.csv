@@ -23,7 +23,6 @@ package#5G,domain#CP-UCNSRAN-p+BS,domain#Node-BaseStation-BaseStation,domain#INS
 package#5G,domain#CP-UCc-rBrUR+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-UCc-rBrUR+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#5G,domain#CP-URrBc-rL3+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-URrBc-rL3+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#5G,domain#CP-URrBrUR+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-URrBrUR+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
-package#Application,domain#CP-HuSP+SMS,domain#Node-Process-SMSClient,domain#INS-HuSP+SMS-Process,TRUE,FALSE,domain#Node-SmartPhone-Smartphone
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Node-RemoteDesktop-RemoteDesktop,domain#INS-HuiCHDtS-AC+AC-RemoteDesktop,TRUE,FALSE,domain#Node-ConsoleHost-ConsoleHost
 package#CloudManagement,domain#CP-DCCM-A+A,domain#Node-APIServer-APIServer,domain#INS-DCCM-A+A-APIServer,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-DCCM-P+P,domain#Node-Ingress-Ingress,domain#INS-DCCM-P+P-Ingress,TRUE,FALSE,domain#Node-DataCentre-DataCentre
@@ -60,6 +59,7 @@ package#DataLifecycle,domain#CP-HPrD-DS-DA+DR,domain#Node-DataRelay-TempDataRela
 package#DataLifecycle,domain#CP-HPsD-DS+DR,domain#Node-DataRelay-DataRelay,domain#INS-HPsD-DS+DR-DataRelay,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-HSDADPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-HSDADPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-DB-Process
 package#DataLifecycle,domain#CP-HSDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
+package#DataLifecycle,domain#CP-HuSP+SMS,domain#Node-Process-SMSClient,domain#INS-HuSP+SMS-Process,TRUE,FALSE,domain#Node-SmartPhone-Smartphone
 package#DataLifecycle,domain#CP-HuWES+D,domain#Node-Data-SpamData,domain#INS-HuWES+D-Data,TRUE,FALSE,domain#Node-MUA-EmailService
 package#DataLifecycle,domain#CP-HuWES+D,domain#Node-DataFlow-DataFlow,domain#INS-HuWES+D-DataFlow,TRUE,FALSE,domain#Node-MUA-EmailService
 package#DataLifecycle,domain#CP-HuaDPH-DS-DA+DU,domain#Node-DataUpdate-DataUpdate,domain#INS-HuaDPH-DS-DA+DU-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
@@ -113,6 +113,7 @@ package#LocalDeviceConnectivity,domain#CP-UHDrP-S+S,domain#Node-DataService-Data
 package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-UPc-rGrUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#Node-LogicalSegment-MeshRoutingSegment,domain#INS-UPrGc-rUP+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#CP-USBD-S+S,domain#Node-DataService-DataService,domain#INS-USBD-S+S-DataService,TRUE,FALSE,domain#Node-USBDevice-USBDevice
+package#Network,domain#CP-C-iLnSuSH-iCS+SL,domain#Node-LogicalSubnet-SocketLAN,domain#INS-C-iLnSuSH-iCS+SL-LogicalSubnet,TRUE,FALSE,domain#Node-Host-Host
 package#Network,domain#CP-DC-C+C,domain#Node-Cluster-Cluster,domain#INS-DC-C+C-Cluster,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#Network,domain#CP-DC-R+RW,domain#Node-Router-Router,domain#INS-DC-R+RW-Router,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#Network,domain#CP-DC-R+RW,domain#Node-WiredLAN-WiredLAN,domain#INS-DC-R+RW-WiredLAN,TRUE,FALSE,domain#Node-DataCentre-DataCentre
@@ -126,11 +127,11 @@ package#Network,domain#CP-PCPHLSS+NC,domain#Node-ProcNetContext-ProcNetContext,d
 package#Network,domain#CP-PH-S+W,domain#Node-World-World,domain#INS-PH-S+W-World,TRUE,FALSE,domain#Node-Host-PhysicalHost
 package#Network,domain#CP-PHHPS+AC,domain#Node-ProcAccess-ProcessContext,domain#INS-PHHPS+AC-ProcAccess,TRUE,FALSE,domain#Node-Process-Process
 package#Network,domain#CP-PHHS+AC,domain#Node-HostAccess-HostContext,domain#INS-PHHS+AC-HostAccess,TRUE,FALSE,domain#Node-Host-Host
-package#Network,domain#CP-PHHS-iC+SL,domain#Node-LogicalSubnet-SocketLAN,domain#INS-PHHS-iC+SL-LogicalSubnet,TRUE,FALSE,domain#Node-Host-Host
 package#Network,domain#CP-Rr-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-Rr-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-Router-Router
 package#Network,domain#CP-Sv-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-Sv-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-Server-Server
 package#Network,domain#CP-WpHSH-aF+WH,domain#Node-LogicalSubnet-WiFiLAN,domain#INS-WpHSH-aF+WH-LogicalSubnet,TRUE,FALSE,domain#Node-Hotspot-WiFiLAN
 package#NetworkConnectivity,domain#CP-HLS+I,domain#Node-Interface-Interface,domain#INS-HLS+I-Interface,TRUE,FALSE,domain#Node-Host-Host
+package#NetworkConnectivity,domain#CP-HSL+p+I,domain#Node-Interface-Interface,domain#INS-HSL+p+I-Interface,TRUE,FALSE,domain#Node-Host-Host
 package#NetworkConnectivity,domain#CP-L3c-rGc-rL3+OSg,domain#Node-LogicalSegment-OpenSegment,domain#INS-L3c-rGc-rL3+OSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#NetworkConnectivity,domain#CP-L3c-rGrL3+DSg,domain#Node-LogicalSegment-DeNATSegment,domain#INS-L3c-rGrL3+DSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#NetworkConnectivity,domain#CP-L3rGc-rL3+NSg,domain#Node-LogicalSegment-NATSegment,domain#INS-L3rGc-rL3+NSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
@@ -164,7 +165,6 @@ package#ProcessTrust,domain#CP-CaS-SP+CC,domain#Node-ClientChannel-ClientChannel
 package#ProcessTrust,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#Theft,domain#CP-CSCLS+ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS+ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#Theft,domain#CP-CSCLS-ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS-ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
-package#Users,domain#CP-Hu+W,domain#Node-World-World,domain#INS-Hu+W-World,TRUE,FALSE,domain#Node-Human-Human
 package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#Node-VirtualSubnet-VXLAN,domain#INS-DCCVH-LS+LS-VirtualSubnet,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#Virtualisation,domain#CP-H2dPH2+VC,domain#Node-VirtualChannel-VirtualChannel,domain#INS-H2dPH2+VC-VirtualChannel,TRUE,FALSE,domain#Node-VirtualSubnet-VirtualSubnet
 package#Virtualisation,domain#CP-HVHS+VS,domain#Node-HostLAN-HostLAN,domain#INS-HVHS+VS-HostLAN,TRUE,FALSE,domain#Node-SHost-Host

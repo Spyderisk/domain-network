@@ -38,7 +38,7 @@ package#Application,domain#usesIndirectly,domain#Process
 package#Application,domain#viewsData,domain#Human
 package#CloudManagement,domain#contains,domain#Pod
 package#CloudManagement,domain#isContainer,domain#Host
-package#CloudManagement,domain#isPod,domain#Host
+package#CloudManagement,domain#isPod,domain#Pod
 package#DataCaching,domain#caches,domain#DataCache
 package#DataLifecycle,domain#atHost,domain#DataPool
 package#DataLifecycle,domain#canGetKeys,domain#DataAccess
@@ -137,6 +137,7 @@ package#Network,domain#hosts,domain#Host
 package#Network,domain#impersonalDevice,domain#PhysicalHost
 package#Network,domain#implementsAN,domain#LogicalSubnet
 package#Network,domain#implementsHS,domain#WiFiLAN
+package#Network,domain#isAbstractHost,domain#Host
 package#Network,domain#isAbstractSubnet,domain#AbstractSubnet
 package#Network,domain#isCluster,domain#Host
 package#Network,domain#isHotspot,domain#WiFiLAN

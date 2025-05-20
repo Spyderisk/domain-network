@@ -59,7 +59,6 @@ package#5G,domain#INS-URrBc-rL3+CSg-LogicalSegment,domain#Node-ToSubnet-L23Subne
 package#5G,domain#INS-URrBrUR+CSg-LogicalSegment,domain#Node-FromSubnet-RAN
 package#5G,domain#INS-URrBrUR+CSg-LogicalSegment,domain#Node-Gateway-Host
 package#5G,domain#INS-URrBrUR+CSg-LogicalSegment,domain#Node-ToSubnet-RAN
-package#Application,domain#INS-HuSP+SMS-Process,domain#Node-SmartPhone-Smartphone
 package#Application,domain#INS-HuiCHDtS-AC+AC-RemoteDesktop,domain#Node-ConsoleHost-ConsoleHost
 package#Application,domain#INS-HuiCHDtS-AC+AC-RemoteDesktop,domain#Node-Human-Human
 package#CloudManagement,domain#INS-DCCM-A+A-APIServer,domain#Node-Cluster-Cluster
@@ -130,6 +129,7 @@ package#DataLifecycle,domain#INS-HSDADPDXP-Hu-DP+DP-NewDataPath,domain#Node-OldD
 package#DataLifecycle,domain#INS-HSDADPDXP-Hu-DP+DP-NewDataPath,domain#Node-Process-Process
 package#DataLifecycle,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-OldDataPath-DataPath
 package#DataLifecycle,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycle,domain#INS-HuSP+SMS-Process,domain#Node-SmartPhone-Smartphone
 package#DataLifecycle,domain#INS-HuWES+D-Data,domain#Node-MUA-EmailService
 package#DataLifecycle,domain#INS-HuWES+D-DataFlow,domain#Node-MUA-EmailService
 package#DataLifecycle,domain#INS-HuWES+D-DataFlow,domain#Node-WebBrowser-WebBrowser
@@ -236,6 +236,8 @@ package#LocalDeviceConnectivity,domain#INS-UPrGc-rUP+OSg-LogicalSegment,domain#N
 package#LocalDeviceConnectivity,domain#INS-UPrGc-rUP+OSg-LogicalSegment,domain#Node-Gateway-PhysicalHost
 package#LocalDeviceConnectivity,domain#INS-UPrGc-rUP+OSg-LogicalSegment,domain#Node-ToSubnet-USBPair
 package#LocalDeviceConnectivity,domain#INS-USBD-S+S-DataService,domain#Node-USBDevice-USBDevice
+package#Network,domain#INS-C-iLnSuSH-iCS+SL-LogicalSubnet,domain#Node-Host-Host
+package#Network,domain#INS-C-iLnSuSH-iCS+SL-LogicalSubnet,domain#Node-Space-Space
 package#Network,domain#INS-DC-C+C-Cluster,domain#Node-DataCentre-DataCentre
 package#Network,domain#INS-DC-R+RW-Router,domain#Node-DataCentre-DataCentre
 package#Network,domain#INS-DC-R+RW-WiredLAN,domain#Node-DataCentre-DataCentre
@@ -255,14 +257,14 @@ package#Network,domain#INS-PHHPS+AC-ProcAccess,domain#Node-Process-Process
 package#Network,domain#INS-PHHPS+AC-ProcAccess,domain#Node-Space-Space
 package#Network,domain#INS-PHHS+AC-HostAccess,domain#Node-Host-Host
 package#Network,domain#INS-PHHS+AC-HostAccess,domain#Node-Space-Space
-package#Network,domain#INS-PHHS-iC+SL-LogicalSubnet,domain#Node-Host-Host
-package#Network,domain#INS-PHHS-iC+SL-LogicalSubnet,domain#Node-Space-Space
 package#Network,domain#INS-Rr-LnS+LnS-LoginService,domain#Node-Router-Router
 package#Network,domain#INS-Sv-LnS+LnS-LoginService,domain#Node-Server-Server
 package#Network,domain#INS-WpHSH-aF+WH-LogicalSubnet,domain#Node-Hotspot-WiFiLAN
 package#Network,domain#INS-WpHSH-aF+WH-LogicalSubnet,domain#Node-Space-Space
 package#NetworkConnectivity,domain#INS-HLS+I-Interface,domain#Node-Host-Host
 package#NetworkConnectivity,domain#INS-HLS+I-Interface,domain#Node-LogicalSubnet-LogicalSubnet
+package#NetworkConnectivity,domain#INS-HSL+p+I-Interface,domain#Node-Host-Host
+package#NetworkConnectivity,domain#INS-HSL+p+I-Interface,domain#Node-LogicalSubnet-SocketLAN
 package#NetworkConnectivity,domain#INS-L3c-rGc-rL3+OSg-LogicalSegment,domain#Node-FromSubnet-L3Subnet
 package#NetworkConnectivity,domain#INS-L3c-rGc-rL3+OSg-LogicalSegment,domain#Node-Gateway-Host
 package#NetworkConnectivity,domain#INS-L3c-rGc-rL3+OSg-LogicalSegment,domain#Node-ToSubnet-L3Subnet

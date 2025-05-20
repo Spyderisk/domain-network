@@ -1540,6 +1540,11 @@ package#Network,domain#R-CcuS,domain#Node-Client-Process,TRUE
 package#Network,domain#R-CcuS,domain#Node-Service-Process,TRUE
 package#Network,domain#R-CuP,domain#Node-Client-Process,TRUE
 package#Network,domain#R-CuP,domain#Node-Process-Process,TRUE
+package#Network,domain#R-CuSHS,domain#Node-Client-Process,TRUE
+package#Network,domain#R-CuSHS,domain#Node-Host-Host,TRUE
+package#Network,domain#R-CuSHS,domain#Node-PhysicalHost-PhysicalHost,TRUE
+package#Network,domain#R-CuSHS,domain#Node-Service-Process,TRUE
+package#Network,domain#R-CuSHS,domain#Node-Space-Space,TRUE
 package#Network,domain#R-CuScS,domain#Node-Client-Process,TRUE
 package#Network,domain#R-CuScS,domain#Node-Service-Process,TRUE
 package#Network,domain#R-DC,domain#Node-DataCentre-DataCentre,TRUE
@@ -1560,6 +1565,7 @@ package#Network,domain#R-DCVHWS,domain#Node-LogicalSubnet-WiredLAN,TRUE
 package#Network,domain#R-DCVHWS,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#Network,domain#R-DCWH,domain#Node-DataCentre-DataCentre,TRUE
 package#Network,domain#R-DCWH,domain#Node-Host-FixedHost,TRUE
+package#Network,domain#R-DCWH,domain#Node-Router-Router,TRUE
 package#Network,domain#R-DCWH,domain#Node-WiredLAN-WiredLAN,TRUE
 package#Network,domain#R-DCpLS,domain#Node-DataCentre-DataCentre,TRUE
 package#Network,domain#R-DCpLS,domain#Node-LogicalSubnet-LogicalSubnet,TRUE
@@ -1628,6 +1634,8 @@ package#Network,domain#R-HRASuPcS,domain#Node-Host-Host,TRUE
 package#Network,domain#R-HRASuPcS,domain#Node-Process-Process,TRUE
 package#Network,domain#R-HRASuPcS,domain#Node-RemoteAccessService-RemoteAccessService,TRUE
 package#Network,domain#R-HRASuPcS,domain#Node-Service-Process,TRUE
+package#Network,domain#R-HSL,domain#Node-Host-Host,TRUE
+package#Network,domain#R-HSL,domain#Node-LogicalSubnet-SocketLAN,TRUE
 package#Network,domain#R-HcWHS,domain#Node-Host-Host,TRUE
 package#Network,domain#R-HcWHS,domain#Node-Hotspot-WiFiLAN,TRUE
 package#Network,domain#R-HcWHS,domain#Node-LogicalSubnet-WiFiLAN,TRUE

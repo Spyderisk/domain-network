@@ -325,6 +325,7 @@ package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.IS.PHS-iP.1
 package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.L.CHS-iP.3.1
 package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.M.CHS.3.1
 package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#H.M.HumCHS-iP.3.2
+package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#LS.AX.LSaS.3
 package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#P.L.HuiPCHS-iP.3.2
 package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#P.L.HuiPCHS-iP.3.3
 package#Network,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#P.L.HuiPCHS.3.1

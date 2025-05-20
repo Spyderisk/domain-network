@@ -78,7 +78,7 @@ package#CloudManagement,domain#Master,domain#VM
 package#CloudManagement,domain#Pod,domain#DumbHost
 package#CloudManagement,domain#Pod,domain#HostPalette
 package#CloudManagement,domain#Pod,domain#ScalableHost
-package#CloudManagement,domain#Pod,domain#TrivialHost
+package#CloudManagement,domain#Pod,domain#SimpleHost
 package#CloudManagement,domain#Pod,domain#VirtualHost
 package#CloudManagement,domain#Worker,domain#HostPalette
 package#CloudManagement,domain#Worker,domain#VCluster
@@ -218,7 +218,6 @@ package#Network,domain#MobileClient,domain#ConsoleHost
 package#Network,domain#MobileClient,domain#GeneralHost
 package#Network,domain#MobileClient,domain#HostPalette
 package#Network,domain#MobileClient,domain#MobileHost
-package#Network,domain#MobileHost,domain#PersonalHost
 package#Network,domain#MobileHost,domain#PhysicalHost
 package#Network,domain#NetworkAsset,core#Asset
 package#Network,domain#NetworkPalette,core#PaletteType
@@ -243,6 +242,7 @@ package#Network,domain#RemoteTerminal,domain#TrivialProcess
 package#Network,domain#RemovableMedia,domain#DumbHost
 package#Network,domain#RemovableMedia,domain#HostPalette
 package#Network,domain#RemovableMedia,domain#MobileHost
+package#Network,domain#RemovableMedia,domain#PersonalHost
 package#Network,domain#RemovableMedia,domain#TrivialHost
 package#Network,domain#Router,domain#DumbHost
 package#Network,domain#Router,domain#FixedHost
@@ -257,16 +257,19 @@ package#Network,domain#SimpleHost,domain#ShellHost
 package#Network,domain#SimpleProcess,domain#Process
 package#Network,domain#Smartphone,domain#HostPalette
 package#Network,domain#Smartphone,domain#MobileClient
+package#Network,domain#Smartphone,domain#PersonalHost
 package#Network,domain#Smartwatch,domain#GeneralHost
 package#Network,domain#Smartwatch,domain#HostPalette
 package#Network,domain#Smartwatch,domain#InteractiveHost
 package#Network,domain#Smartwatch,domain#MobileHost
+package#Network,domain#Smartwatch,domain#PersonalHost
 package#Network,domain#SocketLAN,domain#InternalSubnet
 package#Network,domain#SocketLAN,domain#L0Subnet
 package#Network,domain#SystemProcess,domain#ProcessPalette
 package#Network,domain#SystemProcess,domain#SimpleProcess
 package#Network,domain#Tablet,domain#HostPalette
 package#Network,domain#Tablet,domain#MobileClient
+package#Network,domain#Tablet,domain#PersonalHost
 package#Network,domain#TrivialHost,domain#TypeOverlayHost
 package#Network,domain#TrivialProcess,domain#TypeOverlayProcess
 package#Network,domain#WiFiLAN,domain#L2Subnet
@@ -339,7 +342,7 @@ package#Virtualisation,domain#ScalableHost,domain#TypeOverlayHost
 package#Virtualisation,domain#VCluster,domain#ClusterHost
 package#Virtualisation,domain#VCluster,domain#HostPalette
 package#Virtualisation,domain#VCluster,domain#ScalableHost
-package#Virtualisation,domain#VCluster,domain#VirtualHost
+package#Virtualisation,domain#VCluster,domain#VM
 package#Virtualisation,domain#VM,domain#DumbHost
 package#Virtualisation,domain#VM,domain#GeneralHost
 package#Virtualisation,domain#VM,domain#HostPalette

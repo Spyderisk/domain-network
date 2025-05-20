@@ -1538,6 +1538,11 @@ package#Network,domain#R-CaS,domain#Link-Client-accessesService-Service
 package#Network,domain#R-CcuS,domain#Link-Client-accessesService-Service
 package#Network,domain#R-CcuS,domain#Link-Client-controls-Service
 package#Network,domain#R-CuP,domain#Link-Client-usesService-Process
+package#Network,domain#R-CuSHS,domain#Link-Client-accessesService-Service
+package#Network,domain#R-CuSHS,domain#Link-Host-hasPhysicalHost-PhysicalHost
+package#Network,domain#R-CuSHS,domain#Link-Host-hosts-Client
+package#Network,domain#R-CuSHS,domain#Link-Host-hosts-Service
+package#Network,domain#R-CuSHS,domain#Link-PhysicalHost-locatedIn-Space
 package#Network,domain#R-CuScS,domain#Link-Client-usesService-Service
 package#Network,domain#R-CuScS,domain#Link-Service-controls-Client
 package#Network,domain#R-DCH,domain#Link-Host-resourcedBy-DataCentre
@@ -1551,7 +1556,8 @@ package#Network,domain#R-DCVHWS,domain#Link-Host-connectedTo-LogicalSubnet
 package#Network,domain#R-DCVHWS,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#R-DCVHWS,domain#Link-PhysicalHost-locatedIn-DataCentre
 package#Network,domain#R-DCWH,domain#Link-Host-locatedIn-DataCentre
-package#Network,domain#R-DCWH,domain#Link-WiredLAN-providedBy-DataCentre
+package#Network,domain#R-DCWH,domain#Link-Router-resourcedBy-DataCentre
+package#Network,domain#R-DCWH,domain#Link-WiredLAN-providedBy-Router
 package#Network,domain#R-DCpLS,domain#Link-LogicalSubnet-providedBy-DataCentre
 package#Network,domain#R-DCpLS,domain#Link-Router-locatedIn-DataCentre
 package#Network,domain#R-DCpLS,domain#Link-Router-resourcedBy-DataCentre
@@ -1613,6 +1619,7 @@ package#Network,domain#R-HRASuPcS,domain#Link-Host-hosts-RemoteAccessService
 package#Network,domain#R-HRASuPcS,domain#Link-Process-usesService-Service
 package#Network,domain#R-HRASuPcS,domain#Link-RemoteAccessService-uses-Process
 package#Network,domain#R-HRASuPcS,domain#Link-Service-controls-Process
+package#Network,domain#R-HSL,domain#Link-Host-connectedTo-LogicalSubnet
 package#Network,domain#R-HcWHS,domain#Link-Host-connectedTo-Hotspot
 package#Network,domain#R-HcWHS,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#Network,domain#R-HcWHS,domain#Link-LogicalSubnet-accessibleFrom-Space

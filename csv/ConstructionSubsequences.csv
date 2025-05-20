@@ -2,7 +2,6 @@ package,URI,subsequence
 domain#000000,domain#000000,Data processing and handling inference
 package#Application,domain#S-DataHandling,Data processing and handling inference
 package#Application,domain#S-StorageInference,Data storage inference
-package#CloudManagement,domain#S-CloudAccessControl,Cloud access control inference
 package#Core,domain#S-000,Not in any construction subsequence
 package#DataLifecycle,domain#S-DataChannels,Data channel creation
 package#DataLifecycle,domain#S-DataFlowCaching,Data flow caching inference
@@ -22,6 +21,7 @@ package#Network,domain#S-HostInteractivity,User-host interactivity inference
 package#Network,domain#S-HostLocation,Host location inference
 package#Network,domain#S-HostManagement,Host management inference
 package#Network,domain#S-HostOperation,Host operation inference
+package#Network,domain#S-InternalComms,Intra-host communication inference
 package#Network,domain#S-LocalizedNetworks,Inferred localized network creation
 package#Network,domain#S-NetworkAccessibility,Network accessibility inference
 package#Network,domain#S-NetworkConnections,Network connection inference

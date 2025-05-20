@@ -26,6 +26,7 @@ package#Application,domain#updates,domain#amends
 package#Application,domain#updates,domain#reads
 package#Application,domain#viewsData,domain#interactsWithData
 package#CloudManagement,domain#isContainer,domain#isStateless
+package#CloudManagement,domain#isPod,domain#isAbstractHost
 package#DataLifecycle,domain#crudc,domain#crudd
 package#DataLifecycle,domain#crudu,domain#crudd
 package#DataLifecycle,domain#crudu,domain#crudr

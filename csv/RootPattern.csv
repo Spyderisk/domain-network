@@ -345,6 +345,7 @@ package#Network,domain#R-CScP,CScP,Finds a client directly or indirectly accessi
 package#Network,domain#R-CaS,CaS,Finds a client accessing a service.,FALSE,FALSE
 package#Network,domain#R-CcuS,CcuS,Finds a client accessing a service and controlling access to the same service (which should never happen).,FALSE,TRUE
 package#Network,domain#R-CuP,CuP,Finds a client accessing a service but not to get authorization decisions about 3rd parties.,FALSE,FALSE
+package#Network,domain#R-CuSHS,CuSHS,"Finds a client interacting with a service where both are on the same Host, plus their physical host location.",FALSE,FALSE
 package#Network,domain#R-CuScS,CuScS,Finds a client using a service for application or authentication and also controlled by the service.,FALSE,TRUE
 package#Network,domain#R-DC,DC,Finds a solo Data Centre.,FALSE,FALSE
 package#Network,domain#R-DCH,DCH,Finds a Host resourced by a DataCentre.,FALSE,FALSE
@@ -352,7 +353,7 @@ package#Network,domain#R-DCLS,DCLS,Finds a Router resourced by a DataCentre whic
 package#Network,domain#R-DCPS,DCPS,Finds a Process hosted directly on a Data Centre.,FALSE,FALSE
 package#Network,domain#R-DCVHRS,DCVHRS,Finds a Host that is physically in a DataCentre and connected to a WiFi LAN.,FALSE,FALSE
 package#Network,domain#R-DCVHWS,DCVHWS,Finds a Host that is physically in a DataCentre and connected to a Wired LAN.,FALSE,FALSE
-package#Network,domain#R-DCWH,DCWH,Finds a FixedHost in a Data Centre that provides a WiredLAN.,FALSE,FALSE
+package#Network,domain#R-DCWH,DCWH,"Finds a DataCentre whose Router provides a WiredLAN, in which there is a fixed host.",FALSE,FALSE
 package#Network,domain#R-DCpLS,DCpLS,"Finds a DataCentre providing a LogicalSubnet, and a router located in and resourced by the data centre.",FALSE,TRUE
 package#Network,domain#R-FH+iM,FH+iM,"Finds a solo fixed, physical host that has multiple locations.",FALSE,FALSE
 package#Network,domain#R-FHprLS,FHprLS,Finds a LogicalSubnet provided by a FixedHost.,FALSE,FALSE
@@ -375,6 +376,7 @@ package#Network,domain#R-HRASuPCcS,HRASuPCcS,"Finds a host running a remote acce
 package#Network,domain#R-HRASuPScS,HRASuPScS,"Finds a host running a remote access service that launches a process which uses a service, where the service and the process are controlled by the same authenticator, implying that the process accesses the service using a token shared with it by a client.",FALSE,FALSE
 package#Network,domain#R-HRASuPcC,HRASuPcC,"Finds a host running a remote access service that launches a process which is used by a client that it also controls, implying the client forwards credentials to the process.",FALSE,TRUE
 package#Network,domain#R-HRASuPcS,HRASuPcS,"Finds a host running a remote access service that launches a process which uses a service by which it is also controlled, implying that the process uses forwarded credentials to access the service.",FALSE,TRUE
+package#Network,domain#R-HSL,HSL,Finds a Host connected to a SocketLAN.,FALSE,FALSE
 package#Network,domain#R-HcWHS,HcWHS,"Finds a WiFiLAN hotspot and its local implementation in a Space, and a host connected to the hotspot in that space.",FALSE,FALSE
 package#Network,domain#R-Hm2Hu,Hm2Hu,Finds a host and two humans that manage the host.,FALSE,FALSE
 package#Network,domain#R-HprL23S,HprL23S,Finds a Layer 2 or 3 LogicalSubnet provided by a Host.,FALSE,FALSE
