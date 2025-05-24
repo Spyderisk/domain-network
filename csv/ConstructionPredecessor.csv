@@ -616,11 +616,11 @@ package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-L3rGrL3+OSg,L3rGrL3+OS
 package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-1,SgHfILS+f is at the start of the network path segment relationship inference sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-L3rGrL3+OSg,L3rGrL3+OSg creates link that in SgHfILS+f should match LogicalSegment-via-Host,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-1,SgHtILS+t is at the start of the network path segment relationship inference sequence,FALSE,TRUE
+package#Physical,domain#CP-Marker+SpaceClassification-0,domain#CP-Marker+SpaceCreation-1,Inferred space creation should precedes space classification,FALSE,TRUE
+package#Physical,domain#CP-Marker+SpaceClassification-1,domain#CP-Marker+SpaceClassification-0,Start precedes end of sequence,FALSE,TRUE
 package#Physical,domain#CP-Marker+SpaceCreation-1,domain#CP-Marker+SpaceCreation-0,Start precedes end of sequence,FALSE,TRUE
-package#Physical,domain#CP-Marker+SpaceCreation-2,domain#CP-Marker+SpaceCreation-1,Start precedes end of sequence,FALSE,TRUE
-package#Physical,domain#CP-Marker+WorldTagging-1,domain#CP-Marker+SpaceCreation-2,Start precedes end of sequence,FALSE,TRUE
 package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-0,PPS-E+W is at the start of the physical entrance creation sequence,FALSE,TRUE
-package#Physical,domain#CP-W+iW,domain#CP-Marker+SpaceCreation-2,W+iW is at the start of the inferred space creation sequence,FALSE,TRUE
+package#Physical,domain#CP-W+iW,domain#CP-Marker+SpaceClassification-0,W+iW is at the start of the inferred space creation sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-2,DHuDC+r is at the start of the stored data access relationship inference sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDF+r,domain#CP-Marker+DataCopy-2,DHuDF+r is at the start of the stored data access relationship inference sequence,FALSE,TRUE
 package#Privacy,domain#CP-HurH-StSt+o,domain#CP-Marker+PersonalOperation-0,HurH-StSt+o is at the start of the personal device operation inference sequence,FALSE,TRUE
@@ -813,8 +813,9 @@ package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-0,A+iA is at the start
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-0,HuaSaE+cA is at the start of the human mobility inference sequence,FALSE,TRUE
 package#Users,domain#CP-Marker+HumanMobility-0,domain#CP-Marker+UserMobilityRequirements-1,User mobility requirements inference should precede user mobility inference,FALSE,TRUE
 package#Users,domain#CP-Marker+HumanMobility-1,domain#CP-Marker+HumanMobility-0,Start precedes end of sequence,FALSE,TRUE
+package#Users,domain#CP-Marker+HumanStatus-0,domain#CP-Marker+HumanMobility-1,Human mobility inference should precede human status classification,FALSE,TRUE
 package#Users,domain#CP-Marker+HumanStatus-1,domain#CP-Marker+HumanStatus-0,Start precedes and of sequence,FALSE,TRUE
-package#Users,domain#CP-Marker+SpaceOperation-0,domain#CP-Marker+WorldTagging-1,Inferred space creation and tagging should precede space operational inference,FALSE,TRUE
+package#Users,domain#CP-Marker+SpaceOperation-0,domain#CP-Marker+SpaceClassification-1,Space classification should precede space operational inference,FALSE,TRUE
 package#Users,domain#CP-Marker+SpaceOperation-1,domain#CP-Marker+SpaceOperation-0,Start precedes end of sequence,FALSE,TRUE
 package#Users,domain#CP-Marker+UserMobilityRequirements-0,domain#CP-Marker+SpaceCreation-1,Physical space creation should precede user mobility requirements inference,FALSE,TRUE
 package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+UserMobilityRequirements-0,Start precedes end of sequence,FALSE,TRUE

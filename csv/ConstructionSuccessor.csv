@@ -195,9 +195,9 @@ package#Network,domain#CP-Marker+5GBaseStationLocation-1,domain#CP-Marker+Mobile
 package#Network,domain#CP-Marker+DefaultHostLocation-1,domain#CP-Marker+HostLocation-1,Default host location inference is a subsequence of host location inference,FALSE,TRUE
 package#Network,domain#CP-Marker+FixedHostCreation-1,domain#CP-Marker+HostCreation-1,Inferred physical host creation is a subsequence of inferred host creation,FALSE,TRUE
 package#Network,domain#CP-Marker+FixedNetworkCreation-1,domain#CP-Marker+NetworkCreation-1,Inferred physical network creation is a subsequence of inferred network creation,FALSE,TRUE
-package#Network,domain#CP-Marker+HostLocation-1,domain#CP-Marker+SpaceCreation-2,Host location inference may create a global public space,FALSE,TRUE
+package#Network,domain#CP-Marker+HostLocation-1,domain#CP-Marker+SpaceClassification-0,Host location inference may create a global public space,FALSE,TRUE
 package#Network,domain#CP-Marker+MobileHostLocation-1,domain#CP-Marker+HostLocation-1,Mobile host location inference is a subsequence of host location inference,FALSE,TRUE
-package#Network,domain#CP-Marker+NetworkAccessibility-1,domain#CP-Marker+SpaceCreation-2,Network accessibility inference may create a global public space,FALSE,TRUE
+package#Network,domain#CP-Marker+NetworkAccessibility-1,domain#CP-Marker+SpaceClassification-0,Network accessibility inference may create a global public space,FALSE,TRUE
 package#Network,domain#CP-Marker+NetworkLogin-1,domain#CP-Marker+SystemClient-1,Network login client creation is a subsequence of system client creation,FALSE,TRUE
 package#Network,domain#CP-Marker+PhysicalHostInference-1,domain#CP-Marker+FixedHostCreation-1,Physical host inference for physical hosts is a subsequence of inferred physical host creation,FALSE,TRUE
 package#Network,domain#CP-Marker+PhysicalHostManagement-1,domain#CP-Marker+HostManagement-1,Physical host management inference is a subsequence of host management inference,FALSE,TRUE
@@ -233,7 +233,7 @@ package#NetworkConnectivity,domain#CP-NP2LSg+t,domain#CP-Marker+NetworkPaths-1,N
 package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-2,SgHfILS+f is at the end of the network path segment relationship inference sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-2,SgHtILS+t is at the end of the network path segment relationship inference sequence,FALSE,TRUE
 package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-1,PPS-E+W is at the end of the physical entrance creation sequence,FALSE,TRUE
-package#Physical,domain#CP-W+iW,domain#CP-Marker+WorldTagging-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
+package#Physical,domain#CP-W+iW,domain#CP-Marker+SpaceClassification-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-3,DHuDC+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDF+r,domain#CP-Marker+DataCopy-3,DHuDF+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-Marker+PersonalOperation-1,HuwStrH-St+o is at the end of the personal device operation inference sequence,FALSE,TRUE
@@ -298,7 +298,8 @@ package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS-ii+PN
 package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+TrustContext-0,Trust contextualisation inference should follow reconnection context creation.,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-1,A+iA is at the end of the user status classification sequence,FALSE,TRUE
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-1,HuaSaE+cA is at the end of the human mobility inference sequence,FALSE,TRUE
-package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+SpaceCreation-2,User mobility requirements inference may create an inferred space,FALSE,TRUE
+package#Users,domain#CP-Marker+HumanMobility-1,domain#CP-Marker+SpaceClassification-0,,FALSE,TRUE
+package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+SpaceClassification-0,User mobility requirements inference may create an inferred space,FALSE,TRUE
 package#Users,domain#CP-StS-St+c,domain#CP-Marker+SpaceOperation-1,StS-St+c is at the end of the space operation inference sequence,FALSE,TRUE
 package#Virtualisation,domain#CP-CCSCHC+ch,domain#CP-Marker+VirtualNetworkSupport-1,CCSCHC+ch is at the end of the virtual network dependency inference sequence,FALSE,TRUE
 package#Virtualisation,domain#CP-CCSCVC+ch,domain#CP-Marker+VirtualNetworkSupport-1,CCSCVC+ch is at the end of the virtual network dependency inference sequence,FALSE,TRUE

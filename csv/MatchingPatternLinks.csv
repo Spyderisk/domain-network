@@ -1559,7 +1559,7 @@ package#ProcessTrust,domain#MP-H-sDFSACaiFS,domain#Link-Host-stores-Data,TRUE
 package#ProcessTrust,domain#MP-H-sDFSFdC,domain#Link-Host-stores-Data,TRUE
 package#ProcessTrust,domain#MP-H-sDFcCaiAC,domain#Link-Host-stores-Data,TRUE
 package#ProcessTrust,domain#MP-H-sDFcCr-aAC,domain#Link-Host-stores-Data,TRUE
-package#ProcessTrust,domain#MP-H-sDFcCr-aAC,domain#Link-ProcAccess-accessFromClient-AuthChannel,FALSE
+package#ProcessTrust,domain#MP-H-sDFcCr-aAC,domain#Link-ProcAccess-accessFromClient-AuthChannel,TRUE
 package#ProcessTrust,domain#MP-H-sDFrSACdDFiaS,domain#Link-Host-stores-Data,TRUE
 package#ProcessTrust,domain#MP-H-sDFrSACdDFiaS,domain#Link-Host-stores-Input,TRUE
 package#ProcessTrust,domain#MP-H-sDFuCudDFdS-ACau,domain#Link-Host-stores-Data,TRUE

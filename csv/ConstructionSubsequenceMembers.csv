@@ -522,10 +522,10 @@ package#NetworkConnectivity,domain#CP-OPPS2+PP,32,domain#S-NetworkPaths,FALSE
 package#NetworkConnectivity,domain#CP-PS-iH+PPE,32,domain#S-NetworkPaths,FALSE
 package#NetworkConnectivity,domain#CP-SgHfILS+f,28,domain#S-NetworkSegments,FALSE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,28,domain#S-NetworkSegments,FALSE
+package#Physical,domain#CP-Marker+SpaceClassification-0,0,domain#S-SpaceClassification,FALSE
+package#Physical,domain#CP-Marker+SpaceClassification-1,0,domain#S-SpaceClassification,FALSE
 package#Physical,domain#CP-Marker+SpaceCreation-0,1,domain#S-SpaceCreation,FALSE
 package#Physical,domain#CP-Marker+SpaceCreation-1,1,domain#S-SpaceCreation,FALSE
-package#Physical,domain#CP-Marker+SpaceCreation-2,25,domain#S-SpaceClassification,FALSE
-package#Physical,domain#CP-Marker+WorldTagging-1,25,domain#S-SpaceClassification,FALSE
 package#Physical,domain#CP-PPS-E+W,1,domain#S-SpaceCreation,FALSE
 package#Physical,domain#CP-W+iW,25,domain#S-SpaceClassification,FALSE
 package#Privacy,domain#CP-DHuDC+r,0,domain#S-PersistentDataAccess,FALSE
