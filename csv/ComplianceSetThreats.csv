@@ -18,9 +18,7 @@ package#Application,domain#Anomalies,domain#P.E.PpD+noDU.9
 package#CloudManagement,domain#Anomalies,domain#H.E.CtDS.9
 package#CloudManagement,domain#Anomalies,domain#H.E.CtH-iP.9
 package#CloudManagement,domain#Anomalies,domain#H.E.HCt.9
-package#CloudManagement,domain#Anomalies,domain#H.E.SHVH.9
 package#CloudManagement,domain#Anomalies,domain#Hu.E.Hum-iH-AC.9
-package#CloudManagement,domain#Anomalies,domain#P.E.HuiHP.9
 package#DataLifecycle,domain#Anomalies,domain#D.E.D+DS-cP-iHu.9
 package#DataLifecycle,domain#Anomalies,domain#D.E.D-DS-cP-iHu.9
 package#DataLifecycle,domain#Anomalies,domain#D.E.HuaD-DS.9
@@ -61,6 +59,7 @@ package#IoT,domain#Anomalies,domain#Th.E.IoT-Hu.9
 package#Legal,domain#Anomalies,domain#D.E.HuDP-J.9
 package#Legal,domain#Anomalies,domain#D.E.HuDSH-J.9
 package#Network,domain#Anomalies,domain#H.E.FHmS.9
+package#Network,domain#Anomalies,domain#H.E.H-Hu.9
 package#Network,domain#Anomalies,domain#H.E.H-iR-iMCHIUS.9
 package#Network,domain#Anomalies,domain#H.E.HHu2d.9
 package#Network,domain#Anomalies,domain#H.E.HPHLS-S.9
@@ -81,7 +80,6 @@ package#Network,domain#Anomalies,domain#P.E.THGP.9
 package#Network,domain#Anomalies,domain#W.E.WmPH.9
 package#NetworkConnectivity,domain#Anomalies,domain#H.E.RScGcRS.9
 package#NetworkConnectivity,domain#Anomalies,domain#H.E.WScMcWS.9
-package#Privacy,domain#Anomalies,domain#H.E.H-Hu.9
 package#ProcessComms,domain#Anomalies,domain#P.E.HuiSP.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTuP-hCLI.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTurP-hCLI.9
@@ -94,8 +92,10 @@ package#ProcessTrust,domain#Anomalies,domain#P.E.PcHpmS.9
 package#ProcessTrust,domain#Anomalies,domain#P.E.PcLSpmS.9
 package#ProcessTrust,domain#Anomalies,domain#P.E.Pu-pPucmS.9
 package#Virtualisation,domain#Anomalies,domain#H.E.HuiVH.9
+package#Virtualisation,domain#Anomalies,domain#H.E.SHVH.9
 package#Virtualisation,domain#Anomalies,domain#H.E.THVH.9
 package#Virtualisation,domain#Anomalies,domain#H.E.VHH2.9
 package#Virtualisation,domain#Anomalies,domain#LS.E.pLSoLS.9
+package#Virtualisation,domain#Anomalies,domain#P.E.HuiHP.9
 package#Virtualisation,domain#Anomalies,domain#VH.E.VHH3.9
 package#Virtualisation,domain#Anomalies,domain#VS.E.VSVC4H-PP.9

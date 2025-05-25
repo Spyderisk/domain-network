@@ -1434,8 +1434,6 @@ package#LocalDeviceConnectivity,domain#R-HumHBTTH,domain#Link-Human-manages-Host
 package#LocalDeviceConnectivity,domain#R-HumHBTTH,domain#Link-TrivialHost-pairsViaBluetooth-Host
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Link-Human-manages-Host
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Link-TrivialHost-pairsViaUSB-Host
-package#LocalDeviceConnectivity,domain#R-HumTHS,domain#Link-Host-locatedIn-Space
-package#LocalDeviceConnectivity,domain#R-HumTHS,domain#Link-HostManager-manages-Host
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Link-FromHost-connectedTo-FromSubnet
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Link-FwdSegment-from-FromSubnet
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Link-FwdSegment-to-ToSubnet
@@ -1683,6 +1681,8 @@ package#Network,domain#R-HumP,domain#Link-ProcessManager-manages-Process
 package#Network,domain#R-HumPH,domain#Link-Host-hosts-Process
 package#Network,domain#R-HumPH,domain#Link-ProcessManager-manages-Process
 package#Network,domain#R-HumSH,domain#Link-HostManager-manages-Host
+package#Network,domain#R-HumTHS,domain#Link-Host-locatedIn-Space
+package#Network,domain#R-HumTHS,domain#Link-HostManager-manages-Host
 package#Network,domain#R-HuoH,domain#Link-Human-operates-Host
 package#Network,domain#R-HuwStmH,domain#Link-HostManager-manages-Host
 package#Network,domain#R-HuwStmH,domain#Link-HostManager-worksFor-Employer

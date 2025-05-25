@@ -2,6 +2,9 @@ package,URI,domain
 domain#000000,domain#000000,domain#PhysicalSubnet
 package#5G,domain#implementsCN,domain#PhysicalSubnet
 package#AccessContext,domain#accessFrom,domain#AccessContext
+package#AccessContext,domain#accessTo,domain#AccessContext
+package#AccessContext,domain#interactsRemotelyWith,domain#Human
+package#AccessContext,domain#interactsWith,domain#Human
 package#AccessContext,domain#manages,domain#Human
 package#Application,domain#amends,domain#Process
 package#Application,domain#amendsData,domain#Human
@@ -120,8 +123,6 @@ package#LocalDeviceConnectivity,domain#pairsViaBluetooth,domain#PhysicalHost
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#MobileClient
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#RemovableMedia
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#USBDevice
-package#Network,domain#above,domain#Host
-package#Network,domain#accessTo,domain#AccessContext
 package#Network,domain#accessVia,domain#AccessContext
 package#Network,domain#accessesService,domain#Process
 package#Network,domain#accessibleFrom,domain#AbstractSubnet
@@ -134,8 +135,6 @@ package#Network,domain#hosts,domain#Host
 package#Network,domain#impersonalDevice,domain#PhysicalHost
 package#Network,domain#implementsAN,domain#LogicalSubnet
 package#Network,domain#implementsHS,domain#WiFiLAN
-package#Network,domain#interactsRemotelyWith,domain#Human
-package#Network,domain#interactsWith,domain#Human
 package#Network,domain#isAbstractSubnet,domain#AbstractSubnet
 package#Network,domain#isCluster,domain#Host
 package#Network,domain#isHostLAN,domain#L3Subnet
@@ -228,6 +227,7 @@ package#Users,domain#controlledBy,domain#PrivateSpace
 package#Users,domain#isAdult,domain#Adult
 package#Users,domain#operates,domain#Stakeholder
 package#Users,domain#worksFor,domain#Human
+package#Virtualisation,domain#above,domain#Host
 package#Virtualisation,domain#fromPhysicalHost,domain#HostChannel
 package#Virtualisation,domain#fromPhysicalHost,domain#VirtualChannel
 package#Virtualisation,domain#fromPhysicalInterface,domain#HostChannel

@@ -111,10 +111,6 @@ package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implemen
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#LS.L.HLSISC.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#P.L.CCCLnSAC.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#P.L.CCCSAC.3
-package#CloudManagement,domain#CSG-AutomatedHostFaultRecovery,domain#H.A.H.5
-package#CloudManagement,domain#CSG-AutomatedProcessFaultRecovery,domain#P.A.HP-iT.5
-package#CloudManagement,domain#CSG-ElasticHosting,domain#H.A.H.0
-package#CloudManagement,domain#CSG-SLAEnforcement,domain#H.O.CVHHHoDC.0
 package#DataLifecycle,domain#CSG-DataAccessControl,domain#DS.A.HsACDS.1.3
 package#DataLifecycle,domain#CSG-DataAccessControl,domain#DS.Auth.HsACDS-V.1.3
 package#DataLifecycle,domain#CSG-DataAccessControl,domain#DS.C.HsACDS-V.1.3
@@ -435,6 +431,7 @@ package#NetworkConnectivity,domain#CSG-SecureHostConfig,domain#H.L.NoH.3
 package#NetworkConnectivity,domain#CSG-SecureHostConfig,domain#H.M.IoH.3
 package#NetworkConnectivity,domain#CSG-SecureHostConfig,domain#H.M.NoH.3
 package#Physical,domain#CSG-BiometricAccessControlAtSpace,domain#S.L.PSS.3
+package#Physical,domain#CSG-ChipAndPinAccessControlAtSpace,domain#S.L.PSS.3
 package#Physical,domain#CSG-ContinuouslyOccupiedSpace,domain#S.L.PSS.3
 package#Physical,domain#CSG-IgnorePhysicalIntrusionInSpace,domain#S.L.PSS.3
 package#Physical,domain#CSG-PhysicalIDChecksAtSpace,domain#S.L.PSS.3
@@ -626,11 +623,14 @@ package#Theft,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime
 package#Theft,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#DF.C.AC-iDFVTC.2.6
 package#Theft,domain#CSG-UserSecurityTraining,domain#H.M.HumCH.2.2
 package#Theft,domain#CSG-UserSecurityTraining,domain#P.L.HuiPCH.2.2
-package#Users,domain#CSG-ChipAndPinAccessControlAtSpace,domain#S.L.PSS.3
 package#Users,domain#CSG-StaffScreening,domain#S.L.HuPSoSt.1
+package#Virtualisation,domain#CSG-AutomatedHostFaultRecovery,domain#H.A.H.5
+package#Virtualisation,domain#CSG-AutomatedProcessFaultRecovery,domain#P.A.HP-iT.5
 package#Virtualisation,domain#CSG-DisableHost-Runtime,domain#H.IS.HVH.8
+package#Virtualisation,domain#CSG-ElasticHosting,domain#H.A.H.0
 package#Virtualisation,domain#CSG-NetworkEAP-PSK-Client,domain#I.A.GdHVS.6
 package#Virtualisation,domain#CSG-NetworkEAP-TLS-Client,domain#I.A.GdHVS.6
+package#Virtualisation,domain#CSG-SLAEnforcement,domain#H.O.CVHHHoDC.0
 package#Virtualisation,domain#CSG-VirtualSubnetEncryption,domain#SC.C.VSHCmSC.3
 package#VulnerabilityCVSS,domain#CSG-AntiMalwareAtHost,domain#H.W.HIoH.3
 package#VulnerabilityCVSS,domain#CSG-AntiMalwareAtHost,domain#H.W.HLoH.3

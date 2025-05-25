@@ -23,7 +23,6 @@ package#5G,domain#CP-UCNSRAN-p+BS,domain#Node-BaseStation-BaseStation,domain#INS
 package#5G,domain#CP-UCc-rBrUR+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-UCc-rBrUR+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#5G,domain#CP-URrBc-rL3+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-URrBc-rL3+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
 package#5G,domain#CP-URrBrUR+CSg,domain#Node-LogicalSegment-ClosedSegment,domain#INS-URrBrUR+CSg-LogicalSegment,TRUE,FALSE,domain#Node-Gateway-Host
-package#Application,domain#CP-HuSP+SMS,domain#Node-Process-SMSClient,domain#INS-HuSP+SMS-Process,TRUE,FALSE,domain#Node-SmartPhone-Smartphone
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Node-RemoteDesktop-RemoteDesktop,domain#INS-HuiCHDtS-AC+AC-RemoteDesktop,TRUE,FALSE,domain#Node-ConsoleHost-ConsoleHost
 package#Application,domain#CP-HuiCHDtS-AC+AC,domain#Node-RemoteTerminal-RemoteTerminal,domain#INS-HuiCHDtS-AC+AC-RemoteTerminal,TRUE,FALSE,domain#Node-ConsoleHost-ConsoleHost
 package#CloudManagement,domain#CP-DCCM-A+A,domain#Node-APIServer-APIServer,domain#INS-DCCM-A+A-APIServer,TRUE,FALSE,domain#Node-DataCentre-DataCentre
@@ -35,7 +34,6 @@ package#CloudManagement,domain#CP-MWHLS+CIP,domain#Node-ClusterIP-ClusterIP,doma
 package#CloudManagement,domain#CP-PodDCC-M+M,domain#Node-CloudMaster-Master,domain#INS-PodDCC-M+M-CloudMaster,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#Node-CloudWorker-Worker,domain#INS-PodDCMC-W-H+W-CloudWorker,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#Node-Container-Container,domain#INS-PodP-Cn+Cn-Container,TRUE,FALSE,domain#Node-Process-Process
-package#CloudManagement,domain#CP-VH-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-VH-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-VirtualHost-VirtualHost
 package#DataLifecycle,domain#CP-CS-SP+DX,domain#Node-DataExchange-DataExchange,domain#INS-CS-SP+DX-DataExchange,FALSE,TRUE,domain#Link-Client-uses-Service
 package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#Node-NewDataChannel-DataChannel,domain#INS-DDDCDP2oDS+DC-NewDataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
 package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#Node-DataFlow-DataFlow,domain#INS-DDDCDS2P+DF-DataFlow,TRUE,FALSE,domain#Node-Data-Data
@@ -46,6 +44,14 @@ package#DataLifecycle,domain#CP-DSDPS+DC,domain#Node-DataChannel-DataChannel,dom
 package#DataLifecycle,domain#CP-FwdDFf2DP2P+DS,domain#Node-DataStep-DataStep,domain#INS-FwdDFf2DP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
 package#DataLifecycle,domain#CP-FwdDFfDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-FwdDFfDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
 package#DataLifecycle,domain#CP-FwdDFtDP2P+DS,domain#Node-DataStep-DataStep,domain#INS-FwdDFtDP2P+DS-DataStep,TRUE,FALSE,domain#Node-DataFlow-DataFlow
+package#DataLifecycle,domain#CP-H-sDFCFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-H-sDFSACaiFS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSACaiFS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-H-sDFSFdC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSFdC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-H-sDFcCaiAC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFcCaiAC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-H-sDFcCr-aAC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFcCr-aAC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-H-sDFrSACdDFiaS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFrSACdDFiaS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFuCudDFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-H-sDFuSdC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFuSdC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#DataLifecycle,domain#CP-HD-aHD-DS+DS,domain#Node-DataCopy-DataCopy,domain#INS-HD-aHD-DS+DS-DataCopy,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-HHuWE+D,domain#Node-Data-SpamData,domain#INS-HHuWE+D-Data,TRUE,FALSE,domain#Node-MUA-EmailClient
 package#DataLifecycle,domain#CP-HHuWE+D,domain#Node-DataFlow-DataFlow,domain#INS-HHuWE+D-DataFlow,TRUE,FALSE,domain#Node-WebBrowser-WebBrowser
@@ -55,6 +61,7 @@ package#DataLifecycle,domain#CP-HPrD-DS-DA+DR,domain#Node-DataRelay-TempDataRela
 package#DataLifecycle,domain#CP-HPsD-DS+DR,domain#Node-DataRelay-DataRelay,domain#INS-HPsD-DS+DR-DataRelay,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-HSDADPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-HSDADPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-DB-Process
 package#DataLifecycle,domain#CP-HSDADPPDXP-Hu-DP+DP,domain#Node-NewDataPath-DataPath,domain#INS-HSDADPPDXP-Hu-DP+DP-NewDataPath,TRUE,FALSE,domain#Node-Service-Process
+package#DataLifecycle,domain#CP-HuSP+SMS,domain#Node-Process-SMSClient,domain#INS-HuSP+SMS-Process,TRUE,FALSE,domain#Node-SmartPhone-Smartphone
 package#DataLifecycle,domain#CP-HuWES+D,domain#Node-Data-SpamData,domain#INS-HuWES+D-Data,TRUE,FALSE,domain#Node-MUA-EmailService
 package#DataLifecycle,domain#CP-HuWES+D,domain#Node-DataFlow-DataFlow,domain#INS-HuWES+D-DataFlow,TRUE,FALSE,domain#Node-MUA-EmailService
 package#DataLifecycle,domain#CP-HuaDPH-DS-DA+DU,domain#Node-DataUpdate-DataUpdate,domain#INS-HuaDPH-DS-DA+DU-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
@@ -140,8 +147,6 @@ package#NetworkConnectivity,domain#CP-PS-iH+PPE,domain#Node-PPE-PPE,domain#INS-P
 package#NetworkConnectivity,domain#CP-PS-iH+PPE,domain#Node-PhysicalPath-PhysicalPath,domain#INS-PS-iH+PPE-PhysicalPath,TRUE,FALSE,domain#Node-PhysicalSubnet-PhysicalSubnet
 package#Physical,domain#CP-PPS-E+W,domain#Node-World-World,domain#INS-PPS-E+W-World,TRUE,FALSE,domain#Node-Space-PrivateSpace
 package#ProcessComms,domain#CP-CSCCAPNP4+CCAP,domain#Node-ClosedClientAttackPath-ClosedClientAttackPath,domain#INS-CSCCAPNP4+CCAP-ClosedClientAttackPath,TRUE,FALSE,domain#Node-Service-Process
-package#ProcessComms,domain#CP-CSCLS+ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS+ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
-package#ProcessComms,domain#CP-CSCLS-ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS-ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#ProcessComms,domain#CP-CSCscLS+CCAP,domain#Node-ClosedClientAttackPath-ClosedClientAttackPath,domain#INS-CSCscLS+CCAP-ClosedClientAttackPath,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessComms,domain#CP-CSCsdLS+OCAP,domain#Node-OpenClientAttackPath-OpenClientAttackPath,domain#INS-CSCsdLS+OCAP-OpenClientAttackPath,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessComms,domain#CP-CSCvLS+CP,domain#Node-ClientPath-ClientPath,domain#INS-CSCvLS+CP-ClientPath,TRUE,FALSE,domain#Node-Service-Process
@@ -159,16 +164,11 @@ package#ProcessComms,domain#CP-SOCAP+OSAP,domain#Node-OpenServiceAttackPath-Open
 package#ProcessTrust,domain#CP-CzS-CC+AC,domain#Node-AuthChannel-AuthChannel,domain#INS-CzS-CC+AC-AuthChannel,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessTrust,domain#CP-CaS-SP+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CaS-SP+CC-ClientChannel,TRUE,FALSE,domain#Node-Service-Process
 package#ProcessTrust,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
-package#ProcessTrust,domain#CP-H-sDFCFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
-package#ProcessTrust,domain#CP-H-sDFSACaiFS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSACaiFS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
-package#ProcessTrust,domain#CP-H-sDFSFdC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSFdC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
-package#ProcessTrust,domain#CP-H-sDFcCaiAC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFcCaiAC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
-package#ProcessTrust,domain#CP-H-sDFcCr-aAC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFcCr-aAC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
-package#ProcessTrust,domain#CP-H-sDFrSACdDFiaS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFrSACdDFiaS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
-package#ProcessTrust,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFuCudDFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
-package#ProcessTrust,domain#CP-H-sDFuSdC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFuSdC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#Theft,domain#CP-CSCLS+ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS+ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
+package#Theft,domain#CP-CSCLS-ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS-ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#Node-VirtualSubnet-VXLAN,domain#INS-DCCVH-LS+LS-VirtualSubnet,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#Virtualisation,domain#CP-H2dPH2+VC,domain#Node-VirtualChannel-VirtualChannel,domain#INS-H2dPH2+VC-VirtualChannel,TRUE,FALSE,domain#Node-VirtualSubnet-VirtualSubnet
 package#Virtualisation,domain#CP-HVHS+VS,domain#Node-HostLAN-HostLAN,domain#INS-HVHS+VS-HostLAN,TRUE,FALSE,domain#Node-SHost-Host
 package#Virtualisation,domain#CP-VCH2LS2PP+HC,domain#Node-HostChannel-HostChannel,domain#INS-VCH2LS2PP+HC-HostChannel,TRUE,FALSE,domain#Node-VirtualChannel-VirtualChannel
+package#Virtualisation,domain#CP-VH-LnS+LnS,domain#Node-LoginService-LoginService,domain#INS-VH-LnS+LnS-LoginService,TRUE,FALSE,domain#Node-VirtualHost-VirtualHost
 package#Virtualisation,domain#CP-VHHsD-HsS-S+S,domain#Node-DataService-DataService,domain#INS-VHHsD-HsS-S+S-DataService,TRUE,FALSE,domain#Node-Host-Host

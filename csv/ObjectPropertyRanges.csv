@@ -119,7 +119,6 @@ package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Router
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Server
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#USBHost
 package#LocalDeviceConnectivity,domain#pairsViaUSB,domain#Workstation
-package#Network,domain#above,domain#Host
 package#Network,domain#accessTo,domain#Host
 package#Network,domain#accessTo,domain#Process
 package#Network,domain#accessVia,domain#LogicalSubnet
@@ -239,6 +238,7 @@ package#Users,domain#controlledBy,domain#Stakeholder
 package#Users,domain#isAdult,domain#Adult
 package#Users,domain#operates,domain#PrivateSpace
 package#Users,domain#worksFor,domain#Stakeholder
+package#Virtualisation,domain#above,domain#Host
 package#Virtualisation,domain#fromPhysicalHost,domain#PhysicalHost
 package#Virtualisation,domain#fromPhysicalInterface,domain#Interface
 package#Virtualisation,domain#isScalable,domain#VirtualHost

@@ -9,8 +9,9 @@ package#Application,domain#H.W.HuHWES.3,domain#MS-MalwareInfection-Host
 package#Application,domain#P.J.SHP-iT.7,domain#MS-TrojanInsertion-Process
 package#Application,domain#P.A.HumHP-iT.6.4,domain#MS-LossOfAvailability-Process
 package#Application,domain#P.W.HP-iT.7,domain#MS-MalwareInfection-Process
-package#CloudManagement,domain#H.A.CVHHDC.0,domain#MS-LossOfAvailability-Host
-package#CloudManagement,domain#H.O.CVHHHoDC.0,domain#MS-Overloaded-SHost
+package#DataCaching,domain#DF.Auth.HDCDF.0,domain#MS-LossOfAuthenticity-DataFlow
+package#DataCaching,domain#DF.I.HDCDF.0,domain#MS-LossOfIntegrity-DataFlow
+package#DataCaching,domain#DF.W.HDCDF.0,domain#MS-MalwareInfection-DataFlow
 package#DataLifecycle,domain#D.A.DallDS.0,domain#MS-LossOfAvailability-Data
 package#DataLifecycle,domain#D.C.HuiPv-iD-FCHS.3,domain#MS-LossOfConfidentiality-Data
 package#DataLifecycle,domain#D.C.HuiPv-iDFCHS.3,domain#MS-LossOfConfidentiality-Data
@@ -45,7 +46,6 @@ package#DataLifecycle,domain#DF.A.PmDFO-kDADFO.6,domain#MS-LossOfAvailability-Da
 package#DataLifecycle,domain#DF.A.PmDFODADFO-k.6,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.A.PmDFODADFO.0,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.Auth.DScSePDmFF.3,domain#MS-LossOfAuthenticity-DataFlow
-package#DataLifecycle,domain#DF.Auth.HDCDF.0,domain#MS-LossOfAuthenticity-DataFlow
 package#DataLifecycle,domain#DF.Auth.HPDSDADF.0,domain#MS-LossOfAuthenticity-DataFlow
 package#DataLifecycle,domain#DF.Auth.HuWEDF.3,domain#MS-LossOfAuthenticity-DataFlow
 package#DataLifecycle,domain#DF.Auth.HuWESDF.3,domain#MS-LossOfAuthenticity-DataFlow
@@ -58,7 +58,6 @@ package#DataLifecycle,domain#DF.I.HDBDRDF.0,domain#MS-LossOfIntegrity-Data
 package#DataLifecycle,domain#DF.I.HDBDRDF.0,domain#MS-LossOfIntegrity-DataFlow
 package#DataLifecycle,domain#DF.I.HDBDSDF.0,domain#MS-LossOfIntegrity-Data
 package#DataLifecycle,domain#DF.I.HDBDSDF.0,domain#MS-LossOfIntegrity-DataFlow
-package#DataLifecycle,domain#DF.I.HDCDF.0,domain#MS-LossOfIntegrity-DataFlow
 package#DataLifecycle,domain#DF.I.HP-iDODF.0,domain#MS-LossOfIntegrity-Data
 package#DataLifecycle,domain#DF.I.HP-iDODF.0,domain#MS-LossOfIntegrity-DataFlow
 package#DataLifecycle,domain#DF.I.HPDSDADF.0,domain#MS-LossOfIntegrity-DataFlow
@@ -75,7 +74,6 @@ package#DataLifecycle,domain#DF.T.HuirPiDF.0,domain#MS-LossOfTimeliness-Data
 package#DataLifecycle,domain#DF.T.HuirPiDF.0,domain#MS-LossOfTimeliness-DataFlow
 package#DataLifecycle,domain#DF.T.PDFIDADFI.0,domain#MS-LossOfTimeliness-OutFlow
 package#DataLifecycle,domain#DF.T.PDFODADFO.0,domain#MS-LossOfTimeliness-OutFlow
-package#DataLifecycle,domain#DF.W.HDCDF.0,domain#MS-MalwareInfection-DataFlow
 package#DataLifecycle,domain#DF.W.HPDADF.7,domain#MS-MalwareInfection-Data
 package#DataLifecycle,domain#DF.W.HPDADF.7,domain#MS-MalwareInfection-DataFlow
 package#DataLifecycle,domain#DF.W.HPDSDADF.0,domain#MS-MalwareInfection-DataFlow
@@ -593,9 +591,11 @@ package#Theft,domain#P.L.SHP.2,domain#MS-TheftOfControl-Process
 package#Users,domain#S.L.HuPSSt.1,domain#MS-PhysicalIntrusion-Space
 package#Users,domain#S.L.HuPSoSt.1,domain#MS-PhysicalIntrusion-Space
 package#Users,domain#S.L.PScSt.1,domain#MS-PhysicalIntrusion-Space
+package#Virtualisation,domain#H.A.CVHHDC.0,domain#MS-LossOfAvailability-Host
 package#Virtualisation,domain#H.A.HVH.0,domain#MS-LossOfAvailability-Host
 package#Virtualisation,domain#H.A.VHHHoDC.1,domain#MS-LossOfAvailability-Host
 package#Virtualisation,domain#H.IS.HVH.8,domain#MS-InService-Host
+package#Virtualisation,domain#H.O.CVHHHoDC.0,domain#MS-Overloaded-SHost
 package#Virtualisation,domain#HC.A.ImHCf.0,domain#MS-LossOfAvailability-HostChannel
 package#Virtualisation,domain#HC.A.ImHCt.0,domain#MS-LossOfAvailability-HostChannel
 package#Virtualisation,domain#HC.A.LSmHC.0,domain#MS-LossOfAvailability-HostChannel

@@ -100,7 +100,6 @@ package#CloudManagement,domain#MP-DCMW-LS,DCMW-LS,"Finds a K8s Master and Worker
 package#CloudManagement,domain#MP-DCPHM,DCPHM,Finds a K8s Master whose physical host is in a Data Centre.,domain#R-DCPHM,FALSE,FALSE
 package#CloudManagement,domain#MP-DCPHW,DCPHW,Finds a K8s Worker whose physical host is in a Data Centre.,domain#R-DCPHW,FALSE,FALSE
 package#CloudManagement,domain#MP-DCPS-Pod,DCPS-Pod,"Finds a Process hosted directly on a Data Centre, but not contained by a Pod managed by the Data Centre.",domain#R-DCPS,FALSE,FALSE
-package#CloudManagement,domain#MP-DCVHC,DCVHC,"Finds a DataCentre containing a Cluster, and a Virtual Host.managed by the Data Centre rather than being provisioned on a Host.",domain#R-DCVHC,FALSE,FALSE
 package#CloudManagement,domain#MP-HCt,HCt,Finds a host provisioned by a container.,domain#R-HCt,FALSE,FALSE
 package#CloudManagement,domain#MP-Hum-iH-AC,Hum-iH-AC,Finds a human remotely managing a host but lacking a suitable connection to its management service.,domain#R-HumHcS,FALSE,TRUE
 package#CloudManagement,domain#MP-HumPC-Hu,HumPC-Hu,Finds an unmanaged Container of a Process managed by a Human.,domain#R-HumPC,FALSE,FALSE
@@ -123,8 +122,8 @@ package#CloudManagement,domain#MP-PodHaH,PodHaH,Finds a Pod provisioned by a Hos
 package#CloudManagement,domain#MP-PodHhPH,PodHhPH,Finds a Pod provisioned by a Host that has a PhysicalHost.,domain#R-PodHhPH,FALSE,FALSE
 package#CloudManagement,domain#MP-PodMP,PodMP,Finds a solo Pod.,domain#R-Pod,FALSE,FALSE
 package#CloudManagement,domain#MP-PodP-Cn,PodP-Cn,Finds a Pod containing a Process but with no intervening Container.,domain#R-PodP,FALSE,FALSE
-package#CloudManagement,domain#MP-SHVH,SHVH,Finds a Virtual Host provisioned on a Simple Host that is not a Pod.,domain#R-SHVH,FALSE,FALSE
-package#CloudManagement,domain#MP-VH-LnS,VH-LnS,Finds a Virtual Host that is not controlled by any process.,domain#R-VH,FALSE,TRUE
+package#DataCaching,domain#MP-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,domain#R-DCDFcV,FALSE,FALSE
+package#DataCaching,domain#MP-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,domain#R-HDCDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-CCDFCDAScDA-c,CCDFCDAScDA-c,"Finds a data flow from a service to an indirect client, where the client encrypts the data flow to create an outbound data asset controlled by a vault, which does not control the inbound data flow.",domain#R-CCDFCDAScDA,FALSE,FALSE
 package#DataLifecycle,domain#MP-CCDFSDAScDA-c,CCDFSDAScDA-c,"Finds a data flow to a service from an indirect client, where the service encrypts the data flow to create an outbound data asset controlled by a vault, which does not control the inbound data flow.",domain#R-CCDFSDAScDA,FALSE,FALSE
 package#DataLifecycle,domain#MP-CSDF-VdDA2,CSDF-VdDA2,Finds two process participating in a data flow not encrypted with keys from a vault.,domain#R-CSDFDA2,FALSE,FALSE
@@ -147,7 +146,6 @@ package#DataLifecycle,domain#MP-DC2xrDA2,DC2xrDA2,Finds a reverse Data Channel f
 package#DataLifecycle,domain#MP-DC3-x,DC3-x,"Finds a data channel which extends a second channel which extends a third channel, but the first channel does not yet extend the third.",domain#R-DC3,FALSE,FALSE
 package#DataLifecycle,domain#MP-DC3xf-xf,DC3xf-xf,"Finds an active forward data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels), but the first channel does not yet extend the third.",domain#R-DC3xf,FALSE,FALSE
 package#DataLifecycle,domain#MP-DC3xr-xr,DC3xr-xr,"Finds an active reverse data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels), but the first channel does not yet extend the third.",domain#R-DC3xr,FALSE,FALSE
-package#DataLifecycle,domain#MP-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,domain#R-DCDFcV,FALSE,FALSE
 package#DataLifecycle,domain#MP-DD-fDCSDS,DD-fDCSDS,"Finds a data destination, a data access from which that is a possible destination, that has a data channel to a relay process from which there is another channel back along the same data path to a source that does not yet have the same possible data destionation.",domain#R-DDDCSDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-DDDCDP2oDS,DDDCDP2oDS,"Finds a Data Desination for which there is an untried Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process, and where no previously found process is a data source.",domain#R-DDDCDP2,FALSE,FALSE
 package#DataLifecycle,domain#MP-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, where neither is a reverse relay, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",domain#R-DDDCDS2P,FALSE,FALSE
@@ -174,7 +172,6 @@ package#DataLifecycle,domain#MP-HDBDRDF,HDBDRDF,"Finds a Host running a DB proce
 package#DataLifecycle,domain#MP-HDBDSDF,HDBDSDF,"Finds a Host running a DB process acting as a Stored Data Pool for a Data Flow to a destination process, and optionally the DB Process and Host managers.",domain#R-HDBDSDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDBsD-V,HDBsD-V,Finds a Host of a Database that is serving locally stored Data that is not encrypted with keys from a vault.,domain#R-HDBsD,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDBsDV,HDBsDV,"Finds a Host running a Database process that serves a stored DataCopy encrypted with keys from a vault, and the associated DataPool.",domain#R-HDBsDV,FALSE,FALSE
-package#DataLifecycle,domain#MP-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,domain#R-HDCDF,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS,HDS,"Finds a stored copy of Data on a Host, and its Physical Host.",domain#R-HDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS-V,HDS-V,"Finds a copy of Data not encrypted with a key from a vault, stored on a Host, and the Physical Host where this is deployed.",domain#R-HDS,FALSE,FALSE
 package#DataLifecycle,domain#MP-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",domain#R-HDS2DPfDA,FALSE,FALSE
@@ -402,7 +399,6 @@ package#LocalDeviceConnectivity,domain#MP-HuiHBTTH-Hu,HuiHBTTH-Hu,"Finds a Trivi
 package#LocalDeviceConnectivity,domain#MP-HuiHUSBTH-Hu,HuiHUSBTH-Hu,"Finds a TrivialHost with no manager, paired via USB with another host used by a Human.",domain#R-HuiHUSBTH,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HumHBTTH-Hu,HumHBTTH-Hu,"Finds a TrivialHost with no manager, paired via Bluetooth with another host managed by a Human.",domain#R-HumHBTTH,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-HumHUSBTH-Hu,HumHUSBTH-Hu,"Finds a TrivialHost with no manager, paired via USB with another host managed by a Human.",domain#R-HumHUSBTH,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#MP-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,domain#R-HumTHS,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2,L1SSg2,"Finds a gateway between two distinct layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",domain#R-L1SSg2,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1SSg2AC,L1SSg2AC,"Finds a gateway between two distinct layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway, and a context in which the gateway is connected to both subnets.",domain#R-L1SSg2AC,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#MP-L1cGcL3,L1cGcL3,"Finds a physical host connected to an L2/L3 subnet with a pairing connection from a distinct host, all in the same space.",domain#R-L1cGcL3,FALSE,FALSE
@@ -440,6 +436,7 @@ package#Network,domain#MP-FcLSS,FcLSS,Finds a Logical Subnet to which is connect
 package#Network,domain#MP-FpLSS,FpLSS,Finds a Logical Subnet which is provided by a Fixed Host (or a Virtual Host running on it) located in a Space.,domain#R-FpLSS,FALSE,FALSE
 package#Network,domain#MP-GH,GH,Finds a General Host (i.e. a host that can run arbitrary processes).,domain#R-GH,FALSE,FALSE
 package#Network,domain#MP-H,H,"Finds a solo Host, with optionally its manager(s) and interactive user(s).",domain#R-H,FALSE,FALSE
+package#Network,domain#MP-H-Hu,H-Hu,"Finds a Host that has no interactive user, no manager, and does not relate to any user.",domain#R-H,FALSE,FALSE
 package#Network,domain#MP-H-iR-iMCHIUS,H-iR-iMCHIUS,Finds a Host that is not a Router or a Mobile Console Host in a Public Space connected to the Internet.,domain#R-HIUS,FALSE,FALSE
 package#Network,domain#MP-HAC,HAC,"Finds a Host in a Space with the associated access context, with optionally its manager, and all related access contexts.",domain#R-HAC,FALSE,FALSE
 package#Network,domain#MP-HACPmAC,HACPmAC,"Finds a process running on a host in a space and the host location access context, with all related process location and network access contexts.",domain#R-HACP,FALSE,FALSE
@@ -506,6 +503,7 @@ package#Network,domain#MP-HumHSt,HumHSt,Finds a Human managing a Host and their 
 package#Network,domain#MP-HumHoSt,HumHoSt,"Finds a Human managing a Host, and an optional employer of the Human.",domain#R-HumH,FALSE,FALSE
 package#Network,domain#MP-HumP-StSt,HumP-StSt,"Finds a Human managing a Process, where the Human is not an employee, and the Process has no operator.",domain#R-HumP,FALSE,FALSE
 package#Network,domain#MP-HumPH-m,HumPH-m,Finds an unmanaged host running a process that has a manager.,domain#R-HumPH,FALSE,FALSE
+package#Network,domain#MP-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,domain#R-HumTHS,FALSE,FALSE
 package#Network,domain#MP-HuoH-m,HuoH-m,Finds a Human operating an unmanaged Host.,domain#R-HuoH,FALSE,FALSE
 package#Network,domain#MP-HuwStmH-St,HuwStmH-St,"Finds a Human working for an Employer, who manages a Host that has no other operator.",domain#R-HuwStmH,FALSE,FALSE
 package#Network,domain#MP-HuwStmP-St,HuwStmP-St,"Finds a Human working for an Employer, and managing a Process that has no  operator.",domain#R-HuwStmP,FALSE,FALSE
@@ -632,7 +630,6 @@ package#Physical,domain#MP-PPS-E,PPS-E,Finds a Private Space that is not accessi
 package#Physical,domain#MP-PSS,PSS,"Finds two spaces, one of which is private and accessible via the other.",domain#R-PSS,FALSE,FALSE
 package#Privacy,domain#MP-DHuDC,DHuDC,Finds a data asset relating to a human along with a stored copy of the data.,domain#R-DHuDC,FALSE,FALSE
 package#Privacy,domain#MP-DHuDF,DHuDF,Finds a data asset relating to a human along with a flowing copy of the data.,domain#R-DHuDF,FALSE,FALSE
-package#Privacy,domain#MP-H-Hu,H-Hu,"Finds a Host that has no interactive user, no manager, and does not relate to any user.",domain#R-H,FALSE,FALSE
 package#Privacy,domain#MP-Hu-aDPS-io,Hu-aDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject who may be a child via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE
 package#Privacy,domain#MP-Hu-aDPoS-i,Hu-aDPoS-i,"Finds Stakeholder operating a Process that is using Data relating to a Human data subject who may be a child via a controlling Service, where the subject operates the Service but not the Process.",domain#R-HuDPoS,FALSE,FALSE
 package#Privacy,domain#MP-HuDPS-io,HuDPS-io,"Finds a Stakeholder operating a Process that is using Data relating to a Human data subject via a controlling Service, where the subject does not operate either the Process or the controlling Service.",domain#R-HuDPS,FALSE,FALSE
@@ -880,6 +877,7 @@ package#Virtualisation,domain#MP-CCSCVC,CCSCVC,Finds a Client Channel via a Serv
 package#Virtualisation,domain#MP-CVHHDC,CVHHDC,Finds a clusterable virtual Host provisioned on a physical host at a DataCentre.,domain#R-CVHHDC,FALSE,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,CVHHHoDC,"Finds a cluster Virtual Host (role Host) provisioned at a Host (SHost), where the Virtual Host may optionally be managed by a Data Centre.",domain#R-CVHHH,FALSE,FALSE
 package#Virtualisation,domain#MP-DCCVH-LS,DCCVH-LS,Finds a Data Centre with a Cluster on which is provisioned a Virtual Host that is not connected to any logical subnet.,domain#R-DCCVH,FALSE,FALSE
+package#Virtualisation,domain#MP-DCVHC,DCVHC,"Finds a DataCentre containing a Cluster, and a Virtual Host.managed by the Data Centre rather than being provisioned on a Host.",domain#R-DCVHC,FALSE,FALSE
 package#Virtualisation,domain#MP-DCVHVS-H,DCVHVS-H,Finds a Host that is physically in a DataCentre and connected to a virtual subnet that is not provided by any host.,domain#R-DCVHVS,FALSE,FALSE
 package#Virtualisation,domain#MP-EH,EH,Finds a solo elastically scalable host.,domain#R-EH,FALSE,FALSE
 package#Virtualisation,domain#MP-GdHVS,GdHVS,"Finds a gateway providing a virtual subnet to which a distinct host is connected, and optionally a process controlling access to the subnet.",domain#R-GHVS,FALSE,FALSE
@@ -903,12 +901,14 @@ package#Virtualisation,domain#MP-LSmHC,LSmHC,Finds a Logical Subnet and all virt
 package#Virtualisation,domain#MP-LSoLS,LSoLS,Finds a Logical Subnet that is an overlay on another Subnet.,domain#R-LSoLS,FALSE,FALSE
 package#Virtualisation,domain#MP-SC4HVSHC,SC4HVSHC,"Finds a Service Channel crossing a Virtual Subnet between two Hosts, and the Host Channel representing a physical network path supporting this communication.",domain#R-SC4HVSHC,FALSE,FALSE
 package#Virtualisation,domain#MP-SC4HVSVC,SC4HVSVC,"Finds a Service Channel crossing a Virtual Subnet between two Hosts, and the Virtual Channel representing the physical connectivity requirement to support this communication.",domain#R-SC4HVSVC,FALSE,FALSE
+package#Virtualisation,domain#MP-SHVH,SHVH,Finds a Virtual Host provisioned on a Simple Host that is not a Pod.,domain#R-SHVH,FALSE,FALSE
 package#Virtualisation,domain#MP-SgACmHC,SgACmHC,"Finds a logical segment between two subnets, plus the associated gateway host and its inbound and outbound interfaces, an access context in which the segment is active, and all assocated host channels.",domain#R-SgAC,FALSE,FALSE
 package#Virtualisation,domain#MP-SgmHC,SgmHC,"Finds a logical segment between two subnets, plus the associated gateway host and its inbound and outbound interfaces, and all assocated host channels.",domain#R-Sg,FALSE,FALSE
 package#Virtualisation,domain#MP-THVH,THVH,Finds a Virtual Host provisioned on a Trivial Host.,domain#R-THVH,FALSE,FALSE
 package#Virtualisation,domain#MP-VC2HmHC,VC2HmHC,"Finds a virtual channel between two physical hosts, plus all the host channels associated with physical network paths between the hosts.",domain#R-VC2H,FALSE,FALSE
 package#Virtualisation,domain#MP-VC2HmSC,VC2HmSC,"Finds a virtual channel between two physical hosts, plus all the service channels associated with physical network paths between the hosts.",domain#R-VC2H,FALSE,FALSE
 package#Virtualisation,domain#MP-VCH2LS2PP,VCH2LS2PP,"Finds a virtual subnet communication path between physical hosts, including the virtual channel, path generator and the start and end subnets.",domain#R-VCH2LS2PP,FALSE,FALSE
+package#Virtualisation,domain#MP-VH-LnS,VH-LnS,Finds a Virtual Host that is not controlled by any process.,domain#R-VH,FALSE,TRUE
 package#Virtualisation,domain#MP-VH2H-a,VH2H-a,Finds three virtual hosts in a chain but lacking the above relationship indicating which of the first and last links is higher.,domain#R-VH2H,FALSE,FALSE
 package#Virtualisation,domain#MP-VHH2,VHH2,Finds a VirtualHost provisioned at a Host for which it is also on the path to a physical host.,domain#R-VHH2,FALSE,FALSE
 package#Virtualisation,domain#MP-VHH3,VHH3,Finds a virtual host provisioned by two distinct hosts.,domain#R-VHH3,FALSE,FALSE

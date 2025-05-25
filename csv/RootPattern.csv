@@ -119,6 +119,8 @@ package#CloudManagement,domain#R-PodDCMC,PodDCMC,Finds a K8s Pod managed by a Da
 package#CloudManagement,domain#R-PodHaH,PodHaH,Finds a Pod provisioned by a Host that is above another Host.,FALSE,FALSE
 package#CloudManagement,domain#R-PodHhPH,PodHhPH,Finds a Pod provisioned by a Host that has a PhysicalHost.,FALSE,FALSE
 package#CloudManagement,domain#R-PodP,PodP,Finds a Pod containing a Process.,FALSE,FALSE
+package#DataCaching,domain#R-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,FALSE,TRUE
+package#DataCaching,domain#R-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,FALSE,TRUE
 package#DataLifecycle,domain#R-CCDFCDAScDA,CCDFCDAScDA,"Finds a data flow from a service to an indirect client, where the client encrypts the data flow to create an outbound data asset controlled by a vault.",FALSE,FALSE
 package#DataLifecycle,domain#R-CCDFSDAScDA,CCDFSDAScDA,"Finds a data flow to a service from an indirect client, where the service encrypts the data flow to create an outbound data asset controlled by a vault.",FALSE,FALSE
 package#DataLifecycle,domain#R-CSDFDA2,CSDFDA2,Finds two process participating in a data flow.,FALSE,FALSE
@@ -138,7 +140,6 @@ package#DataLifecycle,domain#R-DC2xrDA2,DC2xrDA2,Finds a reverse Data Channel fr
 package#DataLifecycle,domain#R-DC3,DC3,Finds a data channel that extends a second channel that extends a third channel.,FALSE,FALSE
 package#DataLifecycle,domain#R-DC3xf,DC3xf,Finds an active forward data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
 package#DataLifecycle,domain#R-DC3xr,DC3xr,Finds an active reverse data channel that extends a second channel that extends a third channel (meaning there are transparent relay processes between the channels).,FALSE,FALSE
-package#DataLifecycle,domain#R-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,FALSE,TRUE
 package#DataLifecycle,domain#R-DDDCDP2,DDDCDP2,"Finds a Data Destination for which there is a Data Channel to a next Process, which uses a Data Path that extends another Data Path to another Process.",FALSE,FALSE
 package#DataLifecycle,domain#R-DDDCDS2P,DDDCDS2P,"Finds a Data Source fulfilling a Data Destination, with an active reverse data channel to the destination and a data channel from the source, plus the associated processes and data paths.",FALSE,TRUE
 package#DataLifecycle,domain#R-DDDCSDS,DDDCSDS,"Finds a data input client acting as a data destination, with a previously identifed potential data source that has an onward data channel to a service that can act as a data source. Should this be constrained to lie on the same data path?",FALSE,TRUE
@@ -164,7 +165,6 @@ package#DataLifecycle,domain#R-HDBDRDF,HDBDRDF,Finds a Host running a DB process
 package#DataLifecycle,domain#R-HDBDSDF,HDBDSDF,Finds a Host running a DB process acting as a Stored Data Pool for a Data Flow to a destination process.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDBsD,HDBsD,"Finds a Host running a Database process that serves a stored DataCopy, and the associated DataPool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDBsDV,HDBsDV,"Finds a Host running a Database process that serves a stored DataCopy encrypted with keys from a vault, and the associated DataPool.",FALSE,FALSE
-package#DataLifecycle,domain#R-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,FALSE,TRUE
 package#DataLifecycle,domain#R-HDS,HDS,"Finds a stored copy of Data on a Host, and its Physical Host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDSPDIfDA,HDSPDIfDA,Finds a data input that is a destination for data from a source and used by a process whose host stores a copy of the data.,FALSE,FALSE
@@ -319,7 +319,6 @@ package#LocalDeviceConnectivity,domain#R-HuiHBTTH,HuiHBTTH,Finds a Human using a
 package#LocalDeviceConnectivity,domain#R-HuiHUSBTH,HuiHUSBTH,Finds a Human using a Host paired with a TrivialHost via USB.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumHBTTH,HumHBTTH,Finds a Human managing a Host paired with a TrivialHost via Bluetooth.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,HumHUSBTH,Finds a TrivialHost paired via Bluetooth with another host managed by a Human.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,L1SSg2,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the segment asset representing the path via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1cGcL3,L1cGcL3,"Finds a physical host connected to an L2/L3 subnet with a pairing connection from another host, all in the same space.",FALSE,FALSE
@@ -412,6 +411,7 @@ package#Network,domain#R-HumHcS,HumHcS,Finds a human managing a host that has a 
 package#Network,domain#R-HumP,HumP,Finds a Human managing a Process.,FALSE,FALSE
 package#Network,domain#R-HumPH,HumPH,Finds a Human managing a process running on a host.,FALSE,FALSE
 package#Network,domain#R-HumSH,HumSH,Finds a Human managing a Shell Host.,FALSE,FALSE
+package#Network,domain#R-HumTHS,HumTHS,Finds a Human managing a Trivial Host located in a space.,FALSE,FALSE
 package#Network,domain#R-HuoH,HuoH,Finds a Human operating a Host.,FALSE,FALSE
 package#Network,domain#R-HuwStmH,HuwStmH,Finds a Human managing a Host and working for an Employer.,FALSE,FALSE
 package#Network,domain#R-HuwStmP,HuwStmP,Finds a Human managing a Process and working for an Employer.,FALSE,FALSE

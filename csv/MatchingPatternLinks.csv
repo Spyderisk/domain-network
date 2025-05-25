@@ -118,7 +118,6 @@ package#CloudManagement,domain#MP-DCPS-Pod,domain#Link-Host-contains-Process,FAL
 package#CloudManagement,domain#MP-DCPS-Pod,domain#Link-Host-managedBy-DataCentre,FALSE
 package#CloudManagement,domain#MP-DCVHC,domain#Link-VirtualHost-isContainer-VirtualHost,TRUE
 package#CloudManagement,domain#MP-DCVHC,domain#Link-VirtualHost-isPod-VirtualHost,TRUE
-package#CloudManagement,domain#MP-DCVHC,domain#Link-VirtualHost-provisionedBy-SHost,FALSE
 package#CloudManagement,domain#MP-Hum-iH-AC,domain#Link-Host-isPod-Host,TRUE
 package#CloudManagement,domain#MP-Hum-iH-AC,domain#Link-HostManager-interactsRemotelyWith-LoginService,FALSE
 package#CloudManagement,domain#MP-Hum-iH-AC,domain#Link-HostManager-interactsRemotelyWith-Process,FALSE
@@ -160,8 +159,6 @@ package#CloudManagement,domain#MP-PodDCMC-W-H,domain#Link-Pod-provisionedBy-SHos
 package#CloudManagement,domain#MP-PodP-Cn,domain#Link-Host-hosts-Process,FALSE
 package#CloudManagement,domain#MP-PodP-Cn,domain#Link-Host-provisionedBy-Pod,FALSE
 package#CloudManagement,domain#MP-SHVH,domain#Link-SimpleHost-isPod-SimpleHost,TRUE
-package#CloudManagement,domain#MP-VH-LnS,domain#Link-Process-controls-VirtualHost,FALSE
-package#CloudManagement,domain#MP-VH-LnS,domain#Link-VirtualHost-hosts-Process,FALSE
 package#CloudManagement,domain#MP-VH-LnS,domain#Link-VirtualHost-isPod-VirtualHost,TRUE
 package#DataLifecycle,domain#MP-CCDFCDAScDA-c,domain#Link-Vault-controls-DataFlow,TRUE
 package#DataLifecycle,domain#MP-CCDFSDAScDA-c,domain#Link-Vault-controls-DataFlow,TRUE
@@ -209,7 +206,6 @@ package#DataLifecycle,domain#MP-DSDCDP2oDD,domain#Link-OldDataChannel-channelTri
 package#DataLifecycle,domain#MP-DSPDF-VDB,domain#Link-Vault-controls-DataCopy,FALSE
 package#DataLifecycle,domain#MP-DUDA-eS,domain#Link-Process-enablesAccess-DataUse,FALSE
 package#DataLifecycle,domain#MP-HD-aHD-DS,domain#Link-DataAsset-copyOf-Data,FALSE
-package#DataLifecycle,domain#MP-HD-aHD-DS,domain#Link-Host-above-SHost,FALSE
 package#DataLifecycle,domain#MP-HD-aHD-DS,domain#Link-Host-storesCopy-DataAsset,FALSE
 package#DataLifecycle,domain#MP-HD-aHD-DS,domain#Link-SHost-stores-Data,FALSE
 package#DataLifecycle,domain#MP-HDBDRDF,domain#Link-HostManager-manages-Host,FALSE
@@ -754,6 +750,8 @@ package#Network,domain#MP-FpLSS,domain#Link-PhysicalHost-isMobile-PhysicalHost,T
 package#Network,domain#MP-GH,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-H,domain#Link-HostManager-manages-Host,FALSE
 package#Network,domain#MP-H,domain#Link-Human-interactsWith-Host,FALSE
+package#Network,domain#MP-H-Hu,domain#Link-HostManager-manages-Host,FALSE
+package#Network,domain#MP-H-Hu,domain#Link-Human1-interactsWith-Host,FALSE
 package#Network,domain#MP-H-iR-iMCHIUS,domain#Link-Host-isMHC-Host,TRUE
 package#Network,domain#MP-H-iR-iMCHIUS,domain#Link-Host-isRouter-Host,TRUE
 package#Network,domain#MP-H-iR-iMCHIUS,domain#Link-Space-isWorld-Space,TRUE
@@ -1082,8 +1080,6 @@ package#NetworkConnectivity,domain#MP-RoH,domain#Link-NetworkPath-visitsGateway-
 package#NetworkConnectivity,domain#MP-Sg,domain#Link-HostManager-manages-Gateway,FALSE
 package#Physical,domain#MP-PPS-E,domain#Link-Space-accessibleVia-Entrance,FALSE
 package#Privacy,domain#MP-H-Hu,domain#Link-Host-relatesTo-Human2,FALSE
-package#Privacy,domain#MP-H-Hu,domain#Link-HostManager-manages-Host,FALSE
-package#Privacy,domain#MP-H-Hu,domain#Link-Human1-interactsWith-Host,FALSE
 package#Privacy,domain#MP-Hu-aDPS-io,domain#Link-DataSubject-isAdult-DataSubject,TRUE
 package#Privacy,domain#MP-Hu-aDPS-io,domain#Link-DataSubject-operates-Process,TRUE
 package#Privacy,domain#MP-Hu-aDPS-io,domain#Link-DataSubject-operates-Service,TRUE
@@ -1696,10 +1692,12 @@ package#Users,domain#MP-HuPSoSt,domain#Link-Human-worksFor-Employer,FALSE
 package#Users,domain#MP-StS-St,domain#Link-Space-controlledBy-Operator,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Link-PhysicalHost-resourcedBy-DataCentre,FALSE
 package#Virtualisation,domain#MP-DCCVH-LS,domain#Link-VirtualHost-connectedTo-LogicalSubnet,FALSE
+package#Virtualisation,domain#MP-DCVHC,domain#Link-VirtualHost-provisionedBy-SHost,FALSE
 package#Virtualisation,domain#MP-DCVHVS-H,domain#Link-LogicalSubnet-providedBy-Gateway,FALSE
 package#Virtualisation,domain#MP-GdHVS,domain#Link-Process-controls-LogicalSubnet,FALSE
 package#Virtualisation,domain#MP-HACVHmAC,domain#Link-ToContext-accessFrom-Space,FALSE
 package#Virtualisation,domain#MP-HACVHmAC,domain#Link-ToContext-accessTo-VirtualHost,FALSE
+package#Virtualisation,domain#MP-HD-aHD-DS,domain#Link-Host-above-SHost,FALSE
 package#Virtualisation,domain#MP-HVH,domain#Link-HostManager-manages-SHost,FALSE
 package#Virtualisation,domain#MP-HVH-a,domain#Link-Host-above-SHost,TRUE
 package#Virtualisation,domain#MP-HVHS,domain#Link-SHost-isCluster-SHost,TRUE
@@ -1720,6 +1718,8 @@ package#Virtualisation,domain#MP-VC2HmHC,domain#Link-VirtualChannel-viaHostChann
 package#Virtualisation,domain#MP-VC2HmSC,domain#Link-ServiceChannel-viaVirtualChannel-VirtualChannel,FALSE
 package#Virtualisation,domain#MP-VCH2LS2PP,domain#Link-PhysicalPath-visitsGateway-FromHost,TRUE
 package#Virtualisation,domain#MP-VCH2LS2PP,domain#Link-PhysicalPath-visitsGateway-Host,TRUE
+package#Virtualisation,domain#MP-VH-LnS,domain#Link-Process-controls-VirtualHost,FALSE
+package#Virtualisation,domain#MP-VH-LnS,domain#Link-VirtualHost-hosts-Process,FALSE
 package#Virtualisation,domain#MP-VH2H-a,domain#Link-VirtualHost-above-SHost,TRUE
 package#Virtualisation,domain#MP-VHHHoDC,domain#Link-PhysicalHost-resourcedBy-DataCentre,FALSE
 package#Virtualisation,domain#MP-VHHsD-HsS-S,domain#Link-DB-serves-Data,FALSE

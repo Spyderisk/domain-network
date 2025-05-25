@@ -5,6 +5,7 @@ package#AccessContext,AccessRights,TRUE,"Model of access rights, restricted to s
 package#Application,Application,TRUE,Model of application data and processes,50,Application
 package#CloudManagement,CloudManagement,TRUE,Model of cloud hosting and automated management.,110,CloudManagement
 package#Core,Core,TRUE,Generic base asset classes,1,Core
+package#DataCaching,DataCaching,TRUE,Model of data flow caching,0,
 package#DataLifecycle,DataLifecycle,TRUE,"Model of data processing, movement and persistence.",70,DataLifecycle
 package#DataStructure,DataStructure,TRUE,Model of elements (fields) within a Data asset,80,DataStructure
 package#GDPR,GDPR,TRUE,Model of GDPR compliance requirements.,110,GDPR
