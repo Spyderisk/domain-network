@@ -1,0 +1,325 @@
+package,URI,hasSuccessor,notes,fake,asserted
+domain#000000,domain#000000,domain#CP-Marker+5GAccess-1,CNCNBSS+aF is at the end of the cellular network accessibility inference sequence,No,Yes
+package#5G,domain#CP-CNCNBSS+aF,domain#CP-Marker+5GAccess-1,CNCNBSS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-CNHS+RAN+cT,domain#CP-Marker+5GAccess-3,CNHS+RAN+cT is at the end of the cellular access network inference sequence,FALSE,TRUE
+package#5G,domain#CP-CNRANS+aF,domain#CP-Marker+5GAccess-1,CNRANS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-CrCcL3+NSg,domain#CP-Marker+5GConnectivity-1,CrCcL3+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-FCNS+aF,domain#CP-Marker+5GAccess-1,FCNS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-L3c-rBrPR+DSg,domain#CP-Marker+5GConnectivity-1,L3c-rBrPR+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3c-rBrUR+CSg,domain#CP-Marker+5GConnectivity-1,L3c-rBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cCrPC+DSg,domain#CP-Marker+5GConnectivity-1,L3cCrPC+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cCrUC+CSg,domain#CP-Marker+5GConnectivity-1,L3cCrUC+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3cGc-rR+NSg,domain#CP-Marker+5GConnectivity-1,L3cGc-rR+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3rBrPR+DSg,domain#CP-Marker+5GConnectivity-1,L3rBrPR+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-L3rBrUR+CSg,domain#CP-Marker+5GConnectivity-1,L3rBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-MPCNS+aF,domain#CP-Marker+5GAccess-1,MPCNS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
+package#5G,domain#CP-Marker+5GAccess-3,domain#CP-Marker+WiFiHotspotCreation-0,Cellular access network creation should precede WiFi hotspot creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GBackbone-1,domain#CP-Marker+NetworkCreation-1,Cellular network backbone inference is a subsequence of inferred non-localised network creation,FALSE,TRUE
+package#5G,domain#CP-Marker+5GConnectivity-1,domain#CP-Marker+IPSegments-0,Cellular network path segment creation should precede other IP segment creation,FALSE,TRUE
+package#5G,domain#CP-PCNRWI+ct,domain#CP-Marker+5GBackbone-1,PCNRWI+ct is at the end of the cellular network backbone inference sequence,FALSE,TRUE
+package#5G,domain#CP-PCc-rBrPR+DSg,domain#CP-Marker+5GConnectivity-1,PCc-rBrPR+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PRrBc-rL3+NSg,domain#CP-Marker+5GConnectivity-1,PRrBc-rL3+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PRrBrPR+OSg,domain#CP-Marker+5GConnectivity-1,PRrBrPR+OSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-PcCNLS-S+c,domain#CP-Marker+5GAccess-3,CNHS+RAN+cT is at the end of the cellular access network inference sequence,FALSE,TRUE
+package#5G,domain#CP-RAN+iLS,domain#CP-Marker+5GAccess-3,RAN+iLS is at the end of the cellular access network creation sequence,FALSE,TRUE
+package#5G,domain#CP-Rc-rGcL3+DSg,domain#CP-Marker+5GConnectivity-1,Rc-rGcL3+DSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-RrBc-rC+NSg,domain#CP-Marker+5GConnectivity-1,RrBc-rC+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-RrBrL3+NSg,domain#CP-Marker+5GConnectivity-1,RrBrL3+NSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-CNS-RAN+RAN,CNS-RAN+RAN creates a link that in SRAN-mSBS-S+l should not match RAN-accessibleFrom-Space,FALSE,TRUE
+package#5G,domain#CP-SRAN-mSBS-S+l,domain#CP-Marker+5GBaseStationLocation-1,SRAN-mSBS-S+l is at the end of the base station location inference sequence,FALSE,TRUE
+package#5G,domain#CP-UCc-rBrUR+CSg,domain#CP-Marker+5GConnectivity-1,UCc-rBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-URrBc-rL3+CSg,domain#CP-Marker+5GConnectivity-1,URrBc-rL3+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#5G,domain#CP-URrBrUR+CSg,domain#CP-Marker+5GConnectivity-1,URrBrUR+CSg is at the end of the 5G segment creation sequence,FALSE,TRUE
+package#Application,domain#CP-CP+hCLI,domain#CP-Marker+ProcessClassification-1,CP+hCLI is at the end of the process classification sequence,FALSE,TRUE
+package#Application,domain#CP-HuE+e,domain#CP-Marker+HumanStatus-1,HuE+e is at the end of the human status inference sequence,FALSE,TRUE
+package#Application,domain#CP-HuWES+e,domain#CP-Marker+HumanStatus-1,HuWES+e is at the end of the user status inference sequence,FALSE,TRUE
+package#Application,domain#CP-Hui-uD+aID,domain#CP-Marker+UserDataDeprecated-1,Hui-uD+aID is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-HuiCHDtS-AC+AC,domain#CP-Marker+RemoteLogin-1,HuiCHDtS-AC+AC is at the end of the remote login client creation sequence,FALSE,TRUE
+package#Application,domain#CP-HuirPeID+iD,domain#CP-Marker+UserDataInteraction-1,HuirPeID+iD is at the end of the user-data interactivity inference sequence,FALSE,TRUE
+package#Application,domain#CP-HuirPeOD+vD,domain#CP-Marker+UserDataInteraction-1,HuirPeOD+vD is at the end of the user-data interactivity inference sequence,FALSE,TRUE
+package#Application,domain#CP-HuuD+aUD,domain#CP-Marker+UserDataDeprecated-1,HuuD+aUD is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-Huv-uD+aVD,domain#CP-Marker+UserDataDeprecated-1,Huv-uD+aVD is at the end of the deprecated interactive data access relationship tagging sequence,FALSE,TRUE
+package#Application,domain#CP-Marker+AppClient-1,domain#CP-Marker+AppProcess-1,Inferred client and service creation is a subsequence of application process creation,FALSE,TRUE
+package#Application,domain#CP-Marker+AppClientService-1,domain#CP-Marker+AppProcess-1,Application client-service interaction is a subsequence of application process creation,FALSE,TRUE
+package#Application,domain#CP-Marker+AppProcess-1,domain#CP-Marker+ProcessClassification-0,Inferred application process creation should precede process classification,FALSE,TRUE
+package#Application,domain#CP-Marker+AppService-1,domain#CP-Marker+AppProcess-1,Inferred application service creation is a subsequence of application process creation,FALSE,TRUE
+package#Application,domain#CP-Marker+DataStorage-1,domain#CP-Marker+AppProcess-0,Application process creation shoiuld follow data storage relationship inference,FALSE,TRUE
+package#Application,domain#CP-Marker+UserDataDeprecated-1,domain#CP-Marker+DataHandling-0,Data handling inference should follow deprecated interactive data relationship tagging,FALSE,TRUE
+package#Application,domain#CP-Marker+UserDataInteraction-1,domain#CP-Marker+DataHandling-2,Inferring user access to data is a subsequence of data handling relationship inference,FALSE,TRUE
+package#Application,domain#CP-Marker+UserProcessInteraction-1,domain#CP-Marker+HumanStatus-0,Human status classification should follow application process interactivity inference,FALSE,TRUE
+package#Application,domain#CP-Marker+UserProcessInteraction-1,domain#CP-Marker+UserHostInteraction-0,Process interactivity inference should precede host interactivity inference,FALSE,TRUE
+package#Application,domain#CP-RAC+noDU,domain#CP-Marker+ProcessClassification-1,RAC+noDU is at the end of the process classification sequence,FALSE,TRUE
+package#Application,domain#CP-RAS+noDU,domain#CP-Marker+ProcessClassification-1,RAS+noDU is at the end of the process classification sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-Ct+iC,domain#CP-Marker+HostClassification-1,Ct+iC is at the end of the host classification sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-HumPC-Hu+m,domain#CP-Marker+CloudManagement-1,HumPC-Hu+m is at the end of the cloud host management inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KIP-S+c,domain#CP-Marker+CloudAuth-1,KIP-S+c is at the end of the cloud access control inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxCLnSA+uu,domain#CP-Marker+CloudServices-1,KPxCLnSA+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxCuuSI+uu,domain#CP-Marker+CloudServices-1,KPxCuuSI+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxMLnSA+uu,domain#CP-Marker+CloudServices-1,KPxMLnSA+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-KPxWLnSA+uu,domain#CP-Marker+CloudServices-1,KPxWLnSA+uu is at the end of the inferred cloud service creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-MWPodLS2+c,domain#CP-Marker+CloudNetworking-1,MWPodLS2+c is at the end of the cloud networking inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudAuth-1,domain#CP-Marker+CredentialSharing-0,Cloud access control inference should precede credential sharing inference,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudAuth-1,domain#CP-Marker+SystemClientService-1,Cloud access control inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudHostCreation-1,domain#CP-Marker+PhysicalHostInference-2,Inferred cloud framework host creation is a subsequence of inferred virtual host creation,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudManagement-1,domain#CP-Marker+HostManagement-1,Cloud host management inference is a subsequence of host management inference,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudManagement-1,domain#CP-Marker+PhysicalHostManagement-0,Cloud host management inference should precede virtual host management,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudNetworking-1,domain#CP-Marker+FixedNetworkCreation-0,Fixed network creation should follow cloud networking inference,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudNetworking-1,domain#CP-Marker+NetworkCreation-1,Cloud network inference is a subsequence of inferred network creation,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudServices-1,domain#CP-Marker+ReverseProxy-1,Inferred cloud service creation is a subsequence of inferred reverse proxy creation,FALSE,TRUE
+package#CloudManagement,domain#CP-Marker+CloudStorage-1,domain#CP-Marker+DataStorage-1,Cloud data storage relationship inference is a subsequence of data storage relationship inference,FALSE,TRUE
+package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-Marker+CloudStorage-1,PodCnPD+s is at the end of the cloud data storage relationship inference sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-Marker+CloudHostCreation-1,PodDCMC-W-H+W is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-1,PodMP+iP is at the end of the host classification sequence,FALSE,TRUE
+package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-Marker+CloudHostCreation-1,PodP-Cn+Cn is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
+package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-2,DCDFcV+c is at the end of the data cache security relationship inference sequence,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFcCr-aAC+DS,domain#CP-Marker+DataCache-1,H-sDFcCr-aAC+DS is at the end of the temporary data cache creation sequence,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-2,domain#CP-Marker+Phishing-0,Data flow caching inference should precede phishing inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-AC+noDX,domain#CP-Marker+ProcessClassification-1,AC+noDX is at the end of the process classification sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-AS+noDX,domain#CP-Marker+ProcessClassification-1,AS+noDX is at the end of the process classification sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-Marker+DataKeys-1,CCDFCDAScDA-c+a is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-Marker+DataKeys-1,CCDFSDAScDA-c+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DADS+W,domain#CP-Marker+DataCopy-3,DADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DADS+ds,domain#CP-Marker+DataChannel-1,DADS+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,domain#CP-PDO+fS,PDO+fS creates a link that in DADSDCSDD-f+ch should miss DataSource-fromSource-DataAccess,FALSE,TRUE
+package#DataLifecycle,domain#CP-DC2xfDA2+f,domain#CP-Marker+DataChannel-4,DC2xfDA2+f is at the end of the data channel activation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DC2xrDA2+f,domain#CP-Marker+DataChannel-4,DC2xrDA2+f is at the end of the data channel activation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DC3-x+x,domain#CP-Marker+DataChannel-2,DC3-x+x is at the end of the data channel creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-FwdDFf2DP2P+DS,"DDDCDS2P+DF creates links that in FwdDFf2DP2P+DS should be missed, but they will because the created DataFlow flowsIn",TRUE,TRUE
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-FwdDFfDP2P+DS,"DDDCDS2P+DF creates links that in FwdDFfDP2P+DS should be missed, but they will because the created DataFlow flowsIn",TRUE,TRUE
+package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-FwdDFtDP2P+DS,"DDDCDS2P+DF creates links that in FwdDFtDP2P+DS should be missed, but they will because the created DataFlow flowsIn",TRUE,TRUE
+package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-Marker+DataFlow-1,DFDSfP+fVP is at the end of the data flow creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DFtP+fVP,domain#CP-Marker+DataFlow-1,DFtP+fVP is at the end of the data flow creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DP3-x+x,domain#CP-Marker+DataPath-3,DP3-x+x is at the end of the sequence for filling in data path extension relationships,FALSE,TRUE
+package#DataLifecycle,domain#CP-DSDA+R,domain#CP-Marker+DataCopy-3,DSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HD-iS-DS+DS,domain#CP-Marker+DataCopy-1,HD-iS-DS+DS is at the end of the persistent stored data copy creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PIP-S+fS,PIP-S+fS creates a link that in HDS2DPfDA+fS should not match DataAccess-fromSource-DataSource,FALSE,TRUE
+package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PSDP-S+fS,PSDP-S+fS creates a link that in HDS2DPfDA+fS should not match DataAccess-fromSource-DataSource,FALSE,TRUE
+package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-Marker+Phishing-1,HHuWE+D is at the end of the phishing inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-Marker+Phishing-1,HHuWSMS+D is at the end of the phishing inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HPDADS-crudu+crudc,domain#CP-Marker+DataCopy-3,HPDADS-crudu+crudc is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HPDSDA-crudr+crudr,domain#CP-Marker+DataCopy-3,HPDSDA-crudr+crudr is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HuSP+SMS,domain#CP-Marker+PhishingClient-1,HuSP+SMS is at the end of the inferred phishing client creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HuWES+D,domain#CP-Marker+Phishing-1,HuWES+D is at the end of the phishing inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-Marker+DataAccess-1,HuaDRAC-DA+RUA is at the end of the deserialized data access inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataChannel-2,domain#CP-Marker+DataPath-2,Data channel creation should precede filling in data path extension relationships,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataCopy-1,domain#CP-Marker+SystemProcess-0,,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataCopy-3,domain#CP-Marker+SystemClientService-0,System client-service relationship inference should follow data flow and persistent data access inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataKeys-1,domain#CP-Marker+SystemClientService-1,Data key management inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+PhishingClient-1,domain#CP-Marker+SystemClient-1,Inferred phishing client creation is a subsequence of system client creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDI+d,domain#CP-Marker+DataChannel-1,PDI+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDI-Hu+d,domain#CP-Marker+DataChannel-1,PDI-Hu+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDO+s,domain#CP-Marker+DataChannel-1,PDO+s is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-Marker+DataKeys-1,PDOScDD-DS+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDP+ds,domain#CP-Marker+DataChannel-1,PDP+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDR+ds,domain#CP-Marker+DataChannel-1,PDR+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PSDP+ds,domain#CP-Marker+DataChannel-1,PSDP+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PTDR+ds,domain#CP-Marker+DataChannel-1,PTDR+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-RUIDO+ds,domain#CP-Marker+DataChannel-1,RUIDO+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-RUODI+ds,domain#CP-Marker+DataChannel-1,RUODI+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-Marker+DataPath-1,SDADPPDXRAC-DP+DP is at the end of the data path creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-Marker+DataCopy-3,SDUDADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-Marker+DataCopy-3,SDUDSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-Marker+DataKeys-1,ScDACDACCDF-c+a is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-Marker+DataKeys-1,ScDASDACCDF-c+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-Marker+DataCopy-3,ScDDPDADS-cz+c is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-Marker+DataKeys-1,ScDSPDI-DD+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-1,ScDSPDIcD+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-Marker+DataFields-1,DAOiDADInDF-i+i-Replay is at the end of the data field inference sequence,FALSE,TRUE
+package#DataStructure,domain#CP-DCDFDF+i,domain#CP-Marker+DataFields-1,DCDFDF+I is at the end of the data field inference sequence,FALSE,TRUE
+package#DataStructure,domain#CP-PpD-iDF+a,domain#CP-Marker+DataFields-1,PpD-iDF+a is at the end of the data field inference sequence,FALSE,TRUE
+package#IoT,domain#CP-DcTh+DS,domain#CP-Marker+ThingProcess-1,DcTh+DS is at the end of the onboard IoT service creation sequence,FALSE,TRUE
+package#IoT,domain#CP-DcTh+s,domain#CP-Marker+ThingData-1,DcTh+s is at the end of the onboard IoT data creation sequence,FALSE,TRUE
+package#IoT,domain#CP-HuiCo+UI,domain#CP-Marker+ThingProcess-3,HuiCo+UI is at the end of the onboard IoT client creation sequence,FALSE,TRUE
+package#IoT,domain#CP-HuiSe+Rel,domain#CP-Marker+ThingFunction-3,HuiSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HurSesD-Rel+Rel,domain#CP-Marker+ThingPrivacy-1,HurSesD-Rel+Rel is at the end of the IoT privacy inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HurTh-S-m+m,domain#CP-Marker+ThingManagement-1,HurTh-S-m+m is at the end of the IoT management inference sequence,FALSE,TRUE
+package#IoT,domain#CP-HurThcD-Rel+Rel,domain#CP-Marker+ThingPrivacy-1,HurThcD-Rel+Rel is at the end of the IoT privacy inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingData-1,domain#CP-Marker+DataStorage-1,Onboard IoT data creation is a subsequence of data storage relationship inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingFunction-3,domain#CP-Marker+AppClientService-1,IoT functional relationship inference is a subsequence of application client-service interaction inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingManagement-1,domain#CP-Marker+PairedDeviceManagement-0,IoT management inference should precede paired device management inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingPrivacy-1,domain#CP-Marker+HostLocation-0,Host location inference should follow IoT privacy inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingPrivacy-1,domain#CP-Marker+HumanStatus-0,Human status classification should follow IoT privacy inference,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingProcess-1,domain#CP-Marker+AppService-1,Onboard IoT service creation is a subsequence of application service creation,FALSE,TRUE
+package#IoT,domain#CP-Marker+ThingProcess-3,domain#CP-Marker+AppClient-1,Onboard IoT client creation is a subsequence of application client creation,FALSE,TRUE
+package#IoT,domain#CP-Pa-uCo+Rel,domain#CP-Marker+ThingFunction-1,Pa-uCo+Rel is at the end of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PcSe+Rel,domain#CP-Marker+ThingFunction-1,PcSe+Rel is at the end of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Pp-uSe+Rel,domain#CP-Marker+ThingFunction-3,Pp-uSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PrSe+Rel,domain#CP-Marker+ThingFunction-3,PrSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PuCo+Rel,domain#CP-Marker+ThingFunction-1,PuCo+Rel is at the end of the IoT control relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-PuSe+Rel,domain#CP-Marker+ThingFunction-3,PuSe+Rel is at the end of the IoT sensing relationship inference sequence,FALSE,TRUE
+package#IoT,domain#CP-Se-sD+sD,domain#CP-Marker+ThingData-1,Se-sD+sD is at the end of the onboard IoT data creation sequence,FALSE,TRUE
+package#IoT,domain#CP-SesD+SP,domain#CP-Marker+ThingProcess-1,SesD+SP is at the end of the onboard IoT service creation sequence,FALSE,TRUE
+package#Legal,domain#CP-JuHP+s,domain#CP-Marker+Jurisdiction-1,JuHP+s is at the end of the applicable jurisdiction inference sequence,FALSE,TRUE
+package#Legal,domain#CP-StoPDA+o,domain#CP-Marker+ProcessOperation-3,StoPDA+o is at the end of the data processing responsibility inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-BPcGcBP+OSg,domain#CP-Marker+PairedDeviceConnectivity-1,BPcGcBP+OSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HBTTHS-S+l,domain#CP-Marker+PairedDeviceLocation-1,HBTTHS-S+l is at the end of the paired device location inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HpBRH+B,domain#CP-Marker+PairingConnections-1,HpBRH+B is at the end of the pairing connection inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HpURH+U,domain#CP-Marker+PairingConnections-1,HpURH+U is at the end of the pairing connection inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-HumHBTTH-Hu+m,domain#CP-Marker+PairedDeviceManagement-1,HumHBTTH-Hu+m is at the end of the paired device management inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-L1cGcL3+NSg,domain#CP-Marker+PairedDeviceConnectivity-1,L1cGcL3+NSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-L3cGcL1+CSg,domain#CP-Marker+PairedDeviceConnectivity-1,L3cGcL1+CSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceConnectivity-1,domain#CP-Marker+IPSegments-0,Paired device routing inference should precede IP routing inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceLocation-1,domain#CP-Marker+DefaultHostLocation-0,Paired device location inference should precede default host location inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceLocation-1,domain#CP-Marker+HostLocation-1,Paired device location inference is a subsequence of host location inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedDeviceManagement-1,domain#CP-Marker+PhysicalHostManagement-0,Host management inference for other physical hosts should follow paired device management inference,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairedStorageServices-1,domain#CP-Marker+RootLogin-0,Paired storage service inference should precede root login service creation,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-Marker+PairingConnections-1,domain#CP-Marker+LocalNetworkCreation-1,Pairing connection inference is a subsequence of inferred localised network creation,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UHDSrP+u,domain#CP-Marker+PairedStorageServices-1,UHDSrP+u is at the end of the paired device storage service inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UPc-rGrUP+OSg,domain#CP-Marker+PairedDeviceConnectivity-1,UPc-rGrUP+OSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#LocalDeviceConnectivity,domain#CP-UPrGc-rUP+OSg,domain#CP-Marker+PairedDeviceConnectivity-1,UPrGc-rUP+OSg is at the end of the paired device connectivity inference sequence,FALSE,TRUE
+package#Network,domain#CP-C+iC,domain#CP-Marker+HostClassification-1,C+iC is at the end of the host classification sequence,FALSE,TRUE
+package#Network,domain#CP-DCH+l,domain#CP-Marker+PhysicalHostInference-0,DCH+l is at the end of the inferred fixed host creation sequence,FALSE,TRUE
+package#Network,domain#CP-DCWH-LS+c,domain#CP-Marker+FixedNetworkConnections-1,DCWH-LS+c is at the end of the fixed host network connection inference sequence,FALSE,TRUE
+package#Network,domain#CP-DCpLS+RWS,domain#CP-Marker+FixedNetworkCreation-1,DCpLS+RWS is at the end of the inferred fixed network creation sequence,FALSE,TRUE
+package#Network,domain#CP-FcLSS+aF,domain#CP-Marker+NetworkAccessibility-1,FcLSS+aF is at the end of the network accessibility inference sequence,FALSE,TRUE
+package#Network,domain#CP-HACPmNC+p,domain#CP-Marker+ProcessContext-1,HACPmNC+p is at the end of the process context inference sequence,FALSE,TRUE
+package#Network,domain#CP-HCHLSS+NC,domain#CP-Marker+HostContext-1,HCHLSS+NC is a the end of the host context inference sequence,FALSE,TRUE
+package#Network,domain#CP-Hc-pN-hP+AC,domain#CP-Marker+NetworkLogin-1,Hc-pN-hP+AC is at the end of the network login client creation sequence,FALSE,TRUE
+package#Network,domain#CP-HcWHS+c,domain#CP-Marker+WiFiHotspotCreation-1,HcWHS+c is at the end of the WiFi hotspot creation sequence,FALSE,TRUE
+package#Network,domain#CP-HmNCPAC+p,domain#CP-Marker+ProcessContext-1,HmNCPAC+p is at the end of the process context inference sequence,FALSE,TRUE
+package#Network,domain#CP-HprLS+c,domain#CP-Marker+NetworkConnections-3,HprLS+c is at the end of the non-fixed etwork connection inference sequence,FALSE,TRUE
+package#Network,domain#CP-HuiCHLnS-AC+AC,domain#CP-Marker+RemoteLogin-1,HuiCHLnS-AC+AC is at the end of the remote login client creation sequence,FALSE,TRUE
+package#Network,domain#CP-HuiHS+cA,domain#CP-Marker+UserMobilityRequirements-1,HuiHS+cA is at the end of the user mobility requirements inference sequence,FALSE,TRUE
+package#Network,domain#CP-HuiPDaS-S+l,domain#CP-Marker+MobileHostLocation-1,HuiPDaS-S+l is at the end of the mobile host location inference sequence,FALSE,TRUE
+package#Network,domain#CP-HuiPH-iD+iP,domain#CP-Marker+UserHostInteraction-1,HuiPH-iD+iP is at the end of the user-host interaction inference sequence,FALSE,TRUE
+package#Network,domain#CP-Hum-iHRAS+i,domain#CP-Marker+RootLogin-2,Hum-iHRAS+i is at the end of the inferred root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-HumHP-im+m,domain#CP-Marker+ProcessManagement-1,HumHP-im+m is at the end of the process management inference sequence,FALSE,TRUE
+package#Network,domain#CP-HumPH-m+m,domain#CP-Marker+PhysicalHostManagement-1,HumPH-m+m is at the end of the physical host management inference sequence,FALSE,TRUE
+package#Network,domain#CP-HumTHS+cA,domain#CP-Marker+UserMobilityRequirements-1,HumTHS+cA is at the end of the user mobility requirements inference sequence,FALSE,TRUE
+package#Network,domain#CP-InternetMP+W,domain#CP-Marker+SpaceCreation-1,InternetMP+W is at the end of the physical space creation sequence,FALSE,TRUE
+package#Network,domain#CP-InternetMP+ii,domain#CP-Marker+FixedNetworkCreation-1,InternetMP+ii is at the end of the inferred fixed network creation sequence,FALSE,TRUE
+package#Network,domain#CP-MHC+iMHC,domain#CP-Marker+HostClassification-1,MHC+iMHC is at the end of the host classification sequence,FALSE,TRUE
+package#Network,domain#CP-MHcIS+aF,domain#CP-Marker+NetworkAccessibility-1,MHcIS+aF is at the end of the network accessibility inference sequence,FALSE,TRUE
+package#Network,domain#CP-Marker+5GBaseStationLocation-1,domain#CP-Marker+HostLocation-1,Cellular base station location inference is a subsequence of host location inference,FALSE,TRUE
+package#Network,domain#CP-Marker+5GBaseStationLocation-1,domain#CP-Marker+MobileHostLocation-0,Mobile host location inference should follow base station location inference,FALSE,TRUE
+package#Network,domain#CP-Marker+DefaultHostLocation-1,domain#CP-Marker+HostLocation-1,Default host location inference is a subsequence of host location inference,FALSE,TRUE
+package#Network,domain#CP-Marker+FixedHostCreation-1,domain#CP-Marker+HostCreation-1,Inferred physical host creation is a subsequence of inferred host creation,FALSE,TRUE
+package#Network,domain#CP-Marker+FixedNetworkCreation-1,domain#CP-Marker+NetworkCreation-1,Inferred physical network creation is a subsequence of inferred network creation,FALSE,TRUE
+package#Network,domain#CP-Marker+HostLocation-1,domain#CP-Marker+SpaceClassification-0,Host location inference may create a global public space,FALSE,TRUE
+package#Network,domain#CP-Marker+MobileHostLocation-1,domain#CP-Marker+HostLocation-1,Mobile host location inference is a subsequence of host location inference,FALSE,TRUE
+package#Network,domain#CP-Marker+NetworkAccessibility-1,domain#CP-Marker+SpaceClassification-0,Network accessibility inference may create a global public space,FALSE,TRUE
+package#Network,domain#CP-Marker+NetworkLogin-1,domain#CP-Marker+SystemClient-1,Network login client creation is a subsequence of system client creation,FALSE,TRUE
+package#Network,domain#CP-Marker+PhysicalHostInference-1,domain#CP-Marker+FixedHostCreation-1,Physical host inference for physical hosts is a subsequence of inferred physical host creation,FALSE,TRUE
+package#Network,domain#CP-Marker+PhysicalHostManagement-1,domain#CP-Marker+HostManagement-1,Physical host management inference is a subsequence of host management inference,FALSE,TRUE
+package#Network,domain#CP-Marker+PhysicalHostOperation-1,domain#CP-Marker+HostOperation-1,Physical host operation inference is a subsequence of host operation inference,FALSE,TRUE
+package#Network,domain#CP-Marker+RemoteLogin-1,domain#CP-Marker+SystemClient-1,Remote login client creation is a subsequence of system client creation,FALSE,TRUE
+package#Network,domain#CP-Marker+RootLogin-2,domain#CP-Marker+SystemService-1,Root login service creation is a subsequence of system service creation,FALSE,TRUE
+package#Network,domain#CP-Marker+SystemClient-1,domain#CP-Marker+SystemProcess-1,System client creation is a subsequence of system process creation,FALSE,TRUE
+package#Network,domain#CP-Marker+SystemService-1,domain#CP-Marker+SystemProcess-1,System service creation is a subsequence of system process creation,FALSE,TRUE
+package#Network,domain#CP-Marker+UserHostInteraction-1,domain#CP-Marker+UserMobilityRequirements-0,User-host interaction inference should precede user mobility requirements inference,FALSE,TRUE
+package#Network,domain#CP-Marker+WiFiHotspotCreation-1,domain#CP-Marker+LocalNetworkCreation-1,WiFi hotspot creation is a subsequence of inferred local network creation,FALSE,TRUE
+package#Network,domain#CP-PC-LnS+LnS,domain#CP-Marker+RootLogin-1,PC-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-PH+hPH,domain#CP-Marker+PhysicalHostInference-1,PH+hPH is at the end of the sequence for physical host inference for physical hosts,FALSE,TRUE
+package#Network,domain#CP-PH2dS+iM,domain#CP-Marker+DefaultHostLocation-1,PH2dS+iM is at the end of the default host location inference sequence,FALSE,TRUE
+package#Network,domain#CP-Pc-hSHLnS+c,domain#CP-Marker+RootLogin-2,Pc-hSHLnS+c is at the end of the inferred root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-PcWH+c,domain#CP-Marker+WiFiHotspotCreation-1,PcWH+c is at the end of the WiFi hotspot creation sequence,FALSE,TRUE
+package#Network,domain#CP-RAS+iL,domain#CP-Marker+ProcessClassification-1,RAS+iL is at the end of the process classification sequence,FALSE,TRUE
+package#Network,domain#CP-Rr+iR,domain#CP-Marker+HostClassification-1,Rr+iR is at the end of the host classification sequence,FALSE,TRUE
+package#Network,domain#CP-Rr-LnS+LnS,domain#CP-Marker+RootLogin-1,Rr-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-StHP+o,domain#CP-Marker+ProcessOperation-1,StHP+o is at the end of the process operation inference sequence,FALSE,TRUE
+package#Network,domain#CP-StSPH-St+o,domain#CP-Marker+PhysicalHostOperation-1,StSPH-St+o is at the end of the physical host operation inference sequence,FALSE,TRUE
+package#Network,domain#CP-Sv-LnS+LnS,domain#CP-Marker+RootLogin-1,Sv-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
+package#Network,domain#CP-TP+iT,domain#CP-Marker+ProcessClassification-1,TP+iT is at the end of the process classification sequence,FALSE,TRUE
+package#Network,domain#CP-WS-H+I,domain#CP-WpHSH-aF+WH,WpHSH-aF+WH creates an asset that in WS-H+I should not match LogicalSubnet,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-HLS+I,domain#CP-Marker+NetworkInterfaces-1,HLS+I is at the end of the network interface creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-HSL+p+I,domain#CP-Marker+SocketNetworkCreation-1,HSL+p+I is at the end of the socket communication inference sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-L3rGrL3+OSg,domain#CP-Marker+IPSegments-1,L3rGrL3+OSg is at the end of the IP network path segment creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-LPLS2NSg2+b,domain#CP-Marker+NetworkBlocks-1,LPLS2NSg2+b is at the end of the network blocking inference sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-LPsLS+v,domain#CP-Marker+NetworkPaths-1,LPsLS+v is at the end of the network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-Marker+IPSegments-1,domain#CP-Marker+NetworkSegments-1,IP network path segment creation is a subsqeuence of network path segment creation,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-Marker+NetworkSegments-2,domain#CP-Marker+SocketNetworkCreation-0,Intra-host communication inference should follow network path segment inference,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-NP2LS+v,domain#CP-Marker+NetworkPaths-1,NP2LS+v is at the end of the network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-NP2LSg+t,domain#CP-Marker+NetworkPaths-1,NP2LSg+t is at the end of the network path creation sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-2,SgHfILS+f is at the end of the network path segment relationship inference sequence,FALSE,TRUE
+package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-2,SgHtILS+t is at the end of the network path segment relationship inference sequence,FALSE,TRUE
+package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-1,PPS-E+W is at the end of the physical entrance creation sequence,FALSE,TRUE
+package#Physical,domain#CP-W+iW,domain#CP-Marker+SpaceClassification-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
+package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-3,DHuDC+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-DHuDF+r,domain#CP-Marker+DataCopy-3,DHuDF+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-HuwStrH-St+o,domain#CP-Marker+PersonalOperation-1,HuwStrH-St+o is at the end of the personal device operation inference sequence,FALSE,TRUE
+package#Privacy,domain#CP-Marker+PersonalOperation-1,domain#CP-Marker+HostOperation-1,Personal device operation inference is a subsequence of host operation inference,FALSE,TRUE
+package#ProcessComms,domain#CP-APxSCtI+tI,domain#CP-Marker+AttackPath-2,APxSCtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CAPNPSAP+pV,domain#CP-Marker+AttackPath-2,CAPNPSAP+pV is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CAPlISAP+lI,domain#CP-Marker+AttackPath-2,CAPlISAP+lI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CSCLS+aFC,domain#CP-Marker+ServiceChannel-2,CSCLS+aFC is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CaS-SP+uD,domain#CP-Marker+ServiceChannel-1,CaS-SP+uD is at the end of the client-service direct access tagging sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CuPiS-i+i,domain#CP-Marker+ServiceDelegation-3,CuPiS-i+i is at the end of the access by delegate inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-CuSPvS-U+U,domain#CP-Marker+ServiceDelegation-1,CuSPvS-U+U is at the end of the access by reverse proxy inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-HRASuPScS+c,domain#CP-Marker+RemoteAccess-1,HRASuPScS+c is at the end of the remote process inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-HuRACP+i,domain#CP-Marker+RemoteAccess-1,HuRACP+i is at the end of the remote process execution inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+RemoteAccess-1,domain#CP-Marker+ServiceDelegation-2,Remote process execution inference is a subsequence of indirect client-service access inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ReverseProxy-1,domain#CP-Marker+ProcessManagement-0,Inferred reverse proxy creation should precede process management inference,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+DataHandling-0,Data handling relationship inference should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+HumanStatus-0,Human status classification should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+ProcessContext-0,Process context creation should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+ProcessManagement-0,process management inference should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-Marker+ServiceDelegation-3,domain#CP-Marker+SystemClientService-0,System client-service relationship inference should follow indirect client-service access,FALSE,TRUE
+package#ProcessComms,domain#CP-PCaTSSCAP+aTS,domain#CP-Marker+AttackPath-2,PCaTSSCAP+aTS is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-RACuRHRASP-iPL+uRAS,domain#CP-Marker+RemoteAccess-1,RACuRHRASP-iPL+uRAS is at the end of the remote process execution inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-RTvSPRAS+uR,domain#CP-RDvSPHP-iPL-RAS+DtS,RDvSPHP-iPL-RAS+DtS creates a link that in RTvSPRAS+uR should not match Proxy-usesAsProxy-Process,FALSE,TRUE
+package#ProcessComms,domain#CP-SCAPvLS+v,domain#CP-Marker+AttackPath-2,SCAPvLS+v is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCCHNPLS-lI+lI,domain#CP-Marker+ServiceChannel-3,SCCHNPLS-lI+lI is at the end of the service channel NAT inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCLSg+vf,domain#CP-Marker+ServiceChannel-2,SCLSg+vf is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCLSg+vt,domain#CP-Marker+ServiceChannel-2,SCLSg+vt is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCNP2CPtI+vt,domain#CP-Marker+ClientPath-1,SCNP2CPtI+vt is at the end of the client-service access path creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCsAPtI+tI,domain#CP-Marker+AttackPath-2,SCsAPtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SCxAPtI+tI,domain#CP-Marker+AttackPath-2,SCxAPtI+tI is at the end of the attack path aggregation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SP+iP,domain#CP-Marker+ServiceDelegation-1,SP+iP is at the end of the access by reverse proxy inference sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SSCLS+aTS,domain#CP-Marker+ServiceChannel-2,SSCLS+aTS is at the end of the service channel creation sequence,FALSE,TRUE
+package#ProcessComms,domain#CP-SSClIAP+ch,domain#CP-Marker+AttackPath-1,SSClIAP+ch is at the end of the client-service attack path creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-Marker+OAuth-1,CAC-pPzAC-pS+cvc is at the end of the OAuth trust dependency inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-Marker+OAuth-1,CAC-pPaAC-pS+cvc is at the end of the OAuth trust dependency inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-Marker+OAuth-1,CAC-pScAC-pP+cc is at the end of the OAuth trust dependency inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-Marker+TrustedComms-1,CCCCAP+ch is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-Marker+TrustContext-1,CCCfS+aFC-aI+aU is at the end of the trust contextualization inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-Marker+TrustedComms-1,CCCvCCvLS+vLS is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCCP+ch,domain#CP-Marker+TrustedComms-1,CCSCCP+ch is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCfI+fI,domain#CP-Marker+TrustedComms-1,CCSCfI+fI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCtI+tI,domain#CP-Marker+TrustedComms-1,CCSCtI+tI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#CP-Marker+TrustedComms-1,CCSCtSg+tSg is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-Marker+TrustedComms-1,CCSCvI+vI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-Marker+CredentialSharing-1,CScP-v+AA is at the end of the credential sharing inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CuPuSCC+c,domain#CP-Marker+TrustRelationship-1,CuPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CuPvSCC+c,domain#CP-Marker+TrustRelationship-1,CuPvSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CvPuSCC+c,domain#CP-Marker+TrustRelationship-1,CvPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CvPvSCC+c,domain#CP-Marker+TrustRelationship-1,CvPvSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#CP-Marker+TrustInDataFlows-1,DFfCCCfS+ff is at the end of the trust in data flow inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFfCCCtS+ft,domain#CP-Marker+TrustInDataFlows-1,DFfCCCtS+ft is at the end of the trust in data flow inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFtCCCfS+ft,domain#CP-Marker+TrustInDataFlows-1,DFtCCCfS+ft is at the end of the trust in data flow inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-DFtCCCtS+ff,domain#CP-Marker+TrustInDataFlows-1,DFtCCCtS+ff is at the end of the trust in data flow inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+CredentialSharing-1,domain#CP-Marker+SystemClientService-1,Credential sharing inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+OAuth-1,domain#CP-Marker+ProcessTrust-2,OAuth dependency inference is a subsequence of process trust inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+ProcessTrust-3,domain#CP-Marker+Phishing-0,Process trust inference should precede phishing inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustInDataFlows-1,domain#CP-Marker+ProcessTrust-3,Trust in data flow inference is a subsequence of process trust inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustRelationship-1,domain#CP-Marker+ProcessTrust-1,Trust relationship creation is a subsequence of process trust inference,FALSE,TRUE
+package#ProcessTrust,domain#CP-Marker+TrustedComms-1,domain#CP-Marker+ProcessTrust-2,Trusted comms channel inference is a subsequence of process trust inference,FALSE,TRUE
+package#Theft,domain#CP-CSCLS+ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS+ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS-ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+TrustContext-0,Trust contextualisation inference should follow reconnection context creation.,FALSE,TRUE
+package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-1,A+iA is at the end of the user status classification sequence,FALSE,TRUE
+package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-1,HuaSaE+cA is at the end of the human mobility inference sequence,FALSE,TRUE
+package#Users,domain#CP-Marker+HumanMobility-1,domain#CP-Marker+SpaceClassification-0,,FALSE,TRUE
+package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+SpaceClassification-0,User mobility requirements inference may create an inferred space,FALSE,TRUE
+package#Users,domain#CP-StS-St+c,domain#CP-Marker+SpaceOperation-1,StS-St+c is at the end of the space operation inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-CCSCHC+ch,domain#CP-Marker+VirtualNetworkSupport-1,CCSCHC+ch is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-CCSCVC+ch,domain#CP-Marker+VirtualNetworkSupport-1,CCSCVC+ch is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-DCVHVS-H+p,domain#CP-Marker+VirtualNetworkCreation-1,DCVHVS-H+p is at the end of the inferred virtual network creation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-EH+iS,domain#CP-Marker+HostClassification-1,EH+iS is at the end of the host classification sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HCLSg+vf,domain#CP-Marker+VirtualNetworkSupport-1,HCLSg+vf is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HCLSg+vt,domain#CP-Marker+VirtualNetworkSupport-1,HCLSg+vt is at the end of the virtual network dependency inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HL+iLS,domain#CP-Marker+HostLAN-1,HL+iLS is at the end of the internal virtual network creation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-HumHVH-Hu+m,domain#CP-Marker+VirtualHostManagement-1,HumHVH-Hu+m is at the end of the virtual host management inference sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+HostLAN-1,domain#CP-Marker+LocalNetworkCreation-2,Inferred internal virtual LAN creation is a subsequence of localised network creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+PhysicalHostInference-3,domain#CP-Marker+VirtualHostCreation-1,Physical host inference for virtual hosts is a subsequence of inferred virtual host creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostCreation-1,domain#CP-Marker+HostClassification-0,Inferred virtual host creation should precede host classification,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostCreation-1,domain#CP-Marker+HostCreation-1,Inferred virtual host creation is a subsequence of inferred host creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostManagement-1,domain#CP-Marker+HostManagement-1,Virtual host management inference is a subsequence of host management inference,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualHostOperation-1,domain#CP-Marker+HostOperation-1,Virtual host operation inference is a subsequence of host operation inference,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualNetworkCreation-1,domain#CP-Marker+FixedNetworkCreation-0,Fixed network creation should follow inferred virtual network creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualNetworkCreation-1,domain#CP-Marker+NetworkCreation-1,Inferred virtual network creation is a subsequence of inferred network creation,FALSE,TRUE
+package#Virtualisation,domain#CP-Marker+VirtualStorageServices-1,domain#CP-Marker+SystemService-1,Virtual volume service creation is a subsequence of system service creation,FALSE,TRUE
+package#Virtualisation,domain#CP-StoHVH-St+m,domain#CP-Marker+VirtualHostOperation-1,StoHVH-St+m is at the end of the virtual host operation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-VH-LnS+LnS,domain#CP-Marker+RootLogin-1,VH-LnS+LnS is at the end of the headless host root login service creation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-VHPH+hPH,domain#CP-Marker+PhysicalHostInference-3,VHPH+hPH is at the end of the sequence for inferring physical hosts of virtual hosts,FALSE,TRUE
+package#Virtualisation,domain#CP-VHPhDHS-HsS-S+u,domain#CP-Marker+VirtualStorageServices-1,VHPhDHS-HsS-S+u is at the end of the virtual storage volume service creation sequence,FALSE,TRUE
+package#Virtualisation,domain#CP-VSVCHCLS+uPS,domain#CP-Marker+VirtualNetworkSupport-1,VSVCHCLS+uPS is at the end of the virtual network dependency inference sequence,FALSE,TRUE

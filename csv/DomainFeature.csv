@@ -1,0 +1,8 @@
+URI,supported,comment
+domain#000000,FALSE,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
+feature#ConstructionDependencies,TRUE,"Construction patterns form a partial sequence encoded via predecessor and successor relationships, instead of explicit priorities in single sequence."
+feature#ConstructionStateFlags,TRUE,Whether asset and relationship types are used only during construction.
+feature#MixedThreatCauses,TRUE,"Secondary threat causes can be expressed as TWAS, and primary threat causes as MS."
+feature#PopulationModel,TRUE,Whether the model is designed for expansion adding Min and Max members for each entity that can have or be associated with a population level.
+feature#RiskTypeFlags,TRUE,Threats and CSG have flags indicating for which type(s) of risk calculations they are relevant.
+feature#ThreatTypeFlags,TRUE,Threats have flags indicating if they model secondary threats or normal operational processes.

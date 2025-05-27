@@ -1,0 +1,7 @@
+levelValue,URI,label,comment
+0,domain#000000,Singleton,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
+0,domain#PopLevelSingleton,Singleton,Class is a singleton representing only one asset
+1,domain#PopLevelFew,A few,Class containing between about 4 and 30 assets
+2,domain#PopLevelMedium,More,Class containing between about 30 and 300 assets
+3,domain#PopLevelHigh,Many,Class containing between about 300 and 3000 assets
+4,domain#PopLevelVeryHigh,Very many,Class containing more than a few thousand assets

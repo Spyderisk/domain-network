@@ -1,0 +1,8 @@
+levelValue,URI,package,label,comment
+0,domain#000000,domain#000000,Negligible,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
+0,domain#ImpactLevelNegligible,package#Core,Negligible,This threat or asset behaviour has no significant direct impact on business functionality or efficiency.
+1,domain#ImpactLevelVeryLow,package#Core,Very Low,This threat or asset behaviour causes a small loss of business functionality or efficiency.
+2,domain#ImpactLevelLow,package#Core,Low,This threat or asset behaviour causes a moderate loss of business functionality or efficiency.
+3,domain#ImpactLevelMedium,package#Core,Medium,This threat or asset behaviour causes a serious but non-fatal loss of business functionality or efficiency.
+4,domain#ImpactLevelHigh,package#Core,High,This threat or asset behaviour causes a serious loss of business functionality that will be fatal if not stopped very quickly.
+5,domain#ImpactLevelVeryHigh,package#Core,Very High,"This threat or asset behaviour is fatal to key business objectives, must be prevented at all costs."

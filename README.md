@@ -1,4 +1,4 @@
-# IT Network Model
+# Network Domain Model
 
 ## Introduction
 
@@ -19,34 +19,80 @@ A Spyderisk domain model is a knowledge base, in which several different conside
 - fidelity: how detailed and accurate is the representation of a system/application?
 - complexity: how complex and difficult to analyse is it?
 
-In addition, two distinct compatibility issues must be considered:
+There are also compatibility issues relating to both legacy system models based on the Network Domain Model, and to the SPYDERISK system-modeller service. These force an unusual approach to the use of branches and versioning in GitHub. See the README in the 'main' branch of this repository for details.
 
-- system-modeller: which version(s) of the SPYDERISK system-modeller service are required/supported?
-- system models: will system-modeller users be able to reanalyse their system models without any changes?
+Domain models were originally expressed in OWL/RDF, but human readability became very poor. The contents of this model are now normally edited by loading into a relational database, and using queries and forms to provide a more 'joined up' few of the moving parts. This also makes it easier to check for flaws that may exercise known bugs in system-modeller, or that make the domain model self-inconsistent.
 
-The compatibility issues mean it is often necessary to develop multiple branches at the same time. Each may be needed by a specific group of users who may have legacy system models they can't afford to modify, specific requirements regarding the balance between (say) fidelity and complexity, or system modeller instances that cannot easily be upgraded.
+Today, the source format comprises a set of CSV files, each of which corresponds to a table when loaded into an editor. Simple changes can be made directly in the CSV files, making it easy to fix typos and simply logical consistency issues.
 
-## Versions
+## Build and package
 
-Versions of the domain model intended for use (beyond development, experimentation and testing) are tagged with a version string of the form GXN-F-B, where:
+A GitHub Action is executed when a release is made or when manually triggered. It converts from the source CSV files into an NQ serialisation using csv2nq and bundles this with the icon files and icon-mapping file to create an artifact that can be used in the system-modeller. The package is stored in the Maven repository of GitHub Packages.
 
-- G is a numeric 'generational' identifier signifying the overall approach, which typically becomes more complex from generation to generation
-- X is a letter indicating membership of a SPYDERISK system-modeller compatibility set within that generation of network domain models
-- N is a number indicating membership of a system model compatibility set within that generation
-- F is a number which changes when new features are added
-- B is a number which changes when bugs are fixed with no new features
+## Model contents and coverage
 
-It is important to realise that the X and N compatibility indicators do not form a hierarchy. It is possible for two domain models to support and/or require different versions of the SPYDERISK system-modeller, yet both be able to support the same system models, or vice versa. Historically, whenever there was a system-modeller compatibility change (i.e., a change in X), we reset the system model compatibility indicator back to '1'. Ideally, multiple system model compatibility sets should not be created for each major version of system-modeller, but sometimes this can't be avoided.
+This version of the Network Domain Model covers the following areas.
 
-## Repository structure
+### Basics
 
-For these reasons, the conventional repo structure with 'master', 'dev' and several development branches is not used. 
+Basic socio-cyber-physical assets and relationships are included, describing
 
-The equivalent of 'dev' branches in this repository are named according to their G and X version indicators. At the time this project was moved to GitHub, the latest version intended to be used beyond development/experimentation was '6a1-2-12', which will become the first HEAD of branch '6a'. If a subsequent update cannot be used without changing system models, branches will be created for '6a1' and '6a2', If system-modeller is improved and a new domain model is needed to work with that or support the new system-modeller features, then a new '6b' branch will be created.
+- human assets, i.e., users (strictly user roles) and other human or organizational stakeholders
+- physical spaces
+- devices (hosts) and communication networks (IP, Bluetooth)
+- application assets, consisting of processes and data
 
-Merging changes between these branches is very difficult without causing further compatibility issues. Useful changes in one branch will normally have to be backported manually into the other branches, if at all. The branches must therefore be regarded as more like distinct developments, rather than different versions of the same development.
+Note that data assets model the presence of data in the system, allowing its relationships to processes and users to be specified. A data asset is not a copy of the data - for that, a separate, inferred 'data lifecycle' asset is used (see below).
 
-As such, it is expected that each new branch will have its own README, explaining its purpose, content and (critically) its compatibility constraints.
+### Data lifecycle inference
+
+Inference rules cause further data assets to be created representing copies of the data in a system. These model:
+
+- serialised copies stored on devices
+- serialised copies transferred between processes in messages
+- copies loaded into memory by processes
+
+The inference rules also generate data flow relationships, which can be mapped to network paths. This is important when deciding if data could be subject to attack - one needs to know where copies may be, so potential attack paths can be identified.
+
+### Network connectivity inference
+
+Inference rules insert network interfaces between hosts and subnets to which they are connected. Hosts with connections to multiple subnets may function as gateways, routing messages between subnets. These routes are modelled as inferred 'segment' assets. Interfaces and segments correspond to IP Tables or Netfilter 'tables'.
+
+Network paths are then inferred as collections of 'segments' (hence the name for a gateway routing table asset - a 'path' is made up of 'segments'). Process-process communication is  inferred to use any available path, and thus is the potential exposure of communicated data determined.
+
+Note that when a gateway provides a subnet (i.e., acts as a router enabling and controlling message routing for that subnet), the inference rules assume it is a private subnet (since usually that will be the case). The inference rules assume the router will behave as a NAT device, so by default no inbound connections are possible from subnets not provided by that router. The rules assume that port forwarding (or equivalent) is used to override this and allow access by legitimate clients to services on the subnet.
+
+### Virtualisation
+
+Virtual hosts are included in the model. These must be provisioned by some other host, but can be stacked (so a physical host provisions a virtual host that provisions another virtual host). Threats represent the propagation of certain threat effects up and down the stack, e.g., by transferring overload downwards, and loss of availability upwards.
+
+### Rights and contextualisation
+
+Access rights are represented in terms of 'trustworthiness attributes', whose level reflects the trustworthiness of anyone (insider or external attacker) possessing the related rights. Threats are used to model how these rights are related, e.g., the attribute 'Control' for a Host asset represents possession of admin rights, with threats representing the way these can be used to assume user-level access rights, take control of processes running on the Host, or access data stored there.
+
+Suppose an exploit on a Host allows an attacker to gain admin rights. The SPYDERISK system modeller would infer these other threats may follow, thus creating threat paths leading to possible consequences throughout the system. Attacks are thus represented by these threat paths, usually including threats representing malicious actions, combined with other threats representing exploitation of rights gained, and sometimes secondary effects.
+
+One challenge is that if an attack to gain admin rights involved (say) physical access to a notebook PC when left unattended in an Internet cafe, it should not then be possible to access data that may be accessed via this host only when connected to a private LAN in another location. To ensure such unrealistic threat paths are not created, access rights must be represented using inferred assets associated with both the host, and a physical location or a network connection. Trustworthiness attributes like 'Control' or 'UserTW' are associated with these contexts, rather than simply with the host or process to which those rights apply.
+
+In practice, this creates a problem for users of system-modeller, because to model a situation where a host has been compromised, they must specify a low TW level for these attributes for the host and some or all the associated contexts. Equally, if they wish to specify that such a compromise has an impact, they must specify an impact level for the host and/or associated contexts. Having TW levels or behaviour likelihoods propagate between the host and its contexts is not possible or threat paths would no longer be confined to the context of the initial breach. To solve this problem, additional 'Local' TW attributes and behaviours were introduced, with secondary threats providing appropriate propagation mechanisms such that the behaviour at a host has the likelihood of the worst affected context, while the TW level at the host is the best case TW level across any context.
+
+![image](https://github.com/Spyderisk/domain-network/assets/27415349/1adaa830-5c32-4759-9e14-2f991c61f04a)
+
+### Internet of Things
+
+Two types of IoT Thing are included: Sensors (which sense their physical environment) and Controllers (which modify the environment).
+
+Each must be modelled as a combination of a host device, plus (communicating) processes and data. This ensures that threats to devices, processes and data will be applied appropriately to every Thing.
+
+To simplify this for SPYDERISK system modeller users, inference rules are used to insert the processes and data for each Thing added to a system model. There are some extra 'surfacing' threats that propagate threat effects from the processes and data to the (asserted) Thing asset, so these effects show up on the visible asset that was added by the user.
+
+### Clouds
+
+A Data Centre asset can be used to reprsent a collection of servers on a LAN provided by a router in a physical location. This in itself does not represent a Cloud data centre - it is just a shorthand allowing this bunch of assets to be added as one.
+
+Cloud services are then modelled by allowing virtual hosts and processes to be related directly to the Data Centre, rather than via its embedded hosts. This signifies that it is a Cloud data centre, running a management framework that provides a degree of isolation and may support service level agreements to limit consumption, etc.
+
+On top of that, virtual host subclasses represent 'Kubernetes' style management concepts including Pods and Containers. If these are used, inference rules will also insert a Kubernetes master and slave hosts, a virtual LAN connecting these, and further virtual subnets connecting Containers that are in the same Pod, etc.
 
 Inevitably, development of the domain model itself tends to focus more on the later branches. The need for older branches fades as system-modeller installations and system models are updated, and old branches may become stale. We will decide later whether those branches should be locked or deleted if/when that happens.
 
