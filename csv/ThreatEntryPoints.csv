@@ -708,6 +708,7 @@ package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-ConnectionsBlocked-Netw
 package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-Extrinsic-AU-TW-Process
 package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-Extrinsic-VN-TW-Process
 package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-NetworkUserTW-AttackerSubnet
+package#VulnerabilityCVSS,domain#P.V.IoHIP.3,domain#TWAS-OutOfService-Interface
 package#VulnerabilityCVSS,domain#P.V.LoHIP.3,domain#TWAS-Extrinsic-AU-TW-Process
 package#VulnerabilityCVSS,domain#P.V.LoHIP.3,domain#TWAS-Extrinsic-VN-TW-Process
 package#VulnerabilityCVSS,domain#P.V.LoHIP.3,domain#TWAS-NetworkUserTW-LogicalSubnet
@@ -720,6 +721,7 @@ package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-ConnectionsBlocked-Netw
 package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-Extrinsic-AU-TW-Process
 package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-Extrinsic-VN-TW-Process
 package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-NetworkUserTW-AttackerSubnet
+package#VulnerabilityCVSS,domain#P.V.NoHIP.3,domain#TWAS-OutOfService-Interface
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#TWAS-Extrinsic-AU-TW-Service
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#TWAS-Extrinsic-VA-TW-Service
 package#VulnerabilityCVSS,domain#P.V.OSAPLaS.3,domain#TWAS-NetworkUserTW-LogicalSubnet
