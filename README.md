@@ -2,9 +2,15 @@
 
 ## Introduction
 
-This is a SPYDERISK domain model describing IT networks, their users and physical environment. It can be deployed to a SPYDERISK system-modeller service, allowing the service to be used to create and analyse models of IT systems and applications as socio-cyber-physical systems.
+This is a Spyderisk domain model describing IT networks, their users and physical environment. It can be deployed to a [Spyderisk system-modeller](https://github.com/Spyderisk/system-modeller) service, allowing the service to be used to create and analyse models of IT systems and applications as socio-cyber-physical systems.
 
-A SPYDERISK domain model is a knowledge base, in which several different considerations must be balanced against each other:
+The source files for the most complete version of this domain model can be found in the [6a branch](https://github.com/Spyderisk/domain-network/tree/6a) and pre-built [packages for installation](https://github.com/Spyderisk/domain-network/packages/1826148) containing the RDF in NQ format along with icon sets are available.
+
+This README explains considerations, compatibility issues and their implications for version management and repository structure.
+
+## Considerations
+
+A Spyderisk domain model is a knowledge base, in which several different considerations must be balanced against each other:
 
 - approach: how are IT networks represented in detail (given basic invariants like users, locations, devices and networks)?
 - coverage: what features and variations are supported?
@@ -66,9 +72,11 @@ Access rights are represented in terms of 'trustworthiness attributes', whose le
 
 Suppose an exploit on a Host allows an attacker to gain admin rights. The SPYDERISK system modeller would infer these other threats may follow, thus creating threat paths leading to possible consequences throughout the system. Attacks are thus represented by these threat paths, usually including threats representing malicious actions, combined with other threats representing exploitation of rights gained, and sometimes secondary effects.
 
-One challenge is that if an attack involved (say) physical access to a notebook PC when left unattended in an Internet cafe, it should not then be possible to access data that may be accessed via this host, but only when connected to a private LAN in a more secure location. To ensure such unrealistic threat paths are not created, access rights must be represented using inferred assets associated with both the host, and a physical location or a network connection. Trustworthiness attributes like 'Control' or 'UserTW' are associated with these, rather than simply with the host or process to which those rights apply.
+One challenge is that if an attack to gain admin rights involved (say) physical access to a notebook PC when left unattended in an Internet cafe, it should not then be possible to access data that may be accessed via this host only when connected to a private LAN in another location. To ensure such unrealistic threat paths are not created, access rights must be represented using inferred assets associated with both the host, and a physical location or a network connection. Trustworthiness attributes like 'Control' or 'UserTW' are associated with these contexts, rather than simply with the host or process to which those rights apply.
 
-There is a known issue ([issue #9](https://github.com/SPYDERISK/domain-network/issues/9) with the way this is currently represented, whereby it is not possible to insert a low assumed TW level representing a suspected compromise in an unknown context. Because the 'obvious' TW attributes cannot be used, some extra attributes have been added to support this, which will be deprecated when this issue has been addressed.
+In practice, this creates a problem for users of system-modeller, because to model a situation where a host has been compromised, they must specify a low TW level for these attributes for the host and some or all the associated contexts. Equally, if they wish to specify that such a compromise has an impact, they must specify an impact level for the host and/or associated contexts. Having TW levels or behaviour likelihoods propagate between the host and its contexts is not possible or threat paths would no longer be confined to the context of the initial breach. To solve this problem, additional 'Local' TW attributes and behaviours were introduced, with secondary threats providing appropriate propagation mechanisms such that the behaviour at a host has the likelihood of the worst affected context, while the TW level at the host is the best case TW level across any context.
+
+![image](https://github.com/Spyderisk/domain-network/assets/27415349/1adaa830-5c32-4759-9e14-2f991c61f04a)
 
 ### Internet of Things
 
@@ -85,3 +93,12 @@ A Data Centre asset can be used to reprsent a collection of servers on a LAN pro
 Cloud services are then modelled by allowing virtual hosts and processes to be related directly to the Data Centre, rather than via its embedded hosts. This signifies that it is a Cloud data centre, running a management framework that provides a degree of isolation and may support service level agreements to limit consumption, etc.
 
 On top of that, virtual host subclasses represent 'Kubernetes' style management concepts including Pods and Containers. If these are used, inference rules will also insert a Kubernetes master and slave hosts, a virtual LAN connecting these, and further virtual subnets connecting Containers that are in the same Pod, etc.
+
+Inevitably, development of the domain model itself tends to focus more on the later branches. The need for older branches fades as system-modeller installations and system models are updated, and old branches may become stale. We will decide later whether those branches should be locked or deleted if/when that happens.
+
+## Contributors
+
+Those who have contributed to the IT Network domain model are:
+
+* Mike Surridge
+* Samuel Senior
