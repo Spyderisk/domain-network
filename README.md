@@ -101,4 +101,5 @@ Inevitably, development of the domain model itself tends to focus more on the la
 Those who have contributed to the IT Network domain model are:
 
 * Mike Surridge
+* Stephen Phillips
 * Samuel Senior
