@@ -94,8 +94,6 @@ Cloud services are then modelled by allowing virtual hosts and processes to be r
 
 On top of that, virtual host subclasses represent 'Kubernetes' style management concepts including Pods and Containers. If these are used, inference rules will also insert a Kubernetes master and slave hosts, a virtual LAN connecting these, and further virtual subnets connecting Containers that are in the same Pod, etc.
 
-Inevitably, development of the domain model itself tends to focus more on the later branches. The need for older branches fades as system-modeller installations and system models are updated, and old branches may become stale. We will decide later whether those branches should be locked or deleted if/when that happens.
-
 ## Contributors
 
 Those who have contributed to the IT Network domain model are:
