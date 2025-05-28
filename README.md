@@ -56,7 +56,7 @@ The inference rules also generate data flow relationships, which can be mapped t
 
 ### Network connectivity inference
 
-Inference rules insert network interfaces between hosts and subnets to which they are connected. Hosts with connections to multiple subnets may function as gateways, routing messages between subnets. These routes are modelled as inferred 'segment' assets. Interfaces and segments correspond to IP Tables or Netfilter 'tables'.
+Inference rules insert network interfaces between hosts and subnets to which they are connected. Interfaces assets represent targets for some types of attacks. Hosts with connections to multiple subnets may function as gateways, routing messages between subnets. These routes are modelled as inferred network path 'segment' assets. Interfaces and segments are also used to model network routing policies, as they correspond to IP Tables or Netfilter 'tables', whose rules are models using controls associated with those assets.
 
 Network paths are then inferred as collections of 'segments' (hence the name for a gateway routing table asset - a 'path' is made up of 'segments'). Process-process communication is  inferred to use any available path, and thus is the potential exposure of communicated data determined.
 
