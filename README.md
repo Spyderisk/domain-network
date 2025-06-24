@@ -4,7 +4,7 @@
 
 This is a Spyderisk domain model describing IT networks, their users and physical environment. It can be deployed to a [Spyderisk system-modeller](https://github.com/Spyderisk/system-modeller) service, allowing the service to be used to create and analyse models of IT systems and applications as socio-cyber-physical systems.
 
-The source files for the most complete version of this domain model can be found in the [6a branch](https://github.com/Spyderisk/domain-network/tree/6a) and pre-built [packages for installation](https://github.com/Spyderisk/domain-network/packages/1826148) containing the RDF in NQ format along with icon sets are available.
+The source files for the most complete version of this domain model can be found in the [dev](https://github.com/Spyderisk/domain-network/tree/dev) and pre-built [packages for installation](https://github.com/Spyderisk/domain-network/packages/1826148) containing the RDF in NQ format along with icon sets are available.
 
 This README explains considerations, compatibility issues and their implications for version management and repository structure.
 
@@ -56,7 +56,7 @@ The inference rules also generate data flow relationships, which can be mapped t
 
 ### Network connectivity inference
 
-Inference rules insert network interfaces between hosts and subnets to which they are connected. Hosts with connections to multiple subnets may function as gateways, routing messages between subnets. These routes are modelled as inferred 'segment' assets. Interfaces and segments correspond to IP Tables or Netfilter 'tables'.
+Inference rules insert network interfaces between hosts and subnets to which they are connected. Interfaces assets represent targets for some types of attacks. Hosts with connections to multiple subnets may function as gateways, routing messages between subnets. These routes are modelled as inferred network path 'segment' assets. Interfaces and segments are also used to model network routing policies, as they correspond to IP Tables or Netfilter 'tables', whose rules are models using controls associated with those assets.
 
 Network paths are then inferred as collections of 'segments' (hence the name for a gateway routing table asset - a 'path' is made up of 'segments'). Process-process communication is  inferred to use any available path, and thus is the potential exposure of communicated data determined.
 
@@ -94,11 +94,10 @@ Cloud services are then modelled by allowing virtual hosts and processes to be r
 
 On top of that, virtual host subclasses represent 'Kubernetes' style management concepts including Pods and Containers. If these are used, inference rules will also insert a Kubernetes master and slave hosts, a virtual LAN connecting these, and further virtual subnets connecting Containers that are in the same Pod, etc.
 
-Inevitably, development of the domain model itself tends to focus more on the later branches. The need for older branches fades as system-modeller installations and system models are updated, and old branches may become stale. We will decide later whether those branches should be locked or deleted if/when that happens.
-
 ## Contributors
 
 Those who have contributed to the IT Network domain model are:
 
 * Mike Surridge
+* Stephen Phillips
 * Samuel Senior
