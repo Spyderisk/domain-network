@@ -1,5 +1,5 @@
 package,URI,hasPredecessor,notes,fake,asserted
-domain#000000,domain#000000,domain#CP-CNR-CN+CN,CNR-CN+CN creates a link that in BCNH-i-H+p matches LogicalSubnet-providedBy-Gateway,No,Yes
+domain#000000,domain#000000,domain#CP-CNR-CN+CN,CNR-CN+CN creates a link that in BCNH-i-H+p matches LogicalSubnet-providedBy-Gateway,FALSE,TRUE
 package#5G,domain#CP-BCNH-i-H+p,domain#CP-CNR-CN+CN,CNR-CN+CN creates a link that in BCNH-i-H+p matches LogicalSubnet-providedBy-Gateway,FALSE,TRUE
 package#5G,domain#CP-BCNH-i-H+p,domain#CP-CNRLS+i,CNRLS+I creates a link that in BCNH-i-H+p matches LogicalSubnet-implementsCN-CellularNetwork,FALSE,TRUE
 package#5G,domain#CP-BSCNSRAN-p+p,domain#CP-CNS-RAN+RAN,CNS-RAN+RAN creates a link that in BSCNSRAN-p+p matches RAN-accessibleFrom-Space,FALSE,TRUE

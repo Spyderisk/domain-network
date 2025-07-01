@@ -1,5 +1,5 @@
 package,URI,hasSuccessor,notes,fake,asserted
-domain#000000,domain#000000,domain#CP-Marker+5GAccess-1,CNCNBSS+aF is at the end of the cellular network accessibility inference sequence,No,Yes
+domain#000000,domain#000000,domain#CP-Marker+5GAccess-1,CNCNBSS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
 package#5G,domain#CP-CNCNBSS+aF,domain#CP-Marker+5GAccess-1,CNCNBSS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE
 package#5G,domain#CP-CNHS+RAN+cT,domain#CP-Marker+5GAccess-3,CNHS+RAN+cT is at the end of the cellular access network inference sequence,FALSE,TRUE
 package#5G,domain#CP-CNRANS+aF,domain#CP-Marker+5GAccess-1,CNRANS+aF is at the end of the cellular network accessibility inference sequence,FALSE,TRUE

@@ -1,5 +1,5 @@
 package,URI,SubsequenceID,SubsequenceURI,ungroup
-domain#000000,domain#000000,0,domain#S-NonLocalNetworks,No
+domain#000000,domain#000000,0,domain#S-NonLocalNetworks,FALSE
 package#5G,domain#CP-BCNH-i-H+p,10,domain#S-NonLocalNetworks,FALSE
 package#5G,domain#CP-BSCNSRAN-p+p,18,domain#S-LocalizedNetworks,FALSE
 package#5G,domain#CP-CNBH+p,10,domain#S-NonLocalNetworks,FALSE
