@@ -25,7 +25,6 @@ package#Application,domain#DB,domain#GeneralProcess
 package#Application,domain#DB,domain#ProcessPalette
 package#Application,domain#Data,domain#DataPalette
 package#Application,domain#Data,domain#DataStructureAsset
-package#Application,domain#DataLifecycleAsset,core#Asset
 package#Application,domain#DataPalette,core#PaletteType
 package#Application,domain#DataService,domain#ProcessPalette
 package#Application,domain#DataService,domain#SimpleProcess
@@ -97,6 +96,7 @@ package#DataLifecycle,domain#DataFlow,domain#DataTransferAsset
 package#DataLifecycle,domain#DataInferenceAsset,core#Asset
 package#DataLifecycle,domain#DataInput,domain#DataAccess
 package#DataLifecycle,domain#DataInput,domain#DataProcess
+package#DataLifecycle,domain#DataLifecycleAsset,core#Asset
 package#DataLifecycle,domain#DataOutput,domain#DataAccess
 package#DataLifecycle,domain#DataOutput,domain#DataProcess
 package#DataLifecycle,domain#DataPath,domain#DataInferenceAsset
