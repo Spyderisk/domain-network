@@ -100,6 +100,7 @@ package#Network,domain#Role_HostNetContext,HostNetContext,A network connectivity
 package#Network,domain#Role_Hotspot,Hotspot,A WiFi network provided by a mobile device wherever it goes.
 package#Network,domain#Role_InteractiveHost,InteractiveHost,A host that is or will be interacting with a user.
 package#Network,domain#Role_Internet,Internet,The Internet.
+package#Network,domain#Role_LocalHost,LocalHost,A host that is local to some other asset or phenomenon.
 package#Network,domain#Role_LogicalSubnet,LogicalSubnet,A logical subnet (i.e.  a subnet that can be used for direct communication between connected hosts).
 package#Network,domain#Role_LoginService,LoginService,A login service (i.e. a process that supports shell access to a host).
 package#Network,domain#Role_MobileClient,MobileClient,"A mobile client supporting login (i.e. a notebook, tablet or smartphone)."
@@ -113,6 +114,7 @@ package#Network,domain#Role_ProcessManager,ProcessManager,A user role assigned t
 package#Network,domain#Role_RadioSubnet,RadioSubnet,A radio subnet.
 package#Network,domain#Role_RemoteAccessClient,RemoteAccessClient,A remote access client.
 package#Network,domain#Role_RemoteAccessService,RemoteAccessService,A remote access service.
+package#Network,domain#Role_RemoteHost,RemoteHost,A host that is remote from some other asset or phenomenon.
 package#Network,domain#Role_RemoteTerminal,RemoteTerminal,A remote access terminal process.
 package#Network,domain#Role_Router,Router,A host acting as a router.
 package#Network,domain#Role_SHost,SHost,A host in a role where it supports a virtual host or service.
@@ -132,7 +134,6 @@ package#NetworkConnectivity,domain#Role_FromSubnet,FromSubnet,A subnet at the st
 package#NetworkConnectivity,domain#Role_FwdSegment,FwdSegment,A logical segment representing the forward path for connections via a gateway.
 package#NetworkConnectivity,domain#Role_InboundIF,InboundIF,An interface via which communication enters a host from a subnet.
 package#NetworkConnectivity,domain#Role_Interface,Interface,An interface between a host and a logical subnet.
-package#NetworkConnectivity,domain#Role_LocalHost,LocalHost,A host that is local to some other asset or phenomenon.
 package#NetworkConnectivity,domain#Role_LogicalPath,LogicalPath,A network path which may or may not be physical.
 package#NetworkConnectivity,domain#Role_LogicalRoute,LogicalRoute,A logical segment representing a route via a gateway.
 package#NetworkConnectivity,domain#Role_LogicalSegment,LogicalSegment,A route through a gateway between subnets.
@@ -143,7 +144,6 @@ package#NetworkConnectivity,domain#Role_OldPath,OldPath,A pre-existing network p
 package#NetworkConnectivity,domain#Role_OutboundIF,OutboundIF,An interface via which communication enters a subnet from a host.
 package#NetworkConnectivity,domain#Role_PPE,PPE,"A physical network path terminator, whose relationships hold network connectivity construction state."
 package#NetworkConnectivity,domain#Role_PhysicalPath,PhysicalPath,A physical network path.
-package#NetworkConnectivity,domain#Role_RemoteHost,RemoteHost,A host that is remote from some other asset or phenomenon.
 package#NetworkConnectivity,domain#Role_RetSegment,RetSegment,A logical segment representing the return path for connections via a gateway.
 package#NetworkConnectivity,domain#Role_SubPath,SubPath,Role assigned to a subpath of some other network path.
 package#NetworkConnectivity,domain#Role_ToHost,ToHost,A host that is (or hosts) the destination of a message or data flow.

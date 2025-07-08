@@ -3,7 +3,9 @@ domain#000000,package#Virtualisation
 package#5G,package#Virtualisation
 package#AccessContext,package#Users
 package#Application,package#Network
+package#CloudManagement,package#Theft
 package#CloudManagement,package#Virtualisation
+package#CloudManagement,package#VulnerabilityCVSS
 package#DataCaching,package#ProcessTrust
 package#DataLifecycle,package#ProcessComms
 package#DataStructure,package#DataCaching
