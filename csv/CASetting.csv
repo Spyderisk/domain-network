@@ -9,7 +9,6 @@ package#5G,domain#CAS-BiometricIDVerifier-BaseStation,domain#BaseStation,domain#
 package#5G,domain#CAS-ChipAndPINVerifier-BaseStation,domain#BaseStation,domain#ChipAndPINVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-ContinuousAuthN-BaseStation,domain#BaseStation,domain#ContinuousAuthN,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-DeviceCertification-BaseStation,domain#BaseStation,domain#DeviceCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#CAS-DisableMeshRouting-BaseStation,domain#BaseStation,domain#DisableMeshRouting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-DisableNetwork-RAN,domain#RAN,domain#DisableNetwork,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-DisableNetworkProvision-BaseStation,domain#BaseStation,domain#DisableNetworkProvision,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-DisabledHost-BaseStation,domain#BaseStation,domain#DisabledHost,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -61,7 +60,6 @@ package#5G,domain#CAS-SecureConfig-BaseStation,domain#BaseStation,domain#SecureC
 package#5G,domain#CAS-SecureEnclave-BaseStation,domain#BaseStation,domain#SecureEnclave,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-SharedKey-BaseStation,domain#BaseStation,domain#SharedKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-SharedKeyVerifier-BaseStation,domain#BaseStation,domain#SharedKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#CAS-SimpleSecurePairing-BaseStation,domain#BaseStation,domain#SimpleSecurePairing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-SoftwarePatched-BaseStation,domain#BaseStation,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-SoftwarePatching-BaseStation,domain#BaseStation,domain#SoftwarePatching,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#CAS-SoftwareTesting-BaseStation,domain#BaseStation,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -621,8 +619,6 @@ package#CloudManagement,domain#CAS-AutoProvisioning-Worker,domain#Worker,domain#
 package#CloudManagement,domain#CAS-ClearDeputy-APIServer,domain#APIServer,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#CloudManagement,domain#CAS-ClearDeputy-Ingress,domain#Ingress,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#CloudManagement,domain#CAS-Clustering-Worker,domain#Worker,domain#Clustering,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-ConsentEnforcement-APIServer,domain#APIServer,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-ConsentEnforcement-Ingress,domain#Ingress,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-ContinuousAuthN-Container,domain#Container,domain#ContinuousAuthN,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-ContinuousAuthN-Master,domain#Master,domain#ContinuousAuthN,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-ContinuousAuthN-Pod,domain#Pod,domain#ContinuousAuthN,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -749,8 +745,6 @@ package#CloudManagement,domain#CAS-Unmanaged-Container,domain#Container,domain#U
 package#CloudManagement,domain#CAS-Unmanaged-Master,domain#Master,domain#Unmanaged,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-Unmanaged-Pod,domain#Pod,domain#Unmanaged,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-Unmanaged-Worker,domain#Worker,domain#Unmanaged,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-VitalInterests-APIServer,domain#APIServer,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#CloudManagement,domain#CAS-VitalInterests-Ingress,domain#Ingress,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-X509-APIServer,domain#APIServer,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-X509-Container,domain#Container,domain#X509,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-X509-Ingress,domain#Ingress,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -862,8 +856,6 @@ package#IoT,domain#CAS-BreakTheGlass-SensedData,domain#SensedData,domain#BreakTh
 package#IoT,domain#CAS-ChipAndPINVerifier-Controller,domain#Controller,domain#ChipAndPINVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-ChipAndPINVerifier-HealthSensor,domain#HealthSensor,domain#ChipAndPINVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-ChipAndPINVerifier-Sensor,domain#Sensor,domain#ChipAndPINVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#IoT,domain#CAS-ClearDeputy-ControlProcess,domain#ControlProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
-package#IoT,domain#CAS-ClearDeputy-SensorProcess,domain#SensorProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#IoT,domain#CAS-ConsentEnforcement-ControlProcess,domain#ControlProcess,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-ConsentEnforcement-SensorProcess,domain#SensorProcess,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#IoT,domain#CAS-ConsentManagement-ControlData,domain#ControlData,domain#ConsentManagement,TRUE,domain#TrustworthinessLevelSafe,FALSE
@@ -1045,6 +1037,7 @@ package#Legal,domain#CAS-Screening-LegalOrganisation,domain#LegalOrganisation,do
 package#Legal,domain#CAS-TeamLeadership-LegalOrganisation,domain#LegalOrganisation,domain#TeamLeadership,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-AAA-BluetoothPair,domain#BluetoothPair,domain#AAA,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-AAA-USBPair,domain#USBPair,domain#AAA,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#LocalDeviceConnectivity,domain#CAS-DisableMeshRouting-BaseStation,domain#BaseStation,domain#DisableMeshRouting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-DisableMeshRouting-Cluster,domain#Cluster,domain#DisableMeshRouting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-DisableMeshRouting-CoreRouter,domain#CoreRouter,domain#DisableMeshRouting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-DisableMeshRouting-MobileClient,domain#MobileClient,domain#DisableMeshRouting,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1063,6 +1056,7 @@ package#LocalDeviceConnectivity,domain#CAS-DisableServiceAccess-TetheringSegment
 package#LocalDeviceConnectivity,domain#CAS-DisableTethering-TetheringSegment,domain#TetheringSegment,domain#DisableTethering,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-FWBlock-MeshRoutingSegment,domain#MeshRoutingSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-FWBlock-TetheringSegment,domain#TetheringSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#LocalDeviceConnectivity,domain#CAS-SimpleSecurePairing-BaseStation,domain#BaseStation,domain#SimpleSecurePairing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-SimpleSecurePairing-Cluster,domain#Cluster,domain#SimpleSecurePairing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-SimpleSecurePairing-CoreRouter,domain#CoreRouter,domain#SimpleSecurePairing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-SimpleSecurePairing-MobileClient,domain#MobileClient,domain#SimpleSecurePairing,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1658,6 +1652,7 @@ package#Privacy,domain#CAS-BreakTheGlass-GeneticData,domain#GeneticData,domain#B
 package#Privacy,domain#CAS-BreakTheGlass-HealthData,domain#HealthData,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-BreakTheGlass-SensitiveData,domain#SensitiveData,domain#BreakTheGlass,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-BreakTheGlass-SpamData,domain#SpamData,domain#BreakTheGlass,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-ConsentEnforcement-APIServer,domain#APIServer,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-ApplicationProcess,domain#ApplicationProcess,domain#ConsentEnforcement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-AuthClient,domain#AuthClient,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-AuthService,domain#AuthService,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1669,6 +1664,7 @@ package#Privacy,domain#CAS-ConsentEnforcement-Editor,domain#Editor,domain#Consen
 package#Privacy,domain#CAS-ConsentEnforcement-EmailClient,domain#EmailClient,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-EmailMX,domain#EmailMX,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-EmailService,domain#EmailService,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-ConsentEnforcement-Ingress,domain#Ingress,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-InteractiveApplication,domain#InteractiveApplication,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-LoginService,domain#LoginService,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-RemoteDesktop,domain#RemoteDesktop,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1698,6 +1694,7 @@ package#Privacy,domain#CAS-ImpersonalData-SpamData,domain#SpamData,domain#Impers
 package#Privacy,domain#CAS-StaticData-BiometricData,domain#BiometricData,domain#StaticData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-StaticData-GeneticData,domain#GeneticData,domain#StaticData,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-StaticData-HealthData,domain#HealthData,domain#StaticData,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-VitalInterests-APIServer,domain#APIServer,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-ApplicationProcess,domain#ApplicationProcess,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-AuthClient,domain#AuthClient,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-AuthService,domain#AuthService,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1709,6 +1706,7 @@ package#Privacy,domain#CAS-VitalInterests-Editor,domain#Editor,domain#VitalInter
 package#Privacy,domain#CAS-VitalInterests-EmailClient,domain#EmailClient,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-EmailMX,domain#EmailMX,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-EmailService,domain#EmailService,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-VitalInterests-Ingress,domain#Ingress,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-InteractiveApplication,domain#InteractiveApplication,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-LoginService,domain#LoginService,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-RemoteDesktop,domain#RemoteDesktop,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1758,6 +1756,7 @@ package#ProcessTrust,domain#CAS-ClearDeputy-ApplicationProcess,domain#Applicatio
 package#ProcessTrust,domain#CAS-ClearDeputy-AuthClient,domain#AuthClient,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-AuthService,domain#AuthService,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-CmdLineProcess,domain#CmdLineProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessTrust,domain#CAS-ClearDeputy-ControlProcess,domain#ControlProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-DB,domain#DB,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-DataService,domain#DataService,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-DesktopService,domain#DesktopService,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
@@ -1770,6 +1769,7 @@ package#ProcessTrust,domain#CAS-ClearDeputy-LoginService,domain#LoginService,dom
 package#ProcessTrust,domain#CAS-ClearDeputy-RemoteDesktop,domain#RemoteDesktop,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-RemoteTerminal,domain#RemoteTerminal,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-SMSClient,domain#SMSClient,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessTrust,domain#CAS-ClearDeputy-SensorProcess,domain#SensorProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-ServiceProxy,domain#ServiceProxy,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-SystemProcess,domain#SystemProcess,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-TextEditor,domain#TextEditor,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
