@@ -66,18 +66,16 @@ package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#CP-HuirEc-rD+iD,Huir
 package#Application,domain#CP-HuirEr-vD-cC-iHu-DS+iD,domain#CP-HuirIPaD+aD,HuirIPaD+aD creates a link that in HuirEr-vD-cC-iHu-DS+iD matches FlowsFrom-enablesUserInput-Data,FALSE,TRUE
 package#Application,domain#CP-HuirIPaD+aD,domain#CP-HuirPeO-ID-p+r,HuirPeO-ID-p+r creates a link that in HuirIPaD+aD matches InteractiveProcess-receives-Data,FALSE,TRUE
 package#Application,domain#CP-HuirIPp-iD+vD,domain#CP-HuirPr-vD-cC-iHu-DS+iD,HuirPr-vD-cC-iHu-DS+iD creates a link that in HuirIPp-iD+vD matches InteractiveProcess-enablesUserInput-Data,FALSE,TRUE
-package#Application,domain#CP-HuirPaD+eUI-O+vD,domain#CP-HuirPr-vD-cC-iHu-DS+iD,HuirPr-vD-cC-iHu-DS+iD creates a link that in HuirPaD+eUI-O+vD matches Process-enablesUserInput-Data,FALSE,TRUE
+package#Application,domain#CP-HuirPaD+eUI-O+vD,domain#CP-HuirIPp-iD+vD,HuirIPp-iD+vD creates a link that in HuirPaD+eUI-O+vD matches Process-enablesUserOutput-Data,FALSE,TRUE
+package#Application,domain#CP-HuirPaD+eUI-O+vD,domain#CP-HuirPc-iD-rC-DS+vD,HuirPc-iD-rC-DS+vD creates a link that in HuirPaD+eUI-O+vD matches Process-enablesUserOutput-Data,FALSE,TRUE
+package#Application,domain#CP-HuirPaD+eUI-O+vD,domain#CP-HuirPr-iD-cD+vD,HuirPr-iD-cD+vD creates a link that in HuirPaD+eUI-O+vD matches Process-enablesUserOutput-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPc-iD-rC-DS+vD,domain#CP-HuirPr-vD-cC-iHu-DS+iD,HuirPr-vD-cC-iHu-DS+iD creates a link that in HuirPc-iD-rC-DS+vD matches Process-enablesUserInput-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPeI-OD-p+r,domain#CP-HuirPeUD-a+a,HuirPeUD-a+a creates a link that in HuirPeI-OD-p+r is prohibited as Process-processes-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,domain#CP-HuirPeI-OD-p+r,HuirPeI-OD-p+r creates a link that in HuirPeI-OD-p-cC-iHu-DS+c matches Process-processes-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPeID+iD,domain#CP-HuirPeUD+aD,HuirPeUD+aD creates a link that in HuirPeID+iD is prohibited as Human-inputsData-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPeO-ID-p+r,domain#CP-HuirPeI-OD-p-cC-iHu-DS+c,HuirPeI-OD-p-cC-iHu-DS+c creates a link that in HuirPeO-ID-p+r matches Process-processes-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPeOD+vD,domain#CP-HuirPeUD+aD,HuirPeUD+aD creates a link that in HuirPeOD+vD is prohibited as Human-viewsData-Data,FALSE,TRUE
-package#Application,domain#CP-HuirPeUD+aD,domain#CP-HuirIPp-iD+vD,HuirIPp-iD+vD creates a link that in HuirPeUD+aD matches Process-enablesUserOutput-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPeUD+aD,domain#CP-HuirPaD+eUI-O+vD,HuirPaD+eUI-O+vD creates a link that in HuirPeUD+aD matches Process-enablesUserOutput-Data,FALSE,TRUE
-package#Application,domain#CP-HuirPeUD+aD,domain#CP-HuirPc-iD-rC-DS+vD,HuirPc-iD-rC-DS+vD creates a link that in HuirPeUD+aD matches Process-enablesUserOutput-Data,FALSE,TRUE
-package#Application,domain#CP-HuirPeUD+aD,domain#CP-HuirPr-iD-cD+vD,HuirPr-iD-cD+vD creates a link that in HuirPeUD+aD matches Process-enablesUserOutput-Data,FALSE,TRUE
-package#Application,domain#CP-HuirPeUD+aD,domain#CP-HuirPr-vD-cC-iHu-DS+iD,HuirPr-vD-cC-iHu-DS+iD creates a link that in HuirPeUD+aD matches Process-enablesUserInput-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPeUD-a+a,domain#CP-Marker+UserDataInteraction-0,HuirPeUD-a+a is at the start of the user-data interactivity inference sequence,FALSE,TRUE
 package#Application,domain#CP-HuirPr-iD-cD+vD,domain#CP-HuirPr-vD-cC-iHu-DS+iD,HuirPr-vD-cC-iHu-DS+iD creates a link that in HuirPr-iD-cD+vD matches Process-enablesUserInput-Data,FALSE,TRUE
 package#Application,domain#CP-HuirPr-vD-cC-iHu-DS+iD,domain#CP-HuirEr-vD-cC-iHu-DS+iD,HuirEr-vD-cC-iHu-DS+iD creates a link that in HuirPr-vD-cC-iHu-DS+iD matches FlowsFrom-enablesUserInput-Data,FALSE,TRUE
