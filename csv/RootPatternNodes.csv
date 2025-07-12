@@ -2276,7 +2276,7 @@ package#ProcessComms,domain#R-CSL3H,domain#Node-CHost-Host,TRUE
 package#ProcessComms,domain#R-CSL3H,domain#Node-Client-Process,TRUE
 package#ProcessComms,domain#R-CSL3H,domain#Node-DService-Process,TRUE
 package#ProcessComms,domain#R-CSL3H,domain#Node-Interface-Interface,TRUE
-package#ProcessComms,domain#R-CSL3H,domain#Node-LogicalSubnet-SocketLAN,TRUE
+package#ProcessComms,domain#R-CSL3H,domain#Node-LogicalSubnet-L3Subnet,TRUE
 package#ProcessComms,domain#R-CSL3H,domain#Node-NetworkPath-NetworkPath,TRUE
 package#ProcessComms,domain#R-CSL3H,domain#Node-Space-Space,TRUE
 package#ProcessComms,domain#R-CSLS2H2,domain#Node-CHost-PhysicalHost,TRUE

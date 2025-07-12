@@ -11,16 +11,6 @@ package#5G,domain#TWAADS-Control-BaseStation,domain#Control,domain#BaseStation,d
 package#5G,domain#TWAADS-DefaultTW-BaseStation,domain#DefaultTW,domain#BaseStation,domain#TrustworthinessLevelVeryLow,TRUE
 package#5G,domain#TWAADS-DefaultTW-RAN,domain#DefaultTW,domain#RAN,domain#TrustworthinessLevelVeryLow,TRUE
 package#5G,domain#TWAADS-ExploitTW-BaseStation,domain#ExploitTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-A-TW-BaseStation,domain#Extrinsic-A-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-AU-TW-BaseStation,domain#Extrinsic-AU-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-C-TW-BaseStation,domain#Extrinsic-C-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-I-TW-BaseStation,domain#Extrinsic-I-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-M-TW-BaseStation,domain#Extrinsic-M-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-U-TW-BaseStation,domain#Extrinsic-U-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-VA-TW-BaseStation,domain#Extrinsic-VA-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-VL-TW-BaseStation,domain#Extrinsic-VL-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-VN-TW-BaseStation,domain#Extrinsic-VN-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Extrinsic-W-TW-BaseStation,domain#Extrinsic-W-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-ExtrinsicTW-BaseStation,domain#ExtrinsicTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-Health-BaseStation,domain#Health,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-IntrinsicTW-BaseStation,domain#IntrinsicTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
@@ -35,8 +25,6 @@ package#5G,domain#TWAADS-OutOfService-BaseStation,domain#OutOfService,domain#Bas
 package#5G,domain#TWAADS-OutOfService-PrivateCellularNetwork,domain#OutOfService,domain#PrivateCellularNetwork,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-OutOfService-PublicCellularNetwork,domain#OutOfService,domain#PublicCellularNetwork,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-OutOfService-RAN,domain#OutOfService,domain#RAN,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-OwnerControl-BaseStation,domain#OwnerControl,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
-package#5G,domain#TWAADS-Possession-BaseStation,domain#Possession,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-Reliability-BaseStation,domain#Reliability,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-ResourceTW-BaseStation,domain#ResourceTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#5G,domain#TWAADS-TrojanTW-BaseStation,domain#TrojanTW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
@@ -862,6 +850,7 @@ package#ProcessTrust,domain#TWAADS-ServiceTW-ClientChannel,domain#ServiceTW,doma
 package#Theft,domain#TWAADS-OwnerControl-ApplicationProcess,domain#OwnerControl,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-AuthClient,domain#OwnerControl,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-AuthService,domain#OwnerControl,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#Theft,domain#TWAADS-OwnerControl-BaseStation,domain#OwnerControl,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-Cluster,domain#OwnerControl,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-CmdLineProcess,domain#OwnerControl,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-ControlProcess,domain#OwnerControl,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -904,6 +893,7 @@ package#Theft,domain#TWAADS-OwnerControl-WebApp,domain#OwnerControl,domain#WebAp
 package#Theft,domain#TWAADS-OwnerControl-WebBrowser,domain#OwnerControl,domain#WebBrowser,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-WebClient,domain#OwnerControl,domain#WebClient,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-Workstation,domain#OwnerControl,domain#Workstation,domain#TrustworthinessLevelSafe,TRUE
+package#Theft,domain#TWAADS-Possession-BaseStation,domain#Possession,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-Possession-Cluster,domain#Possession,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-Possession-Controller,domain#Possession,domain#Controller,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-Possession-CoreRouter,domain#Possession,domain#CoreRouter,domain#TrustworthinessLevelSafe,TRUE
@@ -995,6 +985,7 @@ package#Virtualisation,domain#TWAADS-UserTW-VRouter,domain#UserTW,domain#VRouter
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-ApplicationProcess,domain#Extrinsic-A-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-AuthClient,domain#Extrinsic-A-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-AuthService,domain#Extrinsic-A-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-BaseStation,domain#Extrinsic-A-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Cluster,domain#Extrinsic-A-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-CmdLineProcess,domain#Extrinsic-A-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-ControlProcess,domain#Extrinsic-A-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1036,6 +1027,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-A-TW-Workstation,domain#Extrin
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-ApplicationProcess,domain#Extrinsic-AU-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-AuthClient,domain#Extrinsic-AU-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-AuthService,domain#Extrinsic-AU-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-BaseStation,domain#Extrinsic-AU-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Cluster,domain#Extrinsic-AU-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-CmdLineProcess,domain#Extrinsic-AU-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-ControlProcess,domain#Extrinsic-AU-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1077,6 +1069,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-AU-TW-Workstation,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-ApplicationProcess,domain#Extrinsic-C-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-AuthClient,domain#Extrinsic-C-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-AuthService,domain#Extrinsic-C-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-BaseStation,domain#Extrinsic-C-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Cluster,domain#Extrinsic-C-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-CmdLineProcess,domain#Extrinsic-C-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-ControlProcess,domain#Extrinsic-C-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1118,6 +1111,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-C-TW-Workstation,domain#Extrin
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-ApplicationProcess,domain#Extrinsic-I-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-AuthClient,domain#Extrinsic-I-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-AuthService,domain#Extrinsic-I-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-BaseStation,domain#Extrinsic-I-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Cluster,domain#Extrinsic-I-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-CmdLineProcess,domain#Extrinsic-I-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-ControlProcess,domain#Extrinsic-I-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1159,6 +1153,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-I-TW-Workstation,domain#Extrin
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-ApplicationProcess,domain#Extrinsic-M-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-AuthClient,domain#Extrinsic-M-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-AuthService,domain#Extrinsic-M-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-BaseStation,domain#Extrinsic-M-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-Cluster,domain#Extrinsic-M-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-CmdLineProcess,domain#Extrinsic-M-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-M-TW-ControlProcess,domain#Extrinsic-M-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1224,6 +1219,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-QI-TW-WebClient,domain#Extrins
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-ApplicationProcess,domain#Extrinsic-U-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-AuthClient,domain#Extrinsic-U-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-AuthService,domain#Extrinsic-U-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-BaseStation,domain#Extrinsic-U-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Cluster,domain#Extrinsic-U-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-CmdLineProcess,domain#Extrinsic-U-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-ControlProcess,domain#Extrinsic-U-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1265,6 +1261,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-U-TW-Workstation,domain#Extrin
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-ApplicationProcess,domain#Extrinsic-VA-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-AuthClient,domain#Extrinsic-VA-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-AuthService,domain#Extrinsic-VA-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-BaseStation,domain#Extrinsic-VA-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Cluster,domain#Extrinsic-VA-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-CmdLineProcess,domain#Extrinsic-VA-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-ControlProcess,domain#Extrinsic-VA-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1306,6 +1303,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VA-TW-Workstation,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-ApplicationProcess,domain#Extrinsic-VL-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-AuthClient,domain#Extrinsic-VL-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-AuthService,domain#Extrinsic-VL-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-BaseStation,domain#Extrinsic-VL-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Cluster,domain#Extrinsic-VL-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-CmdLineProcess,domain#Extrinsic-VL-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-ControlProcess,domain#Extrinsic-VL-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1347,6 +1345,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VL-TW-Workstation,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-ApplicationProcess,domain#Extrinsic-VN-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-AuthClient,domain#Extrinsic-VN-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-AuthService,domain#Extrinsic-VN-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-BaseStation,domain#Extrinsic-VN-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Cluster,domain#Extrinsic-VN-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-CmdLineProcess,domain#Extrinsic-VN-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-ControlProcess,domain#Extrinsic-VN-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE
@@ -1388,6 +1387,7 @@ package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-VN-TW-Workstation,domain#Extri
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-ApplicationProcess,domain#Extrinsic-W-TW,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-AuthClient,domain#Extrinsic-W-TW,domain#AuthClient,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-AuthService,domain#Extrinsic-W-TW,domain#AuthService,domain#TrustworthinessLevelSafe,TRUE
+package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-BaseStation,domain#Extrinsic-W-TW,domain#BaseStation,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-Cluster,domain#Extrinsic-W-TW,domain#Cluster,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-CmdLineProcess,domain#Extrinsic-W-TW,domain#CmdLineProcess,domain#TrustworthinessLevelSafe,TRUE
 package#VulnerabilityCVSS,domain#TWAADS-Extrinsic-W-TW-ControlProcess,domain#Extrinsic-W-TW,domain#ControlProcess,domain#TrustworthinessLevelSafe,TRUE

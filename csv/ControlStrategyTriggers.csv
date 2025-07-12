@@ -51,16 +51,6 @@ package#GDPR,domain#CSG-GDPR-Art6-1-a,domain#P.GDPR.Hu-aDoPS-o.8
 package#GDPR,domain#CSG-GDPR-Art6-1-a-p,domain#P.GDPR.Hu-aDPoS-i.8
 package#GDPR,domain#CSG-GDPR-Art6-1-d,domain#P.GDPR.HuSDPS-io.9
 package#GDPR,domain#CSG-GDPR-Art6-1-d-p,domain#P.GDPR.HuSDPoS-i.9
-package#GDPR,domain#CSG-GDPRAtSourceJurisdiction,domain#D.GDPR.NDFHuoO.1
-package#GDPR,domain#CSG-GDPRAtSubject,domain#D.GDPR.DFHuoO.1
-package#GDPR,domain#CSG-GDPRAtSubject,domain#D.GDPR.DSHuoO.1
-package#GDPR,domain#CSG-GDPRAtSubject,domain#D.GDPR.HuDP-St.1
-package#GDPR,domain#CSG-GDPRAtSubject,domain#D.GDPR.HuDSH-St.1
-package#GDPR,domain#CSG-GDPRAtSubject,domain#H.GDPR.HuDSHoJoSt.1
-package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDPS-io.6
-package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDPoJoSt.1
-package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDPoS-i.6
-package#GDPR,domain#CSG-GDPRAtSubject,domain#P.GDPR.HuDoPS-o.6
 package#IoT,domain#CSG-SuspendUnreliableController-Trigger,domain#Co.A.Co.6
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.A.L1SSg2.6.1
 package#LocalDeviceConnectivity,domain#CSG-DisableMeshRouting,domain#Sg.DA.L1SSg2AC.1
