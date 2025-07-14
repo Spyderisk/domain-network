@@ -8,15 +8,15 @@ package#5G,domain#Role_RAN,RAN,A radio access network providing cellular network
 package#AccessContext,domain#Role_AccessContext,AccessContext,A context in which access rights may be held or gained.
 package#AccessContext,domain#Role_FromContext,FromContext,A context in which access rights are held and may be exploited.
 package#AccessContext,domain#Role_ToContext,ToContext,A context in which access rights may be obtained.
+package#Application,domain#Role_DB,DB,"A process role, usually filled by a DB process supporting complex data queries."
 package#Application,domain#Role_Data,Data,A data role.
 package#Application,domain#Role_DataService,DataService,A data service role.
-package#Application,domain#Role_DB,DB,"A process role, usually filled by a DB process supporting complex data queries."
 package#Application,domain#Role_DesktopService,DesktopService,"A desktop service, i.e. a service allowing access to a host via a remote desktop client."
 package#Application,domain#Role_Editor,Editor,"An editor process, i.e. one that allows user interactions with data."
 package#Application,domain#Role_Input,Input,A data asset that is a process input.
 package#Application,domain#Role_InteractiveProcess,InteractiveProcess,A process facilitating (possibly specialised to support) user interactions with data.
+package#Application,domain#Role_MUA,MUA,A process acting as a Mail User Agent.
 package#Application,domain#Role_Output,Output,A data asset that is a process output.
-package#Application,domain#Role_OutputField,OutputField,A Data Field used as output.
 package#Application,domain#Role_RemoteDesktop,RemoteDesktop,A remote desktop client process.
 package#Application,domain#Role_TextEditor,TextEditor,"A text editor process, i.e. one that allows user interactions with data via a non-graphical login shell."
 package#Application,domain#Role_WebBrowser,WebBrowser,A web browser.
@@ -33,11 +33,14 @@ package#DataLifecycle,domain#Role_AccessTo,AccessTo,A data access asset associat
 package#DataLifecycle,domain#Role_DataAccess,DataAccess,A data access role.
 package#DataLifecycle,domain#Role_DataAsset,DataAsset,A data asset role fulfilled by any serialised copy of data (i.e. data copy or data flow).
 package#DataLifecycle,domain#Role_DataCache,DataCache,A stored data copy created as a data flow cache.
+package#DataLifecycle,domain#Role_DataChannel,DataChannel,A data channel used in construction patterns.
 package#DataLifecycle,domain#Role_DataCopy,DataCopy,A data copy role.
 package#DataLifecycle,domain#Role_DataDestination,DataDestination,A data access asset associated with a destination process.
+package#DataLifecycle,domain#Role_DataExchange,DataExchange,A connection between processes indicating they can exchange data.
 package#DataLifecycle,domain#Role_DataFlow,DataFlow,A flow of data between processes.
 package#DataLifecycle,domain#Role_DataInput,DataInput,A data access role associated with data consumed by a process.
 package#DataLifecycle,domain#Role_DataOutput,DataOutput,A data access role associated with data produced by a process.
+package#DataLifecycle,domain#Role_DataPath,DataPath,A data path used in construction patterns.
 package#DataLifecycle,domain#Role_DataPool,DataPool,A data access role associated with data served by a process.
 package#DataLifecycle,domain#Role_DataProcess,DataProcess,A data access role associated with data used by a process.
 package#DataLifecycle,domain#Role_DataRelay,DataRelay,A data access role associated with data forwarding by a process.
@@ -49,38 +52,35 @@ package#DataLifecycle,domain#Role_FlowsFrom,FlowsFrom,A process from which data 
 package#DataLifecycle,domain#Role_FlowsOutTo,FlowsOutTo,A process that is the destination for an outbound data flow.
 package#DataLifecycle,domain#Role_FlowsTo,FlowsTo,A process to which data is flowing.
 package#DataLifecycle,domain#Role_InFlow,InFlow,A data flow to a process.
-package#DataLifecycle,domain#Role_InputAsset,InputAsset,A Data Asset that is inbound to a process.
 package#DataLifecycle,domain#Role_InStep,InStep,A data step to a process.
+package#DataLifecycle,domain#Role_InputAsset,InputAsset,A Data Asset that is inbound to a process.
+package#DataLifecycle,domain#Role_NewDataChannel,NewDataChannel,A data channel created in construction patterns.
+package#DataLifecycle,domain#Role_NewDataPath,NewDataPath,A data path created in construction patterns.
+package#DataLifecycle,domain#Role_OldDataChannel,OldDataChannel,A data channel used in construction patterns.
+package#DataLifecycle,domain#Role_OldDataPath,OldDataPath,A data path used in construction patterns.
 package#DataLifecycle,domain#Role_OutFlow,OutFlow,A data flow from a process.
-package#DataLifecycle,domain#Role_OutputAsset,OutputAsset,A Data Asset that is outbound from a Process.
 package#DataLifecycle,domain#Role_OutStep,OutStep,A data step from a process.
+package#DataLifecycle,domain#Role_OutputAsset,OutputAsset,A Data Asset that is outbound from a Process.
 package#DataLifecycle,domain#Role_RemoteUserAccess,RemoteUserAccess,A DataAccess asset relating to a remote access client used to enable user interaction with a remote process.
 package#DataLifecycle,domain#Role_StepFrom,StepFrom,A process from which data is transferred.
 package#DataLifecycle,domain#Role_StepTo,StepTo,A process to which data is transferred.
 package#DataLifecycle,domain#Role_Vault,Vault,Fulfilled by a process playing the role of key vault in relation to some data asset.
-package#DataLifecycleInference,domain#Role_DataChannel,DataChannel,A data channel used in construction patterns.
-package#DataLifecycleInference,domain#Role_DataExchange,DataExchange,A connection between processes indicating they can exchange data.
-package#DataLifecycleInference,domain#Role_DataPath,DataPath,A data path used in construction patterns.
-package#DataLifecycleInference,domain#Role_NewDataChannel,NewDataChannel,A data channel created in construction patterns.
-package#DataLifecycleInference,domain#Role_NewDataPath,NewDataPath,A data path created in construction patterns.
-package#DataLifecycleInference,domain#Role_OldDataChannel,OldDataChannel,A data channel used in construction patterns.
-package#DataLifecycleInference,domain#Role_OldDataPath,OldDataPath,A data path used in construction patterns.
 package#DataStructure,domain#Role_DataField,DataField,A field in a data schema or serialized data asset.
 package#DataStructure,domain#Role_InputField,InputField,A Data Field used as input.
+package#DataStructure,domain#Role_OutputField,OutputField,A Data Field used as output.
 package#IoT,domain#Role_Controller,Controller,An IoT Thing acting as a controller.
 package#IoT,domain#Role_Sensor,Sensor,An IoT Thing acting as a sensor.
 package#IoT,domain#Role_Thing,Thing,An IoT Thing.
-package#Legal,domain#Role_DataController,DataController,A natural or legal person responsible for collection and processing of personal data.
 package#Legal,domain#Role_Jurisdiction,Jurisdiction,A jurisdiction (i.e. system of laws and regulations).
+package#Legal,domain#Role_DataController,DataController,A natural or legal person responsible for collection and processing of personal data.
 package#Legal,domain#Role_RemoteJurisdiction,RemoteJurisdiction,A jurisdiction (i.e. system of laws and regulations) applicable far away.
 package#LocalDeviceConnectivity,domain#Role_BluetoothPair,BluetoothPair,A subnet representing the connection between paired hosts.
 package#LocalDeviceConnectivity,domain#Role_L1Subnet,L1Subnet,A non-IP subnet representing a connection between paired hosts.
 package#LocalDeviceConnectivity,domain#Role_USBDevice,USBDevice,A device that can be plugged into a USB Host.
 package#LocalDeviceConnectivity,domain#Role_USBHost,USBHost,A host that has USB connectors into which USB devices may be plugged.
 package#LocalDeviceConnectivity,domain#Role_USBPair,USBPair,A subnet representing the connection between paired hosts.
-package#Network,domain#Role_AbstractSubnet,AbstractSubnet,A communication network that is implemented from a set of logical subnets.
 package#Network,domain#Role_AHost,AHost,"A host, which may or may not be its own physical host."
-package#Network,domain#Role_AttackerSubnet,AttackerSubnet,A communication network that is accessible to attackers.
+package#Network,domain#Role_AbstractSubnet,AbstractSubnet,A communication network that is implemented from a set of logical subnets.
 package#Network,domain#Role_AuthClient,AuthClient,A process acting as an authentication client to gain access to a network or service.
 package#Network,domain#Role_AuthService,AuthService,A process providing authentication/authorisation services.
 package#Network,domain#Role_CHost,CHost,"A host role, usually one running a client process."
@@ -101,25 +101,23 @@ package#Network,domain#Role_LocalHost,LocalHost,A host that is local to some oth
 package#Network,domain#Role_LogicalSubnet,LogicalSubnet,A logical subnet (i.e.  a subnet that can be used for direct communication between connected hosts).
 package#Network,domain#Role_LoginService,LoginService,A login service (i.e. a process that supports shell access to a host).
 package#Network,domain#Role_MobileClient,MobileClient,"A mobile client supporting login (i.e. a notebook, tablet or smartphone)."
-package#Network,domain#Role_MUA,MUA,A process acting as a Mail User Agent.
-package#Network,domain#Role_Operator,Operator,A stakeholder role with legal responsibility for operation of part or all of a system.
 package#Network,domain#Role_OtherHost,OtherHost,A host that is not the first one found in a pattern.
 package#Network,domain#Role_PhysicalHost,PhysicalHost,A physical host.
 package#Network,domain#Role_PhysicalSubnet,PhysicalSubnet,A physical subnet.
 package#Network,domain#Role_ProcAccess,ProcAccess,A context for access rights of a process.
+package#Network,domain#Role_ProcNetContext,ProcNetContext,A network connectivity context for access rights of a process.
 package#Network,domain#Role_Process,Process,A process.
 package#Network,domain#Role_ProcessManager,ProcessManager,A user role assigned to managing a process.
-package#Network,domain#Role_ProcNetContext,ProcNetContext,A network connectivity context for access rights of a process.
 package#Network,domain#Role_RadioSubnet,RadioSubnet,A radio subnet.
 package#Network,domain#Role_RemoteAccessClient,RemoteAccessClient,A remote access client.
 package#Network,domain#Role_RemoteAccessService,RemoteAccessService,A remote access service.
 package#Network,domain#Role_RemoteHost,RemoteHost,A host that is remote from some other asset or phenomenon.
 package#Network,domain#Role_RemoteTerminal,RemoteTerminal,A remote access terminal process.
 package#Network,domain#Role_Router,Router,A host acting as a router.
+package#Network,domain#Role_SHost,SHost,A host in a role where it supports a virtual host or service.
 package#Network,domain#Role_Server,Server,A server.
 package#Network,domain#Role_Service,Service,"A process acting as a service, i.e. open to communication requests from clients."
 package#Network,domain#Role_ServiceManager,ServiceManager,A user role assigned to managing a service.
-package#Network,domain#Role_SHost,SHost,A host in a role where it supports a virtual host or service.
 package#Network,domain#Role_SimpleHost,SimpleHost,A simple host.
 package#Network,domain#Role_SimpleProcess,SimpleProcess,A simple process.
 package#Network,domain#Role_SmartPhone,SmartPhone,A smart phone.
@@ -127,6 +125,7 @@ package#Network,domain#Role_Subnet,Subnet,A logical subnet.
 package#Network,domain#Role_TrivialHost,TrivialHost,"A trivial host unable to support shell access, e.g. a removable storage device or an IoT device."
 package#Network,domain#Role_TrivialProcess,TrivialProcess,A process that is so trivial it is not subject to some types of threats.
 package#Network,domain#Role_WiredLAN,WiredLAN,A wired local area network.
+package#NetworkConnectivity,domain#Role_AttackerSubnet,AttackerSubnet,A communication network that is accessible to attackers.
 package#NetworkConnectivity,domain#Role_FromHost,FromHost,A host that is (or hosts) the source of a message or data flow.
 package#NetworkConnectivity,domain#Role_FromSubnet,FromSubnet,A subnet at the start of a network path or communication channel.
 package#NetworkConnectivity,domain#Role_FwdSegment,FwdSegment,A logical segment representing the forward path for connections via a gateway.
@@ -135,17 +134,17 @@ package#NetworkConnectivity,domain#Role_Interface,Interface,An interface between
 package#NetworkConnectivity,domain#Role_LogicalPath,LogicalPath,A network path which may or may not be physical.
 package#NetworkConnectivity,domain#Role_LogicalRoute,LogicalRoute,A logical segment representing a route via a gateway.
 package#NetworkConnectivity,domain#Role_LogicalSegment,LogicalSegment,A route through a gateway between subnets.
+package#NetworkConnectivity,domain#Role_NPE,NPE,"A logical network path terminator, whose relationships hold network connectivity construction state."
 package#NetworkConnectivity,domain#Role_NetworkPath,NetworkPath,"A path through the network, usually between a subnet accessible to attackers and a subnet to which a target host is connected."
 package#NetworkConnectivity,domain#Role_NewPath,NewPath,A constructed network path.
 package#NetworkConnectivity,domain#Role_OldPath,OldPath,A pre-existing network path from which other paths will be contructed.
 package#NetworkConnectivity,domain#Role_OutboundIF,OutboundIF,An interface via which communication enters a subnet from a host.
+package#NetworkConnectivity,domain#Role_PPE,PPE,"A physical network path terminator, whose relationships hold network connectivity construction state."
 package#NetworkConnectivity,domain#Role_PhysicalPath,PhysicalPath,A physical network path.
 package#NetworkConnectivity,domain#Role_RetSegment,RetSegment,A logical segment representing the return path for connections via a gateway.
 package#NetworkConnectivity,domain#Role_SubPath,SubPath,Role assigned to a subpath of some other network path.
 package#NetworkConnectivity,domain#Role_ToHost,ToHost,A host that is (or hosts) the destination of a message or data flow.
 package#NetworkConnectivity,domain#Role_ToSubnet,ToSubnet,A subnet at the end of a network path or communication channel.
-package#NetworkConnectivityInference,domain#Role_NPE,NPE,"A logical network path terminator, whose relationships hold network connectivity construction state."
-package#NetworkConnectivityInference,domain#Role_PPE,PPE,"A physical network path terminator, whose relationships hold network connectivity construction state."
 package#PatientHarms,domain#Role_Clinician,Clinician,An Adult who is a Clinician.
 package#PatientHarms,domain#Role_DiagnosisData,DiagnosisData,Data representing the diagnosis data of a Patient.
 package#PatientHarms,domain#Role_Patient,Patient,A Human who is a Patient.
@@ -158,35 +157,36 @@ package#Physical,domain#Role_Space,Space,A space.
 package#Physical,domain#Role_World,World,The (inferred) global public space.
 package#Privacy,domain#Role_DataSubject,DataSubject,A natural person who is the subject of personal data.
 package#ProcessComms,domain#Role_AttackPath,AttackPath,A privileged path through the network to a service from a subnet accessible by attackers .
-package#ProcessComms,domain#Role_AuthChannel,AuthChannel,A trust relationship between a client and a service that relates to the use of that service to authenticate the client and/or verify their access rights.
-package#ProcessComms,domain#Role_AuthZChannel,AuthZChannel,A trust relationship between a client and a service that relates to the use of that service to verify third party access rights.
 package#ProcessComms,domain#Role_BasePath,BasePath,A network path that provides a basis for attacks on services via NAT devices.
 package#ProcessComms,domain#Role_ClientAttackPath,ClientAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages would be addressed in a way that is consistent with a specific client.
-package#ProcessComms,domain#Role_ClientChannel,ClientChannel,A trust relationship between a client and a service.
 package#ProcessComms,domain#Role_ClientPath,ClientPath,A network path to a service from a subnet through which messages from a specific client would pass.
 package#ProcessComms,domain#Role_ClosedClientAttackPath,ClosedClientAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages are rewritten by a NAT gateway in a way that is consistent with a specific client.
 package#ProcessComms,domain#Role_ClosedServiceAttackPath,ClosedServiceAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages are rewritten by a NAT gateway in a way that is consistent with at least one client.
 package#ProcessComms,domain#Role_DHost,DHost,The host of a service. This role name is chosen so alphanumeric sorting puts it between client-related roles and the network path used by those clients to communicate with the service.
 package#ProcessComms,domain#Role_DService,DService,A process acting as a service. This role name is chosen so alphanumeric sorting puts it between client-related roles and the network path used by those clients to communicate with the service.
 package#ProcessComms,domain#Role_EntrySubnet,EntrySubnet,A subnet on a path between client and service where messages from an attacker could join that path and benefit from newtork address translation en route to the service.
-package#ProcessComms,domain#Role_FirstChannel,FirstChannel,A client service trust relationship in a chain between a client and a service via a reverse proxy.
-package#ProcessComms,domain#Role_IndirectChannel,IndirectChannel,A client service trust relationship between a client and a service that communicate indirectly.
 package#ProcessComms,domain#Role_LastChannel,LastChannel,A client service trust relationship in a chain between a client and a service via a reverse proxy.
 package#ProcessComms,domain#Role_LastSubnet,LastSubnet,"Refers to a pre-existing subnet, which (if present) changes the significance of assets matching other roles in the same pattern."
 package#ProcessComms,domain#Role_OpenClientAttackPath,OpenClientAttackPath,"A privileged path through the network to a service from a subnet accessible by attackers whose messages are addressed in a way that is consistent with a specific client, and are not rewritten by a NAT gateway."
 package#ProcessComms,domain#Role_OpenServiceAttackPath,OpenServiceAttackPath,"A privileged path through the network to a service from a subnet accessible by attackers whose messages are addressed in a way that is consistent with at least one client, and are not rewritten by a NAT gateway."
 package#ProcessComms,domain#Role_Proxy,Proxy,"A process acting as a reverse proxy, relating requests between a client and a service."
-package#ProcessComms,domain#Role_ProxyChannel,ProxyChannel,A client-service trust relationship existing between a client or service and an intervening reverse proxy.
 package#ProcessComms,domain#Role_ProxyClient,ProxyClient,A process acting as a client to a reverse proxy.
 package#ProcessComms,domain#Role_ServiceAttackPath,ServiceAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages would be addressed in a way that is consistent with at least one client.
 package#ProcessComms,domain#Role_ServiceChannel,ServiceChannel,A privileged communication path through the network between a client and a service.
-package#ProcessComms,domain#Role_VaultChannel,VaultChannel,A client channel representing the relationship between a process and a key vault holding keys used by the process to access data.
+package#ProcessTrust,domain#Role_AuthZChannel,AuthZChannel,A trust relationship between a client and a service that relates to the use of that service to verify third party access rights.
+package#ProcessTrust,domain#Role_AuthChannel,AuthChannel,A trust relationship between a client and a service that relates to the use of that service to authenticate the client and/or verify their access rights.
+package#ProcessTrust,domain#Role_ClientChannel,ClientChannel,A trust relationship between a client and a service.
+package#ProcessTrust,domain#Role_FirstChannel,FirstChannel,A client service trust relationship in a chain between a client and a service via a reverse proxy.
+package#ProcessTrust,domain#Role_IndirectChannel,IndirectChannel,A client service trust relationship between a client and a service that communicate indirectly.
+package#ProcessTrust,domain#Role_ProxyChannel,ProxyChannel,A client-service trust relationship existing between a client or service and an intervening reverse proxy.
+package#ProcessTrust,domain#Role_VaultChannel,VaultChannel,A client channel representing the relationship between a process and a key vault holding keys used by the process to access data.
 package#Users,domain#Role_Adult,Adult,A human who is not a Child.
 package#Users,domain#Role_Child,Child,A Human who is not an Adult.
 package#Users,domain#Role_Employer,Employer,A stakeholder that employs one or more individuals to act in one or more system roles.
 package#Users,domain#Role_Human,Human,A user role fulfilled by a human.
 package#Users,domain#Role_Human1,Human1,A user role fulfilled by a human.
 package#Users,domain#Role_Human2,Human2,A user role fulfilled by a human.
+package#Users,domain#Role_Operator,Operator,A stakeholder role with legal responsibility for operation of part or all of a system.
 package#Users,domain#Role_Organisation,Organisation,"A stakeholder role fulfilled by an organisation, e.g. a company or a team."
 package#Users,domain#Role_Stakeholder,Stakeholder,A stakeholder role fulfilled by an human or an organisation.
 package#Virtualisation,domain#Role_HostChannel,HostChannel,"A channel corresponding to a physical network path between two physical hosts, on which virtual network communication depends."
