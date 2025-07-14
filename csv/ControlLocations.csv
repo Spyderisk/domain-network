@@ -38,7 +38,6 @@ package#IoT,domain#SuspendUnreliableController,domain#Controller
 package#Legal,domain#LegalCompetenceCheck,domain#Human
 package#Legal,domain#LegalGuardianConsent,domain#Human
 package#LocalDeviceConnectivity,domain#DisableMeshRouting,domain#PhysicalHost
-package#LocalDeviceConnectivity,domain#DisableTethering,domain#ReverseTetheringSegment
 package#LocalDeviceConnectivity,domain#DisableTethering,domain#TetheringSegment
 package#LocalDeviceConnectivity,domain#SimpleSecurePairing,domain#PhysicalHost
 package#Network,domain#AAA,domain#AbstractSubnet
@@ -108,7 +107,7 @@ package#Network,domain#SoftwareTesting,domain#Host
 package#Network,domain#SoftwareTesting,domain#Process
 package#Network,domain#SuspendVulnerableHost,domain#Host
 package#Network,domain#SuspendVulnerableService,domain#Process
-package#Network,domain#SystemSecurityTraining,domain#Human
+package#Network,domain#SystemSecurityTraining,domain#Adult
 package#Network,domain#TLS,domain#Process
 package#Network,domain#Unmanaged,domain#Host
 package#Network,domain#X509,domain#Host

@@ -151,9 +151,9 @@ package#PatientHarms,domain#Hu.Ph-Td.Hup.0,domain#MS-DelayedDiagnosis-Patient
 package#PatientHarms,domain#Hu.Ph-Ti.Hup.0,domain#MS-Misdiagnosis-Patient
 package#ProcessComms,domain#P.O.PILSsSC.0,domain#MS-InService-ServiceChannel
 package#ProcessComms,domain#P.O.PILSsSC.0,domain#MS-Overloaded-Interface
-package#ProcessComms,domain#SC.A.CCfImSC.0,domain#MS-LossOfAvailability-Interface
-package#ProcessComms,domain#SC.A.CCtImSC.0,domain#MS-LossOfAvailability-Interface
 package#ProcessComms,domain#SC.A.LSmSC.0,domain#MS-LossOfAvailability-LogicalSubnet
+package#ProcessComms,domain#SC.A.SCfICH.0,domain#MS-LossOfAvailability-Interface
+package#ProcessComms,domain#SC.A.SCtISH.0,domain#MS-LossOfAvailability-Interface
 package#ProcessComms,domain#SC.A.SgmSC.0,domain#MS-LossOfAvailability-LogicalSegment
 package#ProcessTrust,domain#CC.AX.CACSSaS.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessTrust,domain#CC.AX.CACSScS.0,domain#MS-LossOfAccessibility-ClientChannel
@@ -184,6 +184,7 @@ package#Virtualisation,domain#HC.A.ImHCt.0,domain#MS-LossOfAvailability-Interfac
 package#Virtualisation,domain#HC.A.LSmHC.0,domain#MS-LossOfAvailability-LogicalSubnet
 package#Virtualisation,domain#HC.A.SgmHC.0,domain#MS-LossOfAvailability-LogicalSegment
 package#Virtualisation,domain#LS.A.LSoLS.0,domain#MS-LossOfAvailability-LogicalSubnet
+package#Virtualisation,domain#LS.O.LSoLS.0,domain#MS-Overloaded-OverlaySubnet
 package#Virtualisation,domain#SC.A.VC2HmSC.0,domain#MS-LossOfAvailability-VirtualChannel
 package#Virtualisation,domain#VC.A.VC2HmHC.0,domain#MS-LossOfAvailability-HostChannel
 package#VulnerabilityCVSS,domain#H.E-A.TH.8,domain#MS-VulnerabilityDiscovered-Host

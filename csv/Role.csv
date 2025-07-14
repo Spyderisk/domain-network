@@ -36,6 +36,8 @@ package#DataLifecycle,domain#Role_DataCache,DataCache,A stored data copy created
 package#DataLifecycle,domain#Role_DataChannel,DataChannel,A data channel used in construction patterns.
 package#DataLifecycle,domain#Role_DataCopy,DataCopy,A data copy role.
 package#DataLifecycle,domain#Role_DataDestination,DataDestination,A data access asset associated with a destination process.
+package#DataLifecycle,domain#Role_DataExchIn,DataExchIn,A DataExchange role in which data flows towards a process.
+package#DataLifecycle,domain#Role_DataExchOut,DataExchOut,A DataExchange role in which data flows away from a process.
 package#DataLifecycle,domain#Role_DataExchange,DataExchange,A connection between processes indicating they can exchange data.
 package#DataLifecycle,domain#Role_DataFlow,DataFlow,A flow of data between processes.
 package#DataLifecycle,domain#Role_DataInput,DataInput,A data access role associated with data consumed by a process.
@@ -96,6 +98,7 @@ package#Network,domain#Role_HostAccess,HostAccess,A context for access rights on
 package#Network,domain#Role_HostManager,HostManager,A user role assigned to managing a host.
 package#Network,domain#Role_HostNetContext,HostNetContext,A network connectivity context for access rights on a host.
 package#Network,domain#Role_Hotspot,Hotspot,A WiFi network provided by a mobile device wherever it goes.
+package#Network,domain#Role_InteractiveHost,InteractiveHost,A host that is or will be interacting with a user.
 package#Network,domain#Role_Internet,Internet,The Internet.
 package#Network,domain#Role_LocalHost,LocalHost,A host that is local to some other asset or phenomenon.
 package#Network,domain#Role_LogicalSubnet,LogicalSubnet,A logical subnet (i.e.  a subnet that can be used for direct communication between connected hosts).
@@ -151,10 +154,11 @@ package#PatientHarms,domain#Role_Patient,Patient,A Human who is a Patient.
 package#PatientHarms,domain#Role_TreatmentData,TreatmentData,Represents the data that represents the treatment instructions data of a Patient.
 package#Physical,domain#Role_Entrance,Entrance,A space from which another space can be entered.
 package#Physical,domain#Role_LocalSpace,LocalSpace,A nearby space.
+package#Physical,domain#Role_Operable,Operable,A role fulfilled by an Operable asset.
 package#Physical,domain#Role_OtherSpace,OtherSpace,A second or subsequent space in a pattern.
 package#Physical,domain#Role_RemoteSpace,RemoteSpace,A far away space.
 package#Physical,domain#Role_Space,Space,A space.
-package#Physical,domain#Role_World,World,The (inferred) global public space.
+package#Physical,domain#Role_World,World,The role fulfilled by (inferred) global public space.
 package#Privacy,domain#Role_DataSubject,DataSubject,A natural person who is the subject of personal data.
 package#ProcessComms,domain#Role_AttackPath,AttackPath,A privileged path through the network to a service from a subnet accessible by attackers .
 package#ProcessComms,domain#Role_BasePath,BasePath,A network path that provides a basis for attacks on services via NAT devices.

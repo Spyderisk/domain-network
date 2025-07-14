@@ -468,6 +468,7 @@ package#Application,domain#CAS-SuspendInfectedProcess-LoginService,domain#LoginS
 package#Application,domain#CAS-SuspendInfectedProcess-RemoteDesktop,domain#RemoteDesktop,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-RemoteTerminal,domain#RemoteTerminal,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-SMSClient,domain#SMSClient,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Application,domain#CAS-SuspendInfectedProcess-SystemProcess,domain#SystemProcess,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-TextEditor,domain#TextEditor,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-WebApp,domain#WebApp,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Application,domain#CAS-SuspendInfectedProcess-WebBrowser,domain#WebBrowser,domain#SuspendInfectedProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -607,6 +608,7 @@ package#CloudManagement,domain#CAS-AutoDataGovernance-RemoteTerminal,domain#Remo
 package#CloudManagement,domain#CAS-AutoDataGovernance-SMSClient,domain#SMSClient,domain#AutoDataGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-SensorProcess,domain#SensorProcess,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-ServiceProxy,domain#ServiceProxy,domain#AutoDataGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#CloudManagement,domain#CAS-AutoDataGovernance-SystemProcess,domain#SystemProcess,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-TextEditor,domain#TextEditor,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-WebApp,domain#WebApp,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#CloudManagement,domain#CAS-AutoDataGovernance-WebBrowser,domain#WebBrowser,domain#AutoDataGovernance,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -821,6 +823,7 @@ package#GDPR,domain#CAS-GDPRGovernance-RemoteTerminal,domain#RemoteTerminal,doma
 package#GDPR,domain#CAS-GDPRGovernance-SMSClient,domain#SMSClient,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-SensorProcess,domain#SensorProcess,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-ServiceProxy,domain#ServiceProxy,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#GDPR,domain#CAS-GDPRGovernance-SystemProcess,domain#SystemProcess,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-TextEditor,domain#TextEditor,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-WebApp,domain#WebApp,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#GDPR,domain#CAS-GDPRGovernance-WebBrowser,domain#WebBrowser,domain#GDPRGovernance,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1049,12 +1052,9 @@ package#LocalDeviceConnectivity,domain#CAS-DisableMeshRouting-Workstation,domain
 package#LocalDeviceConnectivity,domain#CAS-DisableNetwork-BluetoothPair,domain#BluetoothPair,domain#DisableNetwork,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-DisableNetwork-USBPair,domain#USBPair,domain#DisableNetwork,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-DisableServiceAccess-MeshRoutingSegment,domain#MeshRoutingSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#CAS-DisableServiceAccess-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-DisableServiceAccess-TetheringSegment,domain#TetheringSegment,domain#DisableServiceAccess,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#CAS-DisableTethering-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#DisableTethering,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-DisableTethering-TetheringSegment,domain#TetheringSegment,domain#DisableTethering,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-FWBlock-MeshRoutingSegment,domain#MeshRoutingSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#LocalDeviceConnectivity,domain#CAS-FWBlock-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-FWBlock-TetheringSegment,domain#TetheringSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-SimpleSecurePairing-BaseStation,domain#BaseStation,domain#SimpleSecurePairing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#LocalDeviceConnectivity,domain#CAS-SimpleSecurePairing-Cluster,domain#Cluster,domain#SimpleSecurePairing,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1086,6 +1086,7 @@ package#Network,domain#CAS-AccessControl-Router,domain#Router,domain#AccessContr
 package#Network,domain#CAS-AccessControl-Server,domain#Server,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AccessControl-Smartphone,domain#Smartphone,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AccessControl-Smartwatch,domain#Smartwatch,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-AccessControl-SystemProcess,domain#SystemProcess,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AccessControl-Tablet,domain#Tablet,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AccessControl-Workstation,domain#Workstation,domain#AccessControl,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AuthenticationLimits-AuthClient,domain#AuthClient,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1095,6 +1096,7 @@ package#Network,domain#CAS-AuthenticationLimits-MobileClient,domain#MobileClient
 package#Network,domain#CAS-AuthenticationLimits-Notebook,domain#Notebook,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AuthenticationLimits-RemoteTerminal,domain#RemoteTerminal,domain#AuthenticationLimits,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AuthenticationLimits-Smartphone,domain#Smartphone,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-AuthenticationLimits-SystemProcess,domain#SystemProcess,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AuthenticationLimits-Tablet,domain#Tablet,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-AuthenticationLimits-Workstation,domain#Workstation,domain#AuthenticationLimits,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-BasicSecurityTraining-Adult,domain#Adult,domain#BasicSecurityTraining,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1143,6 +1145,7 @@ package#Network,domain#CAS-ContinuousAuthVerifier-AuthClient,domain#AuthClient,d
 package#Network,domain#CAS-ContinuousAuthVerifier-AuthService,domain#AuthService,domain#ContinuousAuthVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-ContinuousAuthVerifier-LoginService,domain#LoginService,domain#ContinuousAuthVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-ContinuousAuthVerifier-RemoteTerminal,domain#RemoteTerminal,domain#ContinuousAuthVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-ContinuousAuthVerifier-SystemProcess,domain#SystemProcess,domain#ContinuousAuthVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-ContinuousOccupation-DataCentre,domain#DataCentre,domain#ContinuousOccupation,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-DeviceCertification-Cluster,domain#Cluster,domain#DeviceCertification,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-DeviceCertification-CoreRouter,domain#CoreRouter,domain#DeviceCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1186,6 +1189,7 @@ package#Network,domain#CAS-DisabledProcess-AuthClient,domain#AuthClient,domain#D
 package#Network,domain#CAS-DisabledProcess-AuthService,domain#AuthService,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-DisabledProcess-LoginService,domain#LoginService,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-DisabledProcess-RemoteTerminal,domain#RemoteTerminal,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-DisabledProcess-SystemProcess,domain#SystemProcess,domain#DisabledProcess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-EncryptedComms-WiFiLAN,domain#WiFiLAN,domain#EncryptedComms,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-FormalVerification-AuthClient,domain#AuthClient,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-FormalVerification-AuthService,domain#AuthService,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1200,12 +1204,14 @@ package#Network,domain#CAS-FormalVerification-Router,domain#Router,domain#Formal
 package#Network,domain#CAS-FormalVerification-Server,domain#Server,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-FormalVerification-Smartphone,domain#Smartphone,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-FormalVerification-Smartwatch,domain#Smartwatch,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-FormalVerification-SystemProcess,domain#SystemProcess,domain#FormalVerification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-FormalVerification-Tablet,domain#Tablet,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-FormalVerification-Workstation,domain#Workstation,domain#FormalVerification,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-HomomorphicEncryption-AuthClient,domain#AuthClient,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-HomomorphicEncryption-AuthService,domain#AuthService,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-HomomorphicEncryption-LoginService,domain#LoginService,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-HomomorphicEncryption-RemoteTerminal,domain#RemoteTerminal,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-HomomorphicEncryption-SystemProcess,domain#SystemProcess,domain#HomomorphicEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-HostEncryption-Cluster,domain#Cluster,domain#HostEncryption,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-HostEncryption-CoreRouter,domain#CoreRouter,domain#HostEncryption,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-HostEncryption-MobileClient,domain#MobileClient,domain#HostEncryption,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1243,6 +1249,7 @@ package#Network,domain#CAS-KeyManagement-AuthClient,domain#AuthClient,domain#Key
 package#Network,domain#CAS-KeyManagement-AuthService,domain#AuthService,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-KeyManagement-LoginService,domain#LoginService,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-KeyManagement-RemoteTerminal,domain#RemoteTerminal,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-KeyManagement-SystemProcess,domain#SystemProcess,domain#KeyManagement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-LoadMonitoring-Cluster,domain#Cluster,domain#LoadMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-LoadMonitoring-CoreRouter,domain#CoreRouter,domain#LoadMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-LoadMonitoring-MobileClient,domain#MobileClient,domain#LoadMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1258,10 +1265,12 @@ package#Network,domain#CAS-Logging-AuthClient,domain#AuthClient,domain#Logging,F
 package#Network,domain#CAS-Logging-AuthService,domain#AuthService,domain#Logging,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Logging-LoginService,domain#LoginService,domain#Logging,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Logging-RemoteTerminal,domain#RemoteTerminal,domain#Logging,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-Logging-SystemProcess,domain#SystemProcess,domain#Logging,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-LowPriority-AuthClient,domain#AuthClient,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-LowPriority-AuthService,domain#AuthService,domain#LowPriority,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-LowPriority-LoginService,domain#LoginService,domain#LowPriority,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-LowPriority-RemoteTerminal,domain#RemoteTerminal,domain#LowPriority,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-LowPriority-SystemProcess,domain#SystemProcess,domain#LowPriority,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-MultipleWiFiNIC-Cluster,domain#Cluster,domain#MultipleWiFiNIC,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-MultipleWiFiNIC-CoreRouter,domain#CoreRouter,domain#MultipleWiFiNIC,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-MultipleWiFiNIC-MobileClient,domain#MobileClient,domain#MultipleWiFiNIC,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1291,6 +1300,7 @@ package#Network,domain#CAS-OneTimeKeyVerifier-AuthClient,domain#AuthClient,domai
 package#Network,domain#CAS-OneTimeKeyVerifier-AuthService,domain#AuthService,domain#OneTimeKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-OneTimeKeyVerifier-LoginService,domain#LoginService,domain#OneTimeKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-OneTimeKeyVerifier-RemoteTerminal,domain#RemoteTerminal,domain#OneTimeKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-OneTimeKeyVerifier-SystemProcess,domain#SystemProcess,domain#OneTimeKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-OutOfBandKey-Adult,domain#Adult,domain#OutOfBandKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-OutOfBandKey-Child,domain#Child,domain#OutOfBandKey,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-OutOfBandKey-Human,domain#Human,domain#OutOfBandKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1298,6 +1308,7 @@ package#Network,domain#CAS-OutOfBandKeyVerifier-AuthClient,domain#AuthClient,dom
 package#Network,domain#CAS-OutOfBandKeyVerifier-AuthService,domain#AuthService,domain#OutOfBandKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-OutOfBandKeyVerifier-LoginService,domain#LoginService,domain#OutOfBandKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-OutOfBandKeyVerifier-RemoteTerminal,domain#RemoteTerminal,domain#OutOfBandKeyVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-OutOfBandKeyVerifier-SystemProcess,domain#SystemProcess,domain#OutOfBandKeyVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Password-Adult,domain#Adult,domain#Password,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Password-AuthClient,domain#AuthClient,domain#Password,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Password-AuthService,domain#AuthService,domain#Password,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1305,6 +1316,7 @@ package#Network,domain#CAS-Password-Child,domain#Child,domain#Password,TRUE,doma
 package#Network,domain#CAS-Password-Human,domain#Human,domain#Password,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Password-LoginService,domain#LoginService,domain#Password,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Password-RemoteTerminal,domain#RemoteTerminal,domain#Password,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-Password-SystemProcess,domain#SystemProcess,domain#Password,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordQualityCheck-AuthClient,domain#AuthClient,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordQualityCheck-AuthService,domain#AuthService,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordQualityCheck-LoginService,domain#LoginService,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1312,16 +1324,19 @@ package#Network,domain#CAS-PasswordQualityCheck-MobileClient,domain#MobileClient
 package#Network,domain#CAS-PasswordQualityCheck-Notebook,domain#Notebook,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordQualityCheck-RemoteTerminal,domain#RemoteTerminal,domain#PasswordQualityCheck,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordQualityCheck-Smartphone,domain#Smartphone,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-PasswordQualityCheck-SystemProcess,domain#SystemProcess,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordQualityCheck-Tablet,domain#Tablet,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordQualityCheck-Workstation,domain#Workstation,domain#PasswordQualityCheck,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordReset-AuthClient,domain#AuthClient,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordReset-AuthService,domain#AuthService,domain#PasswordReset,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordReset-LoginService,domain#LoginService,domain#PasswordReset,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordReset-RemoteTerminal,domain#RemoteTerminal,domain#PasswordReset,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-PasswordReset-SystemProcess,domain#SystemProcess,domain#PasswordReset,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordStore-AuthClient,domain#AuthClient,domain#PasswordStore,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordStore-AuthService,domain#AuthService,domain#PasswordStore,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordStore-LoginService,domain#LoginService,domain#PasswordStore,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordStore-RemoteTerminal,domain#RemoteTerminal,domain#PasswordStore,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-PasswordStore-SystemProcess,domain#SystemProcess,domain#PasswordStore,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordVerifier-AuthClient,domain#AuthClient,domain#PasswordVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordVerifier-AuthService,domain#AuthService,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordVerifier-LoginService,domain#LoginService,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1329,6 +1344,7 @@ package#Network,domain#CAS-PasswordVerifier-MobileClient,domain#MobileClient,dom
 package#Network,domain#CAS-PasswordVerifier-Notebook,domain#Notebook,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordVerifier-RemoteTerminal,domain#RemoteTerminal,domain#PasswordVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordVerifier-Smartphone,domain#Smartphone,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-PasswordVerifier-SystemProcess,domain#SystemProcess,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordVerifier-Tablet,domain#Tablet,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PasswordVerifier-Workstation,domain#Workstation,domain#PasswordVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PenetrationTesting-AuthClient,domain#AuthClient,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1344,6 +1360,7 @@ package#Network,domain#CAS-PenetrationTesting-Router,domain#Router,domain#Penetr
 package#Network,domain#CAS-PenetrationTesting-Server,domain#Server,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PenetrationTesting-Smartphone,domain#Smartphone,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PenetrationTesting-Smartwatch,domain#Smartwatch,domain#PenetrationTesting,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-PenetrationTesting-SystemProcess,domain#SystemProcess,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PenetrationTesting-Tablet,domain#Tablet,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PenetrationTesting-Workstation,domain#Workstation,domain#PenetrationTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-PersonalDevice-Cluster,domain#Cluster,domain#PersonalDevice,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1391,6 +1408,7 @@ package#Network,domain#CAS-ProcessMonitoring-AuthClient,domain#AuthClient,domain
 package#Network,domain#CAS-ProcessMonitoring-AuthService,domain#AuthService,domain#ProcessMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-ProcessMonitoring-LoginService,domain#LoginService,domain#ProcessMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-ProcessMonitoring-RemoteTerminal,domain#RemoteTerminal,domain#ProcessMonitoring,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-ProcessMonitoring-SystemProcess,domain#SystemProcess,domain#ProcessMonitoring,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-RemoteWiping-MobileClient,domain#MobileClient,domain#RemoteWiping,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-RemoteWiping-Notebook,domain#Notebook,domain#RemoteWiping,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-RemoteWiping-RemovableMedia,domain#RemovableMedia,domain#RemoteWiping,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1440,6 +1458,7 @@ package#Network,domain#CAS-SecureExecution-AuthClient,domain#AuthClient,domain#S
 package#Network,domain#CAS-SecureExecution-AuthService,domain#AuthService,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SecureExecution-LoginService,domain#LoginService,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SecureExecution-RemoteTerminal,domain#RemoteTerminal,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-SecureExecution-SystemProcess,domain#SystemProcess,domain#SecureExecution,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SecureLocation-DataCentre,domain#DataCentre,domain#SecureLocation,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SecurityTraining-Adult,domain#Adult,domain#SecurityTraining,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SecurityTraining-Child,domain#Child,domain#SecurityTraining,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1470,6 +1489,7 @@ package#Network,domain#CAS-SoftwareCertification-AuthClient,domain#AuthClient,do
 package#Network,domain#CAS-SoftwareCertification-AuthService,domain#AuthService,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwareCertification-LoginService,domain#LoginService,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwareCertification-RemoteTerminal,domain#RemoteTerminal,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-SoftwareCertification-SystemProcess,domain#SystemProcess,domain#SoftwareCertification,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatched-AuthClient,domain#AuthClient,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatched-AuthService,domain#AuthService,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatched-Cluster,domain#Cluster,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1483,6 +1503,7 @@ package#Network,domain#CAS-SoftwarePatched-Router,domain#Router,domain#SoftwareP
 package#Network,domain#CAS-SoftwarePatched-Server,domain#Server,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatched-Smartphone,domain#Smartphone,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatched-Smartwatch,domain#Smartwatch,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-SoftwarePatched-SystemProcess,domain#SystemProcess,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatched-Tablet,domain#Tablet,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatched-Workstation,domain#Workstation,domain#SoftwarePatched,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwarePatching-Cluster,domain#Cluster,domain#SoftwarePatching,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1509,6 +1530,7 @@ package#Network,domain#CAS-SoftwareTesting-Router,domain#Router,domain#SoftwareT
 package#Network,domain#CAS-SoftwareTesting-Server,domain#Server,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwareTesting-Smartphone,domain#Smartphone,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwareTesting-Smartwatch,domain#Smartwatch,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-SoftwareTesting-SystemProcess,domain#SystemProcess,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwareTesting-Tablet,domain#Tablet,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SoftwareTesting-Workstation,domain#Workstation,domain#SoftwareTesting,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SuspendVulnerableHost-Cluster,domain#Cluster,domain#SuspendVulnerableHost,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1526,13 +1548,13 @@ package#Network,domain#CAS-SuspendVulnerableService-AuthClient,domain#AuthClient
 package#Network,domain#CAS-SuspendVulnerableService-AuthService,domain#AuthService,domain#SuspendVulnerableService,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SuspendVulnerableService-LoginService,domain#LoginService,domain#SuspendVulnerableService,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SuspendVulnerableService-RemoteTerminal,domain#RemoteTerminal,domain#SuspendVulnerableService,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-SuspendVulnerableService-SystemProcess,domain#SystemProcess,domain#SuspendVulnerableService,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-SystemSecurityTraining-Adult,domain#Adult,domain#SystemSecurityTraining,TRUE,domain#TrustworthinessLevelSafe,TRUE
-package#Network,domain#CAS-SystemSecurityTraining-Child,domain#Child,domain#SystemSecurityTraining,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#Network,domain#CAS-SystemSecurityTraining-Human,domain#Human,domain#SystemSecurityTraining,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-TLS-AuthClient,domain#AuthClient,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-TLS-AuthService,domain#AuthService,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-TLS-LoginService,domain#LoginService,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-TLS-RemoteTerminal,domain#RemoteTerminal,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-TLS-SystemProcess,domain#SystemProcess,domain#TLS,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Unmanaged-Cluster,domain#Cluster,domain#Unmanaged,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Unmanaged-CoreRouter,domain#CoreRouter,domain#Unmanaged,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-Unmanaged-MobileClient,domain#MobileClient,domain#Unmanaged,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1557,6 +1579,7 @@ package#Network,domain#CAS-X509-Router,domain#Router,domain#X509,TRUE,domain#Tru
 package#Network,domain#CAS-X509-Server,domain#Server,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509-Smartphone,domain#Smartphone,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509-Smartwatch,domain#Smartwatch,domain#X509,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-X509-SystemProcess,domain#SystemProcess,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509-Tablet,domain#Tablet,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509-Workstation,domain#Workstation,domain#X509,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ClientVerifier-AuthClient,domain#AuthClient,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1572,6 +1595,7 @@ package#Network,domain#CAS-X509ClientVerifier-Router,domain#Router,domain#X509Cl
 package#Network,domain#CAS-X509ClientVerifier-Server,domain#Server,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ClientVerifier-Smartphone,domain#Smartphone,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ClientVerifier-Smartwatch,domain#Smartwatch,domain#X509ClientVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-X509ClientVerifier-SystemProcess,domain#SystemProcess,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ClientVerifier-Tablet,domain#Tablet,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ClientVerifier-Workstation,domain#Workstation,domain#X509ClientVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ServiceVerifier-AuthClient,domain#AuthClient,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1587,12 +1611,14 @@ package#Network,domain#CAS-X509ServiceVerifier-Router,domain#Router,domain#X509S
 package#Network,domain#CAS-X509ServiceVerifier-Server,domain#Server,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ServiceVerifier-Smartphone,domain#Smartphone,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ServiceVerifier-Smartwatch,domain#Smartwatch,domain#X509ServiceVerifier,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-X509ServiceVerifier-SystemProcess,domain#SystemProcess,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ServiceVerifier-Tablet,domain#Tablet,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-X509ServiceVerifier-Workstation,domain#Workstation,domain#X509ServiceVerifier,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-XSSSanitisation-AuthClient,domain#AuthClient,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-XSSSanitisation-AuthService,domain#AuthService,domain#XSSSanitisation,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-XSSSanitisation-LoginService,domain#LoginService,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Network,domain#CAS-XSSSanitisation-RemoteTerminal,domain#RemoteTerminal,domain#XSSSanitisation,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Network,domain#CAS-XSSSanitisation-SystemProcess,domain#SystemProcess,domain#XSSSanitisation,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-AddressReservation-Interface,domain#Interface,domain#AddressReservation,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-BandwidthManagement-Interface,domain#Interface,domain#BandwidthManagement,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DDoSFiltering-Interface,domain#Interface,domain#DDoSFiltering,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1603,7 +1629,7 @@ package#NetworkConnectivity,domain#CAS-DisableServiceAccess-Interface,domain#Int
 package#NetworkConnectivity,domain#CAS-DisableServiceAccess-NATSegment,domain#NATSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-DisableServiceAccess-OpenSegment,domain#OpenSegment,domain#DisableServiceAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-ClosedSegment,domain#ClosedSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
-package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,domain#FWBlock,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#NetworkConnectivity,domain#CAS-FWBlock-DeNATSegment,domain#DeNATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-Interface,domain#Interface,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-NATSegment,domain#NATSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#NetworkConnectivity,domain#CAS-FWBlock-OpenSegment,domain#OpenSegment,domain#FWBlock,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1666,6 +1692,7 @@ package#Privacy,domain#CAS-ConsentEnforcement-RemoteDesktop,domain#RemoteDesktop
 package#Privacy,domain#CAS-ConsentEnforcement-RemoteTerminal,domain#RemoteTerminal,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-SMSClient,domain#SMSClient,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-ServiceProxy,domain#ServiceProxy,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-ConsentEnforcement-SystemProcess,domain#SystemProcess,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-TextEditor,domain#TextEditor,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-WebApp,domain#WebApp,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-ConsentEnforcement-WebBrowser,domain#WebBrowser,domain#ConsentEnforcement,FALSE,domain#TrustworthinessLevelSafe,TRUE
@@ -1707,6 +1734,7 @@ package#Privacy,domain#CAS-VitalInterests-RemoteDesktop,domain#RemoteDesktop,dom
 package#Privacy,domain#CAS-VitalInterests-RemoteTerminal,domain#RemoteTerminal,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-SMSClient,domain#SMSClient,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-ServiceProxy,domain#ServiceProxy,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#Privacy,domain#CAS-VitalInterests-SystemProcess,domain#SystemProcess,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-TextEditor,domain#TextEditor,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-WebApp,domain#WebApp,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Privacy,domain#CAS-VitalInterests-WebBrowser,domain#WebBrowser,domain#VitalInterests,TRUE,domain#TrustworthinessLevelSafe,TRUE
@@ -1764,6 +1792,7 @@ package#ProcessTrust,domain#CAS-ClearDeputy-RemoteTerminal,domain#RemoteTerminal
 package#ProcessTrust,domain#CAS-ClearDeputy-SMSClient,domain#SMSClient,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-SensorProcess,domain#SensorProcess,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-ServiceProxy,domain#ServiceProxy,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessTrust,domain#CAS-ClearDeputy-SystemProcess,domain#SystemProcess,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-TextEditor,domain#TextEditor,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-WebApp,domain#WebApp,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-WebBrowser,domain#WebBrowser,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE

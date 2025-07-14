@@ -29,6 +29,7 @@ package#5G,domain#MADS-LossOfReliability-BaseStation,domain#BaseStation,domain#L
 package#5G,domain#MADS-LossOfResourceTW-BaseStation,domain#BaseStation,domain#LossOfResourceTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-LossOfUserTW-BaseStation,domain#BaseStation,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#5G,domain#MADS-MalwareInfection-BaseStation,domain#BaseStation,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#5G,domain#MADS-NetworkAccess-RAN,domain#RAN,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#5G,domain#MADS-Overloaded-BaseStation,domain#BaseStation,domain#Overloaded,domain#ImpactLevelNegligible
 package#5G,domain#MADS-Overloaded-RAN,domain#RAN,domain#Overloaded,domain#ImpactLevelNegligible
 package#5G,domain#MADS-TrojanInsertion-BaseStation,domain#BaseStation,domain#TrojanInsertion,domain#ImpactLevelNegligible
@@ -198,6 +199,7 @@ package#Application,domain#MADS-LossOfTimeliness-RemoteTerminal,domain#RemoteTer
 package#Application,domain#MADS-LossOfTimeliness-SMSClient,domain#SMSClient,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-SensitiveData,domain#SensitiveData,domain#LossOfTimeliness,domain#ImpactLevelLow
 package#Application,domain#MADS-LossOfTimeliness-SpamData,domain#SpamData,domain#LossOfTimeliness,domain#ImpactLevelNegligible
+package#Application,domain#MADS-LossOfTimeliness-SystemProcess,domain#SystemProcess,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-TextEditor,domain#TextEditor,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-WebApp,domain#WebApp,domain#LossOfTimeliness,domain#ImpactLevelNegligible
 package#Application,domain#MADS-LossOfTimeliness-WebBrowser,domain#WebBrowser,domain#LossOfTimeliness,domain#ImpactLevelNegligible
@@ -246,6 +248,7 @@ package#Application,domain#MADS-MalwareInfection-Server,domain#Server,domain#Mal
 package#Application,domain#MADS-MalwareInfection-Smartphone,domain#Smartphone,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-Smartwatch,domain#Smartwatch,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-SpamData,domain#SpamData,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#Application,domain#MADS-MalwareInfection-SystemProcess,domain#SystemProcess,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-Tablet,domain#Tablet,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-TextEditor,domain#TextEditor,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Application,domain#MADS-MalwareInfection-WebApp,domain#WebApp,domain#MalwareInfection,domain#ImpactLevelNegligible
@@ -444,6 +447,7 @@ package#CloudManagement,domain#MADS-MalwareInfection-Ingress,domain#Ingress,doma
 package#CloudManagement,domain#MADS-MalwareInfection-Master,domain#Master,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-MalwareInfection-Pod,domain#Pod,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-MalwareInfection-Worker,domain#Worker,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#CloudManagement,domain#MADS-NetworkAccess-ClusterIP,domain#ClusterIP,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-Overloaded-APIServer,domain#APIServer,domain#Overloaded,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-Overloaded-ClusterIP,domain#ClusterIP,domain#Overloaded,domain#ImpactLevelNegligible
 package#CloudManagement,domain#MADS-Overloaded-Container,domain#Container,domain#Overloaded,domain#ImpactLevelNegligible
@@ -614,16 +618,13 @@ package#Legal,domain#MADS-LossOfBenevolence-LegalOrganisation,domain#LegalOrgani
 package#LocalDeviceConnectivity,domain#MADS-CommsSnoopable-BluetoothPair,domain#BluetoothPair,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-CommsSnoopable-USBPair,domain#USBPair,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-ConnectionsAllowed-MeshRoutingSegment,domain#MeshRoutingSegment,domain#ConnectionsAllowed,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-ConnectionsAllowed-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#ConnectionsAllowed,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-ConnectionsAllowed-TetheringSegment,domain#TetheringSegment,domain#ConnectionsAllowed,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-BluetoothPair,domain#BluetoothPair,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-MeshRoutingSegment,domain#MeshRoutingSegment,domain#InService,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-InService-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-TetheringSegment,domain#TetheringSegment,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-InService-USBPair,domain#USBPair,domain#InService,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-BluetoothPair,domain#BluetoothPair,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-MeshRoutingSegment,domain#MeshRoutingSegment,domain#LossOfAvailability,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-TetheringSegment,domain#TetheringSegment,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfAvailability-USBPair,domain#USBPair,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfDefaultTW-BluetoothPair,domain#BluetoothPair,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
@@ -632,10 +633,11 @@ package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkControl-BluetoothPair,d
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkControl-USBPair,domain#USBPair,domain#LossOfNetworkControl,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkUserTW-BluetoothPair,domain#BluetoothPair,domain#LossOfNetworkUserTW,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-LossOfNetworkUserTW-USBPair,domain#USBPair,domain#LossOfNetworkUserTW,domain#ImpactLevelNegligible
+package#LocalDeviceConnectivity,domain#MADS-NetworkAccess-BluetoothPair,domain#BluetoothPair,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#LocalDeviceConnectivity,domain#MADS-NetworkAccess-USBPair,domain#USBPair,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-Overloaded-BluetoothPair,domain#BluetoothPair,domain#Overloaded,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-Overloaded-USBPair,domain#USBPair,domain#Overloaded,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-ServiceChannelsAllowed-MeshRoutingSegment,domain#MeshRoutingSegment,domain#ServiceChannelsAllowed,domain#ImpactLevelNegligible
-package#LocalDeviceConnectivity,domain#MADS-ServiceChannelsAllowed-ReverseTetheringSegment,domain#ReverseTetheringSegment,domain#ServiceChannelsAllowed,domain#ImpactLevelNegligible
 package#LocalDeviceConnectivity,domain#MADS-ServiceChannelsAllowed-TetheringSegment,domain#TetheringSegment,domain#ServiceChannelsAllowed,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-AuthClient,domain#AuthClient,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-AuthService,domain#AuthService,domain#InService,domain#ImpactLevelNegligible
@@ -653,6 +655,7 @@ package#Network,domain#MADS-InService-Server,domain#Server,domain#InService,doma
 package#Network,domain#MADS-InService-Smartphone,domain#Smartphone,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-Smartwatch,domain#Smartwatch,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-SocketLAN,domain#SocketLAN,domain#InService,domain#ImpactLevelNegligible
+package#Network,domain#MADS-InService-SystemProcess,domain#SystemProcess,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-Tablet,domain#Tablet,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-WiFiLAN,domain#WiFiLAN,domain#InService,domain#ImpactLevelNegligible
 package#Network,domain#MADS-InService-WiredLAN,domain#WiredLAN,domain#InService,domain#ImpactLevelNegligible
@@ -689,6 +692,7 @@ package#Network,domain#MADS-LocalLossOfUserTW-Router,domain#Router,domain#LocalL
 package#Network,domain#MADS-LocalLossOfUserTW-Server,domain#Server,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LocalLossOfUserTW-Smartphone,domain#Smartphone,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LocalLossOfUserTW-Smartwatch,domain#Smartwatch,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LocalLossOfUserTW-SystemProcess,domain#SystemProcess,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LocalLossOfUserTW-Tablet,domain#Tablet,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LocalLossOfUserTW-Workstation,domain#Workstation,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-AuthClient,domain#AuthClient,domain#LossOfAvailability,domain#ImpactLevelNegligible
@@ -708,6 +712,7 @@ package#Network,domain#MADS-LossOfAvailability-Server,domain#Server,domain#LossO
 package#Network,domain#MADS-LossOfAvailability-Smartphone,domain#Smartphone,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-Smartwatch,domain#Smartwatch,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-SocketLAN,domain#SocketLAN,domain#LossOfAvailability,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfAvailability-SystemProcess,domain#SystemProcess,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-Tablet,domain#Tablet,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-WiFiLAN,domain#WiFiLAN,domain#LossOfAvailability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfAvailability-WiredLAN,domain#WiredLAN,domain#LossOfAvailability,domain#ImpactLevelNegligible
@@ -740,6 +745,7 @@ package#Network,domain#MADS-LossOfDefaultTW-Server,domain#Server,domain#LossOfDe
 package#Network,domain#MADS-LossOfDefaultTW-Smartphone,domain#Smartphone,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-Smartwatch,domain#Smartwatch,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-SocketLAN,domain#SocketLAN,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfDefaultTW-SystemProcess,domain#SystemProcess,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-Tablet,domain#Tablet,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-WiFiLAN,domain#WiFiLAN,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfDefaultTW-WiredLAN,domain#WiredLAN,domain#LossOfDefaultTW,domain#ImpactLevelNegligible
@@ -761,6 +767,7 @@ package#Network,domain#MADS-LossOfExploitTW-Router,domain#Router,domain#LossOfEx
 package#Network,domain#MADS-LossOfExploitTW-Server,domain#Server,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-Smartphone,domain#Smartphone,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-Smartwatch,domain#Smartwatch,domain#LossOfExploitTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfExploitTW-SystemProcess,domain#SystemProcess,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-Tablet,domain#Tablet,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExploitTW-Workstation,domain#Workstation,domain#LossOfExploitTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-AuthClient,domain#AuthClient,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
@@ -776,6 +783,7 @@ package#Network,domain#MADS-LossOfExtrinsicTW-Router,domain#Router,domain#LossOf
 package#Network,domain#MADS-LossOfExtrinsicTW-Server,domain#Server,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Smartphone,domain#Smartphone,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfExtrinsicTW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Tablet,domain#Tablet,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfExtrinsicTW-Workstation,domain#Workstation,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-AuthClient,domain#AuthClient,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
@@ -791,6 +799,7 @@ package#Network,domain#MADS-LossOfIntrinsicTW-Router,domain#Router,domain#LossOf
 package#Network,domain#MADS-LossOfIntrinsicTW-Server,domain#Server,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Smartphone,domain#Smartphone,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Smartwatch,domain#Smartwatch,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfIntrinsicTW-SystemProcess,domain#SystemProcess,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Tablet,domain#Tablet,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfIntrinsicTW-Workstation,domain#Workstation,domain#LossOfIntrinsicTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfNetworkControl-CoreNetwork,domain#CoreNetwork,domain#LossOfNetworkControl,domain#ImpactLevelNegligible
@@ -816,6 +825,7 @@ package#Network,domain#MADS-LossOfReliability-Router,domain#Router,domain#LossOf
 package#Network,domain#MADS-LossOfReliability-Server,domain#Server,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Smartphone,domain#Smartphone,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Smartwatch,domain#Smartwatch,domain#LossOfReliability,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfReliability-SystemProcess,domain#SystemProcess,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Tablet,domain#Tablet,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfReliability-Workstation,domain#Workstation,domain#LossOfReliability,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfResourceTW-Cluster,domain#Cluster,domain#LossOfResourceTW,domain#ImpactLevelNegligible
@@ -843,8 +853,14 @@ package#Network,domain#MADS-LossOfUserTW-Router,domain#Router,domain#LossOfUserT
 package#Network,domain#MADS-LossOfUserTW-Server,domain#Server,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-Smartphone,domain#Smartphone,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-Smartwatch,domain#Smartwatch,domain#LossOfUserTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-LossOfUserTW-SystemProcess,domain#SystemProcess,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-Tablet,domain#Tablet,domain#LossOfUserTW,domain#ImpactLevelNegligible
 package#Network,domain#MADS-LossOfUserTW-Workstation,domain#Workstation,domain#LossOfUserTW,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-CoreNetwork,domain#CoreNetwork,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-Internet,domain#Internet,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-SocketLAN,domain#SocketLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-WiFiLAN,domain#WiFiLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Network,domain#MADS-NetworkAccess-WiredLAN,domain#WiredLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-AuthClient,domain#AuthClient,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-AuthService,domain#AuthService,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Cluster,domain#Cluster,domain#Overloaded,domain#ImpactLevelNegligible
@@ -861,6 +877,7 @@ package#Network,domain#MADS-Overloaded-Server,domain#Server,domain#Overloaded,do
 package#Network,domain#MADS-Overloaded-Smartphone,domain#Smartphone,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Smartwatch,domain#Smartwatch,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-SocketLAN,domain#SocketLAN,domain#Overloaded,domain#ImpactLevelNegligible
+package#Network,domain#MADS-Overloaded-SystemProcess,domain#SystemProcess,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-Tablet,domain#Tablet,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-WiFiLAN,domain#WiFiLAN,domain#Overloaded,domain#ImpactLevelNegligible
 package#Network,domain#MADS-Overloaded-WiredLAN,domain#WiredLAN,domain#Overloaded,domain#ImpactLevelNegligible
@@ -881,6 +898,7 @@ package#Network,domain#MADS-TrojanInsertion-Router,domain#Router,domain#TrojanIn
 package#Network,domain#MADS-TrojanInsertion-Server,domain#Server,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Smartphone,domain#Smartphone,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Smartwatch,domain#Smartwatch,domain#TrojanInsertion,domain#ImpactLevelNegligible
+package#Network,domain#MADS-TrojanInsertion-SystemProcess,domain#SystemProcess,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Tablet,domain#Tablet,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-TrojanInsertion-Workstation,domain#Workstation,domain#TrojanInsertion,domain#ImpactLevelNegligible
 package#Network,domain#MADS-VulnerabilityDiscovered-AuthClient,domain#AuthClient,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
@@ -896,6 +914,7 @@ package#Network,domain#MADS-VulnerabilityDiscovered-Router,domain#Router,domain#
 package#Network,domain#MADS-VulnerabilityDiscovered-Server,domain#Server,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
 package#Network,domain#MADS-VulnerabilityDiscovered-Smartphone,domain#Smartphone,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
 package#Network,domain#MADS-VulnerabilityDiscovered-Smartwatch,domain#Smartwatch,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
+package#Network,domain#MADS-VulnerabilityDiscovered-SystemProcess,domain#SystemProcess,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
 package#Network,domain#MADS-VulnerabilityDiscovered-Tablet,domain#Tablet,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
 package#Network,domain#MADS-VulnerabilityDiscovered-Workstation,domain#Workstation,domain#VulnerabilityDiscovered,domain#ImpactLevelNegligible
 package#NetworkConnectivity,domain#MADS-BandwidthUnmanaged-Interface,domain#Interface,domain#BandwidthUnmanaged,domain#ImpactLevelNegligible
@@ -1066,6 +1085,7 @@ package#Theft,domain#MADS-TheftOfControl-Server,domain#Server,domain#TheftOfCont
 package#Theft,domain#MADS-TheftOfControl-ServiceProxy,domain#ServiceProxy,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-Smartphone,domain#Smartphone,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-Smartwatch,domain#Smartwatch,domain#TheftOfControl,domain#ImpactLevelNegligible
+package#Theft,domain#MADS-TheftOfControl-SystemProcess,domain#SystemProcess,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-Tablet,domain#Tablet,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-TextEditor,domain#TextEditor,domain#TheftOfControl,domain#ImpactLevelNegligible
 package#Theft,domain#MADS-TheftOfControl-VCluster,domain#VCluster,domain#TheftOfControl,domain#ImpactLevelNegligible
@@ -1152,6 +1172,8 @@ package#Virtualisation,domain#MADS-LossOfUserTW-VRouter,domain#VRouter,domain#Lo
 package#Virtualisation,domain#MADS-MalwareInfection-VCluster,domain#VCluster,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-MalwareInfection-VM,domain#VM,domain#MalwareInfection,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-MalwareInfection-VRouter,domain#VRouter,domain#MalwareInfection,domain#ImpactLevelNegligible
+package#Virtualisation,domain#MADS-NetworkAccess-HostLAN,domain#HostLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
+package#Virtualisation,domain#MADS-NetworkAccess-VXLAN,domain#VXLAN,domain#NetworkAccess,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-Overloaded-HostLAN,domain#HostLAN,domain#Overloaded,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-Overloaded-VCluster,domain#VCluster,domain#Overloaded,domain#ImpactLevelNegligible
 package#Virtualisation,domain#MADS-Overloaded-VM,domain#VM,domain#Overloaded,domain#ImpactLevelNegligible
@@ -1195,6 +1217,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Server,domain#Server,
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-A-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-A-TW,domain#ImpactLevelNegligible
@@ -1236,6 +1259,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Server,domain#Server
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-AU-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-AU-TW,domain#ImpactLevelNegligible
@@ -1277,6 +1301,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Server,domain#Server,
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-C-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-C-TW,domain#ImpactLevelNegligible
@@ -1318,6 +1343,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Server,domain#Server,
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-I-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-I-TW,domain#ImpactLevelNegligible
@@ -1359,6 +1385,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Server,domain#Server,
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-M-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-M-TW,domain#ImpactLevelNegligible
@@ -1387,6 +1414,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-RemoteTerminal,domai
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-SMSClient,domain#SMSClient,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-SensorProcess,domain#SensorProcess,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-WebApp,domain#WebApp,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-QI-TW-WebBrowser,domain#WebBrowser,domain#LossOfExtrinsic-QI-TW,domain#ImpactLevelNegligible
@@ -1423,6 +1451,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Server,domain#Server,
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-U-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-U-TW,domain#ImpactLevelNegligible
@@ -1464,6 +1493,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Server,domain#Server
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VA-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-VA-TW,domain#ImpactLevelNegligible
@@ -1505,6 +1535,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Server,domain#Server
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VL-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-VL-TW,domain#ImpactLevelNegligible
@@ -1546,6 +1577,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Server,domain#Server
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-VN-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-VN-TW,domain#ImpactLevelNegligible
@@ -1587,6 +1619,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Server,domain#Server,
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Smartphone,domain#Smartphone,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Smartwatch,domain#Smartwatch,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-Tablet,domain#Tablet,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-W-TW-VCluster,domain#VCluster,domain#LossOfExtrinsic-W-TW,domain#ImpactLevelNegligible
@@ -1615,6 +1648,7 @@ package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-RemoteTerminal,domai
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-SMSClient,domain#SMSClient,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-SensorProcess,domain#SensorProcess,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-ServiceProxy,domain#ServiceProxy,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
+package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-SystemProcess,domain#SystemProcess,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-TextEditor,domain#TextEditor,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-WebApp,domain#WebApp,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible
 package#VulnerabilityCVSS,domain#MADS-LossOfExtrinsic-XS-TW-WebBrowser,domain#WebBrowser,domain#LossOfExtrinsic-XS-TW,domain#ImpactLevelNegligible

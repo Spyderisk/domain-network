@@ -1,6 +1,9 @@
 package,URI,requiresTreatmentOf
-domain#000000,domain#000000,domain#H.E.CScGcCS.9
+domain#000000,domain#000000,domain#CN.E.CN-R.9
+package#5G,domain#Anomalies,domain#CN.E.CN-R.9
+package#5G,domain#Anomalies,domain#CN.E.CNRAN2dS.9
 package#5G,domain#Anomalies,domain#H.E.CScGcCS.9
+package#5G,domain#Anomalies,domain#H.E.L3rBrR.9
 package#Application,domain#Anomalies,domain#D.E.HuaID.9
 package#Application,domain#Anomalies,domain#D.E.HuaUD.9
 package#Application,domain#Anomalies,domain#D.E.HuaVD.9
@@ -55,6 +58,7 @@ package#IoT,domain#Anomalies,domain#Se.E.Se-sD-sD.9
 package#IoT,domain#Anomalies,domain#Th.E.IoT-Hu.9
 package#Legal,domain#Anomalies,domain#D.E.HuDP-J.9
 package#Legal,domain#Anomalies,domain#D.E.HuDSH-J.9
+package#Network,domain#Anomalies,domain#H.E.FHmS.9
 package#Network,domain#Anomalies,domain#H.E.H-Hu.9
 package#Network,domain#Anomalies,domain#H.E.H-iR-iMCHIUS.9
 package#Network,domain#Anomalies,domain#H.E.HHu2d.9
@@ -64,8 +68,10 @@ package#Network,domain#Anomalies,domain#H.E.HuiDH.9
 package#Network,domain#Anomalies,domain#H.E.IpH.9
 package#Network,domain#Anomalies,domain#H.E.SH-mHu.9
 package#Network,domain#Anomalies,domain#H.E.WmPH.9
+package#Network,domain#Anomalies,domain#LS.E.LS-S.9
 package#Network,domain#Anomalies,domain#P.E.CcuS.9
 package#Network,domain#Anomalies,domain#P.E.IcP.9
+package#Network,domain#Anomalies,domain#P.E.LnSuLnS.9
 package#Network,domain#Anomalies,domain#P.E.LnSuP-H.9
 package#Network,domain#Anomalies,domain#P.E.PH2.9
 package#Network,domain#Anomalies,domain#P.E.PccP.9
@@ -102,5 +108,6 @@ package#Virtualisation,domain#Anomalies,domain#H.E.THVH.9
 package#Virtualisation,domain#Anomalies,domain#H.E.VHH2.9
 package#Virtualisation,domain#Anomalies,domain#LS.E.pLSoLS.9
 package#Virtualisation,domain#Anomalies,domain#P.E.HuiHP.9
+package#Virtualisation,domain#Anomalies,domain#VH.E.VH-H.9
 package#Virtualisation,domain#Anomalies,domain#VH.E.VHH3.9
 package#Virtualisation,domain#Anomalies,domain#VS.E.VSVC4H-PP.9
