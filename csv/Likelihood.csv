@@ -1,0 +1,8 @@
+levelValue,URI,package,label,comment
+0,domain#000000,domain#000000,Negligible,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
+0,domain#Negligible,package#Core,Negligible,The possibility can be ignored.
+1,domain#LikelihoodVeryLow,package#Core,Very Low,Rare within the lifetime of a typical system.
+2,domain#LikelihoodLow,package#Core,Low,Possible but not inevitable within the lifetime of a typical system.
+3,domain#LikelihoodMedium,package#Core,Medium,Expected every year or so.
+4,domain#LikelihoodHigh,package#Core,High,Expected within hours to days.
+5,domain#LikelihoodVeryHigh,package#Core,Very High,Expected within minutes.

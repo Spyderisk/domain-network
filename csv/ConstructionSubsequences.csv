@@ -1,0 +1,55 @@
+package,URI,subsequence
+domain#000000,domain#000000,Data processing and handling inference
+package#Application,domain#S-DataHandling,Data processing and handling inference
+package#Application,domain#S-StorageInference,Data storage inference
+package#Core,domain#S-000,Not in any construction subsequence
+package#DataLifecycle,domain#S-DataChannels,Data channel creation
+package#DataLifecycle,domain#S-DataFlowCaching,Data flow caching inference
+package#DataLifecycle,domain#S-DataFlows,Data flow creation
+package#DataLifecycle,domain#S-DataPaths,Data path creation
+package#DataLifecycle,domain#S-PersistentData,Persistent serialized data creation
+package#DataLifecycle,domain#S-PersistentDataAccess,Persistent serialized data access inference
+package#DataLifecycle,domain#S-Phishing,Unsolicited data flow creation
+package#DataLifecycle,domain#S-VolatileData,Volatile data asset creation
+package#DataStructure,domain#S-DataFields,Data field inference
+package#Legal,domain#S-Jurisdictions,Applicable jurisdiction inference
+package#Network,domain#S-FixedHostConnections,Fixed host network connection inference
+package#Network,domain#S-HostClassification,Host classification
+package#Network,domain#S-HostContext,Host context creation
+package#Network,domain#S-HostCreation,Inferred host creation
+package#Network,domain#S-HostInteractivity,User-host interactivity inference
+package#Network,domain#S-HostLocation,Host location inference
+package#Network,domain#S-HostManagement,Host management inference
+package#Network,domain#S-HostOperation,Host operation inference
+package#Network,domain#S-InternalComms,Intra-host communication inference
+package#Network,domain#S-LocalizedNetworks,Inferred localized network creation
+package#Network,domain#S-NetworkAccessibility,Network accessibility inference
+package#Network,domain#S-NetworkConnections,Network connection inference
+package#Network,domain#S-NonLocalNetworks,Inferred non-local network creation
+package#Network,domain#S-ProcessClassification,Process classification
+package#Network,domain#S-ProcessContext,Process context creation
+package#Network,domain#S-ProcessCreation,Inferred application process creation
+package#Network,domain#S-ProcessManagement,Process management inference
+package#Network,domain#S-ProcessOperation,Process operation inference
+package#Network,domain#S-SystemClientService,System client-service relationship inference
+package#Network,domain#S-SystemProcessCreation,Inferred system process creation
+package#NetworkConnectivity,domain#S-NetworkInterfaces,Network interface creation
+package#NetworkConnectivity,domain#S-NetworkPathStatus,Network path status classification
+package#NetworkConnectivity,domain#S-NetworkPaths,Network path creation
+package#NetworkConnectivity,domain#S-NetworkSegments,Network path segment creation
+package#Physical,domain#S-SpaceClassification,Physical space classification
+package#Physical,domain#S-SpaceCreation,Inferred physical space creation
+package#Privacy,domain#S-PrivacyInference,Privacy relationship inference
+package#ProcessComms,domain#S-ClientServiceAccess,Client-service access path creation
+package#ProcessComms,domain#S-ClientServiceAttacks,Client-service attack path creation
+package#ProcessComms,domain#S-ClientServiceComms,Client-service communication inference
+package#ProcessComms,domain#S-IndirectClientService,Indirect client-service relationship inference
+package#ProcessComms,domain#S-RemoteExecution,Remote process execution inference
+package#ProcessComms,domain#S-ReverseProxies,Inferred reverse proxy creation
+package#ProcessTrust,domain#S-ClientServiceTrust,Client-service trust inference
+package#Theft,domain#S-ReconnectionContexts,Reconnection of stolen devices
+package#Users,domain#S-HumanMobility,Human mobility inference
+package#Users,domain#S-HumanMobilityReq,Human mobility requirements inference
+package#Users,domain#S-HumanStatus,Human status classification
+package#Users,domain#S-SpaceOperation,Physical space operation inference
+package#Virtualisation,domain#S-VirtualNetworkDependency,Virtual network dependency inference
