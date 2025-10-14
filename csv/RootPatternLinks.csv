@@ -894,6 +894,8 @@ package#DataLifecycle,domain#R-HuiDSPH,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycle,domain#R-HuiDSPH,domain#Link-Human-interactsRemotelyWith-Process
 package#DataLifecycle,domain#R-HuiDSPH,domain#Link-Process-enablesUserInput-Data
 package#DataLifecycle,domain#R-HuiDSPH,domain#Link-Process-processes-Data
+package#DataLifecycle,domain#R-HuiPiDCHS,domain#Link-DataAccess-usedBy-Process
+package#DataLifecycle,domain#R-HuiPiDCHS,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HuiPvDCHS,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HuiPvDCHS,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HuiPvDCHS,domain#Link-Host-hosts-Process
@@ -914,6 +916,8 @@ package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Link-ProcAccess-accessFrom-Spac
 package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Link-ProcAccess-accessTo-Host
 package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Link-ProcAccess-accessTo-Process
 package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Link-Process-enablesUserOutput-Data
+package#DataLifecycle,domain#R-HuiRACHSPiD,domain#Link-DataAccess-usedBy-Process
+package#DataLifecycle,domain#R-HuiRACHSPiD,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HuiRACvDFCHS,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HuiRACvDFCHS,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HuiRACvDFCHS,domain#Link-DataFlow-flowsFrom-Process

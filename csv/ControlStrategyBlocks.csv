@@ -9,6 +9,8 @@ package#Application,domain#CSG-AntiMalwareAtHost,domain#H.W.HuHWES.3
 package#Application,domain#CSG-AntiMalwareAtHost,domain#P.L.HuHE2AC.3
 package#Application,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#D.C.HuiPiDCHS.3
 package#Application,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#D.C.HuiRACHSPiD.3
+package#Application,domain#CSG-NegligibleDataExposure,domain#D.C.HuiPiDCHS.3
+package#Application,domain#CSG-NegligibleDataExposure,domain#D.C.HuiRACHSPiD.3
 package#Application,domain#CSG-PersonalDeviceProtection,domain#D.C.HuiPiDCHS.3
 package#Application,domain#CSG-PersonalDeviceProtection,domain#D.C.HuiRACHSPiD.3
 package#Application,domain#CSG-SpamFilteringAtMUA,domain#H.W.HuHE.3
@@ -169,6 +171,9 @@ package#DataLifecycle,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#D.C.HuiPv
 package#DataLifecycle,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#D.C.HuiPv-iDFCHS.3
 package#DataLifecycle,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#D.C.HuiRACv-iDFCHS.3
 package#DataLifecycle,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#DS.A.PHHDS.3
+package#DataLifecycle,domain#CSG-NegligibleDataExposure,domain#D.C.HuiPv-iD-FCHS.3
+package#DataLifecycle,domain#CSG-NegligibleDataExposure,domain#D.C.HuiPv-iDFCHS.3
+package#DataLifecycle,domain#CSG-NegligibleDataExposure,domain#D.C.HuiRACv-iDFCHS.3
 package#DataLifecycle,domain#CSG-ParquetDataEncryption,domain#DB.O.DSPDF-VDB.6.1
 package#DataLifecycle,domain#CSG-ParquetDataEncryption,domain#DB.O.DSPDF-VDB.6.2
 package#DataLifecycle,domain#CSG-ParquetDataEncryption,domain#DB.O.DSPDFVDB.6.1

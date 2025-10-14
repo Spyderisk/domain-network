@@ -792,6 +792,16 @@ package#DataLifecycle,domain#CAS-Encryption-DataFlow,domain#DataFlow,domain#Encr
 package#DataLifecycle,domain#CAS-IntegrityProtection-DataCache,domain#DataCache,domain#IntegrityProtection,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-IntegrityProtection-DataCopy,domain#DataCopy,domain#IntegrityProtection,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-IntegrityProtection-DataFlow,domain#DataFlow,domain#IntegrityProtection,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-DataInput,domain#DataInput,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-DataOutput,domain#DataOutput,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-DataRelay,domain#DataRelay,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-DataUpdate,domain#DataUpdate,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-InputPool,domain#InputPool,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-OutputPool,domain#OutputPool,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-RemoteUserAccess,domain#RemoteUserAccess,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-StoredDataPool,domain#StoredDataPool,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-TempDataRelay,domain#TempDataRelay,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DataLifecycle,domain#CAS-MinimalDataExposure-UpdatePool,domain#UpdatePool,domain#MinimalDataExposure,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#DataLifecycle,domain#CAS-ParquetEncryption-DataCopy,domain#DataCopy,domain#ParquetEncryption,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-Replication-DataCopy,domain#DataCopy,domain#Replication,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-SuspendCorruptDataFlow-DataFlow,domain#DataFlow,domain#SuspendCorruptDataFlow,TRUE,domain#TrustworthinessLevelSafe,TRUE

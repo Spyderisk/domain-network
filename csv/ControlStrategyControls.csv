@@ -255,6 +255,8 @@ package#Network,domain#CSG-ManagerProcessFaultRecovery,domain#CS-ProcessMonitori
 package#Network,domain#CSG-ManagerProcessFaultRecovery-Implementation-Runtime,domain#CS-ManualActionTaken-HostManager,FALSE
 package#Network,domain#CSG-ManagerProcessFaultRecovery-Implementation-Runtime,domain#CS-ManualIntervention-HostManager,FALSE
 package#Network,domain#CSG-ManagerProcessFaultRecovery-Implementation-Runtime,domain#CS-ProcessMonitoring-Process,FALSE
+package#Network,domain#CSG-NegligibleDataExposure,domain#CS-MinimalDataExposure-DataAccess,FALSE
+package#Network,domain#CSG-NegligibleDataExposure,domain#CS-SecurityTraining-Human,FALSE
 package#Network,domain#CSG-NetworkAuthN-PSK,domain#CS-SharedKey-Gateway,FALSE
 package#Network,domain#CSG-NetworkAuthN-PSK,domain#CS-SharedKey-Host,FALSE
 package#Network,domain#CSG-NetworkAuthN-PSK,domain#CS-SharedKeyVerifier-Host,FALSE

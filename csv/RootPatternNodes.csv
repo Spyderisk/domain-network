@@ -905,6 +905,7 @@ package#DataLifecycle,domain#R-HuiDSPH,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-HuiDSPH,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HuiDSPH,domain#Node-Human-Human,TRUE
 package#DataLifecycle,domain#R-HuiDSPH,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-HuiPiDCHS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-HuiPvDCHS,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HuiPvDCHS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-HuiPvDCHS,domain#Node-Host-ConsoleHost,TRUE
@@ -920,6 +921,7 @@ package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Node-Human-Human,TRUE
 package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Node-ProcAccess-ProcessContext,TRUE
 package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-HuiPvDFCHS,domain#Node-Space-Space,TRUE
+package#DataLifecycle,domain#R-HuiRACHSPiD,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-HuiRACvDFCHS,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HuiRACvDFCHS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-HuiRACvDFCHS,domain#Node-DataFlow-DataFlow,TRUE
