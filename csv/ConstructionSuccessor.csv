@@ -298,7 +298,6 @@ package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS-ii+PN
 package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+TrustContext-0,Trust contextualisation inference should follow reconnection context creation.,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-1,A+iA is at the end of the user status classification sequence,FALSE,TRUE
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-1,HuaSaE+cA is at the end of the human mobility inference sequence,FALSE,TRUE
-package#Users,domain#CP-Marker+HumanMobility-1,domain#CP-Marker+SpaceClassification-0,,FALSE,TRUE
 package#Users,domain#CP-Marker+UserMobilityRequirements-1,domain#CP-Marker+SpaceClassification-0,User mobility requirements inference may create an inferred space,FALSE,TRUE
 package#Users,domain#CP-StS-St+c,domain#CP-Marker+SpaceOperation-1,StS-St+c is at the end of the space operation inference sequence,FALSE,TRUE
 package#Virtualisation,domain#CP-CCSCHC+ch,domain#CP-Marker+VirtualNetworkSupport-1,CCSCHC+ch is at the end of the virtual network dependency inference sequence,FALSE,TRUE
