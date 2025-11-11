@@ -65,8 +65,6 @@ package#Application,domain#R-HuaVD,HuaVD,"Finds a Human interactively viewing Da
 package#Application,domain#R-HuiCHDtS,HuiCHDtS,Finds a human interacting with a console host and a desktop service running on a possibly remote host.,FALSE,FALSE
 package#Application,domain#R-HuiD,HuiD,Finds a Human entering Data.,FALSE,FALSE
 package#Application,domain#R-HuiDPH,HuiDPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
-package#Application,domain#R-HuiPiDCHS,HuiPiDCHS,Finds a user interacting directly with a process to enter data using a console host located in a space.,FALSE,FALSE
-package#Application,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data via remote interaction with a process using a remote access client on a console host located in a space.,FALSE,FALSE
 package#Application,domain#R-HuirEcD,HuirEcD,Find a Human interacting (possibly remotely) with an Editor that creates Data.,FALSE,FALSE
 package#Application,domain#R-HuirErD,HuirErD,Finds Human interacting (possibly remotely) with an Editor process that receives data.,FALSE,FALSE
 package#Application,domain#R-HuirIPaD,HuirIPaD,Finds Human interacting (possibly remotely) with an Interactive Process that amends data.,FALSE,TRUE
@@ -204,8 +202,10 @@ package#DataLifecycle,domain#R-HuWESDF,HuWESDF,"Finds a Human using a web browse
 package#DataLifecycle,domain#R-HuWSMSDF,HuWSMSDF,"Finds a Human using a web browser and an SMS client on the same host, accessing URLs from SMS messages via the browser.",FALSE,FALSE
 package#DataLifecycle,domain#R-HuaDSPH,HuaDSPH,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, of which there is a copy on the same Host.",FALSE,TRUE
 package#DataLifecycle,domain#R-HuiDSPH,HuiDSPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, of which there is a copy on the same Host.",FALSE,TRUE
+package#DataLifecycle,domain#R-HuiPiDCHS,HuiPiDCHS,Finds a user interacting directly with a process to enter data using a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuiPvDCHS,HuiPvDCHS,Finds a user interacting directly with a process to view data using a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuiPvDFCHS,HuiPvDFCHS,"Finds a user interacting directly with a process to view data using a console host located in a space, where the data comes from an inbound data flow.",FALSE,FALSE
+package#DataLifecycle,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data via remote interaction with a process using a remote access client on a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuiRACvDFCHS,HuiRACvDFCHS,Finds a user interacting directly with a process to view data using a remote access client on a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuirPD,HuirPD,Finds a Human interacting (possibly remotely) with a Process that is using Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuirPiD,HuirPiD,Finds Human interacting (possibly remotely) with and entering Data via a Process.,FALSE,FALSE

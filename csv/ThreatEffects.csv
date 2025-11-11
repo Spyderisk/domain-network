@@ -1,8 +1,6 @@
 package,URI,causesMisbehaviour
 domain#000000,domain#000000,domain#MS-InService-CellularNetwork
 package#5G,domain#LS.IS.CNCN.8,domain#MS-InService-CellularNetwork
-package#Application,domain#D.C.HuiPiDCHS.3,domain#MS-LossOfConfidentiality-Data
-package#Application,domain#D.C.HuiRACHSPiD.3,domain#MS-LossOfConfidentiality-Data
 package#Application,domain#H.A.HumH.6.4,domain#MS-LossOfAvailability-Host
 package#Application,domain#H.W.HuHE.3,domain#MS-MalwareInfection-Host
 package#Application,domain#H.W.HuHWES.3,domain#MS-MalwareInfection-Host
@@ -14,8 +12,10 @@ package#DataCaching,domain#DF.Auth.HDCDF.0,domain#MS-LossOfAuthenticity-DataFlow
 package#DataCaching,domain#DF.I.HDCDF.0,domain#MS-LossOfIntegrity-DataFlow
 package#DataCaching,domain#DF.W.HDCDF.0,domain#MS-MalwareInfection-DataFlow
 package#DataLifecycle,domain#D.A.DallDS.0,domain#MS-LossOfAvailability-Data
+package#DataLifecycle,domain#D.C.HuiPiDCHS.3,domain#MS-LossOfConfidentiality-Data
 package#DataLifecycle,domain#D.C.HuiPv-iD-FCHS.3,domain#MS-LossOfConfidentiality-Data
 package#DataLifecycle,domain#D.C.HuiPv-iDFCHS.3,domain#MS-LossOfConfidentiality-Data
+package#DataLifecycle,domain#D.C.HuiRACHSPiD.3,domain#MS-LossOfConfidentiality-Data
 package#DataLifecycle,domain#D.C.HuiRACv-iDFCHS.3,domain#MS-LossOfConfidentiality-Data
 package#DataLifecycle,domain#D.I.D.0,domain#MS-LossOfIntegrity-Data
 package#DataLifecycle,domain#DB.A.DBsDRDF-V.6,domain#MS-LossOfAvailability-Service

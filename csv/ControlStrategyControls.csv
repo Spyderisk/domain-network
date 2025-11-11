@@ -79,6 +79,8 @@ package#DataLifecycle,domain#CSG-EncryptedDataProcessingAtService,domain#CS-Encr
 package#DataLifecycle,domain#CSG-EncryptedDataProcessingAtService,domain#CS-HomomorphicEncryption-Service,FALSE
 package#DataLifecycle,domain#CSG-EncryptedQueryProcessing,domain#CS-EncryptedProcessing-DataAccess,FALSE
 package#DataLifecycle,domain#CSG-EncryptedQueryProcessing,domain#CS-HomomorphicEncryption-Service,FALSE
+package#DataLifecycle,domain#CSG-NegligibleDataExposure,domain#CS-MinimalDataExposure-DataAccess,FALSE
+package#DataLifecycle,domain#CSG-NegligibleDataExposure,domain#CS-SecurityTraining-Human,FALSE
 package#DataLifecycle,domain#CSG-ParquetDataEncryption,domain#CS-ParquetEncryption-DataCopy,FALSE
 package#DataLifecycle,domain#CSG-SharedKeyManagement,domain#CS-KeyManagement-Client,FALSE
 package#DataLifecycle,domain#CSG-SharedKeyManagement,domain#CS-KeyManagement-Service,FALSE
@@ -255,8 +257,6 @@ package#Network,domain#CSG-ManagerProcessFaultRecovery,domain#CS-ProcessMonitori
 package#Network,domain#CSG-ManagerProcessFaultRecovery-Implementation-Runtime,domain#CS-ManualActionTaken-HostManager,FALSE
 package#Network,domain#CSG-ManagerProcessFaultRecovery-Implementation-Runtime,domain#CS-ManualIntervention-HostManager,FALSE
 package#Network,domain#CSG-ManagerProcessFaultRecovery-Implementation-Runtime,domain#CS-ProcessMonitoring-Process,FALSE
-package#Network,domain#CSG-NegligibleDataExposure,domain#CS-MinimalDataExposure-DataAccess,FALSE
-package#Network,domain#CSG-NegligibleDataExposure,domain#CS-SecurityTraining-Human,FALSE
 package#Network,domain#CSG-NetworkAuthN-PSK,domain#CS-SharedKey-Gateway,FALSE
 package#Network,domain#CSG-NetworkAuthN-PSK,domain#CS-SharedKey-Host,FALSE
 package#Network,domain#CSG-NetworkAuthN-PSK,domain#CS-SharedKeyVerifier-Host,FALSE
