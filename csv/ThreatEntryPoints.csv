@@ -315,6 +315,8 @@ package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-Control-HostAccess
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-OutOfService-FromSubnet
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-OutOfService-Gateway
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#TWAS-OutOfService-ToSubnet
+package#ProcessTrust,domain#AC.AuC.ACHPrDSDI.3,domain#TWAS-Authenticity-DataCopy
+package#ProcessTrust,domain#AC.AuC.ACPrDFDI.3,domain#TWAS-Authenticity-DataFlow
 package#ProcessTrust,domain#CC.AX.CCC-nS.6.1.1,domain#TWAS-DefaultTW-Service
 package#ProcessTrust,domain#CC.AX.CCC-nS.6.1.3,domain#TWAS-DefaultTW-Service
 package#ProcessTrust,domain#CC.AX.CCC-nmCCS.6.1.5,domain#TWAS-DefaultTW-Service

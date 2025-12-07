@@ -17,6 +17,7 @@ package#Application,domain#CSG-UserSecurityTraining,domain#H.W.HuHWES.3
 package#Application,domain#CSG-UserSecurityTraining,domain#P.L.HuHE2AC.3
 package#Application,domain#CSG-UserWithoutEmail,domain#Hu.E.HuimH-e.9
 package#Application,domain#CSG-UserWithoutEmail,domain#Hu.E.HummH-e.9
+package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#AC.AuC.ACPrDFDI.3
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#CC.AuC.DFsXSS.3
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#DF.Auth.PDFIDADFI.0
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#DF.Auth.PDFODADFO.0
@@ -31,6 +32,7 @@ package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#P.L.PcDFDI.
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#P.U.P-iDFDI.0
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#P.U.P-iDFDI.3
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow,domain#P.W.HPDFDI.2
+package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow-Implementation-Runtime,domain#AC.AuC.ACPrDFDI.3
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow-Implementation-Runtime,domain#CC.AuC.DFsXSS.3
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow-Implementation-Runtime,domain#DF.Auth.PDFIDADFI.0
 package#CloudManagement,domain#CSG-AutoSuspendCorruptDataFlow-Implementation-Runtime,domain#DF.Auth.PDFODADFO.0
@@ -522,6 +524,8 @@ package#ProcessTrust,domain#CSG-ServiceAuthN-X509,domain#CC.AuS.CRoSI.3
 package#ProcessTrust,domain#CSG-SpamFilteringAtMUA,domain#P.L.HuHW2ACE.3
 package#ProcessTrust,domain#CSG-StaffScreening,domain#CC.L.CSCCHuoSt.1
 package#ProcessTrust,domain#CSG-StaffScreening,domain#CC.R.HuoStCCCS.1
+package#ProcessTrust,domain#CSG-SuspendCorruptDataFlow,domain#AC.AuC.ACPrDFDI.3
+package#ProcessTrust,domain#CSG-SuspendCorruptDataFlow-Implementation-Runtime,domain#AC.AuC.ACPrDFDI.3
 package#ProcessTrust,domain#CSG-SuspendExcessiveClientAccess,domain#DF.O.CCDS2FC.0
 package#ProcessTrust,domain#CSG-SuspendExcessiveClientAccess,domain#DF.O.CCDS2TC.0
 package#ProcessTrust,domain#CSG-SuspendExcessiveClientAccess,domain#P.O.CCDFSFS.0

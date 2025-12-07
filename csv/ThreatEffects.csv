@@ -354,6 +354,8 @@ package#ProcessComms,domain#Sg.TA.L3SSg2+b.8.2,domain#MS-ServiceChannelsAllowed-
 package#ProcessComms,domain#Sg.TA.L3SSg2-b.8.2,domain#MS-ServiceChannelsAllowed-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2.8.1,domain#MS-ServiceChannelsAllowed-FwdSegment
 package#ProcessComms,domain#Sg.TA.L3SSg2AC.1,domain#MS-ServiceChannelsAllowed-FwdSegment
+package#ProcessTrust,domain#AC.AuC.ACHPrDSDI.3,domain#MS-ClientImpersonation-AuthChannel
+package#ProcessTrust,domain#AC.AuC.ACPrDFDI.3,domain#MS-ClientImpersonation-AuthChannel
 package#ProcessTrust,domain#CC.AX.CACSSaS.0,domain#MS-LossOfAccessibility-AuthChannel
 package#ProcessTrust,domain#CC.AX.CACSScS.0,domain#MS-LossOfAccessibility-AuthChannel
 package#ProcessTrust,domain#CC.AX.CCC-nS.6.1.1,domain#MS-LossOfAccessibility-ClientChannel
