@@ -232,6 +232,9 @@ package#NetworkConnectivity,domain#CP-NP2LS+v,domain#CP-Marker+NetworkPaths-1,NP
 package#NetworkConnectivity,domain#CP-NP2LSg+t,domain#CP-Marker+NetworkPaths-1,NP2LSg+t is at the end of the network path creation sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-2,SgHfILS+f is at the end of the network path segment relationship inference sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-2,SgHtILS+t is at the end of the network path segment relationship inference sequence,FALSE,TRUE
+package#PatientHarms,domain#CP-CttHup-rel+rel,domain#CP-Marker+PatientHarm-1,,FALSE,TRUE
+package#PatientHarms,domain#CP-Marker+PatientHarm-1,domain#CP-Marker+ThingPrivacy-0,,FALSE,TRUE
+package#PatientHarms,domain#CP-Marker+PatientHarm-3,domain#CP-Marker+DataCopy-2,,FALSE,TRUE
 package#Physical,domain#CP-PPS-E+W,domain#CP-Marker+SpaceCreation-1,PPS-E+W is at the end of the physical entrance creation sequence,FALSE,TRUE
 package#Physical,domain#CP-W+iW,domain#CP-Marker+SpaceClassification-1,W+iW is at the end of the space classification sequence,FALSE,TRUE
 package#Privacy,domain#CP-DHuDC+r,domain#CP-Marker+DataCopy-3,DHuDC+r is at the end of the stored data access relationship inference sequence,FALSE,TRUE

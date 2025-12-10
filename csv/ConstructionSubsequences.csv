@@ -37,6 +37,8 @@ package#NetworkConnectivity,domain#S-NetworkInterfaces,Network interface creatio
 package#NetworkConnectivity,domain#S-NetworkPathStatus,Network path status classification
 package#NetworkConnectivity,domain#S-NetworkPaths,Network path creation
 package#NetworkConnectivity,domain#S-NetworkSegments,Network path segment creation
+package#PatientHarms,domain#S-PatientHarmsInference0,Patient harms inference 0
+package#PatientHarms,domain#S-PatientHarmsInference1,Patient Harms Inference 1
 package#Physical,domain#S-SpaceClassification,Physical space classification
 package#Physical,domain#S-SpaceCreation,Inferred physical space creation
 package#Privacy,domain#S-PrivacyInference,Privacy relationship inference
