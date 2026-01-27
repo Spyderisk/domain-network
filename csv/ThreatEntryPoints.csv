@@ -1,6 +1,8 @@
 package,URI,hasEntryPoint
 domain#000000,domain#000000,domain#TWAS-OutOfService-CoreNetwork
 package#5G,domain#LS.IS.CNCN.8,domain#TWAS-OutOfService-CoreNetwork
+package#AIHarms,domain#D.Ml-Ac.DiuPmlmpDp.0,domain#TWAS-Authenticity-Input
+package#AIHarms,domain#D.Ml-F.DiuPmlmpDp.0,domain#TWAS-Authenticity-Input
 package#Application,domain#D.C.HuiPiDCHS.3,domain#TWAS-Astuteness-Human
 package#Application,domain#D.C.HuiPiDCHS.3,domain#TWAS-OccupantTW-Space
 package#Application,domain#D.C.HuiPiDCHS.3,domain#TWAS-OutOfService-Process

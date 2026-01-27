@@ -1,5 +1,13 @@
 package,URI,metaLocatedAt,hasMisbehaviour,hasLevel
-domain#000000,domain#000000,domain#PrivateCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
+domain#000000,domain#000000,domain#DataCache,domain#LossOfAccuracy,domain#ImpactLevelNegligible
+,domain#MADS-LossOfAccuracy-DataCache,domain#DataCache,domain#LossOfAccuracy,domain#ImpactLevelMedium
+,domain#MADS-LossOfAccuracy-DataCopy,domain#DataCopy,domain#LossOfAccuracy,domain#ImpactLevelMedium
+,domain#MADS-LossOfAccuracy-DataField,domain#DataField,domain#LossOfAccuracy,domain#ImpactLevelMedium
+,domain#MADS-LossOfAccuracy-DataFlow,domain#DataFlow,domain#LossOfAccuracy,domain#ImpactLevelMedium
+,domain#MADS-LossOfFairness-DataCache,domain#DataCache,domain#LossOfFairness,domain#ImpactLevelMedium
+,domain#MADS-LossOfFairness-DataCopy,domain#DataCopy,domain#LossOfFairness,domain#ImpactLevelMedium
+,domain#MADS-LossOfFairness-DataField,domain#DataField,domain#LossOfFairness,domain#ImpactLevelMedium
+,domain#MADS-LossOfFairness-DataFlow,domain#DataFlow,domain#LossOfFairness,domain#ImpactLevelMedium
 package#5G,domain#MADS-CommsSnoopable-PrivateCellularNetwork,domain#PrivateCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-PublicCellularNetwork,domain#PublicCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-RAN,domain#RAN,domain#CommsSnoopable,domain#ImpactLevelNegligible

@@ -3,6 +3,10 @@ domain#000000,domain#000000,domain#AccessContext
 package#AccessContext,domain#Control,domain#AccessContext
 package#AccessContext,domain#ExploitTW,domain#AccessContext
 package#AccessContext,domain#UserTW,domain#AccessContext
+package#AIHarms,domain#Accuracy,domain#Data
+package#AIHarms,domain#Accuracy,domain#DataField
+package#AIHarms,domain#Fairness,domain#Data
+package#AIHarms,domain#Fairness,domain#DataField
 package#Application,domain#Authenticity,domain#Data
 package#Application,domain#Availability,domain#Data
 package#Application,domain#Confidentiality,domain#Data
@@ -12,11 +16,13 @@ package#Application,domain#Integrity,domain#Data
 package#Application,domain#Timeliness,domain#Data
 package#Application,domain#Timeliness,domain#Human
 package#Application,domain#Timeliness,domain#Process
+package#DataLifecycle,domain#Accuracy,domain#DataAsset
 package#DataLifecycle,domain#Authenticity,domain#DataAsset
 package#DataLifecycle,domain#Availability,domain#DataAsset
 package#DataLifecycle,domain#Confidentiality,domain#DataContainer
 package#DataLifecycle,domain#Decrypted,domain#DataAsset
 package#DataLifecycle,domain#Encrypted,domain#DataAsset
+package#DataLifecycle,domain#Fairness,domain#DataAsset
 package#DataLifecycle,domain#Health,domain#DataAsset
 package#DataLifecycle,domain#Integrity,domain#DataAsset
 package#DataLifecycle,domain#OutOfService,domain#DataAsset

@@ -3,6 +3,8 @@ domain#000000,domain#000000,domain#LocalLossOfControl,domain#Control
 package#AccessContext,domain#TWIS-Control-LocalLossOfControl,domain#LocalLossOfControl,domain#Control
 package#AccessContext,domain#TWIS-ExploitTW-LossOfExploitTW,domain#LossOfExploitTW,domain#ExploitTW
 package#AccessContext,domain#TWIS-UserTW-LocalLossOfUserTW,domain#LocalLossOfUserTW,domain#UserTW
+package#AIHarms,domain#TWIS-Accuracy-LossOfAccuracy,domain#LossOfAccuracy,domain#Accuracy
+package#AIHarms,domain#TWIS-Fairness-LossOfFairness,domain#LossOfFairness,domain#Fairness
 package#Application,domain#TWIS-Authenticity-LossOfAuthenticity,domain#LossOfAuthenticity,domain#Authenticity
 package#Application,domain#TWIS-Confidentiality-LossOfConfidentiality,domain#LossOfConfidentiality,domain#Confidentiality
 package#Application,domain#TWIS-Integrity-LossOfIntegrity,domain#LossOfIntegrity,domain#Integrity

@@ -4,7 +4,9 @@ package#AccessContext,domain#LocalLossOfControl,domain#AccessContext
 package#AccessContext,domain#LocalLossOfUserTW,domain#AccessContext
 package#AccessContext,domain#LossOfExploitTW,domain#AccessContext
 package#AIHarms,domain#LossOfAccuracy,domain#Data
+package#AIHarms,domain#LossOfAccuracy,domain#DataField
 package#AIHarms,domain#LossOfFairness,domain#Data
+package#AIHarms,domain#LossOfFairness,domain#DataField
 package#AIHarms,domain#LossOfFairProcessing,domain#MLModel
 package#AIHarms,domain#LossOfFairProcessing,domain#MLTrainingAlgorithm
 package#Application,domain#LossOfAuthenticity,domain#Data
@@ -18,9 +20,11 @@ package#Application,domain#LossOfTimeliness,domain#Process
 package#Application,domain#MalwareInfection,domain#Data
 package#DataLifecycle,domain#InService,domain#DataAsset
 package#DataLifecycle,domain#InService,domain#DataStep
+package#DataLifecycle,domain#LossOfAccuracy,domain#DataAsset
 package#DataLifecycle,domain#LossOfAuthenticity,domain#DataAsset
 package#DataLifecycle,domain#LossOfAvailability,domain#DataAsset
 package#DataLifecycle,domain#LossOfConfidentiality,domain#DataContainer
+package#DataLifecycle,domain#LossOfFairness,domain#DataAsset
 package#DataLifecycle,domain#LossOfIntegrity,domain#DataAsset
 package#DataLifecycle,domain#LossOfTimeliness,domain#DataAsset
 package#DataLifecycle,domain#MalwareInfection,domain#DataAsset

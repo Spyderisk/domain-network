@@ -1,9 +1,7 @@
 package,URI,hasSecondaryEffectCondition
-domain#000000,domain#000000,domain#MS-LossOfAuthenticity-Input
-package#AIHarms,domain#D.Ml-Ac.DiuPmlmpDp.0,domain#MS-LossOfAuthenticity-Input
+domain#000000,domain#000000,domain#MS-LossOfReliability-MLModel
 package#AIHarms,domain#D.Ml-Ac.PmlmpDp.0,domain#MS-LossOfReliability-MLModel
 package#AIHarms,domain#D.Ml-Au.DiPmlm.0,domain#MS-LossOfUserTW-MLModel
-package#AIHarms,domain#D.Ml-F.DiuPmlmpDp.0,domain#MS-LossOfAuthenticity-Input
 package#AIHarms,domain#D.Ml-F.PmlmpDp.0,domain#MS-LossOfFairProcessing-MLModel
 package#AIHarms,domain#D.Ml-F.PtatPmlmpaDmp.0,domain#MS-LossOfFairProcessing-MLTrainingAlgorithm
 package#AIHarms,domain#D.Ml-I.PtatPmlmpaDmp.0,domain#MS-LossOfReliability-MLTrainingAlgorithm
