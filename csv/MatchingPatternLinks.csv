@@ -1288,6 +1288,9 @@ package#ProcessTrust,domain#MP-ACDFVTS-i,domain#Link-ClientChannel-channelVia-Pr
 package#ProcessTrust,domain#MP-ACDFVTS-i,domain#Link-Data-isSpam-Data,TRUE
 package#ProcessTrust,domain#MP-ACDFVTS-i,domain#Link-ProcessManager-manages-FlowsFrom,FALSE
 package#ProcessTrust,domain#MP-ACDFVTS-i,domain#Link-ServiceManager-manages-Service,FALSE
+package#ProcessTrust,domain#MP-ACHPrDSDI,domain#Link-HostManager-manages-Host,FALSE
+package#ProcessTrust,domain#MP-ACHPrDSDI,domain#Link-ProcessManager-manages-Process,FALSE
+package#ProcessTrust,domain#MP-ACPrDFDI,domain#Link-ProcessManager-manages-Process,FALSE
 package#ProcessTrust,domain#MP-CzS-CC,domain#Link-ClientChannel-channelFrom-Client,FALSE
 package#ProcessTrust,domain#MP-CzS-CC,domain#Link-ClientChannel-channelTo-Service,FALSE
 package#ProcessTrust,domain#MP-CAC-pPzAC-pS,domain#Link-Client-proxyAuthN-Process,FALSE
@@ -1516,8 +1519,8 @@ package#ProcessTrust,domain#MP-CSCCmCC,domain#Link-ClientChannel-channelVia-Prox
 package#ProcessTrust,domain#MP-CSCCmCC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessTrust,domain#MP-CSHSAC,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessTrust,domain#MP-CSHSAC,domain#Link-Human-interactsRemotelyWith-Client,FALSE
+package#ProcessTrust,domain#MP-CScP-v,domain#Link-Client-noAuthN-Service,TRUE
 package#ProcessTrust,domain#MP-CScP-v,domain#Link-Client-sharesCredentials-Service,TRUE
-package#ProcessTrust,domain#MP-CScP-v,domain#Link-Client-usesForAuth-Process,TRUE
 package#ProcessTrust,domain#MP-CScP-v,domain#Link-Service-proxyAuthN-Process,TRUE
 package#ProcessTrust,domain#MP-CuPnS-U,domain#Link-Client-usesViaRAS-Proxy,TRUE
 package#ProcessTrust,domain#MP-CuPnS-U,domain#Link-Client-viaSharedCredentials-Service,TRUE

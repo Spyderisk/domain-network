@@ -79,6 +79,8 @@ package#DataLifecycle,domain#CSG-EncryptedDataProcessingAtService,domain#CS-Encr
 package#DataLifecycle,domain#CSG-EncryptedDataProcessingAtService,domain#CS-HomomorphicEncryption-Service,FALSE
 package#DataLifecycle,domain#CSG-EncryptedQueryProcessing,domain#CS-EncryptedProcessing-DataAccess,FALSE
 package#DataLifecycle,domain#CSG-EncryptedQueryProcessing,domain#CS-HomomorphicEncryption-Service,FALSE
+package#DataLifecycle,domain#CSG-NegligibleDataExposure,domain#CS-MinimalDataExposure-DataAccess,FALSE
+package#DataLifecycle,domain#CSG-NegligibleDataExposure,domain#CS-SecurityTraining-Human,FALSE
 package#DataLifecycle,domain#CSG-ParquetDataEncryption,domain#CS-ParquetEncryption-DataCopy,FALSE
 package#DataLifecycle,domain#CSG-SharedKeyManagement,domain#CS-KeyManagement-Client,FALSE
 package#DataLifecycle,domain#CSG-SharedKeyManagement,domain#CS-KeyManagement-Service,FALSE
