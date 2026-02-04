@@ -65,8 +65,6 @@ package#Application,domain#R-HuaVD,HuaVD,"Finds a Human interactively viewing Da
 package#Application,domain#R-HuiCHDtS,HuiCHDtS,Finds a human interacting with a console host and a desktop service running on a possibly remote host.,FALSE,FALSE
 package#Application,domain#R-HuiD,HuiD,Finds a Human entering Data.,FALSE,FALSE
 package#Application,domain#R-HuiDPH,HuiDPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, and the process Host.",FALSE,TRUE
-package#Application,domain#R-HuiPiDCHS,HuiPiDCHS,Finds a user interacting directly with a process to enter data using a console host located in a space.,FALSE,FALSE
-package#Application,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data via remote interaction with a process using a remote access client on a console host located in a space.,FALSE,FALSE
 package#Application,domain#R-HuirEcD,HuirEcD,Find a Human interacting (possibly remotely) with an Editor that creates Data.,FALSE,FALSE
 package#Application,domain#R-HuirErD,HuirErD,Finds Human interacting (possibly remotely) with an Editor process that receives data.,FALSE,FALSE
 package#Application,domain#R-HuirIPaD,HuirIPaD,Finds Human interacting (possibly remotely) with an Interactive Process that amends data.,FALSE,TRUE
@@ -204,8 +202,10 @@ package#DataLifecycle,domain#R-HuWESDF,HuWESDF,"Finds a Human using a web browse
 package#DataLifecycle,domain#R-HuWSMSDF,HuWSMSDF,"Finds a Human using a web browser and an SMS client on the same host, accessing URLs from SMS messages via the browser.",FALSE,FALSE
 package#DataLifecycle,domain#R-HuaDSPH,HuaDSPH,"Finds a Human amending Data by interacting (possibly remotely) with a Process that processes the Data, of which there is a copy on the same Host.",FALSE,TRUE
 package#DataLifecycle,domain#R-HuiDSPH,HuiDSPH,"Finds a Human entering Data by interacting (possibly remotely) with a Process that processes the Data, of which there is a copy on the same Host.",FALSE,TRUE
+package#DataLifecycle,domain#R-HuiPiDCHS,HuiPiDCHS,Finds a user interacting directly with a process to enter data using a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuiPvDCHS,HuiPvDCHS,Finds a user interacting directly with a process to view data using a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuiPvDFCHS,HuiPvDFCHS,"Finds a user interacting directly with a process to view data using a console host located in a space, where the data comes from an inbound data flow.",FALSE,FALSE
+package#DataLifecycle,domain#R-HuiRACHSPiD,HuiRACHSPiD,Finds a user entering data via remote interaction with a process using a remote access client on a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuiRACvDFCHS,HuiRACvDFCHS,Finds a user interacting directly with a process to view data using a remote access client on a console host located in a space.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuirPD,HuirPD,Finds a Human interacting (possibly remotely) with a Process that is using Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HuirPiD,HuirPiD,Finds Human interacting (possibly remotely) with and entering Data via a Process.,FALSE,FALSE
@@ -640,6 +640,8 @@ package#ProcessTrust,domain#R-ACDFVFC,ACDFVFC,"Finds a data flow encrypted with 
 package#ProcessTrust,domain#R-ACDFVFS,ACDFVFS,"Finds a data flow encrypted with keys from a vault, flowing from a service to/via a client, and the associated channel, data and data access. Note that roles FlowsFrom and Service are matched by the same asset(s). Having two roles makes it possible to create links to control strategies using either role name.",FALSE,FALSE
 package#ProcessTrust,domain#R-ACDFVTC,ACDFVTC,"Finds a data flow encrypted with keys from a vault, flowing to a client from a service, and the associated auth channel, data and data access. The destination of the flow is matched twice, so they can be referred to by either role name in control strategies.",FALSE,FALSE
 package#ProcessTrust,domain#R-ACDFVTS,ACDFVTS,"Finds a data flow encrypted with keys from a vault, flowing to a service from/via a client, and the associated channel, data and data access. Note that roles FlowsTo and Service are matched by the same asset(s). Having two roles makes it possible to create links to control strategies using either role name.",FALSE,FALSE
+package#ProcessTrust,domain#R-ACHPrDSDI,ACHPrDSDI,"Finds a stored policy regulating a process acting as a service, plus the process and data host and a trust relationship of a Client to the Process",FALSE,FALSE
+package#ProcessTrust,domain#R-ACPrDFDI,ACPrDFDI,"Finds a data flow regulating a process acting as a service, and a trust relationship of a Client to the Process. The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#ProcessTrust,domain#R-CzS,CzS,Finds a client providing authorization claims to a remote service.,FALSE,FALSE
 package#ProcessTrust,domain#R-CzSzP,CzSzP,Finds a client sending an authorization token to a service which uses a separate OAuth-style process to validate and exchange the token.,FALSE,FALSE
 package#ProcessTrust,domain#R-CACHLSS,CACHLSS,"Finds a service accessed by a client via a subnet the client need not normally be on, and an associated context for access to the client.",FALSE,FALSE

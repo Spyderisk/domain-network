@@ -675,6 +675,9 @@ package#ProcessTrust,domain#MP-ACDFVFS-i,domain#Node-ProxyChannel-ClientChannel,
 package#ProcessTrust,domain#MP-ACDFVTS-i,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-ACDFVTS-i,domain#Node-ProxyChannel-ClientChannel,FALSE,TRUE,FALSE
 package#ProcessTrust,domain#MP-ACDFVTS-i,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
+package#ProcessTrust,domain#MP-ACHPrDSDI,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#ProcessTrust,domain#MP-ACHPrDSDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
+package#ProcessTrust,domain#MP-ACPrDFDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CzS-CC,domain#Node-ClientChannel-ClientChannel,FALSE,TRUE,FALSE
 package#ProcessTrust,domain#MP-CACHLSS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CACHLSS,domain#Node-Human-Human,FALSE,FALSE,FALSE

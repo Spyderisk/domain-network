@@ -19,6 +19,7 @@ package#Application,domain#enablesUserAccess,domain#Process
 package#Application,domain#enablesUserInput,domain#Process
 package#Application,domain#enablesUserOutput,domain#Process
 package#Application,domain#enablesUserUpdate,domain#Process
+package#Application,domain#executes,domain#Process
 package#Application,domain#handles,domain#Process
 package#Application,domain#hasCLI,domain#Process
 package#Application,domain#hasEmail,domain#Human
@@ -29,6 +30,7 @@ package#Application,domain#noDU,domain#Process
 package#Application,domain#processes,domain#Process
 package#Application,domain#reads,domain#Process
 package#Application,domain#receives,domain#Process
+package#Application,domain#regulatedBy,domain#Process
 package#Application,domain#relays,domain#Process
 package#Application,domain#serves,domain#Process
 package#Application,domain#stores,domain#Host

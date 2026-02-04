@@ -16,6 +16,7 @@ package#DataLifecycle,domain#DisabledDataFlow,domain#DataFlow
 package#DataLifecycle,domain#EncryptedProcessing,domain#DataAccess
 package#DataLifecycle,domain#Encryption,domain#DataAsset
 package#DataLifecycle,domain#IntegrityProtection,domain#DataAsset
+package#DataLifecycle,domain#MinimalDataExposure,domain#DataAccess
 package#DataLifecycle,domain#ParquetEncryption,domain#DataCopy
 package#DataLifecycle,domain#Replication,domain#DataCopy
 package#DataLifecycle,domain#SuspendCorruptDataFlow,domain#DataFlow
