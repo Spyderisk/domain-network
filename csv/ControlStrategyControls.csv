@@ -378,6 +378,9 @@ package#NetworkConnectivity,domain#CSG-BlockInterface,domain#CS-FWBlock-Interfac
 package#NetworkConnectivity,domain#CSG-DisableNetworkConnection,domain#CS-DisableInterface-Interface,FALSE
 package#NetworkConnectivity,domain#CSG-DisablePortForwarding-Runtime,domain#CS-DisableServiceAccess-FwdSegment,FALSE
 package#NetworkConnectivity,domain#CSG-FilterDosAtInterface,domain#CS-DDoSFiltering-Interface,FALSE
+package#PatientHarms,domain#CSG-RealTimeDataUnneeded,domain#CS-RealTimeDataUnneeded-Data,FALSE
+package#PatientHarms,domain#CSG-SelfCareTreatment,domain#CS-SelfCareTreatment-Patient,FALSE
+package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#CS-WaitForUptoDateData-Data,FALSE
 package#Physical,domain#CSG-BiometricAccessControlAtSpace,domain#CS-BiometricLock-Space,FALSE
 package#Physical,domain#CSG-ChipAndPinAccessControlAtSpace,domain#CS-ChipAndPINLock-Space,FALSE
 package#Physical,domain#CSG-ContinuouslyOccupiedSpace,domain#CS-ContinuousOccupation-Space,FALSE

@@ -49,6 +49,8 @@ package#Network,domain#uses,domain#usesService
 package#Network,domain#usesForAuth,domain#usesService
 package#Network,domain#usesForAuthZ,domain#accessesService
 package#Network,domain#usesService,domain#accessesService
+package#PatientHarms,domain#definesTreatmentFor,domain#relatesTo
+package#PatientHarms,domain#diagnosisFor,domain#relatesTo
 package#ProcessComms,domain#usesAsProxy,domain#viaProxy
 package#ProcessComms,domain#usesViaDeputy,domain#usesIndirectly
 package#ProcessComms,domain#usesViaProxy,domain#usesViaDeputy

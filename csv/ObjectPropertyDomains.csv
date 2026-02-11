@@ -179,6 +179,14 @@ package#NetworkConnectivity,domain#traverses,domain#LogicalPath
 package#NetworkConnectivity,domain#via,domain#LogicalSegment
 package#NetworkConnectivity,domain#visits,domain#LogicalPath
 package#NetworkConnectivity,domain#visitsGateway,domain#LogicalPath
+package#PatientHarms,domain#administersTreatment,domain#Controller
+package#PatientHarms,domain#administersTreatment,domain#Human
+package#PatientHarms,domain#confirmsDiagnosis,domain#Adult
+package#PatientHarms,domain#definesTreatmentFor,domain#Data
+package#PatientHarms,domain#diagnoses,domain#Adult
+package#PatientHarms,domain#diagnosisFor,domain#Data
+package#PatientHarms,domain#treats,domain#Adult
+package#PatientHarms,domain#treats,domain#Controller
 package#Physical,domain#accessibleVia,domain#Space
 package#Physical,domain#isWorld,domain#World
 package#Privacy,domain#relatesTo,domain#Data

@@ -614,6 +614,17 @@ package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-L3rGrL3+OSg,L3rGrL3+OS
 package#NetworkConnectivity,domain#CP-SgHfILS+f,domain#CP-Marker+NetworkSegments-1,SgHfILS+f is at the start of the network path segment relationship inference sequence,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-L3rGrL3+OSg,L3rGrL3+OSg creates link that in SgHfILS+f should match LogicalSegment-via-Host,FALSE,TRUE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,domain#CP-Marker+NetworkSegments-1,SgHtILS+t is at the start of the network path segment relationship inference sequence,FALSE,TRUE
+package#PatientHarms,domain#CP-CttHup-rel+rel,domain#CP-Marker+PatientHarm-0,,FALSE,TRUE
+package#PatientHarms,domain#CP-CttHupDct-at+at,domain#CP-HuctHupiDt+at,,FALSE,TRUE
+package#PatientHarms,domain#CP-CttHupDct-dt+dt,domain#CP-Marker+PatientHarm-2,,FALSE,TRUE
+package#PatientHarms,domain#CP-HucdHupiDd+cd,domain#CP-HupvdDdt-Hucat-Ctat+at,,FALSE,TRUE
+package#PatientHarms,domain#CP-HuctHupiDt+at,domain#CP-CttHupDct-dt+dt,,FALSE,TRUE
+package#PatientHarms,domain#CP-HupvdDdt-Hucat-Ctat+at,domain#CP-CttHupDct-at+at,,FALSE,TRUE
+package#PatientHarms,domain#CP-Marker+PatientHarm-0,domain#CP-Marker+DataStorage-1,,FALSE,TRUE
+package#PatientHarms,domain#CP-Marker+PatientHarm-2,domain#CP-Marker+PatientHarm-1,,FALSE,TRUE
+package#PatientHarms,domain#CP-Marker+PatientHarm-2,domain#CP-Marker+UserDataInteraction-1,,FALSE,TRUE
+package#PatientHarms,domain#CP-Marker+PatientHarm-3,domain#CP-HucdHupiDd+cd,,FALSE,TRUE
+package#PatientHarms,domain#CP-Marker+PatientHarm-3,domain#CP-Marker+PatientHarm-2,,FALSE,TRUE
 package#Physical,domain#CP-Marker+SpaceClassification-0,domain#CP-Marker+SpaceCreation-1,Inferred space creation should precedes space classification,FALSE,TRUE
 package#Physical,domain#CP-Marker+SpaceClassification-1,domain#CP-Marker+SpaceClassification-0,Start precedes end of sequence,FALSE,TRUE
 package#Physical,domain#CP-Marker+SpaceCreation-1,domain#CP-Marker+SpaceCreation-0,Start precedes end of sequence,FALSE,TRUE

@@ -15,6 +15,7 @@ domain#Category-MaliciousEmail,Malicious Email,Attacks in which email provides t
 domain#Category-MaliciousInput,Malicious Input,Attack carried out by arranging for unauthentic input to be used by a process.
 domain#Category-MalwareAttack,MalwareAttack,An attack carried out autonomously by malware.
 domain#Category-NormalOperation,NormalOperation,"Normal operational processes, e.g. starting services, enabling communications, etc. The effect is typically to bring an asset or function into service. While this is usually desirable, it does expose the asset to threats, and in some cases the best defence is to disable the asset or function. For this reason, such processes are treated as threats and disablement measures as control strategies against those threats."
+domain#Category-PatientHarms,PatientHarms,Threats that lead to different patient harms.
 domain#Category-PhysicalAttacks,Physical Attack,Attacks that involve physical intrusion to restricted areas or physical access to devices or networks.
 domain#Category-RemoteAttacks,Remote Attack,Unauthorised remote access exploiting lack of controls not software vulnerabilities.
 domain#Category-SecondaryThreats,Secondary Threat,Threats representing mechanisms by which adverse effects can propagate within an asset or between dependent assets.

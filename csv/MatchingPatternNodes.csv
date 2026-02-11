@@ -572,6 +572,15 @@ package#NetworkConnectivity,domain#MP-RoH,domain#Node-HostAccess-HContext,TRUE,F
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-RoH,domain#Node-Internet-Internet,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#MP-Sg,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
+package#PatientHarms,domain#MP-HucdHup-Dd,domain#Node-Data-Data,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HuctHup-Ddt,domain#Node-Data-Data,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,domain#Node-Clinician-Adult,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,domain#Node-Controller-Controller,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HupDhd-Hucdcd,domain#Node-Clinician-Adult,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-Hupd-Dh,domain#Node-DiagnosisData-HealthData,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-Hupdt-Dh,domain#Node-TreatmentData-HealthData,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,domain#Node-Clinician-Adult,FALSE,TRUE,FALSE
+package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,domain#Node-Controller-Controller,FALSE,TRUE,FALSE
 package#Physical,domain#MP-PPS-E,domain#Node-Entrance-Space,FALSE,TRUE,FALSE
 package#Privacy,domain#MP-HurH-StSt,domain#Node-Employer-Stakeholder,FALSE,TRUE,FALSE
 package#Privacy,domain#MP-HurH-StSt,domain#Node-Operator-Stakeholder,FALSE,TRUE,FALSE

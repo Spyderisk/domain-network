@@ -91,6 +91,10 @@ package#NetworkConnectivity,domain#CSG-NetworkEAP-PSK,domain#I.A.GdHWS.6
 package#NetworkConnectivity,domain#CSG-NetworkEAP-TLS,domain#I.A.GdHRS.6
 package#NetworkConnectivity,domain#CSG-NetworkEAP-TLS,domain#I.A.GdHRSi.6
 package#NetworkConnectivity,domain#CSG-NetworkEAP-TLS,domain#I.A.GdHWS.6
+package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Hu.Ph-Dd.HucdHupcdDd.0
+package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Hu.Ph-Td.CttHupatDdt.0
+package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Hu.Ph-Td.HuctHupatDt.0
+package#PatientHarms,domain#CSG-WaitForUpToDateData,domain#Hu.Ph-Td.HupatDt.0
 package#ProcessComms,domain#CSG-BlockGatewayRoute,domain#Sg.TA.L3SSg2-b.8.2
 package#ProcessComms,domain#CSG-BlockInterface,domain#I.TA.I.8.2
 package#ProcessComms,domain#CSG-DisablePortForwarding-Runtime,domain#Sg.TA.L3SSg2AC.1

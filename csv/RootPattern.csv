@@ -531,6 +531,26 @@ package#NetworkConnectivity,domain#R-SgAC,SgAC,"Finds a logical segment between 
 package#NetworkConnectivity,domain#R-SgHfILS,SgHfILS,"Finds a Logical Segment via a Host routing from a Logical Subnet, and the Interface between the Host and Logical Subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-SgHtILS,SgHtILS,"Finds a Logical Segment via a Host routing to a Logical Subnet, and the Interface between the Host and Logical Subnet.",FALSE,FALSE
 package#NetworkConnectivity,domain#R-WScMcWS,WScMcWS,"Finds a Mobile Host connected between two Wired LANs, both in the same space.",FALSE,FALSE
+package#PatientHarms,domain#R-CtHupDctdt,CtHupDctdt,"A Controller (Actuator) treating a patient being controlled by thing Data that also definesTreatment for a Human (Patient), but where there is no link to the Controller treating the Patient.",FALSE,FALSE
+package#PatientHarms,domain#R-CttHup,CttHup,A Controller (Actuator) treating a patient.,FALSE,FALSE
+package#PatientHarms,domain#R-CttHupDct,CttHupDct,A Controller (Actuator) being controlled by thing Data and treating a Human (Patient).,FALSE,FALSE
+package#PatientHarms,domain#R-CttHupatDdt,CttHupatDdt,Controller (Actuator) treating a Patient directly by applying the Data treatment plan that controls it and that defines the treatment for the Patient.,FALSE,FALSE
+package#PatientHarms,domain#R-HucdHup,HucdHup,"Clinician diagnosing patient, but without a link where they interact with some monitoring Data to confirm the diagnosis.",FALSE,FALSE
+package#PatientHarms,domain#R-HucdHupDd,HucdHupDd,"Clinician diagnosing patient and monitoring Data that confirms the diagnosis, but no link to assert that the Clinician confirms the diagnosis of the Data.",FALSE,FALSE
+package#PatientHarms,domain#R-HucdHupcdDd,HucdHupcdDd,Clinician diagnosing patient interacts with monitoring Data to confirm the diagnosis.,FALSE,FALSE
+package#PatientHarms,domain#R-HucdHupiDd,HucdHupiDd,A Clinician diagnosing a Patient interacts with the patient monitoring data that is Data to confirm the diagnosis.,FALSE,FALSE
+package#PatientHarms,domain#R-HuctHup,HuctHup,Human (Clinician) is treating a Human (Patient).,FALSE,FALSE
+package#PatientHarms,domain#R-HuctHupDdt,HuctHupDdt,"Human (Clinician) is treating a Human (Patient), with Data present that defines the treatment for the Patient but not with the assertion that the Clinician administers this treatment.",FALSE,FALSE
+package#PatientHarms,domain#R-HuctHupatDt,HuctHupatDt,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Data, which defines the treatemnt for the Human (Patient).",FALSE,FALSE
+package#PatientHarms,domain#R-HuctHupiDt,HuctHupiDt,A Clinician treating a Patient interacts with the patient treatment plan that is Data to take the instructed actions to treat patient.,FALSE,FALSE
+package#PatientHarms,domain#R-Hup,Hup,Finds a solo Human (Patient).,FALSE,FALSE
+package#PatientHarms,domain#R-HupDdt,HupDdt,Finds a solo Human (Patient) with Data defining their treatment.,FALSE,FALSE
+package#PatientHarms,domain#R-HupDdtat,HupDdtat,Finds a solo Human (Patient) with Data defining their treatment and them administering that treatment via self-care practices.,FALSE,TRUE
+package#PatientHarms,domain#R-HupDhd,HupDhd,"Finds data that is a diagnosisFor a Human (Patient), where a Clinician is not present to preform the diagnosis.",FALSE,FALSE
+package#PatientHarms,domain#R-HupatDt,HupatDt,"A Patient administering their treatment, as defined by their Data treatment plan, via self-care.",FALSE,TRUE
+package#PatientHarms,domain#R-Hupd,Hupd,Finds a solo Human (Patient) that has a diagnosisFor relationship leading to them from a data asset.,FALSE,FALSE
+package#PatientHarms,domain#R-Hupdt,Hupdt,Finds a solo Human (Patient) that has a definesTreatmentFor relationship leading to them from a data asset.,FALSE,FALSE
+package#PatientHarms,domain#R-HupvdDdt,HupvdDdt,A patient viewing Data that defines their treatment.,FALSE,TRUE
 package#Physical,domain#R-PPS,PPS,Finds a Private Physical Space.,FALSE,FALSE
 package#Physical,domain#R-PSS,PSS,"Finds two spaces, one of which is accessible via the other.",FALSE,FALSE
 package#Physical,domain#R-W,W,Finds a solo World asset (i.e. the inferred global public space).,FALSE,FALSE

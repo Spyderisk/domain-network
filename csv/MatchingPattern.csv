@@ -623,6 +623,27 @@ package#NetworkConnectivity,domain#MP-Sg,Sg,"Finds a gateway host between two su
 package#NetworkConnectivity,domain#MP-SgHfILS,SgHfILS,"Finds a Logical Segment via a Host routing from a Logical Subnet, and the Interface between the Host and Logical Subnet.",domain#R-SgHfILS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-SgHtILS,SgHtILS,"Finds a Logical Segment via a Host routing to a Logical Subnet, and the Interface between the Host and Logical Subnet.",domain#R-SgHtILS,FALSE,FALSE
 package#NetworkConnectivity,domain#MP-WScMcWS,WScMcWS,"Finds a Mobile Host connected between two distinct Wired LANs, both in the same space.",domain#R-WScMcWS,FALSE,FALSE
+package#PatientHarms,domain#MP-CtHupDctdt-t,CtHupDctdt-t,"A Controller (Actuator) treating a patient being controlled by thing Data that also definesTreatment for a Human (Patient), but where the Controller is not treating the Patient.",domain#R-CtHupDctdt,FALSE,FALSE
+package#PatientHarms,domain#MP-CttHup-rel,CttHup-rel,A Controller (Actuator) treating a Patient that is missing the relatesTo relationship.,domain#R-CttHup,FALSE,TRUE
+package#PatientHarms,domain#MP-CttHupDct-at,CttHupDct-at,"A Controller (Actuator) being controlled by thing Data and treating a Human (Patient), where the Controller has not been asserted to administer the treatment that is the Data.",domain#R-CttHupDct,FALSE,TRUE
+package#PatientHarms,domain#MP-CttHupDct-dt,CttHupDct-dt,"A Controller (Actuator) being controlled by thing Data and treating a Human (Patient), where the Data has not been asserted to define the treatment for the Human (Patient).",domain#R-CttHupDct,FALSE,FALSE
+package#PatientHarms,domain#MP-CttHupatDdt,CttHupatDdt,Controller (Actuator) treating a Patient directly by applying the Data treatment plan that controls it and that defines the treatment for the Patient.,domain#R-CttHupatDdt,FALSE,FALSE
+package#PatientHarms,domain#MP-HucdHup-Dd,HucdHup-Dd,"Clinician diagnosing Patient, but without monitoring Data that is the diagnosisFor the Patient.",domain#R-HucdHup,FALSE,FALSE
+package#PatientHarms,domain#MP-HucdHupDd-cd,HucdHupDd-cd,"Clinician diagnosing patient and monitoring Data that confirms the diagnosis, but Clinician does not confirm the diagnosis of the Data.",domain#R-HucdHupDd,FALSE,FALSE
+package#PatientHarms,domain#MP-HucdHupcdDd,HucdHupcdDd,Clinician diagnosing patient interacts with monitoring Data to confirm the diagnosis.,domain#R-HucdHupcdDd,FALSE,FALSE
+package#PatientHarms,domain#MP-HucdHupiDd,HucdHupiDd,A Clinician diagnosing a Patient interacts with the patient monitoring data that is Data to confirm the diagnosis.,domain#R-HucdHupiDd,FALSE,FALSE
+package#PatientHarms,domain#MP-HuctHup-Ddt,HuctHup-Ddt,Human (Clinician) is treating a Human (Patient) but there is no data that defines the treatment for the Human (Patient).,domain#R-HuctHup,FALSE,FALSE
+package#PatientHarms,domain#MP-HuctHupDdt-at,HuctHupDdt-at,"Human (Clinician) is treating a Human (Patient), with Data present that defines the treatment for the Patient but not with the assertion that the Clinician administers this treatment.",domain#R-HuctHupDdt,FALSE,FALSE
+package#PatientHarms,domain#MP-HuctHupatDt,HuctHupatDt,"Human (Clinician) is treating a Human (Patient) by administering the treatment plan given by the Data, which defines the treatemnt for the Human (Patient).",domain#R-HuctHupatDt,FALSE,FALSE
+package#PatientHarms,domain#MP-HuctHupiDt,HuctHupiDt,A Clinician treating a Patient interacts with the patient treatment plan that is Data to take the instructed actions to treat patient.,domain#R-HuctHupiDt,FALSE,FALSE
+package#PatientHarms,domain#MP-Hup,Hup,Finds a solo Human (Patient).,domain#R-Hup,FALSE,FALSE
+package#PatientHarms,domain#MP-HupDdt-at-Hucat-Ctat,HupDdt-at-Hucat-Ctat,Finds a solo Human (Patient) with Data defining their treatment but without the Patient administering the treatment via self-care or a Clinician or Actuator administering the treatment.,domain#R-HupDdt,FALSE,TRUE
+package#PatientHarms,domain#MP-HupDdtat,HupDdtat,Finds a solo Human (Patient) with Data defining their treatment and the Patient administering the treatment via self-care.,domain#R-HupDdtat,FALSE,FALSE
+package#PatientHarms,domain#MP-HupDhd-Hucdcd,HupDhd-Hucdcd,"Finds data that is a diagnosisFor a Human (Patient), where a Clinician is not present to preform the diagnosis.",domain#R-HupDhd,FALSE,FALSE
+package#PatientHarms,domain#MP-HupatDt,HupatDt,"A Patient administering their treatment, as defined by their Data treatment plan, via self-care.",domain#R-HupatDt,FALSE,FALSE
+package#PatientHarms,domain#MP-Hupd-Dh,Hupd-Dh,A Human (Patient) that has a diagnosisFor relationship leading to them which does not come from a Health Data asset.,domain#R-Hupd,FALSE,FALSE
+package#PatientHarms,domain#MP-Hupdt-Dh,Hupdt-Dh,A Human (Patient) that has a definesTreatmentFor relationship leading to them which does not come from a Health Data asset.,domain#R-Hupdt,FALSE,FALSE
+package#PatientHarms,domain#MP-HupvdDdt-Hucat-Ctat,HupvdDdt-Hucat-Ctat,"A patient viewing Data that defines their treatment, without a Clinician or Controller (Actuator) being present to administer the treatment.",domain#R-HupvdDdt,FALSE,FALSE
 package#Physical,domain#MP-PPS,PPS,Finds a Private Physical Space.,domain#R-PPS,FALSE,FALSE
 package#Physical,domain#MP-PPS-E,PPS-E,Finds a Private Space that is not accessible from any other Space.,domain#R-PPS,FALSE,FALSE
 package#Physical,domain#MP-PSS,PSS,"Finds two spaces, one of which is private and accessible via the other.",domain#R-PSS,FALSE,FALSE

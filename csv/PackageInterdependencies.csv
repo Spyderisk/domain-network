@@ -18,6 +18,7 @@ package#LocalDeviceConnectivity,package#ProcessComms
 package#Network,package#AccessContext
 package#Network,package#Users
 package#NetworkConnectivity,package#Network
+package#PatientHarms,package#IoT
 package#Physical,package#Core
 package#Privacy,package#DataLifecycle
 package#ProcessComms,package#Application

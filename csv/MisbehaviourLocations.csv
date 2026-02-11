@@ -63,6 +63,12 @@ package#NetworkConnectivity,domain#ConnectionsAllowed,domain#CommsAsset
 package#NetworkConnectivity,domain#LossOfAvailability,domain#CommsAsset
 package#NetworkConnectivity,domain#NetworkSpoofing,domain#Interface
 package#NetworkConnectivity,domain#Overloaded,domain#Interface
+package#PatientHarms,domain#AbsenceOfDiagnosis,domain#Human
+package#PatientHarms,domain#AbsenceOfTreatment,domain#Human
+package#PatientHarms,domain#DelayedDiagnosis,domain#Human
+package#PatientHarms,domain#DelayedTreatment,domain#Human
+package#PatientHarms,domain#InappropriateTreatment,domain#Human
+package#PatientHarms,domain#Misdiagnosis,domain#Human
 package#Physical,domain#PhysicalBreach,domain#PrivateSpace
 package#Physical,domain#PhysicalIntrusion,domain#Space
 package#ProcessComms,domain#CommsSnoopable,domain#ConnectionChannel

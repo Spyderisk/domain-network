@@ -171,6 +171,12 @@ package#NetworkConnectivity,domain#traverses,traverses,The NetworkPath traverses
 package#NetworkConnectivity,domain#via,via,The LogicalSegment routes messages across Interfaces or through a Host.,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#visits,visits,"The Network Path passes through the Logical Subnet, which is either at the start or end of the path, or between the start and end of the path.",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
 package#NetworkConnectivity,domain#visitsGateway,visitsGateway,The NetworkPath goes from one subnet to another via the host.,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+package#PatientHarms,domain#administersTreatment,administersTreatment,Indicates an Adult (Clinician) or Human (Patient) using and acting on the Data that is the treatment plan.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#confirmsDiagnosis,confirmsDiagnosis,Indicates an Adult (Clinician) confirming the diagnosis that is the Data.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#definesTreatmentFor,definesTreatmentFor,"Data that defines the treatment plan from which the treatment actions are taken, either by the Clinician through a treats relationship to the patient or by the Patient themselves.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#diagnoses,diagnoses,Indicates an Adult (Clinician) diagnosing a Human (Patient).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#diagnosisFor,diagnosisFor,"Data that defines the diagnosis of a Patient, through a Clinician diagnoses Patient relationship.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#PatientHarms,domain#treats,treats,Indicates an Adult (Clinician) treating a Human (Patient).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#Physical,domain#accessibleVia,accessibleVia,The first Space is inside or adjacent to and can be entered from the second Space.,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
 package#Physical,domain#isWorld,isWorld,"Self-referential relationship used to designate the global public space, so it can be included or excluded in matching patterns on base classes as appropriate.",TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
 package#Privacy,domain#relatesTo,relatesTo,A relationship between a personal (including IoT) device and a Human user. Data on the device may be Personally identifiable information (PII) related to that user.,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE

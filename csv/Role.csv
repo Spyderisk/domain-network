@@ -148,6 +148,10 @@ package#NetworkConnectivity,domain#Role_RetSegment,RetSegment,A logical segment 
 package#NetworkConnectivity,domain#Role_SubPath,SubPath,Role assigned to a subpath of some other network path.
 package#NetworkConnectivity,domain#Role_ToHost,ToHost,A host that is (or hosts) the destination of a message or data flow.
 package#NetworkConnectivity,domain#Role_ToSubnet,ToSubnet,A subnet at the end of a network path or communication channel.
+package#PatientHarms,domain#Role_Clinician,Clinician,An Adult who is a Clinician.
+package#PatientHarms,domain#Role_DiagnosisData,DiagnosisData,Data representing the diagnosis data of a Patient.
+package#PatientHarms,domain#Role_Patient,Patient,A Human who is a Patient.
+package#PatientHarms,domain#Role_TreatmentData,TreatmentData,Represents the data that represents the treatment instructions data of a Patient.
 package#Physical,domain#Role_Entrance,Entrance,A space from which another space can be entered.
 package#Physical,domain#Role_LocalSpace,LocalSpace,A nearby space.
 package#Physical,domain#Role_Operable,Operable,A role fulfilled by an Operable asset.

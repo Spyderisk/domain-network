@@ -81,6 +81,16 @@ package#Network,domain#Anomalies,domain#P.E.THGP.9
 package#Network,domain#Anomalies,domain#W.E.WmPH.9
 package#NetworkConnectivity,domain#Anomalies,domain#H.E.RScGcRS.9
 package#NetworkConnectivity,domain#Anomalies,domain#H.E.WScMcWS.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.CtHupDctdt-t.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HucdHup-Dd.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HucdHupDd-cd.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HuctHup-Ddt.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HuctHupDdt-at.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HupDdt-at-Hucat-Ctat.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HupDdtat.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.HupDhd-Hucdcd.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.Hupd-Dh.9
+package#PatientHarms,domain#Anomalies,domain#Hu.E.Hupdt-Dh.9
 package#ProcessComms,domain#Anomalies,domain#P.E.HuiSP.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTuP-hCLI.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTurP-hCLI.9

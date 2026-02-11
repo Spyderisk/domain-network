@@ -523,6 +523,16 @@ package#NetworkConnectivity,domain#CP-OPPS2+PP,32,domain#S-NetworkPaths,FALSE
 package#NetworkConnectivity,domain#CP-PS-iH+PPE,32,domain#S-NetworkPaths,FALSE
 package#NetworkConnectivity,domain#CP-SgHfILS+f,28,domain#S-NetworkSegments,FALSE
 package#NetworkConnectivity,domain#CP-SgHtILS+t,28,domain#S-NetworkSegments,FALSE
+package#PatientHarms,domain#CP-CttHup-rel+rel,0,domain#S-PatientHarmsInference0,FALSE
+package#PatientHarms,domain#CP-CttHupDct-at+at,0,domain#S-PatientHarmsInference1,FALSE
+package#PatientHarms,domain#CP-CttHupDct-dt+dt,0,domain#S-PatientHarmsInference1,FALSE
+package#PatientHarms,domain#CP-HucdHupiDd+cd,0,domain#S-PatientHarmsInference1,FALSE
+package#PatientHarms,domain#CP-HuctHupiDt+at,0,domain#S-PatientHarmsInference1,FALSE
+package#PatientHarms,domain#CP-HupvdDdt-Hucat-Ctat+at,0,domain#S-PatientHarmsInference1,FALSE
+package#PatientHarms,domain#CP-Marker+PatientHarm-0,0,domain#S-PatientHarmsInference0,FALSE
+package#PatientHarms,domain#CP-Marker+PatientHarm-1,0,domain#S-PatientHarmsInference0,FALSE
+package#PatientHarms,domain#CP-Marker+PatientHarm-2,0,domain#S-PatientHarmsInference1,FALSE
+package#PatientHarms,domain#CP-Marker+PatientHarm-3,0,domain#S-PatientHarmsInference1,FALSE
 package#Physical,domain#CP-Marker+SpaceClassification-0,0,domain#S-SpaceClassification,FALSE
 package#Physical,domain#CP-Marker+SpaceClassification-1,0,domain#S-SpaceClassification,FALSE
 package#Physical,domain#CP-Marker+SpaceCreation-0,1,domain#S-SpaceCreation,FALSE

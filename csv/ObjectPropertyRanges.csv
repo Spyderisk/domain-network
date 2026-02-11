@@ -183,6 +183,12 @@ package#NetworkConnectivity,domain#traverses,domain#LogicalSegment
 package#NetworkConnectivity,domain#via,domain#Host
 package#NetworkConnectivity,domain#visits,domain#LogicalSubnet
 package#NetworkConnectivity,domain#visitsGateway,domain#Host
+package#PatientHarms,domain#administersTreatment,domain#Data
+package#PatientHarms,domain#confirmsDiagnosis,domain#Data
+package#PatientHarms,domain#definesTreatmentFor,domain#Human
+package#PatientHarms,domain#diagnoses,domain#Human
+package#PatientHarms,domain#diagnosisFor,domain#Human
+package#PatientHarms,domain#treats,domain#Human
 package#Physical,domain#accessibleVia,domain#Space
 package#Physical,domain#isWorld,domain#World
 package#Privacy,domain#relatesTo,domain#Human
