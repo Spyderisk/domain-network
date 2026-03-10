@@ -78,6 +78,8 @@ package#DataLifecycle,domain#CP-AC+noDX,domain#CP-Marker+ProcessClassification-1
 package#DataLifecycle,domain#CP-AS+noDX,domain#CP-Marker+ProcessClassification-1,AS+noDX is at the end of the process classification sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-Marker+DataKeys-1,CCDFCDAScDA-c+a is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-Marker+DataKeys-1,CCDFSDAScDA-c+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#CP-Marker+DataPathLAC-0,CS-SP-noDX+DX should precede data path creation from data stores,FALSE,TRUE
+package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#CP-Marker+DataPathLAC-2,CS-SP-noDX+DX should precede data path creation from data producing clients,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADS+W,domain#CP-Marker+DataCopy-3,DADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADS+ds,domain#CP-Marker+DataChannel-1,DADS+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,domain#CP-PDO+fS,PDO+fS creates a link that in DADSDCSDD-f+ch should miss DataSource-fromSource-DataAccess,FALSE,TRUE
@@ -105,6 +107,9 @@ package#DataLifecycle,domain#CP-Marker+DataChannel-2,domain#CP-Marker+DataPath-2
 package#DataLifecycle,domain#CP-Marker+DataCopy-1,domain#CP-Marker+SystemProcess-0,,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataCopy-3,domain#CP-Marker+SystemClientService-0,System client-service relationship inference should follow data flow and persistent data access inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataKeys-1,domain#CP-Marker+SystemClientService-1,Data key management inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-1,domain#CP-Marker+DataPath-1,Creating data paths from data stores is a subsequence of data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-3,domain#CP-Marker+DataPath-1,Creating data paths from data producing clients is a subsequence of data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathRAC-1,domain#CP-Marker+DataPath-1,Extending data paths to remote access clients is a subsequence of data path creation,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+PhishingClient-1,domain#CP-Marker+SystemClient-1,Inferred phishing client creation is a subsequence of system client creation,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDI+d,domain#CP-Marker+DataChannel-1,PDI+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDI-Hu+d,domain#CP-Marker+DataChannel-1,PDI-Hu+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
@@ -116,7 +121,9 @@ package#DataLifecycle,domain#CP-PSDP+ds,domain#CP-Marker+DataChannel-1,PSDP+ds i
 package#DataLifecycle,domain#CP-PTDR+ds,domain#CP-Marker+DataChannel-1,PTDR+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-RUIDO+ds,domain#CP-Marker+DataChannel-1,RUIDO+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-RUODI+ds,domain#CP-Marker+DataChannel-1,RUODI+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-Marker+DataPath-1,SDADPPDXRAC-DP+DP is at the end of the data path creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-Marker+DataPathLAC-1,SDADPPDXP-Hu-DP+DP is at the end of the sequence for creating data paths from data stores,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-Marker+DataPathRAC-1,SDADPPDXRAC-DP+DP is at the end of the sequence for data path extension to remote access clients,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXS-Hu-DP+DP,domain#CP-Marker+DataPathLAC-3,SDADPPDXP-Hu-DP+DP is at the end of the sequence for creating data paths from data producing clients,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-Marker+DataCopy-3,SDUDADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-Marker+DataCopy-3,SDUDSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-Marker+DataKeys-1,ScDACDACCDF-c+a is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE

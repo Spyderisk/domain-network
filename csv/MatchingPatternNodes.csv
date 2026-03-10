@@ -193,8 +193,12 @@ package#DataLifecycle,domain#MP-HPuDSDI,domain#Node-HostManager-Human,FALSE,FALS
 package#DataLifecycle,domain#MP-HPuDSDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HSDADPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HSDADPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#MP-HSDADPDXS-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycle,domain#MP-HSDADPDXS-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HSDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#MP-HSDADPPDXS-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycle,domain#MP-HSDADPPDXS-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-HsACDS,domain#Node-HostAccess-HostContext,TRUE,FALSE,TRUE
 package#DataLifecycle,domain#MP-HsACDS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HsACDS-V,domain#Node-HostAccess-HostContext,TRUE,FALSE,TRUE
@@ -301,10 +305,14 @@ package#DataLifecycle,domain#MP-SDADPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRU
 package#DataLifecycle,domain#MP-SDADPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-SDADPDXPRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-SDADPDXRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycle,domain#MP-SDADPDXS-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycle,domain#MP-SDADPDXS-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-SDADPPDXP-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-SDADPPDXP-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-SDADPPDXPRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-SDADPPDXRAC-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycle,domain#MP-SDADPPDXS-Hu-DP,domain#Node-FlowsFrom-Process,TRUE,FALSE,FALSE
+package#DataLifecycle,domain#MP-SDADPPDXS-Hu-DP,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-ScDSPDI-DD,domain#Node-OutputAsset-DataAsset,FALSE,TRUE,FALSE
 package#DataStructure,domain#MP-DFF-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
 package#DataStructure,domain#MP-DSDDF-Hu-P,domain#Node-Human-Human,FALSE,TRUE,FALSE

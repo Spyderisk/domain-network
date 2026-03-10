@@ -160,10 +160,11 @@ package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-0
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-DCCt-Pod+Pod,DCCt-Pod+Pod creates a link that in PodP-Cn+Cn matches Host-provisionedBy-Pod,FALSE,TRUE
 package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-1,DCDFcV+c is at the start of the data cache security relationship inference sequence,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFSACaiFS+DS,H-sDFSACaiFS+DS creates a link that in H-sDFCFdS-ACau+DS matches Host-stores-Data,FALSE,TRUE
-package#DataCaching,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFSFdC+DS,H-sDFSFdC+DS creates a link that in H-sDFSACaiFS+DS matches Host-stores-Data,FALSE,TRUE
-package#DataCaching,domain#CP-H-sDFSFdC+DS,domain#CP-Marker+DataCache-0,H-sDFSFdC+DS is at the start of the temporary cache creation sequence,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFoSFdC+DS,H-sDFoSFdC+DS creates a link that in H-sDFSACaiFS+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFcCaiAC+DS,domain#CP-H-sDFuCudDFdS-ACau+DS,H-sDFuCudDFdS-ACau+DS creates a link that in H-sDFcCaiAC+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFcCr-aAC+DS,domain#CP-IDFfCCCftS-s+rI,IDFfCCCftS-s+rI creates a link that in H-sDFcCr-aAC+DS matches Process-runsIn-ProcAccess,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFiSFdC+DS,domain#CP-Marker+DataCache-0,H-sDFiSFdC+DS is at the start of the temporary cache creation sequence,FALSE,TRUE
+package#DataCaching,domain#CP-H-sDFoSFdC+DS,domain#CP-H-sDFiSFdC+DS,H-sDFiSFdC+DS creates a link that in H-sDFoSFdC+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,H-sDFuSdC+DS creates a link that in H-sDFrSACdDFiaS+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,H-sDFrSACdDFiaS+DS creates a link that in H-sDFuCudDFdS-ACau+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFCFdS-ACau+DS,H-sDFCFdS-ACau+DS creates a link that in H-sDFuSdC+DS matches Host-stores-Data,FALSE,TRUE
@@ -206,7 +207,6 @@ package#DataLifecycle,domain#CP-DFtP+fVP,domain#CP-DSDCDD2P+DF,DSDCDD2P+DF creat
 package#DataLifecycle,domain#CP-DI-fDCSDS+ch,domain#CP-Marker+DataChannel-3,DI-fDCSDS+ch is at the start of the data channel activation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DO-fDCSDD+ch,domain#CP-RA-fDCSDD+ch,RA-fDCSDD+ch creates a link that in DO-fDCSDD+ch matches DataOutput-fromSource-AccessFrom,FALSE,TRUE
 package#DataLifecycle,domain#CP-DP1+x,domain#CP-Marker+DataPath-2,DP1+x is at the start of the sequence for filling in data path extension relationships,FALSE,TRUE
-package#DataLifecycle,domain#CP-DP1+x,domain#CP-SDADPPDXRAC-DP+DP,SDADPPDXRAC-DP+DP creates an asset that in DP1+x matches DataPath,FALSE,TRUE
 package#DataLifecycle,domain#CP-DP3-x+x,domain#CP-DP1+x,DP1+x creates a link that in DP3-x+x matches DataPath-extendsDP-OldDataPath,FALSE,TRUE
 package#DataLifecycle,domain#CP-DSDA+R,domain#CP-HPDS-fDI-DO-DFI+f,HPDS-fDI-DO-DFI+f creates a link that in DSDA+R matches DataCopy-fulfils-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-DSDAfDD-fS+fS,domain#CP-DD-fDCSDS+ch,DD-fDCSDS+ch creates a link that in DSDAfDD-fS+fS matches DataRelay-possRevPath-DataChannel,FALSE,TRUE
@@ -241,9 +241,10 @@ package#DataLifecycle,domain#CP-HPsD-DS+DR,domain#CP-Marker+DataAccess-0,HPsD-DS
 package#DataLifecycle,domain#CP-HPsDPDFDS+f,domain#CP-Marker+DataCopy-2,HPsDPDFDS+f is at the start of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HPsDPDSDF+f,domain#CP-Marker+DataCopy-2,HPsDPDSDF+f is at the start of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HSDADPDXP-Hu-DP+DP,domain#CP-CS-SP-noDX+DX,CS-SP-noDX+DX creates a link that in HSDADPDXP-Hu-DP+DP matches DataExchange-connectsData-Process,FALSE,TRUE
-package#DataLifecycle,domain#CP-HSDADPDXP-Hu-DP+DP,domain#CP-PDO-DI+DP,PDO-DI+DP creates a link that in HSDADPDXP-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-HSDADPDXP-Hu-DP+DP,domain#CP-PDP+DP,PDP+DP creates a link that in HSDADPDXP-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
+package#DataLifecycle,domain#CP-HSDADPDXS-Hu-DP+DP,domain#CP-PDO-DI+DP,PDO-DI+DP creates a link that in HSDADPDXS-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-HSDADPPDXP-Hu-DP+DP,domain#CP-HSDADPDXP-Hu-DP+DP,HSDADPDXP-Hu-DP+DP creates a link that in HSDADPPDXP-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
+package#DataLifecycle,domain#CP-HSDADPPDXS-Hu-DP+DP,domain#CP-HSDADPDXS-Hu-DP+DP,HSDADPDXS-Hu-DP+DP creates a link that in HSDADPPDXS-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuSP+SMS,domain#CP-Marker+PhishingClient-0,HuSP+SMS is at the start of the inferred phishing client creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuWES+D,domain#CP-Marker+Phishing-0,HuWES+D is at the start of the phishing inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuaDPH-DS-DA+DU,domain#CP-PaDH-DS-Hu-DA+DU,PaDH-DS-Hu-DA+DU creates a link that in HuaDPH-DS-DA+DU is prohibited as DataAccess-usedFor-Data,FALSE,TRUE
@@ -279,6 +280,15 @@ package#DataLifecycle,domain#CP-Marker+DataPath-0,domain#CP-Marker+DataAccess-1,
 package#DataLifecycle,domain#CP-Marker+DataPath-1,domain#CP-Marker+DataPath-0,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataPath-2,domain#CP-Marker+DataPath-1,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataPath-3,domain#CP-Marker+DataPath-2,Start precedes end of sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-0,domain#CP-Marker+DataPath-0,Creating data paths from data stores is a subsequence of data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-1,domain#CP-Marker+DataPathLAC-0,Start precedes end of sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-2,domain#CP-Marker+DataPath-0,Creating data paths from data producer clients is a subsequence of data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-2,domain#CP-Marker+DataPathLAC-1,Data path creation from data producer clients should follow data path creation from data stores,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-3,domain#CP-Marker+DataPathLAC-2,Start precedes end of sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathRAC-0,domain#CP-Marker+DataPath-0,Data path extension to remote access clients is a subsequence of data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathRAC-0,domain#CP-Marker+DataPathLAC-1,Data path extension to remote access clients should follow other data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathRAC-0,domain#CP-Marker+DataPathLAC-3,Data path extension to remote access clients should follow other data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathRAC-1,domain#CP-Marker+DataPathRAC-0,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+Phishing-0,domain#CP-Marker+DataFlow-1,Data flow creation should precede phishing inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+Phishing-0,domain#CP-Marker+DataKeys-1,Data access key exchange inference should precede phishing inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+Phishing-1,domain#CP-Marker+Phishing-0,Start precedes end of sequence,FALSE,TRUE
@@ -289,9 +299,9 @@ package#DataLifecycle,domain#CP-PDI+d,domain#CP-Marker+DataChannel-0,PDI+d is at
 package#DataLifecycle,domain#CP-PDI-Hu+d,domain#CP-Marker+DataChannel-0,PDI-Hu+d is at the start of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDO+fS,domain#CP-Marker+DataChannel-3,PDO+fS is at the start of the data channel activation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDO+s,domain#CP-Marker+DataChannel-0,PDO+s is at the start of the data source and destination tagging sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-PDO-DI+DP,domain#CP-Marker+DataPath-0,PDO-DI+DP is at the start of the data path creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDO-DI+DP,domain#CP-Marker+DataPathLAC-2,PDO-DI+DP is at the start of the sequence for data path creation from data producing clients,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDOScDD-DS+z,domain#CP-Marker+DataKeys-0,PDOScDD-DS+z is at the start of the data key management interaction interaction inference sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-PDP+DP,domain#CP-Marker+DataPath-0,PDP+DP is at the start of the data path creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-PDP+DP,domain#CP-Marker+DataPathLAC-0,PDP+DP is at the start sequence for data path creation from data stores,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDP+ds,domain#CP-Marker+DataChannel-0,PDP+ds is at the start of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDR+ds,domain#CP-Marker+DataChannel-0,PDR+ds is at the start of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PIP-S+fS,domain#CP-Marker+DataChannel-3,PIP-S+fS is at the start of the data channel activation sequence,FALSE,TRUE
@@ -324,11 +334,13 @@ package#DataLifecycle,domain#CP-RevDFfDP2P+DS,domain#CP-DSDCDD2P+DF,DSDCDD2P+DF 
 package#DataLifecycle,domain#CP-RevDFtDP2P+DS,domain#CP-DDDCDS2P+DF,DDDCDS2P+DF creates a link that in RevDFtDP2P+DS matches DataFlow-flowsIn-Data,FALSE,TRUE
 package#DataLifecycle,domain#CP-RevDFtDP2P+DS,domain#CP-DSDCDD2P+DF,DSDCDD2P+DF creates a link that cannot match RevDFtDP2P+DS because the DataFlow flowsOut,TRUE,TRUE
 package#DataLifecycle,domain#CP-SDADPDXP-Hu-DP+DP,domain#CP-HSDADPPDXP-Hu-DP+DP,HSDADPPDXP-Hu-DP+DP creates a link that in SDADPDXP-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
-package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-SDADPPDXP-Hu-DP+DP,SDADPPDXP-Hu-DP+DP creates a link that in SDADPDXPRAC-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPDXPRAC-DP+DP,domain#CP-Marker+DataPathRAC-0,SDADPDXPRAC-DP+DP is at the start of the sequence for extending data paths to remote access clients,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDADPDXRAC-DP+DP,domain#CP-SDADPPDXPRAC-DP+DP,SDADPPDXPRAC-DP+DP creates a link that in SDADPDXRAC-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPDXS-Hu-DP+DP,domain#CP-HSDADPPDXS-Hu-DP+DP,HSDADPPDXS-Hu-DP+DP creates a link that in SDADPDXS-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-SDADPDXP-Hu-DP+DP,SDADPDXP-Hu-DP+DP creates a link that in SDADPPDXP-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDADPPDXPRAC-DP+DP,domain#CP-SDADPDXPRAC-DP+DP,SDADPDXPRAC-DP+DP creates a link that in SDADPPDXPRAC-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-SDADPDXRAC-DP+DP,SDADPDXRAC-DP+DP creates a link that in SDADPPDXRAC-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXS-Hu-DP+DP,domain#CP-SDADPDXS-Hu-DP+DP,SDADPDXS-Hu-DP+DP creates a link that in SDADPPDXS-Hu-DP+DP matches OldDataPath-dataPathTo-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-DADU-eS+eA,DADU-eS+eA creates a link that in SDUDADS+W matches Service-enablesAccess-DataUse,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-DADU-eS+eA,DADU-eS+eA creates a link that in SDUDADS+W matches Service-enablesAccess-DataUse,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-HPDS-fDI-DO-DFI+f,HPDS-fDI-DO-DFI+f creates a link that in SDUDSDA+R matches DataCopy-fulfils-DataAccess,FALSE,TRUE
