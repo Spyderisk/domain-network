@@ -14,7 +14,7 @@ package#Legal,Legal,TRUE,"Model of legally significant assets, relationships and
 package#LocalDeviceConnectivity,LocalDeviceConnectivity,TRUE,Model of local device connectivity (USB and Bluetooth).,70,LocalDeviceConnectivity
 package#Network,Network,TRUE,"Model of hosts connected to networks, plus control processes.",40,Network
 package#NetworkConnectivity,NetworkConnectivity,TRUE,"Model of network connections, paths and routing.",50,NetworkConnectivity
-package#PatientHarms,PatientHarms,TRUE,Model of patient harms.,100,PatientHarms
+package#PatientHarms,PatientHarms,FALSE,Model of patient harms.,100,PatientHarms
 package#Physical,Physical,TRUE,Physical spaces and physical accessibility.,10,Physical
 package#Privacy,Privacy,TRUE,Model of personal data including specific types of personal data.,80,Privacy
 package#ProcessComms,ProcessComms,TRUE,Model of process-process communications.,60,ProcessComms
