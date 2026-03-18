@@ -71,6 +71,7 @@ package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-Marker+CloudStorage-1,PodC
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-Marker+CloudHostCreation-1,PodDCMC-W-H+W is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
 package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-1,PodMP+iP is at the end of the host classification sequence,FALSE,TRUE
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-Marker+CloudHostCreation-1,PodP-Cn+Cn is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
+package#DataCaching,domain#CP-CCCfS+aFC-aI+aU,domain#CP-Marker+ConnectionContinuity-1,CCCfS+aFC-aI+aU is at the end of the client-service connection continuity sequence,FALSE,TRUE
 package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-2,DCDFcV+c is at the end of the data cache security relationship inference sequence,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFcCr-aAC+DS,domain#CP-Marker+DataCache-1,H-sDFcCr-aAC+DS is at the end of the temporary data cache creation sequence,FALSE,TRUE
 package#DataCaching,domain#CP-Marker+DataCache-2,domain#CP-Marker+Phishing-0,Data flow caching inference should precede phishing inference,FALSE,TRUE
@@ -281,7 +282,8 @@ package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-Marker+OAuth-1,CAC-pPz
 package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-Marker+OAuth-1,CAC-pPaAC-pS+cvc is at the end of the OAuth trust dependency inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-Marker+OAuth-1,CAC-pScAC-pP+cc is at the end of the OAuth trust dependency inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-Marker+TrustedComms-1,CCCCAP+ch is at the end of the trusted comms channel inference sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-Marker+TrustContext-1,CCCfS+aFC-aI+aU is at the end of the trust contextualization inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-Marker+TrustContext-1,CCCfCCS+aFC+aFC is at the end of the trust contextualization inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-Marker+TrustContext-1,CCCtCCS+aTS+aTS is at the end of the trust contextualization inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-Marker+TrustedComms-1,CCCvCCvLS+vLS is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCCP+ch,domain#CP-Marker+TrustedComms-1,CCSCCP+ch is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCfI+fI,domain#CP-Marker+TrustedComms-1,CCSCfI+fI is at the end of the trusted comms channel inference sequence,FALSE,TRUE

@@ -158,6 +158,10 @@ package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-DCPHW+p,DCPHW+p create
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-PodDCC-M+M,PodDCC-M+M creates a link that in PodDCMC-W-H+W matches CloudMaster-managedBy-DataCentre,FALSE,TRUE
 package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-0,PodMP+iP is at the start of the host classification sequence,FALSE,TRUE
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-DCCt-Pod+Pod,DCCt-Pod+Pod creates a link that in PodP-Cn+Cn matches Host-provisionedBy-Pod,FALSE,TRUE
+package#DataCaching,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCfS-aFC+aI,CCCfS-aFC+aI creates a link that in CCCfS+aFC-aI+aU matches ProcAccess-accessInterrupted-ClientChannel,FALSE,TRUE
+package#DataCaching,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCftS+aFC-aTS+aI,CCCftS+aFC-aTS+aI creates a link that in CCCfS+aFC-aI+aU matches ProcAccess-accessInterrupted-ClientChannel,FALSE,TRUE
+package#DataCaching,domain#CP-CCCfS-aFC+aI,domain#CP-Marker+ConnectionContinuity-0,CCCfS-aFC+aI is at the start of the client-service connection continuity sequence,FALSE,TRUE
+package#DataCaching,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-Marker+ConnectionContinuity-0,CCCftS+aFC-aTS+aI is at the start of the client-service connection continuity sequence,FALSE,TRUE
 package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-1,DCDFcV+c is at the start of the data cache security relationship inference sequence,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFCFdS-ACau+DS,domain#CP-H-sDFSACaiFS+DS,H-sDFSACaiFS+DS creates a link that in H-sDFCFdS-ACau+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFSACaiFS+DS,domain#CP-H-sDFoSFdC+DS,H-sDFoSFdC+DS creates a link that in H-sDFSACaiFS+DS matches Host-stores-Data,FALSE,TRUE
@@ -169,9 +173,11 @@ package#DataCaching,domain#CP-H-sDFrSACdDFiaS+DS,domain#CP-H-sDFuSdC+DS,H-sDFuSd
 package#DataCaching,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#CP-H-sDFrSACdDFiaS+DS,H-sDFrSACdDFiaS+DS creates a link that in H-sDFuCudDFdS-ACau+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFuSdC+DS,domain#CP-H-sDFCFdS-ACau+DS,H-sDFCFdS-ACau+DS creates a link that in H-sDFuSdC+DS matches Host-stores-Data,FALSE,TRUE
 package#DataCaching,domain#CP-IDFfCCCftS-s+rI,domain#CP-H-sDFcCaiAC+DS,H-sDFcCaiAC+DS creates a link that in IDFfCCCftS-s+rI matches Host-stores-Data,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+ConnectionContinuity-0,domain#CP-Marker+TrustContext-1,trust contextualization inference should precede connection continuity inference,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+ConnectionContinuity-1,domain#CP-Marker+ConnectionContinuity-0,Start precedes end of sequence,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+ConnectionContinuity-1,Connection continuity inference should precede temporary cache creation,FALSE,TRUE
 package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+DataCopy-3,Persistent stored data inference should precede temporary cache creation,FALSE,TRUE
-package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+ProcessTrust-3,Process trust inference should precede temporary cache creation,FALSE,TRUE
-package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+ServiceChannel-3,Process communication inference should precede temporary cache creation,FALSE,TRUE
+package#DataCaching,domain#CP-Marker+DataCache-0,domain#CP-Marker+TrustInDataFlows-1,Trust in data flow inference should precede temporary cache creation,FALSE,TRUE
 package#DataCaching,domain#CP-Marker+DataCache-1,domain#CP-Marker+DataCache-0,Start precedes end of sequence,FALSE,TRUE
 package#DataCaching,domain#CP-Marker+DataCache-2,domain#CP-Marker+DataCache-1,Start precedes end of sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-AC+noDX,domain#CP-Marker+ProcessClassification-0,AC+noDX is at the start of the process classification sequence,FALSE,TRUE
@@ -764,11 +770,6 @@ package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-CCSCAP+ch,CCSCAP+ch creates a
 package#ProcessTrust,domain#CP-CCCSPSFCS+f,domain#CP-DFDSCS+f,DFDSCS+f creates a link that in CCCSPSFCS+f matches DataFlow-flowsViaCS-FirstChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCSPSFSC+f,domain#CP-DFDSSC+f,DFDSSC+f creates a link that in CCCSPSFSC+f matches DataFlow-flowsViaSC-FirstChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-PCaFCSCCC+aFC,PCaFCSCCC+aFC creates a link that in PCaFCSCCC+aFC matches ProcAccess-accessFromClient-ProxyChannel,FALSE,TRUE
-package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCfS-aFC+aI,CCCfS-aFC+aI creates a link that in CCCfS+aFC-aI+aU matches ProcAccess-accessInterrupted-ClientChannel,FALSE,TRUE
-package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-CCCftS+aFC-aTS+aI,CCCftS+aFC-aTS+aI creates a link that in CCCfS+aFC-aI+aU matches ProcAccess-accessInterrupted-ClientChannel,FALSE,TRUE
-package#ProcessTrust,domain#CP-CCCfS-aFC+aI,domain#CP-CCCfCCS+aFC+aFC,CCCfCCS+aFC+aFC creates a link that in CCCfS-aFC+aI matches ProcAccess-accessFromClient-ClientChannel,FALSE,TRUE
-package#ProcessTrust,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCfCCS+aFC+aFC,CCCfCCS+aFC+aFC creates a link that in CCCftS+aFC-aTS+aI matches ProcAccess-accessFromClient-ClientChannel,FALSE,TRUE
-package#ProcessTrust,domain#CP-CCCftS+aFC-aTS+aI,domain#CP-CCCtCCS+aTS+aTS,CCCtCCS+aTS+aTS creates a link that in CCCftS+aFC-aTS+aI matches ToContext-accessToService-ClientChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-PCaTSSCCC+aTS,PCaTSSCCC+aTS creates a link that in CCCtCCS+aTS+aTS matches ProcAccess-accessToService-ProxyChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-CCSCvLS+vLS,CCSCvLS+vLS creates a link that in CCCvCCvLS+vLS matches ProxyChannel-viaSubnet-LogicalSubnet,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSC+ch,domain#CP-Marker+TrustedComms-0,CCSC+ch is at the start of the trusted comms inference sequence,FALSE,TRUE

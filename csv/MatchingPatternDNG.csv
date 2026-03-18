@@ -19,6 +19,7 @@ package#5G,domain#DNG-RrBrL3-0,domain#MP-RrBrL3,0
 package#5G,domain#DNG-UCc-rBrUR-0,domain#MP-UCc-rBrUR,0
 package#5G,domain#DNG-URrBc-rL3-0,domain#MP-URrBc-rL3,0
 package#5G,domain#DNG-URrBrUR-0,domain#MP-URrBrUR,0
+package#DataCaching,domain#DNG-H-sDFrSACdDFiaS-0,domain#MP-H-sDFrSACdDFiaS,0
 package#DataLifecycle,domain#DNG-CSDF-VdDA2-0,domain#MP-CSDF-VdDA2,0
 package#DataLifecycle,domain#DNG-HDSPDIfdDA-DP-f-0,domain#MP-HDSPDIfdDA-DP-f,0
 package#DataLifecycle,domain#DNG-HPDADS2dDO-0,domain#MP-HPDADS2dDO,0
@@ -95,7 +96,6 @@ package#ProcessTrust,domain#DNG-CuPnS-U-0,domain#MP-CuPnS-U,0
 package#ProcessTrust,domain#DNG-H-sDFCFdS-ACau-0,domain#MP-H-sDFCFdS-ACau,0
 package#ProcessTrust,domain#DNG-H-sDFiSFdC-0,domain#MP-H-sDFiSFdC,0
 package#ProcessTrust,domain#DNG-H-sDFoSFdC-0,domain#MP-H-sDFoSFdC,0
-package#ProcessTrust,domain#DNG-H-sDFrSACdDFiaS-0,domain#MP-H-sDFrSACdDFiaS,0
 package#ProcessTrust,domain#DNG-H-sDFuCudDFdS-ACau-0,domain#MP-H-sDFuCudDFdS-ACau,0
 package#ProcessTrust,domain#DNG-H-sDFuCudDFdS-ACau-1,domain#MP-H-sDFuCudDFdS-ACau,1
 package#ProcessTrust,domain#DNG-H-sDFuSdC-0,domain#MP-H-sDFuSdC,0

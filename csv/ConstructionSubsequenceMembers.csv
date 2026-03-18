@@ -128,6 +128,9 @@ package#CloudManagement,domain#CP-PodDCC-M+M,2,domain#S-HostCreation,FALSE
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,2,domain#S-HostCreation,FALSE
 package#CloudManagement,domain#CP-PodMP+iP,6,domain#S-HostClassification,FALSE
 package#CloudManagement,domain#CP-PodP-Cn+Cn,2,domain#S-HostCreation,FALSE
+package#DataCaching,domain#CP-CCCfS+aFC-aI+aU,0,domain#S-ConnectionContinuity,FALSE
+package#DataCaching,domain#CP-CCCfS-aFC+aI,0,domain#S-ConnectionContinuity,FALSE
+package#DataCaching,domain#CP-CCCftS+aFC-aTS+aI,0,domain#S-ConnectionContinuity,FALSE
 package#DataCaching,domain#CP-DCDFcV+c,50,domain#S-DataFlowCaching,FALSE
 package#DataCaching,domain#CP-H-sDFCFdS-ACau+DS,50,domain#S-DataFlowCaching,FALSE
 package#DataCaching,domain#CP-H-sDFSACaiFS+DS,50,domain#S-DataFlowCaching,FALSE
@@ -139,6 +142,8 @@ package#DataCaching,domain#CP-H-sDFrSACdDFiaS+DS,50,domain#S-DataFlowCaching,FAL
 package#DataCaching,domain#CP-H-sDFuCudDFdS-ACau+DS,50,domain#S-DataFlowCaching,FALSE
 package#DataCaching,domain#CP-H-sDFuSdC+DS,50,domain#S-DataFlowCaching,FALSE
 package#DataCaching,domain#CP-IDFfCCCftS-s+rI,50,domain#S-DataFlowCaching,FALSE
+package#DataCaching,domain#CP-Marker+ConnectionContinuity-0,0,domain#S-ConnectionContinuity,FALSE
+package#DataCaching,domain#CP-Marker+ConnectionContinuity-1,0,domain#S-ConnectionContinuity,FALSE
 package#DataCaching,domain#CP-Marker+DataCache-0,50,domain#S-DataFlowCaching,FALSE
 package#DataCaching,domain#CP-Marker+DataCache-1,50,domain#S-DataFlowCaching,FALSE
 package#DataCaching,domain#CP-Marker+DataCache-2,50,domain#S-DataFlowCaching,FALSE
@@ -642,9 +647,6 @@ package#ProcessTrust,domain#CP-CCCCAP+ch,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCCSPSFCS+f,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCCSPSFSC+f,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,0,domain#S-ClientServiceTrust,FALSE
-package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,0,domain#S-ClientServiceTrust,FALSE
-package#ProcessTrust,domain#CP-CCCfS-aFC+aI,0,domain#S-ClientServiceTrust,FALSE
-package#ProcessTrust,domain#CP-CCCftS+aFC-aTS+aI,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCSC+ch,0,domain#S-ClientServiceTrust,FALSE
