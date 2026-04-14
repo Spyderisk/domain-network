@@ -14,6 +14,7 @@ package#AIHarms,domain#P.Ml-F.PtautDt.0.0,domain#MS-LossOfFairProcessing-MLTrain
 package#AIHarms,domain#P.Ml-F.PtautDt.0.1,domain#MS-LossOfFairProcessing-MLTrainingAlgorithm
 package#AIHarms,domain#P.Ml-R.PmlmpDmp.0.0,domain#MS-LossOfReliability-MLModel
 package#AIHarms,domain#P.Ml-R.PmlmpDmp.0.1,domain#MS-LossOfReliability-MLModel
+package#AIHarms,domain#P.Ml-R.PmlmpDmp.0.2,domain#MS-LossOfReliability-MLModel
 package#AIHarms,domain#P.Ml-R.PtautDt.0.0,domain#MS-LossOfReliability-MLTrainingAlgorithm
 package#AIHarms,domain#P.Ml-R.PtautDt.0.1,domain#MS-LossOfReliability-MLTrainingAlgorithm
 package#Application,domain#D.C.HuiPiDCHS.3,domain#MS-LossOfConfidentiality-Data

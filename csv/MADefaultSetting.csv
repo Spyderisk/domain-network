@@ -1,13 +1,5 @@
 package,URI,metaLocatedAt,hasMisbehaviour,hasLevel
-domain#000000,domain#000000,domain#DataCache,domain#LossOfAccuracy,domain#ImpactLevelNegligible
-,domain#MADS-LossOfAccuracy-DataCache,domain#DataCache,domain#LossOfAccuracy,domain#ImpactLevelMedium
-,domain#MADS-LossOfAccuracy-DataCopy,domain#DataCopy,domain#LossOfAccuracy,domain#ImpactLevelMedium
-,domain#MADS-LossOfAccuracy-DataField,domain#DataField,domain#LossOfAccuracy,domain#ImpactLevelMedium
-,domain#MADS-LossOfAccuracy-DataFlow,domain#DataFlow,domain#LossOfAccuracy,domain#ImpactLevelMedium
-,domain#MADS-LossOfFairness-DataCache,domain#DataCache,domain#LossOfFairness,domain#ImpactLevelMedium
-,domain#MADS-LossOfFairness-DataCopy,domain#DataCopy,domain#LossOfFairness,domain#ImpactLevelMedium
-,domain#MADS-LossOfFairness-DataField,domain#DataField,domain#LossOfFairness,domain#ImpactLevelMedium
-,domain#MADS-LossOfFairness-DataFlow,domain#DataFlow,domain#LossOfFairness,domain#ImpactLevelMedium
+domain#000000,domain#000000,domain#PrivateCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-PrivateCellularNetwork,domain#PrivateCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-PublicCellularNetwork,domain#PublicCellularNetwork,domain#CommsSnoopable,domain#ImpactLevelNegligible
 package#5G,domain#MADS-CommsSnoopable-RAN,domain#RAN,domain#CommsSnoopable,domain#ImpactLevelNegligible
@@ -46,6 +38,7 @@ package#AIHarms,domain#MADS-InService-MLTrainingAlgorithm,domain#MLTrainingAlgor
 package#AIHarms,domain#MADS-LocalLossOfUserTW-MLModel,domain#MLModel,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LocalLossOfUserTW-MLTrainingAlgorithm,domain#MLTrainingAlgorithm,domain#LocalLossOfUserTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfAccuracy-Data,domain#Data,domain#LossOfAccuracy,domain#ImpactLevelMedium
+package#AIHarms,domain#MADS-LossOfAccuracy-DataField,domain#DataField,domain#LossOfAccuracy,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfAccuracy-SensitiveData,domain#SensitiveData,domain#LossOfAccuracy,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfAccuracy-SpamData,domain#SpamData,domain#LossOfAccuracy,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfAvailability-MLModel,domain#MLModel,domain#LossOfAvailability,domain#ImpactLevelNegligible
@@ -57,6 +50,7 @@ package#AIHarms,domain#MADS-LossOfExploitTW-MLTrainingAlgorithm,domain#MLTrainin
 package#AIHarms,domain#MADS-LossOfExtrinsicTW-MLModel,domain#MLModel,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfExtrinsicTW-MLTrainingAlgorithm,domain#MLTrainingAlgorithm,domain#LossOfExtrinsicTW,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfFairness-Data,domain#Data,domain#LossOfFairness,domain#ImpactLevelMedium
+package#AIHarms,domain#MADS-LossOfFairness-DataField,domain#DataField,domain#LossOfFairness,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfFairness-SensitiveData,domain#SensitiveData,domain#LossOfFairness,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfFairness-SpamData,domain#SpamData,domain#LossOfFairness,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfFairProcessing-MLModel,domain#MLModel,domain#LossOfFairProcessing,domain#ImpactLevelNegligible
@@ -399,6 +393,9 @@ package#DataLifecycle,domain#MADS-InService-DataCache,domain#DataCache,domain#In
 package#DataLifecycle,domain#MADS-InService-DataCopy,domain#DataCopy,domain#InService,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-InService-DataFlow,domain#DataFlow,domain#InService,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-InService-DataStep,domain#DataStep,domain#InService,domain#ImpactLevelNegligible
+package#DataLifecycle,domain#MADS-LossOfAccuracy-DataCache,domain#DataCache,domain#LossOfAccuracy,domain#ImpactLevelMedium
+package#DataLifecycle,domain#MADS-LossOfAccuracy-DataCopy,domain#DataCopy,domain#LossOfAccuracy,domain#ImpactLevelMedium
+package#DataLifecycle,domain#MADS-LossOfAccuracy-DataFlow,domain#DataFlow,domain#LossOfAccuracy,domain#ImpactLevelMedium
 package#DataLifecycle,domain#MADS-LossOfAuthenticity-DataCache,domain#DataCache,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfAuthenticity-DataCopy,domain#DataCopy,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfAuthenticity-DataFlow,domain#DataFlow,domain#LossOfAuthenticity,domain#ImpactLevelNegligible
@@ -408,6 +405,9 @@ package#DataLifecycle,domain#MADS-LossOfAvailability-DataFlow,domain#DataFlow,do
 package#DataLifecycle,domain#MADS-LossOfConfidentiality-DataCache,domain#DataCache,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfConfidentiality-DataCopy,domain#DataCopy,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfConfidentiality-DataFlow,domain#DataFlow,domain#LossOfConfidentiality,domain#ImpactLevelNegligible
+package#DataLifecycle,domain#MADS-LossOfFairness-DataCache,domain#DataCache,domain#LossOfFairness,domain#ImpactLevelMedium
+package#DataLifecycle,domain#MADS-LossOfFairness-DataCopy,domain#DataCopy,domain#LossOfFairness,domain#ImpactLevelMedium
+package#DataLifecycle,domain#MADS-LossOfFairness-DataFlow,domain#DataFlow,domain#LossOfFairness,domain#ImpactLevelMedium
 package#DataLifecycle,domain#MADS-LossOfIntegrity-DataCache,domain#DataCache,domain#LossOfIntegrity,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfIntegrity-DataCopy,domain#DataCopy,domain#LossOfIntegrity,domain#ImpactLevelNegligible
 package#DataLifecycle,domain#MADS-LossOfIntegrity-DataFlow,domain#DataFlow,domain#LossOfIntegrity,domain#ImpactLevelNegligible
