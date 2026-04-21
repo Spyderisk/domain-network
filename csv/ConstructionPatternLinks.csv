@@ -1039,6 +1039,10 @@ package#Theft,domain#CP-CSCLS-ii+PNC,domain#Link-ProcAccess-accessFromClient-Ser
 package#Theft,domain#CP-CSCLS-ii+PNC,domain#Link-ProcAccess-accessTo-CHost
 package#Theft,domain#CP-CSCLS-ii+PNC,domain#Link-ProcAccess-accessTo-Client
 package#Theft,domain#CP-CSCLS-ii+PNC,domain#Link-ProcAccess-accessVia-LogicalSubnet
+package#Theft,domain#CP-HPHL3S-ii+HNC,domain#Link-HostNetContext-accessFrom-Space
+package#Theft,domain#CP-HPHL3S-ii+HNC,domain#Link-HostNetContext-accessTo-Host
+package#Theft,domain#CP-HPHL3S-ii+HNC,domain#Link-HostNetContext-accessVia-LogicalSubnet
+package#Theft,domain#CP-HPHL3S-ii+HNC,domain#Link-PhysicalHost-mayBeIn-Space
 package#Users,domain#CP-A+iA,domain#Link-Human-isAdult-Human
 package#Users,domain#CP-HuaSaE+cA,domain#Link-Human-canAccess-Entrance
 package#Users,domain#CP-StS-St+c,domain#Link-Space-controlledBy-Stakeholder

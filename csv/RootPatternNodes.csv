@@ -3398,6 +3398,10 @@ package#ProcessTrust,domain#R-SPNaS,domain#Node-Client-ServiceProxy,TRUE
 package#ProcessTrust,domain#R-SPNaS,domain#Node-ClientChannel-ClientChannel,TRUE
 package#ProcessTrust,domain#R-SPNaS,domain#Node-SHost-Host,TRUE
 package#ProcessTrust,domain#R-SPNaS,domain#Node-Service-Process,TRUE
+package#Theft,domain#R-HPHL3S,domain#Node-Host-Host,TRUE
+package#Theft,domain#R-HPHL3S,domain#Node-LogicalSubnet-L23Subnet,TRUE
+package#Theft,domain#R-HPHL3S,domain#Node-PhysicalHost-PhysicalHost,TRUE
+package#Theft,domain#R-HPHL3S,domain#Node-Space-Space,TRUE
 package#Users,domain#R-A,domain#Node-Human-Adult,TRUE
 package#Users,domain#R-Hu,domain#Node-Human-Human,TRUE
 package#Users,domain#R-HuPS,domain#Node-Human-Human,TRUE

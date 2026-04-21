@@ -759,6 +759,7 @@ package#ProcessTrust,domain#R-PnPnS,PnPnS,"Finds a client using a service with s
 package#ProcessTrust,domain#R-SCDS,SCDS,Finds a client and service plus the associated client channel where there is a data step from the service to the client.,FALSE,FALSE
 package#ProcessTrust,domain#R-SPNaLnS,SPNaLnS,"Finds a host running a remote access service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
 package#ProcessTrust,domain#R-SPNaS,SPNaS,"Finds a host running a service accessed by a reverse proxy, plus the associated client channel.",FALSE,FALSE
+package#Theft,domain#R-HPHL3S,HPHL3S,Finds a Host with a PhysicalHost connected to a L2/L3 LogicalSubnet that is accessible from a Space.,FALSE,FALSE
 package#Users,domain#R-A,A,Finds a solo Adult.,FALSE,FALSE
 package#Users,domain#R-Hu,Hu,Finds a solo Human.,FALSE,FALSE
 package#Users,domain#R-HuPS,HuPS,Finds a Human with access to a Private Space.,FALSE,FALSE

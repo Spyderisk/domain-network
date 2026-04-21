@@ -2689,6 +2689,7 @@ package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientAttackPath-fromSubnet-Lo
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientChannel-channelTo-Service
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ClientChannel-channelVia-ClientAttackPath
+package#ProcessTrust,domain#R-CACHLSS,domain#Link-ProcNetContext-accessTo-CHost
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ProcNetContext-accessTo-Client
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-ProcNetContext-accessVia-LogicalSubnet
 package#ProcessTrust,domain#R-CACHLSS,domain#Link-SHost-hosts-Service
@@ -3365,6 +3366,9 @@ package#ProcessTrust,domain#R-SPNaLnS,domain#Link-SHost-hosts-Service
 package#ProcessTrust,domain#R-SPNaS,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessTrust,domain#R-SPNaS,domain#Link-ClientChannel-channelTo-Service
 package#ProcessTrust,domain#R-SPNaS,domain#Link-SHost-hosts-Service
+package#Theft,domain#R-HPHL3S,domain#Link-Host-hasPhysicalHost-PhysicalHost
+package#Theft,domain#R-HPHL3S,domain#Link-LogicalSubnet-accessibleFrom-Space
+package#Theft,domain#R-HPHL3S,domain#Link-PhysicalHost-connectedTo-LogicalSubnet
 package#Users,domain#R-HuPS,domain#Link-Human-canAccess-Space
 package#Users,domain#R-HuPSSt,domain#Link-Human-canAccess-Space
 package#Users,domain#R-HuPSSt,domain#Link-Human-worksFor-Employer

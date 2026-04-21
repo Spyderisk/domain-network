@@ -170,6 +170,7 @@ package#ProcessTrust,domain#CP-CaS-SP+CC,domain#Node-ClientChannel-ClientChannel
 package#ProcessTrust,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#Theft,domain#CP-CSCLS+ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS+ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#Theft,domain#CP-CSCLS-ii+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCLS-ii+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
+package#Theft,domain#CP-HPHL3S-ii+HNC,domain#Node-HostNetContext-HostNetContext,domain#INS-HPHL3S-ii+HNC-HostNetContext,TRUE,FALSE,domain#Node-Host-Host
 package#Virtualisation,domain#CP-DCCVH-LS+LS,domain#Node-VirtualSubnet-VXLAN,domain#INS-DCCVH-LS+LS-VirtualSubnet,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#Virtualisation,domain#CP-H2dPH2+VC,domain#Node-VirtualChannel-VirtualChannel,domain#INS-H2dPH2+VC-VirtualChannel,TRUE,FALSE,domain#Node-VirtualSubnet-VirtualSubnet
 package#Virtualisation,domain#CP-HVHS+VS,domain#Node-HostLAN-HostLAN,domain#INS-HVHS+VS-HostLAN,TRUE,FALSE,domain#Node-SHost-Host

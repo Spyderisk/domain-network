@@ -133,8 +133,8 @@ package#ProcessTrust,domain#CSG-SuspendUnauthenticClientAccess-Implementation-Ru
 package#ProcessTrust,domain#CSG-SuspendUntrustworthyClientAccess,domain#CC.AX.CCCS.6.3
 package#ProcessTrust,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AX.CCCS.6.1
 package#Theft,domain#CSG-DataAccessKey,domain#DS.C.HPsACr-pDS-V.2.6
-package#Theft,domain#CSG-DataFlowSharedKeyInbound,domain#DF.C.AC-iDF-VTC.2.6
-package#Theft,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.AC-iDF-VFC.2.6
+package#Theft,domain#CSG-DataFlowSharedKeyInbound,domain#DF.C.AC-iDF-VTCs.2.6
+package#Theft,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.AC-iDF-VFCs.2.6
 package#Theft,domain#CSG-DisableNetworkConnection,domain#I.IS.INC.2
 package#Theft,domain#CSG-DisableProcess-Trigger,domain#P.IS.HP.2
 package#Theft,domain#CSG-UserPasswordAccessToHost,domain#H.M.HumCH.2.2

@@ -358,6 +358,8 @@ package#Theft,domain#INS-CSCLS+ii+PNC-ProcAccess,domain#Node-LogicalSubnet-Inter
 package#Theft,domain#INS-CSCLS-ii+PNC-ProcAccess,domain#Node-CHost-Host
 package#Theft,domain#INS-CSCLS-ii+PNC-ProcAccess,domain#Node-Client-Process
 package#Theft,domain#INS-CSCLS-ii+PNC-ProcAccess,domain#Node-LogicalSubnet-L23Subnet
+package#Theft,domain#INS-HPHL3S-ii+HNC-HostNetContext,domain#Node-Host-Host
+package#Theft,domain#INS-HPHL3S-ii+HNC-HostNetContext,domain#Node-LogicalSubnet-L23Subnet
 package#Virtualisation,domain#INS-DCCVH-LS+LS-VirtualSubnet,domain#Node-DataCentre-DataCentre
 package#Virtualisation,domain#INS-H2dPH2+VC-VirtualChannel,domain#Node-LocalHost-PhysicalHost
 package#Virtualisation,domain#INS-H2dPH2+VC-VirtualChannel,domain#Node-RemoteHost-PhysicalHost

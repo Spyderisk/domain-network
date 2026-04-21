@@ -699,6 +699,7 @@ package#ProcessTrust,domain#CP-PnPnS-U+U,0,domain#S-SystemClientService,FALSE
 package#ProcessTrust,domain#CP-SCDS+fV,0,domain#S-ClientServiceTrust,FALSE
 package#Theft,domain#CP-CSCLS+ii+PNC,0,domain#S-ReconnectionContexts,FALSE
 package#Theft,domain#CP-CSCLS-ii+PNC,0,domain#S-ReconnectionContexts,FALSE
+package#Theft,domain#CP-HPHL3S-ii+HNC,0,domain#S-ReconnectionContexts,FALSE
 package#Theft,domain#CP-Marker+Reconnection-0,0,domain#S-ReconnectionContexts,FALSE
 package#Theft,domain#CP-Marker+Reconnection-1,0,domain#S-ReconnectionContexts,FALSE
 package#Users,domain#CP-A+iA,13,domain#S-HumanStatus,FALSE

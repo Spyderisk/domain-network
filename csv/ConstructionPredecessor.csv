@@ -829,6 +829,8 @@ package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,PccCuS+N creates a l
 package#ProcessTrust,domain#CP-SCDS+fV,domain#CP-Marker+TrustInDataFlows-0,SCDS+fV is at the start of the trust in data flow inference sequence,FALSE,TRUE
 package#Theft,domain#CP-CSCLS+ii+PNC,domain#CP-Marker+Reconnection-0,CSCLS+ii+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
 package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-0,CSCLS-ii+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-HPHL3S-ii+HNC,domain#CP-Marker+Reconnection-0,HPHL3S-ii+HNC is at the start of the reconnection context inference sequence,FALSE,TRUE
+package#Theft,domain#CP-Marker+Reconnection-0,domain#CP-Marker+HostContext-1,Host context creation should precede reconnection context creation.,FALSE,TRUE
 package#Theft,domain#CP-Marker+Reconnection-0,domain#CP-Marker+ProcessTrust-2,Trusted communication inference should precede reconnection context creation.,FALSE,TRUE
 package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+Reconnection-0,Start precedes end of sequence,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-0,A+iA is at the start of the user status classification sequence,FALSE,TRUE
