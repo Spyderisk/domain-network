@@ -4,9 +4,9 @@ package#AccessContext,domain#accessFrom,accessFrom,Refers from an access context
 package#AIHarms,domain#hasHyperparameters,hasHyperparameters,Indicating that a data asset (hyperparameters of a ML training algortihm) form the hyperparameters of a ML training algorithm.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#AIHarms,domain#hasParameters,hasParameters,Indicating that a ML Model has model parameters (or weights) represented by a data asset (model parameters of a ML model).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#AIHarms,domain#informs,informs,Indicating that one data asset (validation data of a ML training algortihm) informs the values of another data asset (hyperparameters of a ML training algortihm).,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
-package#AIHarms,domain#predictionInputs,predictionInputs,Indicating the data asset (prediction inputs of a ML Model) form the inputs a ML Model predicts from.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#AIHarms,domain#predicts,predicts,Indicating the data asset (predictions of a ML Model) that a ML Model predicts.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#AIHarms,domain#trains,trains,Indicating that a ML training algorithm trains a ML Model.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+package#AIHarms,domain#usesPredictionInputs,usesPredictionInputs,Indicating that the ML Model uses the data asset as inputs to its prediction.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#AIHarms,domain#usesToTest,usesToTest,Indicating that a data asset (testing data of a ML training algortihm) is used by a ML training algorithm to test a ML model.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#AIHarms,domain#usesToTrain,usesToTrain,Indicating that a data asset (training data of a ML training algortihm) is used by  a ML training algorithm to train a ML model.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#AIHarms,domain#usesToValidate,usesToValidate,Indicating that a data asset (validation data of a ML training algortihm) is used by  a ML training algorithm to inform the values of the hyperparameters.,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE

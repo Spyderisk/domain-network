@@ -1,6 +1,7 @@
 package,URI,subPropertyOf
 domain#000000,domain#000000,domain#creates
 package#AIHarms,domain#predicts,domain#creates
+package#AIHarms,domain#usesPredictionInputs,domain#reads
 package#Application,domain#amends,domain#creates
 package#Application,domain#amends,domain#receives
 package#Application,domain#amendsData,domain#inputsData

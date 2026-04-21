@@ -37,9 +37,9 @@ package#5G,domain#R-RrBcC,domain#Link-FromSubnet-implements-CellularNetwork
 package#5G,domain#R-RrBcC,domain#Link-FromSubnet-providedBy-Gateway
 package#5G,domain#R-RrBcC,domain#Link-Gateway-connectedTo-ToSubnet
 package#5G,domain#R-RrBcC,domain#Link-ToSubnet-implements-CellularNetwork
-package#AIHarms,domain#R-DiPmlm,domain#Link-Input-predictionInputs-MLModel
-package#AIHarms,domain#R-DiuPmlmpDp,domain#Link-Input-predictionInputs-MLModel
+package#AIHarms,domain#R-DiPmlm,domain#Link-MLModel-usesPredictionInputs-Input
 package#AIHarms,domain#R-DiuPmlmpDp,domain#Link-MLModel-predicts-Output
+package#AIHarms,domain#R-DiuPmlmpDp,domain#Link-MLModel-usesPredictionInputs-Input
 package#AIHarms,domain#R-PmlmpDmp,domain#Link-MLModel-hasParameters-Data
 package#AIHarms,domain#R-PmlmpDp,domain#Link-MLModel-predicts-Data
 package#AIHarms,domain#R-PtatPmlmpaDmp,domain#Link-MLModel-hasParameters-ModelParameters
