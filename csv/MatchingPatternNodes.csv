@@ -913,6 +913,7 @@ package#Theft,domain#MP-AC-iDFVTCs,domain#Node-IndirectChannel-AuthChannel,FALSE
 package#Theft,domain#MP-AC-iDFVTCs,domain#Node-ProcAccess-ProcNetContext,TRUE,FALSE,TRUE
 package#Theft,domain#MP-AC-iDFVTCs,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#Theft,domain#MP-AC-iDFVTCs,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
+package#Theft,domain#MP-HPHL3S-ii,domain#Node-OtherSpace-Space,TRUE,FALSE,FALSE
 package#Users,domain#MP-HuPSoSt,domain#Node-Employer-Stakeholder,FALSE,FALSE,FALSE
 package#Users,domain#MP-StS-St,domain#Node-Operator-Stakeholder,FALSE,TRUE,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Node-DataCentre-DataCentre,FALSE,FALSE,FALSE

@@ -2645,6 +2645,7 @@ package#ProcessTrust,domain#R-ACDFFC,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessTrust,domain#R-ACDFFC,domain#Node-DataFlow-DataFlow,TRUE
 package#ProcessTrust,domain#R-ACDFFC,domain#Node-FlowsFrom-Process,TRUE
 package#ProcessTrust,domain#R-ACDFFC,domain#Node-FlowsTo-Process,TRUE
+package#ProcessTrust,domain#R-ACDFFC,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#ProcessTrust,domain#R-ACDFFC,domain#Node-Service-Process,TRUE
 package#ProcessTrust,domain#R-ACDFFS,domain#Node-Client-Process,TRUE
 package#ProcessTrust,domain#R-ACDFFS,domain#Node-ClientChannel-AuthChannel,TRUE
@@ -2669,6 +2670,7 @@ package#ProcessTrust,domain#R-ACDFTC,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessTrust,domain#R-ACDFTC,domain#Node-DataFlow-DataFlow,TRUE
 package#ProcessTrust,domain#R-ACDFTC,domain#Node-FlowsFrom-Process,TRUE
 package#ProcessTrust,domain#R-ACDFTC,domain#Node-FlowsTo-Process,TRUE
+package#ProcessTrust,domain#R-ACDFTC,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#ProcessTrust,domain#R-ACDFTC,domain#Node-Service-Process,TRUE
 package#ProcessTrust,domain#R-ACDFTS,domain#Node-Client-Process,TRUE
 package#ProcessTrust,domain#R-ACDFTS,domain#Node-ClientChannel-AuthChannel,TRUE
@@ -2686,6 +2688,7 @@ package#ProcessTrust,domain#R-ACDFVFC,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessTrust,domain#R-ACDFVFC,domain#Node-DataFlow-DataFlow,TRUE
 package#ProcessTrust,domain#R-ACDFVFC,domain#Node-FlowsFrom-Process,TRUE
 package#ProcessTrust,domain#R-ACDFVFC,domain#Node-FlowsTo-Process,TRUE
+package#ProcessTrust,domain#R-ACDFVFC,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#ProcessTrust,domain#R-ACDFVFC,domain#Node-Service-Process,TRUE
 package#ProcessTrust,domain#R-ACDFVFC,domain#Node-Vault-Process,TRUE
 package#ProcessTrust,domain#R-ACDFVFC,domain#Node-VaultChannel-ClientChannel,TRUE
@@ -2707,6 +2710,7 @@ package#ProcessTrust,domain#R-ACDFVTC,domain#Node-DataAccess-DataAccess,TRUE
 package#ProcessTrust,domain#R-ACDFVTC,domain#Node-DataFlow-DataFlow,TRUE
 package#ProcessTrust,domain#R-ACDFVTC,domain#Node-FlowsFrom-Process,TRUE
 package#ProcessTrust,domain#R-ACDFVTC,domain#Node-FlowsTo-Process,TRUE
+package#ProcessTrust,domain#R-ACDFVTC,domain#Node-PhysicalHost-PhysicalHost,TRUE
 package#ProcessTrust,domain#R-ACDFVTC,domain#Node-Service-Process,TRUE
 package#ProcessTrust,domain#R-ACDFVTC,domain#Node-Vault-Process,TRUE
 package#ProcessTrust,domain#R-ACDFVTC,domain#Node-VaultChannel-ClientChannel,TRUE

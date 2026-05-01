@@ -2559,6 +2559,7 @@ package#ProcessTrust,domain#R-ACDFCS,domain#Link-DataFlow-flows-Data
 package#ProcessTrust,domain#R-ACDFCS,domain#Link-DataFlow-flowsFrom-FlowsFrom
 package#ProcessTrust,domain#R-ACDFCS,domain#Link-DataFlow-flowsTo-FlowsTo
 package#ProcessTrust,domain#R-ACDFCS,domain#Link-DataFlow-flowsViaCS-ClientChannel
+package#ProcessTrust,domain#R-ACDFFC,domain#Link-CHost-hasPhysicalHost-PhysicalHost
 package#ProcessTrust,domain#R-ACDFFC,domain#Link-CHost-hosts-Client
 package#ProcessTrust,domain#R-ACDFFC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessTrust,domain#R-ACDFFC,domain#Link-ClientChannel-channelTo-Service
@@ -2585,6 +2586,7 @@ package#ProcessTrust,domain#R-ACDFSC,domain#Link-DataFlow-flows-Data
 package#ProcessTrust,domain#R-ACDFSC,domain#Link-DataFlow-flowsFrom-FlowsFrom
 package#ProcessTrust,domain#R-ACDFSC,domain#Link-DataFlow-flowsTo-FlowsTo
 package#ProcessTrust,domain#R-ACDFSC,domain#Link-DataFlow-flowsViaSC-ClientChannel
+package#ProcessTrust,domain#R-ACDFTC,domain#Link-CHost-hasPhysicalHost-PhysicalHost
 package#ProcessTrust,domain#R-ACDFTC,domain#Link-CHost-hosts-Client
 package#ProcessTrust,domain#R-ACDFTC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessTrust,domain#R-ACDFTC,domain#Link-ClientChannel-channelTo-Service
@@ -2605,6 +2607,7 @@ package#ProcessTrust,domain#R-ACDFTS,domain#Link-DataFlow-flowsTo-FlowsTo
 package#ProcessTrust,domain#R-ACDFTS,domain#Link-DataFlow-flowsTo-Service
 package#ProcessTrust,domain#R-ACDFTS,domain#Link-DataFlow-flowsViaCS-ClientChannel
 package#ProcessTrust,domain#R-ACDFTS,domain#Link-DataFlow-fulfils-DataAccess
+package#ProcessTrust,domain#R-ACDFVFC,domain#Link-CHost-hasPhysicalHost-PhysicalHost
 package#ProcessTrust,domain#R-ACDFVFC,domain#Link-CHost-hosts-Client
 package#ProcessTrust,domain#R-ACDFVFC,domain#Link-Client-usesForAuth-Vault
 package#ProcessTrust,domain#R-ACDFVFC,domain#Link-ClientChannel-channelFrom-Client
@@ -2633,6 +2636,7 @@ package#ProcessTrust,domain#R-ACDFVFS,domain#Link-Service-usesForAuth-Vault
 package#ProcessTrust,domain#R-ACDFVFS,domain#Link-Vault-controls-DataFlow
 package#ProcessTrust,domain#R-ACDFVFS,domain#Link-VaultChannel-channelFrom-Service
 package#ProcessTrust,domain#R-ACDFVFS,domain#Link-VaultChannel-channelTo-Vault
+package#ProcessTrust,domain#R-ACDFVTC,domain#Link-CHost-hasPhysicalHost-PhysicalHost
 package#ProcessTrust,domain#R-ACDFVTC,domain#Link-CHost-hosts-Client
 package#ProcessTrust,domain#R-ACDFVTC,domain#Link-Client-usesForAuth-Vault
 package#ProcessTrust,domain#R-ACDFVTC,domain#Link-ClientChannel-channelFrom-Client

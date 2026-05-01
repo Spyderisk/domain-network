@@ -1728,6 +1728,7 @@ package#Theft,domain#MP-AC-iDFVTCs,domain#Link-ProcAccess-accessTo-Client,FALSE
 package#Theft,domain#MP-AC-iDFVTCs,domain#Link-ProcessManager-manages-FlowsFrom,FALSE
 package#Theft,domain#MP-AC-iDFVTCs,domain#Link-ServiceManager-manages-Service,FALSE
 package#Theft,domain#MP-HPHL3S-ii,domain#Link-LogicalSubnet-isInternet-LogicalSubnet,TRUE
+package#Theft,domain#MP-HPHL3S-ii,domain#Link-PhysicalHost-locatedIn-OtherSpace,FALSE
 package#Users,domain#MP-HuPSoSt,domain#Link-Human-worksFor-Employer,FALSE
 package#Users,domain#MP-StS-St,domain#Link-Space-controlledBy-Operator,FALSE
 package#Virtualisation,domain#MP-CVHHHoDC,domain#Link-PhysicalHost-resourcedBy-DataCentre,FALSE
