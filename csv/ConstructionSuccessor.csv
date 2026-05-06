@@ -305,8 +305,9 @@ package#ProcessTrust,domain#CP-Marker+ProcessTrust-3,domain#CP-Marker+Phishing-0
 package#ProcessTrust,domain#CP-Marker+TrustInDataFlows-1,domain#CP-Marker+ProcessTrust-3,Trust in data flow inference is a subsequence of process trust inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+TrustRelationship-1,domain#CP-Marker+ProcessTrust-1,Trust relationship creation is a subsequence of process trust inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+TrustedComms-1,domain#CP-Marker+ProcessTrust-2,Trusted comms channel inference is a subsequence of process trust inference,FALSE,TRUE
-package#Theft,domain#CP-CSCLS+ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS+ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
-package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS-ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCPSLS-l-US+PNC,domain#CP-Marker+Reconnection-1,CSCPSLS-l-US+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCUSLS-l-W+PNC,domain#CP-Marker+Reconnection-1,CSCUSLS-l-W+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCWLS-l+PNC,domain#CP-Marker+Reconnection-1,CSCWLS-l+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
 package#Theft,domain#CP-HPHL3S-ii+HNC,domain#CP-Marker+Reconnection-1,HPHL3S-ii+HNC is at the end of the reconnection context inference sequence,FALSE,TRUE
 package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+TrustContext-0,Trust contextualisation inference should follow reconnection context creation.,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-1,A+iA is at the end of the user status classification sequence,FALSE,TRUE

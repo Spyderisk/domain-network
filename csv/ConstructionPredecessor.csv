@@ -827,8 +827,9 @@ package#ProcessTrust,domain#CP-PccCuS+N,domain#CP-CucSaP+c,CucSaP+c creates a li
 package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-CuScS+N,CuScS+N creates a link that in PnPnS-U+U matches Client-sharesCredentials-Proxy,FALSE,TRUE
 package#ProcessTrust,domain#CP-PnPnS-U+U,domain#CP-PccCuS+N,PccCuS+N creates a link that in PnPnS-U+U matches Client-sharesCredentials-Proxy,FALSE,TRUE
 package#ProcessTrust,domain#CP-SCDS+fV,domain#CP-Marker+TrustInDataFlows-0,SCDS+fV is at the start of the trust in data flow inference sequence,FALSE,TRUE
-package#Theft,domain#CP-CSCLS+ii+PNC,domain#CP-Marker+Reconnection-0,CSCLS+ii+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
-package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-0,CSCLS-ii+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCPSLS-l-US+PNC,domain#CP-Marker+Reconnection-0,CSCPSLS-l-US+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCUSLS-l-W+PNC,domain#CP-Marker+Reconnection-0,CSCUSLS-l-W+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCWLS-l+PNC,domain#CP-Marker+Reconnection-0,CSCWLS-l+PNC is at the start of the reconnection context creation sequence,FALSE,TRUE
 package#Theft,domain#CP-HPHL3S-ii+HNC,domain#CP-Marker+Reconnection-0,HPHL3S-ii+HNC is at the start of the reconnection context inference sequence,FALSE,TRUE
 package#Theft,domain#CP-Marker+Reconnection-0,domain#CP-Marker+HostContext-1,Host context creation should precede reconnection context creation.,FALSE,TRUE
 package#Theft,domain#CP-Marker+Reconnection-0,domain#CP-Marker+ProcessTrust-2,Trusted communication inference should precede reconnection context creation.,FALSE,TRUE

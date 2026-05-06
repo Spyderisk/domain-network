@@ -597,6 +597,11 @@ package#ProcessComms,domain#MP-CSAPNaS,domain#Node-HostManager-Human,FALSE,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Node-ProcAccess-PContext,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Node-ServiceChannel-ServiceChannel,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
+package#ProcessComms,domain#MP-CSCPSLS-l-US,domain#Node-LocalSpace-Space,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-CSCPSLS-l-US,domain#Node-OtherSpace-PublicSpace,FALSE,TRUE,FALSE
+package#ProcessComms,domain#MP-CSCUSLS-l-W,domain#Node-LocalSpace-Space,TRUE,FALSE,FALSE
+package#ProcessComms,domain#MP-CSCUSLS-l-W,domain#Node-OtherSpace-World,FALSE,TRUE,FALSE
+package#ProcessComms,domain#MP-CSCWLS-l,domain#Node-LocalSpace-Space,TRUE,FALSE,FALSE
 package#ProcessComms,domain#MP-CSL0H,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-CSL1H2,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessComms,domain#MP-CSL3H,domain#Node-LastChannel-ServiceChannel,FALSE,TRUE,FALSE

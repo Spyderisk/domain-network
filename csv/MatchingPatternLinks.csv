@@ -1132,7 +1132,14 @@ package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ProcAccess-accessTo-Service,F
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ProcAccess-accessToService-AttackPath,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ServiceChannel-channelVia-AttackPath,FALSE
 package#ProcessComms,domain#MP-CSAPNaS,domain#Link-ServiceManager-manages-Service,FALSE
-package#ProcessComms,domain#MP-CSCLS-ii,domain#Link-LogicalSubnet-isInternet-LogicalSubnet,TRUE
+package#ProcessComms,domain#MP-CSCPSLS-l-US,domain#Link-LogicalSubnet-accessibleFrom-OtherSpace,FALSE
+package#ProcessComms,domain#MP-CSCPSLS-l-US,domain#Link-PhysicalHost-locatedIn-LocalSpace,FALSE
+package#ProcessComms,domain#MP-CSCPSLS-l-US,domain#Link-PhysicalHost-locatedIn-Space,TRUE
+package#ProcessComms,domain#MP-CSCUSLS-l-W,domain#Link-LogicalSubnet-accessibleFrom-OtherSpace,FALSE
+package#ProcessComms,domain#MP-CSCUSLS-l-W,domain#Link-PhysicalHost-locatedIn-LocalSpace,FALSE
+package#ProcessComms,domain#MP-CSCUSLS-l-W,domain#Link-PhysicalHost-locatedIn-Space,TRUE
+package#ProcessComms,domain#MP-CSCWLS-l,domain#Link-PhysicalHost-locatedIn-LocalSpace,FALSE
+package#ProcessComms,domain#MP-CSCWLS-l,domain#Link-PhysicalHost-locatedIn-Space,TRUE
 package#ProcessComms,domain#MP-CSL0H,domain#Link-CHost-isCluster-CHost,TRUE
 package#ProcessComms,domain#MP-CSL0H,domain#Link-LastChannel-channelFrom-Client,FALSE
 package#ProcessComms,domain#MP-CSL0H,domain#Link-LastChannel-channelTo-DService,FALSE
