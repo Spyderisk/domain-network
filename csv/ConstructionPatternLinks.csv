@@ -997,6 +997,9 @@ package#ProcessTrust,domain#CP-CCSCtI+tI,domain#Link-ClientChannel-toInterface-I
 package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#Link-ClientChannel-usesLogicalRoute-LogicalSegment
 package#ProcessTrust,domain#CP-CCSCvI+vI,domain#Link-ClientChannel-viaInterface-Interface
 package#ProcessTrust,domain#CP-CCSCvLS+vLS,domain#Link-ClientChannel-viaSubnet-LogicalSubnet
+package#ProcessTrust,domain#CP-CPuSCC+c,domain#Link-ClientChannel-channelVia-LastChannel
+package#ProcessTrust,domain#CP-CPuSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
+package#ProcessTrust,domain#CP-CPvSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
 package#ProcessTrust,domain#CP-CSDS+fV,domain#Link-DataStep-flowsViaCS-ClientChannel
 package#ProcessTrust,domain#CP-CScP-v+AA,domain#Link-Client-noAuthN-Service
 package#ProcessTrust,domain#CP-CScP-v+AA,domain#Link-Client-usesForAuth-Process
@@ -1012,8 +1015,6 @@ package#ProcessTrust,domain#CP-CuScS+N,domain#Link-Client-proxyAuthN-Service
 package#ProcessTrust,domain#CP-CucSaP+c,domain#Link-Process-controls-Client
 package#ProcessTrust,domain#CP-CuvS+CC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessTrust,domain#CP-CuvS+CC,domain#Link-ClientChannel-channelTo-Process
-package#ProcessTrust,domain#CP-CvPuSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
-package#ProcessTrust,domain#CP-CvPvSCC+c,domain#Link-ClientChannel-channelVia-ProxyChannel
 package#ProcessTrust,domain#CP-DFDSCS+f,domain#Link-DataFlow-flowsViaCS-ClientChannel
 package#ProcessTrust,domain#CP-DFDSSC+f,domain#Link-DataFlow-flowsViaSC-ClientChannel
 package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#Link-DataFlow-flowsFromIn-ProcAccess

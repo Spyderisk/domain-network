@@ -657,6 +657,8 @@ package#ProcessTrust,domain#CP-CCSCtI+tI,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCSCtSg+tSg,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCSCvI+vI,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CCSCvLS+vLS,0,domain#S-ClientServiceTrust,FALSE
+package#ProcessTrust,domain#CP-CPuSCC+c,0,domain#S-ClientServiceTrust,FALSE
+package#ProcessTrust,domain#CP-CPvSCC+c,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CSDS+fV,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-CScP-v+AA,0,domain#S-SystemClientService,FALSE
 package#ProcessTrust,domain#CP-CaS-SP+CC,0,domain#S-ClientServiceTrust,FALSE
@@ -667,8 +669,6 @@ package#ProcessTrust,domain#CP-CuPvnS+n,0,domain#S-SystemClientService,FALSE
 package#ProcessTrust,domain#CP-CuScS+N,0,domain#S-SystemClientService,FALSE
 package#ProcessTrust,domain#CP-CucSaP+c,0,domain#S-SystemClientService,FALSE
 package#ProcessTrust,domain#CP-CuvS+CC,0,domain#S-ClientServiceTrust,FALSE
-package#ProcessTrust,domain#CP-CvPuSCC+c,0,domain#S-ClientServiceTrust,FALSE
-package#ProcessTrust,domain#CP-CvPvSCC+c,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-DFDSCS+f,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-DFDSSC+f,0,domain#S-ClientServiceTrust,FALSE
 package#ProcessTrust,domain#CP-DFfCCCfS+ff,0,domain#S-ClientServiceTrust,FALSE

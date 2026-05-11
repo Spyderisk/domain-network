@@ -290,11 +290,9 @@ package#ProcessTrust,domain#CP-CCSCfI+fI,domain#CP-Marker+TrustedComms-1,CCSCfI+
 package#ProcessTrust,domain#CP-CCSCtI+tI,domain#CP-Marker+TrustedComms-1,CCSCtI+tI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#CP-Marker+TrustedComms-1,CCSCtSg+tSg is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-Marker+TrustedComms-1,CCSCvI+vI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CPuSCC+c,domain#CP-Marker+TrustRelationship-1,CPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-Marker+CredentialSharing-1,CScP-v+AA is at the end of the credential sharing inference sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CuPuSCC+c,domain#CP-Marker+TrustRelationship-1,CuPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CuPvSCC+c,domain#CP-Marker+TrustRelationship-1,CuPvSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CvPuSCC+c,domain#CP-Marker+TrustRelationship-1,CvPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CvPvSCC+c,domain#CP-Marker+TrustRelationship-1,CvPvSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#CP-Marker+TrustInDataFlows-1,DFfCCCfS+ff is at the end of the trust in data flow inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFfCCCtS+ft,domain#CP-Marker+TrustInDataFlows-1,DFfCCCtS+ft is at the end of the trust in data flow inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFtCCCfS+ft,domain#CP-Marker+TrustInDataFlows-1,DFtCCCfS+ft is at the end of the trust in data flow inference sequence,FALSE,TRUE

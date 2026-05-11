@@ -780,6 +780,9 @@ package#ProcessTrust,domain#CP-CCSCtI+tI,domain#CP-CCSC+ch,CCSC+ch creates a lin
 package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCtSg+tSg matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCvI+vI matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCvLS+vLS,domain#CP-CCSC+ch,CCSC+ch creates a link that in CCSCvLS+vLS matches ClientChannel-channelVia-ServiceChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CPuSCC+c,domain#CP-CPvSCC+c,CPvSCC+c creates a link that in CPuSCC+c matches AuthChannel-viaChannel-FirstChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CPvSCC+c,domain#CP-CuPuSCC+c,CuPuSCC+c creates a link that in CPvSCC+c matches AuthChannel-viaChannel-FirstChannel,FALSE,TRUE
+package#ProcessTrust,domain#CP-CPvSCC+c,domain#CP-CuPvSCC+c,CuPvSCC+c creates a link that in CPvSCC+c matches AuthChannel-viaChannel-FirstChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-CSDS+fV,domain#CP-Marker+TrustInDataFlows-0,CSDS+fV is at the start of the trust in data flow inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-CuPvnS+n,CuPvnS+n creates a link that in CScP-v+AA matches Service-proxyAuthN-Process,FALSE,TRUE
 package#ProcessTrust,domain#CP-CaS-SP+CC,domain#CP-Marker+TrustRelationship-0,CaS-SP+CC is at the start of the trust relationship creation sequence,FALSE,TRUE
@@ -792,8 +795,6 @@ package#ProcessTrust,domain#CP-CuScS+N,domain#CP-CucSaP+c,CucSaP+c creates a lin
 package#ProcessTrust,domain#CP-CucSaP+c,domain#CP-CzSzP+AA,"CzSzP+AA creates a link that in CucSaP+c matches Client-usesForAuth-Process
 DFuCuS-C-P+u creates a link that in CuPvnS+n matches Client-accessesService-Service",FALSE,TRUE
 package#ProcessTrust,domain#CP-CuvS+CC,domain#CP-Marker+TrustRelationship-0,CuvS+CC is at the start of the trust relationship creation sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CvPuSCC+c,domain#CP-CzS-CC+AC,CzS-CC+AC creates a link that in CvPuSCC+c matches AuthChannel-channelTo-Service,FALSE,TRUE
-package#ProcessTrust,domain#CP-CvPvSCC+c,domain#CP-CzS-CC+AC,CzS-CC+AC creates a link that in CvPvSCC+c matches AuthChannel-channelTo-Service,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFDSCS+f,domain#CP-CSDS+fV,CSDS+fV creates a link that in DFDSCS+f matches DataStep-flowsViaCS-ClientChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFDSSC+f,domain#CP-SCDS+fV,SCDS+fV creates a link  that in DFDSSC+f matches DataStep-flowsViaSC-ClientChannel,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#CP-CCCSPSFCS+f,CCCSPSFCS+f creates a link that in DFfCCCfS+ff matches DataFlow-flowsViaCS-ClientChannel,FALSE,TRUE
