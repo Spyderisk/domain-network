@@ -1542,6 +1542,8 @@ package#ProcessTrust,domain#MP-CRoSI,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessTrust,domain#MP-CRoSI,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessTrust,domain#MP-CRoSI,domain#Link-IndirectChannel-channelVia-ClientChannel,FALSE
 package#ProcessTrust,domain#MP-CRoSI,domain#Link-ToSubnet-isInternet-ToSubnet,TRUE
+package#ProcessTrust,domain#MP-CSACmCC,domain#Link-ClientChannel-channelVia-ProxyChannel,FALSE
+package#ProcessTrust,domain#MP-CSACmCC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessTrust,domain#MP-CSCC-SC,domain#Link-ClientChannel-channelVia-ProxyChannel,FALSE
 package#ProcessTrust,domain#MP-CSCC-SC,domain#Link-ServiceChannel-channelFrom-Client,FALSE
 package#ProcessTrust,domain#MP-CSCC-SC,domain#Link-ServiceChannel-channelTo-Service,FALSE
@@ -1554,8 +1556,6 @@ package#ProcessTrust,domain#MP-CSCCHuoSt,domain#Link-Human-manages-Client,TRUE
 package#ProcessTrust,domain#MP-CSCCHuoSt,domain#Link-Human-worksFor-Employer,FALSE
 package#ProcessTrust,domain#MP-CSCCHuoSt,domain#Link-ProxyChannel-channelTo-Service,FALSE
 package#ProcessTrust,domain#MP-CSCCSC,domain#Link-ServiceManager-manages-Service,FALSE
-package#ProcessTrust,domain#MP-CSCCmCC,domain#Link-ClientChannel-channelVia-ProxyChannel,FALSE
-package#ProcessTrust,domain#MP-CSCCmCC,domain#Link-ServiceManager-manages-Service,FALSE
 package#ProcessTrust,domain#MP-CSHSAC,domain#Link-HostManager-manages-SHost,FALSE
 package#ProcessTrust,domain#MP-CSHSAC,domain#Link-Human-interactsRemotelyWith-Client,FALSE
 package#ProcessTrust,domain#MP-CScP-v,domain#Link-Client-noAuthN-Service,TRUE

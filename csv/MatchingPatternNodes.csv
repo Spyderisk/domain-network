@@ -822,14 +822,14 @@ package#ProcessTrust,domain#MP-CRoSI,domain#Node-HostAccess-HostContext,TRUE,FAL
 package#ProcessTrust,domain#MP-CRoSI,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CRoSI,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CRoSI,domain#Node-IndirectChannel-AuthChannel,FALSE,FALSE,FALSE
+package#ProcessTrust,domain#MP-CSACmCC,domain#Node-ProxyChannel-ClientChannel,TRUE,FALSE,FALSE
+package#ProcessTrust,domain#MP-CSACmCC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CSCC-SC,domain#Node-ProxyChannel-ClientChannel,FALSE,TRUE,FALSE
 package#ProcessTrust,domain#MP-CSCC-SC,domain#Node-ServiceChannel-ServiceChannel,FALSE,TRUE,FALSE
 package#ProcessTrust,domain#MP-CSCCHuSt,domain#Node-ProxyChannel-ClientChannel,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CSCCHuoSt,domain#Node-Employer-Stakeholder,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CSCCHuoSt,domain#Node-ProxyChannel-ClientChannel,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CSCCSC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
-package#ProcessTrust,domain#MP-CSCCmCC,domain#Node-ProxyChannel-ClientChannel,TRUE,FALSE,FALSE
-package#ProcessTrust,domain#MP-CSCCmCC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CSHSAC,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-CSHSAC,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-DFrXSS,domain#Node-HostManager-Human,FALSE,FALSE,FALSE

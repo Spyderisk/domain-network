@@ -514,8 +514,8 @@ package#ProcessTrust,domain#CSG-DataFlowEncryption,domain#DF.C.CCCSPCCSDF-Vi.3
 package#ProcessTrust,domain#CSG-DataFlowIntegrityProtection,domain#DF.Auth.AC-iDF-VCS.3.2
 package#ProcessTrust,domain#CSG-DataFlowIntegrityProtection,domain#DF.Auth.AC-iDF-VSC.3.2
 package#ProcessTrust,domain#CSG-DataFlowIntegrityProtection,domain#DF.Auth.ACDF-VSC-i.3.1
+package#ProcessTrust,domain#CSG-DisableClientAccess,domain#CC.IS.CSACmCC.8
 package#ProcessTrust,domain#CSG-DisableClientAccess,domain#CC.IS.CSCCSC.8
-package#ProcessTrust,domain#CSG-DisableClientAccess,domain#CC.IS.CSCCmCC.8
 package#ProcessTrust,domain#CSG-EncryptedDataProcessingAtService,domain#DF.Auth.ACDF-VFS-i.3.6
 package#ProcessTrust,domain#CSG-EncryptedDataProcessingAtService,domain#DF.Auth.ACDFVFS-i.3.6
 package#ProcessTrust,domain#CSG-EncryptedDataProcessingAtService,domain#DF.C.ACDF-VFS-i.3.6

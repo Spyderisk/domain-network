@@ -3067,6 +3067,11 @@ package#ProcessTrust,domain#R-CRoSI,domain#Node-Interface-Interface,TRUE
 package#ProcessTrust,domain#R-CRoSI,domain#Node-SHost-Host,TRUE
 package#ProcessTrust,domain#R-CRoSI,domain#Node-Service-Process,TRUE
 package#ProcessTrust,domain#R-CRoSI,domain#Node-ToSubnet-LogicalSubnet,TRUE
+package#ProcessTrust,domain#R-CSAC,domain#Node-CHost-Host,TRUE
+package#ProcessTrust,domain#R-CSAC,domain#Node-Client-Process,TRUE
+package#ProcessTrust,domain#R-CSAC,domain#Node-ClientChannel-AuthChannel,TRUE
+package#ProcessTrust,domain#R-CSAC,domain#Node-SHost-Host,TRUE
+package#ProcessTrust,domain#R-CSAC,domain#Node-Service-Process,TRUE
 package#ProcessTrust,domain#R-CSCC,domain#Node-CHost-Host,TRUE
 package#ProcessTrust,domain#R-CSCC,domain#Node-Client-Process,TRUE
 package#ProcessTrust,domain#R-CSCC,domain#Node-ClientChannel-ClientChannel,TRUE

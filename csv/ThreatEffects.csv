@@ -422,8 +422,8 @@ package#ProcessTrust,domain#CC.AuS.CRoSI.3,domain#MS-ServiceImpersonation-Client
 package#ProcessTrust,domain#CC.AuS.CRoSI.3,domain#MS-ServiceImpersonation-IndirectChannel
 package#ProcessTrust,domain#CC.C.CCCSCSoAC.3,domain#MS-CommsSnoopable-ClientChannel
 package#ProcessTrust,domain#CC.C.CCCSCSoAC.3,domain#MS-CommsSnoopable-IndirectChannel
+package#ProcessTrust,domain#CC.IS.CSACmCC.8,domain#MS-InService-ClientChannel
 package#ProcessTrust,domain#CC.IS.CSCCSC.8,domain#MS-InService-ClientChannel
-package#ProcessTrust,domain#CC.IS.CSCCmCC.8,domain#MS-InService-ClientChannel
 package#ProcessTrust,domain#CC.L.CSCCHuSt.1,domain#MS-LossOfServiceTW-ClientChannel
 package#ProcessTrust,domain#CC.L.CSCCHuSt.1,domain#MS-LossOfServiceTW-ProxyChannel
 package#ProcessTrust,domain#CC.L.CSCCHuoSt.1,domain#MS-LossOfServiceTW-ClientChannel

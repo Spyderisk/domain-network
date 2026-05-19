@@ -399,6 +399,7 @@ package#DataCaching,domain#R-HDFrSACDFiaS,domain#Link-ProcAccess-accessTo-Proces
 package#DataCaching,domain#R-HDFrSACDFiaS,domain#Link-ProcAccess-accessToService-AuthChannel
 package#DataCaching,domain#R-HDFrSACDFiaS,domain#Link-Process-reads-Input
 package#DataCaching,domain#R-HDFrSACDFiaS,domain#Link-Process-receives-Data
+package#DataLifecycle,domain#R-CCDFCDAScDA,domain#Link-Client-usesIndirectly-Service
 package#DataLifecycle,domain#R-CCDFCDAScDA,domain#Link-DataAccess-fulfils-DataAsset
 package#DataLifecycle,domain#R-CCDFCDAScDA,domain#Link-DataAccess-usedBy-Client
 package#DataLifecycle,domain#R-CCDFCDAScDA,domain#Link-DataFlow-flowsFrom-Service
@@ -1270,6 +1271,7 @@ package#DataLifecycle,domain#R-SDUDADS,domain#Link-Service-enablesAccess-DataUse
 package#DataLifecycle,domain#R-SDUDSDA,domain#Link-DataAccess-usedBy-Service
 package#DataLifecycle,domain#R-SDUDSDA,domain#Link-DataCopy-fulfils-DataAccess
 package#DataLifecycle,domain#R-SDUDSDA,domain#Link-Service-enablesAccess-DataUse
+package#DataLifecycle,domain#R-ScDACDACCDF,domain#Link-Client-usesIndirectly-Service
 package#DataLifecycle,domain#R-ScDACDACCDF,domain#Link-DataAccess-fulfils-DataFlow
 package#DataLifecycle,domain#R-ScDACDACCDF,domain#Link-DataAccess-usedBy-Client
 package#DataLifecycle,domain#R-ScDACDACCDF,domain#Link-DataAsset-fulfils-DataAccess
@@ -3023,6 +3025,10 @@ package#ProcessTrust,domain#R-CRoSI,domain#Link-ClientPath-fromInterface-Interfa
 package#ProcessTrust,domain#R-CRoSI,domain#Link-Interface-connectsFrom-Gateway
 package#ProcessTrust,domain#R-CRoSI,domain#Link-Interface-connectsTo-ToSubnet
 package#ProcessTrust,domain#R-CRoSI,domain#Link-SHost-hosts-Service
+package#ProcessTrust,domain#R-CSAC,domain#Link-CHost-hosts-Client
+package#ProcessTrust,domain#R-CSAC,domain#Link-ClientChannel-channelFrom-Client
+package#ProcessTrust,domain#R-CSAC,domain#Link-ClientChannel-channelTo-Service
+package#ProcessTrust,domain#R-CSAC,domain#Link-SHost-hosts-Service
 package#ProcessTrust,domain#R-CSCC,domain#Link-CHost-hosts-Client
 package#ProcessTrust,domain#R-CSCC,domain#Link-ClientChannel-channelFrom-Client
 package#ProcessTrust,domain#R-CSCC,domain#Link-ClientChannel-channelTo-Service
@@ -3210,7 +3216,6 @@ package#ProcessTrust,domain#R-HPdDSCCV,domain#Link-DataCopy-copyOf-Data
 package#ProcessTrust,domain#R-HPdDSCCV,domain#Link-Host-hosts-Process
 package#ProcessTrust,domain#R-HPdDSCCV,domain#Link-Host-storesCopy-DataCopy
 package#ProcessTrust,domain#R-HPdDSCCV,domain#Link-Process-crudd-DataCopy
-package#ProcessTrust,domain#R-HPdDSCCV,domain#Link-Process-usesForAuth-Vault
 package#ProcessTrust,domain#R-HPdDSCCV,domain#Link-Vault-controls-DataCopy
 package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-ClientChannel-channelFrom-Process
 package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-ClientChannel-channelTo-Vault
@@ -3220,7 +3225,6 @@ package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-DataCopy-fulfils-DataAccess
 package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-Host-hosts-Process
 package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-Host-storesCopy-DataCopy
 package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-Process-crudr-DataCopy
-package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-Process-usesForAuth-Vault
 package#ProcessTrust,domain#R-HPrDSCCV,domain#Link-Vault-controls-DataCopy
 package#ProcessTrust,domain#R-HuCCCS,domain#Link-CHost-hosts-Client
 package#ProcessTrust,domain#R-HuCCCS,domain#Link-ClientChannel-channelFrom-Client

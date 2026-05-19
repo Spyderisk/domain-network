@@ -704,6 +704,7 @@ package#ProcessTrust,domain#R-CPvSCC,CPvSCC,"Finds a trust relationship (AuthCha
 package#ProcessTrust,domain#R-CRoS,CRoS,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  and a Logical Subnet used by at least one path from the client, plus the Client Path for that Client from this Subnet.",FALSE,FALSE
 package#ProcessTrust,domain#R-CRoSG,CRoSG,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface, and an access context for the gateway where it is on the relevant path.",FALSE,FALSE
 package#ProcessTrust,domain#R-CRoSI,CRoSI,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface.",FALSE,FALSE
+package#ProcessTrust,domain#R-CSAC,CSAC,"Finds a Client and Service with an AuthChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessTrust,domain#R-CSCC,CSCC,"Finds a Client and Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessTrust,domain#R-CSCCHu,CSCCHu,Finds a Human manager of a Service and a Client Channel to the Service from a Client.,FALSE,FALSE
 package#ProcessTrust,domain#R-CSCCHuSt,CSCCHuSt,"Finds a Human manager of a Service and their employer, and a Client Channel to the Service from a Client.",FALSE,FALSE
