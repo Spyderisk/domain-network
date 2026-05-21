@@ -5,8 +5,12 @@ package#AccessContext,domain#ExploitTW,domain#AccessContext
 package#AccessContext,domain#UserTW,domain#AccessContext
 package#AIHarms,domain#Accuracy,domain#Data
 package#AIHarms,domain#Accuracy,domain#DataField
+package#AIHarms,domain#AccurateProcessing,domain#MLModel
+package#AIHarms,domain#AccurateProcessing,domain#MLTrainingAlgorithm
 package#AIHarms,domain#Fairness,domain#Data
 package#AIHarms,domain#Fairness,domain#DataField
+package#AIHarms,domain#FairProcessing,domain#MLModel
+package#AIHarms,domain#FairProcessing,domain#MLTrainingAlgorithm
 package#Application,domain#Authenticity,domain#Data
 package#Application,domain#Availability,domain#Data
 package#Application,domain#Confidentiality,domain#Data

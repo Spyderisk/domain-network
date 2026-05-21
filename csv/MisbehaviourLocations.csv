@@ -5,6 +5,8 @@ package#AccessContext,domain#LocalLossOfUserTW,domain#AccessContext
 package#AccessContext,domain#LossOfExploitTW,domain#AccessContext
 package#AIHarms,domain#LossOfAccuracy,domain#Data
 package#AIHarms,domain#LossOfAccuracy,domain#DataField
+package#AIHarms,domain#LossOfAccurateProcessing,domain#MLModel
+package#AIHarms,domain#LossOfAccurateProcessing,domain#MLTrainingAlgorithm
 package#AIHarms,domain#LossOfFairness,domain#Data
 package#AIHarms,domain#LossOfFairness,domain#DataField
 package#AIHarms,domain#LossOfFairProcessing,domain#MLModel

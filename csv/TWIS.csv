@@ -4,7 +4,9 @@ package#AccessContext,domain#TWIS-Control-LocalLossOfControl,domain#LocalLossOfC
 package#AccessContext,domain#TWIS-ExploitTW-LossOfExploitTW,domain#LossOfExploitTW,domain#ExploitTW
 package#AccessContext,domain#TWIS-UserTW-LocalLossOfUserTW,domain#LocalLossOfUserTW,domain#UserTW
 package#AIHarms,domain#TWIS-Accuracy-LossOfAccuracy,domain#LossOfAccuracy,domain#Accuracy
+package#AIHarms,domain#TWIS-AccurateProcessing-LossOfAccurateProcessing,domain#LossOfAccurateProcessing,domain#AccurateProcessing
 package#AIHarms,domain#TWIS-Fairness-LossOfFairness,domain#LossOfFairness,domain#Fairness
+package#AIHarms,domain#TWIS-FairProcessing-LossOfFairProcessing,domain#LossOfFairProcessing,domain#FairProcessing
 package#Application,domain#TWIS-Authenticity-LossOfAuthenticity,domain#LossOfAuthenticity,domain#Authenticity
 package#Application,domain#TWIS-Confidentiality-LossOfConfidentiality,domain#LossOfConfidentiality,domain#Confidentiality
 package#Application,domain#TWIS-Integrity-LossOfIntegrity,domain#LossOfIntegrity,domain#Integrity

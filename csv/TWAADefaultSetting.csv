@@ -32,6 +32,8 @@ package#AIHarms,domain#TWAADS-Accuracy-Data,domain#Accuracy,domain#Data,domain#T
 package#AIHarms,domain#TWAADS-Accuracy-DataField,domain#Accuracy,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Accuracy-SensitiveData,domain#Accuracy,domain#SensitiveData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Accuracy-SpamData,domain#Accuracy,domain#SpamData,domain#TrustworthinessLevelLow,TRUE
+package#AIHarms,domain#TWAADS-AccurateProcessing-MLModel,domain#AccurateProcessing,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-AccurateProcessing-MLTrainingAlgorithm,domain#AccurateProcessing,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Availability-MLModel,domain#Availability,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Availability-MLTrainingAlgorithm,domain#Availability,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-DefaultTW-MLModel,domain#DefaultTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
@@ -44,6 +46,8 @@ package#AIHarms,domain#TWAADS-Fairness-Data,domain#Fairness,domain#Data,domain#T
 package#AIHarms,domain#TWAADS-Fairness-DataField,domain#Fairness,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Fairness-SensitiveData,domain#Fairness,domain#SensitiveData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Fairness-SpamData,domain#Fairness,domain#SpamData,domain#TrustworthinessLevelLow,TRUE
+package#AIHarms,domain#TWAADS-FairProcessing-MLModel,domain#FairProcessing,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-FairProcessing-MLTrainingAlgorithm,domain#FairProcessing,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Health-MLModel,domain#Health,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Health-MLTrainingAlgorithm,domain#Health,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-IntrinsicTW-MLModel,domain#IntrinsicTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
