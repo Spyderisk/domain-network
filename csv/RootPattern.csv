@@ -705,9 +705,9 @@ package#ProcessTrust,domain#R-CRoS,CRoS,"Finds a Service and its Host, a Client 
 package#ProcessTrust,domain#R-CRoSG,CRoSG,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface, and an access context for the gateway where it is on the relevant path.",FALSE,FALSE
 package#ProcessTrust,domain#R-CRoSI,CRoSI,"Finds a Service and its Host, a Client Channel from a legitimate Client and its Host,  an Interface from a Gateway host to a subnet on at least one path from the Client, plus the Client Path from that Interface.",FALSE,FALSE
 package#ProcessTrust,domain#R-CSAC,CSAC,"Finds a Client and Service with an AuthChannel between them, plus their hosts.",FALSE,FALSE
+package#ProcessTrust,domain#R-CSACHu,CSACHu,Finds a Human manager of a Service and the AuthChannel to the Service from a Client.,FALSE,FALSE
+package#ProcessTrust,domain#R-CSACHuSt,CSACHuSt,"Finds a Human manager of a Service and their employer, and the AuthChannel to the Service from a Client.",FALSE,FALSE
 package#ProcessTrust,domain#R-CSCC,CSCC,"Finds a Client and Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
-package#ProcessTrust,domain#R-CSCCHu,CSCCHu,Finds a Human manager of a Service and a Client Channel to the Service from a Client.,FALSE,FALSE
-package#ProcessTrust,domain#R-CSCCHuSt,CSCCHuSt,"Finds a Human manager of a Service and their employer, and a Client Channel to the Service from a Client.",FALSE,FALSE
 package#ProcessTrust,domain#R-CSCCSC,CSCCSC,Finds a Client and Service with a Client Channel between them and a single associated Service Channel.,FALSE,FALSE
 package#ProcessTrust,domain#R-CSDS,CSDS,Finds a client and service plus the associated client channel where there is a data step from the client to the service.,FALSE,FALSE
 package#ProcessTrust,domain#R-CSHSAC,CSHSAC,Finds a service accessed by a client and an associated context for access to the service.,FALSE,FALSE
@@ -736,6 +736,7 @@ package#ProcessTrust,domain#R-HDFuSC,HDFuSC,"Finds a process that reads (needs) 
 package#ProcessTrust,domain#R-HLSISC,HLSISC,Finds a host connecting to a logical subnet by authenticating to a controlling service.,FALSE,FALSE
 package#ProcessTrust,domain#R-HPdDSCCV,HPdDSCCV,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, plus the data access asset representing the data deserialization, and a channel to a key vault that controls the stored data.",FALSE,FALSE
 package#ProcessTrust,domain#R-HPrDSCCV,HPrDSCCV,"Finds a host running a Process with read access (crudr) to a locally stored data copy, plus the data access asset representing the data deserialization, and a channel to a key vault that controls the stored data.",FALSE,FALSE
+package#ProcessTrust,domain#R-HuACCS,HuACCS,"Finds a User of an interactive Client using a Service with an AuthChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessTrust,domain#R-HuCCCS,HuCCCS,"Finds a User of an interactive Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessTrust,domain#R-HuDFTCS,HuDFTCS,"Finds a Human using a Web Browser that accesses a Service, where the browser consumes a data flow that is viewed by the user, plus the client channel associated with the commnication and data flow.",FALSE,FALSE
 package#ProcessTrust,domain#R-HuDFrXSS,HuDFrXSS,"Finds human using a web browser that uses a service with a host and host manager, where the browser also uses inflowing data.",FALSE,FALSE
@@ -744,7 +745,7 @@ package#ProcessTrust,domain#R-HuDSTCS,HuDSTCS,"Finds a Human using a Web Browser
 package#ProcessTrust,domain#R-HuDSrXSS,HuDSrXSS,"Finds human using a web browser that uses a service with a host and host manager, where the browser also uses locally stored data.",FALSE,FALSE
 package#ProcessTrust,domain#R-HuDSsXSS,HuDSsXSS,Finds a human using a web browser that accesses a service which is using stored input data and whose host has a manager.,FALSE,FALSE
 package#ProcessTrust,domain#R-HuHW2ACE,HuHW2ACE,"Finds a Human using a web browser running on a host to access email, when the host is located in a space, plus the associated host location access context.",FALSE,FALSE
-package#ProcessTrust,domain#R-HuStCCCS,HuStCCCS,"Finds the Employer of a User of an interactive Client using a Service with a ClientChannel between them, plus their hosts.",FALSE,FALSE
+package#ProcessTrust,domain#R-HuStACCS,HuStACCS,"Finds the Employer of a User of an interactive Client using a Service with an AuthChannel between them, plus their hosts.",FALSE,FALSE
 package#ProcessTrust,domain#R-HuiHCCCS,HuiHCCCS,Finds a Human using a Host to run a Process that is a Client of a Service.,FALSE,FALSE
 package#ProcessTrust,domain#R-HuiHrCCCS,HuiHrCCCS,Finds a Human using a Host running a Remote Access Client used to access a Process that is a Client of a Service.,FALSE,FALSE
 package#ProcessTrust,domain#R-HuirRACSPH,HuirRACSPH,"Finds a Human interacting remotely with a Process via a Remote Access Clent, plus the Process Host, collocated Remote Access Service, and the Client Channel between the Remote Access Client and the Remote Access Service.",FALSE,FALSE
