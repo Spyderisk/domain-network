@@ -1,6 +1,9 @@
 package,dependsOn
 domain#000000,package#Virtualisation
 package#5G,package#Virtualisation
+package#AIHarms,package#Application
+package#AIHarms,package#Network
+package#AIHarms,package#Users
 package#AccessContext,package#Users
 package#Application,package#Network
 package#CloudManagement,package#Theft

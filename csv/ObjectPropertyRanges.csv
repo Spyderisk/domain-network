@@ -2,6 +2,11 @@ package,URI,range
 domain#000000,domain#000000,domain#CellularNetwork
 package#5G,domain#implementsCN,domain#CellularNetwork
 package#5G,domain#multiSpace,domain#RAN
+package#AIHarms,domain#hasParameters,domain#Data
+package#AIHarms,domain#predicts,domain#Data
+package#AIHarms,domain#trains,domain#MLModel
+package#AIHarms,domain#usesPredictionInputs,domain#Data
+package#AIHarms,domain#usesToTrain,domain#Data
 package#AccessContext,domain#accessFrom,domain#Space
 package#AccessContext,domain#accessTo,domain#Accessible
 package#AccessContext,domain#interactsRemotelyWith,domain#Accessible

@@ -146,6 +146,14 @@ package#5G,domain#R-URrBrUR,domain#Link-FromSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-URrBrUR,domain#Link-Gateway-connectedTo-FromSubnet
 package#5G,domain#R-URrBrUR,domain#Link-ToSubnet-implementsCN-CellularNetwork
 package#5G,domain#R-URrBrUR,domain#Link-ToSubnet-providedBy-Gateway
+package#AIHarms,domain#R-DiPmlm,domain#Link-MLModel-usesPredictionInputs-Input
+package#AIHarms,domain#R-DiuPmlmpDp,domain#Link-MLModel-predicts-Output
+package#AIHarms,domain#R-DiuPmlmpDp,domain#Link-MLModel-usesPredictionInputs-Input
+package#AIHarms,domain#R-PmlmpDmp,domain#Link-MLModel-hasParameters-Data
+package#AIHarms,domain#R-PmlmpDp,domain#Link-MLModel-predicts-Data
+package#AIHarms,domain#R-PtatPmlmpaDmp,domain#Link-MLModel-hasParameters-ModelParameters
+package#AIHarms,domain#R-PtatPmlmpaDmp,domain#Link-MLTrainingAlgorithm-trains-MLModel
+package#AIHarms,domain#R-PtautDt,domain#Link-MLTrainingAlgorithm-usesToTrain-TrainingData
 package#Application,domain#R-HD,domain#Link-Host-stores-Data
 package#Application,domain#R-HHuWE,domain#Link-Host-hosts-MUA
 package#Application,domain#R-HHuWE,domain#Link-Host-hosts-WebBrowser

@@ -5,6 +5,10 @@ package#5G,domain#Role_CellularNetwork,CellularNetwork,"An (abstract) network re
 package#5G,domain#Role_OtherCellularNetwork,OtherCellularNetwork,"An (abstract) network representing a cellular network, in this case the second such cellular network in a pattern."
 package#5G,domain#Role_PublicCellularNetwork,PublicCellularNetwork,A public cellular network.
 package#5G,domain#Role_RAN,RAN,A radio access network providing cellular network connectivity in a location.
+package#AIHarms,domain#Role_MLModel,MLModel,A process that is a ML model.
+package#AIHarms,domain#Role_MLTrainingAlgorithm,MLTrainingAlgorithm,A process that is a ML training algorithm.
+package#AIHarms,domain#Role_ModelParameters,ModelParameters,The model parameters (or weights) of a ML model.
+package#AIHarms,domain#Role_TrainingData,TrainingData,The training data of a ML training algorithm.
 package#AccessContext,domain#Role_AccessContext,AccessContext,A context in which access rights may be held or gained.
 package#AccessContext,domain#Role_FromContext,FromContext,A context in which access rights are held and may be exploited.
 package#AccessContext,domain#Role_ToContext,ToContext,A context in which access rights may be obtained.

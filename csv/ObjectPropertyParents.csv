@@ -1,6 +1,9 @@
 package,URI,subPropertyOf
 domain#000000,domain#000000,domain#implementsAN
 package#5G,domain#implementsCN,domain#implementsAN
+package#AIHarms,domain#hasParameters,domain#reads
+package#AIHarms,domain#predicts,domain#creates
+package#AIHarms,domain#usesPredictionInputs,domain#reads
 package#AccessContext,domain#interactsWith,domain#interactsRemotelyWith
 package#Application,domain#amends,domain#creates
 package#Application,domain#amends,domain#receives

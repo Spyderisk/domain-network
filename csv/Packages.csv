@@ -1,6 +1,7 @@
 URI,Label,Enabled,Description,Rank,PresentedAs
 domain#000000,5G,TRUE,Model of cellular networks (5G and similar).,0,5G
 package#5G,5G,TRUE,Model of cellular networks (5G and similar).,100,5G
+package#AIHarms,AIHarms,TRUE,Model of AI harms.,60,AIHarms
 package#AccessContext,AccessRights,TRUE,"Model of access rights, restricted to specific contexts.",30,AccessContext
 package#Application,Application,TRUE,Model of application data and processes,50,Application
 package#CloudManagement,CloudManagement,TRUE,Model of cloud hosting and automated management.,100,CloudManagement

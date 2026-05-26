@@ -2,6 +2,11 @@ package,URI,domain
 domain#000000,domain#000000,domain#PhysicalSubnet
 package#5G,domain#implementsCN,domain#PhysicalSubnet
 package#5G,domain#multiSpace,domain#RAN
+package#AIHarms,domain#hasParameters,domain#MLModel
+package#AIHarms,domain#predicts,domain#MLModel
+package#AIHarms,domain#trains,domain#MLTrainingAlgorithm
+package#AIHarms,domain#usesPredictionInputs,domain#MLModel
+package#AIHarms,domain#usesToTrain,domain#MLTrainingAlgorithm
 package#AccessContext,domain#accessFrom,domain#AccessContext
 package#AccessContext,domain#accessTo,domain#AccessContext
 package#AccessContext,domain#interactsRemotelyWith,domain#Human
