@@ -1,5 +1,15 @@
 package,URI,metaLocatedAt
-domain#000000,domain#000000,domain#AccessAsset
+domain#000000,domain#000000,domain#DataAsset
+,domain#LossOfAccuracy,domain#DataAsset
+,domain#LossOfAccuracy,domain#DataField
+,domain#LossOfFairness,domain#DataAsset
+,domain#LossOfFairness,domain#DataField
+package#AIHarms,domain#LossOfAccuracy,domain#Data
+package#AIHarms,domain#LossOfAccurateProcessing,domain#MLModel
+package#AIHarms,domain#LossOfAccurateProcessing,domain#MLTrainingAlgorithm
+package#AIHarms,domain#LossOfFairProcessing,domain#MLModel
+package#AIHarms,domain#LossOfFairProcessing,domain#MLTrainingAlgorithm
+package#AIHarms,domain#LossOfFairness,domain#Data
 package#AccessContext,domain#LocalLossOfUserTW,domain#AccessAsset
 package#AccessContext,domain#LossOfAvailability,domain#Accessible
 package#AccessContext,domain#LossOfExploitTW,domain#AccessAsset

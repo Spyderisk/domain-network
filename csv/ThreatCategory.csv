@@ -1,5 +1,6 @@
 URI,label,comment
-domain#000000,Modelling Error,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
+domain#000000,AIHarms,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678
+domain#Category-AIHarms,AIHarms,Threats related to AI harms.
 domain#Category-Anomalies,Modelling Error,"Category for modelling error threats, corresponding to the domain#Anomalies compliance set."
 domain#Category-ArtificialModelConstructs,Artificial Model Constructs,The threat provides a logical connection in a threat path representing some modelling equivalence relationship that is needed to map threat causes or effects to user-visible assets.
 domain#Category-AssetUsage,Asset Usage,"Threats that model the involvement of assets in the system. These are treated as threats because (a) being involved means an asset could be attacked or exploited, and (b) it means we can model policies to restrict involvement as control strategies."

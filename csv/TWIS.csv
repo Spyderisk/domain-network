@@ -1,5 +1,9 @@
 package,URI,affectedBy,affects
-domain#000000,domain#000000,domain#LossOfExploitTW,domain#ExploitTW
+domain#000000,domain#000000,domain#LossOfAccuracy,domain#Accuracy
+package#AIHarms,domain#TWIS-Accuracy-LossOfAccuracy,domain#LossOfAccuracy,domain#Accuracy
+package#AIHarms,domain#TWIS-AccurateProcessing-LossOfAccurateProcessing,domain#LossOfAccurateProcessing,domain#AccurateProcessing
+package#AIHarms,domain#TWIS-FairProcessing-LossOfFairProcessing,domain#LossOfFairProcessing,domain#FairProcessing
+package#AIHarms,domain#TWIS-Fairness-LossOfFairness,domain#LossOfFairness,domain#Fairness
 package#AccessContext,domain#TWIS-ExploitTW-LossOfExploitTW,domain#LossOfExploitTW,domain#ExploitTW
 package#AccessContext,domain#TWIS-UserTW-LocalLossOfUserTW,domain#LocalLossOfUserTW,domain#UserTW
 package#Application,domain#TWIS-Authenticity-LossOfAuthenticity,domain#LossOfAuthenticity,domain#Authenticity
