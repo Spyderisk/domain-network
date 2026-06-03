@@ -41,10 +41,6 @@ package#AIHarms,domain#MADS-LocalLossOfUserTW-MLTrainingAlgorithm,domain#MLTrain
 package#AIHarms,domain#MADS-LossOfAccuracy-BiometricData,domain#BiometricData,domain#LossOfAccuracy,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfAccuracy-ControlData,domain#ControlData,domain#LossOfAccuracy,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfAccuracy-Data,domain#Data,domain#LossOfAccuracy,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfAccuracy-DataCache,domain#DataCache,domain#LossOfAccuracy,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfAccuracy-DataCopy,domain#DataCopy,domain#LossOfAccuracy,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfAccuracy-DataField,domain#DataField,domain#LossOfAccuracy,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfAccuracy-DataFlow,domain#DataFlow,domain#LossOfAccuracy,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfAccuracy-GeneticData,domain#GeneticData,domain#LossOfAccuracy,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfAccuracy-HealthData,domain#HealthData,domain#LossOfAccuracy,domain#ImpactLevelHigh
 package#AIHarms,domain#MADS-LossOfAccuracy-SensedData,domain#SensedData,domain#LossOfAccuracy,domain#ImpactLevelNegligible
@@ -66,10 +62,6 @@ package#AIHarms,domain#MADS-LossOfFairProcessing-MLTrainingAlgorithm,domain#MLTr
 package#AIHarms,domain#MADS-LossOfFairness-BiometricData,domain#BiometricData,domain#LossOfFairness,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfFairness-ControlData,domain#ControlData,domain#LossOfFairness,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfFairness-Data,domain#Data,domain#LossOfFairness,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfFairness-DataCache,domain#DataCache,domain#LossOfFairness,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfFairness-DataCopy,domain#DataCopy,domain#LossOfFairness,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfFairness-DataField,domain#DataField,domain#LossOfFairness,domain#ImpactLevelMedium
-package#AIHarms,domain#MADS-LossOfFairness-DataFlow,domain#DataFlow,domain#LossOfFairness,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfFairness-GeneticData,domain#GeneticData,domain#LossOfFairness,domain#ImpactLevelNegligible
 package#AIHarms,domain#MADS-LossOfFairness-HealthData,domain#HealthData,domain#LossOfFairness,domain#ImpactLevelMedium
 package#AIHarms,domain#MADS-LossOfFairness-SensedData,domain#SensedData,domain#LossOfFairness,domain#ImpactLevelNegligible

@@ -1,6 +1,7 @@
 package,URI,causesMisbehaviour
 domain#000000,domain#000000,domain#MS-InService-CellularNetwork
 package#5G,domain#LS.IS.CNCN.8,domain#MS-InService-CellularNetwork
+package#AIHarms,domain#D.Ml-Ac.D.0,domain#MS-LossOfIntegrity-Data
 package#AIHarms,domain#D.Ml-Ac.DiuPmlmpDp.0,domain#MS-LossOfAccuracy-Output
 package#AIHarms,domain#D.Ml-Ac.PmlmpDp.0.0,domain#MS-LossOfAccuracy-Data
 package#AIHarms,domain#D.Ml-Ac.PmlmpDp.0.1,domain#MS-LossOfAccuracy-Data

@@ -1,9 +1,5 @@
 package,URI,metaLocatedAt
-domain#000000,domain#000000,domain#DataAsset
-,domain#Accuracy,domain#DataAsset
-,domain#Accuracy,domain#DataField
-,domain#Fairness,domain#DataAsset
-,domain#Fairness,domain#DataField
+domain#000000,domain#000000,domain#Data
 package#AIHarms,domain#Accuracy,domain#Data
 package#AIHarms,domain#AccurateProcessing,domain#MLModel
 package#AIHarms,domain#AccurateProcessing,domain#MLTrainingAlgorithm

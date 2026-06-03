@@ -281,6 +281,7 @@ package#NetworkConnectivity,domain#Sg.DA.L3SSg2PAC.1,domain#TWAS-OutOfService-To
 package#NetworkConnectivity,domain#Sg.DA.L3SSg2PAC.1,domain#TWAS-UserTW-AccessContext
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-InboundIF
 package#NetworkConnectivity,domain#Sg.IS.Sg.8,domain#TWAS-OutOfService-OutboundIF
+package#PatientHarms,domain#Hu.Ph-Dm.HucdHupcdDd.0,domain#TWAS-Integrity-Data
 package#Physical,domain#S.L.PPS.1,domain#TWAS-PhysicalControl-Space
 package#Physical,domain#S.L.PSS.3,domain#TWAS-OccupantTW-Entrance
 package#ProcessComms,domain#CAP.IS.NPSCCAP.8,domain#TWAS-OutOfService-ServiceChannel

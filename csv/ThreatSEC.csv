@@ -1,5 +1,6 @@
 package,URI,hasSecondaryEffectCondition
-domain#000000,domain#000000,domain#MS-LossOfUserTW-MLModel
+domain#000000,domain#000000,domain#MS-LossOfAccuracy-Data
+package#AIHarms,domain#D.Ml-Ac.D.0,domain#MS-LossOfAccuracy-Data
 package#AIHarms,domain#D.Ml-Au.DiPmlm.0,domain#MS-LossOfUserTW-MLModel
 package#AIHarms,domain#D.Ml-F.PmlmpDp.0,domain#MS-LossOfFairProcessing-MLModel
 package#AIHarms,domain#D.Ml-F.PtatPmlmpaDmp.0,domain#MS-LossOfFairProcessing-MLTrainingAlgorithm

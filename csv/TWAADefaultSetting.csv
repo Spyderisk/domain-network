@@ -32,10 +32,6 @@ package#5G,domain#TWAADS-UserTW-BaseStation,domain#UserTW,domain#BaseStation,dom
 package#AIHarms,domain#TWAADS-Accuracy-BiometricData,domain#Accuracy,domain#BiometricData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Accuracy-ControlData,domain#Accuracy,domain#ControlData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Accuracy-Data,domain#Accuracy,domain#Data,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Accuracy-DataCache,domain#Accuracy,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Accuracy-DataCopy,domain#Accuracy,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Accuracy-DataField,domain#Accuracy,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Accuracy-DataFlow,domain#Accuracy,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Accuracy-GeneticData,domain#Accuracy,domain#GeneticData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Accuracy-HealthData,domain#Accuracy,domain#HealthData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Accuracy-SensedData,domain#Accuracy,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
@@ -57,10 +53,6 @@ package#AIHarms,domain#TWAADS-FairProcessing-MLTrainingAlgorithm,domain#FairProc
 package#AIHarms,domain#TWAADS-Fairness-BiometricData,domain#Fairness,domain#BiometricData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Fairness-ControlData,domain#Fairness,domain#ControlData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Fairness-Data,domain#Fairness,domain#Data,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Fairness-DataCache,domain#Fairness,domain#DataCache,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Fairness-DataCopy,domain#Fairness,domain#DataCopy,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Fairness-DataField,domain#Fairness,domain#DataField,domain#TrustworthinessLevelSafe,TRUE
-package#AIHarms,domain#TWAADS-Fairness-DataFlow,domain#Fairness,domain#DataFlow,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Fairness-GeneticData,domain#Fairness,domain#GeneticData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Fairness-HealthData,domain#Fairness,domain#HealthData,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Fairness-SensedData,domain#Fairness,domain#SensedData,domain#TrustworthinessLevelSafe,TRUE
