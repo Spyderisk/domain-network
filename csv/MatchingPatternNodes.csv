@@ -271,8 +271,6 @@ package#DataLifecycle,domain#MP-Pc-rDSH-Hu-DP,domain#Node-DataPool-DataPool,FALS
 package#DataLifecycle,domain#MP-Pc-rDSH-S-Hu-DA,domain#Node-DataAccess-DataAccess,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-Pc-rDSH-S-Hu-DA,domain#Node-Service-Process,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PcDFDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
-package#DataLifecycle,domain#MP-PcPr-uDS-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#MP-PcPuDS-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PmDFI-kDADFI,domain#Node-DataCopy-DataCopy,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PmDFI-kDADFI,domain#Node-InFlow-DataFlow,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PmDFI-kDADFI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE

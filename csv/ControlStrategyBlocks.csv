@@ -186,8 +186,6 @@ package#DataLifecycle,domain#CSG-PersonalDeviceProtection,domain#D.C.HuiRACv-iDF
 package#DataLifecycle,domain#CSG-PersonalDeviceProtection,domain#DS.A.PHHDS.3
 package#DataLifecycle,domain#CSG-PersonalDeviceSecurity,domain#DS.A.PHHDS.3
 package#DataLifecycle,domain#CSG-SharedKeyManagement,domain#DF.A.CSDF-VdDA2.6
-package#DataLifecycle,domain#CSG-SharedKeyManagement,domain#P.A.PcPuDS-V.6
-package#DataLifecycle,domain#CSG-SharedKeyManagement,domain#P.T.PcPr-uDS-V.6
 package#DataLifecycle,domain#CSG-SpamFilteringAtMUA,domain#DF.Auth.HuWEDF.3
 package#DataLifecycle,domain#CSG-SpamFilteringAtMUA,domain#DF.Auth.HuWESDF.3
 package#DataLifecycle,domain#CSG-StaticSystemData,domain#D.E.D+DS-cP-iHu.9
@@ -231,6 +229,7 @@ package#DataLifecycle,domain#CSG-UserSecurityTraining,domain#D.C.HuiRACv-iDFCHS.
 package#DataLifecycle,domain#CSG-UserSecurityTraining,domain#DF.Auth.HuWEDF.3
 package#DataLifecycle,domain#CSG-UserSecurityTraining,domain#DF.Auth.HuWESDF.3
 package#DataLifecycle,domain#CSG-UserSecurityTraining,domain#DF.Auth.HuWSMSDF.3
+package#DataLifecycle,domain#CSG-X509EndToEndCertification,domain#DF.A.CSDF-VdDA2.6
 package#GDPR,domain#CSG-DataFlowEncryptionToProcess,domain#D.GDPR.DSHuoO.1
 package#GDPR,domain#CSG-GDPR-Art6-1-a,domain#P.GDPR.HuDPS-io.6
 package#GDPR,domain#CSG-GDPR-Art6-1-a,domain#P.GDPR.HuDoPS-o.6

@@ -518,9 +518,6 @@ package#DataLifecycle,domain#MP-Pc-rDSH-S-Hu-DA,domain#Link-Process-receives-Dat
 package#DataLifecycle,domain#MP-Pc-rDSH-S-Hu-DA,domain#Link-Process-uses-Service,FALSE
 package#DataLifecycle,domain#MP-Pc-rDSH-S-Hu-DA,domain#Link-Service-serves-Data,FALSE
 package#DataLifecycle,domain#MP-PcDFDI,domain#Link-ProcessManager-manages-Process,FALSE
-package#DataLifecycle,domain#MP-PcPr-uDS-V,domain#Link-Client-reads-Data,TRUE
-package#DataLifecycle,domain#MP-PcPr-uDS-V,domain#Link-Vault-controls-DataAsset,FALSE
-package#DataLifecycle,domain#MP-PcPuDS-V,domain#Link-Vault-controls-DataAsset,FALSE
 package#DataLifecycle,domain#MP-PmDFI-kDADFI,domain#Link-DataAccess-canGetKeys-InFlow,TRUE
 package#DataLifecycle,domain#MP-PmDFI-kDADFI,domain#Link-DataCopy-fulfils-DataAccess,FALSE
 package#DataLifecycle,domain#MP-PmDFI-kDADFI,domain#Link-InFlow-flowsIn-Data,FALSE

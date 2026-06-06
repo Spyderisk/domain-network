@@ -86,14 +86,12 @@ package#DataLifecycle,domain#Hu.U.HuirPvDF.3,domain#TWAS-OutOfService-DataFlow
 package#DataLifecycle,domain#Hu.U.HuirPvDS.0,domain#TWAS-Competence-Human
 package#DataLifecycle,domain#Hu.U.HuirPvDS.3,domain#TWAS-Astuteness-Human
 package#DataLifecycle,domain#Hu.U.HuirPvDS.3,domain#TWAS-Authenticity-DataCopy
-package#DataLifecycle,domain#P.A.PcPuDS-V.6,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#P.L.HPcDSDI.3,domain#TWAS-Authenticity-DataCopy
 package#DataLifecycle,domain#P.L.PcDFDI.3,domain#TWAS-Authenticity-DataFlow
 package#DataLifecycle,domain#P.O.DA-VPpDA.6,domain#TWAS-DefaultTW-Process
 package#DataLifecycle,domain#P.O.DA-VPpDA.6,domain#TWAS-OutOfService-Process
 package#DataLifecycle,domain#P.O.PpDADA-V.6,domain#TWAS-DefaultTW-Process
 package#DataLifecycle,domain#P.O.PpDADA-V.6,domain#TWAS-OutOfService-Process
-package#DataLifecycle,domain#P.T.PcPr-uDS-V.6,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#P.U.HP-iDSDI.3,domain#TWAS-Authenticity-DataCopy
 package#DataLifecycle,domain#P.U.P-iDFDI.3,domain#TWAS-Authenticity-DataFlow
 package#DataStructure,domain#DFF.Auth.DFF-V.0,domain#TWAS-Authenticity-DataFlow

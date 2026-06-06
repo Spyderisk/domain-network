@@ -240,8 +240,6 @@ package#DataLifecycle,domain#R-PTDR,PTDR,Finds a temporary data relay asset and 
 package#DataLifecycle,domain#R-PaDSH,PaDSH,Finds a Process that is amending data of which there is a copy stored on the same host.,FALSE,TRUE
 package#DataLifecycle,domain#R-PcDFDI,PcDFDI,"Finds a data flow to a process that uses the data as configuration data.  The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-PcDSH,PcDSH,Finds a Process that is creating data of which there is a copy stored on the same host.,FALSE,FALSE
-package#DataLifecycle,domain#R-PcPrDS,PcPrDS,"Finds two processes accessing the same stored copy of data, one of which receives the data (processes it as an input).",FALSE,FALSE
-package#DataLifecycle,domain#R-PcPuDS,PcPuDS,"Finds two processes accessing the same stored copy of data, one of which reads the data (processes it as a necessary input).",FALSE,FALSE
 package#DataLifecycle,domain#R-PpDADA,PpDADA,Finds a Process processing data to create a data asset.,FALSE,FALSE
 package#DataLifecycle,domain#R-PrDSH,PrDSH,Finds a Process that is receiving data of which there is a copy stored on the same host.,FALSE,FALSE
 package#DataLifecycle,domain#R-PsDSH,PsDSH,Finds a Process serving Data of which there is a copy stored on the same host.,FALSE,FALSE

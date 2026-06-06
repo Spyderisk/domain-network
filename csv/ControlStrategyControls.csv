@@ -94,6 +94,8 @@ package#DataLifecycle,domain#CSG-SuspendSensitiveDataFlow,domain#CS-SystemSecuri
 package#DataLifecycle,domain#CSG-SuspendSensitiveDataFlow-Implementation-Runtime,domain#CS-DisabledDataFlow-DataFlow,FALSE
 package#DataLifecycle,domain#CSG-SuspendSensitiveDataFlow-Implementation-Runtime,domain#CS-SuspendSensitiveDataFlow-DataFlow,FALSE
 package#DataLifecycle,domain#CSG-SuspendSensitiveDataFlow-Implementation-Runtime,domain#CS-SystemSecurityTraining-ProcessManager,FALSE
+package#DataLifecycle,domain#CSG-X509EndToEndCertification,domain#CS-X509-Client,FALSE
+package#DataLifecycle,domain#CSG-X509EndToEndCertification,domain#CS-X509-Service,FALSE
 package#GDPR,domain#CSG-GDPR-Art6-1-a,domain#CS-ConsentEnforcement-Service,FALSE
 package#GDPR,domain#CSG-GDPR-Art6-1-a,domain#CS-ConsentInterface-DataSubject,FALSE
 package#GDPR,domain#CSG-GDPR-Art6-1-a,domain#CS-ConsentManagement-Data,FALSE

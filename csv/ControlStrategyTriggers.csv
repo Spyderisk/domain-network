@@ -30,8 +30,6 @@ package#DataLifecycle,domain#CSG-DataStorageEncryption,domain#DS.T.HPDFDAuDS-V.6
 package#DataLifecycle,domain#CSG-DataStorageEncryption,domain#DS.X.HDS-V.6
 package#DataLifecycle,domain#CSG-DisableDataFlow,domain#DF.A.PDF.6.1
 package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#DF.A.CSDF-VdDA2.6
-package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#P.A.PcPuDS-V.6
-package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#P.T.PcPr-uDS-V.6
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#DF.A.HPDODF-V.6.2
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#DS.A.HPsACDOdDS-V.6
 package#DataLifecycle,domain#CSG-EncryptedDataProcessing,domain#P.E.DAVPDA.9

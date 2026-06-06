@@ -50,10 +50,6 @@ package#DataLifecycle,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#Node-Process-Process
 package#DataLifecycle,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-HSDADPPDXS-Hu-DP-0,domain#Node-Process-Process
 package#DataLifecycle,domain#DNG-HSDADPPDXS-Hu-DP-0,domain#Node-Service-Process
-package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#Node-Client-Process
-package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#Node-Service-Process
-package#DataLifecycle,domain#DNG-PcPuDS-V-0,domain#Node-Client-Process
-package#DataLifecycle,domain#DNG-PcPuDS-V-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-SDADPPDXP-Hu-DP-0,domain#Node-Process-Process
 package#DataLifecycle,domain#DNG-SDADPPDXP-Hu-DP-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-SDADPPDXPRAC-DP-0,domain#Node-Process-Process
