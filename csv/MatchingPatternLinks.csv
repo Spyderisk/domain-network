@@ -372,6 +372,8 @@ package#DataLifecycle,domain#MP-HPsD-DS,domain#Link-DataAccess-usedFor-Data,FALS
 package#DataLifecycle,domain#MP-HPsD-DS,domain#Link-DataCopy-copyOf-Data,FALSE
 package#DataLifecycle,domain#MP-HPsD-DS,domain#Link-Host-storesCopy-DataCopy,FALSE
 package#DataLifecycle,domain#MP-HPsD-DS,domain#Link-Process-processes-Data,TRUE
+package#DataLifecycle,domain#MP-HPsDPDSDF,domain#Link-Process-creates-Data,TRUE
+package#DataLifecycle,domain#MP-HPsDPDSDF,domain#Link-Process-enablesUserInput-Data,TRUE
 package#DataLifecycle,domain#MP-HPuDS-VDI,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HPuDS-VDI,domain#Link-ProcessManager-manages-Process,FALSE
 package#DataLifecycle,domain#MP-HPuDS-VDI,domain#Link-Vault-controls-DataCopy,FALSE

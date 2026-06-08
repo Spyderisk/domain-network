@@ -847,6 +847,7 @@ package#DataLifecycle,domain#R-HPrpDS,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycle,domain#R-HPrpDS,domain#Link-Process-crudr-DataCopy
 package#DataLifecycle,domain#R-HPrpDS,domain#Link-Process-processes-Data
 package#DataLifecycle,domain#R-HPsDPDFDS,domain#Link-DataCopy-copyOf-Data
+package#DataLifecycle,domain#R-HPsDPDFDS,domain#Link-DataFlow-flowsOut-Data
 package#DataLifecycle,domain#R-HPsDPDFDS,domain#Link-DataFlow-flowsTo-Process
 package#DataLifecycle,domain#R-HPsDPDFDS,domain#Link-DataFlow-fulfils-DataPool
 package#DataLifecycle,domain#R-HPsDPDFDS,domain#Link-DataPool-usedBy-Process
@@ -855,6 +856,7 @@ package#DataLifecycle,domain#R-HPsDPDFDS,domain#Link-Host-hosts-Process
 package#DataLifecycle,domain#R-HPsDPDFDS,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycle,domain#R-HPsDPDSDF,domain#Link-DataCopy-copyOf-Data
 package#DataLifecycle,domain#R-HPsDPDSDF,domain#Link-DataFlow-flowsFrom-Process
+package#DataLifecycle,domain#R-HPsDPDSDF,domain#Link-DataFlow-flowsIn-Data
 package#DataLifecycle,domain#R-HPsDPDSDF,domain#Link-DataPool-fulfils-DataFlow
 package#DataLifecycle,domain#R-HPsDPDSDF,domain#Link-DataPool-usedBy-Process
 package#DataLifecycle,domain#R-HPsDPDSDF,domain#Link-DataPool-usedFor-Data

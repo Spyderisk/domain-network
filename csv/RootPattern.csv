@@ -195,8 +195,8 @@ package#DataLifecycle,domain#R-HPdpDS,HPdpDS,"Finds a host running a Process wit
 package#DataLifecycle,domain#R-HPeD,HPeD,Finds a Host for a Process that appends to locally stored Data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPrDS,HPrDS,"Finds a host running a Process with read access (crudr) to a locally stored data copy, plus the data access asset representing the data deserialization.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPrpDS,HPrpDS,"Finds a host running a Process with read access (crudr) to a locally stored data copy, which it also processes, plus the data access asset representing the data deserialization.",FALSE,FALSE
-package#DataLifecycle,domain#R-HPsDPDFDS,HPsDPDFDS,"Finds a Host that stores a copy of Data served by and sent to a Process on the same Host, plus the associated Data Flow and Data Pool.",FALSE,FALSE
-package#DataLifecycle,domain#R-HPsDPDSDF,HPsDPDSDF,"Finds a Host that stores a copy of Data served by and sent from a Process on the same Host, plus the associated Data Flow and Data Access.",FALSE,FALSE
+package#DataLifecycle,domain#R-HPsDPDFDS,HPsDPDFDS,"Finds a Host that stores a copy of Data served by and sent to a Process on the same Host, with an associated output Data Flow and Data Pool.",FALSE,FALSE
+package#DataLifecycle,domain#R-HPsDPDSDF,HPsDPDSDF,"Finds a Host that stores a copy of Data served by and sent from a Process on the same Host, with an associated input Data Flow and Data Pool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPuDSDI,HPuDSDI,"Finds a stored data input needed by a process, plus the process and data host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HSDADPDXP,HSDADPDXP,"Finds a service with a data access at the end of a data path process that exchanges data with a second process, where both processes have the same Host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HSDADPDXS,HSDADPDXS,"Finds a process at the end of a data path process that sends data as a client to a second process acting as a service, where both processes have the same Host.",FALSE,FALSE
