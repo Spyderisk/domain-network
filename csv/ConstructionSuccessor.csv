@@ -81,7 +81,7 @@ package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-Marker+DataKeys-1,CCDF
 package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-Marker+DataKeys-1,CCDFSDAScDA-c+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#CP-Marker+DataPathLAC-0,CS-SP-noDX+DX should precede data path creation from data stores,FALSE,TRUE
 package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#CP-Marker+DataPathLAC-2,CS-SP-noDX+DX should precede data path creation from data producing clients,FALSE,TRUE
-package#DataLifecycle,domain#CP-DADS+W,domain#CP-Marker+DataCopy-3,DADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DADS+W,domain#CP-Marker+DataAccessRights-1,DADS+W is at the end of the data access rights inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADS+ds,domain#CP-Marker+DataChannel-1,DADS+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,domain#CP-PDO+fS,PDO+fS creates a link that in DADSDCSDD-f+ch should miss DataSource-fromSource-DataAccess,FALSE,TRUE
 package#DataLifecycle,domain#CP-DC2xfDA2+f,domain#CP-Marker+DataChannel-4,DC2xfDA2+f is at the end of the data channel activation sequence,FALSE,TRUE
@@ -93,20 +93,21 @@ package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#CP-FwdDFtDP2P+DS,"DDDCDS2P+DF
 package#DataLifecycle,domain#CP-DFDSfP+fVP,domain#CP-Marker+DataFlow-1,DFDSfP+fVP is at the end of the data flow creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DFtP+fVP,domain#CP-Marker+DataFlow-1,DFtP+fVP is at the end of the data flow creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DP3-x+x,domain#CP-Marker+DataPath-3,DP3-x+x is at the end of the sequence for filling in data path extension relationships,FALSE,TRUE
-package#DataLifecycle,domain#CP-DSDA+R,domain#CP-Marker+DataCopy-3,DSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-DSDA+R,domain#CP-Marker+DataAccessRights-1,DSDA+R is at the end of the data access rights inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HD-iS-DS+DS,domain#CP-Marker+DataCopy-1,HD-iS-DS+DS is at the end of the persistent stored data copy creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PIP-S+fS,PIP-S+fS creates a link that in HDS2DPfDA+fS should not match DataAccess-fromSource-DataSource,FALSE,TRUE
 package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PSDP-S+fS,PSDP-S+fS creates a link that in HDS2DPfDA+fS should not match DataAccess-fromSource-DataSource,FALSE,TRUE
 package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-Marker+Phishing-1,HHuWE+D is at the end of the phishing inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-Marker+Phishing-1,HHuWSMS+D is at the end of the phishing inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HPDADS-crudu+crudc,domain#CP-Marker+DataCopy-3,HPDADS-crudu+crudc is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-Marker+SerializationDeserialization-1,HPDO-fDS-DA+f is at the end of the serialization and deserialization inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,domain#CP-Marker+SerializationDeserialization-1,HPDS-fDI-DO-DFI+f is at the end of the serialization and deserialization inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HPDSDA-crudr+crudr,domain#CP-Marker+DataCopy-3,HPDSDA-crudr+crudr is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuSP+SMS,domain#CP-Marker+PhishingClient-1,HuSP+SMS is at the end of the inferred phishing client creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuWES+D,domain#CP-Marker+Phishing-1,HuWES+D is at the end of the phishing inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuaDRAC-DA+RUA,domain#CP-Marker+DataAccess-1,HuaDRAC-DA+RUA is at the end of the deserialized data access inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataChannel-2,domain#CP-Marker+DataPath-2,Data channel creation should precede filling in data path extension relationships,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataCopy-1,domain#CP-Marker+SystemProcess-0,,FALSE,TRUE
-package#DataLifecycle,domain#CP-Marker+DataCopy-3,domain#CP-Marker+SystemClientService-0,System client-service relationship inference should follow data flow and persistent data access inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataKeys-1,domain#CP-Marker+SystemClientService-1,Data key management inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataPathLAC-1,domain#CP-Marker+DataPath-1,Creating data paths from data stores is a subsequence of data path creation,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataPathLAC-3,domain#CP-Marker+DataPath-1,Creating data paths from data producing clients is a subsequence of data path creation,FALSE,TRUE
@@ -125,11 +126,11 @@ package#DataLifecycle,domain#CP-RUODI+ds,domain#CP-Marker+DataChannel-1,RUODI+ds
 package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-Marker+DataPathLAC-1,SDADPPDXP-Hu-DP+DP is at the end of the sequence for creating data paths from data stores,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-Marker+DataPathRAC-1,SDADPPDXRAC-DP+DP is at the end of the sequence for data path extension to remote access clients,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDADPPDXS-Hu-DP+DP,domain#CP-Marker+DataPathLAC-3,SDADPPDXP-Hu-DP+DP is at the end of the sequence for creating data paths from data producing clients,FALSE,TRUE
-package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-Marker+DataCopy-3,SDUDADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-Marker+DataCopy-3,SDUDSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-Marker+DataAccessRights-1,SDUDADS+W is at the end of data access rights inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-Marker+DataAccessRights-1,SDUDSDA+R is at the end of the data access rights inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-Marker+DataKeys-1,ScDACDACCDF-c+a is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDASDACCDF-c+z,domain#CP-Marker+DataKeys-1,ScDASDACCDF-c+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-Marker+DataCopy-3,ScDDPDADS-cz+c is at the end of the stored data access relationship inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-ScDDPDADS-cz+c,domain#CP-Marker+DataKeyRequirements-1,ScDDPDADS-cz+c is at the end of the managed key encryption inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDSPDI-DD+z,domain#CP-Marker+DataKeys-1,ScDSPDI-DD+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDSPDIcD+z,domain#CP-Marker+DataKeys-1,ScDSPDIcD+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataStructure,domain#CP-DAOiDADInDF-i+i-Replay,domain#CP-Marker+DataFields-1,DAOiDADInDF-i+i-Replay is at the end of the data field inference sequence,FALSE,TRUE

@@ -4,13 +4,16 @@ package#Application,domain#S-DataHandling,Data processing and handling inference
 package#Application,domain#S-StorageInference,Data storage inference
 package#Core,domain#S-000,Not in any construction subsequence
 package#DataCaching,domain#S-ConnectionContinuity,Client-service connection continuity inference
+package#DataLifecycle,domain#S-DataAccessRights,DataAccessRights
 package#DataLifecycle,domain#S-DataChannels,Data channel creation
 package#DataLifecycle,domain#S-DataFlowCaching,Data flow caching inference
 package#DataLifecycle,domain#S-DataFlows,Data flow creation
+package#DataLifecycle,domain#S-DataKeyRequirements,Data key requirements propagation
 package#DataLifecycle,domain#S-DataPaths,Data path creation
 package#DataLifecycle,domain#S-PersistentData,Persistent serialized data creation
 package#DataLifecycle,domain#S-PersistentDataAccess,Persistent serialized data access inference
 package#DataLifecycle,domain#S-Phishing,Unsolicited data flow creation
+package#DataLifecycle,domain#S-SerializationDeserialization,Serialization and deserialization relationship inference
 package#DataLifecycle,domain#S-VolatileData,Volatile data asset creation
 package#DataStructure,domain#S-DataFields,Data field inference
 package#Legal,domain#S-Jurisdictions,Applicable jurisdiction inference
