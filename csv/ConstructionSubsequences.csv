@@ -3,6 +3,7 @@ domain#000000,domain#000000,Data processing and handling inference
 package#Application,domain#S-DataHandling,Data processing and handling inference
 package#Application,domain#S-StorageInference,Data storage inference
 package#Core,domain#S-000,Not in any construction subsequence
+package#DataCaching,domain#S-ConnectionContinuity,Client-service connection continuity inference
 package#DataLifecycle,domain#S-DataChannels,Data channel creation
 package#DataLifecycle,domain#S-DataFlowCaching,Data flow caching inference
 package#DataLifecycle,domain#S-DataFlows,Data flow creation

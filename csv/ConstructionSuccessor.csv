@@ -71,6 +71,7 @@ package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-Marker+CloudStorage-1,PodC
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-Marker+CloudHostCreation-1,PodDCMC-W-H+W is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
 package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-1,PodMP+iP is at the end of the host classification sequence,FALSE,TRUE
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-Marker+CloudHostCreation-1,PodP-Cn+Cn is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
+package#DataCaching,domain#CP-CCCfS+aFC-aI+aU,domain#CP-Marker+ConnectionContinuity-1,CCCfS+aFC-aI+aU is at the end of the client-service connection continuity sequence,FALSE,TRUE
 package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-2,DCDFcV+c is at the end of the data cache security relationship inference sequence,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFcCr-aAC+DS,domain#CP-Marker+DataCache-1,H-sDFcCr-aAC+DS is at the end of the temporary data cache creation sequence,FALSE,TRUE
 package#DataCaching,domain#CP-Marker+DataCache-2,domain#CP-Marker+Phishing-0,Data flow caching inference should precede phishing inference,FALSE,TRUE
@@ -78,6 +79,8 @@ package#DataLifecycle,domain#CP-AC+noDX,domain#CP-Marker+ProcessClassification-1
 package#DataLifecycle,domain#CP-AS+noDX,domain#CP-Marker+ProcessClassification-1,AS+noDX is at the end of the process classification sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-CCDFCDAScDA-c+a,domain#CP-Marker+DataKeys-1,CCDFCDAScDA-c+a is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-CCDFSDAScDA-c+z,domain#CP-Marker+DataKeys-1,CCDFSDAScDA-c+z is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#CP-Marker+DataPathLAC-0,CS-SP-noDX+DX should precede data path creation from data stores,FALSE,TRUE
+package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#CP-Marker+DataPathLAC-2,CS-SP-noDX+DX should precede data path creation from data producing clients,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADS+W,domain#CP-Marker+DataCopy-3,DADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADS+ds,domain#CP-Marker+DataChannel-1,DADS+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,domain#CP-PDO+fS,PDO+fS creates a link that in DADSDCSDD-f+ch should miss DataSource-fromSource-DataAccess,FALSE,TRUE
@@ -105,6 +108,9 @@ package#DataLifecycle,domain#CP-Marker+DataChannel-2,domain#CP-Marker+DataPath-2
 package#DataLifecycle,domain#CP-Marker+DataCopy-1,domain#CP-Marker+SystemProcess-0,,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataCopy-3,domain#CP-Marker+SystemClientService-0,System client-service relationship inference should follow data flow and persistent data access inference,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+DataKeys-1,domain#CP-Marker+SystemClientService-1,Data key management inference is a subsequence of non-application client-service interaction inference,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-1,domain#CP-Marker+DataPath-1,Creating data paths from data stores is a subsequence of data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathLAC-3,domain#CP-Marker+DataPath-1,Creating data paths from data producing clients is a subsequence of data path creation,FALSE,TRUE
+package#DataLifecycle,domain#CP-Marker+DataPathRAC-1,domain#CP-Marker+DataPath-1,Extending data paths to remote access clients is a subsequence of data path creation,FALSE,TRUE
 package#DataLifecycle,domain#CP-Marker+PhishingClient-1,domain#CP-Marker+SystemClient-1,Inferred phishing client creation is a subsequence of system client creation,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDI+d,domain#CP-Marker+DataChannel-1,PDI+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-PDI-Hu+d,domain#CP-Marker+DataChannel-1,PDI-Hu+d is at the end of the data source and destination tagging sequence,FALSE,TRUE
@@ -116,7 +122,9 @@ package#DataLifecycle,domain#CP-PSDP+ds,domain#CP-Marker+DataChannel-1,PSDP+ds i
 package#DataLifecycle,domain#CP-PTDR+ds,domain#CP-Marker+DataChannel-1,PTDR+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-RUIDO+ds,domain#CP-Marker+DataChannel-1,RUIDO+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-RUODI+ds,domain#CP-Marker+DataChannel-1,RUODI+ds is at the end of the data source and destination tagging sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-Marker+DataPath-1,SDADPPDXRAC-DP+DP is at the end of the data path creation sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXP-Hu-DP+DP,domain#CP-Marker+DataPathLAC-1,SDADPPDXP-Hu-DP+DP is at the end of the sequence for creating data paths from data stores,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXRAC-DP+DP,domain#CP-Marker+DataPathRAC-1,SDADPPDXRAC-DP+DP is at the end of the sequence for data path extension to remote access clients,FALSE,TRUE
+package#DataLifecycle,domain#CP-SDADPPDXS-Hu-DP+DP,domain#CP-Marker+DataPathLAC-3,SDADPPDXP-Hu-DP+DP is at the end of the sequence for creating data paths from data producing clients,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDADS+W,domain#CP-Marker+DataCopy-3,SDUDADS+W is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-SDUDSDA+R,domain#CP-Marker+DataCopy-3,SDUDSDA+R is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-ScDACDACCDF-c+a,domain#CP-Marker+DataKeys-1,ScDACDACCDF-c+a is at the end of the data key management interaction interaction inference sequence,FALSE,TRUE
@@ -274,18 +282,17 @@ package#ProcessTrust,domain#CP-CAC-pPzAC-pS+cvc,domain#CP-Marker+OAuth-1,CAC-pPz
 package#ProcessTrust,domain#CP-CAC-pPaAC-pS+cvc,domain#CP-Marker+OAuth-1,CAC-pPaAC-pS+cvc is at the end of the OAuth trust dependency inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CAC-pScAC-pP+cc,domain#CP-Marker+OAuth-1,CAC-pScAC-pP+cc is at the end of the OAuth trust dependency inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCCAP+ch,domain#CP-Marker+TrustedComms-1,CCCCAP+ch is at the end of the trusted comms channel inference sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CCCfS+aFC-aI+aU,domain#CP-Marker+TrustContext-1,CCCfS+aFC-aI+aU is at the end of the trust contextualization inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCfCCS+aFC+aFC,domain#CP-Marker+TrustContext-1,CCCfCCS+aFC+aFC is at the end of the trust contextualization inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CCCtCCS+aTS+aTS,domain#CP-Marker+TrustContext-1,CCCtCCS+aTS+aTS is at the end of the trust contextualization inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCCvCCvLS+vLS,domain#CP-Marker+TrustedComms-1,CCCvCCvLS+vLS is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCCP+ch,domain#CP-Marker+TrustedComms-1,CCSCCP+ch is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCfI+fI,domain#CP-Marker+TrustedComms-1,CCSCfI+fI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCtI+tI,domain#CP-Marker+TrustedComms-1,CCSCtI+tI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCtSg+tSg,domain#CP-Marker+TrustedComms-1,CCSCtSg+tSg is at the end of the trusted comms channel inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CCSCvI+vI,domain#CP-Marker+TrustedComms-1,CCSCvI+vI is at the end of the trusted comms channel inference sequence,FALSE,TRUE
+package#ProcessTrust,domain#CP-CPuSCC+c,domain#CP-Marker+TrustRelationship-1,CPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CScP-v+AA,domain#CP-Marker+CredentialSharing-1,CScP-v+AA is at the end of the credential sharing inference sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CuPuSCC+c,domain#CP-Marker+TrustRelationship-1,CuPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-CuPvSCC+c,domain#CP-Marker+TrustRelationship-1,CuPvSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CvPuSCC+c,domain#CP-Marker+TrustRelationship-1,CvPuSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
-package#ProcessTrust,domain#CP-CvPvSCC+c,domain#CP-Marker+TrustRelationship-1,CvPvSCC+c is at the end of the trust relationship creation sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFfCCCfS+ff,domain#CP-Marker+TrustInDataFlows-1,DFfCCCfS+ff is at the end of the trust in data flow inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFfCCCtS+ft,domain#CP-Marker+TrustInDataFlows-1,DFfCCCtS+ft is at the end of the trust in data flow inference sequence,FALSE,TRUE
 package#ProcessTrust,domain#CP-DFtCCCfS+ft,domain#CP-Marker+TrustInDataFlows-1,DFtCCCfS+ft is at the end of the trust in data flow inference sequence,FALSE,TRUE
@@ -296,8 +303,10 @@ package#ProcessTrust,domain#CP-Marker+ProcessTrust-3,domain#CP-Marker+Phishing-0
 package#ProcessTrust,domain#CP-Marker+TrustInDataFlows-1,domain#CP-Marker+ProcessTrust-3,Trust in data flow inference is a subsequence of process trust inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+TrustRelationship-1,domain#CP-Marker+ProcessTrust-1,Trust relationship creation is a subsequence of process trust inference,FALSE,TRUE
 package#ProcessTrust,domain#CP-Marker+TrustedComms-1,domain#CP-Marker+ProcessTrust-2,Trusted comms channel inference is a subsequence of process trust inference,FALSE,TRUE
-package#Theft,domain#CP-CSCLS+ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS+ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
-package#Theft,domain#CP-CSCLS-ii+PNC,domain#CP-Marker+Reconnection-1,CSCLS-ii+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCPSLS-l-US+PNC,domain#CP-Marker+Reconnection-1,CSCPSLS-l-US+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCUSLS-l-W+PNC,domain#CP-Marker+Reconnection-1,CSCUSLS-l-W+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-CSCWLS-l+PNC,domain#CP-Marker+Reconnection-1,CSCWLS-l+PNC is at the end of the reconnection context creation sequence,FALSE,TRUE
+package#Theft,domain#CP-HPHL3S-ii+HNC,domain#CP-Marker+Reconnection-1,HPHL3S-ii+HNC is at the end of the reconnection context inference sequence,FALSE,TRUE
 package#Theft,domain#CP-Marker+Reconnection-1,domain#CP-Marker+TrustContext-0,Trust contextualisation inference should follow reconnection context creation.,FALSE,TRUE
 package#Users,domain#CP-A+iA,domain#CP-Marker+HumanStatus-1,A+iA is at the end of the user status classification sequence,FALSE,TRUE
 package#Users,domain#CP-HuaSaE+cA,domain#CP-Marker+HumanMobility-1,HuaSaE+cA is at the end of the human mobility inference sequence,FALSE,TRUE

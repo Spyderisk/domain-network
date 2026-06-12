@@ -38,6 +38,8 @@ package#5G,domain#DNG-URrBc-rL3-0,domain#Node-FromSubnet-RAN
 package#5G,domain#DNG-URrBc-rL3-0,domain#Node-ToSubnet-L23Subnet
 package#5G,domain#DNG-URrBrUR-0,domain#Node-FromSubnet-RAN
 package#5G,domain#DNG-URrBrUR-0,domain#Node-ToSubnet-RAN
+package#DataCaching,domain#DNG-H-sDFrSACdDFiaS-0,domain#Node-Data-Data
+package#DataCaching,domain#DNG-H-sDFrSACdDFiaS-0,domain#Node-Input-Data
 package#DataLifecycle,domain#DNG-CSDF-VdDA2-0,domain#Node-Client-Process
 package#DataLifecycle,domain#DNG-CSDF-VdDA2-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-HDSPDIfdDA-DP-f-0,domain#Node-DataDestination-DataInput
@@ -46,6 +48,8 @@ package#DataLifecycle,domain#DNG-HPDADS2dDO-0,domain#Node-DataOutput-DataOutput
 package#DataLifecycle,domain#DNG-HPDADS2dDO-0,domain#Node-DataUse-DataOutput
 package#DataLifecycle,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#Node-Process-Process
 package#DataLifecycle,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#Node-Service-Process
+package#DataLifecycle,domain#DNG-HSDADPPDXS-Hu-DP-0,domain#Node-Process-Process
+package#DataLifecycle,domain#DNG-HSDADPPDXS-Hu-DP-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#Node-Client-Process
 package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-PcPuDS-V-0,domain#Node-Client-Process
@@ -56,6 +60,8 @@ package#DataLifecycle,domain#DNG-SDADPPDXPRAC-DP-0,domain#Node-Process-Process
 package#DataLifecycle,domain#DNG-SDADPPDXPRAC-DP-0,domain#Node-Service-Process
 package#DataLifecycle,domain#DNG-SDADPPDXRAC-DP-0,domain#Node-RemoteAccessClient-RemoteAccessClient
 package#DataLifecycle,domain#DNG-SDADPPDXRAC-DP-0,domain#Node-Service-Process
+package#DataLifecycle,domain#DNG-SDADPPDXS-Hu-DP-0,domain#Node-Process-Process
+package#DataLifecycle,domain#DNG-SDADPPDXS-Hu-DP-0,domain#Node-Service-Process
 package#GDPR,domain#DNG-NDFHuoO-0,domain#Node-Jurisdiction-Jurisdiction
 package#GDPR,domain#DNG-NDFHuoO-0,domain#Node-RemoteJurisdiction-Jurisdiction
 package#Legal,domain#DNG-DFHuoO-0,domain#Node-Jurisdiction-Jurisdiction
@@ -182,10 +188,10 @@ package#ProcessTrust,domain#DNG-CuPnS-U-0,domain#Node-Client-Process
 package#ProcessTrust,domain#DNG-CuPnS-U-0,domain#Node-Service-Process
 package#ProcessTrust,domain#DNG-H-sDFCFdS-ACau-0,domain#Node-AuthChannel-AuthChannel
 package#ProcessTrust,domain#DNG-H-sDFCFdS-ACau-0,domain#Node-ClientChannel-AuthChannel
-package#ProcessTrust,domain#DNG-H-sDFSFdC-0,domain#Node-AuthChannel-AuthChannel
-package#ProcessTrust,domain#DNG-H-sDFSFdC-0,domain#Node-ClientChannel-AuthChannel
-package#ProcessTrust,domain#DNG-H-sDFrSACdDFiaS-0,domain#Node-Data-Data
-package#ProcessTrust,domain#DNG-H-sDFrSACdDFiaS-0,domain#Node-Input-Data
+package#ProcessTrust,domain#DNG-H-sDFiSFdC-0,domain#Node-AuthChannel-ClientChannel
+package#ProcessTrust,domain#DNG-H-sDFiSFdC-0,domain#Node-ClientChannel-ClientChannel
+package#ProcessTrust,domain#DNG-H-sDFoSFdC-0,domain#Node-AuthChannel-ClientChannel
+package#ProcessTrust,domain#DNG-H-sDFoSFdC-0,domain#Node-ClientChannel-ClientChannel
 package#ProcessTrust,domain#DNG-H-sDFuCudDFdS-ACau-0,domain#Node-Data-Data
 package#ProcessTrust,domain#DNG-H-sDFuCudDFdS-ACau-0,domain#Node-Input-Data
 package#ProcessTrust,domain#DNG-H-sDFuCudDFdS-ACau-1,domain#Node-AuthChannel-AuthChannel

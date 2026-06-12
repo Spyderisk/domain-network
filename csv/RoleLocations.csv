@@ -184,7 +184,8 @@ package#ProcessComms,domain#Role_ClosedServiceAttackPath,domain#ClosedServiceAtt
 package#ProcessComms,domain#Role_DHost,domain#PhysicalHost
 package#ProcessComms,domain#Role_DService,domain#Process
 package#ProcessComms,domain#Role_EntrySubnet,domain#LogicalSubnet
-package#ProcessComms,domain#Role_LastChannel,domain#ServiceChannel
+package#ProcessComms,domain#Role_FirstChannel,domain#ConnectionChannel
+package#ProcessComms,domain#Role_LastChannel,domain#ConnectionChannel
 package#ProcessComms,domain#Role_LastSubnet,domain#L01Subnet
 package#ProcessComms,domain#Role_OpenClientAttackPath,domain#OpenClientAttackPath
 package#ProcessComms,domain#Role_OpenServiceAttackPath,domain#OpenServiceAttackPath
@@ -195,7 +196,6 @@ package#ProcessComms,domain#Role_ServiceChannel,domain#ServiceChannel
 package#ProcessTrust,domain#Role_AuthZChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_AuthChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_ClientChannel,domain#AuthChannel
-package#ProcessTrust,domain#Role_FirstChannel,domain#ClientChannel
 package#ProcessTrust,domain#Role_IndirectChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_ProxyChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_VaultChannel,domain#ClientChannel

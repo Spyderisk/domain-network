@@ -161,7 +161,7 @@ package#ProcessTrust,domain#CC.AX.CCCmSCS.0,domain#MS-LossOfConnectivity-Service
 package#ProcessTrust,domain#CC.AX.CCCvCCS.0,domain#MS-LossOfAccessibility-ProxyChannel
 package#ProcessTrust,domain#CC.AX.CCDFSFS.6.4,domain#MS-Overloaded-DataStep
 package#ProcessTrust,domain#CC.AX.CCDFSTS.6.4,domain#MS-Overloaded-DataStep
-package#ProcessTrust,domain#DF.A.CC-iDFC-SS.0,domain#MS-LossOfAvailability-Client
+package#ProcessTrust,domain#DF.A.ACDFCS-i.0,domain#MS-LossOfAvailability-Client
 package#ProcessTrust,domain#DF.A.CC-iDFCS.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessTrust,domain#DF.A.CC-iDFSC.0,domain#MS-LossOfAccessibility-ClientChannel
 package#ProcessTrust,domain#DF.O.CCDS2FC.0,domain#MS-InService-ClientChannel
