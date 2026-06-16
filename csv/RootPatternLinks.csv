@@ -662,6 +662,13 @@ package#DataLifecycle,domain#R-HDSV,domain#Link-DataCopy-copyOf-Data
 package#DataLifecycle,domain#R-HDSV,domain#Link-Host-hasPhysicalHost-PhysicalHost
 package#DataLifecycle,domain#R-HDSV,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycle,domain#R-HDSV,domain#Link-Vault-controls-DataCopy
+package#DataLifecycle,domain#R-HPDADDDS-fDI,domain#Link-DataAccess-usedBy-Process
+package#DataLifecycle,domain#R-HPDADDDS-fDI,domain#Link-DataAccess-usedFor-Data
+package#DataLifecycle,domain#R-HPDADDDS-fDI,domain#Link-DataCopy-copyOf-Data
+package#DataLifecycle,domain#R-HPDADDDS-fDI,domain#Link-DataDestination-fromSource-DataSource
+package#DataLifecycle,domain#R-HPDADDDS-fDI,domain#Link-DataDestination-fulfils-DataCopy
+package#DataLifecycle,domain#R-HPDADDDS-fDI,domain#Link-Host-hosts-Process
+package#DataLifecycle,domain#R-HPDADDDS-fDI,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycle,domain#R-HPDADF,domain#Link-DataAccess-fulfils-DataFlow
 package#DataLifecycle,domain#R-HPDADF,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HPDADF,domain#Link-DataAccess-usedFor-Data
@@ -776,11 +783,6 @@ package#DataLifecycle,domain#R-HPDS,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HPDS,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HPDS,domain#Link-Host-hosts-Process
 package#DataLifecycle,domain#R-HPDS,domain#Link-Host-storesCopy-DataCopy
-package#DataLifecycle,domain#R-HPDS-fDI,domain#Link-DataAccess-usedBy-Process
-package#DataLifecycle,domain#R-HPDS-fDI,domain#Link-DataAccess-usedFor-Data
-package#DataLifecycle,domain#R-HPDS-fDI,domain#Link-DataCopy-copyOf-Data
-package#DataLifecycle,domain#R-HPDS-fDI,domain#Link-Host-hosts-Process
-package#DataLifecycle,domain#R-HPDS-fDI,domain#Link-Host-storesCopy-DataCopy
 package#DataLifecycle,domain#R-HPDSDA,domain#Link-DataAccess-usedBy-Process
 package#DataLifecycle,domain#R-HPDSDA,domain#Link-DataAccess-usedFor-Data
 package#DataLifecycle,domain#R-HPDSDA,domain#Link-DataCopy-fulfils-DataAccess

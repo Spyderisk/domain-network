@@ -142,8 +142,6 @@ package#DataLifecycle,domain#MP-HPDOuDS-V,domain#Node-Vault-Process,FALSE,TRUE,F
 package#DataLifecycle,domain#MP-HPDS-VDADF,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDS-VDADF,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDS-VDADF,domain#Node-Vault-Process,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#MP-HPDS-fDI-DO-DFI,domain#Node-DataOutput-DataOutput,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#MP-HPDS-fDI-DO-DFI,domain#Node-InFlow-DataFlow,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-HPDSDADF,domain#Node-HostManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDSDADF,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-HPDSDADF-V,domain#Node-HostManager-Human,FALSE,FALSE,FALSE

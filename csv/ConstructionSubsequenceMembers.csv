@@ -188,11 +188,11 @@ package#DataLifecycle,domain#CP-HDS2DPfDA+fS,42,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-HDSPDIfdDA-DP-f+f,44,domain#S-SerializationDeserialization,FALSE
 package#DataLifecycle,domain#CP-HHuWE+D,51,domain#S-Phishing,FALSE
 package#DataLifecycle,domain#CP-HHuWSMS+D,51,domain#S-Phishing,FALSE
+package#DataLifecycle,domain#CP-HPDA-DDDS-fDI+f,0,domain#S-SerializationDeserialization,FALSE
 package#DataLifecycle,domain#CP-HPDADS-crudu+crudc,44,domain#S-PersistentDataAccess,FALSE
 package#DataLifecycle,domain#CP-HPDADS2dDO+crudu,44,domain#S-PersistentDataAccess,FALSE
 package#DataLifecycle,domain#CP-HPDADSDU+crudu,44,domain#S-PersistentDataAccess,FALSE
 package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,44,domain#S-SerializationDeserialization,FALSE
-package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,44,domain#S-SerializationDeserialization,FALSE
 package#DataLifecycle,domain#CP-HPDSDA-crudr+crudr,44,domain#S-PersistentDataAccess,FALSE
 package#DataLifecycle,domain#CP-HPeD+crudu,44,domain#S-PersistentDataAccess,FALSE
 package#DataLifecycle,domain#CP-HPrD-DS-DA+DR,40,domain#S-VolatileData,FALSE

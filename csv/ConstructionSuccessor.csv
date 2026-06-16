@@ -99,9 +99,9 @@ package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PIP-S+fS,PIP-S+fS creates
 package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#CP-PSDP-S+fS,PSDP-S+fS creates a link that in HDS2DPfDA+fS should not match DataAccess-fromSource-DataSource,FALSE,TRUE
 package#DataLifecycle,domain#CP-HHuWE+D,domain#CP-Marker+Phishing-1,HHuWE+D is at the end of the phishing inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HHuWSMS+D,domain#CP-Marker+Phishing-1,HHuWSMS+D is at the end of the phishing inference sequence,FALSE,TRUE
+package#DataLifecycle,domain#CP-HPDA-DDDS-fDI+f,domain#CP-Marker+SerializationDeserialization-1,HPDS-fDI-DO-DFI+f is at the end of the serialization and deserialization inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HPDADS-crudu+crudc,domain#CP-Marker+DataCopy-3,HPDADS-crudu+crudc is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HPDO-fDS-DA+f,domain#CP-Marker+SerializationDeserialization-1,HPDO-fDS-DA+f is at the end of the serialization and deserialization inference sequence,FALSE,TRUE
-package#DataLifecycle,domain#CP-HPDS-fDI-DO-DFI+f,domain#CP-Marker+SerializationDeserialization-1,HPDS-fDI-DO-DFI+f is at the end of the serialization and deserialization inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HPDSDA-crudr+crudr,domain#CP-Marker+DataCopy-3,HPDSDA-crudr+crudr is at the end of the stored data access relationship inference sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuSP+SMS,domain#CP-Marker+PhishingClient-1,HuSP+SMS is at the end of the inferred phishing client creation sequence,FALSE,TRUE
 package#DataLifecycle,domain#CP-HuWES+D,domain#CP-Marker+Phishing-1,HuWES+D is at the end of the phishing inference sequence,FALSE,TRUE

@@ -243,6 +243,8 @@ package#DataLifecycle,domain#MP-HP-uDS-VDI,domain#Link-Vault-controls-DataCopy,F
 package#DataLifecycle,domain#MP-HP-uDSDI,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HP-uDSDI,domain#Link-Process-reads-Data,TRUE
 package#DataLifecycle,domain#MP-HP-uDSDI,domain#Link-ProcessManager-manages-Process,FALSE
+package#DataLifecycle,domain#MP-HPDA-DDDS-fDI,domain#Link-DataCopy-fulfils-DataAccess,TRUE
+package#DataLifecycle,domain#MP-HPDA-DDDS-fDI,domain#Link-DataSource-fulfils-DataAccess,TRUE
 package#DataLifecycle,domain#MP-HPDADF,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HPDADF,domain#Link-ProcessManager-manages-Process,FALSE
 package#DataLifecycle,domain#MP-HPDADS-crudu,domain#Link-Process-crudu-DataCopy,TRUE
@@ -304,10 +306,6 @@ package#DataLifecycle,domain#MP-HPDOuDS-V,domain#Link-ProcessManager-manages-Pro
 package#DataLifecycle,domain#MP-HPDS-VDADF,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HPDS-VDADF,domain#Link-ProcessManager-manages-Process,FALSE
 package#DataLifecycle,domain#MP-HPDS-VDADF,domain#Link-Vault-controls-DataCopy,FALSE
-package#DataLifecycle,domain#MP-HPDS-fDI-DO-DFI,domain#Link-DataCopy-fulfils-DataAccess,TRUE
-package#DataLifecycle,domain#MP-HPDS-fDI-DO-DFI,domain#Link-DataOutput-usedBy-Process,FALSE
-package#DataLifecycle,domain#MP-HPDS-fDI-DO-DFI,domain#Link-DataOutput-usedFor-Data,FALSE
-package#DataLifecycle,domain#MP-HPDS-fDI-DO-DFI,domain#Link-InFlow-fulfils-DataAccess,FALSE
 package#DataLifecycle,domain#MP-HPDSDA-crudr,domain#Link-Process-crudr-DataCopy,TRUE
 package#DataLifecycle,domain#MP-HPDSDADF,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HPDSDADF,domain#Link-ProcessManager-manages-Process,FALSE
