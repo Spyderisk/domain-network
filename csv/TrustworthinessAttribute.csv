@@ -33,8 +33,9 @@ package#ProcessTrust,domain#ClientAuthenticity,ClientAuthenticity,"The client ac
 package#ProcessTrust,domain#ClientTW,ClientTW,"The client accessing the related service is not controlled by an untrustworthy actor. This pertains to the trustworthiness of those able to access the service as the client (i.e., after authentication).",FALSE
 package#ProcessTrust,domain#DeputyUserTW,DeputyUserTW,The client is clear on what requests it should send to the service on behalf of its own clients.,FALSE
 package#ProcessTrust,domain#ProxyUserTW,ProxyUserTW,Only trustworthy clients can send requests via the client (which is a reverse proxy) to the related service.,FALSE
-package#ProcessTrust,domain#ServiceAuthenticity,ServiceAuthenticity,The service accessed by a client is not an imposter.,FALSE
-package#ProcessTrust,domain#ServiceTW,ServiceTW,The service accessed by a client is not controlled by a malicious actor.,FALSE
+package#ProcessTrust,domain#ServiceAuthenticity,ServiceAuthenticity,The Service associated with the AuthChanne is genuine (not an imposter). Can be thought of as service selectivity at the Client (able to discern the correct Service).,FALSE
+package#ProcessTrust,domain#ServiceSelectivity,ServiceSelectivity,The Service associated with the AuthChannel has control over which clients have access.,FALSE
+package#ProcessTrust,domain#ServiceTW,ServiceTW,The Service associated with the AuthChannel and its regulating policy are valid.,FALSE
 package#Theft,domain#OwnerControl,OwnerControl,A device or a process running on the device is still controlled by a trustworthy actor or process in some context after the device has been stolen by an attacker.,TRUE
 package#Theft,domain#Possession,Possession,Attribute signifying that a (mobile) device is in the hands of the right user.,TRUE
 package#Users,domain#Astuteness,Astuteness,The ability to detect attempts by other agents to induce inappropriate action through deception.,TRUE

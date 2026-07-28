@@ -45,6 +45,7 @@ package#Application,domain#EmailService,domain#ProcessPalette
 package#Application,domain#InteractiveApplication,domain#ApplicationProcess
 package#Application,domain#InteractiveApplication,domain#InteractiveProcess
 package#Application,domain#InteractiveApplication,domain#ProcessPalette
+package#Application,domain#RemoteDesktop,domain#InteractiveProcess
 package#Application,domain#RemoteDesktop,domain#ProcessPalette
 package#Application,domain#RemoteDesktop,domain#RemoteAccessClient
 package#Application,domain#SMSClient,domain#InteractiveProcess

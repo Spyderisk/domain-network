@@ -36,7 +36,9 @@ package#Application,domain#serves,domain#Process
 package#Application,domain#stores,domain#Host
 package#Application,domain#updates,domain#Process
 package#Application,domain#usesDirectly,domain#Process
+package#Application,domain#usesInChain,domain#Process
 package#Application,domain#usesIndirectly,domain#Process
+package#Application,domain#usesSomehow,domain#Process
 package#Application,domain#viewsData,domain#Human
 package#CloudManagement,domain#contains,domain#Pod
 package#CloudManagement,domain#isContainer,domain#Host
@@ -71,6 +73,7 @@ package#DataLifecycle,domain#extendsDC,domain#DataChannel
 package#DataLifecycle,domain#extendsDP,domain#DataPath
 package#DataLifecycle,domain#extendsFwdFlow,domain#DataChannel
 package#DataLifecycle,domain#extendsRevFlow,domain#DataChannel
+package#DataLifecycle,domain#flowTerminator,domain#DataTransferAsset
 package#DataLifecycle,domain#flows,domain#DataTransferAsset
 package#DataLifecycle,domain#flowsFrom,domain#DataTransferAsset
 package#DataLifecycle,domain#flowsFromDP,domain#DataFlow
@@ -83,6 +86,7 @@ package#DataLifecycle,domain#flowsViaProcess,domain#DataFlow
 package#DataLifecycle,domain#fromProc,domain#DataChannel
 package#DataLifecycle,domain#fromProc,domain#DataPath
 package#DataLifecycle,domain#fromSource,domain#DataAccess
+package#DataLifecycle,domain#fromStore,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
 package#DataLifecycle,domain#fwdPath,domain#DataAccess
@@ -211,6 +215,7 @@ package#ProcessComms,domain#sourceDirect,domain#ServiceChannel
 package#ProcessComms,domain#sourceViaNAT,domain#ServiceChannel
 package#ProcessComms,domain#toInterface,domain#ConnectionAsset
 package#ProcessComms,domain#toSpace,domain#ServiceChannel
+package#ProcessComms,domain#usesAsDeputy,domain#Process
 package#ProcessComms,domain#usesAsProxy,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#ConnectionChannel
 package#ProcessComms,domain#usesViaDeputy,domain#Process
@@ -226,9 +231,11 @@ package#ProcessTrust,domain#flowsViaChannel,domain#DataFlow
 package#ProcessTrust,domain#flowsViaChannel,domain#DataStep
 package#ProcessTrust,domain#flowsViaSC,domain#DataFlow
 package#ProcessTrust,domain#flowsViaSC,domain#DataStep
-package#ProcessTrust,domain#noAuthN,domain#Process
 package#ProcessTrust,domain#sharesCredentials,domain#Process
 package#ProcessTrust,domain#validatesChannel,domain#AuthChannel
+package#ProcessTrust,domain#viaAuthChannel,domain#AuthChannel
+package#ProcessTrust,domain#viaChannel,domain#AuthChannel
+package#ProcessTrust,domain#viaCredentialSharing,domain#Process
 package#ProcessTrust,domain#viaSharedCredentials,domain#Process
 package#Users,domain#canAccess,domain#Human
 package#Users,domain#controlledBy,domain#PrivateSpace

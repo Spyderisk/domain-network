@@ -37,7 +37,9 @@ package#Application,domain#serves,domain#Data
 package#Application,domain#stores,domain#Data
 package#Application,domain#updates,domain#Data
 package#Application,domain#usesDirectly,domain#Process
+package#Application,domain#usesInChain,domain#Process
 package#Application,domain#usesIndirectly,domain#Process
+package#Application,domain#usesSomehow,domain#Process
 package#Application,domain#viewsData,domain#Data
 package#CloudManagement,domain#contains,domain#Process
 package#CloudManagement,domain#isContainer,domain#Host
@@ -73,6 +75,7 @@ package#DataLifecycle,domain#extendsDC,domain#DataChannel
 package#DataLifecycle,domain#extendsDP,domain#DataPath
 package#DataLifecycle,domain#extendsFwdFlow,domain#DataChannel
 package#DataLifecycle,domain#extendsRevFlow,domain#DataChannel
+package#DataLifecycle,domain#flowTerminator,domain#Process
 package#DataLifecycle,domain#flows,domain#Data
 package#DataLifecycle,domain#flowsFrom,domain#Process
 package#DataLifecycle,domain#flowsFromDP,domain#DataPath
@@ -84,6 +87,7 @@ package#DataLifecycle,domain#flowsVia,domain#DataStep
 package#DataLifecycle,domain#flowsViaProcess,domain#Process
 package#DataLifecycle,domain#fromProc,domain#Process
 package#DataLifecycle,domain#fromSource,domain#DataAccess
+package#DataLifecycle,domain#fromStore,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAccess
 package#DataLifecycle,domain#fulfils,domain#DataAsset
 package#DataLifecycle,domain#fwdPath,domain#DataChannel
@@ -213,6 +217,7 @@ package#ProcessComms,domain#sourceDirect,domain#LogicalSubnet
 package#ProcessComms,domain#sourceViaNAT,domain#LogicalSubnet
 package#ProcessComms,domain#toInterface,domain#Interface
 package#ProcessComms,domain#toSpace,domain#Space
+package#ProcessComms,domain#usesAsDeputy,domain#Process
 package#ProcessComms,domain#usesAsProxy,domain#Process
 package#ProcessComms,domain#usesLogicalRoute,domain#LogicalSegment
 package#ProcessComms,domain#usesViaDeputy,domain#Process
@@ -225,9 +230,11 @@ package#ProcessTrust,domain#controlsChannel,domain#AuthChannel
 package#ProcessTrust,domain#flowsViaCS,domain#AuthChannel
 package#ProcessTrust,domain#flowsViaChannel,domain#AuthChannel
 package#ProcessTrust,domain#flowsViaSC,domain#AuthChannel
-package#ProcessTrust,domain#noAuthN,domain#Process
 package#ProcessTrust,domain#sharesCredentials,domain#Process
 package#ProcessTrust,domain#validatesChannel,domain#AuthChannel
+package#ProcessTrust,domain#viaAuthChannel,domain#AuthChannel
+package#ProcessTrust,domain#viaChannel,domain#AuthChannel
+package#ProcessTrust,domain#viaCredentialSharing,domain#Process
 package#ProcessTrust,domain#viaSharedCredentials,domain#Process
 package#Users,domain#canAccess,domain#Space
 package#Users,domain#controlledBy,domain#Stakeholder

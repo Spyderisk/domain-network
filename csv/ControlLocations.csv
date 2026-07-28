@@ -151,10 +151,10 @@ package#ProcessComms,domain#DisableServiceChannel,domain#ServiceChannel
 package#ProcessComms,domain#SuspendInsecureServiceChannel,domain#ServiceChannel
 package#ProcessComms,domain#SuspendVulnerableServiceChannel,domain#ServiceChannel
 package#ProcessTrust,domain#ClearDeputy,domain#Process
-package#ProcessTrust,domain#DisableClientAccess,domain#ClientChannel
-package#ProcessTrust,domain#SuspendExcessiveClientAccess,domain#ClientChannel
-package#ProcessTrust,domain#SuspendUnauthenticClientAccess,domain#ClientChannel
-package#ProcessTrust,domain#SuspendUntrustworthyClientAccess,domain#ClientChannel
+package#ProcessTrust,domain#DisableClientAccess,domain#AuthChannel
+package#ProcessTrust,domain#SuspendExcessiveClientAccess,domain#AuthChannel
+package#ProcessTrust,domain#SuspendUnauthenticClientAccess,domain#AuthChannel
+package#ProcessTrust,domain#SuspendUntrustworthyClientAccess,domain#AuthChannel
 package#Users,domain#BiometricID,domain#Human
 package#Users,domain#ChipAndPINCard,domain#Human
 package#Users,domain#ManualActionTaken,domain#Human

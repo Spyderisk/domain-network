@@ -1807,9 +1807,13 @@ package#ProcessTrust,domain#CAS-ClearDeputy-TextEditor,domain#TextEditor,domain#
 package#ProcessTrust,domain#CAS-ClearDeputy-WebApp,domain#WebApp,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-WebBrowser,domain#WebBrowser,domain#ClearDeputy,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#ProcessTrust,domain#CAS-ClearDeputy-WebClient,domain#WebClient,domain#ClearDeputy,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#ProcessTrust,domain#CAS-DisableClientAccess-AuthChannel,domain#AuthChannel,domain#DisableClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#CAS-DisableClientAccess-ClientChannel,domain#ClientChannel,domain#DisableClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessTrust,domain#CAS-SuspendExcessiveClientAccess-AuthChannel,domain#AuthChannel,domain#SuspendExcessiveClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#CAS-SuspendExcessiveClientAccess-ClientChannel,domain#ClientChannel,domain#SuspendExcessiveClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessTrust,domain#CAS-SuspendUnauthenticClientAccess-AuthChannel,domain#AuthChannel,domain#SuspendUnauthenticClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#CAS-SuspendUnauthenticClientAccess-ClientChannel,domain#ClientChannel,domain#SuspendUnauthenticClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessTrust,domain#CAS-SuspendUntrustworthyClientAccess-AuthChannel,domain#AuthChannel,domain#SuspendUntrustworthyClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#CAS-SuspendUntrustworthyClientAccess-ClientChannel,domain#ClientChannel,domain#SuspendUntrustworthyClientAccess,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Users,domain#CAS-BiometricID-Adult,domain#Adult,domain#BiometricID,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#Users,domain#CAS-BiometricID-Child,domain#Child,domain#BiometricID,TRUE,domain#TrustworthinessLevelSafe,TRUE

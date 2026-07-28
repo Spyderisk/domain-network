@@ -17,6 +17,7 @@ package#Application,domain#Role_Input,Input,A data asset that is a process input
 package#Application,domain#Role_InteractiveProcess,InteractiveProcess,A process facilitating (possibly specialised to support) user interactions with data.
 package#Application,domain#Role_MUA,MUA,A process acting as a Mail User Agent.
 package#Application,domain#Role_Output,Output,A data asset that is a process output.
+package#Application,domain#Role_Policy,Policy,A data asset that is a process input used to regulate the process behaviour.
 package#Application,domain#Role_RemoteDesktop,RemoteDesktop,A remote desktop client process.
 package#Application,domain#Role_TextEditor,TextEditor,"A text editor process, i.e. one that allows user interactions with data via a non-graphical login shell."
 package#Application,domain#Role_WebBrowser,WebBrowser,A web browser.
@@ -178,12 +179,13 @@ package#ProcessComms,domain#Role_Proxy,Proxy,"A process acting as a reverse prox
 package#ProcessComms,domain#Role_ProxyClient,ProxyClient,A process acting as a client to a reverse proxy.
 package#ProcessComms,domain#Role_ServiceAttackPath,ServiceAttackPath,A privileged path through the network to a service from a subnet accessible by attackers whose messages would be addressed in a way that is consistent with at least one client.
 package#ProcessComms,domain#Role_ServiceChannel,ServiceChannel,A privileged communication path through the network between a client and a service.
-package#ProcessTrust,domain#Role_AuthZChannel,AuthZChannel,A trust relationship between a client and a service that relates to the use of that service to verify third party access rights.
-package#ProcessTrust,domain#Role_AuthChannel,AuthChannel,A trust relationship between a client and a service that relates to the use of that service to authenticate the client and/or verify their access rights.
+package#ProcessTrust,domain#Role_AuthZChannel,AuthZChannel,A trust relationship between a service and another service used to verify client access rights.
+package#ProcessTrust,domain#Role_AuthChannel,AuthChannel,A trust relationship between a client and a service that relates to access control.
+package#ProcessTrust,domain#Role_AuthNChannel,AuthNChannel,A trust relationship between a client and a service used to authenticate the client.
 package#ProcessTrust,domain#Role_ClientChannel,ClientChannel,A trust relationship between a client and a service.
-package#ProcessTrust,domain#Role_IndirectChannel,IndirectChannel,A client service trust relationship between a client and a service that communicate indirectly.
-package#ProcessTrust,domain#Role_ProxyChannel,ProxyChannel,A client-service trust relationship existing between a client or service and an intervening reverse proxy.
-package#ProcessTrust,domain#Role_VaultChannel,VaultChannel,A client channel representing the relationship between a process and a key vault holding keys used by the process to access data.
+package#ProcessTrust,domain#Role_IndirectChannel,IndirectChannel,A trust relationship between a client and a service that communicate indirectly or not at all.
+package#ProcessTrust,domain#Role_ProxyChannel,ProxyChannel,A trust relationship existing between a client or service and an intermediary service that may or may not be a reverse proxy.
+package#ProcessTrust,domain#Role_VaultChannel,VaultChannel,A trust relationship between a client and a service used to manage and distribute cryptographic keys used to access data.
 package#Users,domain#Role_Adult,Adult,A human who is not a Child.
 package#Users,domain#Role_Child,Child,A Human who is not an Adult.
 package#Users,domain#Role_Employer,Employer,A stakeholder that employs one or more individuals to act in one or more system roles.

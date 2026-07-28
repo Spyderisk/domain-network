@@ -156,9 +156,9 @@ package#ProcessComms,domain#SC.A.SCfICH.0,domain#MS-LossOfAvailability-Interface
 package#ProcessComms,domain#SC.A.SCtISH.0,domain#MS-LossOfAvailability-Interface
 package#ProcessComms,domain#SC.A.SgmSC.0,domain#MS-LossOfAvailability-LogicalSegment
 package#ProcessTrust,domain#CC.AX.CACSSaS.0,domain#MS-LossOfAccessibility-ClientChannel
-package#ProcessTrust,domain#CC.AX.CACSScS.0,domain#MS-LossOfAccessibility-ClientChannel
+package#ProcessTrust,domain#CC.AX.CACSSc-vS.0,domain#MS-LossOfAccessibility-ClientChannel
+package#ProcessTrust,domain#CC.AX.CACvCCS.0,domain#MS-LossOfAccessibility-ProxyChannel
 package#ProcessTrust,domain#CC.AX.CCCmSCS.0,domain#MS-LossOfConnectivity-ServiceChannel
-package#ProcessTrust,domain#CC.AX.CCCvCCS.0,domain#MS-LossOfAccessibility-ProxyChannel
 package#ProcessTrust,domain#CC.AX.CCDFSFS.6.4,domain#MS-Overloaded-DataStep
 package#ProcessTrust,domain#CC.AX.CCDFSTS.6.4,domain#MS-Overloaded-DataStep
 package#ProcessTrust,domain#DF.A.ACDFCS-i.0,domain#MS-LossOfAvailability-Client

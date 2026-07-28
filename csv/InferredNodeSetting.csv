@@ -165,9 +165,10 @@ package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#Node-Service-LoginServic
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#Node-Service-LoginService,domain#INS-RTvSPHP-iPL-RAS+LnS-Service,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessComms,domain#CP-SCCAP+CSAP,domain#Node-ClosedServiceAttackPath-ClosedServiceAttackPath,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessComms,domain#CP-SOCAP+OSAP,domain#Node-OpenServiceAttackPath-OpenServiceAttackPath,domain#INS-SOCAP+OSAP-OpenServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
-package#ProcessTrust,domain#CP-CzS-CC+AC,domain#Node-AuthChannel-AuthChannel,domain#INS-CzS-CC+AC-AuthChannel,TRUE,FALSE,domain#Node-Service-Process
+package#ProcessTrust,domain#CP-CzSazV-CC+AC,domain#Node-AuthChannel-AuthChannel,domain#INS-CzSazV-CC+AC-AuthChannel,TRUE,FALSE,domain#Node-Service-Process
+package#ProcessTrust,domain#CP-CzvS-SP+AC,domain#Node-ClientChannel-AuthChannel,domain#INS-CzvS-SP+AC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessTrust,domain#CP-CaS-SP+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CaS-SP+CC-ClientChannel,TRUE,FALSE,domain#Node-Service-Process
-package#ProcessTrust,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
+package#ProcessTrust,domain#CP-CuvS-SP+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS-SP+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#Theft,domain#CP-CSCPSLS-l-US+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCPSLS-l-US+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#Theft,domain#CP-CSCUSLS-l-W+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCUSLS-l-W+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#Theft,domain#CP-CSCWLS-l+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCWLS-l+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
