@@ -186,7 +186,7 @@ package#DataLifecycle,domain#CP-FwdDFf2DP2P+DS,43,domain#S-DataFlows,FALSE
 package#DataLifecycle,domain#CP-FwdDFfDP2P+DS,43,domain#S-DataFlows,FALSE
 package#DataLifecycle,domain#CP-FwdDFtDP2P+DS,43,domain#S-DataFlows,FALSE
 package#DataLifecycle,domain#CP-HD-iS-DS+DS,26,domain#S-PersistentData,FALSE
-package#DataLifecycle,domain#CP-HDS2DPfDA+fS,42,domain#S-DataChannels,FALSE
+package#DataLifecycle,domain#CP-HDSDP-fDPfDA+fS,0,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-HDSPDIfdDA-DP-f+f,44,domain#S-SerializationDeserialization,FALSE
 package#DataLifecycle,domain#CP-HHuWE+D,51,domain#S-Phishing,FALSE
 package#DataLifecycle,domain#CP-HHuWSMS+D,51,domain#S-Phishing,FALSE

@@ -234,6 +234,7 @@ package#DataLifecycle,domain#MP-HDBsD-V,domain#Link-Vault-controls-DataCopy,FALS
 package#DataLifecycle,domain#MP-HDS,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HDS-V,domain#Link-HostManager-manages-Host,FALSE
 package#DataLifecycle,domain#MP-HDS-V,domain#Link-Vault-controls-DataCopy,FALSE
+package#DataLifecycle,domain#MP-HDSDP-fDPfDA,domain#Link-DataPool-fromSource-DataSource,TRUE
 package#DataLifecycle,domain#MP-HDSPDIfdDA-DP-f,domain#Link-DataAccess-fromSource-DataSource,FALSE
 package#DataLifecycle,domain#MP-HDSPDIfdDA-DP-f,domain#Link-DataAccess-fulfils-DataCopy,FALSE
 package#DataLifecycle,domain#MP-HDSPDIfdDA-DP-f,domain#Link-DataDestination-fulfils-DataCopy,TRUE

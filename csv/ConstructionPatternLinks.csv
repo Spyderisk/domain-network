@@ -322,7 +322,9 @@ package#DataLifecycle,domain#CP-FwdDFtDP2P+DS,domain#Link-DataStep-flowsOut-Data
 package#DataLifecycle,domain#CP-FwdDFtDP2P+DS,domain#Link-DataStep-flowsTo-FlowsTo
 package#DataLifecycle,domain#CP-HD-iS-DS+DS,domain#Link-DataCopy-copyOf-Data
 package#DataLifecycle,domain#CP-HD-iS-DS+DS,domain#Link-Host-storesCopy-DataCopy
-package#DataLifecycle,domain#CP-HDS2DPfDA+fS,domain#Link-DataPool-fromSource-DataSource
+package#DataLifecycle,domain#CP-HDSDP-fDPfDA+fS,domain#Link-DataAccess-fulfils-DataCopy
+package#DataLifecycle,domain#CP-HDSDP-fDPfDA+fS,domain#Link-DataCopy-fulfils-DataPool
+package#DataLifecycle,domain#CP-HDSDP-fDPfDA+fS,domain#Link-DataPool-fromSource-DataSource
 package#DataLifecycle,domain#CP-HDSPDIfdDA-DP-f+f,domain#Link-DataDestination-fulfils-DataCopy
 package#DataLifecycle,domain#CP-HHuWE+D,domain#Link-Data-isSpam-Data
 package#DataLifecycle,domain#CP-HHuWE+D,domain#Link-DataFlow-flows-Data

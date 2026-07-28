@@ -169,7 +169,7 @@ package#DataLifecycle,domain#R-HDBDSDF,HDBDSDF,Finds a Host running a DB process
 package#DataLifecycle,domain#R-HDBsD,HDBsD,"Finds a Host running a Database process that serves a stored DataCopy, and the associated DataPool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDBsDV,HDBsDV,"Finds a Host running a Database process that serves a stored DataCopy encrypted with keys from a vault, and the associated DataPool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDS,HDS,"Finds a stored copy of Data on a Host, and its Physical Host.",FALSE,FALSE
-package#DataLifecycle,domain#R-HDS2DPfDA,HDS2DPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which writes to the data, and a data source for this.",FALSE,FALSE
+package#DataLifecycle,domain#R-HDSDPDPfDA,HDSDPDPfDA,"Finds a Host with a stored copy of data at which there are two processes, one of which gets data from a (possibly remote) source.",FALSE,FALSE
 package#DataLifecycle,domain#R-HDSPDIfDA,HDSPDIfDA,Finds a data input that is a destination for data from a source and used by a process whose host stores a copy of the data.,FALSE,FALSE
 package#DataLifecycle,domain#R-HDSV,HDSV,"Finds a copy of Data encrypted with a key from a vault, stored on a Host, and its Physical Host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPDADDDS-fDI,HPDADDDS-fDI,"Finds a Host with a stored Data Copy, running a Process that has a Data Input asset for the same Data that need not be fulfilled by the stored Data Copy., plus a Data Access fulfilling the stored Data Copy from a Data Source.",FALSE,FALSE
