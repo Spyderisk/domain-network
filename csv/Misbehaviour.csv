@@ -2,8 +2,14 @@ package,URI,label,comment,isVisible,abbrev
 domain#000000,domain#000000,LossOfAccuracy,12345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678123456781234567812345678,TRUE,
 package#AIHarms,domain#LossOfAccuracy,LossOfAccuracy,Signifies that data is incorrect when compared with reality.,TRUE,
 package#AIHarms,domain#LossOfAccurateProcessing,LossOfAccurateProcessing,Inputs to the process are processed such that the resulting outputs are inaccurate.,TRUE,
+package#AIHarms,domain#LossOfConsistency,LossOfConsistency,Comparable cases are not handled according to the same rules.,TRUE,
+package#AIHarms,domain#LossOfDistributiveFairness,LossOfDistributiveFairness,There is a loss of fairness in the outcomes and the allocation of benefits and burdens across different groups.,TRUE,
+package#AIHarms,domain#LossOfEquality,LossOfEquality,Different groups of people receive different share or treatment rather than there being the sameness of allocation.,TRUE,
+package#AIHarms,domain#LossOfFairEqualityOfOpportunity,LossOfFairEqualityOfOpportunity,Positions and opportunities are not open under genuinely fair conditions.,TRUE,
 package#AIHarms,domain#LossOfFairProcessing,LossOfFairProcessing,"Inputs to the process are processed such that the resulting outputs are unduly detrimental, lack equality or equity, or have harmful bias or discrimination.",TRUE,
 package#AIHarms,domain#LossOfFairness,LossOfFairness,"Equality or equity is not represented within the data, with issues such as harmful bias or discrimination present.",TRUE,
+package#AIHarms,domain#LossOfOpportunityOrCapabilityFairness,LossOfOpportunityOrCapabilityFairness,"There is a loss of fairness in the real opportunities, freedoms and ability to achieve valued ways of living between different groups.",TRUE,
+package#AIHarms,domain#LossOfProceduralFairness,LossOfProceduralFairness,There is a loss of fairness in the procedures and processes used to reach a decision.,TRUE,
 package#AccessContext,domain#LocalLossOfUserTW,LocalLossOfUserTW,"Untrusted, potentially malicious agents gained access to a host, with user rights (possibly associated with a specific process), when the host is in a specific location and/or connected to a specific subnet.",FALSE,L
 package#AccessContext,domain#LossOfExploitTW,LossOfExploitTW,Exposure of software vulnerabilities to exploitation by attackers in some context.,FALSE,V
 package#Application,domain#LossOfAuthenticity,LossOfAuthenticity,Forging or alteration of data (which may be embedded in an IoT device) in a way designed to induce false behaviour in other assets consuming the data.,TRUE,Auth
