@@ -1055,7 +1055,6 @@ package#DataLifecycle,domain#R-PDF,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDF,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycle,domain#R-PDF,domain#Node-FlowsFrom-Process,TRUE
 package#DataLifecycle,domain#R-PDF,domain#Node-FlowsTo-Process,TRUE
-package#DataLifecycle,domain#R-PDF,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PDFDI,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDFDI,domain#Node-DataAccess-DataInput,TRUE
 package#DataLifecycle,domain#R-PDFDI,domain#Node-DataFlow-DataFlow,TRUE
@@ -1087,7 +1086,6 @@ package#DataLifecycle,domain#R-PDFV,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDFV,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycle,domain#R-PDFV,domain#Node-FlowsFrom-Process,TRUE
 package#DataLifecycle,domain#R-PDFV,domain#Node-FlowsTo-Process,TRUE
-package#DataLifecycle,domain#R-PDFV,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PDFV,domain#Node-Vault-Process,TRUE
 package#DataLifecycle,domain#R-PDI,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDI,domain#Node-DataInput-DataInput,TRUE

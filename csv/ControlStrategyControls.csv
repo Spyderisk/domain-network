@@ -69,7 +69,7 @@ package#DataLifecycle,domain#CSG-DataStorageIntegrityProtection,domain#CS-Encryp
 package#DataLifecycle,domain#CSG-DataStorageIntegrityProtection,domain#CS-IntegrityProtection-DataCopy,FALSE
 package#DataLifecycle,domain#CSG-DataStorageReplication,domain#CS-Clustering-Host,FALSE
 package#DataLifecycle,domain#CSG-DataStorageReplication,domain#CS-Replication-DataCopy,FALSE
-package#DataLifecycle,domain#CSG-DisableDataFlow,domain#CS-DisabledDataFlow-DataFlow,FALSE
+package#DataLifecycle,domain#CSG-DisableDataFlow,domain#CS-DisableDataFlow-DataFlow,FALSE
 package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#CS-AccessKey-AccessFrom,FALSE
 package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#CS-AccessKey-AccessTo,FALSE
 package#DataLifecycle,domain#CSG-DistinctProcessAccessKeys,domain#CS-Encryption-DataAsset,FALSE

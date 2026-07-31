@@ -12,6 +12,7 @@ package#Application,domain#SuspendInfectedProcess,domain#Process
 package#Application,domain#UsesNoEmail,domain#Human
 package#CloudManagement,domain#AutoDataGovernance,domain#Process
 package#DataLifecycle,domain#AccessKey,domain#DataAccess
+package#DataLifecycle,domain#DisableDataFlow,domain#DataFlow
 package#DataLifecycle,domain#DisabledDataFlow,domain#DataFlow
 package#DataLifecycle,domain#EncryptedProcessing,domain#DataAccess
 package#DataLifecycle,domain#Encryption,domain#DataAsset

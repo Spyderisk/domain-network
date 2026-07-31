@@ -39,10 +39,13 @@ package#DataLifecycle,domain#DB.O.DSPDF-VDB.6.2,domain#TWAS-OutOfService-Service
 package#DataLifecycle,domain#DB.O.DSPDFVDB.6.1,domain#TWAS-OutOfService-Service
 package#DataLifecycle,domain#DB.O.DSPDFVDB.6.2,domain#TWAS-OutOfService-Service
 package#DataLifecycle,domain#DF.A.CSDF-VdDA2.6,domain#TWAS-DefaultTW-Data
+package#DataLifecycle,domain#DF.A.PDF+DM.6.1,domain#TWAS-DefaultTW-Data
+package#DataLifecycle,domain#DF.A.PDF+DM.6.2,domain#TWAS-Authenticity-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+DM.6.3,domain#TWAS-Integrity-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+DM.6.4,domain#TWAS-Health-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+SM.6.1,domain#TWAS-DefaultTW-Data
 package#DataLifecycle,domain#DF.A.PDF.6.1,domain#TWAS-DefaultTW-Data
-package#DataLifecycle,domain#DF.A.PDF.6.2,domain#TWAS-Authenticity-DataFlow
-package#DataLifecycle,domain#DF.A.PDF.6.3,domain#TWAS-Integrity-DataFlow
-package#DataLifecycle,domain#DF.A.PDF.6.4,domain#TWAS-Health-DataFlow
+package#DataLifecycle,domain#DF.A.PDFsAC+SM.6.5,domain#TWAS-UserTW-ProcAccess
 package#DataLifecycle,domain#DF.Auth.HuWEDF.3,domain#TWAS-Astuteness-Human
 package#DataLifecycle,domain#DF.Auth.HuWESDF.3,domain#TWAS-Astuteness-Human
 package#DataLifecycle,domain#DF.Auth.HuWSMSDF.3,domain#TWAS-Astuteness-Human
@@ -406,8 +409,6 @@ package#ProcessTrust,domain#CC.S.CAC-apS.1,domain#TWAS-AnonUserTW-ClientChannel
 package#ProcessTrust,domain#CC.S.CAC-apS.1,domain#TWAS-OutOfService-ClientChannel
 package#ProcessTrust,domain#CC.S.CACSSaS.1,domain#TWAS-ServiceTW-ClientChannel
 package#ProcessTrust,domain#CC.S.CACSSaS.3.2,domain#TWAS-ServiceAuthenticity-ClientChannel
-package#ProcessTrust,domain#DF.A.AC-iDFCS.6.3,domain#TWAS-UserTW-Service
-package#ProcessTrust,domain#DF.A.AC-iDFSC.6.3,domain#TWAS-ClientTW-ClientChannel
 package#ProcessTrust,domain#DF.Auth.AC-iDF-VCS.3.2,domain#TWAS-ClientTW-ClientChannel
 package#ProcessTrust,domain#DF.Auth.AC-iDF-VCS.3.2,domain#TWAS-OutOfService-ClientChannel
 package#ProcessTrust,domain#DF.Auth.AC-iDF-VFC.3.6,domain#TWAS-ClientTW-ClientChannel

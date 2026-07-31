@@ -775,6 +775,7 @@ package#DataLifecycle,domain#CAS-AccessKey-RemoteUserAccess,domain#RemoteUserAcc
 package#DataLifecycle,domain#CAS-AccessKey-StoredDataPool,domain#StoredDataPool,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-AccessKey-TempDataRelay,domain#TempDataRelay,domain#AccessKey,FALSE,domain#TrustworthinessLevelSafe,FALSE
 package#DataLifecycle,domain#CAS-AccessKey-UpdatePool,domain#UpdatePool,domain#AccessKey,TRUE,domain#TrustworthinessLevelSafe,TRUE
+package#DataLifecycle,domain#CAS-DisableDataFlow-DataFlow,domain#DataFlow,domain#DisableDataFlow,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-DisabledDataFlow-DataFlow,domain#DataFlow,domain#DisabledDataFlow,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-EncryptedProcessing-DataInput,domain#DataInput,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE
 package#DataLifecycle,domain#CAS-EncryptedProcessing-DataOutput,domain#DataOutput,domain#EncryptedProcessing,TRUE,domain#TrustworthinessLevelSafe,TRUE

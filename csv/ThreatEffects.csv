@@ -35,10 +35,13 @@ package#DataLifecycle,domain#DF.A.HPDODF-V.6.2,domain#MS-LossOfAvailability-Data
 package#DataLifecycle,domain#DF.A.HPDS-VDADF.6,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.A.HPDSDADF-V.6,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.A.HPDSDADF.0,domain#MS-LossOfAvailability-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+DM.6.1,domain#MS-LossOfAvailability-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+DM.6.2,domain#MS-LossOfAvailability-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+DM.6.3,domain#MS-LossOfAvailability-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+DM.6.4,domain#MS-LossOfAvailability-DataFlow
+package#DataLifecycle,domain#DF.A.PDF+SM.6.1,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.A.PDF.6.1,domain#MS-LossOfAvailability-DataFlow
-package#DataLifecycle,domain#DF.A.PDF.6.2,domain#MS-LossOfAvailability-DataFlow
-package#DataLifecycle,domain#DF.A.PDF.6.3,domain#MS-LossOfAvailability-DataFlow
-package#DataLifecycle,domain#DF.A.PDF.6.4,domain#MS-LossOfAvailability-DataFlow
+package#DataLifecycle,domain#DF.A.PDFsAC+SM.6.5,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.A.PmDFI-kDADFI.6,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.A.PmDFIDADFI-k.6,domain#MS-LossOfAvailability-DataFlow
 package#DataLifecycle,domain#DF.A.PmDFIDADFI.0,domain#MS-LossOfAvailability-DataFlow
@@ -439,8 +442,6 @@ package#ProcessTrust,domain#CC.R.HuoStACCS.1,domain#MS-LossOfClientTW-ClientChan
 package#ProcessTrust,domain#CC.S.CAC-apS.1,domain#MS-LossOfSelectivity-ClientChannel
 package#ProcessTrust,domain#CC.S.CACSSaS.1,domain#MS-LossOfSelectivity-AuthChannel
 package#ProcessTrust,domain#CC.S.CACSSaS.3.2,domain#MS-LossOfSelectivity-AuthChannel
-package#ProcessTrust,domain#DF.A.AC-iDFCS.6.3,domain#MS-LossOfAvailability-DataFlow
-package#ProcessTrust,domain#DF.A.AC-iDFSC.6.3,domain#MS-LossOfAvailability-DataFlow
 package#ProcessTrust,domain#DF.A.ACDFCS-i.0,domain#MS-LossOfAvailability-DataFlow
 package#ProcessTrust,domain#DF.A.CC-iDFCS.0,domain#MS-LossOfAvailability-DataFlow
 package#ProcessTrust,domain#DF.A.CC-iDFSC.0,domain#MS-LossOfAvailability-DataFlow

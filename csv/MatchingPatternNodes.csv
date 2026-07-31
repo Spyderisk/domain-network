@@ -231,8 +231,8 @@ package#DataLifecycle,domain#MP-HuirPiD-DF-DS,domain#Node-DataCopy-DataCopy,FALS
 package#DataLifecycle,domain#MP-HuirPiD-DF-DS,domain#Node-DataFlow-DataFlow,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-P-iDFDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-P-uDFDI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
-package#DataLifecycle,domain#MP-PDF,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
-package#DataLifecycle,domain#MP-PDF-V,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
+package#DataLifecycle,domain#MP-PDF+DM,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
+package#DataLifecycle,domain#MP-PDF+SM,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDF-V,domain#Node-Vault-Process,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PDFFA,domain#Node-DataStep-DataStep,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDFFA,domain#Node-Human-Human,FALSE,FALSE,FALSE
@@ -241,7 +241,8 @@ package#DataLifecycle,domain#MP-PDFIDADFI,domain#Node-DataCopy-DataCopy,FALSE,TR
 package#DataLifecycle,domain#MP-PDFIDADFI,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDFODADFO,domain#Node-DataCopy-DataCopy,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PDFODADFO,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
-package#DataLifecycle,domain#MP-PDFV,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
+package#DataLifecycle,domain#MP-PDFsAC+SM,domain#Node-ProcAccess-ProcessContext,TRUE,FALSE,TRUE
+package#DataLifecycle,domain#MP-PDFsAC+SM,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDI+DO-DS-S,domain#Node-DataCopy-DataCopy,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PDI+DO-DS-S,domain#Node-DataOutput-DataOutput,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDI+DO-DS-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
@@ -659,12 +660,6 @@ package#ProcessTrust,domain#MP-AC-iDF-VTC,domain#Node-ProcAccess-ProcessContext,
 package#ProcessTrust,domain#MP-AC-iDF-VTC,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-AC-iDF-VTC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-AC-iDF-VTC,domain#Node-Vault-Process,FALSE,TRUE,FALSE
-package#ProcessTrust,domain#MP-AC-iDFCS,domain#Node-IndirectChannel-AuthChannel,FALSE,TRUE,FALSE
-package#ProcessTrust,domain#MP-AC-iDFCS,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
-package#ProcessTrust,domain#MP-AC-iDFCS,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
-package#ProcessTrust,domain#MP-AC-iDFSC,domain#Node-IndirectChannel-AuthChannel,FALSE,TRUE,FALSE
-package#ProcessTrust,domain#MP-AC-iDFSC,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
-package#ProcessTrust,domain#MP-AC-iDFSC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-AC-iDFSFC,domain#Node-IndirectChannel-AuthChannel,FALSE,TRUE,FALSE
 package#ProcessTrust,domain#MP-AC-iDFSFC,domain#Node-ProcessManager-Human,FALSE,FALSE,FALSE
 package#ProcessTrust,domain#MP-AC-iDFSFC,domain#Node-ServiceManager-Human,FALSE,FALSE,FALSE
