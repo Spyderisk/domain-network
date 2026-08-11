@@ -47,6 +47,7 @@ package#5G,domain#MP-URrBrUR,URrBrUR,"Finds a host acting as a base station prov
 package#AIHarms,domain#MP-DiPmlm,DiPmlm,Input data is the prediction inputs to ML Model.,domain#R-DiPmlm,FALSE,FALSE
 package#AIHarms,domain#MP-DiuPmlmpDp,DiuPmlmpDp,"Input data is the prediction inputs to ML Model, which makes predictions using it.",domain#R-DiuPmlmpDp,FALSE,FALSE
 package#AIHarms,domain#MP-PmlmpDmp,PmlmpDmp,A ML Model and its model parameters.,domain#R-PmlmpDmp,FALSE,FALSE
+package#AIHarms,domain#MP-PmlmpDmppDp,PmlmpDmppDp,A ML Model and its model parameters and predictions.,domain#R-PmlmpDmppDp,FALSE,FALSE
 package#AIHarms,domain#MP-PmlmpDp,PmlmpDp,Process (ML Model) predicts Data (Predictions).,domain#R-PmlmpDp,FALSE,FALSE
 package#AIHarms,domain#MP-PtatPmlmpaDmp,PtatPmlmpaDmp,A Training Algorithm Process that trains a ML Model process which has Data as its model parameters.,domain#R-PtatPmlmpaDmp,FALSE,FALSE
 package#AIHarms,domain#MP-PtautDt,PtautDt,A ML training algorithm process uses training data to train.,domain#R-PtautDt,FALSE,FALSE

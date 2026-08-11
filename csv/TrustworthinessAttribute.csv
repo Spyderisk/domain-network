@@ -4,6 +4,20 @@ package#AIHarms,domain#Accuracy,Accuracy,Signifies that data is correct when com
 package#AIHarms,domain#AccurateProcessing,AccurateProcessing,Inputs to the process are processed such that the resulting outputs are accurate.,TRUE
 package#AIHarms,domain#FairProcessing,FairProcessing,"Inputs to the process are processed such that the resulting outputs are not unduly detrimental, lack equality or equity, or do not have harmful bias or discrimination.",TRUE
 package#AIHarms,domain#Fairness,Fairness,"Equality or equity is represented within the data, with issues such as harmful bias or discrimination not present.",TRUE
+package#AIHarms_Metrics,domain#AverageAbsoluteOddsDifference,AverageAbsoluteOddsDifference,,TRUE
+package#AIHarms_Metrics,domain#AverageOddsDifference,AverageOddsDifference,,TRUE
+package#AIHarms_Metrics,domain#DisparateImpact,DisparateImpact,,TRUE
+package#AIHarms_Metrics,domain#EqualOpportunityDifference,EqualOpportunityDifference,,TRUE
+package#AIHarms_Metrics,domain#EqualizedOdds,EqualizedOdds,,TRUE
+package#AIHarms_Metrics,domain#ErrorRateDifference,ErrorRateDifference,,TRUE
+package#AIHarms_Metrics,domain#ErrorRateRatio,ErrorRateRatio,,TRUE
+package#AIHarms_Metrics,domain#FalseDiscoveryRateDifference,FalseDiscoveryRateDifference,,TRUE
+package#AIHarms_Metrics,domain#FalseDiscoveryRateRatio,FalseDiscoveryRateRatio,,TRUE
+package#AIHarms_Metrics,domain#FalseNegativeRateParity,FalseNegativeRateParity,,TRUE
+package#AIHarms_Metrics,domain#FalseOmissionRateDifference,FalseOmissionRateDifference,,TRUE
+package#AIHarms_Metrics,domain#FalsePositiveRateParity,FalsePositiveRateParity,,TRUE
+package#AIHarms_Metrics,domain#StatisticalParityDifference,StatisticalParityDifference,,TRUE
+package#AIHarms_Metrics,domain#TheilIndex,TheilIndex,,TRUE
 package#AccessContext,domain#ExploitTW,ExploitTW,Free of software vulnerabilities that are accessible to attackers.,FALSE
 package#AccessContext,domain#UserTW,User TW,Trustworthiness of users with access to the shell or having the rights of a process on a host while the host is connected to the system and fulfilling its system role (i.e. in some context).,TRUE
 package#Application,domain#Authenticity,Authenticity,"The data (which may be embedded in an IoT device) is what it claims to be, i.e. it is neither forged nor altered in a way designed to induce false behaviour in other assets consuming the data.",TRUE

@@ -10,6 +10,20 @@ package#AIHarms,domain#LossOfFairProcessing,LossOfFairProcessing,"Inputs to the 
 package#AIHarms,domain#LossOfFairness,LossOfFairness,"Equality or equity is not represented within the data, with issues such as harmful bias or discrimination present.",TRUE,
 package#AIHarms,domain#LossOfOpportunityOrCapabilityFairness,LossOfOpportunityOrCapabilityFairness,"There is a loss of fairness in the real opportunities, freedoms and ability to achieve valued ways of living between different groups.",TRUE,
 package#AIHarms,domain#LossOfProceduralFairness,LossOfProceduralFairness,There is a loss of fairness in the procedures and processes used to reach a decision.,TRUE,
+package#AIHarms_Metrics,domain#LossOfAverageAbsoluteOddsDifference,LossOfAverageAbsoluteOddsDifference,,TRUE,
+package#AIHarms_Metrics,domain#LossOfAverageOddsDifference,LossOfAverageOddsDifference,,TRUE,
+package#AIHarms_Metrics,domain#LossOfDisparateImpact,LossOfDisparateImpact,,TRUE,
+package#AIHarms_Metrics,domain#LossOfEqualOpportunityDifference,LossOfEqualOpportunityDifference,,TRUE,
+package#AIHarms_Metrics,domain#LossOfEqualizedOdds,LossOfEqualizedOdds,,TRUE,
+package#AIHarms_Metrics,domain#LossOfErrorRateDifference,LossOfErrorRateDifference,,TRUE,
+package#AIHarms_Metrics,domain#LossOfErrorRateRatio,LossOfErrorRateRatio,,TRUE,
+package#AIHarms_Metrics,domain#LossOfFalseDiscoveryRateDifference,LossOfFalseDiscoveryRateDifference,,TRUE,
+package#AIHarms_Metrics,domain#LossOfFalseDiscoveryRateRatio,LossOfFalseDiscoveryRateRatio,,TRUE,
+package#AIHarms_Metrics,domain#LossOfFalseNegativeRateParity,LossOfFalseNegativeRateParity,,TRUE,
+package#AIHarms_Metrics,domain#LossOfFalseOmissionRateDifference,LossOfFalseOmissionRateDifference,,TRUE,
+package#AIHarms_Metrics,domain#LossOfFalsePositiveRateParity,LossOfFalsePositiveRateParity,,TRUE,
+package#AIHarms_Metrics,domain#LossOfStatisticalParityDifference,LossOfStatisticalParityDifference,,TRUE,
+package#AIHarms_Metrics,domain#LossOfTheilIndex,LossOfTheilIndex,,TRUE,
 package#AccessContext,domain#LocalLossOfUserTW,LocalLossOfUserTW,"Untrusted, potentially malicious agents gained access to a host, with user rights (possibly associated with a specific process), when the host is in a specific location and/or connected to a specific subnet.",FALSE,L
 package#AccessContext,domain#LossOfExploitTW,LossOfExploitTW,Exposure of software vulnerabilities to exploitation by attackers in some context.,FALSE,V
 package#Application,domain#LossOfAuthenticity,LossOfAuthenticity,Forging or alteration of data (which may be embedded in an IoT device) in a way designed to induce false behaviour in other assets consuming the data.,TRUE,Auth
