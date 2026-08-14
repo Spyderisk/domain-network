@@ -32,6 +32,9 @@ package#CloudManagement,domain#Role_Container,domain#Container
 package#CloudManagement,domain#Role_Ingress,domain#Ingress
 package#CloudManagement,domain#Role_Pod,domain#Pod
 package#Core,domain#Role_DebugMarker,domain#DebugMarker
+package#DS2DataSovereignty,domain#Role_Log,domain#Data
+package#DS2DataSovereignty,domain#Role_Logger,domain#Logger
+package#DS2DataSovereignty,domain#Role_PolicyClause,domain#PolicyClause
 package#DataLifecycle,domain#Role_AccessFrom,domain#DataAccess
 package#DataLifecycle,domain#Role_AccessTo,domain#DataAccess
 package#DataLifecycle,domain#Role_DataAccess,domain#DataAccess

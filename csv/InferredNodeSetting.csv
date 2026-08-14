@@ -32,6 +32,10 @@ package#CloudManagement,domain#CP-MWHLS+CIP,domain#Node-ClusterIP-ClusterIP,doma
 package#CloudManagement,domain#CP-PodDCC-M+M,domain#Node-CloudMaster-Master,domain#INS-PodDCC-M+M-CloudMaster,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#Node-CloudWorker-Worker,domain#INS-PodDCMC-W-H+W-CloudWorker,TRUE,FALSE,domain#Node-DataCentre-DataCentre
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#Node-Container-Container,domain#INS-PodP-Cn+Cn-Container,TRUE,FALSE,domain#Node-Process-Process
+package#DS2DataSovereignty,domain#CP-DregDA+PC,domain#Node-PolicyClause-PolicyClause,domain#INS-DregDA+PC-PolicyClause,TRUE,FALSE,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#CP-DregDF+PC,domain#Node-PolicyClause-PolicyClause,domain#INS-DregDF+PC-PolicyClause,TRUE,FALSE,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#CP-DregDS+PC,domain#Node-PolicyClause-PolicyClause,domain#INS-DregDS+PC-PolicyClause,TRUE,FALSE,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#CP-Logger-D+D,domain#Node-Log-Data,domain#INS-Logger-D+D-Log,TRUE,FALSE,domain#Node-Logger-Logger
 package#DataCaching,domain#CP-H-sDFCFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#DataCaching,domain#CP-H-sDFSACaiFS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFSACaiFS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#DataCaching,domain#CP-H-sDFcCaiAC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFcCaiAC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host

@@ -87,6 +87,10 @@ package#CloudManagement,domain#Worker,domain#HostPalette
 package#CloudManagement,domain#Worker,domain#VCluster
 package#Core,domain#DebugMarker,core#Asset
 package#Core,domain#TypeAsset,core#Asset
+package#DS2DataSovereignty,domain#Logger,domain#ProcessPalette
+package#DS2DataSovereignty,domain#Logger,domain#SimpleProcess
+package#DS2DataSovereignty,domain#Policy,domain#Data
+package#DS2DataSovereignty,domain#PolicyClause,domain#DataField
 package#DataLifecycle,domain#DataAccess,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataAsset,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataCache,domain#DataAsset

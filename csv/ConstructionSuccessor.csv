@@ -70,6 +70,22 @@ package#CloudManagement,domain#CP-PodCnPD+s,domain#CP-Marker+CloudStorage-1,PodC
 package#CloudManagement,domain#CP-PodDCMC-W-H+W,domain#CP-Marker+CloudHostCreation-1,PodDCMC-W-H+W is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
 package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-1,PodMP+iP is at the end of the host classification sequence,FALSE,TRUE
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-Marker+CloudHostCreation-1,PodP-Cn+Cn is at the end of the inferred cloud framework host creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-ACregDcAC+reg,domain#CP-Marker+ProcessRegulation-1,ACregDcAC+reg is at the end of the process regulation inference sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Dmay-noregiDS+regi,domain#CP-Marker+DataUsageRegulation-1,Dmay-noregDS+reg is at the end of the data regulation inference sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Dmay-noregoDS+rego,domain#CP-Marker+DataUsageRegulation-1,Dmay-noregDS+reg is at the end of the data regulation inference sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDA+PC,domain#CP-Marker+DataPolicyClauses-1,DregDA+PC is at the end of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDF+PC,domain#CP-Marker+DataPolicyClauses-1,DregDF+PC is at the end of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDS+PC,domain#CP-Marker+DataPolicyClauses-1,DregDS+PC is at the end of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-HLogD-H+s,domain#CP-Marker+Logging-1,HLogD-H+s is at the end of the log creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-L-nologDX+log,domain#CP-Marker+DataUsageLogging-1,L-nologDX+log is at the end of the data usage auditability inference sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Logger+noDX,domain#CP-Marker+ProcessClassification-1,Logger+noDX is at the end of the process classification sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Marker+DataPolicyClauses-1,domain#CP-Marker+DataFields-0,Data field inference should follow policy clause creation,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Marker+DataPolicyClauses-1,domain#CP-Marker+Phishing-0,Phishing inference should follow policy clause creation,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Marker+DataUsageLogging-1,domain#CP-Marker+Phishing-0,Phishing inference should follow data usage auditability inference,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Marker+Logging-1,domain#CP-Marker+DataStorage-3,Logging inference is a subsequence of data storage relationship inference,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-PLD+isLog,domain#CP-Marker+ProcessClassification-1,PLD+isLog is at the end of the process classification sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-PLD+log,domain#CP-Marker+Logging-1,PLD+log is at the end of the log creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-Policy+isPolicy,domain#CP-Marker+ProcessClassification-1,PLD+isLog is at the end of the process classification sequence,FALSE,TRUE
 package#DataCaching,domain#CP-CCCfS+aFC-aI+aU,domain#CP-Marker+ConnectionContinuity-1,CCCfS+aFC-aI+aU is at the end of the client-service connection continuity sequence,FALSE,TRUE
 package#DataCaching,domain#CP-DCDFcV+c,domain#CP-Marker+DataCache-2,DCDFcV+c is at the end of the data cache security relationship inference sequence,FALSE,TRUE
 package#DataCaching,domain#CP-H-sDFcCr-aAC+DS,domain#CP-Marker+DataCache-1,H-sDFcCr-aAC+DS is at the end of the temporary data cache creation sequence,FALSE,TRUE

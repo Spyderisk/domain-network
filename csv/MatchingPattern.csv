@@ -118,6 +118,52 @@ package#CloudManagement,domain#MP-PodDCMC-W-H,PodDCMC-W-H,"Finds a K8s Pod with 
 package#CloudManagement,domain#MP-PodMP,PodMP,Finds a solo Pod.,domain#R-Pod,FALSE,FALSE
 package#CloudManagement,domain#MP-PodP-Cn,PodP-Cn,Finds a Pod containing a Process but with no intervening Container.,domain#R-PodP,FALSE,FALSE
 package#Core,domain#MP-Marker,Marker,Finds a solo DebugMarker asset.,domain#R-Marker,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-ACregDcAC,ACregDcAC,"Finds a Policy regulating an Auth Channel at its Client, where the Auth Channel controls a second Auth Channel.",domain#R-ACregDcAC,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-CACDregSDADF,CACDregSDADF,"Finds a Data Access associated with a Service fulfilling a Data Flow via an Auth Channel to the Service, where the Auth Channel is regulated at the Service by a Policy.",domain#R-CACDregSDADF,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-CACDregSDFDA,CACDregSDFDA,"Finds a Data Access associated with a Service fulfilled by a Data Flow via an Auth Channel to the Service, where the Auth Channel is regulated at the Service by a Policy.",domain#R-CACDregSDFDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-CACSregD,CACSregD,"Finds a Client and Service with an Auth Channel between them, where the service is regulated by a Policy.",domain#R-CACSregD,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-D-regDAmayDS,D-regDAmayDS,"Finds a Data Access fulfilling a Data Copy that may be regulated by a Policy, where the Policy does not regulate the DataAccess.",domain#R-DDAmayDS,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-D-regDFmayDA,D-regDFmayDA,"Finds a Data Flow fulfilling a Data Access asset that may be regulated by a Policy, where the Policy does not regulate the Data Flow.",domain#R-DDFmayDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DA-logLDS,DA-logLDS,Finds a Logger that may audit a Data Copy fulfilled by a DataAccess for which the Logger does not enable audit.,domain#R-DALDS,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DAPL-s,DAPL-s,"Finds a Process using a Logger, and a DataAccess representing access by the Process to specific Data which is not the log.",domain#R-DAPL,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DSDregDA,DSDregDA,Finds a Data Copy fulfilling a Data Access that is regulated by a Policy.,domain#R-DSDregDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DXLDA,DXLDA,Finds a Logger that enables audit of a Data Access which is fulfilled by a DataAsset.,domain#R-DXLDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-Dmay-noregDA,Dmay-noregDA,"Finds a Data Access that may be regulated by a Policy, which means that there must not be an inferred cannotRegulate link between them.",domain#R-DmayDA,FALSE,TRUE
+package#DS2DataSovereignty,domain#MP-Dmay-noregiDS,Dmay-noregiDS,Finds a Policy that can regulate read access to a Data Copy.,domain#R-DmayDS,FALSE,TRUE
+package#DS2DataSovereignty,domain#MP-Dmay-noregoDS,Dmay-noregoDS,Finds a Policy that can regulate write access to a Data Copy.,domain#R-DmayDS,FALSE,TRUE
+package#DS2DataSovereignty,domain#MP-DmayDA-regDF,DmayDA-regDF,"Finds a data flow fulfilled by a data access asset that may be regulated by a policy, where the Policy does not regulate the Data Flow.",domain#R-DDAmayDF,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DmayDS-regDA,DmayDS-regDA,"Finds a Data Access fulfilled by a Data Copy that may be regulated by a Policy, where the Policy does not regulate the DataAccess.",domain#R-DmayDSDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregACcAC,DregACcAC,"Finds a Policy regulating an Auth Channel at its Service, where the Auth Channel controls a second Auth Channel.",domain#R-DregACcAC,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregACvAC,DregACvAC,"Finds an Auth Channel that regulates a second Auth Channel, where the first Auth Channel is regulated by a Policy at its service.",domain#R-DregACvAC,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregCACS,DregCACS,"Finds a Client and Service with an Auth Channel between them, where the Client is regulated by a Policy.",domain#R-DregCACS,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregCACSDADF,DregCACSDADF,"Finds a Data Access associated with a Client fulfilling a Data Flow via an Auth Channel from the Client, where the Auth Channel is regulated at the Client by a Policy.",domain#R-DregCACSDADF,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregCACSDFDA,DregCACSDFDA,"Finds a Data Access associated with a Client fulfilled by a Data Flow via an Auth Channel from the Client, where the Auth Channel is regulated at the Client by a Policy.",domain#R-DregCACSDFDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregDA,DregDA,Finds a policy regulating a data access asset.,domain#R-DregDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregDADS,DregDADS,Finds a Data Copy fulfilled by a Data Access that is regulated by a Policy.,domain#R-DregDADS,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregDF,DregDF,Finds a policy regulating a data flow.,domain#R-DregDF,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregDS,DregDS,Finds a policy regulating a stored data copy.,domain#R-DregDS,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregPDA,DregPDA,Finds a Data Access associated with a Process regulated by a Policy.,domain#R-DregPDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DregPlogDF,DregPlogDF,"Finds a Policy that regulates a Process that produces logging data, and the associated Data Flow and Data Access.",domain#R-DregPlogDF,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-HLogD-H,HLogD-H,Finds the Host of a Logger that serves some log Data not stored on any other Host.,domain#R-HLogD,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD+P,HSD+P,"Finds a Host storing a copy of some Data, where the Data Copy is regulated by a Policy.",domain#R-HSD+P,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD+P-L,HSD+P-L,"Finds a Host storing a copy of some Data, where access to the Data Copy is regulated by a Policy, but cannot be audited using logs from any Logger.",domain#R-HSD+P,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD-iP,HSD-iP,"Finds a Host storing a Data Copy corresponding to some Data, where read access to the Data Copy occurs but is not regulated by any policy.",domain#R-HSD,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD-oP,HSD-oP,"Finds a Host storing a Data Copy corresponding to some Data, where write access to the Data Copy occurs but is not regulated by any policy.",domain#R-HSD,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-L-nologDX,L-nologDX,"Finds a Logger that can audit a Data Asset, i.e., it may enable audit of the Data Asset, and there is nothing it cannot audit associated with that Data Asset.",domain#R-LDX,FALSE,TRUE
+package#DS2DataSovereignty,domain#MP-LDADX,LDADX,Finds a Logger that enables audit of a Data Access which fulfils a DataAsset.,domain#R-LDADX,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-LDS-logDA,LDS-logDA,Finds a Logger that may audit a Data Copy that fulfils a DataAccess for which the Logger does not enable audit.,domain#R-LDSDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-Logger,Logger,Finds a solo Logger.,domain#R-Logger,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-Logger-D,Logger-D,Finds a solo Logger not serving any logging Data.,domain#R-Logger,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PDA+P,PDA+P,"Finds a Process that accesses Data, where access is regulated by a Policy.",domain#R-PDA+P,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PDA+P-L,PDA+P-L,"Finds a Process that accesses Data, where access is regulated by a Policy, but is not auditable using logs from any Logger.",domain#R-PDA+P,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PDA-P,PDA-P,"Finds a Process accessing Data, where the associated Data Access is not regulated by any policy.",domain#R-PDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PDAlogDFL,PDAlogDFL,"Finds a Process that produces logging data and sends it to a Logger, and the associated Data Flow and Data Access.",domain#R-PDAlogDFL,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PDF+P,PDF+P,"Finds a non-spam Data Flow regulated by a Policy, plus source and destination Processes and flowing Data.",domain#R-PDF+P,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PDF+P-L,PDF+P-L,"Finds a non-spam Data Flow regulated by a Policy, plus source and destination Processes and flowing Data, where the data flow is not auditable using logs from any Logger.",domain#R-PDF+P,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PDF-P,PDF-P,"Finds a non-spam Data Flow, plus source and destination Processes and flowing Data, where the Data Flow is not regulated by any Policy.",domain#R-PDF,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PLD,PLD,Finds a Process using a Logger that serves log Data.,domain#R-PLD,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-Policy,Policy,Finds a solo Policy asset.,domain#R-Policy,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-PregP,PregP,Finds a process regulated by a policy.,domain#R-PregP,FALSE,FALSE
 package#DataCaching,domain#MP-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,domain#R-DCDFcV,FALSE,FALSE
 package#DataCaching,domain#MP-H-sDFSACaiFS,H-sDFSACaiFS,"Finds a Process that receives a data flow not saved on its host from a client over one channel, and sends the same data in a data flow to a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",domain#R-HDFSACaiFS,FALSE,FALSE
 package#DataCaching,domain#MP-H-sDFcCaiAC,H-sDFcCaiAC,"Finds a Process that creates data not stored on its host, which it sends to a service, and has a location access context where it can connect to the service but where access to the service may be interrupted.",domain#R-HDFcCaiAC,FALSE,FALSE

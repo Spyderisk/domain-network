@@ -15,6 +15,7 @@ package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess,domain#CC.
 package#CloudManagement,domain#CSG-AutoSuspendUnauthenticClientAccess-Implementation-Runtime,domain#CC.AX.CACS.6.1
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess,domain#CC.AX.CACS.6.3
 package#CloudManagement,domain#CSG-AutoSuspendUntrustworthyClientAccess-Implementation-Runtime,domain#CC.AX.CACS.6.1
+package#DS2DataSovereignty,domain#CSG-DS2DeleteStaleDataPolicy,domain#DS.A.HSD+P.6
 package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.Auth.HPsACd-pDS-V.1.6
 package#DataLifecycle,domain#CSG-DataAccessKey,domain#DS.C.HPsACr-pDS-V.1.6
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#DF.A.PmDFIDADFI-k.6

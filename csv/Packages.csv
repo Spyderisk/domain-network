@@ -5,6 +5,7 @@ package#AccessContext,AccessRights,TRUE,"Model of access rights, restricted to s
 package#Application,Application,TRUE,Model of application data and processes,50,Application
 package#CloudManagement,CloudManagement,TRUE,Model of cloud hosting and automated management.,100,CloudManagement
 package#Core,Core,TRUE,Generic base asset classes,1,Core
+package#DS2DataSovereignty,Data Sovereignty,TRUE,"Inference rules to determine coverage by usage policies and logging, plus compliance threats on the associated requirements",110,DataSovereignty
 package#DataCaching,DataCaching,TRUE,"Model of data caching, temporarily separated from DataLifecycle due to an as yet unfixed dependence on package#ProcessTrust",90,DataCaching
 package#DataLifecycle,DataLifecycle,TRUE,"Model of data processing, movement and persistence.",70,DataLifecycle
 package#DataStructure,DataStructure,TRUE,Model of elements (fields) within a Data asset,100,DataStructure
@@ -14,7 +15,7 @@ package#Legal,Legal,TRUE,"Model of legally significant assets, relationships and
 package#LocalDeviceConnectivity,LocalDeviceConnectivity,TRUE,Model of local device connectivity (USB and Bluetooth).,70,LocalDeviceConnectivity
 package#Network,Network,TRUE,"Model of hosts connected to networks, plus control processes.",40,Network
 package#NetworkConnectivity,NetworkConnectivity,TRUE,"Model of network connections, paths and routing.",50,NetworkConnectivity
-package#PatientHarms,PatientHarms,TRUE,Model of patient harms.,100,PatientHarms
+package#PatientHarms,PatientHarms,FALSE,Model of patient harms.,100,PatientHarms
 package#Physical,Physical,TRUE,Physical spaces and physical accessibility.,10,Physical
 package#Privacy,Privacy,TRUE,Model of personal data including specific types of personal data.,80,Privacy
 package#ProcessComms,ProcessComms,TRUE,Model of process-process communications.,60,ProcessComms

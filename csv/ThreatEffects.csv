@@ -8,6 +8,7 @@ package#Application,domain#P.J.SHP-iT.7,domain#MS-TrojanInsertion-Process
 package#Application,domain#P.A.HumHP-iT.6.4,domain#MS-LossOfAvailability-Process
 package#Application,domain#P.L.HuHE2AC.3,domain#MS-LocalLossOfUserTW-ProcAccess
 package#Application,domain#P.W.HP-iT.7,domain#MS-MalwareInfection-Process
+package#DS2DataSovereignty,domain#DS.A.HSD+P.6,domain#MS-LossOfAvailability-DataCopy
 package#DataCaching,domain#DF.Auth.HDCDF.0,domain#MS-LossOfAuthenticity-DataFlow
 package#DataCaching,domain#DF.I.HDCDF.0,domain#MS-LossOfIntegrity-DataFlow
 package#DataCaching,domain#DF.W.HDCDF.0,domain#MS-MalwareInfection-DataFlow

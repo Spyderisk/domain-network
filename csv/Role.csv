@@ -29,6 +29,9 @@ package#CloudManagement,domain#Role_Container,Container,A virtual host configure
 package#CloudManagement,domain#Role_Ingress,Ingress,A reverse proxy providing access to services that are deployed and managed automatically in a cloud data centre.
 package#CloudManagement,domain#Role_Pod,Pod,"A cloud deployment context for one or more Containers, modelled as a type of host."
 package#Core,domain#Role_DebugMarker,DebugMarker,Role used for DebugMarker assets when diagnosing construction patterns.
+package#DS2DataSovereignty,domain#Role_Log,Log,"A governance role fulfilled in a system by a Data asset, which records the behaviour of some system elements."
+package#DS2DataSovereignty,domain#Role_Logger,Logger,"A governance role fulfilled in a system by a Logger asset, which creates a Log."
+package#DS2DataSovereignty,domain#Role_PolicyClause,PolicyClause,"A governance role fulfilled in a system by a PolicyClause asset, which regulates the behaviour of a specific data lifecycle asset."
 package#DataLifecycle,domain#Role_AccessFrom,AccessFrom,A data access asset associated with a source process.
 package#DataLifecycle,domain#Role_AccessTo,AccessTo,A data access asset associated with a destination process.
 package#DataLifecycle,domain#Role_DataAccess,DataAccess,A data access role.

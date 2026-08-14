@@ -70,6 +70,14 @@ package#CloudManagement,domain#INS-MWHLS+CIP-ClusterIP,domain#Node-Host-Host
 package#CloudManagement,domain#INS-PodDCC-M+M-CloudMaster,domain#Node-Cluster-Cluster
 package#CloudManagement,domain#INS-PodDCMC-W-H+W-CloudWorker,domain#Node-Cluster-Cluster
 package#CloudManagement,domain#INS-PodP-Cn+Cn-Container,domain#Node-Process-Process
+package#DS2DataSovereignty,domain#INS-DregDA+PC-PolicyClause,domain#Node-Data-Data
+package#DS2DataSovereignty,domain#INS-DregDA+PC-PolicyClause,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#INS-DregDF+PC-PolicyClause,domain#Node-Data-Data
+package#DS2DataSovereignty,domain#INS-DregDF+PC-PolicyClause,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#INS-DregDS+PC-PolicyClause,domain#Node-Data-Data
+package#DS2DataSovereignty,domain#INS-DregDS+PC-PolicyClause,domain#Node-Host-Host
+package#DS2DataSovereignty,domain#INS-DregDS+PC-PolicyClause,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#INS-Logger-D+D-Log,domain#Node-Logger-Logger
 package#DataCaching,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,domain#Node-Data-Data
 package#DataCaching,domain#INS-H-sDFCFdS-ACau+DS-DataCopy,domain#Node-Host-Host
 package#DataCaching,domain#INS-H-sDFSACaiFS+DS-DataCopy,domain#Node-Data-Data

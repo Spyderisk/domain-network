@@ -50,6 +50,17 @@ package#CloudManagement,domain#MP-PodDCC-M,domain#Node-Host-Master,FALSE,TRUE,FA
 package#CloudManagement,domain#MP-PodDCMC-W-H,domain#Node-Host-Worker,FALSE,TRUE,FALSE
 package#CloudManagement,domain#MP-PodDCMC-W-H,domain#Node-SHost-Host,FALSE,TRUE,FALSE
 package#CloudManagement,domain#MP-PodP-Cn,domain#Node-Host-Container,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-HLogD-H,domain#Node-RemoteHost-Host,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD+P-L,domain#Node-Logger-Logger,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD-iP,domain#Node-DataAccess-DataAccess,TRUE,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD-iP,domain#Node-Policy-Policy,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD-oP,domain#Node-DataAccess-DataAccess,TRUE,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-HSD-oP,domain#Node-Policy-Policy,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-Logger-D,domain#Node-Data-Data,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-PDA+P-L,domain#Node-Logger-Logger,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-PDA-P,domain#Node-Policy-Policy,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-PDF+P-L,domain#Node-Logger-Logger,FALSE,TRUE,FALSE
+package#DS2DataSovereignty,domain#MP-PDF-P,domain#Node-Policy-Policy,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-CSDF-VdDA2,domain#Node-Vault-Process,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-D+DS-cP-iHu,domain#Node-DataCopy-DataCopy,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-D+DS-cP-iHu,domain#Node-Human-Human,FALSE,TRUE,FALSE
