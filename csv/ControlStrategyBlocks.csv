@@ -460,6 +460,7 @@ package#ProcessComms,domain#CSG-DisableServiceChannel-Runtime,domain#P.L.CSAPNaS
 package#ProcessComms,domain#CSG-DisableServiceChannel-Runtime,domain#P.L.OSAPNaS.3
 package#ProcessComms,domain#CSG-FilterDosAtInterface,domain#P.O.DDoS.3
 package#ProcessTrust,domain#CSG-AccountLockingAtService,domain#CC.AuC.HumCCC-nS.3
+package#ProcessTrust,domain#CSG-AnonymousAccessOK,domain#CC.R.CACS.1
 package#ProcessTrust,domain#CSG-AntiMalwareAtHost,domain#P.L.HuHW2ACE.3
 package#ProcessTrust,domain#CSG-ClientAddressWhitelisting,domain#CC.AuA.OCAPNaS.1
 package#ProcessTrust,domain#CSG-ClientContinuousAuthentication,domain#CC.R.CACS.1
@@ -583,6 +584,7 @@ package#ProcessTrust,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-
 package#ProcessTrust,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#LS.L.HLSISC.1
 package#ProcessTrust,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#P.L.CCCLnSAC.1
 package#ProcessTrust,domain#CSG-SuspendUntrustworthyClientAccess-Implementation-Runtime,domain#P.L.CCCSAC.3
+package#ProcessTrust,domain#CSG-UniversalAccessOK,domain#CC.R.CACS.3
 package#ProcessTrust,domain#CSG-UserBasicSecurityTraining,domain#CC.AuC.HumCCC-nS.3
 package#ProcessTrust,domain#CSG-UserSecurityTraining,domain#CC.AuC.HuiHCCC-nS.3.3
 package#ProcessTrust,domain#CSG-UserSecurityTraining,domain#CC.AuC.HuiHrCCC-nS.3.3
