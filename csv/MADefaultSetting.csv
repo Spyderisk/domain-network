@@ -1026,10 +1026,13 @@ package#ProcessTrust,domain#MADS-InService-AuthChannel,domain#AuthChannel,domain
 package#ProcessTrust,domain#MADS-InService-ClientChannel,domain#ClientChannel,domain#InService,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfAccessibility-AuthChannel,domain#AuthChannel,domain#LossOfAccessibility,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfAccessibility-ClientChannel,domain#ClientChannel,domain#LossOfAccessibility,domain#ImpactLevelNegligible
+package#ProcessTrust,domain#MADS-LossOfAnonUserTW-AuthChannel,domain#AuthChannel,domain#LossOfAnonUserTW,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfAnonUserTW-ClientChannel,domain#ClientChannel,domain#LossOfAnonUserTW,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfClientTW-AuthChannel,domain#AuthChannel,domain#LossOfClientTW,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfClientTW-ClientChannel,domain#ClientChannel,domain#LossOfClientTW,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfProxyUserTW-ClientChannel,domain#ClientChannel,domain#LossOfProxyUserTW,domain#ImpactLevelNegligible
+package#ProcessTrust,domain#MADS-LossOfSelectivity-AuthChannel,domain#AuthChannel,domain#LossOfSelectivity,domain#ImpactLevelNegligible
+package#ProcessTrust,domain#MADS-LossOfSelectivity-ClientChannel,domain#ClientChannel,domain#LossOfSelectivity,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfServiceTW-AuthChannel,domain#AuthChannel,domain#LossOfServiceTW,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-LossOfServiceTW-ClientChannel,domain#ClientChannel,domain#LossOfServiceTW,domain#ImpactLevelNegligible
 package#ProcessTrust,domain#MADS-ServiceImpersonation-AuthChannel,domain#AuthChannel,domain#ServiceImpersonation,domain#ImpactLevelNegligible

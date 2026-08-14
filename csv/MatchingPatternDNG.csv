@@ -25,8 +25,6 @@ package#DataLifecycle,domain#DNG-HDSPDIfdDA-DP-f-0,domain#MP-HDSPDIfdDA-DP-f,0
 package#DataLifecycle,domain#DNG-HPDADS2dDO-0,domain#MP-HPDADS2dDO,0
 package#DataLifecycle,domain#DNG-HSDADPPDXP-Hu-DP-0,domain#MP-HSDADPPDXP-Hu-DP,0
 package#DataLifecycle,domain#DNG-HSDADPPDXS-Hu-DP-0,domain#MP-HSDADPPDXS-Hu-DP,0
-package#DataLifecycle,domain#DNG-PcPr-uDS-V-0,domain#MP-PcPr-uDS-V,0
-package#DataLifecycle,domain#DNG-PcPuDS-V-0,domain#MP-PcPuDS-V,0
 package#DataLifecycle,domain#DNG-SDADPPDXP-Hu-DP-0,domain#MP-SDADPPDXP-Hu-DP,0
 package#DataLifecycle,domain#DNG-SDADPPDXPRAC-DP-0,domain#MP-SDADPPDXPRAC-DP,0
 package#DataLifecycle,domain#DNG-SDADPPDXRAC-DP-0,domain#MP-SDADPPDXRAC-DP,0
@@ -82,11 +80,11 @@ package#ProcessComms,domain#DNG-CSL1H2-0,domain#MP-CSL1H2,0
 package#ProcessComms,domain#DNG-CSLS2H2-SC-0,domain#MP-CSLS2H2-SC,0
 package#ProcessComms,domain#DNG-CSLS2H2-SC-1,domain#MP-CSLS2H2-SC,1
 package#ProcessComms,domain#DNG-CSLSH2-SC-0,domain#MP-CSLSH2-SC,0
-package#ProcessComms,domain#DNG-CuPiS-i-0,domain#MP-CuPiS-i,0
-package#ProcessComms,domain#DNG-CuPuS-i-0,domain#MP-CuPuS-i,0
 package#ProcessComms,domain#DNG-CuSPvS-U-0,domain#MP-CuSPvS-U,0
 package#ProcessComms,domain#DNG-CuScS-0,domain#MP-CuScS,0
+package#ProcessComms,domain#DNG-CvPvS-U-0,domain#MP-CvPvS-U,0
 package#ProcessComms,domain#DNG-PccCuS-0,domain#MP-PccCuS,0
+package#ProcessComms,domain#DNG-SPzS-0,domain#MP-SPzS,0
 package#ProcessComms,domain#DNG-SPuS-0,domain#MP-SPuS,0
 package#ProcessComms,domain#DNG-SPvSPvS-U-0,domain#MP-SPvSPvS-U,0
 package#ProcessTrust,domain#DNG-CCCSPSFCS-0,domain#MP-CCCSPSFCS,0

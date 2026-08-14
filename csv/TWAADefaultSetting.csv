@@ -832,6 +832,7 @@ package#ProcessComms,domain#TWAADS-ServiceChannelsBlocked-OpenSegment,domain#Ser
 package#ProcessComms,domain#TWAADS-Timeliness-ServiceProxy,domain#Timeliness,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-TrojanTW-ServiceProxy,domain#TrojanTW,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessComms,domain#TWAADS-UserTW-ServiceProxy,domain#UserTW,domain#ServiceProxy,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessTrust,domain#TWAADS-AnonUserTW-AuthChannel,domain#AnonUserTW,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#TWAADS-AnonUserTW-ClientChannel,domain#AnonUserTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#TWAADS-ChannelConfidentiality-AuthChannel,domain#ChannelConfidentiality,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#TWAADS-ChannelConfidentiality-ClientChannel,domain#ChannelConfidentiality,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
@@ -845,6 +846,8 @@ package#ProcessTrust,domain#TWAADS-OutOfService-ClientChannel,domain#OutOfServic
 package#ProcessTrust,domain#TWAADS-ProxyUserTW-ClientChannel,domain#ProxyUserTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#TWAADS-ServiceAuthenticity-AuthChannel,domain#ServiceAuthenticity,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#TWAADS-ServiceAuthenticity-ClientChannel,domain#ServiceAuthenticity,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessTrust,domain#TWAADS-ServiceSelectivity-AuthChannel,domain#ServiceSelectivity,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
+package#ProcessTrust,domain#TWAADS-ServiceSelectivity-ClientChannel,domain#ServiceSelectivity,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#TWAADS-ServiceTW-AuthChannel,domain#ServiceTW,domain#AuthChannel,domain#TrustworthinessLevelSafe,TRUE
 package#ProcessTrust,domain#TWAADS-ServiceTW-ClientChannel,domain#ServiceTW,domain#ClientChannel,domain#TrustworthinessLevelSafe,TRUE
 package#Theft,domain#TWAADS-OwnerControl-ApplicationProcess,domain#OwnerControl,domain#ApplicationProcess,domain#TrustworthinessLevelSafe,TRUE

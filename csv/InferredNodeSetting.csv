@@ -41,7 +41,12 @@ package#DataCaching,domain#CP-H-sDFoSFdC+DS,domain#Node-DataCopy-DataCache,domai
 package#DataCaching,domain#CP-H-sDFrSACdDFiaS+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFrSACdDFiaS+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#DataCaching,domain#CP-H-sDFuCudDFdS-ACau+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFuCudDFdS-ACau+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
 package#DataCaching,domain#CP-H-sDFuSdC+DS,domain#Node-DataCopy-DataCache,domain#INS-H-sDFuSdC+DS-DataCopy,TRUE,FALSE,domain#Node-Host-Host
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#Node-DataExchange-DataExchange,domain#INS-CS-SP+DX-DataExchange,FALSE,TRUE,domain#Link-Client-uses-Service
+package#DataLifecycle,domain#CP-CS-SP+DX,domain#Node-TypeData-TypeSysData,domain#INS-CS-SP+DX-TypeData,FALSE,TRUE,domain#Link-Client-uses-Service
 package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#Node-DataExchange-DataExchange,domain#INS-CS-SP-noDX+DX-DataExchange,FALSE,TRUE,domain#Link-Client-uses-Service
+package#DataLifecycle,domain#CP-CS-SP-noDX+DX,domain#Node-TypeData-TypeAppData,domain#INS-CS-SP-noDX+DX-TypeData,FALSE,TRUE,domain#Link-Client-uses-Service
+package#DataLifecycle,domain#CP-D+isSys+Sys,domain#Node-TypeData-TypeSysData,domain#INS-D+isSys+Sys-TypeData,TRUE,FALSE,domain#Node-Data-Data
+package#DataLifecycle,domain#CP-D-isSys+App,domain#Node-TypeData-TypeAppData,domain#INS-D-isSys+App-TypeData,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-DDDCDP2oDS+DC,domain#Node-NewDataChannel-DataChannel,domain#INS-DDDCDP2oDS+DC-NewDataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
 package#DataLifecycle,domain#CP-DDDCDS2P+DF,domain#Node-DataFlow-DataFlow,domain#INS-DDDCDS2P+DF-DataFlow,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-DDDPS+DC,domain#Node-DataChannel-DataChannel,domain#INS-DDDPS+DC-DataChannel,TRUE,FALSE,domain#Node-DataAccess-DataAccess
@@ -76,8 +81,8 @@ package#DataLifecycle,domain#CP-Hui-vDPH-DS-DP+OP,domain#Node-DataOutput-OutputP
 package#DataLifecycle,domain#CP-Hui-vDSPH+S-DA+DO,domain#Node-DataOutput-DataOutput,domain#INS-Hui-vDSPH+S-DA+DO-DataOutput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-Hui-vDSPH-DP+OP,domain#Node-DataOutput-OutputPool,domain#INS-Hui-vDSPH-DP+OP-DataOutput,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-Hui-vDSPH-S-DA+DO,domain#Node-DataOutput-OutputPool,domain#INS-Hui-vDSPH-S-DA+DO-DataOutput,TRUE,FALSE,domain#Node-Data-Data
-package#DataLifecycle,domain#CP-PDO-DI+DP,domain#Node-NewDataPath-DataPath,domain#INS-PDO-DI+DP-NewDataPath,TRUE,FALSE,domain#Node-Process-Process
-package#DataLifecycle,domain#CP-PDP+DP,domain#Node-NewDataPath-DataPath,domain#INS-PDP+DP-NewDataPath,TRUE,FALSE,domain#Node-Process-Process
+package#DataLifecycle,domain#CP-PDOTD-DI+DP,domain#Node-NewDataPath-DataPath,domain#INS-PDOTD-DI+DP-NewDataPath,TRUE,FALSE,domain#Node-Process-Process
+package#DataLifecycle,domain#CP-PDPTD+DP,domain#Node-NewDataPath-DataPath,domain#INS-PDPTD+DP-NewDataPath,TRUE,FALSE,domain#Node-Process-Process
 package#DataLifecycle,domain#CP-PaDH-DS-Hu-DA+DU,domain#Node-DataUpdate-DataUpdate,domain#INS-PaDH-DS-Hu-DA+DU-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-PaDH-DS-Hu-DP+UP,domain#Node-DataUpdate-UpdatePool,domain#INS-PaDH-DS-Hu-DP+UP-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
 package#DataLifecycle,domain#CP-PaDSH+S-Hu-DA+DU,domain#Node-DataUpdate-DataUpdate,domain#INS-PaDSH+S-Hu-DA+DU-DataUpdate,TRUE,FALSE,domain#Node-Data-Data
@@ -165,9 +170,10 @@ package#ProcessComms,domain#CP-RTuHP-iPL-RAS+LnS,domain#Node-Service-LoginServic
 package#ProcessComms,domain#CP-RTvSPHP-iPL-RAS+LnS,domain#Node-Service-LoginService,domain#INS-RTvSPHP-iPL-RAS+LnS-Service,TRUE,FALSE,domain#Node-Host-Host
 package#ProcessComms,domain#CP-SCCAP+CSAP,domain#Node-ClosedServiceAttackPath-ClosedServiceAttackPath,domain#INS-SCCAP+CSAP-ClosedServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessComms,domain#CP-SOCAP+OSAP,domain#Node-OpenServiceAttackPath-OpenServiceAttackPath,domain#INS-SOCAP+OSAP-OpenServiceAttackPath,TRUE,FALSE,domain#Node-Process-Process
-package#ProcessTrust,domain#CP-CzS-CC+AC,domain#Node-AuthChannel-AuthChannel,domain#INS-CzS-CC+AC-AuthChannel,TRUE,FALSE,domain#Node-Service-Process
+package#ProcessTrust,domain#CP-CzSazV-CC+AC,domain#Node-AuthChannel-AuthChannel,domain#INS-CzSazV-CC+AC-AuthChannel,TRUE,FALSE,domain#Node-Service-Process
+package#ProcessTrust,domain#CP-CzvS-SP+AC,domain#Node-ClientChannel-AuthChannel,domain#INS-CzvS-SP+AC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#ProcessTrust,domain#CP-CaS-SP+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CaS-SP+CC-ClientChannel,TRUE,FALSE,domain#Node-Service-Process
-package#ProcessTrust,domain#CP-CuvS+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
+package#ProcessTrust,domain#CP-CuvS-SP+CC,domain#Node-ClientChannel-ClientChannel,domain#INS-CuvS-SP+CC-ClientChannel,TRUE,FALSE,domain#Node-Process-Process
 package#Theft,domain#CP-CSCPSLS-l-US+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCPSLS-l-US+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#Theft,domain#CP-CSCUSLS-l-W+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCUSLS-l-W+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process
 package#Theft,domain#CP-CSCWLS-l+PNC,domain#Node-ProcAccess-ProcNetContext,domain#INS-CSCWLS-l+PNC-ProcAccess,TRUE,FALSE,domain#Node-Client-Process

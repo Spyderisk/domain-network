@@ -79,9 +79,10 @@ package#ProcessComms,domain#ServiceChannelsAllowed,domain#LogicalSegment
 package#ProcessTrust,domain#ClientImpersonation,domain#AuthChannel
 package#ProcessTrust,domain#DeputyConfusion,domain#ClientChannel
 package#ProcessTrust,domain#LossOfAccessibility,domain#AuthChannel
-package#ProcessTrust,domain#LossOfAnonUserTW,domain#ClientChannel
+package#ProcessTrust,domain#LossOfAnonUserTW,domain#AuthChannel
 package#ProcessTrust,domain#LossOfClientTW,domain#AuthChannel
 package#ProcessTrust,domain#LossOfProxyUserTW,domain#ClientChannel
+package#ProcessTrust,domain#LossOfSelectivity,domain#AuthChannel
 package#ProcessTrust,domain#LossOfServiceTW,domain#AuthChannel
 package#ProcessTrust,domain#ServiceImpersonation,domain#AuthChannel
 package#Theft,domain#Theft,domain#PhysicalHost

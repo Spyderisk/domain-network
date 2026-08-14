@@ -20,6 +20,7 @@ package#Application,domain#Role_MUA,domain#EmailClient
 package#Application,domain#Role_MUA,domain#EmailService
 package#Application,domain#Role_MUA,domain#SMSClient
 package#Application,domain#Role_Output,domain#Data
+package#Application,domain#Role_Policy,domain#Data
 package#Application,domain#Role_RemoteDesktop,domain#RemoteDesktop
 package#Application,domain#Role_TextEditor,domain#TextEditor
 package#Application,domain#Role_WebBrowser,domain#WebBrowser
@@ -51,7 +52,7 @@ package#DataLifecycle,domain#Role_DataProcess,domain#DataProcess
 package#DataLifecycle,domain#Role_DataRelay,domain#DataAccess
 package#DataLifecycle,domain#Role_DataSource,domain#DataAccess
 package#DataLifecycle,domain#Role_DataStep,domain#DataStep
-package#DataLifecycle,domain#Role_DataUpdate,domain#DataUpdate
+package#DataLifecycle,domain#Role_DataUpdate,domain#DataAccess
 package#DataLifecycle,domain#Role_DataUse,domain#DataUse
 package#DataLifecycle,domain#Role_FlowsFrom,domain#Process
 package#DataLifecycle,domain#Role_FlowsOutTo,domain#Process
@@ -69,6 +70,7 @@ package#DataLifecycle,domain#Role_OutputAsset,domain#DataAsset
 package#DataLifecycle,domain#Role_RemoteUserAccess,domain#RemoteUserAccess
 package#DataLifecycle,domain#Role_StepFrom,domain#Process
 package#DataLifecycle,domain#Role_StepTo,domain#Process
+package#DataLifecycle,domain#Role_TypeData,domain#TypeData
 package#DataLifecycle,domain#Role_Vault,domain#Process
 package#DataStructure,domain#Role_DataField,domain#DataField
 package#DataStructure,domain#Role_InputField,domain#DataField
@@ -195,6 +197,7 @@ package#ProcessComms,domain#Role_ServiceAttackPath,domain#ServiceAttackPath
 package#ProcessComms,domain#Role_ServiceChannel,domain#ServiceChannel
 package#ProcessTrust,domain#Role_AuthZChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_AuthChannel,domain#AuthChannel
+package#ProcessTrust,domain#Role_AuthNChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_ClientChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_IndirectChannel,domain#AuthChannel
 package#ProcessTrust,domain#Role_ProxyChannel,domain#AuthChannel
