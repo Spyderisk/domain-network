@@ -26,6 +26,7 @@ package#Application,domain#hasEmail,domain#Human
 package#Application,domain#inputsData,domain#Human
 package#Application,domain#interactsWithData,domain#Human
 package#Application,domain#isSpam,domain#Data
+package#Application,domain#isSystemData,domain#Data
 package#Application,domain#noDU,domain#Process
 package#Application,domain#processes,domain#Process
 package#Application,domain#reads,domain#Process
@@ -66,9 +67,9 @@ package#DataLifecycle,domain#dataPathEnd,domain#Data
 package#DataLifecycle,domain#dataPathFor,domain#DataPath
 package#DataLifecycle,domain#dataPathTo,domain#DataPath
 package#DataLifecycle,domain#dataPathVisits,domain#DataPath
+package#DataLifecycle,domain#dxFor,domain#DataExchange
+package#DataLifecycle,domain#dxFor,domain#DataPath
 package#DataLifecycle,domain#enablesAccess,domain#Process
-package#DataLifecycle,domain#exchangeCS,domain#DataFlow
-package#DataLifecycle,domain#exchangeSC,domain#DataFlow
 package#DataLifecycle,domain#extendsDC,domain#DataChannel
 package#DataLifecycle,domain#extendsDP,domain#DataPath
 package#DataLifecycle,domain#extendsFwdFlow,domain#DataChannel
@@ -96,10 +97,12 @@ package#DataLifecycle,domain#isDest,domain#DataAccess
 package#DataLifecycle,domain#isPool,domain#DataAccess
 package#DataLifecycle,domain#isSource,domain#DataAccess
 package#DataLifecycle,domain#isStateless,domain#Host
+package#DataLifecycle,domain#localExtTried,domain#DataPath
 package#DataLifecycle,domain#noDX,domain#Process
 package#DataLifecycle,domain#possDataDest,domain#DataAccess
 package#DataLifecycle,domain#possRevPath,domain#DataAccess
 package#DataLifecycle,domain#relaysAccess,domain#Process
+package#DataLifecycle,domain#remoteExtTried,domain#DataPath
 package#DataLifecycle,domain#revPath,domain#DataAccess
 package#DataLifecycle,domain#revRelay,domain#DataAccess
 package#DataLifecycle,domain#storesCopy,domain#Host

@@ -72,6 +72,8 @@ package#Network,domain#Logging,domain#Process
 package#Network,domain#LowPriority,domain#Process
 package#Network,domain#MultipleWiFiNIC,domain#PhysicalHost
 package#Network,domain#MultipleWiredNIC,domain#PhysicalHost
+package#Network,domain#NoAccessControlNeeded,domain#Process
+package#Network,domain#NoClientAuthenticationNeeded,domain#Process
 package#Network,domain#OneTimeKey,domain#Human
 package#Network,domain#OneTimeKeyVerifier,domain#Process
 package#Network,domain#OutOfBandKey,domain#Human

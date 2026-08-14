@@ -153,6 +153,7 @@ package#LocalDeviceConnectivity,domain#CSG-SimpleSecurePairing-Local,domain#CS-S
 package#LocalDeviceConnectivity,domain#CSG-SimpleSecurePairing-Remote,domain#CS-SimpleSecurePairing-RemoteHost,FALSE
 package#Network,domain#CSG-AccountLockingAtHost,domain#CS-AuthenticationLimits-Host,FALSE
 package#Network,domain#CSG-AccountLockingAtService,domain#CS-AuthenticationLimits-Service,FALSE
+package#Network,domain#CSG-AnonymousAccessOK,domain#CS-NoClientAuthenticationNeeded-Service,FALSE
 package#Network,domain#CSG-AutomaticScreenLock,domain#CS-ScreenLock-Host,FALSE
 package#Network,domain#CSG-BiometricAccessControlAtHost,domain#CS-AccessControl-Host,FALSE
 package#Network,domain#CSG-BiometricAccessControlAtHost,domain#CS-BiometricIDVerifier-Host,FALSE
@@ -360,6 +361,7 @@ package#Network,domain#CSG-SuspendVulnerableService,domain#CS-SystemSecurityTrai
 package#Network,domain#CSG-SuspendVulnerableService-Implementation-Runtime,domain#CS-DisabledProcess-Service,FALSE
 package#Network,domain#CSG-SuspendVulnerableService-Implementation-Runtime,domain#CS-SuspendVulnerableService-Service,FALSE
 package#Network,domain#CSG-SuspendVulnerableService-Implementation-Runtime,domain#CS-SystemSecurityTraining-HostManager,FALSE
+package#Network,domain#CSG-UniversalAccessOK,domain#CS-NoAccessControlNeeded-Service,FALSE
 package#Network,domain#CSG-UserBasicSecurityTraining,domain#CS-BasicSecurityTraining-Human,FALSE
 package#Network,domain#CSG-UserPasswordAccessToHost,domain#CS-AccessControl-Host,FALSE
 package#Network,domain#CSG-UserPasswordAccessToHost,domain#CS-Password-Human,FALSE

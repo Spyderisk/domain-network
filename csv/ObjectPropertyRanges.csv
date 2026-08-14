@@ -27,6 +27,7 @@ package#Application,domain#hasEmail,domain#Human
 package#Application,domain#inputsData,domain#Data
 package#Application,domain#interactsWithData,domain#Data
 package#Application,domain#isSpam,domain#Data
+package#Application,domain#isSystemData,domain#Data
 package#Application,domain#noDU,domain#Process
 package#Application,domain#processes,domain#Data
 package#Application,domain#reads,domain#Data
@@ -44,6 +45,7 @@ package#Application,domain#viewsData,domain#Data
 package#CloudManagement,domain#contains,domain#Process
 package#CloudManagement,domain#isContainer,domain#Host
 package#CloudManagement,domain#isPod,domain#Pod
+package#Core,domain#hasType,domain#TypeAsset
 package#DataCaching,domain#accessInterrupted,domain#AuthChannel
 package#DataCaching,domain#accessUninterrupted,domain#AuthChannel
 package#DataCaching,domain#caches,domain#DataFlow
@@ -68,9 +70,8 @@ package#DataLifecycle,domain#dataPathEnd,domain#Process
 package#DataLifecycle,domain#dataPathFor,domain#Data
 package#DataLifecycle,domain#dataPathTo,domain#DataAccess
 package#DataLifecycle,domain#dataPathVisits,domain#Process
+package#DataLifecycle,domain#dxFor,domain#TypeData
 package#DataLifecycle,domain#enablesAccess,domain#DataAccess
-package#DataLifecycle,domain#exchangeCS,domain#DataExchange
-package#DataLifecycle,domain#exchangeSC,domain#DataExchange
 package#DataLifecycle,domain#extendsDC,domain#DataChannel
 package#DataLifecycle,domain#extendsDP,domain#DataPath
 package#DataLifecycle,domain#extendsFwdFlow,domain#DataChannel
@@ -97,10 +98,12 @@ package#DataLifecycle,domain#isDest,domain#Data
 package#DataLifecycle,domain#isPool,domain#Data
 package#DataLifecycle,domain#isSource,domain#Data
 package#DataLifecycle,domain#isStateless,domain#Host
+package#DataLifecycle,domain#localExtTried,domain#Data
 package#DataLifecycle,domain#noDX,domain#Process
 package#DataLifecycle,domain#possDataDest,domain#DataAccess
 package#DataLifecycle,domain#possRevPath,domain#DataChannel
 package#DataLifecycle,domain#relaysAccess,domain#DataUse
+package#DataLifecycle,domain#remoteExtTried,domain#Data
 package#DataLifecycle,domain#revPath,domain#DataChannel
 package#DataLifecycle,domain#revRelay,domain#DataAccess
 package#DataLifecycle,domain#storesCopy,domain#DataCache

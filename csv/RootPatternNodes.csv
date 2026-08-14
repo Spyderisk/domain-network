@@ -168,6 +168,7 @@ package#5G,domain#R-URrBrUR,domain#Node-FromSubnet-RAN,TRUE
 package#5G,domain#R-URrBrUR,domain#Node-Gateway-Host,TRUE
 package#5G,domain#R-URrBrUR,domain#Node-ToSubnet-RAN,TRUE
 package#Application,domain#R-D,domain#Node-Data-Data,TRUE
+package#Application,domain#R-D+isSys,domain#Node-Data-Data,TRUE
 package#Application,domain#R-HD,domain#Node-Data-Data,TRUE
 package#Application,domain#R-HD,domain#Node-Host-Host,TRUE
 package#Application,domain#R-HHuWE,domain#Node-Host-Host,TRUE
@@ -657,6 +658,10 @@ package#DataLifecycle,domain#R-DUDRDCDSDCDA,domain#Node-DataRelay-DataAccess,TRU
 package#DataLifecycle,domain#R-DUDRDCDSDCDA,domain#Node-DataSource-DataAccess,TRUE
 package#DataLifecycle,domain#R-DUDRDCDSDCDA,domain#Node-DataUpdate-DataAccess,TRUE
 package#DataLifecycle,domain#R-DUDRDCDSDCDA,domain#Node-OldDataChannel-DataChannel,TRUE
+package#DataLifecycle,domain#R-DconfP,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-DconfP,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-DregP,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-DregP,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-FwdDFf2DP2P,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-FwdDFf2DP2P,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycle,domain#R-FwdDFf2DP2P,domain#Node-DataPath-DataPath,TRUE
@@ -904,6 +909,7 @@ package#DataLifecycle,domain#R-HSDADPDXP,domain#Node-DataExchange-DataExchange,T
 package#DataLifecycle,domain#R-HSDADPDXP,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HSDADPDXP,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-HSDADPDXP,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-HSDADPDXP,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-DB-Process,TRUE
 package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-DataAccess-DataAccess,TRUE
@@ -911,6 +917,7 @@ package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-DataExchange-DataExchange,T
 package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-HSDADPDXS,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-DB-Process,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-DataAccess-DataAccess,TRUE
@@ -919,6 +926,7 @@ package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-Service-Process,TRUE
+package#DataLifecycle,domain#R-HSDADPPDXP,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-DB-Process,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-DataAccess-DataAccess,TRUE
@@ -927,6 +935,7 @@ package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-Host-Host,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-Service-Process,TRUE
+package#DataLifecycle,domain#R-HSDADPPDXS,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-HuWEDF,domain#Node-Data-SpamData,TRUE
 package#DataLifecycle,domain#R-HuWEDF,domain#Node-DataFlow-DataFlow,TRUE
 package#DataLifecycle,domain#R-HuWEDF,domain#Node-Host-Host,TRUE
@@ -1097,9 +1106,17 @@ package#DataLifecycle,domain#R-PDOScDA,domain#Node-DataAsset-DataAsset,TRUE
 package#DataLifecycle,domain#R-PDOScDA,domain#Node-DataOutput-DataOutput,TRUE
 package#DataLifecycle,domain#R-PDOScDA,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-PDOScDA,domain#Node-Vault-Process,TRUE
+package#DataLifecycle,domain#R-PDOTD,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-PDOTD,domain#Node-DataOutput-DataOutput,TRUE
+package#DataLifecycle,domain#R-PDOTD,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-PDOTD,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-DataPool-DataPool,TRUE
 package#DataLifecycle,domain#R-PDP,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-PDPTD,domain#Node-Data-Data,TRUE
+package#DataLifecycle,domain#R-PDPTD,domain#Node-DataPool-DataPool,TRUE
+package#DataLifecycle,domain#R-PDPTD,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-PDPTD,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-PDR,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-PDR,domain#Node-DataRelay-DataRelay,TRUE
 package#DataLifecycle,domain#R-PDR,domain#Node-Process-Process,TRUE
@@ -1196,6 +1213,7 @@ package#DataLifecycle,domain#R-SDADPDXP,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-SDADPDXP,domain#Node-DataExchange-DataExchange,TRUE
 package#DataLifecycle,domain#R-SDADPDXP,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-SDADPDXP,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-SDADPDXP,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-SDADPDXPRAC,domain#Node-DB-Process,TRUE
 package#DataLifecycle,domain#R-SDADPDXPRAC,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-SDADPDXPRAC,domain#Node-DataAccess-DataAccess,TRUE
@@ -1215,6 +1233,7 @@ package#DataLifecycle,domain#R-SDADPDXS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-SDADPDXS,domain#Node-DataExchange-DataExchange,TRUE
 package#DataLifecycle,domain#R-SDADPDXS,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-SDADPDXS,domain#Node-Process-Process,TRUE
+package#DataLifecycle,domain#R-SDADPDXS,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-DB-Process,TRUE
 package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-DataAccess-DataAccess,TRUE
@@ -1222,6 +1241,7 @@ package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-DataExchange-DataExchange,T
 package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-Service-Process,TRUE
+package#DataLifecycle,domain#R-SDADPPDXP,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-SDADPPDXPRAC,domain#Node-DB-Process,TRUE
 package#DataLifecycle,domain#R-SDADPPDXPRAC,domain#Node-Data-Data,TRUE
 package#DataLifecycle,domain#R-SDADPPDXPRAC,domain#Node-DataAccess-DataAccess,TRUE
@@ -1244,6 +1264,7 @@ package#DataLifecycle,domain#R-SDADPPDXS,domain#Node-DataExchange-DataExchange,T
 package#DataLifecycle,domain#R-SDADPPDXS,domain#Node-OldDataPath-DataPath,TRUE
 package#DataLifecycle,domain#R-SDADPPDXS,domain#Node-Process-Process,TRUE
 package#DataLifecycle,domain#R-SDADPPDXS,domain#Node-Service-Process,TRUE
+package#DataLifecycle,domain#R-SDADPPDXS,domain#Node-TypeData-TypeData,TRUE
 package#DataLifecycle,domain#R-SDUDADS,domain#Node-DataAccess-DataAccess,TRUE
 package#DataLifecycle,domain#R-SDUDADS,domain#Node-DataCopy-DataCopy,TRUE
 package#DataLifecycle,domain#R-SDUDADS,domain#Node-DataUse-DataUse,TRUE
@@ -1494,16 +1515,16 @@ package#LocalDeviceConnectivity,domain#R-HpBRH,domain#Node-Space-Space,TRUE
 package#LocalDeviceConnectivity,domain#R-HpURH,domain#Node-LocalHost-PhysicalHost,TRUE
 package#LocalDeviceConnectivity,domain#R-HpURH,domain#Node-RemoteHost-PhysicalHost,TRUE
 package#LocalDeviceConnectivity,domain#R-HpURH,domain#Node-Space-Space,TRUE
-package#LocalDeviceConnectivity,domain#R-HuiHBTTH,domain#Node-Host-Host,TRUE
+package#LocalDeviceConnectivity,domain#R-HuiHBTTH,domain#Node-Host-PhysicalHost,TRUE
 package#LocalDeviceConnectivity,domain#R-HuiHBTTH,domain#Node-Human-Human,TRUE
 package#LocalDeviceConnectivity,domain#R-HuiHBTTH,domain#Node-TrivialHost-TrivialHost,TRUE
-package#LocalDeviceConnectivity,domain#R-HuiHUSBTH,domain#Node-Host-Host,TRUE
+package#LocalDeviceConnectivity,domain#R-HuiHUSBTH,domain#Node-Host-PhysicalHost,TRUE
 package#LocalDeviceConnectivity,domain#R-HuiHUSBTH,domain#Node-Human-Human,TRUE
 package#LocalDeviceConnectivity,domain#R-HuiHUSBTH,domain#Node-TrivialHost-TrivialHost,TRUE
-package#LocalDeviceConnectivity,domain#R-HumHBTTH,domain#Node-Host-Host,TRUE
+package#LocalDeviceConnectivity,domain#R-HumHBTTH,domain#Node-Host-PhysicalHost,TRUE
 package#LocalDeviceConnectivity,domain#R-HumHBTTH,domain#Node-Human-Human,TRUE
 package#LocalDeviceConnectivity,domain#R-HumHBTTH,domain#Node-TrivialHost-TrivialHost,TRUE
-package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Node-Host-Host,TRUE
+package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Node-Host-PhysicalHost,TRUE
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Node-Human-Human,TRUE
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,domain#Node-TrivialHost-TrivialHost,TRUE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,domain#Node-FromHost-Host,TRUE
@@ -2280,10 +2301,10 @@ package#Privacy,domain#R-HuDoPS,domain#Node-DataSubject-Human,TRUE
 package#Privacy,domain#R-HuDoPS,domain#Node-Operator-Stakeholder,TRUE
 package#Privacy,domain#R-HuDoPS,domain#Node-SHost-Host,TRUE
 package#Privacy,domain#R-HuDoPS,domain#Node-Service-Process,TRUE
-package#Privacy,domain#R-HurH,domain#Node-Host-Host,TRUE
+package#Privacy,domain#R-HurH,domain#Node-Host-PhysicalHost,TRUE
 package#Privacy,domain#R-HurH,domain#Node-Human-Human,TRUE
 package#Privacy,domain#R-HuwStrH,domain#Node-Employer-Stakeholder,TRUE
-package#Privacy,domain#R-HuwStrH,domain#Node-Host-Host,TRUE
+package#Privacy,domain#R-HuwStrH,domain#Node-Host-PhysicalHost,TRUE
 package#Privacy,domain#R-HuwStrH,domain#Node-Human-Human,TRUE
 package#ProcessComms,domain#R-APxSCtI,domain#Node-AttackerSubnet-LogicalSubnet,TRUE
 package#ProcessComms,domain#R-APxSCtI,domain#Node-Gateway-Host,TRUE

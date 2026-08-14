@@ -57,6 +57,9 @@ package#Application,domain#SpamData,domain#Data
 package#Application,domain#TextEditor,domain#ConsoleProcess
 package#Application,domain#TextEditor,domain#Editor
 package#Application,domain#TextEditor,domain#ProcessPalette
+package#Application,domain#TypeAppData,domain#TypeData
+package#Application,domain#TypeData,domain#TypeAsset
+package#Application,domain#TypeSysData,domain#TypeData
 package#Application,domain#WebApp,domain#InteractiveProcess
 package#Application,domain#WebApp,domain#WebClient
 package#Application,domain#WebBrowser,domain#InteractiveProcess
@@ -83,6 +86,7 @@ package#CloudManagement,domain#Pod,domain#VirtualHost
 package#CloudManagement,domain#Worker,domain#HostPalette
 package#CloudManagement,domain#Worker,domain#VCluster
 package#Core,domain#DebugMarker,core#Asset
+package#Core,domain#TypeAsset,core#Asset
 package#DataLifecycle,domain#DataAccess,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataAsset,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataCache,domain#DataAsset
