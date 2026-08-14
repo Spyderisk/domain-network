@@ -82,6 +82,10 @@ package#Application,domain#CP-Marker+DataHandling-1,11,domain#S-DataHandling,FAL
 package#Application,domain#CP-Marker+DataHandling-2,11,domain#S-DataHandling,FALSE
 package#Application,domain#CP-Marker+DataStorage-0,4,domain#S-StorageInference,FALSE
 package#Application,domain#CP-Marker+DataStorage-1,4,domain#S-StorageInference,FALSE
+package#Application,domain#CP-Marker+DataStorage-2,0,domain#S-StorageInference,FALSE
+package#Application,domain#CP-Marker+DataStorage-3,0,domain#S-StorageInference,FALSE
+package#Application,domain#CP-Marker+DataStorage-4,0,domain#S-StorageInference,FALSE
+package#Application,domain#CP-Marker+DataStorage-5,0,domain#S-StorageInference,FALSE
 package#Application,domain#CP-Marker+UserDataDeprecated-0,0,domain#S-DataHandling,FALSE
 package#Application,domain#CP-Marker+UserDataDeprecated-1,0,domain#S-DataHandling,FALSE
 package#Application,domain#CP-Marker+UserDataInteraction-0,0,domain#S-DataHandling,FALSE
@@ -149,7 +153,10 @@ package#DataCaching,domain#CP-Marker+DataCache-1,50,domain#S-DataFlowCaching,FAL
 package#DataCaching,domain#CP-Marker+DataCache-2,50,domain#S-DataFlowCaching,FALSE
 package#DataLifecycle,domain#CP-AC+noDX,7,domain#S-ProcessClassification,FALSE
 package#DataLifecycle,domain#CP-AS+noDX,7,domain#S-ProcessClassification,FALSE
+package#DataLifecycle,domain#CP-CS-SP+DX,0,domain#S-DataPaths,FALSE
 package#DataLifecycle,domain#CP-CS-SP-noDX+DX,41,domain#S-DataPaths,FALSE
+package#DataLifecycle,domain#CP-D+isSys+Sys,0,domain#S-DataPaths,FALSE
+package#DataLifecycle,domain#CP-D-isSys+App,0,domain#S-DataPaths,FALSE
 package#DataLifecycle,domain#CP-DADS+W,44,domain#S-DataAccessRights,FALSE
 package#DataLifecycle,domain#CP-DADS+ds,42,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-DADSDCSDD-f+ch,42,domain#S-DataChannels,FALSE
@@ -182,6 +189,8 @@ package#DataLifecycle,domain#CP-DUDADCDS-DP+fs,0,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-DUDCDS-DP+fs,0,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-DUDRDCDP-rev+rev,0,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-DUDRDCDSDCDA-rev+rev,0,domain#S-DataChannels,FALSE
+package#DataLifecycle,domain#CP-DconfP+isSys,0,domain#S-ProcessClassification,FALSE
+package#DataLifecycle,domain#CP-DregP+isSys,0,domain#S-ProcessClassification,FALSE
 package#DataLifecycle,domain#CP-FwdDFf2DP2P+DS,43,domain#S-DataFlows,FALSE
 package#DataLifecycle,domain#CP-FwdDFfDP2P+DS,43,domain#S-DataFlows,FALSE
 package#DataLifecycle,domain#CP-FwdDFtDP2P+DS,43,domain#S-DataFlows,FALSE
@@ -232,6 +241,8 @@ package#DataLifecycle,domain#CP-Marker+DataCopy-0,26,domain#S-PersistentData,FAL
 package#DataLifecycle,domain#CP-Marker+DataCopy-1,26,domain#S-PersistentData,FALSE
 package#DataLifecycle,domain#CP-Marker+DataCopy-2,44,domain#S-PersistentDataAccess,FALSE
 package#DataLifecycle,domain#CP-Marker+DataCopy-3,44,domain#S-PersistentDataAccess,FALSE
+package#DataLifecycle,domain#CP-Marker+DataExchange-0,0,domain#S-DataPaths,FALSE
+package#DataLifecycle,domain#CP-Marker+DataExchange-1,0,domain#S-DataPaths,FALSE
 package#DataLifecycle,domain#CP-Marker+DataFlow-0,43,domain#S-DataFlows,FALSE
 package#DataLifecycle,domain#CP-Marker+DataFlow-1,43,domain#S-DataFlows,FALSE
 package#DataLifecycle,domain#CP-Marker+DataKeyProtection-0,0,domain#S-DataKeyProtection,FALSE
@@ -258,10 +269,10 @@ package#DataLifecycle,domain#CP-PDI+d,42,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-PDI-Hu+d,42,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-PDO+fS,42,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-PDO+s,42,domain#S-DataChannels,FALSE
-package#DataLifecycle,domain#CP-PDO-DI+DP,41,domain#S-DataPaths,FALSE
 package#DataLifecycle,domain#CP-PDOScDA+k,0,domain#S-DataKeyRequirements,FALSE
-package#DataLifecycle,domain#CP-PDP+DP,41,domain#S-DataPaths,FALSE
+package#DataLifecycle,domain#CP-PDOTD-DI+DP,0,domain#S-DataPaths,FALSE
 package#DataLifecycle,domain#CP-PDP+ds,42,domain#S-DataChannels,FALSE
+package#DataLifecycle,domain#CP-PDPTD+DP,0,domain#S-DataPaths,FALSE
 package#DataLifecycle,domain#CP-PDR+ds,42,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-PIP-S+fS,42,domain#S-DataChannels,FALSE
 package#DataLifecycle,domain#CP-PSDP+ds,42,domain#S-DataChannels,FALSE
@@ -452,6 +463,8 @@ package#Network,domain#CP-Marker+LocalNetworkCreation-0,18,domain#S-LocalizedNet
 package#Network,domain#CP-Marker+LocalNetworkCreation-1,18,domain#S-LocalizedNetworks,FALSE
 package#Network,domain#CP-Marker+LocalNetworkCreation-2,18,domain#S-LocalizedNetworks,FALSE
 package#Network,domain#CP-Marker+LocalNetworkCreation-3,0,domain#S-LocalizedNetworks,FALSE
+package#Network,domain#CP-Marker+ManagedHostOperation-0,0,domain#S-HostOperation,FALSE
+package#Network,domain#CP-Marker+ManagedHostOperation-1,0,domain#S-HostOperation,FALSE
 package#Network,domain#CP-Marker+MobileHostLocation-0,17,domain#S-HostLocation,FALSE
 package#Network,domain#CP-Marker+MobileHostLocation-1,17,domain#S-HostLocation,FALSE
 package#Network,domain#CP-Marker+NetworkAccessibility-0,24,domain#S-NetworkAccessibility,FALSE
@@ -468,8 +481,6 @@ package#Network,domain#CP-Marker+PhysicalHostInference-4,18,domain#S-LocalizedNe
 package#Network,domain#CP-Marker+PhysicalHostInference-5,18,domain#S-LocalizedNetworks,FALSE
 package#Network,domain#CP-Marker+PhysicalHostManagement-0,19,domain#S-HostManagement,FALSE
 package#Network,domain#CP-Marker+PhysicalHostManagement-1,19,domain#S-HostManagement,FALSE
-package#Network,domain#CP-Marker+PhysicalHostOperation-0,20,domain#S-HostOperation,FALSE
-package#Network,domain#CP-Marker+PhysicalHostOperation-1,20,domain#S-HostOperation,FALSE
 package#Network,domain#CP-Marker+ProcessClassification-0,7,domain#S-ProcessClassification,FALSE
 package#Network,domain#CP-Marker+ProcessClassification-1,7,domain#S-ProcessClassification,FALSE
 package#Network,domain#CP-Marker+ProcessContext-0,30,domain#S-ProcessContext,FALSE
@@ -493,6 +504,8 @@ package#Network,domain#CP-Marker+SystemProcess-0,22,domain#S-SystemProcessCreati
 package#Network,domain#CP-Marker+SystemProcess-1,22,domain#S-SystemProcessCreation,FALSE
 package#Network,domain#CP-Marker+SystemService-0,22,domain#S-SystemProcessCreation,FALSE
 package#Network,domain#CP-Marker+SystemService-1,22,domain#S-SystemProcessCreation,FALSE
+package#Network,domain#CP-Marker+UnmanagedHostOperation-0,0,domain#S-HostOperation,FALSE
+package#Network,domain#CP-Marker+UnmanagedHostOperation-1,0,domain#S-HostOperation,FALSE
 package#Network,domain#CP-Marker+UserHostInteraction-0,12,domain#S-HostInteractivity,FALSE
 package#Network,domain#CP-Marker+UserHostInteraction-1,12,domain#S-HostInteractivity,FALSE
 package#Network,domain#CP-Marker+WiFiHotspotCreation-0,18,domain#S-LocalizedNetworks,FALSE

@@ -88,6 +88,8 @@ package#DataCaching,domain#INS-H-sDFuCudDFdS-ACau+DS-DataCopy,domain#Node-Data-D
 package#DataCaching,domain#INS-H-sDFuCudDFdS-ACau+DS-DataCopy,domain#Node-Host-Host
 package#DataCaching,domain#INS-H-sDFuSdC+DS-DataCopy,domain#Node-Data-Data
 package#DataCaching,domain#INS-H-sDFuSdC+DS-DataCopy,domain#Node-Host-Host
+package#DataLifecycle,domain#INS-CS-SP+DX-DataExchange,domain#Node-Client-Process
+package#DataLifecycle,domain#INS-CS-SP+DX-DataExchange,domain#Node-Service-Process
 package#DataLifecycle,domain#INS-CS-SP-noDX+DX-DataExchange,domain#Node-Client-Process
 package#DataLifecycle,domain#INS-CS-SP-noDX+DX-DataExchange,domain#Node-Service-Process
 package#DataLifecycle,domain#INS-DDDCDP2oDS+DC-NewDataChannel,domain#Node-OldDataChannel-DataChannel
@@ -161,8 +163,10 @@ package#DataLifecycle,domain#INS-Hui-vDSPH-DP+OP-DataOutput,domain#Node-Data-Dat
 package#DataLifecycle,domain#INS-Hui-vDSPH-DP+OP-DataOutput,domain#Node-Process-Process
 package#DataLifecycle,domain#INS-Hui-vDSPH-S-DA+DO-DataOutput,domain#Node-Data-Data
 package#DataLifecycle,domain#INS-Hui-vDSPH-S-DA+DO-DataOutput,domain#Node-Process-Process
-package#DataLifecycle,domain#INS-PDO-DI+DP-NewDataPath,domain#Node-Process-Process
-package#DataLifecycle,domain#INS-PDP+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycle,domain#INS-PDOTD-DI+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycle,domain#INS-PDOTD-DI+DP-NewDataPath,domain#Node-TypeData-TypeData
+package#DataLifecycle,domain#INS-PDPTD+DP-NewDataPath,domain#Node-Process-Process
+package#DataLifecycle,domain#INS-PDPTD+DP-NewDataPath,domain#Node-TypeData-TypeData
 package#DataLifecycle,domain#INS-PaDH-DS-Hu-DA+DU-DataUpdate,domain#Node-Data-Data
 package#DataLifecycle,domain#INS-PaDH-DS-Hu-DA+DU-DataUpdate,domain#Node-Process-Process
 package#DataLifecycle,domain#INS-PaDH-DS-Hu-DP+UP-DataUpdate,domain#Node-Data-Data

@@ -32,7 +32,7 @@ package#Network,domain#S-LocalizedNetworks,Inferred localized network creation
 package#Network,domain#S-NetworkAccessibility,Network accessibility inference
 package#Network,domain#S-NetworkConnections,Network connection inference
 package#Network,domain#S-NonLocalNetworks,Inferred non-local network creation
-package#Network,domain#S-ProcessClassification,Process classification
+package#Network,domain#S-ProcessClassification,Process and data classification
 package#Network,domain#S-ProcessContext,Process context creation
 package#Network,domain#S-ProcessCreation,Inferred application process creation
 package#Network,domain#S-ProcessManagement,Process management inference

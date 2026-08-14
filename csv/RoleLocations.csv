@@ -70,6 +70,7 @@ package#DataLifecycle,domain#Role_OutputAsset,domain#DataAsset
 package#DataLifecycle,domain#Role_RemoteUserAccess,domain#RemoteUserAccess
 package#DataLifecycle,domain#Role_StepFrom,domain#Process
 package#DataLifecycle,domain#Role_StepTo,domain#Process
+package#DataLifecycle,domain#Role_TypeData,domain#TypeData
 package#DataLifecycle,domain#Role_Vault,domain#Process
 package#DataStructure,domain#Role_DataField,domain#DataField
 package#DataStructure,domain#Role_InputField,domain#DataField

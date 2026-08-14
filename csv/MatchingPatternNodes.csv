@@ -251,7 +251,7 @@ package#DataLifecycle,domain#MP-PDI+DS-S,domain#Node-Service-Process,FALSE,TRUE,
 package#DataLifecycle,domain#MP-PDI-Hu,domain#Node-Human-Human,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PDO+DS-S,domain#Node-DataCopy-DataCopy,TRUE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PDO+DS-S,domain#Node-Service-Process,FALSE,TRUE,FALSE
-package#DataLifecycle,domain#MP-PDO-DI,domain#Node-DataInput-DataInput,FALSE,TRUE,FALSE
+package#DataLifecycle,domain#MP-PDOTD-DI,domain#Node-DataInput-DataInput,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PHHDS,domain#Node-Human-Human,FALSE,FALSE,FALSE
 package#DataLifecycle,domain#MP-PIP-S,domain#Node-DataOutput-DataOutput,FALSE,TRUE,FALSE
 package#DataLifecycle,domain#MP-PIP-S,domain#Node-RemoteUserAccess-RemoteUserAccess,FALSE,TRUE,FALSE

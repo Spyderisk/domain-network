@@ -44,6 +44,7 @@ package#5G,domain#R-UCcBrUR,UCcBrUR,"Finds a host acting as a base station provi
 package#5G,domain#R-URrBcL3,URrBcL3,"Finds a host acting as a base station providing a RAN in a public cellular network, and connected to an L2 or L3 Subnet accessible in the same Space.",FALSE,FALSE
 package#5G,domain#R-URrBrUR,URrBrUR,"Finds a host acting as a base station providing two RANs, both of which are part of the same public cellular network.",FALSE,FALSE
 package#Application,domain#R-D,D,Finds a solo Data asset.,FALSE,FALSE
+package#Application,domain#R-D+isSys,D+isSys,Finds a solo Data asset that is system data.,FALSE,FALSE
 package#Application,domain#R-HD,HD,Finds Data stored at a Host.,FALSE,FALSE
 package#Application,domain#R-HHuWE,HHuWE,Finds a Human using both an email client and a web browser on the same host.,FALSE,FALSE
 package#Application,domain#R-HHuWSMS,HHuWSMS,Finds a Human using both an SMS client and a web browser on the same host.,FALSE,FALSE
@@ -161,6 +162,8 @@ package#DataLifecycle,domain#R-DUDADCDS,DUDADCDS,Finds a data update asset that 
 package#DataLifecycle,domain#R-DUDCDS,DUDCDS,Finds a data update asset that sends data along a data channel to a data destination,FALSE,TRUE
 package#DataLifecycle,domain#R-DUDRDCDP,DUDRDCDP,Finds a data update asset that sends data via a data relay along a data channel to a data pool.,TRUE,FALSE
 package#DataLifecycle,domain#R-DUDRDCDSDCDA,DUDRDCDSDCDA,Finds a data update asset that sends data via a data relay along a data channel to a data source that gets data from a data pool.,TRUE,FALSE
+package#DataLifecycle,domain#R-DconfP,DconfP,Finds a process configured by data.,FALSE,FALSE
+package#DataLifecycle,domain#R-DregP,DregP,Finds a process regulated by data.,FALSE,FALSE
 package#DataLifecycle,domain#R-FwdDFf2DP2P,FwdDFf2DP2P,"Finds an outbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
 package#DataLifecycle,domain#R-FwdDFfDP2P,FwdDFfDP2P,Finds an outbound (forward) data flow from a process on a data path leading to that process.,FALSE,FALSE
 package#DataLifecycle,domain#R-FwdDFtDP2P,FwdDFtDP2P,Finds an outbound (forward) data flow to a process on a data path leading to that process.,FALSE,FALSE
@@ -204,10 +207,10 @@ package#DataLifecycle,domain#R-HPrpDS,HPrpDS,"Finds a host running a Process wit
 package#DataLifecycle,domain#R-HPsDPDFDS,HPsDPDFDS,"Finds a Host that stores a copy of Data served by and sent to a Process on the same Host, with an associated output Data Flow and Data Pool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPsDPDSDF,HPsDPDSDF,"Finds a Host that stores a copy of Data served by and sent from a Process on the same Host, with an associated input Data Flow and Data Pool.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPuDSDI,HPuDSDI,"Finds a stored data input needed by a process, plus the process and data host.",FALSE,FALSE
-package#DataLifecycle,domain#R-HSDADPDXP,HSDADPDXP,"Finds a service with a data access at the end of a data path process that exchanges data with a second process, where both processes have the same Host.",FALSE,FALSE
-package#DataLifecycle,domain#R-HSDADPDXS,HSDADPDXS,"Finds a process at the end of a data path process that sends data as a client to a second process acting as a service, where both processes have the same Host.",FALSE,FALSE
-package#DataLifecycle,domain#R-HSDADPPDXP,HSDADPPDXP,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, where all three processes have the same Host.",FALSE,FALSE
-package#DataLifecycle,domain#R-HSDADPPDXS,HSDADPPDXS,"Finds a service with a data access to which there is a data path from a process that sends data as a client to a third process, where all three processes have the same Host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HSDADPDXP,HSDADPDXP,"Finds a process with a data access at the end of a data path, which exchanges data of the same type with a second process, both processes having the same host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HSDADPDXS,HSDADPDXS,"Finds a process with a data access at the end of a data path which initiates an exchange of data of the same type with a second process, both processes having the same host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HSDADPPDXP,HSDADPPDXP,"Finds a process with a data access at the end of a data path going from a process exchanging data of the same type with a third process, all three processes having the same host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HSDADPPDXS,HSDADPPDXS,"Finds a process with a data access at the end of a data path going from a process initiating an exchange of data of the same type with a third process, all three processes having the same host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HuWEDF,HuWEDF,"Finds a Human using a web browser and an email client on the same host, accessing URLs from emails via the browser.",FALSE,FALSE
 package#DataLifecycle,domain#R-HuWESDF,HuWESDF,"Finds a Human using a web browser to access email, including URLs contained in emails.",FALSE,FALSE
 package#DataLifecycle,domain#R-HuWSMSDF,HuWSMSDF,"Finds a Human using a web browser and an SMS client on the same host, accessing URLs from SMS messages via the browser.",FALSE,FALSE
@@ -229,7 +232,7 @@ package#DataLifecycle,domain#R-PDADAV,PDADAV,Finds a Process creating a data ass
 package#DataLifecycle,domain#R-PDADFI,PDADFI,"Finds a Process that sends a Data Flow to a destination process in the direction of a data consumer, plus the associated Data and Data Access assets. The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDADFO,PDADFO,"Finds a Process that sends a Data Flow to a destination process in the direction of a data store or source, plus the associated Data and Data Access assets. The source of the flow is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDAkDAV,PDAkDAV,Finds a Process that needs keys to access a data asset controlled by a vault.,FALSE,FALSE
-package#DataLifecycle,domain#R-PDF,PDF,"Finds a Data Flow, plus the data flow source and destination processes.",FALSE,FALSE
+package#DataLifecycle,domain#R-PDF,PDF,"Finds a non-spam Data Flow, plus source and destination Processes and flowing Data.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDFDI,PDFDI,"Finds a data flow to a process that uses the data as input.  The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDFFA,PDFFA,"Finds a Data Flow, its source and destination processes, and a related data access element at the source.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDFIDADFI,PDFIDADFI,"Finds a Process that receives a flow of Data from the direction of a data store, and forwards it towards a data consumer. The Process is matched twice, so it can be referred to by either role name.",FALSE,FALSE
@@ -238,7 +241,9 @@ package#DataLifecycle,domain#R-PDFV,PDFV,"Finds a Data Flow protected by keys fr
 package#DataLifecycle,domain#R-PDI,PDI,"Finds a Process that uses Data as input, or displays it to an interactive user.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDO,PDO,"Finds a Process that creates Data as output, or gets it from an interactive user.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDOScDA,PDOScDA,Finds output from a process that fulfils a data asset controlled by a vault.,FALSE,FALSE
-package#DataLifecycle,domain#R-PDP,PDP,Finds a Process that implicitly or explicitly serves Data.,FALSE,FALSE
+package#DataLifecycle,domain#R-PDOTD,PDOTD,"Finds a Process that creates Data as output, or gets it from an interactive user, and a TypeData asset signifying whether it is system or non-system Data.",FALSE,FALSE
+package#DataLifecycle,domain#R-PDP,PDP,"Finds a Process that implicitly or explicitly serves Data, and the associated Data Pool.",FALSE,FALSE
+package#DataLifecycle,domain#R-PDPTD,PDPTD,"Finds a Process that implicitly or explicitly serves Data, the associated Data Pool, and a TypeData asset signifying whether it is system or non-system Data.",FALSE,FALSE
 package#DataLifecycle,domain#R-PDR,PDR,Finds a Process acting as a Data Relay.,FALSE,FALSE
 package#DataLifecycle,domain#R-PHHDS,PHHDS,"Finds a Physical Host located in a Space, plus data stored on the host or on a virtual host running there.",FALSE,FALSE
 package#DataLifecycle,domain#R-PIP,PIP,Finds a Process that uses Data as input with no other source than a locally stored copy (so access to the data is represented by an Input Pool rather than a Data Input).,FALSE,FALSE
@@ -259,14 +264,14 @@ package#DataLifecycle,domain#R-RUODI,RUODI,Finds a Process that enables remote u
 package#DataLifecycle,domain#R-RevDFf2DP2P,RevDFf2DP2P,"Finds an inbound Data Flow from one (longer) data path to a second (shorter) data path, and a data path which is a subset of the first, and of which the second is a subset, plus the two adjacent processes at the end of that in between data path.",FALSE,FALSE
 package#DataLifecycle,domain#R-RevDFfDP2P,RevDFfDP2P,Finds an inbound (reverse) data flow to a process on a data path leading to that process.,FALSE,FALSE
 package#DataLifecycle,domain#R-RevDFtDP2P,RevDFtDP2P,Finds an inbound (reverse) data flow from a process on a data path leading from that process.,FALSE,FALSE
-package#DataLifecycle,domain#R-SDADPDXP,SDADPDXP,Finds a service with a data access at the end of a data path that exchanges data with a second process.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPDXP,SDADPDXP,"Finds a process with a data access at the end of a data path, which exchanges data of the same type with a second process.",FALSE,FALSE
 package#DataLifecycle,domain#R-SDADPDXPRAC,SDADPDXPRAC,"Finds a service at the end of a data path that exchanges data with a second process, and there is a remote access client using remotely both processes.",FALSE,FALSE
 package#DataLifecycle,domain#R-SDADPDXRAC,SDADPDXRAC,Finds a service at the end of a data path that exchanges data with a remote access client.,FALSE,FALSE
-package#DataLifecycle,domain#R-SDADPDXS,SDADPDXS,Finds a service with a data access at the end of a data path that sends data as a client to a second process.,FALSE,FALSE
-package#DataLifecycle,domain#R-SDADPPDXP,SDADPPDXP,Finds a service with a data access to which there is a data path from a process that exchanges data with a third process.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPDXS,SDADPDXS,Finds a process with a data access at the end of a data path which initiates an exchange of data of the same type with a second process.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPPDXP,SDADPPDXP,Finds a process with a data access at the end of a data path going from a non-interactive process exchanging data of the same type with a third process.,FALSE,FALSE
 package#DataLifecycle,domain#R-SDADPPDXPRAC,SDADPPDXPRAC,"Finds a service with a data access to which there is a data path from a process that exchanges data with a third process, and there is a remote access client using remotely the second and third processes.",FALSE,FALSE
 package#DataLifecycle,domain#R-SDADPPDXRAC,SDADPPDXRAC,Finds a service with a data access to which there is a data path from a process that exchanges data with a remote access client.,FALSE,FALSE
-package#DataLifecycle,domain#R-SDADPPDXS,SDADPPDXS,Finds a service with a data access to which there is a data path from a process that sends data as a client to a third process.,FALSE,FALSE
+package#DataLifecycle,domain#R-SDADPPDXS,SDADPPDXS,Finds a process with a data access at the end of a data path going from a non-interactive process that initiates an exchange of data of the same type with a third process.,FALSE,FALSE
 package#DataLifecycle,domain#R-SDUDADS,SDUDADS,"Finds a Service enabling access for a Data Use, where the Service writes to a local Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-SDUDSDA,SDUDSDA,"Finds a Service enabling access for a Data Use, where the Service reads from a local Data Copy.",FALSE,FALSE
 package#DataLifecycle,domain#R-ScDAPDI,ScDAPDI,Finds input to a process fulfilled by a data asset controlled by a vault.,FALSE,FALSE
@@ -329,7 +334,7 @@ package#LocalDeviceConnectivity,domain#R-HpBRH,HpBRH,Finds two Physical Hosts th
 package#LocalDeviceConnectivity,domain#R-HpURH,HpURH,Finds two Physical Hosts that are paired over USB.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HuiHBTTH,HuiHBTTH,Finds a Human using a Host paired with a TrivialHost via Bluetooth.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HuiHUSBTH,HuiHUSBTH,Finds a Human using a Host paired with a TrivialHost via USB.,FALSE,FALSE
-package#LocalDeviceConnectivity,domain#R-HumHBTTH,HumHBTTH,Finds a Human managing a Host paired with a TrivialHost via Bluetooth.,FALSE,FALSE
+package#LocalDeviceConnectivity,domain#R-HumHBTTH,HumHBTTH,Finds a Human managing a PhysicalHost paired with a TrivialHost via Bluetooth.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-HumHUSBTH,HumHUSBTH,Finds a TrivialHost paired via Bluetooth with another host managed by a Human.,FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2,L1SSg2,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the forward and return path segments via the gateway.",FALSE,FALSE
 package#LocalDeviceConnectivity,domain#R-L1SSg2AC,L1SSg2AC,"Finds a gateway between layer 1 subnets (i.e. Bluetooth or USB connections), along with the segment asset representing the path via the gateway, and a context in which the gateway is connected to both subnets.",FALSE,FALSE

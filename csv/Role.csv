@@ -67,6 +67,7 @@ package#DataLifecycle,domain#Role_OutputAsset,OutputAsset,A Data Asset that is o
 package#DataLifecycle,domain#Role_RemoteUserAccess,RemoteUserAccess,A DataAccess asset relating to a remote access client used to enable user interaction with a remote process.
 package#DataLifecycle,domain#Role_StepFrom,StepFrom,A process from which data is transferred.
 package#DataLifecycle,domain#Role_StepTo,StepTo,A process to which data is transferred.
+package#DataLifecycle,domain#Role_TypeData,TypeData,A role filled by a construction state asset that represents the type of a data asset.
 package#DataLifecycle,domain#Role_Vault,Vault,Fulfilled by a process playing the role of key vault in relation to some data asset.
 package#DataStructure,domain#Role_DataField,DataField,A field in a data schema or serialized data asset.
 package#DataStructure,domain#Role_InputField,InputField,A Data Field used as input.
