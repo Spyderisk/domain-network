@@ -17,6 +17,7 @@ package#AIHarms_Metrics,domain#LossOfEqualOpportunityDifference,LossOfEqualOppor
 package#AIHarms_Metrics,domain#LossOfEqualizedOdds,LossOfEqualizedOdds,,TRUE,
 package#AIHarms_Metrics,domain#LossOfErrorRateDifference,LossOfErrorRateDifference,,TRUE,
 package#AIHarms_Metrics,domain#LossOfErrorRateRatio,LossOfErrorRateRatio,,TRUE,
+package#AIHarms_Metrics,domain#LossOfFairnessInAccuracy,LossOfFairnessInAccuracy,,TRUE,
 package#AIHarms_Metrics,domain#LossOfFalseDiscoveryRateDifference,LossOfFalseDiscoveryRateDifference,,TRUE,
 package#AIHarms_Metrics,domain#LossOfFalseDiscoveryRateRatio,LossOfFalseDiscoveryRateRatio,,TRUE,
 package#AIHarms_Metrics,domain#LossOfFalseNegativeRateParity,LossOfFalseNegativeRateParity,,TRUE,

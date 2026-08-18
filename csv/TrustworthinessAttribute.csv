@@ -11,6 +11,7 @@ package#AIHarms_Metrics,domain#EqualOpportunityDifference,EqualOpportunityDiffer
 package#AIHarms_Metrics,domain#EqualizedOdds,EqualizedOdds,,TRUE
 package#AIHarms_Metrics,domain#ErrorRateDifference,ErrorRateDifference,,TRUE
 package#AIHarms_Metrics,domain#ErrorRateRatio,ErrorRateRatio,,TRUE
+package#AIHarms_Metrics,domain#FairnessInAccuracy,FairnessInAccuracy,,TRUE
 package#AIHarms_Metrics,domain#FalseDiscoveryRateDifference,FalseDiscoveryRateDifference,,TRUE
 package#AIHarms_Metrics,domain#FalseDiscoveryRateRatio,FalseDiscoveryRateRatio,,TRUE
 package#AIHarms_Metrics,domain#FalseNegativeRateParity,FalseNegativeRateParity,,TRUE
