@@ -70,8 +70,11 @@ package#CloudManagement,domain#INS-MWHLS+CIP-ClusterIP,domain#Node-Host-Host
 package#CloudManagement,domain#INS-PodDCC-M+M-CloudMaster,domain#Node-Cluster-Cluster
 package#CloudManagement,domain#INS-PodDCMC-W-H+W-CloudWorker,domain#Node-Cluster-Cluster
 package#CloudManagement,domain#INS-PodP-Cn+Cn-Container,domain#Node-Process-Process
-package#DS2DataSovereignty,domain#INS-DregDA+PC-PolicyClause,domain#Node-Data-Data
-package#DS2DataSovereignty,domain#INS-DregDA+PC-PolicyClause,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#INS-DregDA+PCD-PolicyClause,domain#Node-Data-Data
+package#DS2DataSovereignty,domain#INS-DregDA+PCD-PolicyClause,domain#Node-Policy-Policy
+package#DS2DataSovereignty,domain#INS-DregDA+PCP-PolicyClause,domain#Node-DService-Process
+package#DS2DataSovereignty,domain#INS-DregDA+PCP-PolicyClause,domain#Node-Data-Data
+package#DS2DataSovereignty,domain#INS-DregDA+PCP-PolicyClause,domain#Node-Policy-Policy
 package#DS2DataSovereignty,domain#INS-DregDF+PC-PolicyClause,domain#Node-Data-Data
 package#DS2DataSovereignty,domain#INS-DregDF+PC-PolicyClause,domain#Node-Policy-Policy
 package#DS2DataSovereignty,domain#INS-DregDS+PC-PolicyClause,domain#Node-Data-Data

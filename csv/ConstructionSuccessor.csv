@@ -73,8 +73,9 @@ package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-Marker+CloudHostCreation-
 package#DS2DataSovereignty,domain#CP-ACregDcAC+reg,domain#CP-Marker+ProcessRegulation-1,ACregDcAC+reg is at the end of the process regulation inference sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-Dmay-noregiDS+regi,domain#CP-Marker+DataUsageRegulation-1,Dmay-noregDS+reg is at the end of the data regulation inference sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-Dmay-noregoDS+rego,domain#CP-Marker+DataUsageRegulation-1,Dmay-noregDS+reg is at the end of the data regulation inference sequence,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DregDA+PC,domain#CP-Marker+DataPolicyClauses-1,DregDA+PC is at the end of the policy clause creation sequence,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DregDF+PC,domain#CP-Marker+DataPolicyClauses-1,DregDF+PC is at the end of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDA+PCD,domain#CP-Marker+DataPolicyClauses-1,DregDA+PC is at the end of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDA+PCP,domain#CP-Marker+DataPolicyClauses-1,DregDA+PC is at the end of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDF+PC,domain#CP-Marker+DataPolicyClauses-1,DregDA+PC is at the end of the policy clause creation sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DregDS+PC,domain#CP-Marker+DataPolicyClauses-1,DregDS+PC is at the end of the policy clause creation sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-HLogD-H+s,domain#CP-Marker+Logging-1,HLogD-H+s is at the end of the log creation sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-L-nologDX+log,domain#CP-Marker+DataUsageLogging-1,L-nologDX+log is at the end of the data usage auditability inference sequence,FALSE,TRUE

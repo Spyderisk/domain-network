@@ -133,8 +133,6 @@ package#CloudManagement,domain#CP-PodDCMC-W-H+W,2,domain#S-HostCreation,FALSE
 package#CloudManagement,domain#CP-PodMP+iP,6,domain#S-HostClassification,FALSE
 package#CloudManagement,domain#CP-PodP-Cn+Cn,2,domain#S-HostCreation,FALSE
 package#DS2DataSovereignty,domain#CP-ACregDcAC+reg,0,domain#S-ProcessRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-CACDregSDADF+reg,0,domain#S-DataRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-CACDregSDFDA+reg,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-CACSregD+reg,0,domain#S-ProcessRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-D-regDAmayDS+noreg,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,0,domain#S-DataRegulation,FALSE
@@ -147,12 +145,13 @@ package#DS2DataSovereignty,domain#CP-Dmay-noregiDS+regi,0,domain#S-DataRegulatio
 package#DS2DataSovereignty,domain#CP-Dmay-noregoDS+rego,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DmayDS-regDA+noreg,0,domain#S-DataRegulation,FALSE
+package#DS2DataSovereignty,domain#CP-DregACDADF+reg,0,domain#S-DataRegulation,FALSE
+package#DS2DataSovereignty,domain#CP-DregACDFDA+reg,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DregACcAC+reg,0,domain#S-ProcessRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DregACvAC+reg,0,domain#S-ProcessRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DregCACS+reg,0,domain#S-ProcessRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-DregCACSDADF+reg,0,domain#S-DataRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-DregCACSDFDA+reg,0,domain#S-DataRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-DregDA+PC,0,domain#S-DataRegulation,FALSE
+package#DS2DataSovereignty,domain#CP-DregDA+PCD,0,domain#S-DataRegulation,FALSE
+package#DS2DataSovereignty,domain#CP-DregDA+PCP,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DregDADS+reg,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DregDF+PC,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-DregDS+PC,0,domain#S-DataRegulation,FALSE

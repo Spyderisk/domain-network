@@ -60,6 +60,7 @@ package#DS2DataSovereignty,domain#mayRegulateData,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#regulatesChannel,domain#AuthChannel
 package#DS2DataSovereignty,domain#regulatesChannelCS,domain#AuthChannel
 package#DS2DataSovereignty,domain#regulatesChannelSC,domain#AuthChannel
+package#DS2DataSovereignty,domain#regulatesDLA,domain#Data
 package#DS2DataSovereignty,domain#regulatesDLA,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#regulatesData,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#regulatesDataIn,domain#DataLifecycleAsset

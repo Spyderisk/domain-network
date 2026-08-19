@@ -164,15 +164,11 @@ package#CloudManagement,domain#CP-PodMP+iP,domain#CP-Marker+HostClassification-0
 package#CloudManagement,domain#CP-PodP-Cn+Cn,domain#CP-DCCt-Pod+Pod,DCCt-Pod+Pod creates a link that in PodP-Cn+Cn matches Host-provisionedBy-Pod,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-ACregDcAC+reg,domain#CP-DregACcAC+reg,DregACcAC+reg creates a link that in ACregDcAC+reg matches Policy-regulatesChannelCS-AuthChannel,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-ACregDcAC+reg,domain#CP-DregCACS+reg,DregCACS+reg creates a link that in ACregDcAC+reg matches Policy-regulatesChannelCS-AuthChannel,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-CACDregSDADF+reg,domain#CP-Marker+DataUsageRegulation-0,CACDregSDADF+reg is at the start of the data regulation inference sequence,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-CACDregSDFDA+reg,domain#CP-Marker+DataUsageRegulation-0,CACDregSDFDA+reg is at the start of the data regulation inference sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-CACSregD+reg,domain#CP-PregP+reg,PregP+reg creates a link that in CACSregD+reg matches Policy-regulatesProcess-Service,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-D-regDAmayDS+noreg,domain#CP-DSDregDA+reg,DSDregDA+reg creates a link that in D-regDAmayDS+noreg matches Policy-mayRegulate-DataCopy,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-D-regDAmayDS+noreg,domain#CP-DregDADS+reg,DregDADS+reg creates a link that in D-regDAmayDS+noreg matches Policy-mayRegulate-DataCopy,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-CACDregSDADF+reg,CACDregSDADF+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-CACDregSDFDA+reg,CACDregSDFDA+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-DregCACSDADF+reg,DregCACSDADF+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-DregCACSDFDA+reg,DregCACSDFDA+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-DregACDADF+reg,DregACDADF+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-DregACDFDA+reg,DregACDFDA+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-DregPDA+reg,DregPDA+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,domain#CP-DregPlogDF+reg,DregPlogDF+reg creates a link that in D-regDFmayDA+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DA-logLDS+nolog,domain#CP-DXLDA+log,DXLDA+log creates a link that in DA-logLDS+nolog matches Logger-mayAudit-DataCopy,FALSE,TRUE
@@ -189,20 +185,19 @@ package#DS2DataSovereignty,domain#CP-Dmay-noregiDS+regi,domain#CP-DmayDS-regDA+n
 package#DS2DataSovereignty,domain#CP-Dmay-noregoDS+rego,domain#CP-D-regDAmayDS+noreg,D-regDAmayDS+noreg creates a link that in Dmay-noregoDS+rego matches Policy-cannotRegulateOut-DataCopy,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-Dmay-noregoDS+rego,domain#CP-Dmay-noregiDS+regi,Dmay-noregiDS+regi already matches link Policy-regulatesDataOut-DataCopy created by Dmay-noregoDS+rego,TRUE,TRUE
 package#DS2DataSovereignty,domain#CP-Dmay-noregoDS+rego,domain#CP-DmayDS-regDA+noreg,DmayDS-regDA+noreg already matches link Policy-regulatesDataOut-DataCopy created by Dmay-noregoDS+rego,TRUE,TRUE
-package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-CACDregSDADF+reg,CACDregSDADF+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-CACDregSDFDA+reg,CACDregSDFDA+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-DregCACSDADF+reg,DregCACSDADF+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-DregCACSDFDA+reg,DregCACSDFDA+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-DregACDADF+reg,DregACDADF+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-DregACDFDA+reg,DregACDFDA+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-DregPDA+reg,DregPDA+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DmayDA-regDF+noreg,domain#CP-DregPlogDF+reg,DregPlogDF+reg creates a link that in DmayDA-regDF+noreg matches Policy-mayRegulate-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DmayDS-regDA+noreg,domain#CP-DSDregDA+reg,DSDregDA+reg creates a link that in DmayDS-regDA+noreg matches Policy-mayRegulate-DataCopy,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DmayDS-regDA+noreg,domain#CP-DregDADS+reg,DregDADS+reg creates a link that in DmayDS-regDA+noreg matches Policy-mayRegulate-DataCopy,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregACDADF+reg,domain#CP-Marker+DataUsageRegulation-0,DregCACSDFDA+reg is at the start of the data regulation inference sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregACDFDA+reg,domain#CP-Marker+DataUsageRegulation-0,DregCACSDFDA+reg is at the start of the data regulation inference sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DregACcAC+reg,domain#CP-DregACvAC+reg,DregACvAC+reg creates a link that in DregACcAC+reg matches Policy-regulatesChannelSC-AuthChannel,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DregACvAC+reg,domain#CP-CACSregD+reg,CACSregD+reg creates a link that in DregACvAC+reg matches Policy-regulatesChannelSC-AuthChannel,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DregCACS+reg,domain#CP-PregP+reg,PregP+reg creates a link that in DregCACS+reg matches Policy-regulatesProcess-Client,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DregCACSDADF+reg,domain#CP-Marker+DataUsageRegulation-0,DregCACSDADF+reg is at the start of the data regulation inference sequence,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DregCACSDFDA+reg,domain#CP-Marker+DataUsageRegulation-0,DregCACSDFDA+reg is at the start of the data regulation inference sequence,FALSE,TRUE
-package#DS2DataSovereignty,domain#CP-DregDA+PC,domain#CP-Marker+DataPolicyClauses-0,DregDA+PC is at the start of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDA+PCD,domain#CP-Marker+DataPolicyClauses-0,DregDA+PC is at the start of the policy clause creation sequence,FALSE,TRUE
+package#DS2DataSovereignty,domain#CP-DregDA+PCP,domain#CP-Marker+DataPolicyClauses-0,DregDA+PC is at the start of the policy clause creation sequence,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DregDADS+reg,domain#CP-Dmay-noregDA+reg,Dmay-noregDA+reg creates a link that in DregDADS+reg matches Policy-regulatesData-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DregDADS+reg,domain#CP-DregPDA+reg,DregPDA+reg creates a link that in DregDADS+reg matches Policy-regulatesData-DataAccess,FALSE,TRUE
 package#DS2DataSovereignty,domain#CP-DregDF+PC,domain#CP-Marker+DataPolicyClauses-0,DregDA+PC is at the start of the policy clause creation sequence,FALSE,TRUE
