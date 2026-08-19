@@ -1,6 +1,10 @@
 package,URI,causesMisbehaviour
 domain#000000,domain#000000,domain#MS-InService-CellularNetwork
 package#5G,domain#LS.IS.CNCN.8,domain#MS-InService-CellularNetwork
+package#AIHarms,domain#D.DF.D.0.0,domain#MS-LossOfDistributiveFairness-Data
+package#AIHarms,domain#D.F.D.0.0,domain#MS-LossOfFairness-Data
+package#AIHarms,domain#D.F.D.0.1,domain#MS-LossOfFairness-Data
+package#AIHarms,domain#D.F.D.0.2,domain#MS-LossOfFairness-Data
 package#AIHarms,domain#D.Ml-Ac.D.0,domain#MS-LossOfIntegrity-Data
 package#AIHarms,domain#D.Ml-Ac.DiuPmlmpDp.0,domain#MS-LossOfAccuracy-Output
 package#AIHarms,domain#D.Ml-Ac.PmlmpDp.0.0,domain#MS-LossOfAccuracy-Data
@@ -10,6 +14,9 @@ package#AIHarms,domain#D.Ml-F.DiuPmlmpDp.0,domain#MS-LossOfFairness-Output
 package#AIHarms,domain#D.Ml-F.PmlmpDp.0,domain#MS-LossOfFairness-Data
 package#AIHarms,domain#D.Ml-F.PtatPmlmpaDmp.0,domain#MS-LossOfFairness-ModelParameters
 package#AIHarms,domain#D.Ml-I.PtatPmlmpaDmp.0,domain#MS-LossOfIntegrity-ModelParameters
+package#AIHarms,domain#D.OCF.D.0.0,domain#MS-LossOfOpportunityOrCapabilityFairness-Data
+package#AIHarms,domain#D.PF.D.0.0,domain#MS-LossOfProceduralFairness-Data
+package#AIHarms,domain#D.PF.D.0.1,domain#MS-LossOfProceduralFairness-Data
 package#AIHarms,domain#P.Ml-AcP.PmlmpDmp.0.0,domain#MS-LossOfAccurateProcessing-MLModel
 package#AIHarms,domain#P.Ml-AcP.PmlmpDmp.0.1,domain#MS-LossOfAccurateProcessing-MLModel
 package#AIHarms,domain#P.Ml-AcP.PmlmpDmp.0.2,domain#MS-LossOfAccurateProcessing-MLModel

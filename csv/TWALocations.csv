@@ -6,6 +6,7 @@ package#AIHarms,domain#AccurateProcessing,domain#MLTrainingAlgorithm
 package#AIHarms,domain#FairProcessing,domain#MLModel
 package#AIHarms,domain#FairProcessing,domain#MLTrainingAlgorithm
 package#AIHarms,domain#Fairness,domain#Data
+package#AIHarms,domain#FairnessInAccuracy,domain#Data
 package#AIHarms_Metrics,domain#AverageAbsoluteOddsDifference,domain#Data
 package#AIHarms_Metrics,domain#AverageOddsDifference,domain#Data
 package#AIHarms_Metrics,domain#DisparateImpact,domain#Data
@@ -13,7 +14,6 @@ package#AIHarms_Metrics,domain#EqualOpportunityDifference,domain#Data
 package#AIHarms_Metrics,domain#EqualizedOdds,domain#Data
 package#AIHarms_Metrics,domain#ErrorRateDifference,domain#Data
 package#AIHarms_Metrics,domain#ErrorRateRatio,domain#Data
-package#AIHarms_Metrics,domain#FairnessInAccuracy,domain#Data
 package#AIHarms_Metrics,domain#FalseDiscoveryRateDifference,domain#Data
 package#AIHarms_Metrics,domain#FalseDiscoveryRateRatio,domain#Data
 package#AIHarms_Metrics,domain#FalseNegativeRateParity,domain#Data
