@@ -24,7 +24,9 @@ package#DS2DataSovereignty,domain#DS2NoAuditNeeded,domain#PolicyClause
 package#DS2DataSovereignty,domain#DS2NoPolicyNeeded,domain#Data
 package#DS2DataSovereignty,domain#DS2NoPolicyNeeded,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#DS2NoPolicyNeeded,domain#Process
+package#DS2DataSovereignty,domain#DS2NoReadAuditNeeded,domain#PolicyClause
 package#DS2DataSovereignty,domain#DS2NoVisibilityNeeded,domain#PolicyClause
+package#DS2DataSovereignty,domain#DS2NoWriteAuditNeeded,domain#PolicyClause
 package#DS2DataSovereignty,domain#DS2StaleDataAccepted,domain#PolicyClause
 package#DS2DataSovereignty,domain#DS2StaleDataDeletion,domain#PolicyClause
 package#DS2DataSovereignty,domain#DS2StaleDataSuspended,domain#PolicyClause

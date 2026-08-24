@@ -139,13 +139,13 @@ package#DS2DataSovereignty,domain#R-DregDS,DregDS,Finds a policy regulating a st
 package#DS2DataSovereignty,domain#R-DregPDA,DregPDA,Finds a Data Access associated with a Process regulated by a Policy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregPlogDF,DregPlogDF,"Finds a Policy that regulates a Process that produces logging data, and the associated Data Flow and Data Access.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-HLogD,HLogD,Finds the Host of a Logger that serves some log Data.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-HPDADS+P,HPDADS+P,"Finds a Host storing a Data Copy fulfilled by a local Process, where access is regulated by a PolicyClause in a Policy.",FALSE,FALSE
+package#DS2DataSovereignty,domain#R-HPDSDA+P,HPDSDA+P,"Finds a Host storing a Data Copy fulfilling access by a local Process, where access is regulated by a PolicyClause in a Policy.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-HSD+P,HSD+P,"Finds a Host storing a copy of some Data, where the Data Copy is regulated by a Policy containing a local Policy Clause for this Data Copy.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-HSD+PD,HSD+PD,"Finds a Host storing a copy of some Data, where the Data Copy is regulated by a Policy containing a global Policy Clause for this Data.",FALSE,FALSE
-package#DS2DataSovereignty,domain#R-HSD+iP,HSD+iP,"Finds a Host storing a copy of some Data, where read access to the Data Copy is regulated by a Policy.",FALSE,FALSE
-package#DS2DataSovereignty,domain#R-HSD+oP,HSD+oP,"Finds a Host storing a copy of some Data, where write access to the Data Copy is regulated by a Policy.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-LDADX,LDADX,Finds a Logger that enables audit of a Data Access which fulfils a DataAsset.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-LDF,LDF,Finds a Logger that may enable audit of a DataFlow.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-LDSDA,LDSDA,Finds a Logger that may audit a Data Copy that fulfils a DataAccess.,FALSE,FALSE
-package#DS2DataSovereignty,domain#R-LDX,LDX,Finds a Logger that may audit a DataAsset.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-Logger,Logger,Finds a solo Logger.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-PDA,PDA,Finds a Process that accesses Data.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-PDA+P,PDA+P,"Finds a Process that accesses Data, where access is regulated by a Policy containing a local Policy Clause for this Data Access.",FALSE,FALSE
@@ -237,6 +237,7 @@ package#DataLifecycle,domain#R-HPDS-fDI,HPDS-fDI,"Finds a stored data input to a
 package#DataLifecycle,domain#R-HPDSDA,HPDSDA,Finds a Host storing a Data Copy that fulfils a Data Access for a Process on the same Host.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDSDADF,HPDSDADF,Finds a Host storing a Data Copy that is read and sent in a data flow by a Process on the same Host.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPDSDI,HPDSDI,"Finds a stored data input to a process, plus the process and data host.",FALSE,FALSE
+package#DataLifecycle,domain#R-HPDSDU,HPDSDU,Finds a Host storing a Data Copy that fulfils and is fulfilled by a Data Access for a Process on the same Host.,FALSE,TRUE
 package#DataLifecycle,domain#R-HPDSrDI,HPDSrDI,Finds a Host running a Process that CRUD reads a locally stored copy of Data it uses as input.,FALSE,FALSE
 package#DataLifecycle,domain#R-HPcDSDI,HPcDSDI,"Finds a stored configuration data input to a process, plus the process and data host.",FALSE,FALSE
 package#DataLifecycle,domain#R-HPdDS,HPdDS,"Finds a host running a Process with write/delete access (crudd) to a locally stored data copy, plus the data access asset representing the data deserialization.",FALSE,FALSE

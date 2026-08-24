@@ -868,7 +868,9 @@ package#DS2DataSovereignty,domain#CAS-DS2NoPolicyNeeded-UpdatePool,domain#Update
 package#DS2DataSovereignty,domain#CAS-DS2NoPolicyNeeded-WebApp,domain#WebApp,domain#DS2NoPolicyNeeded,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#DS2DataSovereignty,domain#CAS-DS2NoPolicyNeeded-WebBrowser,domain#WebBrowser,domain#DS2NoPolicyNeeded,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#DS2DataSovereignty,domain#CAS-DS2NoPolicyNeeded-WebClient,domain#WebClient,domain#DS2NoPolicyNeeded,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DS2DataSovereignty,domain#CAS-DS2NoReadAuditNeeded-PolicyClause,domain#PolicyClause,domain#DS2NoReadAuditNeeded,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#DS2DataSovereignty,domain#CAS-DS2NoVisibilityNeeded-PolicyClause,domain#PolicyClause,domain#DS2NoVisibilityNeeded,TRUE,domain#TrustworthinessLevelSafe,FALSE
+package#DS2DataSovereignty,domain#CAS-DS2NoWriteAuditNeeded-PolicyClause,domain#PolicyClause,domain#DS2NoWriteAuditNeeded,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#DS2DataSovereignty,domain#CAS-DS2StaleDataAccepted-PolicyClause,domain#PolicyClause,domain#DS2StaleDataAccepted,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#DS2DataSovereignty,domain#CAS-DS2StaleDataDeletion-PolicyClause,domain#PolicyClause,domain#DS2StaleDataDeletion,TRUE,domain#TrustworthinessLevelSafe,FALSE
 package#DS2DataSovereignty,domain#CAS-DS2StaleDataSuspended-PolicyClause,domain#PolicyClause,domain#DS2StaleDataSuspended,TRUE,domain#TrustworthinessLevelSafe,FALSE

@@ -68,13 +68,14 @@ package#DS2DataSovereignty,domain#CSG-DS2DataUsagePolicy,domain#CS-DS2DataUsageP
 package#DS2DataSovereignty,domain#CSG-DS2DataWithdrawalPolicy,domain#CS-DS2DataWithdrawalPolicy-PolicyClause,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2DeleteStaleDataPolicy,domain#CS-DS2StaleDataDeletion-PolicyClause,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2NoAuditNeeded4DataAccess,domain#CS-DS2NoAuditNeeded-PolicyClause,FALSE
-package#DS2DataSovereignty,domain#CSG-DS2NoAuditNeeded4DataCopy,domain#CS-DS2NoAuditNeeded-PolicyClause,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2NoAuditNeeded4DataFlow,domain#CS-DS2NoAuditNeeded-PolicyClause,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2NoPolicyNeeded4Data,domain#CS-DS2NoPolicyNeeded-Data,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2NoPolicyNeeded4DataAccess,domain#CS-DS2NoPolicyNeeded-DataAccess,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2NoPolicyNeeded4DataCopy,domain#CS-DS2NoPolicyNeeded-DataCopy,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2NoPolicyNeeded4DataFlow,domain#CS-DS2NoPolicyNeeded-DataFlow,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2NoPolicyNeeded4Process,domain#CS-DS2NoPolicyNeeded-Process,FALSE
+package#DS2DataSovereignty,domain#CSG-DS2NoReadAuditNeeded4DataCopy,domain#CS-DS2NoReadAuditNeeded-PolicyClause,FALSE
+package#DS2DataSovereignty,domain#CSG-DS2NoWriteAuditNeeded4DataCopy,domain#CS-DS2NoWriteAuditNeeded-PolicyClause,FALSE
 package#DS2DataSovereignty,domain#CSG-DS2SuspendStaleDataPolicy,domain#CS-DS2StaleDataSuspended-PolicyClause,FALSE
 package#DataLifecycle,domain#CSG-DataAccessKey,domain#CS-AccessKey-DataAccess,FALSE
 package#DataLifecycle,domain#CSG-DataFlowEncryption,domain#CS-Encryption-DataFlow,FALSE

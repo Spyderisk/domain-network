@@ -47,13 +47,16 @@ package#CloudManagement,domain#isContainer,domain#Host
 package#CloudManagement,domain#isPod,domain#Pod
 package#Core,domain#hasType,domain#TypeAsset
 package#DS2DataSovereignty,domain#cannotAudit,domain#DataLifecycleAsset
+package#DS2DataSovereignty,domain#cannotAuditIn,domain#DataLifecycleAsset
+package#DS2DataSovereignty,domain#cannotAuditOut,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#cannotRegulateData,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#cannotRegulateIn,domain#DataCopy
 package#DS2DataSovereignty,domain#cannotRegulateOut,domain#DataCopy
 package#DS2DataSovereignty,domain#enablesAudit,domain#DataLifecycleAsset
+package#DS2DataSovereignty,domain#enablesAuditIn,domain#DataCopy
+package#DS2DataSovereignty,domain#enablesAuditOut,domain#DataCopy
 package#DS2DataSovereignty,domain#isLogData,domain#Data
 package#DS2DataSovereignty,domain#isPolicyData,domain#Data
-package#DS2DataSovereignty,domain#logs,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#logsTo,domain#Data
 package#DS2DataSovereignty,domain#mayAudit,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#mayRegulateData,domain#DataLifecycleAsset
