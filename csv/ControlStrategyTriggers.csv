@@ -106,6 +106,7 @@ package#ProcessTrust,domain#CSG-ClientPasswordAccess,domain#CC.AuC.CCC-nS.3.2
 package#ProcessTrust,domain#CSG-ClientPasswordAccess,domain#CC.AuC.CCC-nS.3.3
 package#ProcessTrust,domain#CSG-ClientPasswordAccess,domain#CC.AuC.HumCCC-nS.3
 package#ProcessTrust,domain#CSG-ClientPasswordAuthentication,domain#CC.AX.CCC-nS.6.1.1
+package#ProcessTrust,domain#CSG-ClientPasswordAuthenticationNotOK,domain#CC.E.CCC-nS.9.1
 package#ProcessTrust,domain#CSG-ClientUserPasswordAccess,domain#CC.AuC.HuDFTCS.3
 package#ProcessTrust,domain#CSG-ClientUserPasswordAccess,domain#CC.AuC.HuDSTCS.3
 package#ProcessTrust,domain#CSG-ClientUserPasswordAccess,domain#CC.AuC.HuiHCCC-nS.3.3
@@ -116,11 +117,13 @@ package#ProcessTrust,domain#CSG-ClientUserPasswordAccess-Optional,domain#CC.AuC.
 package#ProcessTrust,domain#CSG-ClientUserStrongPasswordAccess,domain#CC.AX.HuCCC-nS.6.1.2
 package#ProcessTrust,domain#CSG-ClientX509Authentication,domain#CC.AX.CCC-nmCCS.6.1.5
 package#ProcessTrust,domain#CSG-ClientX509Authentication,domain#CC.AX.CCC-nmSCS.6.1.5
+package#ProcessTrust,domain#CSG-ClientX509AuthenticationNotOK,domain#CC.E.CCC-nS.9.1
 package#ProcessTrust,domain#CSG-DataFlowEncryption,domain#DF.C.ACDF-VTS-i.3.6
 package#ProcessTrust,domain#CSG-DataFlowSharedKeyInbound,domain#DF.C.AC-iDF-VTC.3.6
 package#ProcessTrust,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.AC-iDF-VFC.3.6
 package#ProcessTrust,domain#CSG-DataFlowSharedKeyOutbound,domain#DF.Auth.ACDF-VFS-i.3.6
 package#ProcessTrust,domain#CSG-DisableClientAccess,domain#CC.AX.CACS.6.1
+package#ProcessTrust,domain#CSG-ServiceAccessControlNotOK,domain#CC.E.CCC-nS.9.2
 package#ProcessTrust,domain#CSG-SuspendExcessiveClientAccess,domain#CC.AX.CCDFSFS.6.4
 package#ProcessTrust,domain#CSG-SuspendExcessiveClientAccess,domain#CC.AX.CCDFSTS.6.4
 package#ProcessTrust,domain#CSG-SuspendExcessiveClientAccess-Implementation-Runtime,domain#CC.AX.CACS.6.1

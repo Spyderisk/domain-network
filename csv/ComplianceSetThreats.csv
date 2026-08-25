@@ -112,6 +112,8 @@ package#PatientHarms,domain#Anomalies,domain#Hu.E.Hupdt-Dh.9
 package#ProcessComms,domain#Anomalies,domain#P.E.HuiSP.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTuP-hCLI.9
 package#ProcessComms,domain#Anomalies,domain#P.E.RTurP-hCLI.9
+package#ProcessTrust,domain#Anomalies,domain#CC.E.CCC-nS.9.1
+package#ProcessTrust,domain#Anomalies,domain#CC.E.CCC-nS.9.2
 package#ProcessTrust,domain#Anomalies,domain#CC.E.CSCC-SC.9
 package#ProcessTrust,domain#Anomalies,domain#P.E.LnSc-uP.9
 package#ProcessTrust,domain#Anomalies,domain#P.E.LnSucP-pS.9
