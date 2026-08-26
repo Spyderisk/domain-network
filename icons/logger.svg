@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 200 200"
+   version="1.1"
+   sodipodi:docname="logger.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.835"
+     inkscape:cx="100"
+     inkscape:cy="100"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:none;stroke:#1c1f3d;stroke-linejoin:round;stroke-width:4px}.cls-2{fill:#1c1f3d}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M41.36 35h104.79"
+     id="path1" />
+  <path
+     class="cls-2"
+     d="M128.62 49.92L143.55 35l-14.93-14.92h12.67L156.21 35l-14.92 14.92h-12.67z"
+     id="path2" />
+  <path
+     class="cls-1"
+     d="M158.64 165H53.85"
+     id="path3" />
+  <path
+     class="cls-2"
+     d="M71.38 150.08L56.45 165l14.93 14.92H58.71L43.79 165l14.92-14.92h12.67z"
+     id="path4" />
+  <g
+     id="g7"
+     transform="translate(-67.000001,-24.219995)">
+    <path
+       class="cls-1"
+       d="m 200.48874,111.1148 v -0.16034 c 0,-8.29174 -14.99373,-15.014466 -33.48934,-15.014466 -18.49561,0 -33.4994,6.722726 -33.4994,15.014466 a 4.6490607,5.2911391 0 0 0 0.0604,0.8475 L 133.5,137.93698 c 0,8.29174 15.00379,15.00301 33.4994,15.00301 18.49561,0 33.48934,-6.71128 33.48934,-15.00301 a 4.4679285,5.0849908 0 0 0 0,-0.72152 z"
+       id="path3775"
+       style="fill:none;stroke:#1c1f3d;stroke-width:3px;stroke-miterlimit:10" />
+    <ellipse
+       style="fill:#ffffff;stroke:#1c1f3d;stroke-width:3;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path4573"
+       cx="167"
+       cy="109"
+       rx="33.5"
+       ry="13.5" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:#000000;stroke-opacity:1"
+     x="83.256477"
+     y="115.55208"
+     id="text7"><tspan
+       sodipodi:role="line"
+       id="tspan7"
+       x="83.256477"
+       y="115.55208">Log</tspan></text>
+</svg>
