@@ -5,20 +5,34 @@ package#AIHarms,domain#AccurateProcessing,AccurateProcessing,Inputs to the proce
 package#AIHarms,domain#FairProcessing,FairProcessing,"Inputs to the process are processed such that the resulting outputs are not unduly detrimental, lack equality or equity, or do not have harmful bias or discrimination.",TRUE
 package#AIHarms,domain#Fairness,Fairness,"Equality or equity is represented within the data, with issues such as harmful bias or discrimination not present.",TRUE
 package#AIHarms,domain#FairnessInAccuracy,FairnessInAccuracy,,TRUE
-package#AIHarms_Metrics,domain#AverageAbsoluteOddsDifference,AverageAbsoluteOddsDifference,,TRUE
-package#AIHarms_Metrics,domain#AverageOddsDifference,AverageOddsDifference,,TRUE
-package#AIHarms_Metrics,domain#DisparateImpact,DisparateImpact,,TRUE
-package#AIHarms_Metrics,domain#EqualOpportunityDifference,EqualOpportunityDifference,,TRUE
-package#AIHarms_Metrics,domain#EqualizedOdds,EqualizedOdds,,TRUE
-package#AIHarms_Metrics,domain#ErrorRateDifference,ErrorRateDifference,,TRUE
-package#AIHarms_Metrics,domain#ErrorRateRatio,ErrorRateRatio,,TRUE
-package#AIHarms_Metrics,domain#FalseDiscoveryRateDifference,FalseDiscoveryRateDifference,,TRUE
-package#AIHarms_Metrics,domain#FalseDiscoveryRateRatio,FalseDiscoveryRateRatio,,TRUE
-package#AIHarms_Metrics,domain#FalseNegativeRateParity,FalseNegativeRateParity,,TRUE
-package#AIHarms_Metrics,domain#FalseOmissionRateDifference,FalseOmissionRateDifference,,TRUE
-package#AIHarms_Metrics,domain#FalsePositiveRateParity,FalsePositiveRateParity,,TRUE
-package#AIHarms_Metrics,domain#StatisticalParityDifference,StatisticalParityDifference,,TRUE
-package#AIHarms_Metrics,domain#TheilIndex,TheilIndex,,TRUE
+package#AIHarms_Metrics,domain#AttackSuccessRate,AttackSuccessRate,"Adversarial attempts do not achieve their objective and the model cannot be easily manipulated, where the attack success rate metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#AverageAbsoluteOddsDifference,AverageAbsoluteOddsDifference,"There is equality of odds between false positive and true positive rates between monitored groups and reference groups, where the average absolute odds difference metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#AverageOddsDifference,AverageOddsDifference,"There is equality of odds of false positive and true positive rates between unprivileged and privileged groups, where the average odds difference metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#BalancedAccuracy,BalancedAccuracy,"For equal weights applied to the classes, the performance and accuracy is balanced across the classes, where the balanced accuracy metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#BerthTiming,BerthTiming,"Berthing prediction times are close to the actual berthing times, where the berth timing metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#ConfidenceDecay,ConfidenceDecay,"Perturbed confidence is comparable to clean confidence, with the perturbed input change weakly affecting the output certainty, where the confidence decay metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#ConfidenceRetention,ConfidenceRetention,"Perturbed confidence is comparable to clean confidence, where the confidence retention metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#DisparateImpact,DisparateImpact,"There is an equal ratio of favourable outcome rates between unprivileged and privileged groups, where the disparate impact metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#EqualOpportunityDifference,EqualOpportunityDifference,"True positive rates are equal between unprivileged and privileged groups, where the equal opportunity difference metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#EqualizedOddsDifference,EqualizedOddsDifference,"There are equalised odds of true positive and false positive rates between unprivileged and privileged groups, where the equalized odds difference metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#ErrorRateDifference,ErrorRateDifference,"The error rates for unprivileged and privileged groups are equal, where the error rate difference metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#ErrorRateRatio,ErrorRateRatio,"Error rates for unprivileged and privileged groups are equal, where the error rate ratio metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#F1Score,F1Score,"Precision and recall are strong, where the F1 score metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#FalseDiscoveryRateDifference,FalseDiscoveryRateDifference,"The false discovery rates between unprivileged and privileged groups is equal, where the false discovery rate difference metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#FalseDiscoveryRateRatio,FalseDiscoveryRateRatio,"False discovery rates (incorrect positives among predicted positives) between unprivileged and privileged groups are equal, where the false discovery rate ratio metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#FalseNegativeRateParity,FalseNegativeRateParity,"There are equal false negative rates between unprivileged and privileged groups, where the false negative rate parity metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#FalseOmissionRateDifference,FalseOmissionRateDifference,"There are equal odds between the false negative rate of a monitored group compared to the overall negative rate, where the false omission rate difference metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#FalsePositiveRateParity,FalsePositiveRateParity,"There are equal false positive rates between unprivileged and privileged groups, where the false positive rate parity metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#FlipRate,FlipRate,"Perturbed inputs receive the same prediction to their clean counterparts, where the flip rate metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#MatthewsCorrelationCoefficient,MatthewsCorrelationCoefficient,"There is a strong correlation between predicted and correct labels, where the Matthews correlation coefficient metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#MeanAverageError,MeanAverageError,"Mean average error is small, where the mean average error metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#MeanSquaredError,MeanSquaredError,"Mean squared error is small, where the mean squared error metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#Precision,Precision,"Predictions for a particular class are correct, where the precision metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#Recall,Recall,"All samples belonging to a particular class are correctly predicted, where the recall metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#RecallatBerthTimePoint,RecallatBerthTimePoint,"Berth events are correctly predicted and anticipated, where the recall at berth time point metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#RobustnessRatio,RobustnessRatio,"Perturbed performance is comparable to clean performance, where the robustness ratio metric TWA gives how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#StatisticalParityDifference,StatisticalParityDifference,"There is no difference in rates of favourable outcomes received by unprivileged and privileged groups, with the statistical parity difference metric TWA giving how much this can be trusted to be the case.",TRUE
+package#AIHarms_Metrics,domain#TheilIndex,TheilIndex,"There is equality in the benefit allocation for individuals, where the Theil index metric TWA gives how much this can be trusted to be the case.",TRUE
 package#AccessContext,domain#ExploitTW,ExploitTW,Free of software vulnerabilities that are accessible to attackers.,FALSE
 package#AccessContext,domain#UserTW,User TW,Trustworthiness of users with access to the shell or having the rights of a process on a host while the host is connected to the system and fulfilling its system role (i.e. in some context).,TRUE
 package#Application,domain#Authenticity,Authenticity,"The data (which may be embedded in an IoT device) is what it claims to be, i.e. it is neither forged nor altered in a way designed to induce false behaviour in other assets consuming the data.",TRUE
