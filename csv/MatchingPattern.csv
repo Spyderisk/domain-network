@@ -46,6 +46,7 @@ package#5G,domain#MP-URrBc-rL3,URrBc-rL3,"Finds a host acting as a base station 
 package#5G,domain#MP-URrBrUR,URrBrUR,"Finds a host acting as a base station providing two RANs, both of which are part of the same public cellular network, and may or may not be the same RAN.",domain#R-URrBrUR,FALSE,FALSE
 package#AIHarms,domain#MP-DiPmlm,DiPmlm,Input data is the prediction inputs to ML Model.,domain#R-DiPmlm,FALSE,FALSE
 package#AIHarms,domain#MP-DiuPmlmpDp,DiuPmlmpDp,"Input data is the prediction inputs to ML Model, which makes predictions using it.",domain#R-DiuPmlmpDp,FALSE,FALSE
+package#AIHarms,domain#MP-MLM,MLM,Finds a solo Machine Learning Model asset.,domain#R-MLM,FALSE,FALSE
 package#AIHarms,domain#MP-PmlmpDmp,PmlmpDmp,A ML Model and its model parameters.,domain#R-PmlmpDmp,FALSE,FALSE
 package#AIHarms,domain#MP-PmlmpDmppDp,PmlmpDmppDp,A ML Model and its model parameters and predictions.,domain#R-PmlmpDmppDp,FALSE,FALSE
 package#AIHarms,domain#MP-PmlmpDp,PmlmpDp,Process (ML Model) predicts Data (Predictions).,domain#R-PmlmpDp,FALSE,FALSE

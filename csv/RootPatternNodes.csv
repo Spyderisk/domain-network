@@ -172,6 +172,7 @@ package#AIHarms,domain#R-DiPmlm,domain#Node-MLModel-MLModel,TRUE
 package#AIHarms,domain#R-DiuPmlmpDp,domain#Node-Input-Data,TRUE
 package#AIHarms,domain#R-DiuPmlmpDp,domain#Node-MLModel-MLModel,TRUE
 package#AIHarms,domain#R-DiuPmlmpDp,domain#Node-Output-Data,TRUE
+package#AIHarms,domain#R-MLM,domain#Node-MLModel-MLModel,TRUE
 package#AIHarms,domain#R-PmlmpDmp,domain#Node-Data-Data,TRUE
 package#AIHarms,domain#R-PmlmpDmp,domain#Node-MLModel-MLModel,TRUE
 package#AIHarms,domain#R-PmlmpDmppDp,domain#Node-Input-Data,TRUE

@@ -76,6 +76,7 @@ package#AIHarms,domain#TWAADS-OutOfService-MLModel,domain#OutOfService,domain#ML
 package#AIHarms,domain#TWAADS-OutOfService-MLTrainingAlgorithm,domain#OutOfService,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Reliability-MLModel,domain#Reliability,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Reliability-MLTrainingAlgorithm,domain#Reliability,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
+package#AIHarms,domain#TWAADS-Robustness-MLModel,domain#Robustness,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Timeliness-MLModel,domain#Timeliness,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-Timeliness-MLTrainingAlgorithm,domain#Timeliness,domain#MLTrainingAlgorithm,domain#TrustworthinessLevelSafe,TRUE
 package#AIHarms,domain#TWAADS-TrojanTW-MLModel,domain#TrojanTW,domain#MLModel,domain#TrustworthinessLevelSafe,TRUE

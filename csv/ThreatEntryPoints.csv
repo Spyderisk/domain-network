@@ -35,6 +35,11 @@ package#AIHarms_Metrics,domain#D.Ml-PVA.PmlmpDmppDp.0.0,domain#TWAS-Precision-In
 package#AIHarms_Metrics,domain#D.Ml-SEM.PmlmpDmppDp.0.0,domain#TWAS-MeanSquaredError-Input
 package#AIHarms_Metrics,domain#D.Ml-SETE.PmlmpDmppDp.0.0,domain#TWAS-BerthTiming-Input
 package#AIHarms_Metrics,domain#D.Ml-WMA.PmlmpDmppDp.0.0,domain#TWAS-MatthewsCorrelationCoefficient-Input
+package#AIHarms_Metrics,domain#P.Ml-EAR.PmlmpDmppDp.0.0,domain#TWAS-AttackSuccessRate-Input
+package#AIHarms_Metrics,domain#P.Ml-PCR.PmlmpDmppDp.0.0,domain#TWAS-FlipRate-Input
+package#AIHarms_Metrics,domain#P.Ml-SCS.PmlmpDmppDp.0.0,domain#TWAS-ConfidenceRetention-Input
+package#AIHarms_Metrics,domain#P.Ml-SCS.PmlmpDmppDp.0.1,domain#TWAS-ConfidenceDecay-Input
+package#AIHarms_Metrics,domain#P.Ml-SPRP.PmlmpDmppDp.0.0,domain#TWAS-RobustnessRatio-Input
 package#Application,domain#H.A.HumH.6.4,domain#TWAS-Health-Host
 package#Application,domain#H.W.HuHE.3,domain#TWAS-Astuteness-Human
 package#Application,domain#H.W.HuHE.3,domain#TWAS-OutOfService-MUA
