@@ -61,12 +61,13 @@ package#ProcessComms,domain#ChannelConfidentiality,domain#ConnectionChannel
 package#ProcessComms,domain#OutOfService,domain#ConnectionAsset
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#Interface
 package#ProcessComms,domain#ServiceChannelsBlocked,domain#LogicalSegment
-package#ProcessTrust,domain#AnonUserTW,domain#ClientChannel
+package#ProcessTrust,domain#AnonUserTW,domain#AuthChannel
 package#ProcessTrust,domain#ClientAuthenticity,domain#AuthChannel
 package#ProcessTrust,domain#ClientTW,domain#AuthChannel
 package#ProcessTrust,domain#DeputyUserTW,domain#ClientChannel
 package#ProcessTrust,domain#ProxyUserTW,domain#ClientChannel
 package#ProcessTrust,domain#ServiceAuthenticity,domain#AuthChannel
+package#ProcessTrust,domain#ServiceSelectivity,domain#AuthChannel
 package#ProcessTrust,domain#ServiceTW,domain#AuthChannel
 package#Theft,domain#OwnerControl,domain#AccessContext
 package#Theft,domain#OwnerControl,domain#Host

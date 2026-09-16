@@ -34,6 +34,7 @@ package#ProcessTrust,domain#TWIS-ClientTW-LossOfClientTW,domain#LossOfClientTW,d
 package#ProcessTrust,domain#TWIS-DeputyUserTW-DeputyConfusion,domain#DeputyConfusion,domain#DeputyUserTW
 package#ProcessTrust,domain#TWIS-ProxyUserTW-LossOfProxyUserTW,domain#LossOfProxyUserTW,domain#ProxyUserTW
 package#ProcessTrust,domain#TWIS-ServiceAuthenticity-ServiceImpersonation,domain#ServiceImpersonation,domain#ServiceAuthenticity
+package#ProcessTrust,domain#TWIS-ServiceSelectivity-LossOfSelectivity,domain#LossOfSelectivity,domain#ServiceSelectivity
 package#ProcessTrust,domain#TWIS-ServiceTW-LossOfServiceTW,domain#LossOfServiceTW,domain#ServiceTW
 package#Theft,domain#TWIS-OwnerControl-TheftOfControl,domain#TheftOfControl,domain#OwnerControl
 package#Theft,domain#TWIS-Possession-Theft,domain#Theft,domain#Possession
