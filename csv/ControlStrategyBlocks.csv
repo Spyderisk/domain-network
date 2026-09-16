@@ -570,6 +570,8 @@ package#ProcessTrust,domain#CSG-EncryptedDataProcessingAtService,domain#DF.Auth.
 package#ProcessTrust,domain#CSG-EncryptedDataProcessingAtService,domain#DF.C.ACDF-VTS-i.3.6
 package#ProcessTrust,domain#CSG-EncryptedDataProcessingAtService,domain#DF.C.ACDFVTS-i.3.6
 package#ProcessTrust,domain#CSG-IgnoreConfusedDeputyAttack,domain#CC.AuD.CCCSCCS-i.3
+package#ProcessTrust,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#CC.AuC.HuiHCCC-nS.3.3
+package#ProcessTrust,domain#CSG-IgnorePhysicalThreatsFromWorld,domain#CC.AuC.HuiHrCCC-nS.3.3
 package#ProcessTrust,domain#CSG-PasswordSelfServiceReset,domain#CC.AX.HuCCC-nS.6.1.2
 package#ProcessTrust,domain#CSG-PersonalDeviceProtection,domain#CC.AuC.HuiHCCC-nS.3.3
 package#ProcessTrust,domain#CSG-PersonalDeviceProtection,domain#CC.AuC.HuiHrCCC-nS.3.3
