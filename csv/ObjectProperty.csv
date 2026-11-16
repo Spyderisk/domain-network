@@ -67,6 +67,7 @@ package#DS2DataSovereignty,domain#regulatesData,regulatesData,"The Policy regula
 package#DS2DataSovereignty,domain#regulatesDataIn,regulatesDataIn,"Subtype of regulatesData, whose range is restricted to Data Copy assets. This relationship means that the Policy regulates all read access to the Data Copy.",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 package#DS2DataSovereignty,domain#regulatesDataOut,regulatesDataOut,"Subtype of regulatesData, whose range is restricted to Data Copy assets. This relationship means that the Policy regulates all write access to the Data Copy.",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
 package#DS2DataSovereignty,domain#regulatesProcess,regulatesProcess,The Policy regulates actions of a Process,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+package#DS2DataSovereignty,domain#regulatesProduct,regulatesProduct,"The Policy regulates a DS2 Data Product containing the related Data, which means it regulates the lifecycle of that Data.",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
 package#DataCaching,domain#accessInterrupted,accessInterrupted,"Indicates that when a client is in a context, access to the service is impossible or may be interrupted.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataCaching,domain#accessUninterrupted,accessUninterrupted,"From a client context, indicates that when a client is in that context, access to the service is may not be interrupted by the service moving from its context.",TRUE,FALSE,FALSE,FALSE,TRUE,TRUE
 package#DataCaching,domain#caches,caches,The DataCache is a cached copy of the DataFlow.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE

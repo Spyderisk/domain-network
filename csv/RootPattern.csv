@@ -133,8 +133,12 @@ package#DS2DataSovereignty,domain#R-DregACcAC,DregACcAC,"Finds a Policy regulati
 package#DS2DataSovereignty,domain#R-DregACvAC,DregACvAC,"Finds an Auth Channel that regulates a second Auth Channel, where the first Auth Channel is regulated by a Policy at its service.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregCACS,DregCACS,"Finds a Client and Service with an Auth Channel between them, where the Client is regulated by a Policy.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregDA,DregDA,Finds a policy regulating a data access asset. The role name for the associated Process is chosen so it will come between the Data and Policy assets when generating a URI.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-DregDACDADF,DregDACDADF,"Finds a Policy that regulates a data product, and also a client-service relationship over which the same data flows from a Process, fulfilled by a Data Access.",FALSE,FALSE
+package#DS2DataSovereignty,domain#R-DregDACDFDA,DregDACDFDA,"Finds a Policy that regulates a data product, and also a client-service relationship over which the same data flows to a Process, fulfilling a Data Access.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregDADS,DregDADS,Finds a Data Copy fulfilled by a Data Access that is regulated by a Policy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregDF,DregDF,Finds a policy regulating a data flow.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-DregDPDA,DregDPDA,Finds a Policy regulating a Data product and a Process that accesses the same data.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-DregDPlogDF,DregDPlogDF,"Finds a Policy that regulates a data product and a Process that logs the same data, plus the associated Data Flow and Data Access.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregDS,DregDS,Finds a policy regulating a stored data copy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregPDA,DregPDA,Finds a Data Access associated with a Process regulated by a Policy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DregPlogDF,DregPlogDF,"Finds a Policy that regulates a Process that produces logging data, and the associated Data Flow and Data Access.",FALSE,FALSE
@@ -155,6 +159,7 @@ package#DS2DataSovereignty,domain#R-PDF+P,PDF+P,"Finds a non-spam Data Flow regu
 package#DS2DataSovereignty,domain#R-PLD,PLD,Finds a Process using a Logger that serves log Data.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-Policy,Policy,Finds a solo Policy asset.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-PregP,PregP,Finds a process regulated by a policy.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-PregPDP,PregPDP,Finds a Data asset handled by a Process and regulated as a data product by a Policy.,FALSE,FALSE
 package#DataCaching,domain#R-DCDFcV,DCDFcV,Finds a Data Flow controlled by a key Vault for which there is a Data Cache.,FALSE,FALSE
 package#DataCaching,domain#R-HDCDF,HDCDF,Finds a Data Flow for which there is a Data Cache on the Host of a sending or receiving process.,FALSE,FALSE
 package#DataCaching,domain#R-HDFSACaiFS,HDFSACaiFS,"Finds a Process that receives a data flow from a client over one channel, and sends the same data in a data flow to a service over a second channel, plus an associated process location context in which the process can be accessed via the first channel but access to the service over the second may be interrupted.",FALSE,FALSE

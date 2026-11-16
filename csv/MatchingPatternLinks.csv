@@ -167,10 +167,14 @@ package#DS2DataSovereignty,domain#MP-DA-logLDS,domain#Link-Logger-enablesAudit-D
 package#DS2DataSovereignty,domain#MP-DAL-nologDS,domain#Link-Logger-cannotAuditOut-DataCopy,TRUE
 package#DS2DataSovereignty,domain#MP-DAPL-s,domain#Link-Logger-serves-Data,TRUE
 package#DS2DataSovereignty,domain#MP-Dmay-noregDA,domain#Link-Policy-cannotRegulateData-DataAccess,TRUE
+package#DS2DataSovereignty,domain#MP-Dmay-noregDA,domain#Link-Policy-regulatesData-DataAccess,TRUE
 package#DS2DataSovereignty,domain#MP-Dmay-noregiDS,domain#Link-Policy-cannotRegulateIn-DataCopy,TRUE
 package#DS2DataSovereignty,domain#MP-Dmay-noregoDS,domain#Link-Policy-cannotRegulateOut-DataCopy,TRUE
 package#DS2DataSovereignty,domain#MP-DmayDA-regDF,domain#Link-Policy-regulatesData-DataFlow,TRUE
 package#DS2DataSovereignty,domain#MP-DmayDS-regDA,domain#Link-Policy-regulatesData-DataAccess,TRUE
+package#DS2DataSovereignty,domain#MP-DregACDADF-regD,domain#Link-DataAccess-usedFor-Data,FALSE
+package#DS2DataSovereignty,domain#MP-DregACDFDA-regD,domain#Link-Policy-regulatesProduct-Data,FALSE
+package#DS2DataSovereignty,domain#MP-DregPDA-regD,domain#Link-Policy-regulatesProduct-Data,FALSE
 package#DS2DataSovereignty,domain#MP-HLogD-H,domain#Link-RemoteHost-stores-Data,FALSE
 package#DS2DataSovereignty,domain#MP-HPDA-PDS,domain#Link-DataCopy-fulfils-DataAccess,TRUE
 package#DS2DataSovereignty,domain#MP-HPDA-PDS,domain#Link-Policy-regulatesData-DataAccess,FALSE

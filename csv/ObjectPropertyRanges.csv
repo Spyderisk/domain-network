@@ -69,6 +69,7 @@ package#DS2DataSovereignty,domain#regulatesData,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#regulatesDataIn,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#regulatesDataOut,domain#DataLifecycleAsset
 package#DS2DataSovereignty,domain#regulatesProcess,domain#Process
+package#DS2DataSovereignty,domain#regulatesProduct,domain#Data
 package#DataCaching,domain#accessInterrupted,domain#AuthChannel
 package#DataCaching,domain#accessUninterrupted,domain#AuthChannel
 package#DataCaching,domain#caches,domain#DataFlow
