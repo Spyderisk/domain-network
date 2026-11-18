@@ -171,8 +171,6 @@ package#DS2DataSovereignty,domain#CP-Logger+noDX,0,domain#S-ProcessClassificatio
 package#DS2DataSovereignty,domain#CP-Logger-D+D,0,domain#S-StorageInference,FALSE
 package#DS2DataSovereignty,domain#CP-Marker+DataPolicyClauses-0,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-Marker+DataPolicyClauses-1,0,domain#S-DataRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-Marker+DataRegulation-0,0,domain#S-ProcessRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-Marker+DataRegulation-1,0,domain#S-ProcessRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-Marker+DataUsageLogging-0,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-Marker+DataUsageLogging-1,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-Marker+DataUsageRegulation-0,0,domain#S-DataRegulation,FALSE

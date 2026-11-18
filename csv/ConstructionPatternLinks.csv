@@ -216,7 +216,7 @@ package#DS2DataSovereignty,domain#CP-PLD+isLog,domain#Link-Data-isLogData-Data
 package#DS2DataSovereignty,domain#CP-PLD+log,domain#Link-Process-logsTo-Data
 package#DS2DataSovereignty,domain#CP-Policy+isPolicy,domain#Link-Policy-isPolicyData-Policy
 package#DS2DataSovereignty,domain#CP-PregP+reg,domain#Link-Policy-regulatesProcess-Process
-package#DS2DataSovereignty,domain#CP-PregPDP+reg,domain#Link-Process-regulatedBy-Policy
+package#DS2DataSovereignty,domain#CP-PregPDP+reg,domain#Link-Policy-regulatesProcess-Process
 package#DataCaching,domain#CP-CCCfS+aFC-aI+aU,domain#Link-ProcAccess-accessUninterrupted-ClientChannel
 package#DataCaching,domain#CP-CCCfS-aFC+aI,domain#Link-ProcAccess-accessInterrupted-ClientChannel
 package#DataCaching,domain#CP-CCCftS+aFC-aTS+aI,domain#Link-ProcAccess-accessInterrupted-ClientChannel
