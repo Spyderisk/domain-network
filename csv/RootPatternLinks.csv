@@ -375,10 +375,12 @@ package#DS2DataSovereignty,domain#R-DDAmayDS,domain#Link-DataAccess-fulfils-Data
 package#DS2DataSovereignty,domain#R-DDAmayDS,domain#Link-Policy-mayRegulateData-DataCopy
 package#DS2DataSovereignty,domain#R-DDFmayDA,domain#Link-DataFlow-fulfils-DataAccess
 package#DS2DataSovereignty,domain#R-DDFmayDA,domain#Link-Policy-mayRegulateData-DataAccess
+package#DS2DataSovereignty,domain#R-DFPL,domain#Link-DataFlow-flowsViaProcess-Process
+package#DS2DataSovereignty,domain#R-DFPL,domain#Link-Process-uses-Logger
 package#DS2DataSovereignty,domain#R-DSDregDA,domain#Link-DataCopy-fulfils-DataAccess
 package#DS2DataSovereignty,domain#R-DSDregDA,domain#Link-Policy-regulatesData-DataAccess
-package#DS2DataSovereignty,domain#R-DXLDA,domain#Link-DataAsset-fulfils-DataAccess
-package#DS2DataSovereignty,domain#R-DXLDA,domain#Link-Logger-enablesAudit-DataAccess
+package#DS2DataSovereignty,domain#R-DSLDA,domain#Link-DataCopy-fulfils-DataAccess
+package#DS2DataSovereignty,domain#R-DSLDA,domain#Link-Logger-enablesAudit-DataAccess
 package#DS2DataSovereignty,domain#R-DmayDA,domain#Link-Policy-mayRegulateData-DataAccess
 package#DS2DataSovereignty,domain#R-DmayDS,domain#Link-Policy-mayRegulateData-DataCopy
 package#DS2DataSovereignty,domain#R-DmayDSDA,domain#Link-DataCopy-fulfils-DataAccess
@@ -469,8 +471,8 @@ package#DS2DataSovereignty,domain#R-HSD+PD,domain#Link-Host-storesCopy-DataCopy
 package#DS2DataSovereignty,domain#R-HSD+PD,domain#Link-Policy-containsField-PolicyClause
 package#DS2DataSovereignty,domain#R-HSD+PD,domain#Link-Policy-regulatesData-DataCopy
 package#DS2DataSovereignty,domain#R-HSD+PD,domain#Link-PolicyClause-regulatesDLA-Data
-package#DS2DataSovereignty,domain#R-LDADX,domain#Link-DataAccess-fulfils-DataAsset
-package#DS2DataSovereignty,domain#R-LDADX,domain#Link-Logger-enablesAudit-DataAccess
+package#DS2DataSovereignty,domain#R-LDADS,domain#Link-DataAccess-fulfils-DataCopy
+package#DS2DataSovereignty,domain#R-LDADS,domain#Link-Logger-enablesAudit-DataAccess
 package#DS2DataSovereignty,domain#R-LDF,domain#Link-Logger-mayAudit-DataFlow
 package#DS2DataSovereignty,domain#R-LDSDA,domain#Link-DataCopy-fulfils-DataAccess
 package#DS2DataSovereignty,domain#R-LDSDA,domain#Link-Logger-mayAudit-DataCopy

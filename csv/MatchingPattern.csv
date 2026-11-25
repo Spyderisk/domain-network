@@ -125,8 +125,9 @@ package#DS2DataSovereignty,domain#MP-D-regDFmayDA,D-regDFmayDA,"Finds a Data Flo
 package#DS2DataSovereignty,domain#MP-DA-logLDS,DA-logLDS,Finds a Logger that may audit a Data Copy fulfilled by a DataAccess for which the Logger does not enable audit.,domain#R-DALDS,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-DAL-nologDS,DAL-nologDS,Finds a Logger that can audit write access to a Data Copy fulfilled by a DataAccess.,domain#R-DALDS,FALSE,TRUE
 package#DS2DataSovereignty,domain#MP-DAPL-s,DAPL-s,"Finds a Process using a Logger, and a DataAccess representing access by the Process to specific Data which is not the log.",domain#R-DAPL,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DFPL,DFPL,Finds a DataFlow via a Process that uses a Logger.,domain#R-DFPL,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-DSDregDA,DSDregDA,Finds a Data Copy fulfilling a Data Access that is regulated by a Policy.,domain#R-DSDregDA,FALSE,FALSE
-package#DS2DataSovereignty,domain#MP-DXLDA,DXLDA,Finds a Logger that enables audit of a Data Access which is fulfilled by a DataAsset.,domain#R-DXLDA,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-DSLDA,DSLDA,Finds a Logger that enables audit of a Data Access which is fulfilled by a Data Copy.,domain#R-DSLDA,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-Dmay-noregDA,Dmay-noregDA,"Finds a Data Access that may be regulated by a Policy, which means that there must not be an inferred cannotRegulate link between them.",domain#R-DmayDA,FALSE,TRUE
 package#DS2DataSovereignty,domain#MP-Dmay-noregiDS,Dmay-noregiDS,Finds a Policy that can regulate read access to a Data Copy.,domain#R-DmayDS,FALSE,TRUE
 package#DS2DataSovereignty,domain#MP-Dmay-noregoDS,Dmay-noregoDS,Finds a Policy that can regulate write access to a Data Copy.,domain#R-DmayDS,FALSE,TRUE
@@ -156,7 +157,7 @@ package#DS2DataSovereignty,domain#MP-HPDSDU-P,HPDSDU-P,"Finds a Host storing a D
 package#DS2DataSovereignty,domain#MP-HSD+P,HSD+P,"Finds a Host storing a copy of some Data, where the Data Copy is regulated by a Policy containing a local Policy Clause for this Data Copy.",domain#R-HSD+P,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-HSD+PD,HSD+PD,"Finds a Host storing a copy of some Data, where the Data Copy is regulated by a Policy containing a global Policy Clause for this Data.",domain#R-HSD+PD,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-L-nologDSDA,L-nologDSDA,Finds a Logger that can audit read access to a Data Copy that fulfils a DataAccess.,domain#R-LDSDA,FALSE,TRUE
-package#DS2DataSovereignty,domain#MP-LDADX,LDADX,Finds a Logger that enables audit of a Data Access which fulfils a DataAsset.,domain#R-LDADX,FALSE,FALSE
+package#DS2DataSovereignty,domain#MP-LDADS,LDADS,Finds a Logger that enables audit of a Data Access which fulfils a Data Copy.,domain#R-LDADS,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-LDF,LDF,Finds a Logger that may enable audit of a DataFlow.,domain#R-LDF,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-LDS-logDA,LDS-logDA,Finds a Logger that may audit a Data Copy that fulfils a DataAccess for which the Logger does not enable audit.,domain#R-LDSDA,FALSE,FALSE
 package#DS2DataSovereignty,domain#MP-Logger,Logger,Finds a solo Logger.,domain#R-Logger,FALSE,FALSE

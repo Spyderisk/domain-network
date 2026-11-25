@@ -122,8 +122,9 @@ package#DS2DataSovereignty,domain#R-DAPL,DAPL,"Finds a Process using a Logger, a
 package#DS2DataSovereignty,domain#R-DDAmayDF,DDAmayDF,Finds a data flow fulfilled by a data access asset that may be regulated by a policy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DDAmayDS,DDAmayDS,Finds a Data Access fulfilling a Data Copy that may be regulated by a Policy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DDFmayDA,DDFmayDA,Finds a data flow fulfilling a data access asset that may be regulated by a policy.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-DFPL,DFPL,Finds a DataFlow via a Process that uses a Logger.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DSDregDA,DSDregDA,Finds a Data Copy fulfilling a Data Access that is regulated by a Policy.,FALSE,FALSE
-package#DS2DataSovereignty,domain#R-DXLDA,DXLDA,Finds a Logger that enables audit of a Data Access which is fulfilled by a DataAsset.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-DSLDA,DSLDA,Finds a Logger that enables audit of a Data Access which is fulfilled by a Data Copy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DmayDA,DmayDA,Finds a Data Access that may be regulated by a Policy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DmayDS,DmayDS,Finds a Policy that may regulate a Data Copy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-DmayDSDA,DmayDSDA,Finds a Data Access fulfilled by a Data Copy that may be regulated by a Policy.,FALSE,FALSE
@@ -147,7 +148,7 @@ package#DS2DataSovereignty,domain#R-HPDADS+P,HPDADS+P,"Finds a Host storing a Da
 package#DS2DataSovereignty,domain#R-HPDSDA+P,HPDSDA+P,"Finds a Host storing a Data Copy fulfilling access by a local Process, where access is regulated by a PolicyClause in a Policy.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-HSD+P,HSD+P,"Finds a Host storing a copy of some Data, where the Data Copy is regulated by a Policy containing a local Policy Clause for this Data Copy.",FALSE,FALSE
 package#DS2DataSovereignty,domain#R-HSD+PD,HSD+PD,"Finds a Host storing a copy of some Data, where the Data Copy is regulated by a Policy containing a global Policy Clause for this Data.",FALSE,FALSE
-package#DS2DataSovereignty,domain#R-LDADX,LDADX,Finds a Logger that enables audit of a Data Access which fulfils a DataAsset.,FALSE,FALSE
+package#DS2DataSovereignty,domain#R-LDADS,LDADS,Finds a Logger that enables audit of a Data Access which fulfils a Data Copy.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-LDF,LDF,Finds a Logger that may enable audit of a DataFlow.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-LDSDA,LDSDA,Finds a Logger that may audit a Data Copy that fulfils a DataAccess.,FALSE,FALSE
 package#DS2DataSovereignty,domain#R-Logger,Logger,Finds a solo Logger.,FALSE,FALSE

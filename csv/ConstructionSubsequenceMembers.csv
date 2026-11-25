@@ -139,8 +139,9 @@ package#DS2DataSovereignty,domain#CP-D-regDFmayDA+noreg,0,domain#S-DataRegulatio
 package#DS2DataSovereignty,domain#CP-DA-logLDS+nolog,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-DAL-nologDS+log,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-DAPL-s+log,0,domain#S-Logging,FALSE
+package#DS2DataSovereignty,domain#CP-DFPL+log,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-DSDregDA+reg,0,domain#S-DataRegulation,FALSE
-package#DS2DataSovereignty,domain#CP-DXLDA+log,0,domain#S-Logging,FALSE
+package#DS2DataSovereignty,domain#CP-DSLDA+log,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-Dmay-noregDA+reg,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-Dmay-noregiDS+regi,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-Dmay-noregoDS+rego,0,domain#S-DataRegulation,FALSE
@@ -164,7 +165,7 @@ package#DS2DataSovereignty,domain#CP-DregPDA-regD+reg,0,domain#S-DataRegulation,
 package#DS2DataSovereignty,domain#CP-DregPlogDF-regD+reg,0,domain#S-DataRegulation,FALSE
 package#DS2DataSovereignty,domain#CP-HLogD-H+s,0,domain#S-StorageInference,FALSE
 package#DS2DataSovereignty,domain#CP-L-nologDSDA+log,0,domain#S-Logging,FALSE
-package#DS2DataSovereignty,domain#CP-LDADX+log,0,domain#S-Logging,FALSE
+package#DS2DataSovereignty,domain#CP-LDADS+log,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-LDF+log,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-LDS-logDA+nolog,0,domain#S-Logging,FALSE
 package#DS2DataSovereignty,domain#CP-Logger+noDX,0,domain#S-ProcessClassification,FALSE
