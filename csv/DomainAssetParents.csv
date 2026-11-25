@@ -45,6 +45,7 @@ package#Application,domain#EmailService,domain#ProcessPalette
 package#Application,domain#InteractiveApplication,domain#ApplicationProcess
 package#Application,domain#InteractiveApplication,domain#InteractiveProcess
 package#Application,domain#InteractiveApplication,domain#ProcessPalette
+package#Application,domain#RemoteDesktop,domain#InteractiveProcess
 package#Application,domain#RemoteDesktop,domain#ProcessPalette
 package#Application,domain#RemoteDesktop,domain#RemoteAccessClient
 package#Application,domain#SMSClient,domain#InteractiveProcess
@@ -56,6 +57,9 @@ package#Application,domain#SpamData,domain#Data
 package#Application,domain#TextEditor,domain#ConsoleProcess
 package#Application,domain#TextEditor,domain#Editor
 package#Application,domain#TextEditor,domain#ProcessPalette
+package#Application,domain#TypeAppData,domain#TypeData
+package#Application,domain#TypeData,domain#TypeAsset
+package#Application,domain#TypeSysData,domain#TypeData
 package#Application,domain#WebApp,domain#InteractiveProcess
 package#Application,domain#WebApp,domain#WebClient
 package#Application,domain#WebBrowser,domain#InteractiveProcess
@@ -82,6 +86,11 @@ package#CloudManagement,domain#Pod,domain#VirtualHost
 package#CloudManagement,domain#Worker,domain#HostPalette
 package#CloudManagement,domain#Worker,domain#VCluster
 package#Core,domain#DebugMarker,core#Asset
+package#Core,domain#TypeAsset,core#Asset
+package#DS2DataSovereignty,domain#Logger,domain#ProcessPalette
+package#DS2DataSovereignty,domain#Logger,domain#SimpleProcess
+package#DS2DataSovereignty,domain#Policy,domain#Data
+package#DS2DataSovereignty,domain#PolicyClause,domain#DataField
 package#DataLifecycle,domain#DataAccess,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataAsset,domain#DataLifecycleAsset
 package#DataLifecycle,domain#DataCache,domain#DataAsset
